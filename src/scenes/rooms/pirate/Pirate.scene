@@ -1,0 +1,537 @@
+{
+    "id": "25ca3e5d-e0bb-481a-8fd4-ff3059c8e4a4",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/pirate/pirate-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Pirate",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "53b593dd-5fee-4208-9505-b16108ee4658",
+            "label": "fore_png",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "fore.png"
+            },
+            "x": 628,
+            "y": 673,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "437724ff-23e6-47bd-b5c6-297185d5f21b",
+            "label": "sea",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "sea"
+            },
+            "x": 760,
+            "y": 615
+        },
+        {
+            "type": "Image",
+            "id": "2a607ef2-c18a-4cdb-9337-77c7af4431e7",
+            "label": "sky",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "sky"
+            },
+            "x": 722,
+            "y": 138
+        },
+        {
+            "type": "Image",
+            "id": "68eec1df-ca5f-466b-9ab7-c7c55d65fbab",
+            "label": "water",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "water"
+            },
+            "x": 764,
+            "y": 638
+        },
+        {
+            "type": "Image",
+            "id": "68d3577e-34c1-4ca4-8c8b-76db4b9c830b",
+            "label": "sand",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "sand"
+            },
+            "x": 645,
+            "y": 558
+        },
+        {
+            "type": "Image",
+            "id": "b96bb67c-52a8-4a36-8fe7-7341f28d9831",
+            "label": "s_mbolo_8",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Símbolo 8"
+            },
+            "x": 714,
+            "y": 617
+        },
+        {
+            "type": "Image",
+            "id": "e4a08166-821b-4d4f-82bf-75eca58d7fae",
+            "label": "symbol_136",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 136"
+            },
+            "x": 793,
+            "y": 297
+        },
+        {
+            "type": "Image",
+            "id": "4acd7115-6dc2-46a0-98a5-23d6e3e9aa91",
+            "label": "s_mbolo_9",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Símbolo 9"
+            },
+            "x": 729,
+            "y": 322
+        },
+        {
+            "type": "Image",
+            "id": "599b0b97-8095-47ba-9f7d-a192acbe0486",
+            "label": "symbol_111",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 111"
+            },
+            "x": 558,
+            "y": 216
+        },
+        {
+            "type": "Image",
+            "id": "26825995-dfc9-4731-bbcf-c2c35e3da2f6",
+            "label": "symbol_130",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 130"
+            },
+            "x": 552,
+            "y": 164
+        },
+        {
+            "type": "Image",
+            "id": "bec5fa14-7fba-41e3-a360-64008efb898e",
+            "label": "symbol_158",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 158"
+            },
+            "x": 517,
+            "y": 221
+        },
+        {
+            "type": "Image",
+            "id": "74aed669-29fe-4f4f-915d-b0be394cddc2",
+            "label": "ship",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "ship"
+            },
+            "x": 443,
+            "y": 312
+        },
+        {
+            "type": "Image",
+            "id": "f0174041-3649-4ee8-abe8-74ea7b8e3260",
+            "label": "symbol_32",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 32"
+            },
+            "x": 259,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "1fdcc32d-7755-4b05-8443-7160a9fdeb8f",
+            "label": "symbol_20",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 20"
+            },
+            "x": 961,
+            "y": 441
+        },
+        {
+            "type": "Image",
+            "id": "bd3ad036-d58b-43d1-bbba-eb01402b2af5",
+            "label": "symbol_23",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 23"
+            },
+            "x": 1134,
+            "y": 487
+        },
+        {
+            "type": "Image",
+            "id": "951975bb-89c3-4fd6-a4e5-6116986ad6c5",
+            "label": "symbol_22",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 22"
+            },
+            "x": 1131,
+            "y": 577
+        },
+        {
+            "type": "Image",
+            "id": "73ae5e24-f829-4acc-8dda-c0d7db08f03f",
+            "label": "symbol_166",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 166"
+            },
+            "x": 679,
+            "y": 653
+        },
+        {
+            "type": "Image",
+            "id": "eaee0cd7-4a76-4153-ad2a-8013914c7377",
+            "label": "symbol_21",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 21"
+            },
+            "x": 698,
+            "y": 671
+        },
+        {
+            "type": "Image",
+            "id": "818370d6-f00c-4451-987f-14604bd8231f",
+            "label": "symbol_19",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 19"
+            },
+            "x": 814,
+            "y": 736
+        },
+        {
+            "type": "Image",
+            "id": "a56c6b51-0962-4344-b880-114e4fcb75cd",
+            "label": "sprite_308",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Sprite 308"
+            },
+            "x": 536,
+            "y": 643
+        },
+        {
+            "type": "Image",
+            "id": "1ed3a51b-bdaa-410b-85d6-9bb46949c875",
+            "label": "s_mbolo_11",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Símbolo 11"
+            },
+            "x": 539,
+            "y": 847
+        },
+        {
+            "type": "Image",
+            "id": "e62c8905-159a-4353-8a89-efa2d4847465",
+            "label": "s_mbolo_5",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Símbolo 5"
+            },
+            "x": 771,
+            "y": 729
+        },
+        {
+            "type": "Image",
+            "id": "e7443b75-3c7e-4192-a2f3-1d0ac11b7cc9",
+            "label": "symbol_108",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 108"
+            },
+            "x": 930,
+            "y": 704
+        },
+        {
+            "type": "Image",
+            "id": "c9a6d6d2-c5e3-401d-a569-30c3ec50ab2d",
+            "label": "s_mbolo_4",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Símbolo 4"
+            },
+            "x": 1065,
+            "y": 443
+        },
+        {
+            "type": "Image",
+            "id": "1406134a-9383-48c5-b7cf-01e2bc284323",
+            "label": "symbol_40_copy",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 40 copy"
+            },
+            "x": 1175,
+            "y": 447
+        },
+        {
+            "type": "Image",
+            "id": "83fee0ea-10f4-40ae-beea-44d72c3d00c5",
+            "label": "symbol_12",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 12"
+            },
+            "x": 1191,
+            "y": 549
+        },
+        {
+            "type": "Image",
+            "id": "48a90b4a-ec25-44e9-9bf6-8fbc12002b14",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 108"
+            },
+            "x": 1013,
+            "y": 456,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "81295cd0-a182-4371-8d3d-8e509c54e5bc",
+            "label": "symbol_1",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 1"
+            },
+            "x": 881,
+            "y": 362
+        },
+        {
+            "type": "Sprite",
+            "id": "f8d685f2-8c01-488f-8b54-be3077a6ae3b",
+            "label": "wave10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 16,
+            "texture": {
+                "key": "pirate",
+                "frame": "wave10001"
+            },
+            "x": 444,
+            "y": 797
+        },
+        {
+            "type": "Image",
+            "id": "4fd5afd4-6c47-4806-82f4-b1ffcb17a5e6",
+            "label": "symbol_5",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 5"
+            },
+            "x": 531,
+            "y": 839
+        },
+        {
+            "type": "Image",
+            "id": "4798f019-601f-4294-a42f-a42efc3c91c3",
+            "label": "symbol_2",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 108"
+            },
+            "x": 551,
+            "y": 768
+        },
+        {
+            "type": "Image",
+            "id": "9e6600b5-9aa0-4618-9480-4d478f8b1bb8",
+            "label": "symbol_175_copy_2",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 175 copy 2"
+            },
+            "x": 862,
+            "y": 822
+        },
+        {
+            "type": "Image",
+            "id": "ea541ad0-7f24-437c-8456-60efe05dcfe2",
+            "label": "symbol_320",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 320"
+            },
+            "x": 921,
+            "y": 867
+        },
+        {
+            "type": "Image",
+            "id": "456d121e-a745-47a1-8a13-1b7039c70ddd",
+            "label": "symbol_2_copy_3",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 2 copy 3"
+            },
+            "x": 1025,
+            "y": 876
+        },
+        {
+            "type": "Sprite",
+            "id": "75a1db26-144b-4e11-b577-6460fa8ce770",
+            "label": "wave20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave2",
+            "Animation.end": 7,
+            "texture": {
+                "key": "pirate",
+                "frame": "wave20001"
+            },
+            "x": 579,
+            "y": 883,
+            "angle": -33,
+            "flipX": true,
+            "flipY": true,
+            "tintFill": true
+        },
+        {
+            "type": "Sprite",
+            "id": "ddda9884-54ff-4a7f-bedf-6edc376eb170",
+            "label": "particles0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "particles",
+            "Animation.end": 16,
+            "texture": {
+                "key": "pirate",
+                "frame": "particles0001"
+            },
+            "x": 614,
+            "y": 950,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "f159bca3-14e2-4ef2-8a92-86083f0e2fa5",
+            "label": "symbol_175_copy",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 175 copy"
+            },
+            "x": 1145,
+            "y": 878
+        },
+        {
+            "type": "Image",
+            "id": "0dea9184-efb4-4e19-86aa-b7f297396a3a",
+            "label": "symbol_6_copy_2",
+            "components": [
+                "SimpleButton",
+                "ShowHint",
+                "MoveTo"
+            ],
+            "ShowHint.text": "Travel to The Port",
+            "MoveTo.x": 1386,
+            "MoveTo.y": 742,
+            "texture": {
+                "key": "pirate",
+                "frame": "Symbol 6 copy 2"
+            },
+            "x": 1388,
+            "y": 864
+        },
+        {
+            "type": "Sprite",
+            "id": "b46c63c3-7b31-458c-9a81-78c0089173bc",
+            "label": "flag0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "flag",
+            "Animation.end": 13,
+            "texture": {
+                "key": "pirate",
+                "frame": "flag0001"
+            },
+            "x": 1439,
+            "y": 806
+        },
+        {
+            "type": "Image",
+            "id": "e072f2b9-241c-49e2-9c83-bdc46126eb61",
+            "label": "fore",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "fore"
+            },
+            "x": 649,
+            "y": 682
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

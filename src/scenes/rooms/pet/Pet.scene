@@ -1,0 +1,1129 @@
+{
+    "id": "b597012f-8f30-4a42-adee-243d7fc03649",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/pet/pet-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Pet",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "c21f1414-1e8d-4e20-ae67-79237f09dd77",
+            "label": "bg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "bg"
+            },
+            "x": 938,
+            "y": 325
+        },
+        {
+            "type": "Sprite",
+            "id": "02954104-d020-44df-93d6-b3fa6bccdec5",
+            "label": "pufflescapebg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "pufflescapebg"
+            },
+            "x": 1001,
+            "y": 200
+        },
+        {
+            "type": "Image",
+            "id": "e7fc8a63-1d75-4ce1-a7f4-fb161df19e6c",
+            "label": "parkdoor_1",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "parkdoor",
+            "Button.hoverCallback": "() => this.sound.add(\"petShop-DoorRightOpen\").play()",
+            "Button.hoverOutCallback": "() => this.sound.add(\"petShop-DoorRightClose\").play()",
+            "Button.activeFrame": false,
+            "texture": {
+                "key": "pet-addos",
+                "frame": "parkdoor"
+            },
+            "x": 1475,
+            "y": 360
+        },
+        {
+            "type": "Sprite",
+            "id": "c631d15e-bcea-4290-bd3c-0f1b938cda15",
+            "label": "pufflescape",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "pufflescape0001"
+            },
+            "x": 1013,
+            "y": 234
+        },
+        {
+            "type": "Image",
+            "id": "f6fc4170-bbe3-4721-a638-1802ce36ce1a",
+            "label": "petdoor",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "petdoor",
+            "Button.hoverCallback": "() => this.sound.add(\"petShop-DoorPetOpen\").play()",
+            "Button.hoverOutCallback": "() => this.sound.add(\"petShop-DoorPetClose\").play()",
+            "Button.activeFrame": false,
+            "MoveTo.x": 775,
+            "MoveTo.y": 320,
+            "texture": {
+                "key": "pet-addos",
+                "frame": "petdoor"
+            },
+            "x": 775,
+            "y": 212
+        },
+        {
+            "type": "Image",
+            "id": "d6ec3894-d7ee-4fa7-af61-ca662e26c0c8",
+            "label": "sprite_406",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 406"
+            },
+            "x": 784,
+            "y": 497
+        },
+        {
+            "type": "Sprite",
+            "id": "567d8796-7703-42fb-9694-9797867905d3",
+            "label": "pufflescapefg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "pufflescapefg"
+            },
+            "x": 1020,
+            "y": 136
+        },
+        {
+            "type": "Sprite",
+            "id": "77537ea0-2aa4-436c-96fc-cd177d2be847",
+            "label": "cannon_layer1",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "cannon_layer1"
+            },
+            "x": 1215,
+            "y": 236
+        },
+        {
+            "type": "Sprite",
+            "id": "017462b6-ed33-4dd5-bcf2-401bfee6b040",
+            "label": "cannon_layer2",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "cannon_layer20001"
+            },
+            "x": 1208,
+            "y": 182
+        },
+        {
+            "type": "Sprite",
+            "id": "db6d330c-66e3-4a9f-a352-66852b6e7438",
+            "label": "cannonlayer3",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "cannonlayer3"
+            },
+            "x": 1231,
+            "y": 302,
+            "scaleX": 1.02
+        },
+        {
+            "type": "Sprite",
+            "id": "d78c5d8e-7536-49fe-af6b-7e3b716f9a35",
+            "label": "cannonlayer4",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "cannonlayer40001"
+            },
+            "x": 1259,
+            "y": 249
+        },
+        {
+            "type": "Sprite",
+            "id": "62531a22-25dd-4dab-b357-f6db22c02def",
+            "label": "cannon_layer5",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "cannon_layer5"
+            },
+            "x": 1230,
+            "y": 211
+        },
+        {
+            "type": "Sprite",
+            "id": "8ce30afc-18b4-443a-ac90-5f20d8675723",
+            "label": "main",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "main"
+            },
+            "x": 784,
+            "y": 497,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "02c2fb38-caf1-4793-be02-d7c670127cea",
+            "label": "plazadoor",
+            "scope": "CLASS",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "plazadoor",
+            "Button.hoverCallback": "() => this.sound.add(\"petShop-DoorPetOpen\").play()",
+            "Button.hoverOutCallback": "() => this.sound.add(\"petShop-DoorPetClose\").play()",
+            "Button.activeFrame": false,
+            "MoveTo.x": 775,
+            "MoveTo.y": 300,
+            "texture": {
+                "key": "pet-new",
+                "frame": "plazadoor"
+            },
+            "x": 776,
+            "y": 211,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "906bfe15-bd7a-4d5a-a5ae-10773feb1d8c",
+            "label": "s_mbolo_1_png",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "Símbolo 1.png"
+            },
+            "x": 780,
+            "y": 497
+        },
+        {
+            "type": "Sprite",
+            "id": "c06713f5-23d1-488b-a256-2de70dc40e9d",
+            "label": "oberry_pad",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "oberry_pad"
+            },
+            "x": 610,
+            "y": 442
+        },
+        {
+            "type": "Sprite",
+            "id": "48b939e7-8b6f-47db-9e7c-4e3828f34430",
+            "label": "pufflearea",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "pufflearea"
+            },
+            "x": 318,
+            "y": 360
+        },
+        {
+            "type": "Sprite",
+            "id": "6aa4b0c3-4b25-4731-b8ae-4b29d1f6044b",
+            "label": "purple_body",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "purple_body"
+            },
+            "x": 291,
+            "y": 293
+        },
+        {
+            "type": "Sprite",
+            "id": "9dd83ec3-3d32-4f8f-8037-12ea64c878ef",
+            "label": "purple_eyes",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "purple_eyes0001"
+            },
+            "x": 292,
+            "y": 294
+        },
+        {
+            "type": "Sprite",
+            "id": "b1a19b42-1a13-4fb0-a9d4-407414839541",
+            "label": "purple_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "purple_jump0001"
+            },
+            "x": 291,
+            "y": 268,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "f754081c-be3d-4764-9454-4d6828ec7822",
+            "label": "oberry_fall",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "oberry_fall0001"
+            },
+            "x": 583,
+            "y": 181
+        },
+        {
+            "type": "Sprite",
+            "id": "8f696e0b-fd85-4628-be44-693f0501dc18",
+            "label": "sometubes",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "sometubes"
+            },
+            "x": 855,
+            "y": 217
+        },
+        {
+            "type": "Sprite",
+            "id": "ca4a4e01-e702-4bdb-881b-f6c800072610",
+            "label": "oberry_machine",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "oberry_machine"
+            },
+            "x": 567,
+            "y": 394
+        },
+        {
+            "type": "Sprite",
+            "id": "1ecd30fb-b4cd-42a7-8149-71a9f1d1efe0",
+            "label": "white_lookaround",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "white_lookaround0001"
+            },
+            "x": 387,
+            "y": 296
+        },
+        {
+            "type": "Sprite",
+            "id": "539cb6d1-9bdc-4cff-af6f-6b79333c1a43",
+            "label": "oberry_shoot",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "oberry_shoot"
+            },
+            "x": 507,
+            "y": 312
+        },
+        {
+            "type": "Sprite",
+            "id": "bffce166-2c26-4902-8e3a-21c623c5c752",
+            "label": "green_body",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "green_body"
+            },
+            "x": 239,
+            "y": 361
+        },
+        {
+            "type": "Sprite",
+            "id": "c3650b10-f341-4efb-9e1a-f14776150766",
+            "label": "green_eyes",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "green_eyes0001"
+            },
+            "x": 241,
+            "y": 362
+        },
+        {
+            "type": "Sprite",
+            "id": "14fc135c-3f1c-4a0a-be6a-5d6c1e5b22b5",
+            "label": "green_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "green_jump0001"
+            },
+            "x": 240,
+            "y": 336,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "f8169957-0e74-463d-8829-c8fba8225186",
+            "label": "brown_body",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "brown_body"
+            },
+            "x": 295,
+            "y": 354
+        },
+        {
+            "type": "Sprite",
+            "id": "0ac3e306-49c8-46e2-99d4-8c6928a0be95",
+            "label": "brown_eyes",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "brown_eyes0001"
+            },
+            "x": 301,
+            "y": 356
+        },
+        {
+            "type": "Sprite",
+            "id": "b256707f-705a-41fd-b248-3830b3c2317f",
+            "label": "brown_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "brown_jump0001"
+            },
+            "x": 300,
+            "y": 329,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "290d3a10-bf2b-4140-814f-3f97883d7965",
+            "label": "yellow_body",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "yellow_body"
+            },
+            "x": 357,
+            "y": 355
+        },
+        {
+            "type": "Sprite",
+            "id": "a78be032-f042-4445-b6c5-207b033b6fff",
+            "label": "yellow_eyes",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "yellow_eyes0001"
+            },
+            "x": 364,
+            "y": 357
+        },
+        {
+            "type": "Sprite",
+            "id": "25b0cfc9-2889-42cc-adab-6d8dcf36dfbf",
+            "label": "yellow_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "yellow_jump0001"
+            },
+            "x": 363,
+            "y": 330,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "ba3f9c1f-a279-4f42-bbec-5ea8dfb73782",
+            "label": "border_idle",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "border_idle0001"
+            },
+            "x": 280,
+            "y": 402
+        },
+        {
+            "type": "Sprite",
+            "id": "5a27c43a-a6e8-4ba7-ad4d-5594aef0b9c3",
+            "label": "border_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "border_jump0001"
+            },
+            "x": 280,
+            "y": 371,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "26a62f7c-b398-4f79-9f0e-4f2df1ec768e",
+            "label": "tabby_idle",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "tabby_idle0001"
+            },
+            "x": 337,
+            "y": 404
+        },
+        {
+            "type": "Sprite",
+            "id": "6c490c7e-70a4-4208-9218-ddc5dcbb5e27",
+            "label": "tabby_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "tabby_jump0001"
+            },
+            "x": 338,
+            "y": 371,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "23e082ab-4ffa-4fb0-a007-7bd073d271e3",
+            "label": "red_body",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "red_body"
+            },
+            "x": 389,
+            "y": 390
+        },
+        {
+            "type": "Sprite",
+            "id": "706dc791-aea6-4c9b-9483-df9738a166ef",
+            "label": "red_eyes",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "red_eyes0001"
+            },
+            "x": 390,
+            "y": 391
+        },
+        {
+            "type": "Sprite",
+            "id": "13c163fb-d4c1-4ed2-aabf-246316940184",
+            "label": "red_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "red_jump0001"
+            },
+            "x": 389,
+            "y": 365,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "b43a90db-7bd5-47ee-a8c9-270045d8974a",
+            "label": "blue_body",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "blue_body"
+            },
+            "x": 237,
+            "y": 431
+        },
+        {
+            "type": "Sprite",
+            "id": "c619081c-9c4a-4e9e-aadd-abceb04bc419",
+            "label": "blue_eyes",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "blue_eyes0001"
+            },
+            "x": 245,
+            "y": 433
+        },
+        {
+            "type": "Sprite",
+            "id": "b931d6ea-76f3-4402-8a6c-8e715bd5d5f8",
+            "label": "blue_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "blue_jump0001"
+            },
+            "x": 243,
+            "y": 406,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "cf596e1a-45fa-4027-8d5e-5f1988ae6c08",
+            "label": "pufflearea_front",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "pufflearea_front"
+            },
+            "x": 413,
+            "y": 270
+        },
+        {
+            "type": "Sprite",
+            "id": "a7ba9c9a-2b34-4b6b-b157-25ac7d2df6da",
+            "label": "light",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "light"
+            },
+            "x": 106,
+            "y": 334
+        },
+        {
+            "type": "Sprite",
+            "id": "db86e8df-6cff-4273-a6df-97d492998bc0",
+            "label": "pufflearea_floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "pufflearea_floor"
+            },
+            "x": 332,
+            "y": 470
+        },
+        {
+            "type": "Image",
+            "id": "8c27e382-67b3-47fa-a138-57f597cac24d",
+            "label": "sprite_605",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 605"
+            },
+            "x": 771,
+            "y": 266
+        },
+        {
+            "type": "Sprite",
+            "id": "8bc705ef-0b1f-45f5-9614-1384d7fdb3dd",
+            "label": "orange_idle",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "orange_idle0001"
+            },
+            "x": 400,
+            "y": 182
+        },
+        {
+            "type": "Sprite",
+            "id": "298f4a48-f6fc-474d-ad1c-fb825e16aa9b",
+            "label": "orange_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "orange_jump0001"
+            },
+            "x": 400,
+            "y": 157,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "e3a59b7f-7a9f-4ff6-b85e-60e327a83857",
+            "label": "pink_body",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "pink_body"
+            },
+            "x": 278,
+            "y": 204
+        },
+        {
+            "type": "Sprite",
+            "id": "8fffe568-e2d9-41ba-b370-f66dac0065fb",
+            "label": "pink_eyes",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "pink_eyes0001"
+            },
+            "x": 284,
+            "y": 206
+        },
+        {
+            "type": "Sprite",
+            "id": "34f28167-397b-4dc4-b728-b557000a22e4",
+            "label": "pink_jump",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "pink_jump0001"
+            },
+            "x": 279,
+            "y": 179,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "6a592269-023c-43f0-9a73-0093afa718dd",
+            "label": "black_idle",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "black_idle"
+            },
+            "x": 456,
+            "y": 170
+        },
+        {
+            "type": "Sprite",
+            "id": "f09210d0-3c84-4d13-bb44-fd12640a1f64",
+            "label": "apollo_idle",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "apollo_idle0001"
+            },
+            "x": 343,
+            "y": 196
+        },
+        {
+            "type": "Sprite",
+            "id": "cb5334f3-f94d-43c0-8a18-2048123d6abf",
+            "label": "rug",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "rug"
+            },
+            "x": 775,
+            "y": 702
+        },
+        {
+            "type": "Sprite",
+            "id": "1772c759-4c53-499e-903b-f77c66193b07",
+            "label": "rug_puffle_blue",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "rug_puffle_blue"
+            },
+            "x": 790,
+            "y": 692
+        },
+        {
+            "type": "Sprite",
+            "id": "5751cec7-a006-400d-83ae-4a288ee5e909",
+            "label": "surfboard",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "surfboard"
+            },
+            "x": 1470,
+            "y": 610
+        },
+        {
+            "type": "Sprite",
+            "id": "a9eef244-f8e0-435f-bf6f-581c219b4306",
+            "label": "highbedback",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "highbedback"
+            },
+            "x": 1346,
+            "y": 699
+        },
+        {
+            "type": "Sprite",
+            "id": "861dee6c-02e7-4e89-b938-22d3984a6d7e",
+            "label": "carealtar",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "carealtar",
+            "Button.activeFrame": false,
+            "texture": {
+                "key": "pet-new",
+                "frame": "carealtar"
+            },
+            "x": 272,
+            "y": 529
+        },
+        {
+            "type": "Sprite",
+            "id": "619f6c7f-6361-49c2-9d36-b5cb1008d5fa",
+            "label": "dualfood",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "dualfood"
+            },
+            "x": 1040,
+            "y": 883
+        },
+        {
+            "type": "Sprite",
+            "id": "e317a480-41ea-4b68-9cf9-78be9668833a",
+            "label": "skateboard",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "skateboard"
+            },
+            "x": 979,
+            "y": 798
+        },
+        {
+            "type": "Sprite",
+            "id": "5acce23e-0398-4ae7-bce7-13cbba0d5dab",
+            "label": "stackedbowls",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "stackedbowls"
+            },
+            "x": 918,
+            "y": 417
+        },
+        {
+            "type": "Sprite",
+            "id": "5242fbab-03a9-4c77-9e0c-fd364365acd9",
+            "label": "yellowbowl",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "yellowbowl"
+            },
+            "x": 953,
+            "y": 453
+        },
+        {
+            "type": "Image",
+            "id": "f7bc4724-fb4a-43ac-a35b-34f88fad0c99",
+            "label": "s_mbolo_2",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "Símbolo 2"
+            },
+            "x": 1446,
+            "y": 581
+        },
+        {
+            "type": "Sprite",
+            "id": "e7f57db4-8fbc-4963-a58f-7b7603759936",
+            "label": "bed",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pet-new",
+                "frame": "bed"
+            },
+            "x": 326,
+            "y": 871
+        },
+        {
+            "type": "Image",
+            "id": "ae70aebb-caa6-408d-9871-7b356fe7254c",
+            "label": "sprite_686",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 686"
+            },
+            "x": 1391.1200841337209,
+            "y": 763.1399920581463,
+            "originX": 0.4934268676004226,
+            "originY": 1.0214685036998121
+        },
+        {
+            "type": "Image",
+            "id": "6bc9da85-3e5b-45f3-b2e6-497dd77eb2f4",
+            "label": "sprite_690",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 690"
+            },
+            "x": 1352,
+            "y": 844
+        },
+        {
+            "type": "Rectangle",
+            "id": "0ab12224-fc7e-4182-ad14-11f62f70bd7b",
+            "label": "cannon_btn",
+            "components": [
+                "SimpleButton",
+                "MoveTo",
+                "ShowHint"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onCannonOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onCannonOut()",
+            "MoveTo.x": 1150,
+            "MoveTo.y": 420,
+            "ShowHint.text": "Puffle Launch",
+            "x": 1251,
+            "y": 320,
+            "fillColor": "#00eee9",
+            "fillAlpha": 0.5,
+            "width": 150,
+            "height": 230
+        },
+        {
+            "type": "Rectangle",
+            "id": "b8cb2e8d-2fae-47b5-833d-e975dbec10d2",
+            "label": "puffle_btn",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onPufflesOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onPufflesOut()",
+            "MoveTo.x": 350,
+            "MoveTo.y": 450,
+            "x": 321,
+            "y": 347,
+            "angle": -5,
+            "fillColor": "#00eee9",
+            "fillAlpha": 0.5,
+            "width": 250,
+            "height": 250
+        },
+        {
+            "type": "Rectangle",
+            "id": "6c67e9b2-724f-4247-bb69-e49d517fca07",
+            "label": "pufflescape_btn",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onPufflescapeOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onPufflescapeOut()",
+            "MoveTo.x": 1000,
+            "MoveTo.y": 300,
+            "x": 1009,
+            "y": 194,
+            "fillColor": "#00eee9",
+            "fillAlpha": 0.5,
+            "width": 150,
+            "height": 180
+        },
+        {
+            "type": "Image",
+            "id": "9a9722dc-c7a4-4a30-9da5-287e5c6d1dab",
+            "label": "sprite_732",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 732"
+            },
+            "x": 161,
+            "y": 634
+        },
+        {
+            "type": "Image",
+            "id": "f81a7c61-1436-47b9-9db2-670478642ae1",
+            "label": "sprite_734",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 734"
+            },
+            "x": 262,
+            "y": 654
+        },
+        {
+            "type": "Image",
+            "id": "f0bc887d-5aa7-4e5e-9119-ab3084dccb5d",
+            "label": "sprite_715",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 715"
+            },
+            "x": 487,
+            "y": 424
+        },
+        {
+            "type": "Image",
+            "id": "cce34127-4cfd-47eb-bfc8-6d5627e944a1",
+            "label": "puffle",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "puffle"
+            },
+            "x": 609,
+            "y": 446
+        },
+        {
+            "type": "Image",
+            "id": "f2139c8e-74f2-4836-b792-e6e45427b14f",
+            "label": "sprite_746",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 746"
+            },
+            "x": 786.9781274701415,
+            "y": 965.4699233671666,
+            "originX": 0.5405355616799841,
+            "originY": 0.8256792274872237
+        },
+        {
+            "type": "Image",
+            "id": "96d4dcf1-c793-44d1-925a-29c799f75799",
+            "label": "sprite_738",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 738"
+            },
+            "x": 572.0242134503974,
+            "y": 964.3820885933796,
+            "originX": 0.4746766417535487,
+            "originY": 0.9295850200833427
+        },
+        {
+            "type": "Image",
+            "id": "aaf1162f-6945-4223-bb03-4e0c6632cfc0",
+            "label": "s_mbolo_3",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "Símbolo 3"
+            },
+            "x": 1269,
+            "y": 490
+        },
+        {
+            "type": "Image",
+            "id": "1a3171c9-d74b-4928-8b53-f7560a7819d4",
+            "label": "sprite_717",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 717"
+            },
+            "x": 917,
+            "y": 417
+        },
+        {
+            "type": "Image",
+            "id": "9e1d74bc-65cb-426d-a3d6-9db2c8305e02",
+            "label": "sprite_719",
+            "components": [],
+            "texture": {
+                "key": "pet-addos",
+                "frame": "sprite 719"
+            },
+            "x": 955,
+            "y": 456
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "b1ee46a5-a8cc-4134-84ca-72009a3f91e3",
+            "label": "sort",
+            "objectIds": [
+                "f2139c8e-74f2-4836-b792-e6e45427b14f",
+                "ae70aebb-caa6-408d-9871-7b356fe7254c",
+                "6bc9da85-3e5b-45f3-b2e6-497dd77eb2f4",
+                "96d4dcf1-c793-44d1-925a-29c799f75799"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,554 @@
+{
+    "id": "ae2549c0-6ea9-4446-8617-33e0cd41dc29",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/plaza/plaza-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Plaza",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c7b78e77-6380-4c8f-b5f3-2f52837dba43",
+            "label": "block",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "block"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "19b4078c-7f96-407d-b8a1-7227b9b5c1fd",
+            "label": "sky",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "sky"
+            },
+            "x": 805,
+            "y": 140
+        },
+        {
+            "type": "Sprite",
+            "id": "292144dc-5838-4585-9b27-dab055e07e12",
+            "label": "smoke0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "smoke",
+            "Animation.end": 30,
+            "texture": {
+                "key": "plaza",
+                "frame": "smoke0001"
+            },
+            "x": 1048,
+            "y": 29
+        },
+        {
+            "type": "Image",
+            "id": "1ba83f97-91ab-4507-8950-5d2b69a271d3",
+            "label": "s_mbolo_64",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 64"
+            },
+            "x": 749,
+            "y": 654
+        },
+        {
+            "type": "Image",
+            "id": "43b9a92d-a1a2-4ff8-8ed7-de831b3a1c6d",
+            "label": "s_mbolo_60",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 60"
+            },
+            "x": 635,
+            "y": 346
+        },
+        {
+            "type": "Image",
+            "id": "0fd60cb4-35fe-4dfc-8c34-411a7ba6234d",
+            "label": "s_mbolo_43",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 43"
+            },
+            "x": 656,
+            "y": 764
+        },
+        {
+            "type": "Image",
+            "id": "cb443d64-f067-4898-8e66-c1f866696529",
+            "label": "s_mbolo_56",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 56"
+            },
+            "x": 1305,
+            "y": 208
+        },
+        {
+            "type": "Image",
+            "id": "a2e59eb4-1cd6-4648-a481-3bbb62bd79c2",
+            "label": "s_mbolo_28",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 28"
+            },
+            "x": 124,
+            "y": 296
+        },
+        {
+            "type": "Image",
+            "id": "28fd0f82-6c16-4c6f-9a91-4b99dd832908",
+            "label": "pizza",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "pizza"
+            },
+            "x": 916,
+            "y": 284
+        },
+        {
+            "type": "Image",
+            "id": "71cd3f14-80ad-497a-9032-94512bad795a",
+            "label": "s_mbolo_69",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 69"
+            },
+            "x": 530,
+            "y": 189
+        },
+        {
+            "type": "Image",
+            "id": "f94cf884-16f2-47cf-ac87-f236408d4186",
+            "label": "symbol_242",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Symbol 242"
+            },
+            "x": 221,
+            "y": 398
+        },
+        {
+            "type": "Image",
+            "id": "6c41fc89-54a7-4f8b-b1e1-dbda93af26b2",
+            "label": "sprite",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Sprite 331"
+            },
+            "x": 725.995492125174,
+            "y": 786.5465872776916,
+            "originX": 0.4480228119410787,
+            "originY": 0.330181364038933
+        },
+        {
+            "type": "Image",
+            "id": "8568ddb0-1803-4219-871f-57cc2f24a8da",
+            "label": "pizzadoor",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "pizzadoor",
+            "Button.activeFrame": false,
+            "MoveTo.x": 995,
+            "MoveTo.y": 472,
+            "texture": {
+                "key": "plaza",
+                "frame": "pizzadoor"
+            },
+            "x": 1003,
+            "y": 433
+        },
+        {
+            "type": "Image",
+            "id": "95af34a4-61df-45eb-84b6-c52d5766c32a",
+            "label": "s_mbolo_59",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 59"
+            },
+            "x": 614.2298322702271,
+            "y": 793.2090540588943,
+            "originX": 0.3769827671120317,
+            "originY": 0.6106236779833379
+        },
+        {
+            "type": "Image",
+            "id": "82370054-00af-4ecc-939d-cb1558c92b5b",
+            "label": "s_mbolo_77",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 77"
+            },
+            "x": 758,
+            "y": 869
+        },
+        {
+            "type": "Image",
+            "id": "78713187-516d-42f9-a703-9cb154cf9538",
+            "label": "sprite_791_copia",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Sprite 791 copia"
+            },
+            "x": 1518,
+            "y": 491
+        },
+        {
+            "type": "Image",
+            "id": "becc00fb-77bd-492b-8925-63774ffa3a27",
+            "label": "symbol_185",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Symbol 185"
+            },
+            "x": 1267,
+            "y": 556
+        },
+        {
+            "type": "Image",
+            "id": "c2375923-9fad-45e0-9e52-e65c66e39cfc",
+            "label": "sprite_72",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Sprite 72"
+            },
+            "x": 1283,
+            "y": 559
+        },
+        {
+            "type": "Image",
+            "id": "b310657c-ece9-482a-84d8-f7732550f9d8",
+            "label": "s_mbolo_65",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 65"
+            },
+            "x": 1365,
+            "y": 688
+        },
+        {
+            "type": "Image",
+            "id": "96e65823-e042-4f77-a34c-bf76c4894b64",
+            "label": "s_mbolo_61",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 61"
+            },
+            "x": 1050.857327137573,
+            "y": 695.0079164547627,
+            "originX": 0.5997958236247515,
+            "originY": 0.7446082416019714
+        },
+        {
+            "type": "Image",
+            "id": "d8865095-d9d0-4522-948d-d51aad47ac25",
+            "label": "s_mbolo_75",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 75"
+            },
+            "x": 1186.396861463759,
+            "y": 717.5814353182392,
+            "originX": 0.4766347031629726,
+            "originY": 0.011130609047263703
+        },
+        {
+            "type": "Image",
+            "id": "bef2f55c-40af-4c0d-8c2d-8ffe994bd84f",
+            "label": "s_mbolo",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 21"
+            },
+            "x": 342,
+            "y": 538
+        },
+        {
+            "type": "Image",
+            "id": "873a7c04-b0e0-42e4-b5a7-a498c497ce64",
+            "label": "s_mbolo_20",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 20"
+            },
+            "x": 395,
+            "y": 543
+        },
+        {
+            "type": "Image",
+            "id": "a9392860-1370-452d-9b08-a18dd2d0c8ba",
+            "label": "petdoor",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "petdoor",
+            "Button.activeFrame": false,
+            "MoveTo.x": 417,
+            "MoveTo.y": 505,
+            "texture": {
+                "key": "plaza",
+                "frame": "petdoor"
+            },
+            "x": 411,
+            "y": 470
+        },
+        {
+            "type": "Image",
+            "id": "4afa7e8f-fa81-47de-8efe-2d14f5e9f89b",
+            "label": "s_mbolo_610001",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 610001"
+            },
+            "x": 132,
+            "y": 863
+        },
+        {
+            "type": "Image",
+            "id": "96e98e30-2695-41bb-b890-2b15f1b1bd3d",
+            "label": "s_mbolo_440001",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 440001"
+            },
+            "x": -33,
+            "y": 761
+        },
+        {
+            "type": "Image",
+            "id": "5a44eb06-f11f-4cd3-a3df-00fefd0593c4",
+            "label": "s_mbolo_76",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 76"
+            },
+            "x": 119.4261586612322,
+            "y": 906.3786836925167,
+            "originX": 0.804937285407684,
+            "originY": 0.6893130863996516
+        },
+        {
+            "type": "Image",
+            "id": "f37d8023-6161-419a-92f1-45b172c2b703",
+            "label": "s_mbolo_63",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 63"
+            },
+            "x": 1486.8542065760457,
+            "y": 1014.6990939933496,
+            "originX": 0.5181810337408466,
+            "originY": 1.0351018337028859
+        },
+        {
+            "type": "Image",
+            "id": "eb776b82-88e9-4bb8-b887-734b19b7c06c",
+            "label": "s_mbolo_21",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 21"
+            },
+            "x": 441,
+            "y": 546
+        },
+        {
+            "type": "Image",
+            "id": "6345ee51-0cfd-49c6-b9c6-95526dc15ce6",
+            "label": "s_mbolo_73",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 73"
+            },
+            "x": 780,
+            "y": 604
+        },
+        {
+            "type": "Image",
+            "id": "9643caf6-dbd7-403b-965e-7af57d794dfe",
+            "label": "entry",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "entry",
+            "Button.activeFrame": false,
+            "texture": {
+                "key": "plaza",
+                "frame": "entry"
+            },
+            "x": 691,
+            "y": 559
+        },
+        {
+            "type": "Image",
+            "id": "997773c9-9daa-4dfa-8748-86daaf3fb8ac",
+            "label": "s_mbolo_24",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 24"
+            },
+            "x": 930,
+            "y": 271
+        },
+        {
+            "type": "Image",
+            "id": "6d11add4-40ad-4d8f-affb-d802bce37395",
+            "label": "sprite_331",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Sprite 331"
+            },
+            "x": 817.5754687099732,
+            "y": 531.4454092157933,
+            "originX": 0.5167236450692404,
+            "originY": 0.3950041693445508
+        },
+        {
+            "type": "Image",
+            "id": "444c6ed7-3ec3-41a8-8380-a272945b1351",
+            "label": "s_mbolo_78",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 78"
+            },
+            "x": 667,
+            "y": 256
+        },
+        {
+            "type": "Image",
+            "id": "222aef97-f788-4d8e-a233-206bd656ef2c",
+            "label": "back",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "back"
+            },
+            "x": 373,
+            "y": 179
+        },
+        {
+            "type": "Image",
+            "id": "baf4dded-80a7-4702-8970-e32e78143068",
+            "label": "glow",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "glow"
+            },
+            "x": 372,
+            "y": 179
+        },
+        {
+            "type": "Sprite",
+            "id": "e41b9f87-9f4a-4afc-914c-b8816dd0e72e",
+            "label": "fire0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire",
+            "Animation.end": 21,
+            "texture": {
+                "key": "plaza",
+                "frame": "fire0001"
+            },
+            "x": 371,
+            "y": 178
+        },
+        {
+            "type": "Image",
+            "id": "76ab15a2-afa5-4582-96c3-f83dbef97b5a",
+            "label": "front",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "front"
+            },
+            "x": 373,
+            "y": 182
+        },
+        {
+            "type": "Image",
+            "id": "8add6ec1-b3e2-47b2-a727-1b6f5baa6e4c",
+            "label": "s_mbolo_79",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 79"
+            },
+            "x": 752,
+            "y": 137
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "9c185332-22f1-4d89-8194-2666eda5e6ad",
+            "label": "sort",
+            "objectIds": [
+                "95af34a4-61df-45eb-84b6-c52d5766c32a",
+                "82370054-00af-4ecc-939d-cb1558c92b5b",
+                "6c41fc89-54a7-4f8b-b1e1-dbda93af26b2",
+                "becc00fb-77bd-492b-8925-63774ffa3a27",
+                "c2375923-9fad-45e0-9e52-e65c66e39cfc",
+                "6d11add4-40ad-4d8f-affb-d802bce37395",
+                "5a44eb06-f11f-4cd3-a3df-00fefd0593c4",
+                "96e65823-e042-4f77-a34c-bf76c4894b64",
+                "d8865095-d9d0-4522-948d-d51aad47ac25",
+                "f37d8023-6161-419a-92f1-45b172c2b703"
+            ]
+        }
+    ]
+}

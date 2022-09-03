@@ -1,0 +1,670 @@
+{
+    "id": "0b6efbc2-e63a-4e09-82a0-a417513e7a2b",
+    "sceneType": "SCENE",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/midblizzard/medblizzard-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Medblizzard",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "3809d720-7a56-44ba-922a-c82d29f88308",
+            "label": "symbol_5",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 5"
+            },
+            "x": 729,
+            "y": 188
+        },
+        {
+            "type": "Image",
+            "id": "aed70795-db54-4588-a54f-84852adae23f",
+            "label": "symbol_6",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 6"
+            },
+            "x": 917,
+            "y": 314
+        },
+        {
+            "type": "Image",
+            "id": "d15d8fe6-a07f-4f96-8b44-8abdfaa78e3e",
+            "label": "symbol_13",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 13"
+            },
+            "x": 729,
+            "y": 617
+        },
+        {
+            "type": "Image",
+            "id": "ae892d8d-3a2f-46c1-a0b4-9b347c2b673c",
+            "label": "fondo",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Fondo"
+            },
+            "x": 1270,
+            "y": 642
+        },
+        {
+            "type": "Image",
+            "id": "3c60f310-1a27-4dc7-b585-a2bf4dde14b6",
+            "label": "fondo2",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Fondo2"
+            },
+            "x": 339,
+            "y": 465
+        },
+        {
+            "type": "Image",
+            "id": "db8f9fa6-96e5-4be2-9d3e-1a84a76ec9db",
+            "label": "pared_2",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "pared 2"
+            },
+            "x": 1011,
+            "y": 774
+        },
+        {
+            "type": "Image",
+            "id": "8b531769-9c2c-4995-b6f7-1de57db75fa2",
+            "label": "cerca_Escaleras",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Cerca Escaleras"
+            },
+            "x": 434,
+            "y": 122
+        },
+        {
+            "type": "Image",
+            "id": "b0b891b8-a544-4528-ac61-62c455661f21",
+            "label": "symbol_300",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 300"
+            },
+            "x": 793,
+            "y": 174
+        },
+        {
+            "type": "Image",
+            "id": "5c32c0ff-45e4-4182-be90-10b2f92cadcf",
+            "label": "stairs",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Stairs"
+            },
+            "x": 344,
+            "y": 136
+        },
+        {
+            "type": "Image",
+            "id": "57103499-c6ac-41cd-8ac8-fb509d1b021f",
+            "label": "pared",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "pared 2"
+            },
+            "x": 1151,
+            "y": 712
+        },
+        {
+            "type": "Image",
+            "id": "6d5ef903-3723-49e7-a937-eac26fead399",
+            "label": "s_mbolo_7",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Símbolo 7"
+            },
+            "x": 665,
+            "y": 555
+        },
+        {
+            "type": "Image",
+            "id": "68e0e0b2-ced9-4e3b-809f-0b464981ea68",
+            "label": "tower",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "tower"
+            },
+            "x": 950,
+            "y": 214
+        },
+        {
+            "type": "Sprite",
+            "id": "009eb2f6-e94e-4857-95b7-ad004a52150e",
+            "label": "rope20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "rope2",
+            "Animation.end": 10,
+            "texture": {
+                "key": "medblizzard",
+                "frame": "rope20001"
+            },
+            "x": 1297,
+            "y": 262
+        },
+        {
+            "type": "Sprite",
+            "id": "0fcf4b21-d667-4f26-b797-741771b2b93b",
+            "label": "rueda0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "rueda",
+            "Animation.end": 29,
+            "texture": {
+                "key": "medblizzard",
+                "frame": "rueda0001"
+            },
+            "x": 1016,
+            "y": 130
+        },
+        {
+            "type": "Image",
+            "id": "3ed66b3b-dd50-41da-8867-55eb9707a5a2",
+            "label": "tube_Stack",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Tube Stack"
+            },
+            "x": 352,
+            "y": 510
+        },
+        {
+            "type": "Image",
+            "id": "3363117d-709f-43e2-a2fc-2e19021e447f",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 304"
+            },
+            "x": 754,
+            "y": 247,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        },
+        {
+            "type": "Image",
+            "id": "c072762e-fbf4-4d4e-ae75-e550f783feec",
+            "label": "escaleras_Refugio",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Escaleras Refugio"
+            },
+            "x": 240,
+            "y": 488
+        },
+        {
+            "type": "Image",
+            "id": "cd7e5ebb-58f9-47ac-91aa-ae62a14eb355",
+            "label": "arboles",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Arboles"
+            },
+            "x": 633,
+            "y": 133
+        },
+        {
+            "type": "Image",
+            "id": "b4a6bf8c-30f4-4093-8c25-be6c60ec2399",
+            "label": "flecha",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Flecha"
+            },
+            "x": 542,
+            "y": 246
+        },
+        {
+            "type": "Image",
+            "id": "f5847102-555c-497f-afcc-4de1f93b7560",
+            "label": "mountain_Wall",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Mountain Wall"
+            },
+            "x": 151,
+            "y": 143
+        },
+        {
+            "type": "Image",
+            "id": "4137db76-e046-499e-909f-618302ac55b5",
+            "label": "symbol_304",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 304"
+            },
+            "x": 606,
+            "y": 287,
+            "scaleX": 0.8,
+            "scaleY": 0.8,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "ddf27c2d-9a9a-4e32-aa40-1b895a436f99",
+            "label": "s_mbolo_8",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Símbolo 8"
+            },
+            "x": 325,
+            "y": 340
+        },
+        {
+            "type": "Image",
+            "id": "a540f319-48e6-4972-b289-6c1fa7288b39",
+            "label": "door1",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door1",
+            "Button.activeFrame": false,
+            "MoveTo.x": 256,
+            "MoveTo.y": 600,
+            "texture": {
+                "key": "medblizzard",
+                "frame": "door1"
+            },
+            "x": 210,
+            "y": 567
+        },
+        {
+            "type": "Image",
+            "id": "42b2e170-31f3-44c2-83f2-55441a72f884",
+            "label": "refugio",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Refugio"
+            },
+            "x": 123,
+            "y": 470
+        },
+        {
+            "type": "Image",
+            "id": "15dc7f8d-7ce3-4b9d-b70b-087c6c021263",
+            "label": "rod",
+            "components": [
+                "Button",
+                "ShowHint",
+                "MoveTo"
+            ],
+            "Button.spriteName": "rod",
+            "Button.activeFrame": false,
+            "ShowHint.text": "Go Fishing",
+            "MoveTo.x": 625,
+            "MoveTo.y": 381,
+            "texture": {
+                "key": "medblizzard",
+                "frame": "rod"
+            },
+            "x": 563.7413924862333,
+            "y": 335.90660510015107,
+            "scaleX": 0.9,
+            "scaleY": 0.9,
+            "originX": 0.41770031361755333,
+            "originY": 0.45164683708189934
+        },
+        {
+            "type": "Image",
+            "id": "2e6c1c73-603c-4f21-8bfc-87720fa5d588",
+            "label": "s_mbolo_60002",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Símbolo 60002"
+            },
+            "x": 205,
+            "y": 469
+        },
+        {
+            "type": "Image",
+            "id": "885fef7a-1b55-4384-8e20-f930f61aff93",
+            "label": "cerca_Background",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Cerca Background"
+            },
+            "x": 1138,
+            "y": 409
+        },
+        {
+            "type": "Image",
+            "id": "d678b9c9-c184-4731-aedc-713d2b5dcb15",
+            "label": "nieve_Foreground",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Nieve Foreground"
+            },
+            "x": 434,
+            "y": 834
+        },
+        {
+            "type": "Image",
+            "id": "129efd2a-bf56-4e99-8ce6-85579badfa75",
+            "label": "symbol_100_copia_3",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1401,
+            "y": 923
+        },
+        {
+            "type": "Image",
+            "id": "4ffb7832-a35d-4faa-bc91-c5ed94bbee27",
+            "label": "symbol_100_copia",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1269,
+            "y": 918
+        },
+        {
+            "type": "Image",
+            "id": "ce9778f5-2b69-4a84-a13b-63e2239714ba",
+            "label": "symbol_100_copia_1",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1093,
+            "y": 918
+        },
+        {
+            "type": "Image",
+            "id": "3c4fb4fa-4843-49ac-a282-2e3468afca9f",
+            "label": "symbol_100_copia_2",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1144,
+            "y": 875
+        },
+        {
+            "type": "Image",
+            "id": "b8e24ed7-6434-4776-a029-e622a33b8f69",
+            "label": "symbol_100_copia_4",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1130,
+            "y": 873
+        },
+        {
+            "type": "Image",
+            "id": "6f77201d-dc49-447f-bf23-6ed01a0c6f9a",
+            "label": "symbol_100_copia_5",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1244,
+            "y": 851
+        },
+        {
+            "type": "Image",
+            "id": "9b2f185e-c265-43eb-b235-2a7b622f9e6b",
+            "label": "symbol_100_copia_6",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1208,
+            "y": 869
+        },
+        {
+            "type": "Image",
+            "id": "6e7413f7-91f1-4116-9039-f3b69540f6ec",
+            "label": "symbol_100_copia_7",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1240,
+            "y": 869
+        },
+        {
+            "type": "Image",
+            "id": "be4d498a-649a-4076-b6e5-8992e131cfec",
+            "label": "symbol_100_copia_8",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1146,
+            "y": 896
+        },
+        {
+            "type": "Image",
+            "id": "7372d7b2-a551-4994-84c8-fc4e579b584e",
+            "label": "symbol_100_copia_9",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1340,
+            "y": 902
+        },
+        {
+            "type": "Image",
+            "id": "fe311b2d-2bf5-4397-b755-018ecb391e55",
+            "label": "symbol_100_copia_10",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1350,
+            "y": 897
+        },
+        {
+            "type": "Image",
+            "id": "c2954fdd-1790-4935-8173-d0c6aecfcee5",
+            "label": "symbol_100_copia_11",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1383,
+            "y": 875
+        },
+        {
+            "type": "Image",
+            "id": "268ca315-559c-493e-83f6-51e0c9bbebfa",
+            "label": "symbol_100_copia_12",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1381,
+            "y": 869
+        },
+        {
+            "type": "Image",
+            "id": "8af73006-808c-4d06-9b19-0df2ce3ea060",
+            "label": "symbol_100_copia_13",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1405,
+            "y": 881
+        },
+        {
+            "type": "Image",
+            "id": "5946f9b1-13ec-46d9-ae42-32d87454e88f",
+            "label": "symbol_100_copia_14",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1348,
+            "y": 851
+        },
+        {
+            "type": "Image",
+            "id": "f4a91271-a889-4df9-bf3b-a3d557ac8ff6",
+            "label": "symbol_100_copia_15",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1413,
+            "y": 902
+        },
+        {
+            "type": "Image",
+            "id": "3999a8a2-d211-48c1-a41a-bbc5a8839e08",
+            "label": "symbol_100_copia_16",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Symbol 100 copia 3"
+            },
+            "x": 1411,
+            "y": 910
+        },
+        {
+            "type": "Image",
+            "id": "b03effe0-30df-4240-9ad9-fedabc345ff8",
+            "label": "arbol_2",
+            "components": [],
+            "texture": {
+                "key": "medblizzard",
+                "frame": "Arbol 2"
+            },
+            "x": 1166,
+            "y": 880
+        },
+        {
+            "type": "Sprite",
+            "id": "ba3578f7-4db4-4ab7-8d4b-9d80b6335434",
+            "label": "penguins0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "penguins",
+            "Animation.end": 54,
+            "texture": {
+                "key": "medblizzard",
+                "frame": "penguins0001"
+            },
+            "x": 223,
+            "y": 1071
+        },
+        {
+            "type": "Image",
+            "id": "10a6c257-e1c2-4166-83c7-05d8ed22d5a1",
+            "label": "jetpack",
+            "components": [
+                "Button",
+                "ShowHint",
+                "MoveTo"
+            ],
+            "Button.spriteName": "jetpack",
+            "Button.activeFrame": false,
+            "ShowHint.text": "Jetpack Adventure",
+            "MoveTo.x": 951,
+            "MoveTo.y": 658,
+            "texture": {
+                "key": "medblizzard",
+                "frame": "jetpack"
+            },
+            "x": 883,
+            "y": 677
+        },
+        {
+            "type": "Sprite",
+            "id": "8d9b1e34-de6e-4e9e-a681-507bca5ea7ab",
+            "label": "rope10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "rope1",
+            "Animation.end": 10,
+            "texture": {
+                "key": "medblizzard",
+                "frame": "rope10001"
+            },
+            "x": 1237,
+            "y": 293
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "b424d382-7b98-4be9-b1b8-a6c981442fef",
+            "label": "sort"
+        }
+    ]
+}

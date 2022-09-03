@@ -1,0 +1,854 @@
+{
+    "id": "b3b10e3a-ecd1-48ab-94f3-86620d2f0cc1",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/port/port-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Port",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e686198e-4357-4926-8ee5-f71dab192d19",
+            "label": "s_mbolo_9",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Símbolo 9"
+            },
+            "x": 762,
+            "y": 777
+        },
+        {
+            "type": "Image",
+            "id": "8bb7eeeb-1cb9-4e74-ba92-132107060306",
+            "label": "sky_bg",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "sky_bg"
+            },
+            "x": 760,
+            "y": 181
+        },
+        {
+            "type": "Image",
+            "id": "e8b38efd-4c3a-48a4-a372-5cff2baee8b0",
+            "label": "tree_bg_1",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "tree_bg_1"
+            },
+            "x": 148,
+            "y": 113
+        },
+        {
+            "type": "Image",
+            "id": "0f2ff5ef-12be-4844-8125-ab982dfcf618",
+            "label": "tree_bg_2",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "tree_bg_2"
+            },
+            "x": 1227,
+            "y": 176
+        },
+        {
+            "type": "Image",
+            "id": "7de7d9a0-745a-451b-a2a6-16a74583b06b",
+            "label": "symbol_479",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 479"
+            },
+            "x": 1151,
+            "y": 192
+        },
+        {
+            "type": "Image",
+            "id": "3654e4c2-9975-40db-b298-cee3b1f972a4",
+            "label": "symbol_112",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 112"
+            },
+            "x": 1410,
+            "y": 300
+        },
+        {
+            "type": "Image",
+            "id": "72086278-40cf-4243-bd52-1c16f931c677",
+            "label": "s_mbolo_3",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Símbolo 3"
+            },
+            "x": 1196,
+            "y": 282
+        },
+        {
+            "type": "Image",
+            "id": "e0b5a00b-4c38-4d23-b9af-5b9949bcef25",
+            "label": "sand1",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "sand1"
+            },
+            "x": 152,
+            "y": 381
+        },
+        {
+            "type": "Image",
+            "id": "b9599efd-1da2-4e83-b17f-1ad42af8a1e6",
+            "label": "water",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "water"
+            },
+            "x": 775,
+            "y": 786
+        },
+        {
+            "type": "Image",
+            "id": "87c7732d-17e0-4ed3-8b0a-3ad3a37609e3",
+            "label": "symbol_469",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 469"
+            },
+            "x": 366,
+            "y": 663
+        },
+        {
+            "type": "Image",
+            "id": "da452533-2256-481f-be92-1b452c6b5ed0",
+            "label": "symbol_481",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 481"
+            },
+            "x": 456,
+            "y": 323
+        },
+        {
+            "type": "Image",
+            "id": "b4dc4654-c383-4194-b164-cd8600e427b0",
+            "label": "symbol_483",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 483"
+            },
+            "x": 819,
+            "y": 320
+        },
+        {
+            "type": "Image",
+            "id": "03b30990-0c4c-4770-8634-fd8c28b8667c",
+            "label": "s_mbolo_1",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Símbolo 1"
+            },
+            "x": 1311,
+            "y": 169
+        },
+        {
+            "type": "Image",
+            "id": "8c98fbfd-4a4f-4271-a86d-10dbca3b3743",
+            "label": "symbol_493",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 493"
+            },
+            "x": 500.76229496326164,
+            "y": 285.50567102316546,
+            "originX": 0.3666179891477266,
+            "originY": 0.6303940900629003
+        },
+        {
+            "type": "Image",
+            "id": "8a9c54a0-c5e5-4ebd-8d36-9484848c8d2e",
+            "label": "symbol_545",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 545"
+            },
+            "x": 774,
+            "y": 446
+        },
+        {
+            "type": "Image",
+            "id": "608b6bb3-290f-44a0-8c53-5ba0c44d5f8e",
+            "label": "symbol_733",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 733"
+            },
+            "x": 248,
+            "y": 631
+        },
+        {
+            "type": "Image",
+            "id": "31bfa297-cd56-4d7b-b1b2-5720cc3d9719",
+            "label": "symbol_719",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 719"
+            },
+            "x": 110,
+            "y": 608
+        },
+        {
+            "type": "Image",
+            "id": "baa8760c-23d3-40d8-8d4e-88627225db12",
+            "label": "symbol_1",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 719"
+            },
+            "x": 1069,
+            "y": 566
+        },
+        {
+            "type": "Image",
+            "id": "10b10573-a5c0-47e3-8a50-b50303a73cd7",
+            "label": "symbol_2",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 719"
+            },
+            "x": 839,
+            "y": 623,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "1b39a393-8b5c-4367-9ebb-5aa5797183d7",
+            "label": "symbol_735",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 735"
+            },
+            "x": 107,
+            "y": 680
+        },
+        {
+            "type": "Image",
+            "id": "06bf2844-575b-462a-9272-8a26d75c85cc",
+            "label": "s_mbolo_11",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Símbolo 11"
+            },
+            "x": 165,
+            "y": 218
+        },
+        {
+            "type": "Image",
+            "id": "c772c6fa-5aeb-4b01-9683-01df4279ae20",
+            "label": "door",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "port",
+                "frame": "door"
+            },
+            "x": 187,
+            "y": 317,
+            "scaleX": 1.1,
+            "scaleY": 1.1
+        },
+        {
+            "type": "Image",
+            "id": "9c2d296c-1dfd-457b-a0f9-1f5a7a6500c2",
+            "label": "symbol_514",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 514"
+            },
+            "x": 832,
+            "y": 245
+        },
+        {
+            "type": "Image",
+            "id": "a9357ffa-9412-43df-8769-21a1dea658a2",
+            "label": "symbol_555",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 555"
+            },
+            "x": 1180,
+            "y": 280
+        },
+        {
+            "type": "Image",
+            "id": "86288a97-1aec-4d75-9db1-ffb129d3a165",
+            "label": "symbol_3",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 719"
+            },
+            "x": 590,
+            "y": 637
+        },
+        {
+            "type": "Image",
+            "id": "8ec23e75-3651-4700-bc84-6fa5b11680b1",
+            "label": "symbol_573",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 573"
+            },
+            "x": 1145.5042993162485,
+            "y": 321.8155937850912,
+            "originX": 0.6024014253154693,
+            "originY": 0.24622255465296705
+        },
+        {
+            "type": "Image",
+            "id": "8dace206-407c-4661-8f33-72cd71afe5a0",
+            "label": "symbol_561",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 561"
+            },
+            "x": 868,
+            "y": 477
+        },
+        {
+            "type": "Image",
+            "id": "131c1cac-a1f2-4acb-a949-eba04f5369fb",
+            "label": "symbol_567",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 567"
+            },
+            "x": 608,
+            "y": 506
+        },
+        {
+            "type": "Image",
+            "id": "a6cb92a0-75ba-4a12-a5d1-54d3b9339d5c",
+            "label": "symbol_713",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 713"
+            },
+            "x": 166,
+            "y": 508
+        },
+        {
+            "type": "Sprite",
+            "id": "1de9b365-a796-40ef-a8ef-6e43a1700eed",
+            "label": "wave10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 106,
+            "y": 883,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "originX": 0.9023367535710926,
+            "originY": 0.11992137215167828,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "69969348-f9e4-4790-b269-2a86aa641baa",
+            "label": "wave",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 185,
+            "y": 871,
+            "scaleX": 1.9,
+            "scaleY": 1.9,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "88b4d682-0bc7-4c76-9108-93e1f481a517",
+            "label": "wave20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave2",
+            "Animation.end": 18,
+            "texture": {
+                "key": "port",
+                "frame": "wave20001"
+            },
+            "x": 415,
+            "y": 851,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "06834534-d8e4-42a4-ad1f-a07bbf4c2790",
+            "label": "wave_1",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 708,
+            "y": 868,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "originX": 0.9023367535710926,
+            "originY": 0.11992137215167828,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "f207a718-60e7-4504-94bd-612164cf1fb3",
+            "label": "wave_2",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 787,
+            "y": 856,
+            "scaleX": 1.9,
+            "scaleY": 1.9,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "f5e47416-3673-4aab-85ef-d583dbb9c7f3",
+            "label": "wave_3",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave2",
+            "Animation.end": 18,
+            "texture": {
+                "key": "port",
+                "frame": "wave20001"
+            },
+            "x": 1048,
+            "y": 839,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "3b12e68d-6d5a-4566-8f3b-f71a26e48da2",
+            "label": "wave_4",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 1285,
+            "y": 862,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "originX": 0.9023367535710926,
+            "originY": 0.11992137215167828,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "f6ef9723-5821-43b3-8afd-fd3b15cb00ea",
+            "label": "wave_5",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 1364,
+            "y": 850,
+            "scaleX": 1.9,
+            "scaleY": 1.9,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "72cf6653-0d00-4957-abee-8a03d830e599",
+            "label": "wave_10",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 909,
+            "y": 738,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "originX": 0.9023367535710926,
+            "originY": 0.11992137215167828,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "65446557-ccb3-4702-884c-67fd9edc3c1c",
+            "label": "wave_11",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 988,
+            "y": 726,
+            "scaleX": 1.9,
+            "scaleY": 1.9,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "ee31805f-ee7d-49be-bc6b-740f1982b54b",
+            "label": "wave_12",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave2",
+            "Animation.end": 18,
+            "texture": {
+                "key": "port",
+                "frame": "wave20001"
+            },
+            "x": 1299,
+            "y": 708,
+            "scaleX": 2.4,
+            "scaleY": 2.4
+        },
+        {
+            "type": "Sprite",
+            "id": "2d3c531e-ecea-4456-abf5-17fff3b30ece",
+            "label": "wave_13",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 1511,
+            "y": 723,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "originX": 0.9023367535710926,
+            "originY": 0.11992137215167828,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "d1f22a9e-ddf5-42aa-8915-03d265e68656",
+            "label": "wave_22",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 230,
+            "y": 939,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "originX": 0.9023367535710926,
+            "originY": 0.11992137215167828,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "49aa5ba0-86d1-498f-9e46-737c450b70c9",
+            "label": "wave_23",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 309,
+            "y": 927,
+            "scaleX": 1.9,
+            "scaleY": 1.9,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "5ef89c41-9bc2-47b6-80fa-24765a8c00e8",
+            "label": "wave_24",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave2",
+            "Animation.end": 18,
+            "texture": {
+                "key": "port",
+                "frame": "wave20001"
+            },
+            "x": 570,
+            "y": 909,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "e7558e45-6838-4d99-b6cb-c370087bc178",
+            "label": "wave_25",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 832,
+            "y": 924,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "originX": 0.9023367535710926,
+            "originY": 0.11992137215167828,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "d8034b05-0048-4431-9607-4447206b4360",
+            "label": "wave_26",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 911,
+            "y": 912,
+            "scaleX": 1.9,
+            "scaleY": 1.9,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "ea6d2610-b859-4a41-b0c8-1b2643dfc511",
+            "label": "wave_27",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave2",
+            "Animation.end": 18,
+            "texture": {
+                "key": "port",
+                "frame": "wave20001"
+            },
+            "x": 1188,
+            "y": 920,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "410a588a-3b63-4a37-8c76-d8cdc537520c",
+            "label": "wave_28",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 1409,
+            "y": 918,
+            "scaleX": 2.4,
+            "scaleY": 2.4,
+            "originX": 0.9023367535710926,
+            "originY": 0.11992137215167828,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "860c065b-4546-44de-a1fa-0c129f4aeb68",
+            "label": "wave_29",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wave1",
+            "Animation.end": 42,
+            "texture": {
+                "key": "port",
+                "frame": "wave10001"
+            },
+            "x": 1488,
+            "y": 906,
+            "scaleX": 1.9,
+            "scaleY": 1.9,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "88b40bce-029b-485a-a839-2a9878ff7bfe",
+            "label": "symbol_921",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 921"
+            },
+            "x": 92,
+            "y": 772
+        },
+        {
+            "type": "Sprite",
+            "id": "7932c472-11c0-402e-9696-0a42c1077e68",
+            "label": "floating0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "floating",
+            "Animation.end": 48,
+            "texture": {
+                "key": "port",
+                "frame": "floating0001"
+            },
+            "x": 899,
+            "y": 776
+        },
+        {
+            "type": "Image",
+            "id": "7a3ae54e-a579-4e33-a982-9d473da30923",
+            "label": "s_mbolo_4",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Símbolo 4"
+            },
+            "x": 787,
+            "y": 685
+        },
+        {
+            "type": "Image",
+            "id": "343c2f85-e438-44ea-bf50-940f2145253b",
+            "label": "symbol_228_copy",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Symbol 228 copy"
+            },
+            "x": 792,
+            "y": 639
+        },
+        {
+            "type": "Image",
+            "id": "65fc4244-babd-4077-836d-64cb95845728",
+            "label": "s_mbolo_10",
+            "components": [],
+            "texture": {
+                "key": "port",
+                "frame": "Símbolo 10"
+            },
+            "x": 375,
+            "y": 689
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "01ecafd8-6868-472b-afb1-68e343d46a3d",
+            "label": "sort",
+            "objectIds": [
+                "8ec23e75-3651-4700-bc84-6fa5b11680b1"
+            ]
+        }
+    ]
+}

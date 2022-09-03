@@ -1,0 +1,236 @@
+{
+    "id": "efa25746-f9b8-4b28-925d-5f8ffabef25d",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/mineint/mineint-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Mineint",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c1b97fc0-7115-4ccc-9c32-bb17b18f6c1d",
+            "label": "bg",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "bg"
+            },
+            "x": 882,
+            "y": 479.55536663014095,
+            "originY": 0.5040928720845831
+        },
+        {
+            "type": "Image",
+            "id": "e12b5eba-3fee-44e3-a37b-2fd60a7758c5",
+            "label": "s_mbolo_35",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Símbolo 35"
+            },
+            "x": 579,
+            "y": 501
+        },
+        {
+            "type": "Sprite",
+            "id": "8d658bec-5e30-4437-b021-dd14b9cb6dbe",
+            "label": "rescue0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "rescue",
+            "Animation.start": 10,
+            "Animation.end": 11,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "texture": {
+                "key": "mineint",
+                "frame": "rescue0001"
+            },
+            "x": 253,
+            "y": -28
+        },
+        {
+            "type": "Image",
+            "id": "853c76b4-ae01-4612-ba28-fab9c2d37611",
+            "label": "button",
+            "components": [
+                "ShowHint",
+                "SimpleButton"
+            ],
+            "ShowHint.text": "Play Puffle Rescue",
+            "texture": {
+                "key": "mineint",
+                "frame": "button"
+            },
+            "x": 250,
+            "y": 88
+        },
+        {
+            "type": "Image",
+            "id": "bd22f589-702e-4264-bcdf-ac4d4d03c1f9",
+            "label": "s_mbolo_33",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Símbolo 33"
+            },
+            "x": 1193,
+            "y": 810
+        },
+        {
+            "type": "Image",
+            "id": "3ccff8fd-b74d-4d86-b6c9-103722c184d4",
+            "label": "symbol_5",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Symbol 5"
+            },
+            "x": 712.4138180538076,
+            "y": 571.0491090053631,
+            "originX": 0.4697865511452747,
+            "originY": 1.0079669159463451
+        },
+        {
+            "type": "Image",
+            "id": "aa62d422-2427-40d6-8abf-e2377e5cb92d",
+            "label": "s_mbolo_37",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Símbolo 37"
+            },
+            "x": 252,
+            "y": 412
+        },
+        {
+            "type": "Image",
+            "id": "b67e221c-5834-4b9f-9338-a8fa6059067a",
+            "label": "shape_17",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Shape 17"
+            },
+            "x": 167,
+            "y": 542
+        },
+        {
+            "type": "Image",
+            "id": "7ac9aac6-68ad-4882-85d3-552452524d4e",
+            "label": "shape_45",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Shape 45"
+            },
+            "x": 866,
+            "y": 533
+        },
+        {
+            "type": "Image",
+            "id": "95c18cd5-a71f-4c8a-945d-451bb9e8dee0",
+            "label": "sprite_28",
+            "components": [
+                "ShowHint",
+                "SimpleButton"
+            ],
+            "ShowHint.text": "Play Cart Surfer",
+            "texture": {
+                "key": "mineint",
+                "frame": "sprite 28"
+            },
+            "x": 1269,
+            "y": 743
+        },
+        {
+            "type": "Image",
+            "id": "3a56a4f4-be37-4c65-8905-552a546789fc",
+            "label": "arc2",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "arc2"
+            },
+            "x": 1248,
+            "y": 658
+        },
+        {
+            "type": "Image",
+            "id": "49fa599a-05f2-428c-be16-7a3805bd0bad",
+            "label": "s_mbolo_34",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Símbolo 34"
+            },
+            "x": 1234,
+            "y": 574
+        },
+        {
+            "type": "Image",
+            "id": "ef230970-b8d4-4858-b223-8fca0dff550f",
+            "label": "arc1",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "arc1"
+            },
+            "x": 941,
+            "y": 121
+        },
+        {
+            "type": "Image",
+            "id": "81cc800e-9836-46b1-a5f9-1fd8ab1c7037",
+            "label": "s_mbolo_40",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Símbolo 40"
+            },
+            "x": 1166,
+            "y": 207
+        },
+        {
+            "type": "Image",
+            "id": "7bcfde31-21e8-4dab-9954-2c0e9dae6a40",
+            "label": "s_mbolo_39",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Símbolo 39"
+            },
+            "x": 563,
+            "y": 156
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "aed5dc3e-e758-443c-987d-6899e203d478",
+            "label": "sort",
+            "objectIds": [
+                "3ccff8fd-b74d-4d86-b6c9-103722c184d4"
+            ]
+        }
+    ]
+}

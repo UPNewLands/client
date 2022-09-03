@@ -1,0 +1,415 @@
+{
+    "id": "ccad5aac-383a-4b4e-b66d-5e213f0f5932",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/lake/lake-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Lake",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "a8c853d6-ae2d-41f6-b1c2-57a410bc02ee",
+            "label": "s_mbolo_2",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Símbolo 2"
+            },
+            "x": 849,
+            "y": 639
+        },
+        {
+            "type": "Image",
+            "id": "cb4b1b56-0e4d-4893-8178-c48afec309ea",
+            "label": "s_mbolo_3",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Símbolo 3"
+            },
+            "x": 891,
+            "y": 995,
+            "originX": 0.5033443208200835,
+            "originY": 1.0183697271129328
+        },
+        {
+            "type": "Sprite",
+            "id": "7f5d04cd-3890-416b-ab60-a4e89e99c61b",
+            "label": "buoy0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "buoy",
+            "Animation.end": 50,
+            "texture": {
+                "key": "lake",
+                "frame": "buoy0001"
+            },
+            "x": 1351.4317262615164,
+            "y": 1109.5079281041458,
+            "originX": 0.5219982452661305,
+            "originY": 3.318918000531356
+        },
+        {
+            "type": "Image",
+            "id": "19459724-3e83-424d-9d8c-d4a0546d2134",
+            "label": "symbol_1",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 1"
+            },
+            "x": 712.1129150390625,
+            "y": 1191.8485107421875,
+            "originX": 0.5330979263826029,
+            "originY": 1.3272006818819861
+        },
+        {
+            "type": "Image",
+            "id": "d30d8868-1fe3-4669-86d6-2d6354df9240",
+            "label": "symbol_32",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 32"
+            },
+            "x": 488,
+            "y": 100
+        },
+        {
+            "type": "Image",
+            "id": "598db524-5c74-45ae-aafa-5c21be013e6e",
+            "label": "symbol_8",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 8"
+            },
+            "x": 415,
+            "y": 797
+        },
+        {
+            "type": "Image",
+            "id": "1c9d4a86-8db0-4560-963d-3f6b9986583d",
+            "label": "symbol_25",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 25"
+            },
+            "x": 175,
+            "y": 126
+        },
+        {
+            "type": "Image",
+            "id": "d2cba0c1-2529-4b98-a5dd-732c610d8eb2",
+            "label": "symbol_3",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 3"
+            },
+            "x": 1071,
+            "y": 173
+        },
+        {
+            "type": "Image",
+            "id": "9d8df5fb-0ca1-4917-bddb-c5c31ebcc2ae",
+            "label": "symbol_11",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 11"
+            },
+            "x": 661,
+            "y": 268
+        },
+        {
+            "type": "Image",
+            "id": "73dcce47-3da0-4050-95f4-4532798ff959",
+            "label": "symbol_22",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 22"
+            },
+            "x": 100,
+            "y": 424
+        },
+        {
+            "type": "Image",
+            "id": "2e93bdf4-1e8f-4cb0-b353-31bed9a47dd8",
+            "label": "symbol_192",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 192"
+            },
+            "x": 91,
+            "y": 372
+        },
+        {
+            "type": "Image",
+            "id": "da07eb71-025c-490d-a55c-c815403aebab",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 192"
+            },
+            "x": 24,
+            "y": 395
+        },
+        {
+            "type": "Sprite",
+            "id": "19a7e43f-6bbc-4dec-b2b8-a800962a55a5",
+            "label": "speakers0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speakers",
+            "Animation.end": 10,
+            "texture": {
+                "key": "lake",
+                "frame": "speakers0001"
+            },
+            "x": 99,
+            "y": 368
+        },
+        {
+            "type": "Image",
+            "id": "4b33348a-fde0-4ecc-a7a6-1e9aab9721ad",
+            "label": "s_mbolo_11",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Símbolo 11"
+            },
+            "x": 802,
+            "y": 407
+        },
+        {
+            "type": "Sprite",
+            "id": "a4c9fa62-2acc-423f-967f-89ccc3517561",
+            "label": "speakers",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speakers",
+            "Animation.end": 10,
+            "texture": {
+                "key": "lake",
+                "frame": "speakers0001"
+            },
+            "x": 34,
+            "y": 385
+        },
+        {
+            "type": "Image",
+            "id": "fe413f4a-bd77-47d6-a9b9-aefcb8cfe6af",
+            "label": "s_mbolo_12",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Símbolo 12"
+            },
+            "x": 749,
+            "y": 265
+        },
+        {
+            "type": "Sprite",
+            "id": "2298bd8d-7fa9-4c6d-86b8-f09e79e4722e",
+            "label": "lights0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lights",
+            "Animation.end": 46,
+            "texture": {
+                "key": "lake",
+                "frame": "lights0001"
+            },
+            "x": 79,
+            "y": 400
+        },
+        {
+            "type": "Image",
+            "id": "e3c1649e-5621-443e-8726-c0f477a3f3f8",
+            "label": "symbol_16",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 16"
+            },
+            "x": 734,
+            "y": 348
+        },
+        {
+            "type": "Image",
+            "id": "165e298a-5e8a-42cb-b85b-17114e707636",
+            "label": "pole0002",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "pole0002"
+            },
+            "x": 527,
+            "y": 126
+        },
+        {
+            "type": "Image",
+            "id": "5e8e0ce9-979e-4a7e-a50f-e90198eac12a",
+            "label": "s_mbolo_7",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Símbolo 7"
+            },
+            "x": 1244,
+            "y": 26
+        },
+        {
+            "type": "Image",
+            "id": "37dae505-b4f4-48d3-90dd-fa93ffef0c9e",
+            "label": "shape_315",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "shape 315"
+            },
+            "x": 912,
+            "y": 134,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        },
+        {
+            "type": "Sprite",
+            "id": "8ed13f4e-3e78-4898-bad0-89e5c114ccbd",
+            "label": "fire0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire",
+            "Animation.end": 20,
+            "texture": {
+                "key": "lake",
+                "frame": "fire0001"
+            },
+            "x": 916,
+            "y": 72,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        },
+        {
+            "type": "Sprite",
+            "id": "570e22a4-0bf2-41a8-8032-e25a80968c2b",
+            "label": "boat0001",
+            "components": [
+                "Animation",
+                "SimpleButton",
+                "ShowHint"
+            ],
+            "Animation.key": "boat",
+            "Animation.end": 80,
+            "ShowHint.text": "Play Hydro Hopper",
+            "texture": {
+                "key": "lake",
+                "frame": "boat0001"
+            },
+            "x": 422.3674793521371,
+            "y": 849.142231878498,
+            "originX": 0.5290915055829669,
+            "originY": 0.4669841918417959,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "1532352a-7cb1-46df-a344-d57b551fb506",
+            "label": "s_mbolo_8",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Símbolo 8"
+            },
+            "x": 1218,
+            "y": 141
+        },
+        {
+            "type": "Image",
+            "id": "24e44309-1ce4-4dcd-895b-d952a9f65c35",
+            "label": "symbol_411",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 411"
+            },
+            "x": 1277,
+            "y": 114
+        },
+        {
+            "type": "Image",
+            "id": "d8226d98-f543-4370-9010-cfc831e0f576",
+            "label": "symbol_425",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 425"
+            },
+            "x": 1204,
+            "y": 118
+        },
+        {
+            "type": "Image",
+            "id": "e43dd66b-ee31-4afc-b5c1-b1345c1dae4e",
+            "label": "symbol_2",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 411"
+            },
+            "x": 1127,
+            "y": 170
+        },
+        {
+            "type": "Image",
+            "id": "2b239f4a-faa0-450d-9b82-b5d2ca3f6da7",
+            "label": "s_mbolo_9",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Símbolo 9"
+            },
+            "x": 727,
+            "y": 55
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "2b62c150-1172-42a9-8fd6-0abe2631136f",
+            "label": "sort",
+            "objectIds": [
+                "cb4b1b56-0e4d-4893-8178-c48afec309ea",
+                "7f5d04cd-3890-416b-ab60-a4e89e99c61b",
+                "570e22a4-0bf2-41a8-8032-e25a80968c2b"
+            ]
+        }
+    ]
+}

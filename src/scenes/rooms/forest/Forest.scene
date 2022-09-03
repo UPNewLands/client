@@ -1,0 +1,343 @@
+{
+    "id": "6fc6429c-88a9-499f-bc93-ad79ff673de2",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/forest/forest-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Forest",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "611a0152-b02b-437f-9c49-53213333f6b0",
+            "label": "symbol_126",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 126"
+            },
+            "x": 726,
+            "y": 167
+        },
+        {
+            "type": "Image",
+            "id": "800d8ddb-ebc7-4528-86e2-e5d5ef276ab1",
+            "label": "fondo",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "fondo"
+            },
+            "x": 767,
+            "y": 448
+        },
+        {
+            "type": "Sprite",
+            "id": "3225f881-0665-4c34-ad27-2de1de50ffe1",
+            "label": "water",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "water",
+            "Animation.end": 6,
+            "texture": {
+                "key": "forest",
+                "frame": "water0001"
+            },
+            "x": 917,
+            "y": 54
+        },
+        {
+            "type": "Sprite",
+            "id": "3fbcdb3a-40e8-4f5f-8b6f-0e65358b13bd",
+            "label": "water0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "water",
+            "Animation.end": 6,
+            "texture": {
+                "key": "forest",
+                "frame": "water0001"
+            },
+            "x": 918,
+            "y": 123
+        },
+        {
+            "type": "Image",
+            "id": "bec61e9e-8cba-4ad7-8124-20316a5b45ef",
+            "label": "symbol_185",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 185"
+            },
+            "x": 549,
+            "y": 253
+        },
+        {
+            "type": "Image",
+            "id": "9204798d-a5e6-46cf-bfaf-e8d469a5dcfb",
+            "label": "sprite_148",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Sprite 148"
+            },
+            "x": 758,
+            "y": 393
+        },
+        {
+            "type": "Image",
+            "id": "c13ec0a3-db64-414f-99f1-3887e3b1bf82",
+            "label": "symbol_195",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 195"
+            },
+            "x": 1307,
+            "y": 244
+        },
+        {
+            "type": "Image",
+            "id": "137555f3-d903-40d7-a5e7-8c854f527b52",
+            "label": "shape_202",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "shape 202"
+            },
+            "x": 1110,
+            "y": 341
+        },
+        {
+            "type": "Image",
+            "id": "2f110457-b0bf-40f6-8655-552dc7fea309",
+            "label": "sprite_345",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "sprite 345"
+            },
+            "x": 1184.4957158806087,
+            "y": 417.82619313434776,
+            "originX": 0.7125974072745124,
+            "originY": 0.9756936737572747
+        },
+        {
+            "type": "Image",
+            "id": "766870f9-f256-462f-960b-d887eb703892",
+            "label": "symbol_222",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 222"
+            },
+            "x": 451,
+            "y": 710
+        },
+        {
+            "type": "Image",
+            "id": "5cee4930-08b8-460d-b1ef-cf64400d370c",
+            "label": "sprite_204",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Sprite 204"
+            },
+            "x": 248.4565167395822,
+            "y": 680.5871689076805,
+            "originX": 0.5964627515794247,
+            "originY": 0.49339804791086717
+        },
+        {
+            "type": "Image",
+            "id": "848ecccf-2037-4787-821f-b438bfb9ed60",
+            "label": "sprite_211",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Sprite 211"
+            },
+            "x": 146.68820698358644,
+            "y": 792.2547096773266,
+            "originX": 0.27889374268883843,
+            "originY": 0.8142781055322537
+        },
+        {
+            "type": "Image",
+            "id": "0f43cfb7-316a-4947-b6e8-54800584e564",
+            "label": "symbol_359",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 359"
+            },
+            "x": 327,
+            "y": 825
+        },
+        {
+            "type": "Image",
+            "id": "142fb0f6-6d68-4f2d-a973-482e6a08900e",
+            "label": "symbol_224",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 224"
+            },
+            "x": 630,
+            "y": 765
+        },
+        {
+            "type": "Image",
+            "id": "69c14bfd-a031-423f-a810-c2ce4ba26a9e",
+            "label": "symbol_220",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 220"
+            },
+            "x": 497,
+            "y": 778
+        },
+        {
+            "type": "Sprite",
+            "id": "1b8253bd-a1cd-44ea-866d-4007f0d783ee",
+            "label": "fire0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire",
+            "Animation.end": 20,
+            "texture": {
+                "key": "forest",
+                "frame": "fire0001"
+            },
+            "x": 553,
+            "y": 958,
+            "scaleX": 0.9,
+            "scaleY": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "124539cd-a043-4946-9910-de3a46c1dd3c",
+            "label": "symbol_353",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 353"
+            },
+            "x": 497,
+            "y": 796,
+            "scaleX": 0.9,
+            "scaleY": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "baadc106-8faa-4084-b472-3ed5f63bdd83",
+            "label": "symbol_357",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 357"
+            },
+            "x": 498,
+            "y": 806
+        },
+        {
+            "type": "Image",
+            "id": "fb0fdfae-9243-4a55-ad64-aca54c82eb20",
+            "label": "sprite_195",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Sprite 195"
+            },
+            "x": 550,
+            "y": 837
+        },
+        {
+            "type": "Image",
+            "id": "7aa753e5-4369-4950-8dd4-b8a8522f9bfe",
+            "label": "symbol_361",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 361"
+            },
+            "x": 406,
+            "y": 898
+        },
+        {
+            "type": "Image",
+            "id": "802cd39d-0d86-4bba-9222-d6276aa1c934",
+            "label": "symbol_365",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 365"
+            },
+            "x": 280,
+            "y": 869
+        },
+        {
+            "type": "Image",
+            "id": "96dd4879-4998-4af8-b451-fafdc36315aa",
+            "label": "sprite_401",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Sprite 401"
+            },
+            "x": 940,
+            "y": 597
+        },
+        {
+            "type": "Image",
+            "id": "43f69ba3-a48e-46e0-8d5a-a50d34229d59",
+            "label": "symbol_385",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 385"
+            },
+            "x": 808.7732036329768,
+            "y": 1021.2665932153564,
+            "originX": 0.5088747109169189,
+            "originY": 0.9696676794335662
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "adc6dee8-ab4a-4215-92af-f5272ec15c19",
+            "label": "sort",
+            "objectIds": [
+                "43f69ba3-a48e-46e0-8d5a-a50d34229d59",
+                "2f110457-b0bf-40f6-8655-552dc7fea309",
+                "5cee4930-08b8-460d-b1ef-cf64400d370c",
+                "848ecccf-2037-4787-821f-b438bfb9ed60",
+                "1b8253bd-a1cd-44ea-866d-4007f0d783ee",
+                "baadc106-8faa-4084-b472-3ed5f63bdd83",
+                "124539cd-a043-4946-9910-de3a46c1dd3c"
+            ]
+        }
+    ]
+}
