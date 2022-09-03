@@ -29,7 +29,11 @@ export default class BaseScene extends Phaser.Scene {
     }
 
     getString(...args) {
-        return args.map(id => this.crumbs.strings[id.toString().toLowerCase()]).join(' ')
+        try {
+            return args.map(id => this.crumbs.strings[id.toLowerCase()] || id).join(' ')
+         } catch (error) {
+             return "Loading..."
+         }
     }
 
     getFormatString(id, ...args) {

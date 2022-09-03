@@ -212,7 +212,9 @@ export default class PlayerCard extends BaseContainer {
         if (this.paperDoll.puffle) {
             this.paperDoll.puffle.destroy()
         }
-        if (penguin.username_approved == 1) {
+
+        console.log(penguin.username_approved)
+        if (penguin.username_approved == 1 || penguin.username_approved === undefined) {
             this.username.text = penguin.username
         } else {
             this.username.text = "P" + penguin.id
