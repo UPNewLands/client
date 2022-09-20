@@ -60,9 +60,51 @@
                     "y": -173
                 },
                 {
-                    "type": "Image",
+                    "type": "Container",
+                    "id": "025f812e-74d9-402d-ae2c-948ede8bfd27",
+                    "label": "disableCoinBag",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 2,
+                    "y": -68,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "10ee505a-23a1-46d5-af42-a76551902329",
+                            "label": "coinbag_hidden",
+                            "components": [],
+                            "texture": {
+                                "key": "pufflePopup",
+                                "frame": "coinbag"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "2536b275-975c-4b63-9745-88c759622239",
+                            "label": "coinbag_disabled",
+                            "components": [],
+                            "texture": {
+                                "key": "pufflePopup",
+                                "frame": "coinbag"
+                            },
+                            "alpha": 0.3,
+                            "alphaTopLeft": 0.3,
+                            "alphaTopRight": 0.3,
+                            "alphaBottomLeft": 0.3,
+                            "alphaBottomRight": 0.3,
+                            "tintTopLeft": "#000000",
+                            "tintTopRight": "#000000",
+                            "tintBottomLeft": "#000000",
+                            "tintBottomRight": "#000000",
+                            "tintFill": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Sprite",
                     "id": "0851f142-3aea-4184-84da-5662aa372ba1",
                     "label": "coinbag",
+                    "scope": "CLASS",
                     "components": [
                         "Button"
                     ],
@@ -73,7 +115,8 @@
                         "frame": "coinbag"
                     },
                     "x": 2,
-                    "y": -68
+                    "y": -68,
+                    "visible": false
                 },
                 {
                     "type": "Image",

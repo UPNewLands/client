@@ -103,7 +103,7 @@
                 "Button"
             ],
             "Button.spriteName": "blue-button",
-            "Button.callback": "() => this.pufflesMenu.visible = true",
+            "Button.callback": "() => this.openPuffleMenu()",
             "texture": {
                 "key": "main",
                 "frame": "blue-button"
@@ -1023,6 +1023,86 @@
             "y": 249.00000000000003,
             "visible": false,
             "nestedPrefabs": []
+        },
+        {
+            "type": "Container",
+            "id": "2aadc1ea-e413-4834-bcc2-979cdd759e22",
+            "label": "popup_coins",
+            "scope": "CLASS",
+            "components": [],
+            "x": 727,
+            "y": -106,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "1ec1dbfd-0aa8-4d00-9dee-6105615682cd",
+                    "label": "popup_coins_img",
+                    "components": [],
+                    "texture": {
+                        "key": "dig_popup",
+                        "frame": "popup_coins"
+                    },
+                    "x": 355,
+                    "y": 33,
+                    "alpha": 0.975,
+                    "alphaTopLeft": 0.975,
+                    "alphaTopRight": 0.975,
+                    "alphaBottomLeft": 0.975,
+                    "alphaBottomRight": 0.975
+                },
+                {
+                    "type": "Text",
+                    "id": "d65e0fe7-a621-4473-98a4-1f742259aca0",
+                    "label": "popup_coin_text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -1,
+                    "y": 23,
+                    "alpha": 0.975,
+                    "alphaTopLeft": 0.975,
+                    "alphaTopRight": 0.975,
+                    "alphaBottomLeft": 0.975,
+                    "alphaBottomRight": 0.975,
+                    "text": "You've earned XXXX Coins! ",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "56px",
+                    "fontStyle": "bold italic"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "58f21ae1-7d92-434c-8c0b-2c616fbaa35e",
+            "label": "popup_items",
+            "scope": "CLASS",
+            "components": [],
+            "x": 948,
+            "y": -188,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c11cd0bf-272f-4092-8f97-bb330d154713",
+                    "label": "popup_items_img",
+                    "components": [],
+                    "texture": {
+                        "key": "dig_popup",
+                        "frame": "popup_items"
+                    },
+                    "x": 141,
+                    "y": 48
+                },
+                {
+                    "type": "Text",
+                    "id": "674b1c4c-b521-4d9f-83ef-cda94ebcb75d",
+                    "label": "popup_items_text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "text": "####################\nHas been Unlocked",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "42px"
+                }
+            ]
         }
     ],
     "plainObjects": [],

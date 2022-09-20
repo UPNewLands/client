@@ -13,12 +13,28 @@ export default class Puffles extends Plugin {
             'walk_puffle': this.walkPuffle,
             'get_puffle_count': this.getPuffleCount,
             'adopt_puffle': this.adoptPuffle,
-            'play_puffle_anim': this.sendPuffleAnim
+            'play_puffle_anim': this.sendPuffleAnim,
+            'puffle_timeout' : this.timeout,
+            'puffle_dig': this.puffleDig,
         }
     }
 
     get room() {
         return this.world.room
+    }
+
+    timeout(args) {
+        this.world.client.penguin.puffleTimeout = args.timeout
+    }
+
+    puffleDig(args) {
+        this.network.send("puffle_timeout")
+        if (args.type == "coins") {
+            this.world.interface.main.popup_coin_text.text = `You've earned ${args.coins} Coins!`
+            this.world.interface.main.onCoinDigtween()
+            this.world.client.coins += args.coins
+        }
+
     }
 
     getPuffles(args) {
@@ -119,7 +135,7 @@ export default class Puffles extends Plugin {
         if (!this.world.room) return
         let penguin = this.room.penguins[args.id]
         if (penguin.pufflesprite) {
-            penguin.playPuffleAnim(args.anim)
+            penguin.playPuffleAnim(args.anim)  
         }
     }
 }

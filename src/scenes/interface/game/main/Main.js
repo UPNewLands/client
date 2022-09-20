@@ -140,6 +140,14 @@ export default class Main extends BaseScene {
         this.cavepopup;
         /** @type {Telescope} */
         this.telescope;
+        /** @type {Phaser.GameObjects.Container} */
+        this.popup_coins;
+        /** @type {Phaser.GameObjects.Text} */
+        this.popup_coin_text;
+        /** @type {Phaser.GameObjects.Container} */
+        this.popup_items;
+        /** @type {Phaser.GameObjects.Text} */
+        this.popup_items_text;
         /** @type {Array<PlayerCard|Buddy>} */
         this.hideOnSleep;
         /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite|ChatLog>} */
@@ -439,6 +447,43 @@ export default class Main extends BaseScene {
         this.add.existing(telescope);
         telescope.visible = false;
 
+        // popup_coins
+        const popup_coins = this.add.container(727, -106);
+
+        // popup_coins_img
+        const popup_coins_img = this.add.image(355, 33, "dig_popup", "popup_coins");
+        popup_coins_img.alpha = 0.975;
+        popup_coins_img.alphaTopLeft = 0.975;
+        popup_coins_img.alphaTopRight = 0.975;
+        popup_coins_img.alphaBottomLeft = 0.975;
+        popup_coins_img.alphaBottomRight = 0.975;
+        popup_coins.add(popup_coins_img);
+
+        // popup_coin_text
+        const popup_coin_text = this.add.text(-1, 23, "", {});
+        popup_coin_text.alpha = 0.975;
+        popup_coin_text.alphaTopLeft = 0.975;
+        popup_coin_text.alphaTopRight = 0.975;
+        popup_coin_text.alphaBottomLeft = 0.975;
+        popup_coin_text.alphaBottomRight = 0.975;
+        popup_coin_text.text = "You've earned XXXX Coins! ";
+        popup_coin_text.setStyle({ "fontFamily": "Burbank Small", "fontSize": "56px", "fontStyle": "bold italic" });
+        popup_coins.add(popup_coin_text);
+
+        // popup_items
+        const popup_items = this.add.container(948, -188);
+        popup_items.visible = false;
+
+        // popup_items_img
+        const popup_items_img = this.add.image(141, 48, "dig_popup", "popup_items");
+        popup_items.add(popup_items_img);
+
+        // popup_items_text
+        const popup_items_text = this.add.text(0, 0, "", {});
+        popup_items_text.text = "####################\nHas been Unlocked";
+        popup_items_text.setStyle({ "fontFamily": "Burbank Small", "fontSize": "42px" });
+        popup_items.add(popup_items_text);
+
         // lists
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];
@@ -449,7 +494,7 @@ export default class Main extends BaseScene {
         // puffle_button (components)
         const puffle_buttonButton = new Button(puffle_button);
         puffle_buttonButton.spriteName = "blue-button";
-        puffle_buttonButton.callback = () => this.pufflesMenu.visible = true;
+        puffle_buttonButton.callback = () => this.openPuffleMenu();
 
         // emote_button (components)
         const emote_buttonButton = new Button(emote_button);
@@ -600,6 +645,10 @@ export default class Main extends BaseScene {
         this.elevator = elevator;
         this.cavepopup = cavepopup;
         this.telescope = telescope;
+        this.popup_coins = popup_coins;
+        this.popup_coin_text = popup_coin_text;
+        this.popup_items = popup_items;
+        this.popup_items_text = popup_items_text;
         this.hideOnSleep = hideOnSleep;
         this.interfaceList = interfaceList;
 
@@ -991,6 +1040,44 @@ export default class Main extends BaseScene {
         });
     }
 
+    onCoinDigtween() {
+        let tween = this.tweens.add({
+            targets: this.popup_coins,
+            y: 0,
+            delay: 1000,
+            duration: 300,
+            onComplete: () => this.onCoinTweenComplete()
+        });
+    }
+
+    onItemDigtween() {
+        let tween = this.tweens.add({
+            targets: this.popup_items,
+            y: 0,
+            delay: 1000,
+            duration: 300,
+            onComplete: () => this.onItemTweenComplete()
+        });
+    }
+
+    onCoinTweenComplete() {
+        let tween = this.tweens.add({
+            targets: this.popup_coins,
+            y: -110,
+            delay: 1500,
+            duration: 300,
+        });
+    }
+
+    onItemTweenComplete() {
+        let tween = this.tweens.add({
+            targets: this.popup_items,
+            y: -186,
+            delay: 1500,
+            duration: 300,
+        });
+    }
+
     onStampTweenComplete() {
         let tween = this.tweens.add({
             targets: this.stampEarned,
@@ -1013,6 +1100,18 @@ export default class Main extends BaseScene {
     onPuffleClick(){
 
     }
+
+    openPuffleMenu() {
+        this.network.send("puffle_timeout");
+        if (this.world.client.penguin.puffleTimeout === undefined) {
+            this.world.client.penguin.puffleTimeout = true;
+        }        
+    
+        this.pufflesMenu.disableDigging(this.world.client.penguin.puffleTimeout)
+        this.pufflesMenu.visible = true
+
+    }
+
 
     showPuffle(color) {
         if (color === 0) {

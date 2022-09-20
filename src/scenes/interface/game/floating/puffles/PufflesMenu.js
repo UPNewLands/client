@@ -14,6 +14,10 @@ export default class PufflesMenu extends FloatingMenu {
         this.safe;
         /** @type {Phaser.GameObjects.Rectangle} */
         this.close;
+        /** @type {Phaser.GameObjects.Container} */
+        this.disableCoinBag;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.coinbag;
 
 
         // safe
@@ -34,8 +38,31 @@ export default class PufflesMenu extends FloatingMenu {
         const back = scene.add.image(1, -173, "pufflePopup", "back");
         this.add(back);
 
+        // disableCoinBag
+        const disableCoinBag = scene.add.container(2, -68);
+        this.add(disableCoinBag);
+
+        // coinbag_hidden
+        const coinbag_hidden = scene.add.sprite(0, 0, "pufflePopup", "coinbag");
+        disableCoinBag.add(coinbag_hidden);
+
+        // coinbag_disabled
+        const coinbag_disabled = scene.add.sprite(0, 0, "pufflePopup", "coinbag");
+        coinbag_disabled.alpha = 0.3;
+        coinbag_disabled.alphaTopLeft = 0.3;
+        coinbag_disabled.alphaTopRight = 0.3;
+        coinbag_disabled.alphaBottomLeft = 0.3;
+        coinbag_disabled.alphaBottomRight = 0.3;
+        coinbag_disabled.tintFill = true;
+        coinbag_disabled.tintTopLeft = 0;
+        coinbag_disabled.tintTopRight = 0;
+        coinbag_disabled.tintBottomLeft = 0;
+        coinbag_disabled.tintBottomRight = 0;
+        disableCoinBag.add(coinbag_disabled);
+
         // coinbag
-        const coinbag = scene.add.image(2, -68, "pufflePopup", "coinbag");
+        const coinbag = scene.add.sprite(2, -68, "pufflePopup", "coinbag");
+        coinbag.visible = false;
         this.add(coinbag);
 
         // jumpspin
@@ -80,7 +107,7 @@ export default class PufflesMenu extends FloatingMenu {
         // roll (components)
         const rollButton = new Button(roll);
         rollButton.spriteName = "roll";
-        rollButton.callback = () => {this.playPuffleAnim("sandonhead")};
+        rollButton.callback = () => {this.playPuffleAnim("roll")};
 
         // turn (components)
         const turnButton = new Button(turn);
@@ -99,6 +126,8 @@ export default class PufflesMenu extends FloatingMenu {
 
         this.safe = safe;
         this.close = close;
+        this.disableCoinBag = disableCoinBag;
+        this.coinbag = coinbag;
 
         /* START-USER-CTR-CODE */
 
@@ -116,13 +145,21 @@ export default class PufflesMenu extends FloatingMenu {
         }
 
         if (this.playing) {
+            this.world.interface.main.pufflesMenu.visible = false;
             this.network.send("play_puffle_anim", {id: this.world.client.penguin.id, anim: anim})
         }
     }
 
     puffleDig() {
-        let coins = this.getRandomInt(50, 300);
+        this.network.send("puffle_dig", {id: this.world.client.penguin.id})
         this.playPuffleAnim('dig')
+    }
+
+
+    disableDigging(bool) {
+        console.log(bool, !bool)
+        this.disableCoinBag.visible = !bool;
+        this.coinbag.visible = bool;
     }
 
     getRandomInt(min, max) {
