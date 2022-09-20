@@ -1,0 +1,726 @@
+{
+    "id": "11a36f1d-ddca-48a5-bd28-c58d51ab667e",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/lighthouse/lighthouse-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Lighthouse",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "92b49faf-c139-47ac-8903-ac92068c6e65",
+            "label": "symbol_61",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 61"
+            },
+            "x": 773,
+            "y": 627
+        },
+        {
+            "type": "Image",
+            "id": "c5879abd-9e3f-45f4-9805-b998fe8ce4ed",
+            "label": "symbol_375",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 375"
+            },
+            "x": 760,
+            "y": 337
+        },
+        {
+            "type": "Image",
+            "id": "9db6b4a6-585f-4b43-a967-f8e33b801147",
+            "label": "s_mbolo_12",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 12"
+            },
+            "x": 749,
+            "y": 359
+        },
+        {
+            "type": "Image",
+            "id": "7381d43d-6f81-4b6d-93c3-ba1eca8037e9",
+            "label": "s_mbolo_1",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 1"
+            },
+            "x": -7,
+            "y": 474
+        },
+        {
+            "type": "Image",
+            "id": "4ff88d30-6d18-43de-a240-deb73bba882f",
+            "label": "symbol_379",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 379"
+            },
+            "x": 729,
+            "y": 688
+        },
+        {
+            "type": "Image",
+            "id": "28488854-2b70-4904-987e-5f80d4b5e238",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "Button.activeFrame": false,
+            "MoveTo.x": 451,
+            "MoveTo.y": 403,
+            "texture": {
+                "key": "lighthouse",
+                "frame": "door"
+            },
+            "x": 451,
+            "y": 403
+        },
+        {
+            "type": "Image",
+            "id": "0c9e6f0e-a317-48b2-93a7-babd9007aaaa",
+            "label": "s_mbolo_7",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 7"
+            },
+            "x": 442,
+            "y": 400,
+            "scaleX": 1.1,
+            "scaleY": 1.05
+        },
+        {
+            "type": "Image",
+            "id": "20e707aa-5803-4a66-90b1-e261de286d71",
+            "label": "symbol1",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol1"
+            },
+            "x": 294,
+            "y": 396
+        },
+        {
+            "type": "Image",
+            "id": "50921962-6d10-4b3e-afdb-22844f878e0a",
+            "label": "symbol_200_copy",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 200 copy"
+            },
+            "x": 587,
+            "y": 481
+        },
+        {
+            "type": "Image",
+            "id": "5257d94c-bbd3-4913-a9c4-38070f2d67f9",
+            "label": "symbol_3340002",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 3340002"
+            },
+            "x": 296,
+            "y": 471
+        },
+        {
+            "type": "Image",
+            "id": "a2e6bfe5-c44d-4a93-a933-a775750d3b06",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 513"
+            },
+            "x": 316,
+            "y": 458
+        },
+        {
+            "type": "Image",
+            "id": "b063e25c-4337-4a83-9859-6e966642b8fb",
+            "label": "s_mbolo_6",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 6"
+            },
+            "x": 129,
+            "y": 228
+        },
+        {
+            "type": "Image",
+            "id": "e12e1ade-1059-4bab-a02c-d4530c013f2f",
+            "label": "s_mbolo_5",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 5"
+            },
+            "x": 100,
+            "y": 421
+        },
+        {
+            "type": "Sprite",
+            "id": "adbcf08e-190f-4863-9580-480d6093e4ec",
+            "label": "speakers0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speakers",
+            "Animation.end": 10,
+            "texture": {
+                "key": "lighthouse",
+                "frame": "speakers0001"
+            },
+            "x": 101,
+            "y": 346
+        },
+        {
+            "type": "Image",
+            "id": "b3062263-c105-415d-94f9-4bfc5923e812",
+            "label": "symbol_56",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 56"
+            },
+            "x": 472,
+            "y": 521
+        },
+        {
+            "type": "Image",
+            "id": "90d27338-2916-46db-8f01-35fdb1f3ea26",
+            "label": "symbol_57",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 57"
+            },
+            "x": 754,
+            "y": 659
+        },
+        {
+            "type": "Image",
+            "id": "ded0bb37-7afe-496c-a16d-614e99436567",
+            "label": "symbol_98_copy_2",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 98 copy 2"
+            },
+            "x": 930,
+            "y": 810
+        },
+        {
+            "type": "Image",
+            "id": "1eb36669-a53a-49ea-ba61-9a8a3ee2d28f",
+            "label": "symbol_180",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 180"
+            },
+            "x": -25,
+            "y": 683
+        },
+        {
+            "type": "Image",
+            "id": "af54e279-8194-4df7-93d9-73d4aadb8225",
+            "label": "symbol_19_copy_2",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 19 copy 2"
+            },
+            "x": 582,
+            "y": 358
+        },
+        {
+            "type": "Image",
+            "id": "cdf18b54-37b3-4fcf-bcb9-fe05813d42af",
+            "label": "s_mbolo_11",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 11"
+            },
+            "x": 859,
+            "y": 453
+        },
+        {
+            "type": "Image",
+            "id": "b6623d95-c9d8-4d52-bb55-dbfb75345f61",
+            "label": "instru",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "instru",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "instru"
+            },
+            "x": 750,
+            "y": 459
+        },
+        {
+            "type": "Image",
+            "id": "bdacd959-68cf-4d51-9748-cca2a7832db7",
+            "label": "symbol_71",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 71"
+            },
+            "x": 664,
+            "y": 472
+        },
+        {
+            "type": "Image",
+            "id": "ca33a0f1-9d06-4a6b-8d5a-447bb838cd2d",
+            "label": "s_mbolo_2",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 2"
+            },
+            "x": 1036,
+            "y": 413
+        },
+        {
+            "type": "Image",
+            "id": "2973bf0e-e31a-497b-a6ad-2989f1d3e01a",
+            "label": "s_mbolo_9",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 9"
+            },
+            "x": 960,
+            "y": 443
+        },
+        {
+            "type": "Image",
+            "id": "c2f140ea-40fe-42c0-bf2a-79daa667eb09",
+            "label": "s_mbolo_8",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 8"
+            },
+            "x": 1057,
+            "y": 543
+        },
+        {
+            "type": "Image",
+            "id": "41dc9449-e19b-402e-8084-9ca5f6ad28bf",
+            "label": "symbol_383",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 383"
+            },
+            "x": 626,
+            "y": 235
+        },
+        {
+            "type": "Image",
+            "id": "64792c24-5641-4802-beea-e993a992fc41",
+            "label": "symbol_410",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 410"
+            },
+            "x": 1262,
+            "y": 443
+        },
+        {
+            "type": "Image",
+            "id": "f8638c97-f556-406a-a777-c4affdeb45f1",
+            "label": "symbol_412",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 412"
+            },
+            "x": 1335,
+            "y": 408
+        },
+        {
+            "type": "Image",
+            "id": "b177d095-2208-46cf-afef-e5f73a68440c",
+            "label": "symbol_385",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 385"
+            },
+            "x": 108.67215993268778,
+            "y": 313.7193114407036,
+            "originX": 0.6105746609059512,
+            "originY": 0.9466827880784711
+        },
+        {
+            "type": "Image",
+            "id": "9814001f-5fc5-41e1-9db3-4dfc16de63d7",
+            "label": "s_mbolo_15",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 15"
+            },
+            "x": 875,
+            "y": 754
+        },
+        {
+            "type": "Image",
+            "id": "d7aee79e-1984-44b8-8623-f21c49f5e89f",
+            "label": "symbol_513",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 513"
+            },
+            "x": 658,
+            "y": 444
+        },
+        {
+            "type": "Image",
+            "id": "af770abf-8099-4ba8-af38-5e1ddac05408",
+            "label": "symbol_517",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 517"
+            },
+            "x": 1124.2437024692558,
+            "y": 480.67223148058173,
+            "originX": 0.45240187488528294,
+            "originY": 0.8404705746639919
+        },
+        {
+            "type": "Image",
+            "id": "acfc7be0-f418-49e0-83de-e3fe6f770092",
+            "label": "symbol_519",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 519"
+            },
+            "x": 1284.1419829851095,
+            "y": 657.1714926350478,
+            "originX": 0.5490934058212318,
+            "originY": 0.9309621995834507
+        },
+        {
+            "type": "Image",
+            "id": "da34845e-001e-4dd1-8923-4d2659629a1c",
+            "label": "symbol_523",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 523"
+            },
+            "x": 523.403338888349,
+            "y": 335.10749765274943,
+            "originX": 0.5517147197192334,
+            "originY": 0.9629016555477824
+        },
+        {
+            "type": "Image",
+            "id": "129d3a50-3aa1-4e37-a669-64a31c835d19",
+            "label": "symbol_4730001",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 4730001"
+            },
+            "x": 288,
+            "y": 120
+        },
+        {
+            "type": "Image",
+            "id": "2ded993f-5ceb-4c03-ad64-7e95775c1f84",
+            "label": "symbol_62",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 62"
+            },
+            "x": 404,
+            "y": 55
+        },
+        {
+            "type": "Image",
+            "id": "58575b18-c716-4dbc-84fe-eae0e1cdfe45",
+            "label": "symbol_17_copy",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 17 copy"
+            },
+            "x": 565,
+            "y": 66
+        },
+        {
+            "type": "Image",
+            "id": "acb95243-842e-44fc-9786-1e8eeb403d15",
+            "label": "symbol_6_copy_11",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 6 copy 11"
+            },
+            "x": 744,
+            "y": 59
+        },
+        {
+            "type": "Image",
+            "id": "9412172a-c7ae-43d4-a62a-7d00bb513659",
+            "label": "s_mbolo_13",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 13"
+            },
+            "x": 949,
+            "y": 86
+        },
+        {
+            "type": "Image",
+            "id": "8a6df273-bdbd-421f-9a0a-6de61663662e",
+            "label": "symbol_41_copy",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 41 copy"
+            },
+            "x": 1119,
+            "y": 98
+        },
+        {
+            "type": "Image",
+            "id": "672d4f47-8a45-4f15-8736-1024ee18a231",
+            "label": "s_mbolo_14",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 14"
+            },
+            "x": 1395,
+            "y": 214
+        },
+        {
+            "type": "Image",
+            "id": "357025be-a649-4617-8c70-185fed91e753",
+            "label": "symbol_42",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 42"
+            },
+            "x": 1256,
+            "y": 67
+        },
+        {
+            "type": "Image",
+            "id": "e3c4a23a-4203-41bc-81d3-39d4a785db00",
+            "label": "symbol_116",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 116"
+            },
+            "x": 933,
+            "y": 619
+        },
+        {
+            "type": "Image",
+            "id": "93341f31-fc96-481c-9329-d44ec92ef62f",
+            "label": "symbol_104",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 104"
+            },
+            "x": 795,
+            "y": 603,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "fd571333-fcf1-46b3-8fed-3130adaa7353",
+            "label": "symbol_94",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 94"
+            },
+            "x": 1083,
+            "y": 731
+        },
+        {
+            "type": "Image",
+            "id": "e5862aac-457c-4f09-922b-da517c0d09a2",
+            "label": "symbol_112",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 112"
+            },
+            "x": 988,
+            "y": 781,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "ff73f25e-1e0b-4d84-84e4-70a37cf7a575",
+            "label": "symbol_114",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 114"
+            },
+            "x": 671,
+            "y": 618
+        },
+        {
+            "type": "Image",
+            "id": "02b2b38b-0028-4777-922f-c367c8c80608",
+            "label": "s_mbolo_17",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 17"
+            },
+            "x": 885,
+            "y": 833
+        },
+        {
+            "type": "Image",
+            "id": "6ddf4749-5407-4271-b929-c457b7362413",
+            "label": "s_mbolo_16",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Símbolo 16"
+            },
+            "x": 314.7688745103184,
+            "y": 633.4150996082548,
+            "originX": 0.22464251280457595,
+            "originY": 0.3540721502458007
+        },
+        {
+            "type": "Image",
+            "id": "f9e8eb11-655e-4887-9607-d68f6bcb55a5",
+            "label": "symbol_6_copy_10",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 6 copy 10"
+            },
+            "x": 469,
+            "y": 830
+        },
+        {
+            "type": "Image",
+            "id": "015194b6-510e-4061-8e93-f55b0de2770b",
+            "label": "symbol_202_copy",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 202 copy"
+            },
+            "x": 150,
+            "y": 513
+        },
+        {
+            "type": "Image",
+            "id": "4ba529a2-4638-45b0-8d86-723d17fe674b",
+            "label": "symbol_291_copy",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 291 copy"
+            },
+            "x": 70,
+            "y": 906
+        },
+        {
+            "type": "Image",
+            "id": "e69b67a7-3f82-440e-b35c-05f6506ce2c5",
+            "label": "symbol_68",
+            "components": [],
+            "texture": {
+                "key": "lighthouse",
+                "frame": "Symbol 68"
+            },
+            "x": 1288,
+            "y": 895
+        },
+        {
+            "type": "Image",
+            "id": "912bbe08-bd1e-4e45-8198-09c199190847",
+            "label": "catalog",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "catalog",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "catalog"
+            },
+            "x": 1447,
+            "y": 913
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "7050d1d0-5f10-4808-a145-a426a7fb3d93",
+            "label": "sort",
+            "objectIds": [
+                "93341f31-fc96-481c-9329-d44ec92ef62f",
+                "e5862aac-457c-4f09-922b-da517c0d09a2",
+                "acfc7be0-f418-49e0-83de-e3fe6f770092",
+                "af770abf-8099-4ba8-af38-5e1ddac05408",
+                "da34845e-001e-4dd1-8923-4d2659629a1c",
+                "b177d095-2208-46cf-afef-e5f73a68440c",
+                "015194b6-510e-4061-8e93-f55b0de2770b",
+                "6ddf4749-5407-4271-b929-c457b7362413",
+                "f9e8eb11-655e-4887-9607-d68f6bcb55a5",
+                "e69b67a7-3f82-440e-b35c-05f6506ce2c5",
+                "4ba529a2-4638-45b0-8d86-723d17fe674b"
+            ]
+        }
+    ]
+}

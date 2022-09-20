@@ -1,0 +1,189 @@
+{
+    "id": "59527828-1063-4eef-984c-9a588945e879",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/beacon/beacon-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Beacon",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b9b97e8c-a515-477a-b3a4-4ab0406da578",
+            "label": "bg",
+            "components": [],
+            "texture": {
+                "key": "beacon",
+                "frame": "bg"
+            },
+            "x": 852,
+            "y": 566
+        },
+        {
+            "type": "Image",
+            "id": "6616bba5-112d-422f-9532-196c58836606",
+            "label": "s_mbolo_2",
+            "components": [],
+            "texture": {
+                "key": "beacon",
+                "frame": "Símbolo 2"
+            },
+            "x": 781,
+            "y": 613
+        },
+        {
+            "type": "Image",
+            "id": "dd6578c6-3d5c-4d8f-afca-f907a9e7306a",
+            "label": "monocular",
+            "components": [],
+            "texture": {
+                "key": "beacon",
+                "frame": "monocular"
+            },
+            "x": 258,
+            "y": 288
+        },
+        {
+            "type": "Image",
+            "id": "c6135f91-f398-4f73-8414-43259c939e61",
+            "label": "jetpack",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "jetpack",
+            "texture": {
+                "key": "beacon",
+                "frame": "jetpack"
+            },
+            "x": 1337,
+            "y": 561
+        },
+        {
+            "type": "Image",
+            "id": "4a0f4fb2-91e6-46e9-be3b-98982fa84fc7",
+            "label": "s_mbolo_4",
+            "components": [],
+            "texture": {
+                "key": "beacon",
+                "frame": "Símbolo 4"
+            },
+            "x": 193,
+            "y": 585
+        },
+        {
+            "type": "Image",
+            "id": "ec664736-b75d-4905-b3fd-ef06ca57a502",
+            "label": "fareoff",
+            "components": [],
+            "texture": {
+                "key": "beacon",
+                "frame": "fareoff"
+            },
+            "x": 695,
+            "y": 359
+        },
+        {
+            "type": "Sprite",
+            "id": "f8d4b3af-3b51-40bf-b5b0-f3be4086b63d",
+            "label": "fareon",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "beacon",
+                "frame": "fareon"
+            },
+            "x": 695,
+            "y": 359
+        },
+        {
+            "type": "Sprite",
+            "id": "91926fce-dd41-48a6-927a-1170db029219",
+            "label": "switch0001",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => { this.onClickSwitch() }",
+            "Animation.key": "switch",
+            "Animation.end": 19,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "Animation.stopOnOut": false,
+            "texture": {
+                "key": "beacon",
+                "frame": "switch0001"
+            },
+            "x": 501,
+            "y": 456
+        },
+        {
+            "type": "Image",
+            "id": "4f792015-bb2e-4374-b1e1-643f7273c622",
+            "label": "symbol_299",
+            "components": [],
+            "texture": {
+                "key": "beacon",
+                "frame": "Symbol 299"
+            },
+            "x": 707,
+            "y": 412
+        },
+        {
+            "type": "Image",
+            "id": "3b862745-2116-4417-982d-fba19c0cfa9c",
+            "label": "symbol_301",
+            "components": [],
+            "texture": {
+                "key": "beacon",
+                "frame": "Symbol 301"
+            },
+            "x": 719,
+            "y": 106
+        },
+        {
+            "type": "Image",
+            "id": "c3366a9d-68a7-4a97-a7a1-84233be3dc4e",
+            "label": "lightsoff",
+            "components": [],
+            "texture": {
+                "key": "beacon",
+                "frame": "lightsoff"
+            },
+            "x": 699,
+            "y": 364
+        },
+        {
+            "type": "Sprite",
+            "id": "f053f3fe-c3d8-48b8-b925-6ac2861c7627",
+            "label": "lights",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "beacon",
+                "frame": "lights"
+            },
+            "x": 699,
+            "y": 364
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

@@ -68,34 +68,43 @@ export default class PlayerCard extends BaseContainer {
         this.add(stats);
 
         // stamps_btn
-        const stamps_btn = scene.add.image(-132, 24, "main", "blue-button");
+        const stamps_btn = scene.add.image(-155, 28, "main", "blue-button");
+        stamps_btn.scaleX = 0.8;
+        stamps_btn.scaleY = 0.8;
         stats.add(stamps_btn);
 
         // card_coin
-        const card_coin = scene.add.image(-133, -28, "main", "card-coin");
+        const card_coin = scene.add.image(-156, -15, "main", "card-coin");
+        card_coin.scaleX = 0.8;
+        card_coin.scaleY = 0.8;
         stats.add(card_coin);
 
         // coins
-        const coins = scene.add.text(50, -25, "", {});
+        const coins = scene.add.text(22, -14, "", {});
         coins.setOrigin(0.5, 0.5);
+        coins.tintFill = true;
         coins.text = "Your Coins: 000000";
-        coins.setStyle({ "color": "#000000ff", "fixedWidth":300,"fontFamily": "Burbank Small", "fontSize": "24px" });
+        coins.setStyle({ "color": "#000000ff", "fixedWidth":300,"fontFamily": "Burbank Small", "fontSize": "20px", "fontStyle": "bold" });
         stats.add(coins);
 
         // stamps
-        const stamps = scene.add.text(50, 25, "", {});
+        const stamps = scene.add.text(22, 28, "", {});
         stamps.setOrigin(0.5, 0.5);
+        stamps.tintFill = true;
         stamps.text = "Your Stamps: 69/420";
-        stamps.setStyle({ "color": "#000000ff", "fixedWidth":300,"fontFamily": "Burbank Small", "fontSize": "24px" });
+        stamps.setStyle({ "color": "#000000ff", "fixedWidth":300,"fontFamily": "Burbank Small", "fontSize": "20px", "fontStyle": "bold" });
         stats.add(stamps);
 
         // card_stamp
-        const card_stamp = scene.add.image(-132, 23, "main", "stamps-icon");
+        const card_stamp = scene.add.image(-155, 27, "main", "stamps-icon");
+        card_stamp.scaleX = 0.8;
+        card_stamp.scaleY = 0.8;
         stats.add(card_stamp);
 
         // username
         const username = scene.add.text(0, -233, "", {});
         username.setOrigin(0.5, 0.5);
+        username.tintFill = true;
         username.text = "Username";
         username.setStyle({ "align": "center", "color": "#000000ff", "fixedWidth":360,"fontFamily": "Burbank Small", "fontSize": "32px", "fontStyle": "bold" });
         this.add(username);
@@ -127,6 +136,10 @@ export default class PlayerCard extends BaseContainer {
         // badge0001
         const badge0001 = scene.add.image(-149, -229, "newinterface", "badge0001");
         this.add(badge0001);
+
+        // bar
+        const bar = scene.add.image(0, 211, "newinterface", "bar");
+        this.add(bar);
 
         // this (components)
         const thisDraggableContainer = new DraggableContainer(this);
@@ -212,9 +225,7 @@ export default class PlayerCard extends BaseContainer {
         if (this.paperDoll.puffle) {
             this.paperDoll.puffle.destroy()
         }
-
-        console.log(penguin.username_approved)
-        if (penguin.username_approved == 1 || penguin.username_approved === undefined) {
+        if (penguin.username_approved == 1) {
             this.username.text = penguin.username
         } else {
             this.username.text = "P" + penguin.id

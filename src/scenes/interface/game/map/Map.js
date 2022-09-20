@@ -212,6 +212,14 @@ export default class Map extends BaseContainer {
         central_test_1.scaleY = 0.4364936485290203;
         this.add(central_test_1);
 
+        // rectangle_7
+        const rectangle_7 = scene.add.rectangle(-288, 238, 128, 128);
+        rectangle_7.scaleX = 0.5141331000220111;
+        rectangle_7.scaleY = 0.5863126157852041;
+        rectangle_7.alpha = 0.1;
+        rectangle_7.isFilled = true;
+        this.add(rectangle_7);
+
         // block (components)
         new Interactive(block);
 
@@ -355,7 +363,7 @@ export default class Map extends BaseContainer {
         const rectangle_3SimpleButton = new SimpleButton(rectangle_3);
         rectangle_3SimpleButton.callback = () => this.onRoomClick(50);
         const rectangle_3ShowHint = new ShowHint(rectangle_3);
-        rectangle_3ShowHint.text = "Park";
+        rectangle_3ShowHint.text = "Plaza";
 
         // rectangle_4 (components)
         const rectangle_4SimpleButton = new SimpleButton(rectangle_4);
@@ -379,6 +387,12 @@ export default class Map extends BaseContainer {
         const central_test_1ShowHint = new ShowHint(central_test_1);
         central_test_1ShowHint.text = "Central on Building";
         new SimpleButton(central_test_1);
+
+        // rectangle_7 (components)
+        const rectangle_7SimpleButton = new SimpleButton(rectangle_7);
+        rectangle_7SimpleButton.callback = () => this.onRoomClick(20);
+        const rectangle_7ShowHint = new ShowHint(rectangle_7);
+        rectangle_7ShowHint.text = "Tropical Forest";
 
         this.iglooMap = iglooMap;
 

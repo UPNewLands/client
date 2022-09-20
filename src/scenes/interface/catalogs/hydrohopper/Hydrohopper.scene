@@ -1,0 +1,95 @@
+{
+    "id": "c1ee8153-39c7-4f45-91e6-bad24b6c3069",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "Book",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/interface/catalogs/hydrohopper/hydrohopper-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Hydrohopper",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "dd1dcb44-1886-4adb-bf2b-69e9d88e9a26",
+            "label": "block",
+            "components": [
+                "Interactive"
+            ],
+            "x": 760,
+            "y": 480,
+            "isFilled": true,
+            "fillColor": "#000000",
+            "fillAlpha": 0.2,
+            "width": 1520,
+            "height": 960
+        },
+        {
+            "type": "Container",
+            "id": "d8fa7644-8311-4f68-ae30-8ce3aa03dd48",
+            "label": "page",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "2a5b545c-7ca9-4a4c-9f20-bc7ff53f6714",
+                    "label": "s_mbolo_6",
+                    "components": [],
+                    "texture": {
+                        "key": "hydrohopper",
+                        "frame": "Símbolo 6"
+                    },
+                    "x": 760,
+                    "y": 480
+                },
+                {
+                    "type": "Image",
+                    "id": "209a3218-b69c-4ebb-81b8-e1a5c9d0ed07",
+                    "label": "close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "hydrohopper",
+                        "frame": "close"
+                    },
+                    "x": 1029,
+                    "y": 108
+                }
+            ]
+        },
+        {
+            "prefabId": "bb8d6dc9-eb85-45c9-b69c-b79e066cea50",
+            "id": "110a739a-f8d5-4089-81bb-d16c59c122ec",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "tagHydro1",
+            "components": [],
+            "x": 745,
+            "y": 428,
+            "visible": false,
+            "nestedPrefabs": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

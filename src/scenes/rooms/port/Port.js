@@ -5,6 +5,7 @@
 
 import RoomScene from "../RoomScene";
 import Button from "../../components/Button";
+import MoveTo from "../../components/MoveTo";
 import Animation from "../../components/Animation";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
@@ -19,7 +20,10 @@ export default class Port extends RoomScene {
 
 
         /* START-USER-CTR-CODE */
-        // Write your code here.
+        this.roomTriggers = {
+            'tropical': () => this.triggerRoom(20, 1239, 816),
+            'lighthouse': () => this.triggerRoom(31, 620, 486)  
+        }
         /* END-USER-CTR-CODE */
     }
 
@@ -272,6 +276,9 @@ export default class Port extends RoomScene {
         // door (components)
         const doorButton = new Button(door);
         doorButton.spriteName = "door";
+        const doorMoveTo = new MoveTo(door);
+        doorMoveTo.x = 187;
+        doorMoveTo.y = 317;
 
         // wave10001 (components)
         const wave10001Animation = new Animation(wave10001);

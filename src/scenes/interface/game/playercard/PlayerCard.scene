@@ -121,8 +121,10 @@
                                 "key": "main",
                                 "frame": "blue-button"
                             },
-                            "x": -132,
-                            "y": 24
+                            "x": -155,
+                            "y": 28,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
                         },
                         {
                             "type": "Image",
@@ -133,8 +135,10 @@
                                 "key": "main",
                                 "frame": "card-coin"
                             },
-                            "x": -133,
-                            "y": -28
+                            "x": -156,
+                            "y": -15,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
                         },
                         {
                             "type": "Text",
@@ -142,14 +146,16 @@
                             "label": "coins",
                             "scope": "CLASS",
                             "components": [],
-                            "x": 50,
-                            "y": -25,
+                            "x": 22,
+                            "y": -14,
                             "originX": 0.5,
                             "originY": 0.5,
+                            "tintFill": true,
                             "text": "Your Coins: 000000",
                             "fixedWidth": 300,
                             "fontFamily": "Burbank Small",
-                            "fontSize": "24px",
+                            "fontSize": "20px",
+                            "fontStyle": "bold",
                             "color": "#000000ff"
                         },
                         {
@@ -158,14 +164,16 @@
                             "label": "stamps",
                             "scope": "CLASS",
                             "components": [],
-                            "x": 50,
-                            "y": 25,
+                            "x": 22,
+                            "y": 28,
                             "originX": 0.5,
                             "originY": 0.5,
+                            "tintFill": true,
                             "text": "Your Stamps: 69/420",
                             "fixedWidth": 300,
                             "fontFamily": "Burbank Small",
-                            "fontSize": "24px",
+                            "fontSize": "20px",
+                            "fontStyle": "bold",
                             "color": "#000000ff"
                         },
                         {
@@ -177,8 +185,10 @@
                                 "key": "main",
                                 "frame": "stamps-icon"
                             },
-                            "x": -132,
-                            "y": 23
+                            "x": -155,
+                            "y": 27,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
                         }
                     ]
                 },
@@ -191,6 +201,7 @@
                     "y": -233,
                     "originX": 0.5,
                     "originY": 0.5,
+                    "tintFill": true,
                     "text": "Username",
                     "fixedWidth": 360,
                     "align": "center",
@@ -290,6 +301,17 @@
                     },
                     "x": -149,
                     "y": -229
+                },
+                {
+                    "type": "Image",
+                    "id": "2b30f76e-b755-41d2-a0c2-448c04a16ac3",
+                    "label": "bar",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "bar"
+                    },
+                    "y": 211
                 }
             ]
         }

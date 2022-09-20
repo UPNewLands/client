@@ -277,9 +277,12 @@
             "id": "c772c6fa-5aeb-4b01-9683-01df4279ae20",
             "label": "door",
             "components": [
-                "Button"
+                "Button",
+                "MoveTo"
             ],
             "Button.spriteName": "door",
+            "MoveTo.x": 187,
+            "MoveTo.y": 317,
             "texture": {
                 "key": "port",
                 "frame": "door"

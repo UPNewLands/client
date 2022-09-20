@@ -1,9 +1,27 @@
 const rooms = {
+    20: {
+        key: 'Tropical',
+        scene: require('@rooms/tropical/Tropical').default,
+        x: 638,
+        y: 486
+    }, 
     30: {
         key: 'Port',
         scene: require('@rooms/port/Port').default,
         x: 638,
         y: 486
+    },
+    31: {
+        key: 'Lighthouse',
+        scene: require('@rooms/lighthouse/Lighthouse').default,
+        x: 620,
+        y: 486
+    },
+    32: {
+        key: 'Beacon',
+        scene: require('@rooms/beacon/Beacon').default,
+        x: 385,
+        y: 766
     },
     40: {
         key: 'Pirate',
