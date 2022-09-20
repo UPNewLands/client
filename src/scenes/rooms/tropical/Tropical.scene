@@ -1,0 +1,1528 @@
+{
+    "id": "7893adaa-da42-4146-805b-0ed4fdee2f98",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/tropical/tropical-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Tropical",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "61267664-6810-48c0-8348-ae7f4978ffcc",
+            "label": "sky",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "sky"
+            },
+            "x": 756,
+            "y": 112
+        },
+        {
+            "type": "Image",
+            "id": "849a6ba9-335c-4043-92c9-4c4776d3daf3",
+            "label": "symbol_8",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 286,
+            "y": 69
+        },
+        {
+            "type": "Image",
+            "id": "be90999b-81d1-4ab1-8a3f-e796dd89d061",
+            "label": "symbol_7",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 496,
+            "y": 58
+        },
+        {
+            "type": "Image",
+            "id": "0561a5be-4d18-4e57-bcef-183ed256d0cc",
+            "label": "symbol_4",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 408,
+            "y": 98,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "61cc2a84-2272-4467-a153-88530abe55dd",
+            "label": "symbol_3",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 210,
+            "y": 125
+        },
+        {
+            "type": "Image",
+            "id": "2cbab6f5-8df0-4c9f-859a-68b6ab650c0e",
+            "label": "symbol_6",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 105"
+            },
+            "x": 426,
+            "y": 113
+        },
+        {
+            "type": "Image",
+            "id": "9b57e1f8-6256-4791-91e6-9cb4b0fdca4d",
+            "label": "symbol_5",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 105"
+            },
+            "x": 263,
+            "y": 132
+        },
+        {
+            "type": "Image",
+            "id": "a478481e-8e81-4e50-9e45-6fde7cac55c4",
+            "label": "symbol_103",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 62,
+            "y": 114
+        },
+        {
+            "type": "Image",
+            "id": "5a776cf1-bb6a-4079-b306-e91e38ac7fde",
+            "label": "symbol_111",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 111"
+            },
+            "x": 132,
+            "y": 98
+        },
+        {
+            "type": "Image",
+            "id": "faf6cdb0-fd16-4157-b34f-aba201ef9d89",
+            "label": "symbol_340",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 340"
+            },
+            "x": 240,
+            "y": 132
+        },
+        {
+            "type": "Image",
+            "id": "10b4056c-5d54-4c21-a87f-c14973bbb926",
+            "label": "waterfall",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "waterfall"
+            },
+            "x": 779,
+            "y": 367
+        },
+        {
+            "type": "Sprite",
+            "id": "f8d1fd3e-9103-43f1-b744-d1fe1be38270",
+            "label": "wf100001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf1",
+            "Animation.end": 6,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf100001"
+            },
+            "x": 788,
+            "y": 76
+        },
+        {
+            "type": "Sprite",
+            "id": "0fb47031-b4c6-4099-ba54-71e542497749",
+            "label": "wf40001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf4",
+            "Animation.end": 30,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf40001"
+            },
+            "x": 813,
+            "y": 183
+        },
+        {
+            "type": "Sprite",
+            "id": "9422c812-5de9-4fb1-8192-e5437e1bdc5b",
+            "label": "wf20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf2",
+            "Animation.end": 6,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf20001"
+            },
+            "x": 838,
+            "y": 149
+        },
+        {
+            "type": "Sprite",
+            "id": "1f0c68db-0035-430f-8c8d-4f7b58036aa8",
+            "label": "wf90001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf9",
+            "Animation.end": 12,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf90001"
+            },
+            "x": 810,
+            "y": 261
+        },
+        {
+            "type": "Image",
+            "id": "28044f37-305b-4330-9faa-b8777a2ca00b",
+            "label": "symbol_97",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 97"
+            },
+            "x": 867,
+            "y": 213
+        },
+        {
+            "type": "Sprite",
+            "id": "6a4d1251-bb95-43a7-8ad5-32bab0c0adce",
+            "label": "wf",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf1",
+            "Animation.end": 6,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf100001"
+            },
+            "x": 907,
+            "y": 77,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "ea9ca03c-f238-431f-99df-cdcca48114e3",
+            "label": "wf_2",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf1",
+            "Animation.end": 6,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf100001"
+            },
+            "x": 1068,
+            "y": 111,
+            "scaleX": 0.9,
+            "scaleY": 0.9
+        },
+        {
+            "type": "Sprite",
+            "id": "fb71e12c-60bc-44c2-b24b-22c8c2cf8d00",
+            "label": "wf_1",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf1",
+            "Animation.end": 6,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf100001"
+            },
+            "x": 1074,
+            "y": 26,
+            "scaleX": 0.9,
+            "scaleY": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "91041cd7-ef4a-4a59-aecd-755a0b0d2357",
+            "label": "symbol_105",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 105"
+            },
+            "x": 77,
+            "y": 177
+        },
+        {
+            "type": "Image",
+            "id": "5aa7dc25-10a0-4a0f-be18-4382c47f3753",
+            "label": "symbol_22",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 1104,
+            "y": 154,
+            "angle": -27,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "ebc4248b-b48c-4fac-908a-f571ac470923",
+            "label": "wf50001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf5",
+            "Animation.end": 12,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf50001"
+            },
+            "x": 958,
+            "y": 338
+        },
+        {
+            "type": "Image",
+            "id": "8bb44cbd-27d3-4a43-ad3b-6a02797c3eb9",
+            "label": "symbol_15",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 1145,
+            "y": 200
+        },
+        {
+            "type": "Image",
+            "id": "2be11aca-9dce-4ad0-91ef-c4a5951c91bf",
+            "label": "symbol_14",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 1052,
+            "y": 233,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "cedd0c6e-853d-42e6-83e1-160f651ff75a",
+            "label": "symbol_21",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 105"
+            },
+            "x": 1094,
+            "y": 202
+        },
+        {
+            "type": "Image",
+            "id": "4e8f8ad8-2ed1-4856-8749-4f8b352d5b0a",
+            "label": "symbol_13",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 111"
+            },
+            "x": 969,
+            "y": 115
+        },
+        {
+            "type": "Image",
+            "id": "3afd8764-ec97-4133-b992-58a565aef104",
+            "label": "waterfall2",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "waterfall2"
+            },
+            "x": 688,
+            "y": 221
+        },
+        {
+            "type": "Image",
+            "id": "9a08ec1e-f36b-4e1d-af1b-5f418860fc0d",
+            "label": "s_mbolo_4",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Símbolo 4"
+            },
+            "x": 592,
+            "y": 72
+        },
+        {
+            "type": "Sprite",
+            "id": "0a981715-9430-4de9-b3c4-7af2d0c4d5be",
+            "label": "wf60001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf6",
+            "Animation.end": 12,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf60001"
+            },
+            "x": 732,
+            "y": 366
+        },
+        {
+            "type": "Image",
+            "id": "207cb414-981d-4841-8ef7-2dfe8e0e851d",
+            "label": "symbol_11",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 536,
+            "y": 120,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "0d144bbe-1210-43db-b1d7-1e8f0d5e4c1e",
+            "label": "symbol_10",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 105"
+            },
+            "x": 511,
+            "y": 138
+        },
+        {
+            "type": "Image",
+            "id": "8b25a455-3718-46bd-8ddc-9e4d0c07e860",
+            "label": "symbol_113",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 113"
+            },
+            "x": 572,
+            "y": 108
+        },
+        {
+            "type": "Image",
+            "id": "5cc47398-9cd1-4584-a34d-ac992771e4dc",
+            "label": "symbol_9",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 127"
+            },
+            "x": 446,
+            "y": 78,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "5f0838cc-f354-49d3-b2b9-6c9f53ecccf9",
+            "label": "symbol_12",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 129"
+            },
+            "x": 458,
+            "y": 116
+        },
+        {
+            "type": "Image",
+            "id": "47a31247-cc6b-4b73-9a99-e869a4da734e",
+            "label": "symbol_129",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 129"
+            },
+            "x": 608,
+            "y": 125
+        },
+        {
+            "type": "Image",
+            "id": "2881fd2f-41b3-420f-830b-08579ddfe140",
+            "label": "symbol_130",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 130"
+            },
+            "x": 379,
+            "y": 144
+        },
+        {
+            "type": "Image",
+            "id": "28fc9144-184a-49eb-b9f7-672425d7c988",
+            "label": "symbol_132",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 132"
+            },
+            "x": 334,
+            "y": 202
+        },
+        {
+            "type": "Image",
+            "id": "ea5e6194-b5d0-4002-bf78-88ec8bb329be",
+            "label": "symbol_117",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 117"
+            },
+            "x": 418,
+            "y": 842
+        },
+        {
+            "type": "Image",
+            "id": "ba4a3d76-0a35-4c80-9582-e7b3c48bf333",
+            "label": "s_mbolo_5",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Símbolo 5"
+            },
+            "x": 561,
+            "y": 273
+        },
+        {
+            "type": "Image",
+            "id": "e1fc5bcf-e2b2-48e3-b865-c57d3a38aa07",
+            "label": "symbol_135",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 135"
+            },
+            "x": 615,
+            "y": 318
+        },
+        {
+            "type": "Image",
+            "id": "c0e94347-d3ff-45e7-beba-5108b306ce2e",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 127"
+            },
+            "x": -28,
+            "y": 97,
+            "angle": -18,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "2b788528-9d05-4c38-96c6-347cddf2cdee",
+            "label": "symbol_2",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 137"
+            },
+            "x": 576,
+            "y": 311
+        },
+        {
+            "type": "Image",
+            "id": "6db4f024-2ecb-42fc-9b0c-19ca81941a14",
+            "label": "s_mbolo_6",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Símbolo 6"
+            },
+            "x": 474,
+            "y": 326
+        },
+        {
+            "type": "Image",
+            "id": "308becd3-4bbb-4280-9676-75a2e4488f0b",
+            "label": "symbol_119",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 119"
+            },
+            "x": 63,
+            "y": 194
+        },
+        {
+            "type": "Image",
+            "id": "ef47fe03-443f-453a-bffd-4bd2cd78baff",
+            "label": "symbol_141",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 141"
+            },
+            "x": 782,
+            "y": 543
+        },
+        {
+            "type": "Image",
+            "id": "ed109f2f-c26f-47f4-b250-66c875569fea",
+            "label": "symbol_143",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 143"
+            },
+            "x": 118,
+            "y": 244
+        },
+        {
+            "type": "Image",
+            "id": "530d1755-b909-4ef6-8f93-662a7761c67e",
+            "label": "symbol_186",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 186"
+            },
+            "x": 333,
+            "y": 161,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0f9fe369-91ef-4972-971e-842baa0be595",
+            "label": "symbol_114",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 114"
+            },
+            "x": 102,
+            "y": 339,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "d365ed98-f938-40ab-8270-d096ddbc3668",
+            "label": "surfer",
+            "components": [
+                "Button",
+                "ShowHint"
+            ],
+            "Button.spriteName": "surfer",
+            "ShowHint.text": "Go Surfing",
+            "texture": {
+                "key": "tropical",
+                "frame": "surfer"
+            },
+            "x": 272,
+            "y": 821
+        },
+        {
+            "type": "Image",
+            "id": "3e92594c-926f-4085-b680-5dcc19435877",
+            "label": "symbol_137",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 137"
+            },
+            "x": 109,
+            "y": 392
+        },
+        {
+            "type": "Image",
+            "id": "2940f0cf-a809-4305-ac87-bdff894e9486",
+            "label": "symbol_116",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 116"
+            },
+            "x": 33,
+            "y": 373
+        },
+        {
+            "type": "Image",
+            "id": "4147455d-90a8-421a-9f5d-b3ec97fa228a",
+            "label": "symbol_1",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 186"
+            },
+            "x": 451.15760334388256,
+            "y": 176.82254115530992,
+            "originX": 0.9688794072817514,
+            "originY": 0.5784261830549002
+        },
+        {
+            "type": "Image",
+            "id": "a521f069-61fd-4347-a91c-3c4e16d96bf3",
+            "label": "symbol_190",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 190"
+            },
+            "x": 496,
+            "y": 189
+        },
+        {
+            "type": "Image",
+            "id": "96bb13ea-6779-4ff7-ae79-0601747d9abb",
+            "label": "symbol_344",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 344"
+            },
+            "x": 280.22225219557737,
+            "y": 358.4892245904664,
+            "originX": 0.5294589400448916,
+            "originY": 0.7336514787560539
+        },
+        {
+            "type": "Image",
+            "id": "30a8c777-5b8a-48e0-88aa-850f2703382b",
+            "label": "symbol_148",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 148"
+            },
+            "x": 24,
+            "y": 431
+        },
+        {
+            "type": "Image",
+            "id": "aa6b2057-15bd-4977-b580-2ecb4372311e",
+            "label": "symbol_346",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 346"
+            },
+            "x": 239.45082729363148,
+            "y": 516.4377362937104,
+            "originX": 0.6661379291551396,
+            "originY": 1.0819074473408752
+        },
+        {
+            "type": "Image",
+            "id": "3b4da4e0-a2be-4810-8666-45df901bb40b",
+            "label": "symbol_127",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 127"
+            },
+            "x": -16,
+            "y": 328
+        },
+        {
+            "type": "Image",
+            "id": "40f4c3ad-0c0c-4d7d-bd7d-f2254d73f40a",
+            "label": "symbol_150",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 150"
+            },
+            "x": 832,
+            "y": 332
+        },
+        {
+            "type": "Image",
+            "id": "e8f059a6-10f4-48ed-b659-e6a948750239",
+            "label": "symbol_152",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 152"
+            },
+            "x": 417,
+            "y": 359
+        },
+        {
+            "type": "Image",
+            "id": "bc2b26c7-6b73-492b-8e86-ba0494477ba1",
+            "label": "symbol_18",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 1444,
+            "y": 102
+        },
+        {
+            "type": "Image",
+            "id": "2452382f-4cda-43fb-95bd-57dd43a73051",
+            "label": "symbol_19",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 103"
+            },
+            "x": 1242,
+            "y": 94,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "63398ebb-c602-44d5-b386-57bd07b4c833",
+            "label": "symbol_16",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 105"
+            },
+            "x": 1222,
+            "y": 131
+        },
+        {
+            "type": "Image",
+            "id": "0a231f76-9a3c-414e-b366-bdeadbcc782f",
+            "label": "symbol_17",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 105"
+            },
+            "x": 1428,
+            "y": 131
+        },
+        {
+            "type": "Image",
+            "id": "56d04925-b54b-41b0-9635-3b59b8660dd5",
+            "label": "symbol_24",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 146"
+            },
+            "x": 1307,
+            "y": 66,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "2b4837e1-d05d-448b-ab9d-f12ce4eced41",
+            "label": "symbol_167",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 167"
+            },
+            "x": 1181,
+            "y": 164
+        },
+        {
+            "type": "Image",
+            "id": "2d52cafc-a979-4b3b-b942-23e0f11e4838",
+            "label": "symbol_112",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 112"
+            },
+            "x": 1462,
+            "y": 176
+        },
+        {
+            "type": "Image",
+            "id": "9ca5cc69-9b4a-477b-8904-43d9caad9dc3",
+            "label": "symbol_146",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 146"
+            },
+            "x": 1133,
+            "y": 100
+        },
+        {
+            "type": "Image",
+            "id": "cd874921-dcba-46ec-b1a1-ca13e8a1fb0f",
+            "label": "symbol_23",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 116"
+            },
+            "x": 1211,
+            "y": 225,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "2d719dc7-8f47-46c9-a4d0-4cc4465c1f6c",
+            "label": "symbol_20",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 340"
+            },
+            "x": 1071,
+            "y": 236,
+            "angle": -7,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "12cce89c-8600-4f80-9e80-58f3f9b9ab25",
+            "label": "symbol_25",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 146"
+            },
+            "x": 1490,
+            "y": 48,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "18893077-5c32-45cf-94be-f7116d505aeb",
+            "label": "symbol_176",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 176"
+            },
+            "x": 1411,
+            "y": 427
+        },
+        {
+            "type": "Image",
+            "id": "b4aa58ac-394b-4bce-af00-b86672c9b597",
+            "label": "symbol_178",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 178"
+            },
+            "x": 1245,
+            "y": 404
+        },
+        {
+            "type": "Image",
+            "id": "11b659b0-9286-49ce-b450-2caadd3de593",
+            "label": "symbol_180",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 180"
+            },
+            "x": 1346,
+            "y": 437
+        },
+        {
+            "type": "Image",
+            "id": "d7865ff2-7d26-4e40-88c8-e7b84d9385a2",
+            "label": "symbol_182",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 182"
+            },
+            "x": 1488,
+            "y": 526
+        },
+        {
+            "type": "Image",
+            "id": "94911d2f-89b5-4219-bb07-382634b37a32",
+            "label": "symbol_388",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 388"
+            },
+            "x": 1397,
+            "y": 242
+        },
+        {
+            "type": "Image",
+            "id": "8c507714-8ad4-49c1-856c-287fc61135bf",
+            "label": "symbol_184",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 184"
+            },
+            "x": 1420,
+            "y": 449
+        },
+        {
+            "type": "Image",
+            "id": "ba338900-e602-4c7f-93e0-88f8faccacab",
+            "label": "symbol_328",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 328"
+            },
+            "x": 1399,
+            "y": 477
+        },
+        {
+            "type": "Image",
+            "id": "dec946c6-e8d0-4013-8abc-e48f0823dfb8",
+            "label": "symbol_26",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 328"
+            },
+            "x": 1362,
+            "y": 522
+        },
+        {
+            "type": "Image",
+            "id": "787638c6-d823-4bac-89bf-473d2e713d10",
+            "label": "symbol_194",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 194"
+            },
+            "x": 1370,
+            "y": 596
+        },
+        {
+            "type": "Image",
+            "id": "18a06e3f-71a0-4fef-9a6c-5f06b26eaec7",
+            "label": "symbol_27",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 119"
+            },
+            "x": 1527,
+            "y": 552
+        },
+        {
+            "type": "Image",
+            "id": "b8db9711-26a7-4ea6-a7d2-987c35cf577a",
+            "label": "symbol_28",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 119"
+            },
+            "x": 1516,
+            "y": 611,
+            "angle": -23
+        },
+        {
+            "type": "Image",
+            "id": "5bd2dd8c-a984-407c-ac5b-3d75abe8bbdb",
+            "label": "symbol_165",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 165"
+            },
+            "x": 1326,
+            "y": 698
+        },
+        {
+            "type": "Image",
+            "id": "dbb87d32-b6aa-4c17-8395-bd040f51f114",
+            "label": "symbol_353",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 353"
+            },
+            "x": 1561,
+            "y": 716
+        },
+        {
+            "type": "Image",
+            "id": "fb9f0b03-8551-4f6c-835a-40029161d951",
+            "label": "symbol_192",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 192"
+            },
+            "x": 1236,
+            "y": 622,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        },
+        {
+            "type": "Image",
+            "id": "aac5a446-87cf-49e4-bb65-7c9d5c078674",
+            "label": "symbol_170",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 170"
+            },
+            "x": 1134,
+            "y": 544
+        },
+        {
+            "type": "Sprite",
+            "id": "e9be7710-0d06-4244-8cf4-bddf9b978b32",
+            "label": "fire0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire",
+            "Animation.end": 20,
+            "texture": {
+                "key": "tropical",
+                "frame": "fire0001"
+            },
+            "x": 1290,
+            "y": 827,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+        },
+        {
+            "type": "Image",
+            "id": "307ec125-068c-4644-8247-25e2af8ae446",
+            "label": "symbol_323",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 323"
+            },
+            "x": 1236,
+            "y": 638,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+        },
+        {
+            "type": "Image",
+            "id": "e14cecd8-71d3-4acc-924e-6db7dd63d9e5",
+            "label": "symbol_326",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 326"
+            },
+            "x": 1237,
+            "y": 646,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        },
+        {
+            "type": "Image",
+            "id": "1c7384b6-cbb7-469f-8eff-5ec858fc92ea",
+            "label": "symbol_31",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 350"
+            },
+            "x": 849,
+            "y": 508
+        },
+        {
+            "type": "Image",
+            "id": "84c44bda-ce8e-44b9-8bd0-54acd073f070",
+            "label": "symbol_30",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 116"
+            },
+            "x": 872,
+            "y": 626
+        },
+        {
+            "type": "Image",
+            "id": "b7320c8d-2cd1-42fd-a67c-20ea98265cd3",
+            "label": "symbol_350",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 350"
+            },
+            "x": 924,
+            "y": 432
+        },
+        {
+            "type": "Image",
+            "id": "1c936202-0b04-4ac7-9bfa-9659e21bc9af",
+            "label": "symbol_375",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 375"
+            },
+            "x": 720,
+            "y": 758
+        },
+        {
+            "type": "Image",
+            "id": "92c055d9-9c49-4b21-8bf9-00d39e9db044",
+            "label": "symbol_335",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 335"
+            },
+            "x": 866.2836545486791,
+            "y": 934.9423273630141,
+            "originX": 0.5147712225816522,
+            "originY": 1.014773937180318
+        },
+        {
+            "type": "Image",
+            "id": "424882bc-8844-47ba-ab26-e7a03346386c",
+            "label": "symbol_337",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 337"
+            },
+            "x": 996.7091363716977,
+            "y": 963.8149182479211,
+            "originX": 0.52586747915869,
+            "originY": 0.8902885255463161
+        },
+        {
+            "type": "Image",
+            "id": "cc32077f-4344-4e21-a1cc-b8ac6a55afe6",
+            "label": "symbol_358",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 358"
+            },
+            "x": 631,
+            "y": 882
+        },
+        {
+            "type": "Image",
+            "id": "1b928c26-9284-4e7f-a30d-c00580a4ca93",
+            "label": "symbol_140",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 140"
+            },
+            "x": 679,
+            "y": 924
+        },
+        {
+            "type": "Image",
+            "id": "963c2e78-8a61-47e5-8e14-c3ac74b9c72e",
+            "label": "symbol_354",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 354"
+            },
+            "x": 1462,
+            "y": 908
+        },
+        {
+            "type": "Image",
+            "id": "5d5d774f-cabd-4ca5-9863-e270b63a2b4b",
+            "label": "symbol_362",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 362"
+            },
+            "x": 456.81218805550185,
+            "y": 658.4508935728766,
+            "originX": 0.22588840079288355,
+            "originY": 0.9445452120761963
+        },
+        {
+            "type": "Image",
+            "id": "2a9b30c0-a8aa-4f21-a45c-b26ca40b4f67",
+            "label": "symbol_366",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 366"
+            },
+            "x": 507.6093221742276,
+            "y": 689.4358396361006,
+            "originX": 0.10870238897018925,
+            "originY": 0.9755599943140716
+        },
+        {
+            "type": "Image",
+            "id": "d6bff425-93f4-4988-b9d6-79df17de3ec2",
+            "label": "symbol_368",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 368"
+            },
+            "x": 663.4207856993245,
+            "y": 698.4659475096527,
+            "originX": 0.8859617345157677,
+            "originY": 0.9135304298383229
+        },
+        {
+            "type": "Image",
+            "id": "cfa8f4c0-f174-4100-89f7-2667d6fe6698",
+            "label": "symbol_371",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 371"
+            },
+            "x": 591.0301078735521,
+            "y": 708.4810014464286,
+            "originX": 0.3529669582797068,
+            "originY": 0.8825156476004477
+        },
+        {
+            "type": "Image",
+            "id": "8663d628-e87a-4bd2-92a1-f7c2e2324ae1",
+            "label": "symbol_32",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 362"
+            },
+            "x": 569,
+            "y": 560
+        },
+        {
+            "type": "Image",
+            "id": "0f2de351-8b63-475d-95d4-737cba862221",
+            "label": "symbol_29",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 366"
+            },
+            "x": 637,
+            "y": 589
+        },
+        {
+            "type": "Image",
+            "id": "ef950b0d-0bf4-406e-91d4-4ddf4a96ee92",
+            "label": "symbol_33",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 371"
+            },
+            "x": 688,
+            "y": 614
+        },
+        {
+            "type": "Image",
+            "id": "7c1fbba4-f46e-452c-8964-d3c7d1935379",
+            "label": "symbol_34",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 368"
+            },
+            "x": 724,
+            "y": 602
+        },
+        {
+            "type": "Sprite",
+            "id": "3a17ffc1-8223-4724-a52b-4c205d48cf39",
+            "label": "wf_3",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf1",
+            "Animation.end": 6,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf100001"
+            },
+            "x": 703,
+            "y": 123,
+            "scaleX": 0.6627737239001715,
+            "angle": -16,
+            "tintTopLeft": "#16F1DB",
+            "tintTopRight": "#16F1DB",
+            "tintBottomLeft": "#16F1DB",
+            "tintBottomRight": "#16F1DB"
+        },
+        {
+            "type": "Sprite",
+            "id": "703946f6-b81e-4843-b102-0a8034060f17",
+            "label": "wf130001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf13",
+            "Animation.end": 6,
+            "texture": {
+                "key": "tropical",
+                "frame": "wf130001"
+            },
+            "x": 719,
+            "y": 215,
+            "scaleX": 0.5597882329842954,
+            "angle": -7,
+            "tintTopLeft": "#16F1DB",
+            "tintTopRight": "#16F1DB",
+            "tintBottomLeft": "#16F1DB",
+            "tintBottomRight": "#16F1DB"
+        },
+        {
+            "type": "Sprite",
+            "id": "155a22f3-b53a-48fa-a213-7b7fad0fe9d9",
+            "label": "sparkles0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "sparkles",
+            "Animation.end": 30,
+            "texture": {
+                "key": "tropical",
+                "frame": "sparkles0001"
+            },
+            "x": 714,
+            "y": 205,
+            "scaleX": 0.5992508224772785,
+            "scaleY": 0.8073729195129792
+        },
+        {
+            "type": "Image",
+            "id": "7afc2927-ab58-4042-87da-16461c71163e",
+            "label": "symbol_36",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 116"
+            },
+            "x": 387,
+            "y": 501
+        },
+        {
+            "type": "Image",
+            "id": "f02c3b5f-19b5-4fcd-8616-1c162e530a19",
+            "label": "symbol_35",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 137"
+            },
+            "x": 415,
+            "y": 522
+        },
+        {
+            "type": "Image",
+            "id": "58e4bba3-1a51-471e-8b6e-3d4ebbba7b75",
+            "label": "symbol_39",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 137"
+            },
+            "x": 578,
+            "y": 408
+        },
+        {
+            "type": "Image",
+            "id": "f5000f71-804e-43ab-a9d1-eafdec8c4bc2",
+            "label": "symbol_38",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 127"
+            },
+            "x": 488,
+            "y": 326,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "b7ecfe62-ec40-4cd6-a569-55f6f3adbc84",
+            "label": "symbol_37",
+            "components": [],
+            "texture": {
+                "key": "tropical",
+                "frame": "Symbol 148"
+            },
+            "x": 547,
+            "y": 466
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "fe939af5-dc9d-4b25-b001-4a82c97df9c8",
+            "label": "sort",
+            "objectIds": [
+                "2a9b30c0-a8aa-4f21-a45c-b26ca40b4f67",
+                "5d5d774f-cabd-4ca5-9863-e270b63a2b4b",
+                "cfa8f4c0-f174-4100-89f7-2667d6fe6698",
+                "d6bff425-93f4-4988-b9d6-79df17de3ec2",
+                "84c44bda-ce8e-44b9-8bd0-54acd073f070",
+                "aac5a446-87cf-49e4-bb65-7c9d5c078674",
+                "e9be7710-0d06-4244-8cf4-bddf9b978b32",
+                "92c055d9-9c49-4b21-8bf9-00d39e9db044",
+                "424882bc-8844-47ba-ab26-e7a03346386c",
+                "b7ecfe62-ec40-4cd6-a569-55f6f3adbc84",
+                "7afc2927-ab58-4042-87da-16461c71163e",
+                "4147455d-90a8-421a-9f5d-b3ec97fa228a",
+                "96bb13ea-6779-4ff7-ae79-0601747d9abb",
+                "30a8c777-5b8a-48e0-88aa-850f2703382b",
+                "3afd8764-ec97-4133-b992-58a565aef104",
+                "aa6b2057-15bd-4977-b580-2ecb4372311e"
+            ]
+        }
+    ]
+}

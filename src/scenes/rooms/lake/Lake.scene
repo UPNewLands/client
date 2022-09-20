@@ -392,6 +392,25 @@
             },
             "x": 727,
             "y": 55
+        },
+        {
+            "type": "Image",
+            "id": "09e1b684-539d-4ae2-84ee-83e4491443cb",
+            "label": "lakecatalog",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "lakecatalog",
+            "Button.callback": "() => this.interface.loadExternal('Hydrohopper')",
+            "Button.activeFrame": false,
+            "texture": {
+                "key": "lake",
+                "frame": "lakecatalog"
+            },
+            "x": 1417.0815259450555,
+            "y": 1050.5160173510058,
+            "originX": 0.47665220756044435,
+            "originY": 2.0001502151583113
         }
     ],
     "plainObjects": [],
@@ -408,7 +427,8 @@
             "objectIds": [
                 "cb4b1b56-0e4d-4893-8178-c48afec309ea",
                 "7f5d04cd-3890-416b-ab60-a4e89e99c61b",
-                "570e22a4-0bf2-41a8-8032-e25a80968c2b"
+                "570e22a4-0bf2-41a8-8032-e25a80968c2b",
+                "09e1b684-539d-4ae2-84ee-83e4491443cb"
             ]
         }
     ]

@@ -991,6 +991,38 @@
             "scaleX": 0.6,
             "scaleY": 0.8,
             "flipX": true
+        },
+        {
+            "prefabId": "f4222e55-925f-4da8-940d-6a289fa5e815",
+            "id": "ba99d134-cd96-4445-95e7-eb2784e06bd1",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "cavepopup",
+            "scope": "CLASS",
+            "components": [],
+            "x": 16,
+            "y": -11,
+            "visible": false,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "09017d1f-4663-41ef-aa04-3d2165c3d1d1",
+            "id": "f63b0bfe-fc62-4793-ae5f-b549925d1ec5",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "telescope",
+            "scope": "CLASS",
+            "components": [],
+            "x": 708,
+            "y": 249.00000000000003,
+            "visible": false,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [],

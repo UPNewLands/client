@@ -7,6 +7,7 @@ import RoomScene from "../RoomScene";
 import Animation from "../../components/Animation";
 import SimpleButton from "../../components/SimpleButton";
 import ShowHint from "../../components/ShowHint";
+import Button from "../../components/Button";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -129,8 +130,12 @@ export default class Lake extends RoomScene {
         // s_mbolo_9
         this.add.image(727, 55, "lake", "Símbolo 9");
 
+        // lakecatalog
+        const lakecatalog = this.add.image(1417.0815259450555, 1050.5160173510058, "lake", "lakecatalog");
+        lakecatalog.setOrigin(0.47665220756044435, 2.0001502151583113);
+
         // lists
-        const sort = [s_mbolo_3, buoy0001, boat0001];
+        const sort = [s_mbolo_3, buoy0001, boat0001, lakecatalog];
 
         // buoy0001 (components)
         const buoy0001Animation = new Animation(buoy0001);
@@ -164,6 +169,12 @@ export default class Lake extends RoomScene {
         new SimpleButton(boat0001);
         const boat0001ShowHint = new ShowHint(boat0001);
         boat0001ShowHint.text = "Play Hydro Hopper";
+
+        // lakecatalog (components)
+        const lakecatalogButton = new Button(lakecatalog);
+        lakecatalogButton.spriteName = "lakecatalog";
+        lakecatalogButton.callback = () => this.interface.loadExternal('Hydrohopper');
+        lakecatalogButton.activeFrame = false;
 
         this.sort = sort;
 

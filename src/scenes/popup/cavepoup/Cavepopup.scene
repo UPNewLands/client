@@ -1,99 +1,106 @@
 {
-    "id": "9b0eef28-dfb2-48d9-bb57-7682aeb5464b",
-    "sceneType": "SCENE",
+    "id": "f4222e55-925f-4da8-940d-6a289fa5e815",
+    "sceneType": "PREFAB",
     "settings": {
         "compilerInsertSpaces": true,
         "javaScriptInitFieldsInConstructor": true,
         "exportClass": true,
-        "autoImport": true,
         "superClassName": "BaseContainer",
-        "preloadMethodName": "_preload",
+        "preloadMethodName": "",
         "preloadPackFiles": [],
-        "createMethodName": "_create",
-        "sceneKey": "Cavepopup",
+        "createMethodName": "",
         "borderWidth": 1520,
         "borderHeight": 960
     },
     "displayList": [
         {
-            "type": "Rectangle",
-            "id": "089277aa-7be8-46a3-8db1-c9f32ae6a6b7",
-            "label": "block",
-            "components": [
-                "Interactive"
-            ],
-            "x": 762,
-            "y": 483,
-            "scaleX": 12.299342179980162,
-            "scaleY": 7.906074638229103,
-            "isFilled": true,
-            "fillColor": "#000",
-            "fillAlpha": 0.2,
-            "width": 128,
-            "height": 128
-        },
-        {
-            "type": "Image",
-            "id": "e669eb84-7c81-4c50-98ff-f10659553171",
-            "label": "symbol_10",
+            "type": "Container",
+            "id": "e23ea161-0c5f-4382-ad8d-d468e28f946f",
+            "label": "container_1",
             "components": [],
-            "texture": {
-                "key": "cavepopup",
-                "frame": "Symbol 10"
-            },
-            "x": 312,
-            "y": 676
-        },
-        {
-            "type": "Image",
-            "id": "b72bde32-9ae5-4fbe-82ec-77edcd268e01",
-            "label": "nube",
-            "components": [],
-            "texture": {
-                "key": "cavepopup",
-                "frame": "Nube"
-            },
-            "x": 890,
-            "y": 786
-        },
-        {
-            "type": "Image",
-            "id": "7a917da8-75dc-45c5-b71f-f06aa7034897",
-            "label": "s_mbolo_3",
-            "components": [],
-            "texture": {
-                "key": "cavepopup",
-                "frame": "Símbolo 3"
-            },
-            "x": 905,
-            "y": 779
-        },
-        {
-            "type": "Image",
-            "id": "0745906f-7cf0-4d09-ba03-0c2140ee52ae",
-            "label": "closebutton",
-            "components": [
-                "Button"
-            ],
-            "Button.spriteName": "closebutton",
-            "texture": {
-                "key": "cavepopup",
-                "frame": "closebutton"
-            },
-            "x": 1205,
-            "y": 868
-        },
-        {
-            "type": "Image",
-            "id": "23a52996-763a-4008-a263-c9dabf005ce7",
-            "label": "s_mbolo_5",
-            "components": [],
-            "texture": {
-                "key": "cavepopup",
-                "frame": "Símbolo 5"
-            },
-            "x": 1205,
-            "y": 871
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "69268651-0cd1-444d-9e7a-ae4ca8c6bebb",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 765,
+                    "y": 486,
+                    "scaleX": 12.441341585560185,
+                    "scaleY": 8.107324625518155,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "fillAlpha": 0.4,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "48364a68-1587-47a8-8f7d-4b021b99b3a9",
+                    "label": "symbol_10",
+                    "components": [],
+                    "texture": {
+                        "key": "cavepopup",
+                        "frame": "Symbol 10"
+                    },
+                    "x": 306,
+                    "y": 659
+                },
+                {
+                    "type": "Image",
+                    "id": "aca83635-b650-42f5-b336-8ae3780d6eae",
+                    "label": "nube",
+                    "components": [],
+                    "texture": {
+                        "key": "cavepopup",
+                        "frame": "Nube"
+                    },
+                    "x": 887,
+                    "y": 791
+                },
+                {
+                    "type": "Image",
+                    "id": "3413becb-c3f6-41e0-a9b1-1a899b88e515",
+                    "label": "closebutton",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "closebutton",
+                    "Button.callback": "() => { this.visible = false }",
+                    "texture": {
+                        "key": "cavepopup",
+                        "frame": "closebutton"
+                    },
+                    "x": 1194,
+                    "y": 869
+                },
+                {
+                    "type": "Image",
+                    "id": "149b3074-afe2-4211-8fbe-ecf1b0314099",
+                    "label": "s_mbolo_5",
+                    "components": [],
+                    "texture": {
+                        "key": "cavepopup",
+                        "frame": "Símbolo 5"
+                    },
+                    "x": 1195,
+                    "y": 872
+                },
+                {
+                    "type": "Image",
+                    "id": "41d33c12-5898-435d-992e-44dd17c88745",
+                    "label": "s_mbolo_3",
+                    "components": [],
+                    "texture": {
+                        "key": "cavepopup",
+                        "frame": "Símbolo 3"
+                    },
+                    "x": 944,
+                    "y": 781
+                }
+            ]
         }
     ],
     "plainObjects": [],

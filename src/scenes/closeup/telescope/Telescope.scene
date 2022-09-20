@@ -1,0 +1,102 @@
+{
+    "id": "09017d1f-4663-41ef-aa04-3d2165c3d1d1",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "ed4bc495-966f-44b7-968b-48a291626af1",
+            "label": "container_1",
+            "components": [],
+            "x": 708,
+            "y": 249,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "1963b551-906e-4cd9-b5c4-7c17853d1c8f",
+                    "label": "close",
+                    "components": [],
+                    "texture": {
+                        "key": "telescope",
+                        "frame": "close"
+                    },
+                    "x": 546,
+                    "y": -131
+                },
+                {
+                    "type": "Image",
+                    "id": "49224a44-68f3-4c6b-89b2-5465ca1ac0b3",
+                    "label": "symbol_40001",
+                    "components": [],
+                    "texture": {
+                        "key": "telescope",
+                        "frame": "Symbol 40001"
+                    },
+                    "x": 57,
+                    "y": 208
+                },
+                {
+                    "type": "Image",
+                    "id": "2829fc2d-1bee-46ed-b699-a29ed0644b52",
+                    "label": "s_mbolo_1",
+                    "components": [],
+                    "texture": {
+                        "key": "telescope",
+                        "frame": "Símbolo 1"
+                    },
+                    "x": 54,
+                    "y": 232
+                },
+                {
+                    "type": "Sprite",
+                    "id": "897a3500-b296-4606-bdbf-dfab33d56485",
+                    "label": "ship0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "ship",
+                    "Animation.end": 70,
+                    "texture": {
+                        "key": "telescope",
+                        "frame": "ship0001"
+                    },
+                    "x": 60,
+                    "y": 76
+                },
+                {
+                    "type": "Image",
+                    "id": "c78945ea-007c-497d-8475-2b6aae0f2e1d",
+                    "label": "close_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => { this.visible = false }",
+                    "texture": {
+                        "key": "telescope",
+                        "frame": "close"
+                    },
+                    "x": 717,
+                    "y": -179
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

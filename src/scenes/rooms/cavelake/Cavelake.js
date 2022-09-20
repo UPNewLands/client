@@ -18,9 +18,11 @@ export default class Cavelake extends RoomScene {
 
 
         /* START-USER-CTR-CODE */
-        // this.roomTriggers = {
-        //     'hidden': this.triggerRoom(92, 889, 616)
-        // }
+        this.roomTriggers = {
+            'hidden': null,
+            'minecave': null,
+            'popup': () => this.world.interface.main.cavepopup.visible = true
+        }
         /* END-USER-CTR-CODE */
     }
 
@@ -145,7 +147,6 @@ export default class Cavelake extends RoomScene {
     /* START-USER-CODE */
 
     // Write your code here
-
     /* END-USER-CODE */
 }
 

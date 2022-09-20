@@ -22,6 +22,8 @@ import Settings from '../settings/Settings'
 import Manage from '../manage/Manage'
 import Prompt from '../prompt/Prompt'
 import Elevator from '../elevator/Elevator'
+import Cavepopup from '@scenes/popup/cavepoup/Cavepopup'
+import Telescope from '@scenes/closeup/telescope/Telescope'
 import PufflesMenu from '../floating/puffles/PufflesMenu'
 import Safe from '../floating/safe/Safe'
 
@@ -134,6 +136,10 @@ export default class Main extends BaseScene {
         this.puffleCare;
         /** @type {Elevator} */
         this.elevator;
+        /** @type {Cavepopup} */
+        this.cavepopup;
+        /** @type {Telescope} */
+        this.telescope;
         /** @type {Array<PlayerCard|Buddy>} */
         this.hideOnSleep;
         /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite|ChatLog>} */
@@ -423,6 +429,16 @@ export default class Main extends BaseScene {
         send.scaleY = 0.8;
         send.flipX = true;
 
+        // cavepopup
+        const cavepopup = new Cavepopup(this, 16, -11);
+        this.add.existing(cavepopup);
+        cavepopup.visible = false;
+
+        // telescope
+        const telescope = new Telescope(this, 708, 249.00000000000003);
+        this.add.existing(telescope);
+        telescope.visible = false;
+
         // lists
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];
@@ -582,6 +598,8 @@ export default class Main extends BaseScene {
         this.stampEarnedBody = stampEarnedBody;
         this.puffleCare = puffleCare;
         this.elevator = elevator;
+        this.cavepopup = cavepopup;
+        this.telescope = telescope;
         this.hideOnSleep = hideOnSleep;
         this.interfaceList = interfaceList;
 

@@ -1,0 +1,75 @@
+{
+    "id": "bb8d6dc9-eb85-45c9-b69c-b79e066cea50",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "a79f01ab-9a06-47ec-9241-cfb28ba29763",
+            "label": "container_1",
+            "components": [],
+            "x": 53,
+            "y": 45,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "6e165621-6465-42a4-aab9-441f0b1367dc",
+                    "label": "button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "button",
+                    "texture": {
+                        "key": "hydrohopper",
+                        "frame": "button"
+                    },
+                    "x": 1,
+                    "y": 3,
+                    "scaleX": 1.3,
+                    "scaleY": 1.3,
+                    "angle": 26
+                },
+                {
+                    "type": "Image",
+                    "id": "2a79c02e-2200-4141-8aaa-a5c47549b5f3",
+                    "label": "label0001",
+                    "components": [],
+                    "texture": {
+                        "key": "hydrohopper",
+                        "frame": "label0001"
+                    }
+                },
+                {
+                    "type": "Text",
+                    "id": "15c1ee66-84ce-4e3a-95c4-107da9fca0bd",
+                    "label": "text_1",
+                    "components": [],
+                    "x": -14,
+                    "y": -20,
+                    "angle": 25,
+                    "text": "300",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#5F3C21"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

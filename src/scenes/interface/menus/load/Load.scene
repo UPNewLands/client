@@ -41,7 +41,7 @@
             "fixedWidth": 800,
             "fixedHeight": 40,
             "align": "center",
-            "fontFamily": "Arial",
+            "fontFamily": "Burbank Small",
             "fontSize": "32px"
         },
         {
@@ -52,6 +52,7 @@
             "components": [],
             "x": 760,
             "y": 480,
+            "visible": false,
             "list": [
                 {
                     "type": "Rectangle",
@@ -74,6 +75,7 @@
                     "scaleX": 0,
                     "originX": 0,
                     "isFilled": true,
+                    "fillColor": "#f0f0f0",
                     "width": 180,
                     "height": 20
                 }
@@ -91,6 +93,20 @@
             },
             "x": 760,
             "y": 400
+        },
+        {
+            "type": "Sprite",
+            "id": "5db6d7ce-9d00-480d-8a45-03f9c9a095da",
+            "label": "loading",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "loading_assets",
+                "frame": "pizzatron0001.png"
+            },
+            "x": 760,
+            "y": 340,
+            "visible": false
         }
     ],
     "plainObjects": [],
