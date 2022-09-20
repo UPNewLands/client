@@ -111,14 +111,12 @@ export default class PufflesMenu extends FloatingMenu {
     /* START-USER-CODE */
 
     playPuffleAnim(anim) {
-        let penguin = this.world.client.penguin;
-
         if (!this.playing) {
             this.playing = true;
         }
 
         if (this.playing) {
-            penguin.playPuffleAnim(anim);
+            this.network.send("play_puffle_anim", {id: this.world.client.penguin.id, anim: anim})
         }
     }
 

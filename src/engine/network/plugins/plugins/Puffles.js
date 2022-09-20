@@ -13,8 +13,12 @@ export default class Puffles extends Plugin {
             'walk_puffle': this.walkPuffle,
             'get_puffle_count': this.getPuffleCount,
             'adopt_puffle': this.adoptPuffle,
-            'send_puffle_anim': this.sendPuffleAnim
+            'play_puffle_anim': this.sendPuffleAnim
         }
+    }
+
+    get room() {
+        return this.world.room
     }
 
     getPuffles(args) {
@@ -113,8 +117,8 @@ export default class Puffles extends Plugin {
 
     sendPuffleAnim(args) {
         if (!this.world.room) return
-        if (this.world.room.penguins[args.user].pufflesprite) {
-            let penguin = this.world.room.penguins[args.user]
+        let penguin = this.room.penguins[args.id]
+        if (penguin.pufflesprite) {
             penguin.playPuffleAnim(args.anim)
         }
     }
