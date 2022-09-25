@@ -1,100 +1,105 @@
-import RoomScene from '../RoomScene'
 
-import { MoveTo, SimpleButton, ShowHint } from '@components/components'
-
+// You can write more code here
 
 /* START OF COMPILED CODE */
+
+import RoomScene from "../RoomScene";
+import Animation from "../../components/Animation";
+import SimpleButton from "../../components/SimpleButton";
+/* START-USER-IMPORTS */
+/* END-USER-IMPORTS */
 
 export default class Berg extends RoomScene {
 
     constructor() {
         super("Berg");
 
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.aqua;
-
-
         /* START-USER-CTR-CODE */
-
-        this.roomAnims = true
-
+        // Write your code here.
         /* END-USER-CTR-CODE */
     }
 
     /** @returns {void} */
     _preload() {
 
-        this.load.pack("berg-pack", "assets/media/rooms/berg/berg-pack.json");
+        this.load.pack("iceberg-pack", "assets/media/rooms/berg/iceberg-pack.json");
     }
 
     /** @returns {void} */
     _create() {
 
-        // bg
-        const bg = this.add.image(-18, -18, "berg", "bg");
-        bg.setOrigin(0, 0);
+        // sky
+        this.add.image(757, 138, "iceberg", "sky");
 
-        // aqua
-        const aqua = this.add.sprite(1255, 325, "berg", "aqua0001");
-        aqua.setOrigin(0.5, 0.4014336917562724);
+        // city
+        this.add.image(1169, 95, "iceberg", "city");
 
-        // aqua (components)
-        const aquaSimpleButton = new SimpleButton(aqua);
-        aquaSimpleButton.hoverCallback = () => this.onAquaOver();
-        aquaSimpleButton.callback = () => this.onAquaClick();
-        aquaSimpleButton.pixelPerfect = true;
-        new MoveTo(aqua);
-        const aquaShowHint = new ShowHint(aqua);
-        aquaShowHint.text = "sub_hint";
+        // sea
+        this.add.image(760, 592, "iceberg", "sea");
 
-        this.aqua = aqua;
+        // s_mbolo_10
+        this.add.image(704, 623, "iceberg", "Símbolo 10");
+
+        // booom0001
+        const booom0001 = this.add.sprite(626, 245, "iceberg", "booom0001");
+
+        // iceberg
+        this.add.image(670, 476, "iceberg", "iceberg");
+
+        // platform0001
+        const platform0001 = this.add.sprite(627, 496, "iceberg", "platform0001");
+
+        // aqua0001
+        const aqua0001 = this.add.sprite(1265, 319, "berg", "aqua0001");
+        aqua0001.setOrigin(0.5, 0.4014336917562724);
+
+        // snow
+        this.add.image(638, 596, "iceberg", "snow");
+
+        // lights0001
+        const lights0001 = this.add.sprite(715, 679, "iceberg", "lights0001");
+
+        // s_mbolo_9
+        this.add.image(576, 306, "iceberg", "Símbolo 9");
+
+        // s_mbolo_91
+        this.add.image(586, 557, "iceberg", "Símbolo 91");
+
+        // booom0001 (components)
+        const booom0001Animation = new Animation(booom0001);
+        booom0001Animation.key = "booom";
+        booom0001Animation.end = 72;
+
+        // platform0001 (components)
+        const platform0001Animation = new Animation(platform0001);
+        platform0001Animation.key = "platform";
+        platform0001Animation.end = 72;
+
+        // aqua0001 (components)
+        new SimpleButton(aqua0001);
+        const aqua0001Animation = new Animation(aqua0001);
+        aqua0001Animation.key = "aqua";
+        aqua0001Animation.start = 171;
+        aqua0001Animation.end = 348;
+        aqua0001Animation.repeat = 0;
+        aqua0001Animation.autoPlay = false;
+        aqua0001Animation.onHover = true;
+
+        // lights0001 (components)
+        const lights0001Animation = new Animation(lights0001);
+        lights0001Animation.key = "lights";
+        lights0001Animation.end = 96;
 
         this.events.emit("scene-awake");
     }
 
-
     /* START-USER-CODE */
 
-    get aquaFrame() {
-        let frame = this.aqua.frame.name
-        return parseInt(frame.substr(frame.length - 4))
-    }
-
-    create() {
-        super.create()
-
-        this.aqua.on('animationcomplete', (animation) => this.onAquaAnimComplete(animation))
-        this.aqua.play('aqua_float')
-    }
-
-    onAquaAnimComplete(animation) {
-        switch (animation.key) {
-            case 'aqua_lights_on':
-                this.aqua.play('aqua_lights_float')
-                break
-            case 'aqua_open':
-                this.aqua.play('aqua_float')
-                break
-            default:
-                break
-        }
-    }
-
-    onAquaOver() {
-        let frame = this.aquaFrame
-        if (frame <= 81 || frame >= 400) {
-            this.aqua.play('aqua_lights_on')
-        }
-    }
-
-    onAquaClick() {
-        let frame = this.aquaFrame
-        if (frame <= 180 || frame >= 348) {
-            this.aqua.play('aqua_open')
-        }
-    }
+    // Write your code here
 
     /* END-USER-CODE */
 }
 
 /* END OF COMPILED CODE */
+
+// You can write more code here

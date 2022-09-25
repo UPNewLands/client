@@ -152,7 +152,7 @@ export default class Map extends BaseContainer {
         this.add(grey_x);
 
         // rectangle_1
-        const rectangle_1 = scene.add.rectangle(449, 125, 128, 128);
+        const rectangle_1 = scene.add.rectangle(449, 126, 128, 128);
         rectangle_1.scaleX = 0.5104699314572384;
         rectangle_1.scaleY = 0.3728060295052945;
         rectangle_1.alpha = 0.1;
@@ -160,7 +160,7 @@ export default class Map extends BaseContainer {
         this.add(rectangle_1);
 
         // rectangle
-        const rectangle = scene.add.rectangle(534, 70, 128, 128);
+        const rectangle = scene.add.rectangle(534, 71, 128, 128);
         rectangle.scaleX = 0.6781767344211687;
         rectangle.scaleY = 0.4780733043598887;
         rectangle.alpha = 0.1;
@@ -334,7 +334,8 @@ export default class Map extends BaseContainer {
         // central_test (components)
         const central_testShowHint = new ShowHint(central_test);
         central_testShowHint.text = "Town on Building";
-        new SimpleButton(central_test);
+        const central_testSimpleButton = new SimpleButton(central_test);
+        central_testSimpleButton.callback = () => this.onRoomClick(10);
 
         // grey_button (components)
         const grey_buttonButton = new Button(grey_button);

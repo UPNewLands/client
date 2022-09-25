@@ -1,4 +1,16 @@
 const rooms = {
+    2: {
+        key: 'Berg',
+        scene: require('@rooms/berg/Berg').default,
+        x: 652,
+        y: 448
+    },
+    10: {
+        key: 'Town',
+        scene: require('@rooms/town/Town').default,
+        x: 638,
+        y: 486
+    }, 
     20: {
         key: 'Tropical',
         scene: require('@rooms/tropical/Tropical').default,

@@ -5,10 +5,11 @@
         "compilerInsertSpaces": true,
         "javaScriptInitFieldsInConstructor": true,
         "exportClass": true,
+        "autoImport": true,
         "superClassName": "RoomScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "yukon/assets/media/rooms/berg/berg-pack.json"
+            "client/assets/media/rooms/berg/iceberg-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Berg",
@@ -18,39 +19,169 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "009c916f-93cb-4de1-8ffe-0c3d0f4f5b83",
-            "label": "bg",
+            "id": "525240b0-f660-485f-8609-b8dbeddb03e7",
+            "label": "sky",
             "components": [],
             "texture": {
-                "key": "berg",
-                "frame": "bg"
+                "key": "iceberg",
+                "frame": "sky"
             },
-            "x": -18,
-            "y": -18,
-            "originX": 0,
-            "originY": 0
+            "x": 757,
+            "y": 138
+        },
+        {
+            "type": "Image",
+            "id": "a3621286-e408-4293-b1e3-55ac71820953",
+            "label": "city",
+            "components": [],
+            "texture": {
+                "key": "iceberg",
+                "frame": "city"
+            },
+            "x": 1169,
+            "y": 95
+        },
+        {
+            "type": "Image",
+            "id": "862d352b-5ed7-4210-bfc6-a68e78b078e7",
+            "label": "sea",
+            "components": [],
+            "texture": {
+                "key": "iceberg",
+                "frame": "sea"
+            },
+            "x": 760,
+            "y": 592
+        },
+        {
+            "type": "Image",
+            "id": "bd3cb73d-5e88-423f-8498-9263e3ed0a6f",
+            "label": "s_mbolo_10",
+            "components": [],
+            "texture": {
+                "key": "iceberg",
+                "frame": "Símbolo 10"
+            },
+            "x": 704,
+            "y": 623
         },
         {
             "type": "Sprite",
-            "id": "0f7a085f-d758-4ba2-98d1-1de608d7e4bf",
-            "label": "aqua",
-            "scope": "CLASS",
+            "id": "45b2053e-e17a-46bf-a4fc-d0c116365237",
+            "label": "booom0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "booom",
+            "Animation.end": 72,
+            "texture": {
+                "key": "iceberg",
+                "frame": "booom0001"
+            },
+            "x": 626,
+            "y": 245
+        },
+        {
+            "type": "Image",
+            "id": "545f7362-89ca-46ec-8baa-6c2abac7c0c8",
+            "label": "iceberg",
+            "components": [],
+            "texture": {
+                "key": "iceberg",
+                "frame": "iceberg"
+            },
+            "x": 670,
+            "y": 476
+        },
+        {
+            "type": "Sprite",
+            "id": "7714834f-9fd1-4a68-8631-28d1d12e44b2",
+            "label": "platform0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "platform",
+            "Animation.end": 72,
+            "texture": {
+                "key": "iceberg",
+                "frame": "platform0001"
+            },
+            "x": 627,
+            "y": 496
+        },
+        {
+            "type": "Sprite",
+            "id": "4359bfa5-02a5-4cae-8475-683904003f3a",
+            "label": "aqua0001",
             "components": [
                 "SimpleButton",
-                "MoveTo",
-                "ShowHint"
+                "Animation"
             ],
-            "SimpleButton.hoverCallback": "() => this.onAquaOver()",
-            "SimpleButton.callback": "() => this.onAquaClick()",
-            "SimpleButton.pixelPerfect": true,
-            "ShowHint.text": "sub_hint",
+            "Animation.key": "aqua",
+            "Animation.start": 171,
+            "Animation.end": 348,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
             "texture": {
                 "key": "berg",
                 "frame": "aqua0001"
             },
-            "x": 1255,
-            "y": 325,
+            "x": 1265,
+            "y": 319,
             "originY": 0.4014336917562724
+        },
+        {
+            "type": "Image",
+            "id": "9e761bdc-e0f6-4cfd-a417-4e6939a2d2e4",
+            "label": "snow",
+            "components": [],
+            "texture": {
+                "key": "iceberg",
+                "frame": "snow"
+            },
+            "x": 638,
+            "y": 596
+        },
+        {
+            "type": "Sprite",
+            "id": "ccb535c1-2535-414d-9366-b279bebd2d65",
+            "label": "lights0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lights",
+            "Animation.end": 96,
+            "texture": {
+                "key": "iceberg",
+                "frame": "lights0001"
+            },
+            "x": 715,
+            "y": 679
+        },
+        {
+            "type": "Image",
+            "id": "bcdda212-1ed3-46ba-aaf0-55f2c3e3d1c2",
+            "label": "s_mbolo_9",
+            "components": [],
+            "texture": {
+                "key": "iceberg",
+                "frame": "Símbolo 9"
+            },
+            "x": 576,
+            "y": 306
+        },
+        {
+            "type": "Image",
+            "id": "206c9609-ac67-4269-85bb-ac139a74e96b",
+            "label": "s_mbolo_91",
+            "components": [],
+            "texture": {
+                "key": "iceberg",
+                "frame": "Símbolo 91"
+            },
+            "x": 586,
+            "y": 557
         }
     ],
     "plainObjects": [],

@@ -18,123 +18,75 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "21bbb0a2-0327-46f9-8472-29a729848d75",
-            "label": "bg",
+            "id": "775286a5-1bc8-4d48-892a-20261091aeb7",
+            "label": "sky",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "bg"
+                "frame": "sky"
             },
-            "x": -10,
-            "originX": 0,
-            "originY": 0
+            "x": 699,
+            "y": 31
         },
         {
             "type": "Image",
-            "id": "79ce3240-4965-41fc-a51b-a2b6ec9c624d",
-            "label": "fg",
+            "id": "9be0fc86-2845-43ea-9c03-2a544ee75e6d",
+            "label": "s_mbolo_22",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "fg"
+                "frame": "Símbolo 22"
             },
-            "x": -63,
-            "y": 976,
-            "originX": 0,
-            "originY": 1
+            "x": 1220,
+            "y": 141
         },
         {
             "type": "Image",
-            "id": "ee943a05-82e6-40f3-b909-728c73d766d2",
-            "label": "left_sign",
+            "id": "2dc5f3e9-75cd-47ca-af52-d288630e279b",
+            "label": "s_mbolo_6",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "left_sign"
+                "frame": "Símbolo 6"
             },
-            "x": 179,
-            "y": 450,
-            "originX": 0,
-            "originY": 0
+            "x": 1315,
+            "y": 337
         },
         {
             "type": "Image",
-            "id": "51de414e-abf0-47b2-ba0b-07aa8057153f",
-            "label": "right_sign",
+            "id": "d79a874e-c22b-4c93-8629-35811df5c09a",
+            "label": "s_mbolo_30",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "right_sign"
+                "frame": "Símbolo 30"
             },
-            "x": 1286,
-            "y": 465,
-            "originX": 0,
-            "originY": 0
+            "x": 36,
+            "y": 135
         },
         {
             "type": "Image",
-            "id": "b0692d84-8da0-4b15-bbb2-751704bee709",
-            "label": "coffee_door",
-            "components": [
-                "Button",
-                "MoveTo"
-            ],
-            "Button.spriteName": "coffee_door",
-            "Button.activeFrame": false,
-            "Button.pixelPerfect": true,
-            "MoveTo.x": 550,
-            "MoveTo.y": 450,
+            "id": "c1cceaea-acb9-4c34-8834-6b4774b2f844",
+            "label": "s_mbolo_47",
+            "components": [],
             "texture": {
                 "key": "town",
-                "frame": "coffee_door"
+                "frame": "Símbolo 47"
             },
-            "x": 449,
-            "y": 305,
-            "originX": 0,
-            "originY": 0
+            "x": 89,
+            "y": 957
         },
         {
             "type": "Image",
-            "id": "5c2f7dd4-607f-4d1d-afcd-cb7b37bdbe0f",
-            "label": "gift_door",
-            "components": [
-                "Button",
-                "MoveTo"
-            ],
-            "Button.spriteName": "gift_door",
-            "Button.activeFrame": false,
-            "Button.pixelPerfect": true,
-            "MoveTo.x": 1010,
-            "MoveTo.y": 466,
+            "id": "0450984f-83e8-41ff-adcb-4bd9891f69b9",
+            "label": "s_mbolo_24",
+            "components": [],
             "texture": {
                 "key": "town",
-                "frame": "gift_door"
+                "frame": "Símbolo 24"
             },
-            "x": 995,
-            "y": 294,
-            "originX": 0,
-            "originY": 0
-        },
-        {
-            "type": "Image",
-            "id": "bfabdf1f-c4c7-4ece-8599-ca93c8326447",
-            "label": "canopy",
-            "components": [
-                "SimpleButton",
-                "MoveTo"
-            ],
-            "SimpleButton.hoverCallback": "() => this.onCanopyOver()",
-            "SimpleButton.hoverOutCallback": "() => this.onCanopyOut()",
-            "MoveTo.x": 684,
-            "MoveTo.y": 410,
-            "texture": {
-                "key": "town",
-                "frame": "canopy"
-            },
-            "x": 692,
-            "y": 464,
-            "originX": 0.49606299212598426,
-            "originY": 0.9403669724770642
+            "x": 208,
+            "y": 951
         },
         {
             "type": "Sprite",
@@ -174,158 +126,550 @@
             "originY": 7.142857142857143
         },
         {
-            "type": "Sprite",
-            "id": "b0d00512-60c5-428b-b7ad-5146af3ba382",
-            "label": "disco_lights",
-            "scope": "CLASS",
+            "type": "Image",
+            "id": "0812d9ae-af83-4a3f-97a0-9de86c8e2176",
+            "label": "s_mbolo_25",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 25"
+            },
+            "x": 760,
+            "y": 595
+        },
+        {
+            "type": "Image",
+            "id": "6d1de1c6-534f-452a-809d-9904895ecf32",
+            "label": "s_mbolo_31",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 31"
+            },
+            "x": 90,
+            "y": 241
+        },
+        {
+            "type": "Image",
+            "id": "7bb3003e-b342-4890-af81-4e6b02c337c4",
+            "label": "shopdoor",
             "components": [
+                "Button"
+            ],
+            "Button.spriteName": "shopdoor",
+            "texture": {
+                "key": "town",
+                "frame": "shopdoor"
+            },
+            "x": 981,
+            "y": 295
+        },
+        {
+            "type": "Sprite",
+            "id": "8e501390-e3d5-4ecc-a372-e330803d939e",
+            "label": "discodoor0001",
+            "components": [
+                "SimpleButton",
                 "Animation"
             ],
-            "Animation.key": "disco_lights",
-            "Animation.end": 57,
+            "Animation.key": "discodoor",
+            "Animation.end": 7,
+            "Animation.repeat": 0,
             "Animation.autoPlay": false,
-            "Animation.showOnStart": true,
-            "Animation.hideOnComplete": true,
+            "Animation.onHover": true,
             "texture": {
                 "key": "town",
-                "frame": "disco_lights0007"
+                "frame": "discodoor0001"
             },
-            "x": 766,
-            "y": 332,
-            "originX": 0,
-            "originY": 0,
-            "visible": false
+            "x": 682,
+            "y": 349
         },
         {
             "type": "Image",
-            "id": "c71b8a27-c71e-4eab-81e9-86a8b3bf87c1",
-            "label": "disco",
-            "scope": "CLASS",
+            "id": "d3a04d89-5168-43e2-9bf0-24911f12f407",
+            "label": "s_mbolo_34",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "disco"
+                "frame": "Símbolo 34"
             },
-            "x": 648,
-            "y": 229,
-            "originX": 0,
-            "originY": 0
+            "x": 609,
+            "y": 95
         },
         {
-            "type": "Sprite",
-            "id": "c7026824-f8f6-4305-8fe6-dc81d73f5d02",
-            "label": "lights",
+            "type": "Image",
+            "id": "c950c660-5d06-48cc-a7b1-c176858596b2",
+            "label": "betabottom",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "betabottom"
+            },
+            "x": 630,
+            "y": 130
+        },
+        {
+            "type": "Image",
+            "id": "26d012bd-bccc-41d6-afe1-e9427a56154e",
+            "label": "s_mbolo_44",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 44"
+            },
+            "x": 1050,
+            "y": 746
+        },
+        {
+            "type": "Image",
+            "id": "47aa9ce1-0e61-400b-88ca-a3d6b9a56e49",
+            "label": "s_mbolo_49",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 49"
+            },
+            "x": -43,
+            "y": 806
+        },
+        {
+            "type": "Image",
+            "id": "c349f575-84cd-454d-b65c-d70f676b7632",
+            "label": "s_mbolo_1",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 24"
+            },
+            "x": 73,
+            "y": 627,
+            "scaleX": 0.5812929253893424,
+            "scaleY": 0.5812929253893424,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "50887605-a28b-4f47-88be-4000452e392c",
+            "label": "s_mbolo",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 47"
+            },
+            "x": 239,
+            "y": 581
+        },
+        {
+            "type": "Image",
+            "id": "b18dd944-b6de-4cda-bd27-1037746f952c",
+            "label": "sprite_210",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "sprite 210"
+            },
+            "x": 822,
+            "y": 945
+        },
+        {
+            "type": "Image",
+            "id": "1567acb4-c0dd-449b-9a01-4202582c34bf",
+            "label": "s_mbolo_46",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 46"
+            },
+            "x": 1261,
+            "y": 773
+        },
+        {
+            "type": "Image",
+            "id": "4fe98b43-4bfb-46b6-ad9d-42273d8d533d",
+            "label": "coffee",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "coffee"
+            },
+            "x": 388,
+            "y": 225
+        },
+        {
+            "type": "Image",
+            "id": "fa1e7c60-52d2-4440-8766-42e1d50ca0f6",
+            "label": "coffeedoor",
             "components": [
-                "Animation"
+                "Button"
             ],
-            "Animation.key": "lights",
-            "Animation.end": 69,
-            "Animation.repeatDelay": 1,
+            "Button.spriteName": "coffeedoor",
+            "Button.activeFrame": false,
             "texture": {
                 "key": "town",
-                "frame": "lights0001"
+                "frame": "coffeedoor"
             },
-            "x": 518,
-            "y": -75,
-            "originX": 0,
-            "originY": 0
+            "x": 329,
+            "y": 311
         },
         {
             "type": "Image",
-            "id": "d2f7523e-4ee3-4112-afea-1031b0bde58e",
-            "label": "box_1",
+            "id": "67d470a8-aef7-4c31-a6e7-927703bd378b",
+            "label": "s_mbolo_38",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "box_1"
+                "frame": "Símbolo 38"
             },
-            "x": 973,
-            "y": 432,
-            "originX": 0.49382716049382713,
-            "originY": 0.6268656716417911
+            "x": 1097,
+            "y": 229
         },
         {
             "type": "Image",
-            "id": "0c94c016-2a42-4413-bfc0-abe028143024",
-            "label": "box_2",
+            "id": "19eb4c91-123b-44ec-99e6-63cced37ecc5",
+            "label": "s_mbolo_40",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "box_2"
+                "frame": "Símbolo 40"
             },
-            "x": 954,
-            "y": 483,
-            "originX": 0.49504950495049505,
-            "originY": 0.6736842105263158
+            "x": 1042,
+            "y": 200
         },
         {
             "type": "Image",
-            "id": "40a013ea-83e9-4eff-8634-46134d60d75a",
-            "label": "box_3",
+            "id": "d9a00c9e-2208-4f33-ba67-89545d0a0652",
+            "label": "s_mbolo_41",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "box_3"
+                "frame": "Símbolo 41"
             },
-            "x": 1148,
-            "y": 581,
-            "originX": 0.4943820224719101,
-            "originY": 0.5569620253164557
+            "x": 1025,
+            "y": 147
         },
         {
             "type": "Image",
-            "id": "97ca136f-d936-4bb2-8db1-381245bfaa5b",
-            "label": "chair_2",
+            "id": "1f17a120-c958-4930-8792-a097ca7a656b",
+            "label": "s_mbolo_42",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "chair_2"
+                "frame": "Símbolo 42"
             },
-            "x": 436,
-            "y": 462,
-            "originX": 0.49382716049382713,
-            "originY": 0.27358490566037735
+            "x": 1042,
+            "y": 116
         },
         {
             "type": "Image",
-            "id": "52130162-4cfc-4f67-b4b2-fa16fd824ee2",
-            "label": "table_2",
+            "id": "639c6ba0-55c0-413f-be08-128b3f34f2db",
+            "label": "s_mbolo_50",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "table_2"
+                "frame": "Símbolo 50"
             },
-            "x": 485,
-            "y": 523,
-            "originY": 0.7864077669902912
+            "x": 725,
+            "y": 234
         },
         {
             "type": "Image",
-            "id": "da800ad3-3d6f-4c6b-be77-696bbf7e30b5",
-            "label": "chair_1",
+            "id": "b17315ec-0657-4b9e-b804-f8c2c532b33b",
+            "label": "s_mbolo_48",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "chair_1"
+                "frame": "Símbolo 48"
             },
-            "x": 402,
-            "y": 511,
-            "originX": 0.49411764705882355,
-            "originY": 0.2857142857142857
+            "x": 1318,
+            "y": 310
         },
         {
             "type": "Image",
-            "id": "dafb207c-e4d9-4941-83f8-9351f393e0a0",
-            "label": "table_1",
+            "id": "abb95f49-0ca2-45db-9e13-61bebf59756a",
+            "label": "s_mbolo_51",
             "components": [],
             "texture": {
                 "key": "town",
-                "frame": "table_1"
+                "frame": "Símbolo 51"
             },
-            "x": 455,
-            "y": 575,
-            "originX": 0.49572649572649574,
-            "originY": 0.7830188679245284
+            "x": 1465,
+            "y": 287
+        },
+        {
+            "type": "Image",
+            "id": "c94de876-2377-478f-9c4f-40dd66d499c6",
+            "label": "hat",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "hat"
+            },
+            "x": 951,
+            "y": 198
+        },
+        {
+            "type": "Image",
+            "id": "d0819f0a-dd6c-4742-b96a-0e66c6429013",
+            "label": "s_mbolo_2",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 48"
+            },
+            "x": 1546,
+            "y": 627
+        },
+        {
+            "type": "Image",
+            "id": "f786ab2f-ebb5-400b-b65e-7470c81966f8",
+            "label": "s_mbolo_45",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 45"
+            },
+            "x": 1512,
+            "y": 908
+        },
+        {
+            "type": "Image",
+            "id": "c06b2698-cace-41c8-91bb-3628b279bbd0",
+            "label": "sprite_470",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "sprite 470"
+            },
+            "x": 1010,
+            "y": 760
+        },
+        {
+            "type": "Image",
+            "id": "a6c48975-58ae-4c35-ac3e-f5d38ece4f9c",
+            "label": "s_mbolo_8",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 8"
+            },
+            "x": 471,
+            "y": 495
+        },
+        {
+            "type": "Image",
+            "id": "d4453aab-ddd2-4d0d-9c19-6454aa475de0",
+            "label": "s_mbolo_8_copia",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 8 copia"
+            },
+            "x": 1107,
+            "y": 318
+        },
+        {
+            "type": "Image",
+            "id": "82334862-1b2e-4080-b82e-bcb2141ec8c8",
+            "label": "symbol_281",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Symbol 281"
+            },
+            "x": 1368,
+            "y": 998
+        },
+        {
+            "type": "Image",
+            "id": "2fd9613e-6da6-4d41-a095-ed47ddbbf409",
+            "label": "sprite_232",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "sprite 232"
+            },
+            "x": 1286,
+            "y": 650
+        },
+        {
+            "type": "Image",
+            "id": "f87ad837-df46-4669-b83b-a48c54bd61b8",
+            "label": "betabottom_1",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "betabottom"
+            },
+            "x": 1812,
+            "y": 193
+        },
+        {
+            "type": "Image",
+            "id": "b349417b-ed68-4e82-ad42-1595cd6aee74",
+            "label": "s_mbolo_16",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 16"
+            },
+            "x": 767,
+            "y": 279
+        },
+        {
+            "type": "Image",
+            "id": "ed54d5fc-eb52-4191-83d3-86c03159f572",
+            "label": "s_mbolo_13",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 13"
+            },
+            "x": 1467,
+            "y": 248
+        },
+        {
+            "type": "Image",
+            "id": "8b58c62d-22a4-441e-a945-15dcc343bd81",
+            "label": "symbol_94",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Symbol 94"
+            },
+            "x": 6,
+            "y": 424
+        },
+        {
+            "type": "Image",
+            "id": "952de07d-e126-4906-a97b-ef7d82f70745",
+            "label": "symbol_90",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Symbol 90"
+            },
+            "x": 32,
+            "y": 563
+        },
+        {
+            "type": "Image",
+            "id": "5b743cbe-8383-4366-9622-555a24d17e39",
+            "label": "s_mbolo_18",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 18"
+            },
+            "x": 57,
+            "y": 604
+        },
+        {
+            "type": "Image",
+            "id": "db5b4643-d738-45cc-b763-ba580b66ef31",
+            "label": "s_mbolo_36",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 36"
+            },
+            "x": -51,
+            "y": 356
+        },
+        {
+            "type": "Image",
+            "id": "1485a338-025e-42ab-b629-9dd2f384f7ca",
+            "label": "s_mbolo_43",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 43"
+            },
+            "x": 687,
+            "y": 592
+        },
+        {
+            "type": "Image",
+            "id": "4d458baa-ccc7-4406-a0cf-47928970dc31",
+            "label": "symbol_158",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Symbol 158"
+            },
+            "x": 804,
+            "y": 274
+        },
+        {
+            "type": "Image",
+            "id": "350140b2-c1c2-4bac-9783-043fe882a35d",
+            "label": "symbol_132",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Symbol 132"
+            },
+            "x": 1285,
+            "y": 746
+        },
+        {
+            "type": "Image",
+            "id": "8bab4b71-11ae-44c0-8e91-f03eba6b5cef",
+            "label": "symbol_394",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Symbol 394"
+            },
+            "x": 557,
+            "y": 865
+        },
+        {
+            "type": "Image",
+            "id": "aba118d2-2ddb-4b68-9354-45235902664a",
+            "label": "balloons",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "balloons"
+            },
+            "x": 784,
+            "y": 459
+        },
+        {
+            "type": "Image",
+            "id": "7cb04e75-9ba9-4f23-b0b2-d675a8022c25",
+            "label": "betatop",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "betatop"
+            },
+            "x": 742,
+            "y": 180
+        },
+        {
+            "type": "Image",
+            "id": "dec83620-8955-4ef5-9642-8ba90c28fea8",
+            "label": "s_mbolo_9",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Símbolo 9"
+            },
+            "x": 1029,
+            "y": 174
+        },
+        {
+            "type": "Image",
+            "id": "e94bae91-46f6-45b5-bc2d-a89fea1ef89d",
+            "label": "port",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "port"
+            },
+            "x": 381,
+            "y": 298
         }
     ],
     "plainObjects": [],
@@ -340,15 +684,6 @@
             "id": "b1ee46a5-a8cc-4134-84ca-72009a3f91e3",
             "label": "sort",
             "objectIds": [
-                "79ce3240-4965-41fc-a51b-a2b6ec9c624d",
-                "0c94c016-2a42-4413-bfc0-abe028143024",
-                "d2f7523e-4ee3-4112-afea-1031b0bde58e",
-                "40a013ea-83e9-4eff-8634-46134d60d75a",
-                "97ca136f-d936-4bb2-8db1-381245bfaa5b",
-                "da800ad3-3d6f-4c6b-be77-696bbf7e30b5",
-                "dafb207c-e4d9-4941-83f8-9351f393e0a0",
-                "52130162-4cfc-4f67-b4b2-fa16fd824ee2",
-                "bfabdf1f-c4c7-4ece-8599-ca93c8326447",
                 "cae986f7-795f-4d18-9618-d35f387c2e18",
                 "45fa492b-a213-4d30-acbe-ebe11fa805c1"
             ]

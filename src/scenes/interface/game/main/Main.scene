@@ -1009,6 +1009,22 @@
             "nestedPrefabs": []
         },
         {
+            "type": "Image",
+            "id": "104489ca-8a90-411b-b2ed-baa22e1357ba",
+            "label": "iconbeta",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "iconbeta",
+            "Button.activeFrame": false,
+            "texture": {
+                "key": "newinterface",
+                "frame": "iconbeta"
+            },
+            "x": 1432,
+            "y": 71
+        },
+        {
             "prefabId": "09017d1f-4663-41ef-aa04-3d2165c3d1d1",
             "id": "f63b0bfe-fc62-4793-ae5f-b549925d1ec5",
             "unlock": [
@@ -1056,17 +1072,26 @@
                     "label": "popup_coin_text",
                     "scope": "CLASS",
                     "components": [],
-                    "x": -1,
-                    "y": 23,
+                    "x": 364,
+                    "y": 50,
+                    "originX": 0.5043533631538751,
+                    "originY": 0.5785350741718311,
                     "alpha": 0.975,
                     "alphaTopLeft": 0.975,
                     "alphaTopRight": 0.975,
                     "alphaBottomLeft": 0.975,
                     "alphaBottomRight": 0.975,
                     "text": "You've earned XXXX Coins! ",
+                    "align": "center",
                     "fontFamily": "Burbank Small",
-                    "fontSize": "56px",
-                    "fontStyle": "bold italic"
+                    "fontSize": "45px",
+                    "fontStyle": "bold italic",
+                    "color": "#ffffffff",
+                    "stroke": "#b08f34ff",
+                    "strokeThickness": 5,
+                    "shadow.offsetY": 5,
+                    "shadow.stroke": true,
+                    "shadow.color": "#000000ff"
                 }
             ]
         },

@@ -442,6 +442,9 @@ export default class Main extends BaseScene {
         this.add.existing(cavepopup);
         cavepopup.visible = false;
 
+        // iconbeta
+        const iconbeta = this.add.image(1432, 71, "newinterface", "iconbeta");
+
         // telescope
         const telescope = new Telescope(this, 708, 249.00000000000003);
         this.add.existing(telescope);
@@ -460,14 +463,15 @@ export default class Main extends BaseScene {
         popup_coins.add(popup_coins_img);
 
         // popup_coin_text
-        const popup_coin_text = this.add.text(-1, 23, "", {});
+        const popup_coin_text = this.add.text(364, 50, "", {});
+        popup_coin_text.setOrigin(0.5043533631538751, 0.5785350741718311);
         popup_coin_text.alpha = 0.975;
         popup_coin_text.alphaTopLeft = 0.975;
         popup_coin_text.alphaTopRight = 0.975;
         popup_coin_text.alphaBottomLeft = 0.975;
         popup_coin_text.alphaBottomRight = 0.975;
         popup_coin_text.text = "You've earned XXXX Coins! ";
-        popup_coin_text.setStyle({ "fontFamily": "Burbank Small", "fontSize": "56px", "fontStyle": "bold italic" });
+        popup_coin_text.setStyle({ "align": "center", "color": "#ffffffff", "fontFamily": "Burbank Small", "fontSize": "45px", "fontStyle": "bold italic", "stroke": "#b08f34ff", "strokeThickness":5,"shadow.offsetY":5,"shadow.color": "#000000ff", "shadow.stroke":true});
         popup_coins.add(popup_coin_text);
 
         // popup_items
@@ -591,6 +595,11 @@ export default class Main extends BaseScene {
         const mapButton = new Button(map);
         mapButton.spriteName = "map";
         mapButton.callback = () => this.map.visible = true;
+
+        // iconbeta (components)
+        const iconbetaButton = new Button(iconbeta);
+        iconbetaButton.spriteName = "iconbeta";
+        iconbetaButton.activeFrame = false;
 
         this.pinContainer = pinContainer;
         this.chat_box = chat_box;
@@ -1044,8 +1053,8 @@ export default class Main extends BaseScene {
         let tween = this.tweens.add({
             targets: this.popup_coins,
             y: 0,
-            delay: 1000,
-            duration: 300,
+            delay: 2000,
+            duration: 500,
             onComplete: () => this.onCoinTweenComplete()
         });
     }
@@ -1064,8 +1073,8 @@ export default class Main extends BaseScene {
         let tween = this.tweens.add({
             targets: this.popup_coins,
             y: -110,
-            delay: 1500,
-            duration: 300,
+            delay: 2000,
+            duration: 500,
         });
     }
 
@@ -1106,7 +1115,7 @@ export default class Main extends BaseScene {
         if (this.world.client.penguin.puffleTimeout === undefined) {
             this.world.client.penguin.puffleTimeout = true;
         }        
-    
+
         this.pufflesMenu.disableDigging(this.world.client.penguin.puffleTimeout)
         this.pufflesMenu.visible = true
 

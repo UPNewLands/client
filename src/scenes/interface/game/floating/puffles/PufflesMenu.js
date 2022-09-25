@@ -107,7 +107,7 @@ export default class PufflesMenu extends FloatingMenu {
         // roll (components)
         const rollButton = new Button(roll);
         rollButton.spriteName = "roll";
-        rollButton.callback = () => {this.playPuffleAnim("roll")};
+        rollButton.callback = () => {this.playPuffleAnim("sandonhead")};
 
         // turn (components)
         const turnButton = new Button(turn);
