@@ -168,8 +168,10 @@
                 "key": "iceberg",
                 "frame": "Símbolo 9"
             },
-            "x": 576,
-            "y": 306
+            "x": 588.1650465735426,
+            "y": 419.5404346863972,
+            "originX": 0.5115199304673699,
+            "originY": 0.8145164395745075
         },
         {
             "type": "Image",
@@ -180,8 +182,10 @@
                 "key": "iceberg",
                 "frame": "Símbolo 91"
             },
-            "x": 586,
-            "y": 557
+            "x": 575.8624611887145,
+            "y": 660.4028958751118,
+            "originX": 0.4874379940380601,
+            "originY": 0.8541195064216156
         }
     ],
     "plainObjects": [],
@@ -190,5 +194,15 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 3
-    }
+    },
+    "lists": [
+        {
+            "id": "66a28302-680f-4c3d-b91b-9f28033815eb",
+            "label": "sort",
+            "objectIds": [
+                "206c9609-ac67-4269-85bb-ac139a74e96b",
+                "bcdda212-1ed3-46ba-aaf0-55f2c3e3d1c2"
+            ]
+        }
+    ]
 }

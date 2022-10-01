@@ -278,6 +278,7 @@
                 "Button"
             ],
             "Button.spriteName": "instru",
+            "Button.callback": "() => this.interface.loadExternal('Music')",
             "texture": {
                 "key": "lighthouse",
                 "frame": "instru"
@@ -693,8 +694,11 @@
                 "key": "lighthouse",
                 "frame": "catalog"
             },
-            "x": 1447,
-            "y": 913
+            "x": 1439.127201793221,
+            "y": 950.395785560532,
+            "originX": 0.4614078741216535,
+            "originY": 0.739716474205887,
+            "visible": false
         }
     ],
     "plainObjects": [],
@@ -719,7 +723,8 @@
                 "6ddf4749-5407-4271-b929-c457b7362413",
                 "f9e8eb11-655e-4887-9607-d68f6bcb55a5",
                 "e69b67a7-3f82-440e-b35c-05f6506ce2c5",
-                "4ba529a2-4638-45b0-8d86-723d17fe674b"
+                "4ba529a2-4638-45b0-8d86-723d17fe674b",
+                "912bbe08-bd1e-4e45-8198-09c199190847"
             ]
         }
     ]

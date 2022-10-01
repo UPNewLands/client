@@ -1,0 +1,111 @@
+{
+    "id": "4095ac48-6b82-404a-8b3a-6c8b95b2e471",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "05288c7b-76e8-4b9e-bade-dc979438ef4f",
+            "label": "container_1",
+            "components": [],
+            "x": 504.2788701127459,
+            "y": 302.8407567072438,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "952623ab-b051-498f-b885-90d98e6c3f0e",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 257,
+                    "y": 177,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "57ead7bc-52b2-4538-8e66-d43fd67d79b5",
+                    "label": "changelog",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "changelog"
+                    },
+                    "x": 255.7211298872541,
+                    "y": 177.15924329275617
+                },
+                {
+                    "type": "Image",
+                    "id": "93b8fc45-2227-402e-8509-badd178b4fb7",
+                    "label": "closepanel",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => { this.visible = false }",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "closepanel"
+                    },
+                    "x": 710,
+                    "y": -165
+                },
+                {
+                    "type": "Text",
+                    "id": "f9830f7b-0fed-4ee6-90c5-c34c4d3e5e0d",
+                    "label": "text_1",
+                    "components": [],
+                    "x": -60,
+                    "y": -149,
+                    "text": "What's New",
+                    "fontFamily": "Burbank Regular Bold",
+                    "fontSize": "100px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "5edca359-8415-47a7-ba7b-43ab3cd6ca57",
+                    "label": "text_2",
+                    "components": [],
+                    "x": -47,
+                    "y": -53,
+                    "text": "October 02, 2022",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "26px"
+                },
+                {
+                    "type": "Text",
+                    "id": "256ebec1-d3f2-425b-b6f1-b3c937592bac",
+                    "label": "text_3",
+                    "components": [],
+                    "x": 286,
+                    "y": 507,
+                    "text": "Follow us for more information",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "26px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

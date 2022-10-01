@@ -1492,6 +1492,22 @@
             },
             "x": 547,
             "y": 466
+        },
+        {
+            "type": "Image",
+            "id": "552d209d-8ba6-40a6-a55b-cfe9fb4d5f67",
+            "label": "waves",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "waves",
+            "Button.callback": "() => this.interface.loadExternal('Waves')",
+            "texture": {
+                "key": "tropical",
+                "frame": "waves"
+            },
+            "x": 1239,
+            "y": 80
         }
     ],
     "plainObjects": [],
@@ -1521,7 +1537,11 @@
                 "96bb13ea-6779-4ff7-ae79-0601747d9abb",
                 "30a8c777-5b8a-48e0-88aa-850f2703382b",
                 "3afd8764-ec97-4133-b992-58a565aef104",
-                "aa6b2057-15bd-4977-b580-2ecb4372311e"
+                "aa6b2057-15bd-4977-b580-2ecb4372311e",
+                "703946f6-b81e-4843-b102-0a8034060f17",
+                "3a17ffc1-8223-4724-a52b-4c205d48cf39",
+                "155a22f3-b53a-48fa-a213-7b7fad0fe9d9",
+                "0a981715-9430-4de9-b3c4-7af2d0c4d5be"
             ]
         }
     ]

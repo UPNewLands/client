@@ -22,7 +22,8 @@
                 "frame": "bg"
             },
             "originX": 0,
-            "originY": 0
+            "originY": 0,
+            "visible": false
         },
         {
             "type": "Image",
@@ -34,7 +35,8 @@
                 "frame": "startscreen"
             },
             "x": 760,
-            "y": 420
+            "y": 420,
+            "visible": false
         },
         {
             "type": "Image",
@@ -46,19 +48,8 @@
                 "frame": "bottom"
             },
             "x": 760,
-            "y": 766
-        },
-        {
-            "type": "Image",
-            "id": "4bfbb7f7-41a1-45fc-b078-2904917758a3",
-            "label": "blog-text",
-            "components": [],
-            "texture": {
-                "key": "start",
-                "frame": "blog-text"
-            },
-            "x": 364,
-            "y": 884
+            "y": 766,
+            "visible": false
         },
         {
             "type": "Image",
@@ -73,40 +64,8 @@
                 "frame": "blog"
             },
             "x": 364,
-            "y": 812
-        },
-        {
-            "type": "Image",
-            "id": "d7fb6570-52e7-40af-97a3-0badc5bf7df4",
-            "label": "createButton",
-            "components": [
-                "Button"
-            ],
-            "Button.spriteName": "create-button",
-            "Button.callback": "() => this.onCreateClick()",
-            "Button.activeFrame": false,
-            "texture": {
-                "key": "start",
-                "frame": "create-button"
-            },
-            "x": 1115,
-            "y": 777
-        },
-        {
-            "type": "Image",
-            "id": "010d3ca9-7f96-47e1-a952-19baeb027de0",
-            "label": "memberButton",
-            "components": [
-                "Button"
-            ],
-            "Button.spriteName": "member-button",
-            "Button.activeFrame": false,
-            "texture": {
-                "key": "start",
-                "frame": "member-button"
-            },
-            "x": 1115,
-            "y": 861
+            "y": 812,
+            "visible": false
         },
         {
             "type": "Image",
@@ -118,7 +77,8 @@
                 "frame": "penguin-1"
             },
             "x": 1281,
-            "y": 771
+            "y": 771,
+            "visible": false
         },
         {
             "type": "Image",
@@ -130,35 +90,8 @@
                 "frame": "penguin-2"
             },
             "x": 1274,
-            "y": 855
-        },
-        {
-            "type": "Sprite",
-            "id": "e857ac4c-0c2e-41e9-bc47-b7a5d595c755",
-            "label": "startButton",
-            "components": [
-                "Button"
-            ],
-            "Button.spriteName": "start-button",
-            "Button.callback": "() => this.onStartClick()",
-            "texture": {
-                "key": "start",
-                "frame": "start-button"
-            },
-            "x": 760,
-            "y": 826
-        },
-        {
-            "type": "Image",
-            "id": "3300ec3a-a3fc-4011-93a4-65617aa1efa9",
-            "label": "startText",
-            "components": [],
-            "texture": {
-                "key": "start",
-                "frame": "start-text"
-            },
-            "x": 760,
-            "y": 826
+            "y": 855,
+            "visible": false
         },
         {
             "type": "Image",
@@ -170,7 +103,149 @@
                 "frame": "logo"
             },
             "x": 760,
-            "y": 682
+            "y": 682,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d1adc22f-c865-4731-a914-671ea3a966a2",
+            "label": "bg_1",
+            "components": [],
+            "texture": {
+                "key": "newstart",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Rectangle",
+            "id": "639db38d-2d4c-485f-8690-9eadcd9b03f0",
+            "label": "rectangle_1",
+            "components": [],
+            "x": 759,
+            "y": 919,
+            "scaleX": 2.6720751968942604,
+            "scaleY": 0.5243142435138686,
+            "isFilled": true,
+            "fillColor": "#1363c4",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "d762dce4-de2a-4cc5-bdc9-ef0034462a06",
+            "label": "bannerdefault",
+            "components": [],
+            "texture": {
+                "key": "newstart",
+                "frame": "bannerdefault"
+            },
+            "x": 760,
+            "y": 382
+        },
+        {
+            "type": "Image",
+            "id": "aff97ddb-4d75-404c-a41d-fa4d94c3cf3d",
+            "label": "bar",
+            "components": [],
+            "texture": {
+                "key": "newstart",
+                "frame": "bar"
+            },
+            "x": 759,
+            "y": 811
+        },
+        {
+            "type": "Image",
+            "id": "b09d3832-c236-4899-9429-a1b4590287a1",
+            "label": "button",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "button",
+            "Button.callback": "() => this.onCreateClick()",
+            "Button.activeFrame": false,
+            "texture": {
+                "key": "newstart",
+                "frame": "button"
+            },
+            "x": 410,
+            "y": 812
+        },
+        {
+            "type": "Image",
+            "id": "d6cebb97-711b-4a9f-bedb-e4cb5f8d8b71",
+            "label": "button_1",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "button",
+            "Button.callback": "() => this.onStartClick()",
+            "Button.activeFrame": false,
+            "texture": {
+                "key": "newstart",
+                "frame": "button"
+            },
+            "x": 1110,
+            "y": 812
+        },
+        {
+            "type": "Image",
+            "id": "5b2dde0e-0304-4c9c-87d2-89ae1a21d0c6",
+            "label": "logo_1",
+            "components": [],
+            "texture": {
+                "key": "newstart",
+                "frame": "logo"
+            },
+            "x": 753,
+            "y": 811
+        },
+        {
+            "type": "Text",
+            "id": "992dee6e-0d47-4b20-a258-48d51392653f",
+            "label": "text_1",
+            "components": [],
+            "x": 321,
+            "y": 797,
+            "text": "Create Account",
+            "fontFamily": "Burbank Regular Bold",
+            "fontSize": "30px"
+        },
+        {
+            "type": "Text",
+            "id": "6eb10ac0-1ce3-4a17-8a10-f30d21fa0ca2",
+            "label": "text",
+            "components": [],
+            "x": 1075,
+            "y": 797,
+            "text": "Login",
+            "fontFamily": "Burbank Regular Bold",
+            "fontSize": "30px"
+        },
+        {
+            "type": "Image",
+            "id": "c1683b9f-4d65-4d43-898e-20b9a43fec15",
+            "label": "ver",
+            "components": [],
+            "texture": {
+                "key": "newstart",
+                "frame": "ver"
+            },
+            "x": 760,
+            "y": 911
+        },
+        {
+            "type": "Text",
+            "id": "b3077e72-3292-469e-8f06-cb3e88f7f135",
+            "label": "text_2",
+            "components": [],
+            "x": 723.5,
+            "y": 897,
+            "text": "ver 1.0",
+            "fontFamily": "Burbank Small Medium",
+            "fontSize": "25px"
         }
     ],
     "plainObjects": [],

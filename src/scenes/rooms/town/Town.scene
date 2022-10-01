@@ -8,7 +8,7 @@
         "superClassName": "RoomScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "yukon/assets/media/rooms/town/town-pack.json"
+            "client/assets/media/rooms/town/town-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Town",
@@ -61,8 +61,8 @@
                 "key": "town",
                 "frame": "Símbolo 30"
             },
-            "x": 36,
-            "y": 135
+            "x": 34,
+            "y": 156
         },
         {
             "type": "Image",
@@ -170,13 +170,16 @@
             "label": "discodoor0001",
             "components": [
                 "SimpleButton",
-                "Animation"
+                "Animation",
+                "MoveTo"
             ],
             "Animation.key": "discodoor",
             "Animation.end": 7,
             "Animation.repeat": 0,
             "Animation.autoPlay": false,
             "Animation.onHover": true,
+            "MoveTo.x": 692,
+            "MoveTo.y": 445,
             "texture": {
                 "key": "town",
                 "frame": "discodoor0001"
@@ -300,10 +303,13 @@
             "id": "fa1e7c60-52d2-4440-8766-42e1d50ca0f6",
             "label": "coffeedoor",
             "components": [
-                "Button"
+                "Button",
+                "MoveTo"
             ],
             "Button.spriteName": "coffeedoor",
             "Button.activeFrame": false,
+            "MoveTo.x": 331,
+            "MoveTo.y": 356,
             "texture": {
                 "key": "town",
                 "frame": "coffeedoor"
@@ -512,8 +518,10 @@
                 "key": "town",
                 "frame": "Símbolo 16"
             },
-            "x": 767,
-            "y": 279
+            "x": 622.5402420516511,
+            "y": 604.0344553837848,
+            "originX": 0.38321765727700174,
+            "originY": 0.7933523965557625
         },
         {
             "type": "Image",
@@ -572,8 +580,8 @@
                 "key": "town",
                 "frame": "Símbolo 36"
             },
-            "x": -51,
-            "y": 356
+            "x": -33,
+            "y": 388
         },
         {
             "type": "Image",
@@ -632,8 +640,10 @@
                 "key": "town",
                 "frame": "balloons"
             },
-            "x": 784,
-            "y": 459
+            "x": 772.0382807855852,
+            "y": 982.3307164736958,
+            "originX": 0.4926162063666352,
+            "originY": 0.9881816031810594
         },
         {
             "type": "Image",
@@ -685,7 +695,12 @@
             "label": "sort",
             "objectIds": [
                 "cae986f7-795f-4d18-9618-d35f387c2e18",
-                "45fa492b-a213-4d30-acbe-ebe11fa805c1"
+                "45fa492b-a213-4d30-acbe-ebe11fa805c1",
+                "b349417b-ed68-4e82-ad42-1595cd6aee74",
+                "aba118d2-2ddb-4b68-9354-45235902664a",
+                "c06b2698-cace-41c8-91bb-3628b279bbd0",
+                "2fd9613e-6da6-4d41-a095-ed47ddbbf409",
+                "8bab4b71-11ae-44c0-8e91-f03eba6b5cef"
             ]
         }
     ]

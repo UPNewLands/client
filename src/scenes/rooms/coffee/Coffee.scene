@@ -5,6 +5,7 @@
         "compilerInsertSpaces": true,
         "javaScriptInitFieldsInConstructor": true,
         "exportClass": true,
+        "autoImport": true,
         "superClassName": "RoomScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
@@ -18,253 +19,244 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "e7ab62b8-6032-4b57-b05e-00934179e5c3",
+            "id": "ba8e2ec2-dd93-44be-a26f-b9ca314cab27",
             "label": "bg",
             "components": [],
             "texture": {
                 "key": "coffee",
                 "frame": "bg"
             },
-            "y": -7,
-            "originX": 0,
-            "originY": 0
+            "x": 764,
+            "y": 516
         },
         {
             "type": "Image",
-            "id": "acd6c4d4-4d4d-4825-b2bf-b4f31174a258",
-            "label": "lamp",
+            "id": "adf3a70e-6623-4e4f-8039-4f395aea6d03",
+            "label": "symbol_211",
             "components": [],
             "texture": {
                 "key": "coffee",
-                "frame": "lamp"
+                "frame": "Symbol 211"
             },
-            "x": 172,
-            "y": -11,
-            "originX": 0,
-            "originY": 0
+            "x": 982,
+            "y": 722
         },
         {
             "type": "Image",
-            "id": "5beaef60-3e4f-40a3-9fb3-01dc145bfeda",
-            "label": "table",
+            "id": "e8af7cdb-fd1a-48db-8ff0-35261bb7e0cb",
+            "label": "symbol_213",
             "components": [],
             "texture": {
                 "key": "coffee",
-                "frame": "table"
+                "frame": "Symbol 213"
             },
-            "x": 414,
-            "y": 499,
-            "originX": 0.5217391304347826,
-            "originY": 0.5368421052631579
+            "x": 1094.9745915396577,
+            "y": 726.2647588729293,
+            "originX": 0.4075623934384003,
+            "originY": 0.20631125035839443
         },
         {
             "type": "Image",
-            "id": "07c938ab-f75d-4718-bf8b-cf3a5b619d64",
-            "label": "counter_back",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "counter_back"
-            },
-            "x": 850,
-            "y": 458,
-            "originX": 0.27906976744186046,
-            "originY": 0.8363636363636363
-        },
-        {
-            "type": "Image",
-            "id": "4025e1a5-f97d-4dba-87dd-4633cf3557bf",
-            "label": "counter_front",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "counter_front"
-            },
-            "x": 808,
-            "y": 621,
-            "originX": 0.2864583333333333,
-            "originY": 0.8710801393728222
-        },
-        {
-            "type": "Sprite",
-            "id": "298ec922-280d-4b53-b5fd-1bcf3ab5e7e6",
-            "label": "smoke",
-            "components": [
-                "Animation"
-            ],
-            "Animation.key": "smoke",
-            "Animation.end": 5,
-            "texture": {
-                "key": "coffee",
-                "frame": "smoke0001"
-            },
-            "x": 903,
-            "y": 180,
-            "originX": 0,
-            "originY": 0
-        },
-        {
-            "type": "Image",
-            "id": "9783525f-a865-4877-9de4-bf83985dcb6b",
-            "label": "sign_back",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "sign_back"
-            },
-            "x": 903,
-            "y": 632,
-            "originY": 0.4789915966386555
-        },
-        {
-            "type": "Image",
-            "id": "2af1eeae-7993-4b46-98c7-a63e57822b27",
-            "label": "sign_front",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "sign_front"
-            },
-            "x": 880,
-            "y": 695,
-            "originX": 0.5190839694656488,
-            "originY": 0.8827586206896552
-        },
-        {
-            "type": "Sprite",
-            "id": "d978b25f-26ad-465e-993e-ef17d62727a8",
-            "label": "board",
-            "scope": "CLASS",
-            "components": [
-                "SimpleButton"
-            ],
-            "SimpleButton.callback": "() => this.onBoardClick()",
-            "SimpleButton.pixelPerfect": true,
-            "texture": {
-                "key": "coffee",
-                "frame": "board0001"
-            },
-            "x": 947,
-            "y": 146,
-            "originX": 0,
-            "originY": 0
-        },
-        {
-            "type": "Image",
-            "id": "495e8163-ee24-4674-bfaf-3b1ab8d91de8",
-            "label": "machine_1",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "machine_1"
-            },
-            "x": 952,
-            "y": 468,
-            "originX": 0,
-            "originY": 0
-        },
-        {
-            "type": "Image",
-            "id": "188af677-d3b9-4bd5-a1e4-dfe2ce005467",
-            "label": "machine_2",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "machine_2"
-            },
-            "x": 960,
-            "y": 314,
-            "originX": 0,
-            "originY": 0
-        },
-        {
-            "type": "Image",
-            "id": "8a605348-9b6d-46e6-8e9a-a85c0ee0353d",
-            "label": "machine_3",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "machine_3"
-            },
-            "x": 1017,
-            "y": 406,
-            "originX": 0,
-            "originY": 0
-        },
-        {
-            "type": "Image",
-            "id": "86a80e93-528d-45f0-baa2-6392cf65d675",
-            "label": "bag",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "bag"
-            },
-            "x": 1073,
-            "y": 646,
-            "originX": 0.4430379746835443,
-            "originY": 0.5060240963855421
-        },
-        {
-            "type": "Image",
-            "id": "86153e9a-e9e2-4608-b038-65a44c58761b",
-            "label": "beans",
-            "components": [
-                "Button",
-                "MoveTo",
-                "ShowHint"
-            ],
-            "Button.spriteName": "beans",
-            "Button.activeFrame": false,
-            "Button.pixelPerfect": true,
-            "ShowHint.text": "beans_hint",
-            "texture": {
-                "key": "coffee",
-                "frame": "beans"
-            },
-            "x": 1012,
-            "y": 643,
-            "originX": 0.3411764705882353,
-            "originY": 0.5528455284552846
-        },
-        {
-            "type": "Image",
-            "id": "1bedd6e8-3870-49d0-9854-fbd028b74996",
-            "label": "lamp_2",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "lamp_2"
-            },
-            "x": 988,
-            "y": 151,
-            "originX": 0,
-            "originY": 0
-        },
-        {
-            "type": "Image",
-            "id": "5afcfbce-8f15-4ada-aff4-39125bf912ce",
-            "label": "stairs",
+            "id": "9615eb10-8866-46a4-a19b-0da0d0f1b830",
+            "label": "door2",
             "components": [
                 "Button",
                 "MoveTo"
             ],
-            "Button.spriteName": "stairs",
+            "Button.spriteName": "door2",
             "Button.activeFrame": false,
-            "MoveTo.x": 1255,
-            "MoveTo.y": 820,
+            "MoveTo.x": 963,
+            "MoveTo.y": 352,
             "texture": {
                 "key": "coffee",
-                "frame": "stairs"
+                "frame": "door2"
             },
-            "x": 1203,
-            "y": 328,
-            "originX": 0,
-            "originY": 0
+            "x": 963,
+            "y": 266
         },
         {
             "type": "Image",
-            "id": "9b4e2c94-5e99-439a-a672-13d8b51d7614",
+            "id": "75926177-117c-4c9c-8b71-67573390358e",
+            "label": "symbol_173",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 173"
+            },
+            "x": 1091,
+            "y": 411
+        },
+        {
+            "type": "Image",
+            "id": "3076131c-4f6e-461a-97ab-b44879dd15b0",
+            "label": "symbol_147",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 147"
+            },
+            "x": 707.3192683878211,
+            "y": 376.53808712469214,
+            "originX": 0.8107619795313605,
+            "originY": 0.6008967466010908
+        },
+        {
+            "type": "Image",
+            "id": "a90c95d0-7aca-48c0-bacd-427546646872",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 147"
+            },
+            "x": 707.8609583625088,
+            "y": 428.40628436843554,
+            "originX": 0.7390476765625843,
+            "originY": 0.46367717122360735
+        },
+        {
+            "type": "Image",
+            "id": "e40f6ef5-0f07-4e33-b489-62641e5277b7",
+            "label": "symbol_1",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 147"
+            },
+            "x": 714.1560094209514,
+            "y": 516.8089552221917,
+            "originX": 0.8765000905860708,
+            "originY": 0.5766815274168291
+        },
+        {
+            "type": "Image",
+            "id": "313ee4eb-3d05-4bfb-bae9-71cb9f7d3cd9",
+            "label": "symbol_200",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 200"
+            },
+            "x": 565,
+            "y": 356
+        },
+        {
+            "type": "Image",
+            "id": "33d6c287-e6f4-4954-bbd0-53ffc1eccecb",
+            "label": "symbol_202",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 202"
+            },
+            "x": 575,
+            "y": 461
+        },
+        {
+            "type": "Image",
+            "id": "790dea67-6bd8-4dac-8a4d-9f95c0adf712",
+            "label": "symbol_1940001",
+            "components": [
+                "SimpleButton",
+                "ShowHint"
+            ],
+            "ShowHint.text": "Play Smoothie Smash",
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 1940001"
+            },
+            "x": 204,
+            "y": 440
+        },
+        {
+            "type": "Image",
+            "id": "984d0446-449b-498d-a0b5-0057e997fbfa",
+            "label": "symbol_175",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 175"
+            },
+            "x": 1127,
+            "y": 534
+        },
+        {
+            "type": "Image",
+            "id": "ab320fb0-55cf-4c50-b774-42b4806be25e",
+            "label": "s_mbolo_3",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Símbolo 3"
+            },
+            "x": 890,
+            "y": 866
+        },
+        {
+            "type": "Image",
+            "id": "fae2d44c-5472-47e1-8567-23177afafbf3",
+            "label": "s_mbolo_5",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Símbolo 5"
+            },
+            "x": 736,
+            "y": 676
+        },
+        {
+            "type": "Image",
+            "id": "bacd38c1-50d5-44c3-9f3b-851207f67a3f",
+            "label": "s_mbolo_4",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Símbolo 4"
+            },
+            "x": 632.8223714715443,
+            "y": 960.3360185885441,
+            "originX": 0.632246088282344,
+            "originY": 0.6918096892842265
+        },
+        {
+            "type": "Image",
+            "id": "832c3a1c-07b4-4156-93f6-3f33de0c68e3",
+            "label": "symbol_217",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 217"
+            },
+            "x": 412,
+            "y": 805
+        },
+        {
+            "type": "Image",
+            "id": "cca72df9-24a3-4cac-a7b3-5b15d8c558e6",
+            "label": "symbol_196",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 196"
+            },
+            "x": 58,
+            "y": 509
+        },
+        {
+            "type": "Image",
+            "id": "8b096146-e292-49b9-a68b-c9b25a1cee18",
+            "label": "symbol_198",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 198"
+            },
+            "x": 156,
+            "y": 742
+        },
+        {
+            "type": "Image",
+            "id": "8182f791-b95e-47a2-8269-1f3551acf296",
             "label": "door",
             "components": [
                 "Button",
@@ -272,17 +264,39 @@
             ],
             "Button.spriteName": "door",
             "Button.activeFrame": false,
-            "Button.pixelPerfect": true,
-            "MoveTo.x": 750,
-            "MoveTo.y": 392,
+            "MoveTo.x": 1327,
+            "MoveTo.y": 580,
             "texture": {
                 "key": "coffee",
                 "frame": "door"
             },
-            "x": 724,
-            "y": 135,
-            "originX": 0,
-            "originY": 0
+            "x": 1324,
+            "y": 425
+        },
+        {
+            "type": "Image",
+            "id": "6e505bda-49fc-481c-8939-11a7eb10f96f",
+            "label": "symbol_223",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 223"
+            },
+            "x": 1480,
+            "y": 748
+        },
+        {
+            "type": "Image",
+            "id": "469b2f50-77c3-476f-a39f-9706ba0a4a55",
+            "label": "sprite_764",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Sprite 764"
+            },
+            "x": 733,
+            "y": 1215.1535917971228,
+            "originY": 1.0354965604745079
         }
     ],
     "plainObjects": [],
@@ -297,13 +311,13 @@
             "id": "d8014338-e465-4139-bd11-d2d330aded64",
             "label": "sort",
             "objectIds": [
-                "86153e9a-e9e2-4608-b038-65a44c58761b",
-                "86a80e93-528d-45f0-baa2-6392cf65d675",
-                "2af1eeae-7993-4b46-98c7-a63e57822b27",
-                "9783525f-a865-4877-9de4-bf83985dcb6b",
-                "4025e1a5-f97d-4dba-87dd-4633cf3557bf",
-                "07c938ab-f75d-4718-bf8b-cf3a5b619d64",
-                "5beaef60-3e4f-40a3-9fb3-01dc145bfeda"
+                "fae2d44c-5472-47e1-8567-23177afafbf3",
+                "e8af7cdb-fd1a-48db-8ff0-35261bb7e0cb",
+                "469b2f50-77c3-476f-a39f-9706ba0a4a55",
+                "bacd38c1-50d5-44c3-9f3b-851207f67a3f",
+                "a90c95d0-7aca-48c0-bacd-427546646872",
+                "3076131c-4f6e-461a-97ab-b44879dd15b0",
+                "e40f6ef5-0f07-4e33-b489-62641e5277b7"
             ]
         }
     ]

@@ -1,0 +1,196 @@
+{
+    "id": "e6ed3a4e-b4cd-4aaf-bc06-434266651a70",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c0b68dce-9623-4d65-9675-866b93b436d8",
+            "label": "container_1",
+            "components": [],
+            "x": -27.93463724182101,
+            "y": 103.12152068887252,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "ddd2c4ec-513e-4ca5-a493-5c7177af5c67",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 788,
+                    "y": 377,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "ca1b6816-83d5-4eb8-a9b7-dbb4dbff5476",
+                    "label": "panel",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "panel"
+                    },
+                    "x": 787.9346372418211,
+                    "y": 376.8784793111275
+                },
+                {
+                    "type": "Image",
+                    "id": "12b9782a-413e-4cc2-bd49-99b29488729a",
+                    "label": "closepanel",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => { this.visible = false }",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "closepanel"
+                    },
+                    "x": 1441,
+                    "y": -22
+                },
+                {
+                    "type": "Image",
+                    "id": "c4ff890c-670b-43ac-ac2e-a582dc214e41",
+                    "label": "card1",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "card1"
+                    },
+                    "x": 238,
+                    "y": 582
+                },
+                {
+                    "type": "Image",
+                    "id": "b90fbe8d-11a5-48fa-8521-8f4afe5d0d21",
+                    "label": "card2",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "card2"
+                    },
+                    "x": 514,
+                    "y": 176
+                },
+                {
+                    "type": "Image",
+                    "id": "9d3edb99-499a-49cd-b5f0-f3e9a000b0fa",
+                    "label": "card3",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "card3"
+                    },
+                    "x": 819,
+                    "y": 561
+                },
+                {
+                    "type": "Image",
+                    "id": "cf3d03b7-ec79-4d85-9d88-500300fcbf1e",
+                    "label": "item1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "item1",
+                    "Button.activeFrame": false,
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "item1"
+                    },
+                    "x": 243,
+                    "y": 314
+                },
+                {
+                    "type": "Image",
+                    "id": "82b0d7bb-44e0-490f-8a10-991628a57c5f",
+                    "label": "item2",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "item2"
+                    },
+                    "x": 527,
+                    "y": 506,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "237e47a4-2f6e-4587-a64c-413afcb48ec2",
+                    "label": "item3",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "item3"
+                    },
+                    "x": 799,
+                    "y": 273,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "451dbdfc-63cf-4783-a825-0476aec5a4d9",
+                    "label": "item4",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "item4"
+                    },
+                    "x": 1090,
+                    "y": 409,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "74564615-47f8-44e2-ac2e-aad4424f953a",
+                    "label": "item5",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "item5"
+                    },
+                    "x": 1354,
+                    "y": 358,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

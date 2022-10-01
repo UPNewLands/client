@@ -1,0 +1,287 @@
+{
+    "id": "f31686fa-ebee-474a-bf6a-5ac0216175a4",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/minecave/cavemine-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Minecave",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "d98098b9-4752-43ec-8286-b57ff623cf09",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "background"
+            },
+            "x": 887,
+            "y": 484
+        },
+        {
+            "type": "Image",
+            "id": "edab136f-0374-47bd-83e2-70fedb701d16",
+            "label": "s_mbolo_1",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Símbolo 1"
+            },
+            "x": 211,
+            "y": 229
+        },
+        {
+            "type": "Image",
+            "id": "bff7d5c3-26b6-476b-b8ca-5f9e440862a4",
+            "label": "symbol_538",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 538"
+            },
+            "x": 715,
+            "y": 85
+        },
+        {
+            "type": "Image",
+            "id": "4e26a5e9-76bc-4ed3-af63-50da08a849e6",
+            "label": "symbol_287",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 287"
+            },
+            "x": 575,
+            "y": 285
+        },
+        {
+            "type": "Image",
+            "id": "63e413e6-057a-4a12-ac26-fa08345df93e",
+            "label": "symbol_158",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 158"
+            },
+            "x": 594,
+            "y": 361
+        },
+        {
+            "type": "Image",
+            "id": "d90351c7-6dc8-4c20-a0bc-d420a422ca3f",
+            "label": "symbol_600001",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 600001"
+            },
+            "x": 722,
+            "y": 336
+        },
+        {
+            "type": "Image",
+            "id": "783ddf3c-9591-4ae5-9448-883bfefd54ac",
+            "label": "door2",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door2",
+            "Button.activeFrame": false,
+            "MoveTo.x": 941,
+            "MoveTo.y": 443,
+            "texture": {
+                "key": "cavemine",
+                "frame": "door2"
+            },
+            "x": 920,
+            "y": 384
+        },
+        {
+            "type": "Image",
+            "id": "18c848e7-9692-4c17-9277-5a65b2d6a9fc",
+            "label": "hat",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "hat",
+            "MoveTo.x": 675,
+            "MoveTo.y": 475,
+            "texture": {
+                "key": "cavemine",
+                "frame": "hat"
+            },
+            "x": 722,
+            "y": 441
+        },
+        {
+            "type": "Image",
+            "id": "fc5ff0d7-7f2f-416c-bf66-c7c5f68dcc52",
+            "label": "symbol_135",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 135"
+            },
+            "x": 1146,
+            "y": 533
+        },
+        {
+            "type": "Image",
+            "id": "3ea50425-5ea8-4720-a8e0-f95fef27e093",
+            "label": "s_mbolo_2",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Símbolo 2"
+            },
+            "x": 1413,
+            "y": 571
+        },
+        {
+            "type": "Image",
+            "id": "9f448a93-6cf8-4609-8820-84a3251e7caa",
+            "label": "symbol_54",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 54"
+            },
+            "x": 1437,
+            "y": 679
+        },
+        {
+            "type": "Image",
+            "id": "9d66d1a6-1939-4581-938e-d0568883b152",
+            "label": "symbol_521",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 521"
+            },
+            "x": 394,
+            "y": 813
+        },
+        {
+            "type": "Image",
+            "id": "6baccb31-e94d-49d8-b688-b69793c819e5",
+            "label": "symbol_519",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 519"
+            },
+            "x": 269,
+            "y": 762
+        },
+        {
+            "type": "Image",
+            "id": "eba80937-9199-42a8-beae-0b165f8ef736",
+            "label": "symbol_523",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 523"
+            },
+            "x": 220,
+            "y": 847
+        },
+        {
+            "type": "Image",
+            "id": "b58e663a-e23b-40df-a4f6-fcf139892025",
+            "label": "symbol_2",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 2"
+            },
+            "x": 417,
+            "y": 459
+        },
+        {
+            "type": "Image",
+            "id": "4eeacf59-d904-46f6-934a-d3147da638d7",
+            "label": "symbol_1",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 1"
+            },
+            "x": 235,
+            "y": 424
+        },
+        {
+            "type": "Image",
+            "id": "202d5b5d-0b14-4129-8163-235663999c66",
+            "label": "symbol_507",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 507"
+            },
+            "x": 271,
+            "y": 475
+        },
+        {
+            "type": "Image",
+            "id": "3d8a643c-b05e-4139-b851-13ba7d8e69c0",
+            "label": "door1",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door1",
+            "Button.activeFrame": false,
+            "MoveTo.x": 154,
+            "MoveTo.y": 643,
+            "texture": {
+                "key": "cavemine",
+                "frame": "door1"
+            },
+            "x": 126,
+            "y": 523
+        },
+        {
+            "type": "Image",
+            "id": "1ccbeb98-c8cb-4a09-a3e8-3b532c13a2d5",
+            "label": "symbol_517",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 517"
+            },
+            "x": 47,
+            "y": 352
+        },
+        {
+            "type": "Image",
+            "id": "5a85703a-b935-49bd-9345-018621dd4aee",
+            "label": "symbol_591",
+            "components": [],
+            "texture": {
+                "key": "cavemine",
+                "frame": "Symbol 591"
+            },
+            "x": 758,
+            "y": 484
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

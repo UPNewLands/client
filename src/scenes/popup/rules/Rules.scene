@@ -1,0 +1,125 @@
+{
+    "id": "0b9730c4-35db-479f-a28f-0ce41ec6eac8",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0438bfc7-ce0e-46c6-a3bb-970fd8324000",
+            "label": "container_1",
+            "components": [],
+            "x": 82.98340611710172,
+            "y": -49.334967884694784,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "00725d63-5314-4b25-9719-460bcbd9b7c0",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 677,
+                    "y": 529,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "91ab4ab5-30b7-4033-b303-ace544548bb2",
+                    "label": "bg",
+                    "components": [],
+                    "texture": {
+                        "key": "rules",
+                        "frame": "bg"
+                    },
+                    "x": 677.0165938828983,
+                    "y": 529.3349678846948
+                },
+                {
+                    "type": "Image",
+                    "id": "e2e5f46e-3a77-4156-985f-36328c839e76",
+                    "label": "rules",
+                    "components": [],
+                    "texture": {
+                        "key": "rules",
+                        "frame": "rules"
+                    },
+                    "x": 738,
+                    "y": 470
+                },
+                {
+                    "type": "Image",
+                    "id": "465f371f-02b0-46f7-a66c-8d31bdcb9cc6",
+                    "label": "icons",
+                    "components": [],
+                    "texture": {
+                        "key": "rules",
+                        "frame": "icons"
+                    },
+                    "x": 423,
+                    "y": 478
+                },
+                {
+                    "type": "Image",
+                    "id": "5db25620-c487-4117-b2d2-4a048107ae3e",
+                    "label": "title",
+                    "components": [],
+                    "texture": {
+                        "key": "rules",
+                        "frame": "title"
+                    },
+                    "x": 688,
+                    "y": 192
+                },
+                {
+                    "type": "Image",
+                    "id": "66099f80-3d20-4cc4-add4-3082bc1622d4",
+                    "label": "button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "button",
+                    "Button.callback": "() => { this.visible = false }",
+                    "texture": {
+                        "key": "rules",
+                        "frame": "button"
+                    },
+                    "x": 674,
+                    "y": 797
+                },
+                {
+                    "type": "Image",
+                    "id": "da9b3cb5-38a3-4770-bc92-b7ad26f58c85",
+                    "label": "s_mbolo_5",
+                    "components": [],
+                    "texture": {
+                        "key": "rules",
+                        "frame": "Símbolo 5"
+                    },
+                    "x": 615,
+                    "y": 797
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

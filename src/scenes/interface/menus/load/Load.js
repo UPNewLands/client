@@ -39,6 +39,13 @@ export default class Load extends BaseScene {
         const bg = this.add.image(0, 0, "load", "bg");
         bg.setOrigin(0, 0);
 
+        // rectangle_1
+        const rectangle_1 = this.add.rectangle(760, 480, 128, 128);
+        rectangle_1.scaleX = 11.909224665264004;
+        rectangle_1.scaleY = 7.484623172550488;
+        rectangle_1.isFilled = true;
+        rectangle_1.fillColor = 1270724;
+
         // text
         const text = this.add.text(760, 520, "", {});
         text.setOrigin(0.5, 0);

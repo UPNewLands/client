@@ -1,6 +1,6 @@
-import RoomScene from '../RoomScene'
+import RoomScene from '@scenes/rooms/RoomScene'
 
-import { Animation, Button, MoveTo, SimpleButton, Zone } from '@components/components'
+import { MoveTo, SimpleButton, ShowHint } from '@components/components'
 
 
 /* START OF COMPILED CODE */
@@ -10,44 +10,17 @@ export default class Dance extends RoomScene {
     constructor() {
         super("Dance");
 
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.puffle;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_speaker_sound;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_mixer_wave;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_mixer_tables_under;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_mixer_tables;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_mixer_lights;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_mixer_slider;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_box_headphones_back;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_box_sliders;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_box_lights;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.dj_box_headphones_front;
-        /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite|Phaser.GameObjects.Container>} */
-        this.sort;
-        /** @type {Phaser.GameObjects.Sprite[]} */
-        this.animate;
-
-
         /* START-USER-CTR-CODE */
 
         this.roomTriggers = {
-            'town': () => this.triggerRoom(100, 680, 520),
-            'boiler': null,
-            'lounge': () => this.triggerRoom(121, 1200, 760),
-            'mix': null
+            'arcade': () => this.triggerRoom(14, 1169, 600),
+            'boiler': () => this.triggerRoom(16, 1064, 634),
+            'contest': () => null,
+            'soundstudio': () => null,
+            'town': () => this.triggerRoom(10, 713, 561),
         }
-        this.roomAnims = true
-        this.music = '5'
+
+        this.music = "1165"
 
         /* END-USER-CTR-CODE */
     }
@@ -55,399 +28,312 @@ export default class Dance extends RoomScene {
     /** @returns {void} */
     _preload() {
 
-        this.load.pack("dance-pack", "assets/media/rooms/dance/dance-pack.json");
+        this.load.pack("danceClub-pack-new", "assets/media/rooms/dance/danceClub-pack-new.json");
     }
 
     /** @returns {void} */
     _create() {
 
-        // bg
-        this.add.image(760, 480, "dance", "bg");
+        // rectangle
+        const rectangle = this.add.rectangle(164, 296, 200, 500);
+        rectangle.isFilled = true;
+        rectangle.fillColor = 4143686;
 
-        // wire
-        const wire = this.add.image(1284, 726, "dance", "wire");
-        wire.setOrigin(0.5, 0.5070422535211268);
-
-        // floor_frame
-        const floor_frame = this.add.image(646, 696, "dance", "floor/frame");
-        floor_frame.setOrigin(0.5006273525721455, 0.5);
-
-        // floor
-        const floor = this.add.sprite(646, 693, "dance", "floor/floor0001");
-
-        // stage
-        const stage = this.add.image(660, 388, "dance", "stage");
-        stage.setOrigin(0.5008576329331046, 0.5028248587570622);
-
-        // fg_wire
-        const fg_wire = this.add.image(217, 32, "dance", "fg/fg_wire");
-        fg_wire.setOrigin(0.5106382978723404, 0.5063291139240507);
-
-        // fg_speaker_1
-        const fg_speaker_1 = this.add.sprite(268, 151, "dance", "fg/fg_speaker_10001");
-
-        // fg_speaker_2
-        const fg_speaker_2 = this.add.sprite(170, 131, "dance", "fg/fg_speaker_20001");
-        fg_speaker_2.setOrigin(0.503448275862069, 0.5026455026455027);
-
-        // fg_wire_1
-        const fg_wire_1 = this.add.image(1130, 32, "dance", "fg/fg_wire");
-        fg_wire_1.setOrigin(0.5106382978723404, 0.5063291139240507);
-        fg_wire_1.flipX = true;
-
-        // fg_speaker_1_1
-        const fg_speaker_1_1 = this.add.sprite(1080, 151, "dance", "fg/fg_speaker_10001");
-        fg_speaker_1_1.flipX = true;
-
-        // speaker_3
-        const speaker_3 = this.add.image(119, 827, "dance", "speaker_3");
-        speaker_3.setOrigin(0.5297297297297298, 0.8456140350877193);
-
-        // fg_speaker_2_1
-        const fg_speaker_2_1 = this.add.sprite(1178, 131, "dance", "fg/fg_speaker_20001");
-        fg_speaker_2_1.setOrigin(0.503448275862069, 0.5026455026455027);
-        fg_speaker_2_1.flipX = true;
-
-        // speaker_1
-        const speaker_1 = this.add.sprite(350, 424, "dance", "speaker_10001");
-        speaker_1.setOrigin(0.5655737704918032, 0.770949720670391);
-
-        // lamp
-        const lamp = this.add.image(1457, 227, "dance", "lamp");
-        lamp.setOrigin(0.5045045045045045, 0.5);
-
-        // door_behind
-        this.add.image(154, 434, "dance", "door/behind");
+        // danceFloor
+        const danceFloor = this.add.sprite(704, 660, "danceClub-new", "danceFloor0001.png");
 
         // door
-        const door = this.add.sprite(154, 440, "dance", "door/door0001");
-        door.setOrigin(0.5, 0.5016722408026756);
+        const door = this.add.sprite(139, 270, "danceClub-new", "doorAnim.png0001.png");
 
-        // door_frame
-        const door_frame = this.add.image(152, 437, "dance", "door/frame");
-        door_frame.setOrigin(0.5031446540880503, 0.5);
+        // upstairs
+        const upstairs = this.add.sprite(1361, 327, "danceClub-new", "upstairs0001.png");
 
-        // lights
-        const lights = this.add.sprite(666, 94, "dance", "lights/lights0001");
+        // bg
+        const bg = this.add.sprite(751, 483, "danceClub-new", "bg.png");
 
-        // stairs
-        const stairs = this.add.image(1361, 433, "dance", "stairs");
-        stairs.setOrigin(0.5026455026455027, 0.5010141987829615);
+        // leftRailing
+        const leftRailing = this.add.sprite(407, 320, "danceClub-new", "leftRailing.png");
 
-        // puffle_speaker
-        const puffle_speaker = this.add.container(1164, 735.5295257801258);
+        // floorSpeaker
+        const floorSpeaker = this.add.sprite(339, 339, "danceClub-new", "floorSpeaker0001.png");
 
-        // speaker_4
-        const speaker_4 = this.add.image(2, 1.4705234832657652, "dance", "speaker_4");
-        speaker_4.setOrigin(0.45918367346938777, 0.8421052631578947);
-        puffle_speaker.add(speaker_4);
+        // doorRailingLeft
+        const doorRailingLeft = this.add.sprite(152, 561, "danceClub-new", "doorRailingLeft.png");
 
-        // puffle
-        const puffle = this.add.sprite(0, -199.52947651673423, "dance", "puffle/puffle0001");
-        puffle.setOrigin(0.5, 0.7933884297520661);
-        puffle_speaker.add(puffle);
+        // doorRailingRight
+        const doorRailingRight = this.add.sprite(273, 430, "danceClub-new", "doorRailingRight.png");
 
-        // boiler
-        const boiler = this.add.container(979.3584381110322, 418.96573398979467);
+        // backChair
+        const backChair = this.add.sprite(1445, 683, "danceClub-new", "backChair.png");
 
-        // speaker_1_1
-        const speaker_1_1 = this.add.sprite(0.6415522983123765, -0.9657361633013579, "dance", "speaker_10001");
-        speaker_1_1.setOrigin(0.5655737704918032, 0.770949720670391);
-        speaker_1_1.flipX = true;
-        boiler.add(speaker_1_1);
+        // rightChair
+        const rightChair = this.add.sprite(1541, 799, "danceClub-new", "rightChair.png");
 
-        // boiler_door
-        const boiler_door = this.add.image(25.641552298312376, -51.96573616330136, "dance", "boiler");
-        boiler_door.setOrigin(0.5, 0.4236453201970443);
-        boiler_door.flipX = true;
-        boiler.add(boiler_door);
+        // table
+        const table = this.add.sprite(1423, 778, "danceClub-new", "table.png");
 
-        // dj_speaker
-        const dj_speaker = this.add.container(790.7929422877853, 305.10866987575673);
+        // leftChair
+        const leftChair = this.add.sprite(1340, 880, "danceClub-new", "leftChair.png");
 
-        // dj_speaker_speaker
-        const dj_speaker_speaker = this.add.image(1.2070577122146915, -0.10866987575673193, "dance", "dj/speaker");
-        dj_speaker_speaker.setOrigin(0.4, 0.6923076923076923);
-        dj_speaker.add(dj_speaker_speaker);
+        // leftChairBack
+        const leftChairBack = this.add.sprite(1301, 886, "danceClub-new", "leftChairBack.png");
 
-        // dj_speaker_sound
-        const dj_speaker_sound = this.add.sprite(6.2070577122146915, -39.10866987575673, "dance", "dj/speaker_sound0001");
-        dj_speaker_sound.setOrigin(0.5, 0.5061728395061729);
-        dj_speaker.add(dj_speaker_sound);
+        // soundStudio
+        const soundStudio = this.add.sprite(692, 392, "danceClub-new", "soundStudio0001.png");
 
-        // mixer
-        const mixer = this.add.container(656.758588457557, 340.0371580227643);
+        // sofa
+        const sofa = this.add.sprite(149.36760765951857, 627.7627502053078, "danceClub-new", "sofa.png");
+        sofa.setOrigin(0.6049295941144784, 0.15003229044350086);
 
-        // dj_mixer_wave_green
-        const dj_mixer_wave_green = this.add.image(0, 12, "dance", "dj/mixer/wave/green");
-        mixer.add(dj_mixer_wave_green);
+        // rightRailing
+        const rightRailing = this.add.sprite(962, 324, "danceClub-new", "rightRailing.png");
 
-        // dj_mixer_wave
-        const dj_mixer_wave = this.add.sprite(0, 12, "dance", "dj/mixer/wave/wave0001");
-        mixer.add(dj_mixer_wave);
+        // boilerSpeaker
+        const boilerSpeaker = this.add.sprite(1033, 314, "danceClub-new", "boilerSpeakerClosed0001.png");
 
-        // dj_mixer
-        const dj_mixer = this.add.image(0.24141154244296104, 2.962841977235712, "dance", "dj/mixer/mixer");
-        mixer.add(dj_mixer);
+        // danceContest
+        const danceContest = this.add.sprite(1149, 319, "danceClub-new", "danceContest0001.png");
 
-        // dj_mixer_tables_under
-        const dj_mixer_tables_under = this.add.sprite(1.241411542442961, -4.037158022764288, "dance", "dj/mixer/tables/tables_under0001");
-        dj_mixer_tables_under.setOrigin(0.5027027027027027, 0.5128205128205128);
-        mixer.add(dj_mixer_tables_under);
+        // rightSpeaker
+        const rightSpeaker = this.add.sprite(1081, 55, "danceClub-new", "rightSpeaker0001.png");
 
-        // dj_mixer_tables
-        const dj_mixer_tables = this.add.sprite(0.24141154244296104, -7.037158022764288, "dance", "dj/mixer/tables/tables0001");
-        dj_mixer_tables.setOrigin(0.5, 0.5161290322580645);
-        mixer.add(dj_mixer_tables);
+        // corner
+        const corner = this.add.sprite(1301, 240, "danceClub-new", "corner.png");
 
-        // dj_mixer_lights
-        const dj_mixer_lights = this.add.sprite(0.24141154244296104, -20.037158022764288, "dance", "dj/mixer/lights/lights0001");
-        mixer.add(dj_mixer_lights);
+        // upstairsRailing
+        const upstairsRailing = this.add.sprite(1176, 500, "danceClub-new", "upstairsRailing.png");
 
-        // dj_mixer_slider
-        const dj_mixer_slider = this.add.sprite(0.24141154244296104, -20.037158022764288, "dance", "dj/mixer/slider/slider0001");
-        mixer.add(dj_mixer_slider);
+        // neonSign
+        const neonSign = this.add.sprite(1135, 109, "danceClub-new", "neonSign0001.png");
 
-        // dj_wires
-        const dj_wires = this.add.image(5.241411542442961, 29.962841977235712, "dance", "dj/wires");
-        dj_wires.setOrigin(0.5014836795252225, 0.5050505050505051);
-        mixer.add(dj_wires);
+        // leftSpeaker
+        const leftSpeaker = this.add.sprite(290, 73, "danceClub-new", "leftSpeaker0001.png");
 
-        // box
-        const box = this.add.container(520.6001395292443, 310.6122881275866);
+        // fg
+        const fg = this.add.sprite(734, 1007.5, "danceClub-new", "fg.png");
+        fg.setOrigin(0.5, 1);
 
-        // dj_box_headphones_back
-        const dj_box_headphones_back = this.add.sprite(-52.600168515674795, -58.61229112964787, "dance", "dj/box/headphones/back0001");
-        dj_box_headphones_back.setOrigin(0.5135135135135135, 0.5);
-        box.add(dj_box_headphones_back);
+        // keeper
+        const keeper = this.add.sprite(1039, 218, "danceClub-new", "keeperAnim0001.png");
 
-        // dj_box
-        const dj_box = this.add.image(1.3998314843252047, 2.387708870352128, "dance", "dj/box/box");
-        dj_box.setOrigin(0.5, 0.75);
-        box.add(dj_box);
-
-        // dj_box_sliders
-        const dj_box_sliders = this.add.sprite(30.399831484325205, 2.387708870352128, "dance", "dj/box/sliders/sliders0001");
-        dj_box_sliders.setOrigin(0.5, 0.5151515151515151);
-        box.add(dj_box_sliders);
-
-        // dj_box_lights
-        const dj_box_lights = this.add.sprite(43.399831484325205, -44.61229112964787, "dance", "dj/box/lights/lights0001");
-        dj_box_lights.setOrigin(0.5, 0.5072463768115942);
-        box.add(dj_box_lights);
-
-        // dj_box_headphones_front
-        const dj_box_headphones_front = this.add.sprite(-26.600168515674795, -70.61229112964787, "dance", "dj/box/headphones/front0001");
-        dj_box_headphones_front.setOrigin(0.5, 0.509090909090909);
-        box.add(dj_box_headphones_front);
-
-        // zone
-        const zone = this.add.rectangle(1164, 537, 60, 50);
-        zone.alpha = 0.5;
-        zone.isFilled = true;
-        zone.fillColor = 65280;
+        // boiler_btn
+        const boiler_btn = this.add.rectangle(1030, 306, 128, 200);
+        boiler_btn.fillColor = 55770;
+        boiler_btn.fillAlpha = 0.5;
 
         // lists
-        const sort = [speaker_3, speaker_1, boiler, box, dj_speaker, mixer, puffle_speaker];
-        const animate = [dj_box_headphones_front, dj_box_lights, dj_mixer_slider, dj_mixer_lights, dj_mixer_tables, dj_mixer_tables_under, dj_speaker_sound, dj_box_headphones_back];
-
-        // floor (components)
-        const floorAnimation = new Animation(floor);
-        floorAnimation.key = "floor/floor";
-        floorAnimation.end = 60;
-
-        // fg_speaker_1 (components)
-        const fg_speaker_1Animation = new Animation(fg_speaker_1);
-        fg_speaker_1Animation.key = "fg/fg_speaker_1";
-        fg_speaker_1Animation.end = 10;
-
-        // fg_speaker_2 (components)
-        const fg_speaker_2Animation = new Animation(fg_speaker_2);
-        fg_speaker_2Animation.key = "fg/fg_speaker_2";
-        fg_speaker_2Animation.end = 10;
-
-        // fg_speaker_1_1 (components)
-        const fg_speaker_1_1Animation = new Animation(fg_speaker_1_1);
-        fg_speaker_1_1Animation.key = "fg/fg_speaker_1";
-        fg_speaker_1_1Animation.end = 10;
-
-        // fg_speaker_2_1 (components)
-        const fg_speaker_2_1Animation = new Animation(fg_speaker_2_1);
-        fg_speaker_2_1Animation.key = "fg/fg_speaker_2";
-        fg_speaker_2_1Animation.end = 10;
-
-        // speaker_1 (components)
-        const speaker_1Animation = new Animation(speaker_1);
-        speaker_1Animation.key = "speaker_1";
-        speaker_1Animation.end = 10;
+        const sort = [fg, doorRailingLeft, floorSpeaker, doorRailingRight, boiler_btn, leftRailing, leftChair, leftChairBack, table, rightChair, backChair, upstairsRailing, sofa];
 
         // door (components)
-        new SimpleButton(door);
-        const doorAnimation = new Animation(door);
-        doorAnimation.key = "door/door";
-        doorAnimation.end = 5;
-        doorAnimation.repeat = 0;
-        doorAnimation.autoPlay = false;
-        doorAnimation.onHover = true;
+        const doorSimpleButton = new SimpleButton(door);
+        doorSimpleButton.hoverCallback = () => this.onDoorOver();
+        doorSimpleButton.hoverOutCallback = () => this.onDoorOut();
         const doorMoveTo = new MoveTo(door);
-        doorMoveTo.x = 220;
-        doorMoveTo.y = 540;
+        doorMoveTo.x = 200;
+        doorMoveTo.y = 500;
 
-        // lights (components)
-        const lightsAnimation = new Animation(lights);
-        lightsAnimation.key = "lights/lights";
-        lightsAnimation.end = 80;
+        // upstairs (components)
+        const upstairsSimpleButton = new SimpleButton(upstairs);
+        upstairsSimpleButton.hoverCallback = () => this.onStairsOver();
+        upstairsSimpleButton.hoverOutCallback = () => this.onStairsOut();
+        const upstairsMoveTo = new MoveTo(upstairs);
+        upstairsMoveTo.x = 1400;
+        upstairsMoveTo.y = 500;
 
-        // stairs (components)
-        const stairsButton = new Button(stairs);
-        stairsButton.spriteName = "stairs";
-        stairsButton.activeFrame = false;
-        const stairsMoveTo = new MoveTo(stairs);
-        stairsMoveTo.x = 1324;
-        stairsMoveTo.y = 769;
+        // soundStudio (components)
+        const soundStudioSimpleButton = new SimpleButton(soundStudio);
+        soundStudioSimpleButton.hoverCallback = () => this.onSoundStudioOver();
+        soundStudioSimpleButton.hoverOutCallback = () => this.onSoundStudioOut();
+        const soundStudioMoveTo = new MoveTo(soundStudio);
+        soundStudioMoveTo.x = 700;
+        soundStudioMoveTo.y = 350;
 
-        // speaker_1_1 (components)
-        const speaker_1_1Animation = new Animation(speaker_1_1);
-        speaker_1_1Animation.key = "speaker_1";
-        speaker_1_1Animation.end = 10;
+        // danceContest (components)
+        const danceContestSimpleButton = new SimpleButton(danceContest);
+        danceContestSimpleButton.hoverCallback = () => this.onContestOver();
+        danceContestSimpleButton.hoverOutCallback = () => this.onContestOut();
+        const danceContestMoveTo = new MoveTo(danceContest);
+        danceContestMoveTo.x = 1100;
+        danceContestMoveTo.y = 480;
+        const danceContestShowHint = new ShowHint(danceContest);
+        danceContestShowHint.text = "Dance Contest";
 
-        // boiler_door (components)
-        const boiler_doorButton = new Button(boiler_door);
-        boiler_doorButton.spriteName = "boiler";
-        boiler_doorButton.activeFrame = false;
-        const boiler_doorMoveTo = new MoveTo(boiler_door);
-        boiler_doorMoveTo.x = 960;
-        boiler_doorMoveTo.y = 420;
+        // boiler_btn (components)
+        const boiler_btnSimpleButton = new SimpleButton(boiler_btn);
+        boiler_btnSimpleButton.hoverCallback = () => this.onSpeakerOver();
+        boiler_btnSimpleButton.hoverOutCallback = () => this.onSpeakerOut();
+        const boiler_btnMoveTo = new MoveTo(boiler_btn);
+        boiler_btnMoveTo.x = 1000;
+        boiler_btnMoveTo.y = 360;
 
-        // dj_speaker_sound (components)
-        const dj_speaker_soundAnimation = new Animation(dj_speaker_sound);
-        dj_speaker_soundAnimation.key = "dj/speaker_sound";
-        dj_speaker_soundAnimation.end = 2;
-        dj_speaker_soundAnimation.repeatDelay = 250;
-        dj_speaker_soundAnimation.autoPlay = false;
-
-        // dj_mixer_tables_under (components)
-        const dj_mixer_tables_underAnimation = new Animation(dj_mixer_tables_under);
-        dj_mixer_tables_underAnimation.key = "dj/mixer/tables/tables_under";
-        dj_mixer_tables_underAnimation.end = 23;
-        dj_mixer_tables_underAnimation.autoPlay = false;
-
-        // dj_mixer_tables (components)
-        const dj_mixer_tablesAnimation = new Animation(dj_mixer_tables);
-        dj_mixer_tablesAnimation.key = "dj/mixer/tables/tables";
-        dj_mixer_tablesAnimation.end = 6;
-        dj_mixer_tablesAnimation.autoPlay = false;
-
-        // dj_mixer_lights (components)
-        const dj_mixer_lightsAnimation = new Animation(dj_mixer_lights);
-        dj_mixer_lightsAnimation.key = "dj/mixer/lights/lights";
-        dj_mixer_lightsAnimation.end = 23;
-        dj_mixer_lightsAnimation.autoPlay = false;
-
-        // dj_mixer_slider (components)
-        const dj_mixer_sliderAnimation = new Animation(dj_mixer_slider);
-        dj_mixer_sliderAnimation.key = "dj/mixer/slider/slider";
-        dj_mixer_sliderAnimation.end = 23;
-        dj_mixer_sliderAnimation.autoPlay = false;
-
-        // dj_box_headphones_back (components)
-        const dj_box_headphones_backAnimation = new Animation(dj_box_headphones_back);
-        dj_box_headphones_backAnimation.key = "dj/box/headphones/back";
-        dj_box_headphones_backAnimation.end = 30;
-        dj_box_headphones_backAnimation.autoPlay = false;
-
-        // dj_box (components)
-        const dj_boxSimpleButton = new SimpleButton(dj_box);
-        dj_boxSimpleButton.hoverCallback = () => this.onBoxOver();
-        dj_boxSimpleButton.hoverOutCallback = () => this.onBoxOut();
-        const dj_boxMoveTo = new MoveTo(dj_box);
-        dj_boxMoveTo.x = 520;
-        dj_boxMoveTo.y = 300;
-
-        // dj_box_lights (components)
-        const dj_box_lightsAnimation = new Animation(dj_box_lights);
-        dj_box_lightsAnimation.key = "dj/box/lights/lights";
-        dj_box_lightsAnimation.end = 30;
-        dj_box_lightsAnimation.autoPlay = false;
-
-        // dj_box_headphones_front (components)
-        const dj_box_headphones_frontAnimation = new Animation(dj_box_headphones_front);
-        dj_box_headphones_frontAnimation.key = "dj/box/headphones/front";
-        dj_box_headphones_frontAnimation.end = 30;
-        dj_box_headphones_frontAnimation.autoPlay = false;
-
-        // zone (components)
-        const zoneZone = new Zone(zone);
-        zoneZone.hoverCallback = () => this.onPuffleOver();
-
-        this.puffle = puffle;
-        this.dj_speaker_sound = dj_speaker_sound;
-        this.dj_mixer_wave = dj_mixer_wave;
-        this.dj_mixer_tables_under = dj_mixer_tables_under;
-        this.dj_mixer_tables = dj_mixer_tables;
-        this.dj_mixer_lights = dj_mixer_lights;
-        this.dj_mixer_slider = dj_mixer_slider;
-        this.dj_box_headphones_back = dj_box_headphones_back;
-        this.dj_box_sliders = dj_box_sliders;
-        this.dj_box_lights = dj_box_lights;
-        this.dj_box_headphones_front = dj_box_headphones_front;
+        this.danceFloor = danceFloor;
+        this.door = door;
+        this.upstairs = upstairs;
+        this.bg = bg;
+        this.leftRailing = leftRailing;
+        this.floorSpeaker = floorSpeaker;
+        this.doorRailingLeft = doorRailingLeft;
+        this.doorRailingRight = doorRailingRight;
+        this.backChair = backChair;
+        this.rightChair = rightChair;
+        this.table = table;
+        this.leftChair = leftChair;
+        this.leftChairBack = leftChairBack;
+        this.soundStudio = soundStudio;
+        this.sofa = sofa;
+        this.rightRailing = rightRailing;
+        this.boilerSpeaker = boilerSpeaker;
+        this.danceContest = danceContest;
+        this.rightSpeaker = rightSpeaker;
+        this.corner = corner;
+        this.upstairsRailing = upstairsRailing;
+        this.neonSign = neonSign;
+        this.leftSpeaker = leftSpeaker;
+        this.fg = fg;
+        this.keeper = keeper;
         this.sort = sort;
-        this.animate = animate;
 
         this.events.emit("scene-awake");
     }
 
+    /** @type {Phaser.GameObjects.Sprite} */
+    danceFloor;
+    /** @type {Phaser.GameObjects.Sprite} */
+    door;
+    /** @type {Phaser.GameObjects.Sprite} */
+    upstairs;
+    /** @type {Phaser.GameObjects.Sprite} */
+    bg;
+    /** @type {Phaser.GameObjects.Sprite} */
+    leftRailing;
+    /** @type {Phaser.GameObjects.Sprite} */
+    floorSpeaker;
+    /** @type {Phaser.GameObjects.Sprite} */
+    doorRailingLeft;
+    /** @type {Phaser.GameObjects.Sprite} */
+    doorRailingRight;
+    /** @type {Phaser.GameObjects.Sprite} */
+    backChair;
+    /** @type {Phaser.GameObjects.Sprite} */
+    rightChair;
+    /** @type {Phaser.GameObjects.Sprite} */
+    table;
+    /** @type {Phaser.GameObjects.Sprite} */
+    leftChair;
+    /** @type {Phaser.GameObjects.Sprite} */
+    leftChairBack;
+    /** @type {Phaser.GameObjects.Sprite} */
+    soundStudio;
+    /** @type {Phaser.GameObjects.Sprite} */
+    sofa;
+    /** @type {Phaser.GameObjects.Sprite} */
+    rightRailing;
+    /** @type {Phaser.GameObjects.Sprite} */
+    boilerSpeaker;
+    /** @type {Phaser.GameObjects.Sprite} */
+    danceContest;
+    /** @type {Phaser.GameObjects.Sprite} */
+    rightSpeaker;
+    /** @type {Phaser.GameObjects.Sprite} */
+    corner;
+    /** @type {Phaser.GameObjects.Sprite} */
+    upstairsRailing;
+    /** @type {Phaser.GameObjects.Sprite} */
+    neonSign;
+    /** @type {Phaser.GameObjects.Sprite} */
+    leftSpeaker;
+    /** @type {Phaser.GameObjects.Sprite} */
+    fg;
+    /** @type {Phaser.GameObjects.Sprite} */
+    keeper;
+    /** @type {Array<Phaser.GameObjects.Sprite|Phaser.GameObjects.Rectangle>} */
+    sort;
 
     /* START-USER-CODE */
 
     create() {
         super.create()
+        this.keeper.play("keeperAnim")
+        this.leftSpeaker.play("leftSpeaker")
+        this.rightSpeaker.play("rightSpeaker")
+        this.boilerSpeaker.play("boilerSpeakerClosed")
+        this.danceFloor.play("danceFloor")
+        this.floorSpeaker.play("floorSpeaker")
+        this.neonSign.play("neonSign")
 
-        this.puffle.on('animationcomplete', () => this.onPuffleAnimComplete())
-        this.dj_box_sliders.on('animationcomplete', () => this.onSlidersAnimComplete())
-        this.dj_mixer_wave.on('animationcomplete', () => this.onWaveAnimComplete())
+        if (!this.penguins) return
 
-        this.puffle.play('dj_puffle_idle')
-    }
-
-    onPuffleAnimComplete() {
-        this.puffle.play('dj_puffle_idle')
-    }
-
-    onSlidersAnimComplete() {
-        this.dj_box_sliders.play('dj_sliders_move')
-    }
-
-    onWaveAnimComplete() {
-        this.dj_mixer_wave.play('dj_wave_move')
-    }
-
-    onPuffleOver() {
-        this.puffle.play('dj_puffle_jump')
-    }
-
-    onBoxOver() {
-        for (let sprite of this.animate) {
-            sprite.__Animation.play()
+        if (Object.keys(this.penguins).length >= 10) {
+            this.world.client.stampEarned(16)
         }
-
-        this.dj_box_sliders.play('dj_sliders_on')
-        this.dj_mixer_wave.play('dj_wave_on')
-    }
-
-    onBoxOut() {
-        for (let sprite of this.animate) {
-            sprite.__Animation.stop()
+        if (Object.keys(this.penguins).length >= 25) {
+            this.world.client.stampEarned(22)
         }
-
-        this.dj_box_sliders.stop()
-        this.dj_mixer_wave.stop()
-
-        this.dj_box_sliders.setFrame('dj/box/sliders/sliders0001')
-        this.dj_mixer_wave.setFrame('dj/mixer/wave/wave0001')
     }
 
+    onSoundStudioOver() {
+        this.soundStudio.setFrame("soundStudio0002.png")
+    }
+
+    onSoundStudioOut() {
+        this.soundStudio.setFrame("soundStudio0001.png")
+    }
+
+    onDoorOver() {
+        this.door.play("doorAnim")
+        this.sound.add("danceClub-Door").play();
+    }
+
+    onDoorOut() {
+        this.door.stop("doorAnim")
+        this.door.setFrame("doorAnim.png0001.png")
+    }
+
+    onSpeakerOver() {
+        this.boilerSpeaker.setX(1000)
+        this.boilerSpeaker.setY(320)
+        this.boilerSpeaker.stop("boilerSpeakerClosed")
+        this.boilerSpeaker.setFrame("boilerSpeakerOpen.png")
+        this.sound.add("danceClub-SpeakerOpen").play();
+    }
+
+    onSpeakerOut() {
+        this.boilerSpeaker.setX(1033)
+        this.boilerSpeaker.setY(314)
+        this.boilerSpeaker.play("boilerSpeakerClosed")
+        this.sound.add("danceClub-SpeakerClose").play();
+    }
+
+    onContestOver() {
+        this.danceContest.setFrame("danceContest0002.png")
+    }
+
+    onContestOut() {
+        this.danceContest.setFrame("danceContest0001.png")
+    }
+
+    onStairsOver() {
+        this.upstairs.setFrame("upstairs0002.png")
+        this.sound.add("danceClub-LightOn").play();
+    }
+
+    onStairsOut() {
+        this.upstairs.setFrame("upstairs0001.png")
+        this.sound.add("danceClub-LightOff").play();
+    }
+
+    addPenguin(id, penguin) {
+        super.addPenguin(id, penguin)
+        if (Object.keys(this.penguins).length >= 10) {
+            this.world.client.stampEarned(16)
+        }
+        if (Object.keys(this.penguins).length >= 25) {
+            this.world.client.stampEarned(22)
+        }
+    }
     /* END-USER-CODE */
 }
 
 /* END OF COMPILED CODE */
+
+// export default template

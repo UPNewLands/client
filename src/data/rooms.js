@@ -1,15 +1,51 @@
 const rooms = {
+    1: {
+        key: 'Central',
+        scene: require('@rooms/central/Central').default,
+        x: 652,
+        y: 448
+    },
     2: {
         key: 'Berg',
         scene: require('@rooms/berg/Berg').default,
-        x: 652,
-        y: 448
+        x: 619,
+        y: 487
     },
     10: {
         key: 'Town',
         scene: require('@rooms/town/Town').default,
+        x: 963,
+        y: 627
+    }, 
+    11: {
+        key: 'Coffee',
+        scene: require('@rooms/coffee/Coffee').default,
+        x: 963,
+        y: 627
+    }, 
+    13: {
+        key: 'Dance',
+        scene: require('@rooms/dance/Dance').default,
         x: 638,
         y: 486
+    }, 
+    14: {
+        key: 'Arcade',
+        scene: require('@rooms/arcade/Arcade').default,
+        x: 638,
+        y: 486
+    }, 
+    16: {
+        key: 'Boiler',
+        scene: require('@rooms/boiler/Boiler').default,
+        x: 819,
+        y: 694
+    }, 
+    17: {
+        key: 'Book',
+        scene: require('@rooms/book/Book').default,
+        x: 819,
+        y: 694
     }, 
     20: {
         key: 'Tropical',
@@ -74,6 +110,12 @@ const rooms = {
     71: {
         key: 'Mineint',
         scene: require('@rooms/mineint/Mineint').default,
+        x: 698,
+        y: 798
+    },
+    72: {
+        key: 'Minecave',
+        scene: require('@rooms/minecave/Minecave').default,
         x: 698,
         y: 798
     },

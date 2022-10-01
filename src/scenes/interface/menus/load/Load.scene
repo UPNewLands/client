@@ -30,6 +30,20 @@
             "originY": 0
         },
         {
+            "type": "Rectangle",
+            "id": "d04d9158-df4b-4853-96a6-d0a8cf8a8d9b",
+            "label": "rectangle_1",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "scaleX": 11.909224665264004,
+            "scaleY": 7.484623172550488,
+            "isFilled": true,
+            "fillColor": "#1363c4",
+            "width": 128,
+            "height": 128
+        },
+        {
             "type": "Text",
             "id": "cc4e3627-2803-4fac-b06d-a576ca441cee",
             "label": "text",

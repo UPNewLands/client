@@ -23,6 +23,9 @@ import Manage from '../manage/Manage'
 import Prompt from '../prompt/Prompt'
 import Elevator from '../elevator/Elevator'
 import Cavepopup from '@scenes/popup/cavepoup/Cavepopup'
+import Beta from '@scenes/closeup/beta/Beta'
+import Rules from '@scenes/popup/rules/Rules'
+import Changelog from '@scenes/closeup/changelog/Changelog'
 import Telescope from '@scenes/closeup/telescope/Telescope'
 import PufflesMenu from '../floating/puffles/PufflesMenu'
 import Safe from '../floating/safe/Safe'
@@ -148,6 +151,12 @@ export default class Main extends BaseScene {
         this.popup_items;
         /** @type {Phaser.GameObjects.Text} */
         this.popup_items_text;
+        /** @type {Beta} */
+        this.beta;
+        /** @type {Changelog} */
+        this.changelog;
+        /** @type {Rules} */
+        this.rules;
         /** @type {Array<PlayerCard|Buddy>} */
         this.hideOnSleep;
         /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite|ChatLog>} */
@@ -280,8 +289,7 @@ export default class Main extends BaseScene {
         const news_button = this.add.image(70, 71, "main", "news-button");
 
         // mod_btn
-        const mod_btn = this.add.container(70, 175);
-        mod_btn.visible = false;
+        const mod_btn = this.add.container(1451, 71);
 
         // mod_button
         const mod_button = this.add.image(0, 2, "main", "mod/button");
@@ -443,7 +451,7 @@ export default class Main extends BaseScene {
         cavepopup.visible = false;
 
         // iconbeta
-        const iconbeta = this.add.image(1432, 71, "newinterface", "iconbeta");
+        const iconbeta = this.add.image(1353, 70, "newinterface", "iconbeta");
 
         // telescope
         const telescope = new Telescope(this, 708, 249.00000000000003);
@@ -487,6 +495,21 @@ export default class Main extends BaseScene {
         popup_items_text.text = "####################\nHas been Unlocked";
         popup_items_text.setStyle({ "fontFamily": "Burbank Small", "fontSize": "42px" });
         popup_items.add(popup_items_text);
+
+        // beta
+        const beta = new Beta(this, -28, 104);
+        this.add.existing(beta);
+        beta.visible = false;
+
+        // changelog
+        const changelog = new Changelog(this, 504, 304);
+        this.add.existing(changelog);
+        changelog.visible = false;
+
+        // rules
+        const rules = new Rules(this, 83, -48);
+        this.add.existing(rules);
+        rules.visible = false;
 
         // lists
         const hideOnSleep = [playerCard, buddy];
@@ -582,7 +605,7 @@ export default class Main extends BaseScene {
         const mod_buttonSimpleButton = new SimpleButton(mod_button);
         mod_buttonSimpleButton.hoverCallback = () => this.onModOver();
         mod_buttonSimpleButton.hoverOutCallback = () => this.onModOut();
-        mod_buttonSimpleButton.callback = () => this.onModClick();
+        mod_buttonSimpleButton.callback = () => this.rules.visible = true;
 
         // chat_button (components)
         const chat_buttonButton = new Button(chat_button);
@@ -599,6 +622,7 @@ export default class Main extends BaseScene {
         // iconbeta (components)
         const iconbetaButton = new Button(iconbeta);
         iconbetaButton.spriteName = "iconbeta";
+        iconbetaButton.callback = () => this.beta.visible = true;
         iconbetaButton.activeFrame = false;
 
         this.pinContainer = pinContainer;
@@ -658,6 +682,9 @@ export default class Main extends BaseScene {
         this.popup_coin_text = popup_coin_text;
         this.popup_items = popup_items;
         this.popup_items_text = popup_items_text;
+        this.beta = beta;
+        this.changelog = changelog;
+        this.rules = rules;
         this.hideOnSleep = hideOnSleep;
         this.interfaceList = interfaceList;
 

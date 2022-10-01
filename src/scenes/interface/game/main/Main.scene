@@ -518,9 +518,8 @@
             "label": "mod_btn",
             "scope": "CLASS",
             "components": [],
-            "x": 70,
-            "y": 175,
-            "visible": false,
+            "x": 1451,
+            "y": 71,
             "list": [
                 {
                     "type": "Image",
@@ -532,7 +531,7 @@
                     ],
                     "SimpleButton.hoverCallback": "() => this.onModOver()",
                     "SimpleButton.hoverOutCallback": "() => this.onModOut()",
-                    "SimpleButton.callback": "() => this.onModClick()",
+                    "SimpleButton.callback": "() => this.rules.visible = true",
                     "texture": {
                         "key": "main",
                         "frame": "mod/button"
@@ -1016,13 +1015,14 @@
                 "Button"
             ],
             "Button.spriteName": "iconbeta",
+            "Button.callback": "() => this.beta.visible = true",
             "Button.activeFrame": false,
             "texture": {
                 "key": "newinterface",
                 "frame": "iconbeta"
             },
-            "x": 1432,
-            "y": 71
+            "x": 1353,
+            "y": 70
         },
         {
             "prefabId": "09017d1f-4663-41ef-aa04-3d2165c3d1d1",
@@ -1128,6 +1128,54 @@
                     "fontSize": "42px"
                 }
             ]
+        },
+        {
+            "prefabId": "e6ed3a4e-b4cd-4aaf-bc06-434266651a70",
+            "id": "ad0fa4a5-a410-4794-be04-74447e4aa86c",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "beta",
+            "scope": "CLASS",
+            "components": [],
+            "x": -28,
+            "y": 104,
+            "visible": false,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "4095ac48-6b82-404a-8b3a-6c8b95b2e471",
+            "id": "838173e1-9f7f-4459-b430-e8ecf7be01ec",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "changelog",
+            "scope": "CLASS",
+            "components": [],
+            "x": 504,
+            "y": 304,
+            "visible": false,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "0b9730c4-35db-479f-a28f-0ce41ec6eac8",
+            "id": "a9c0601e-dec1-4d54-a53e-7ef582a5acf5",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "rules",
+            "scope": "CLASS",
+            "components": [],
+            "x": 83,
+            "y": -48,
+            "visible": false,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [],

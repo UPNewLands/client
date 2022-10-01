@@ -205,10 +205,12 @@ export default class Lighthouse extends RoomScene {
         const symbol_68 = this.add.image(1288, 895, "lighthouse", "Symbol 68");
 
         // catalog
-        const catalog = this.add.image(1447, 913, "lighthouse", "catalog");
+        const catalog = this.add.image(1439.127201793221, 950.395785560532, "lighthouse", "catalog");
+        catalog.setOrigin(0.4614078741216535, 0.739716474205887);
+        catalog.visible = false;
 
         // lists
-        const sort = [symbol_104, symbol_112, symbol_519, symbol_517, symbol_523, symbol_385, symbol_202_copy, s_mbolo_16, symbol_6_copy_10, symbol_68, symbol_291_copy];
+        const sort = [symbol_104, symbol_112, symbol_519, symbol_517, symbol_523, symbol_385, symbol_202_copy, s_mbolo_16, symbol_6_copy_10, symbol_68, symbol_291_copy, catalog];
 
         // door (components)
         const doorButton = new Button(door);
@@ -226,6 +228,7 @@ export default class Lighthouse extends RoomScene {
         // instru (components)
         const instruButton = new Button(instru);
         instruButton.spriteName = "instru";
+        instruButton.callback = () => this.interface.loadExternal('Music');
 
         // catalog (components)
         const catalogButton = new Button(catalog);

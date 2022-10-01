@@ -1,0 +1,264 @@
+{
+    "id": "dd2c28c1-dab4-471e-a111-d352106bcd51",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/boiler/boiler-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Boiler",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "95315c0a-3522-47b7-acf2-0bada9f90ba7",
+            "label": "bg",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "bg"
+            },
+            "x": 669,
+            "y": 617
+        },
+        {
+            "type": "Image",
+            "id": "52174aef-dd85-48dc-9caf-f42b492245bd",
+            "label": "symbol_16",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "Symbol 16"
+            },
+            "x": 345,
+            "y": 753
+        },
+        {
+            "type": "Image",
+            "id": "45ac6190-bf88-4423-9401-5648b59cba6b",
+            "label": "symbol_23",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "Symbol 23"
+            },
+            "x": 581,
+            "y": 165
+        },
+        {
+            "type": "Image",
+            "id": "246bb889-62ba-4590-a023-fa10e4d9af4a",
+            "label": "door",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "door",
+            "Button.activeFrame": false,
+            "texture": {
+                "key": "boiler",
+                "frame": "door"
+            },
+            "x": 588,
+            "y": 370
+        },
+        {
+            "type": "Image",
+            "id": "0396c720-61b1-461a-9c8c-8a948dc30c2b",
+            "label": "symbol_25",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "Symbol 25"
+            },
+            "x": 381,
+            "y": 596
+        },
+        {
+            "type": "Image",
+            "id": "ff9300f3-ff48-44d2-ba4c-bc89bf2c8451",
+            "label": "s_mbolo_1",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "Símbolo 1"
+            },
+            "x": 144,
+            "y": 393
+        },
+        {
+            "type": "Image",
+            "id": "32f3a25c-6765-4b8b-aef2-ce175d715de6",
+            "label": "s_mbolo_3",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "Símbolo 3"
+            },
+            "x": 603,
+            "y": 28
+        },
+        {
+            "type": "Image",
+            "id": "c9bc97b2-68c7-462d-bb77-1e0f1b097cd9",
+            "label": "symbol_20",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "MoveTo.x": 1036,
+            "MoveTo.y": 530,
+            "texture": {
+                "key": "boiler",
+                "frame": "Symbol 20"
+            },
+            "x": 1024,
+            "y": 253
+        },
+        {
+            "type": "Image",
+            "id": "81d182cb-feee-4205-ac45-c9f031b253db",
+            "label": "symbol_22",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "Symbol 22"
+            },
+            "x": 868,
+            "y": 460
+        },
+        {
+            "type": "Image",
+            "id": "ba338b5b-d2bc-4400-9180-5cdae91046b6",
+            "label": "s_mbolo_2",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "Símbolo 2"
+            },
+            "x": 798,
+            "y": 164
+        },
+        {
+            "type": "Image",
+            "id": "327ad40a-06f5-433f-bee8-e56d7a9c4850",
+            "label": "symbol_15",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "Symbol 15"
+            },
+            "x": 1317,
+            "y": 347
+        },
+        {
+            "type": "Sprite",
+            "id": "70f10115-18ab-4836-b1db-7d97898e5ff3",
+            "label": "lights0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lights",
+            "Animation.end": 36,
+            "texture": {
+                "key": "boiler",
+                "frame": "lights0001"
+            },
+            "x": 227,
+            "y": 660
+        },
+        {
+            "type": "Image",
+            "id": "52b3a986-6c20-4613-bfd8-dff705cb3c85",
+            "label": "machine1",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "machine1"
+            },
+            "x": 378,
+            "y": 747
+        },
+        {
+            "type": "Sprite",
+            "id": "0e80128f-2a33-4e3b-a915-4f362d76820f",
+            "label": "news0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "news",
+            "Animation.end": 18,
+            "texture": {
+                "key": "boiler",
+                "frame": "news0001"
+            },
+            "x": 304,
+            "y": 708
+        },
+        {
+            "type": "Image",
+            "id": "be9ba651-8839-415e-b692-da660d883234",
+            "label": "machine2",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "machine2"
+            },
+            "x": 327,
+            "y": 845
+        },
+        {
+            "type": "Sprite",
+            "id": "653ee66a-276c-4e0d-8324-8b21fd1b9de6",
+            "label": "roll0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "roll",
+            "Animation.end": 7,
+            "texture": {
+                "key": "boiler",
+                "frame": "roll0001"
+            },
+            "x": 310,
+            "y": 774
+        },
+        {
+            "type": "Image",
+            "id": "ad7d03f2-9a21-46b9-866a-167c0b00e6aa",
+            "label": "symbol_182",
+            "components": [],
+            "texture": {
+                "key": "boiler",
+                "frame": "Symbol 182"
+            },
+            "x": 745.8648912405165,
+            "y": 1030.5505338588346,
+            "originX": 0.47716254267778674,
+            "originY": 0.8996285403792021
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "b7b3cab6-9fe9-4ab3-b037-0b9a971309bd",
+            "label": "sort",
+            "objectIds": [
+                "ad7d03f2-9a21-46b9-866a-167c0b00e6aa"
+            ]
+        }
+    ]
+}

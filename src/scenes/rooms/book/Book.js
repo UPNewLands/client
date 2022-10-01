@@ -1,4 +1,4 @@
-import RoomScene from '../RoomScene'
+import RoomScene from '@scenes/rooms/RoomScene'
 
 import { Button, MoveTo, ShowHint } from '@components/components'
 
@@ -10,16 +10,72 @@ export default class Book extends RoomScene {
     constructor() {
         super("Book");
 
-        /** @type {Phaser.GameObjects.Image[]} */
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.bg;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.bookshelf;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.bottomDeskDivider;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.bottomDeskLeftChair;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.bottomDeskLeft;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.bottomDeskRight;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.sofaBack;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.coffeeTable;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.sofaFront;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.topDeskLeftStorage;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.noticeboard;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.hatStand;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.topDeskLeftChair;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.topDeskLeft;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.topDeskRightStorage;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.topDeskDivider;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.topDeskRightChair;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.topDeskRight;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.conveyorBottom;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.newspapers;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.conveyorTop;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.mancalaTable1;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.mancalaTable2;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.mancalaTable3;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.mancalaTable4;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.stool1;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.stool2;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.fg;
+        /** @type {Phaser.GameObjects.Sprite[]} */
         this.sort;
 
 
         /* START-USER-CTR-CODE */
 
         this.roomTriggers = {
-            'coffee': () => this.triggerRoom(110, 1120, 800)
+            'coffee': () => this.triggerRoom(11, 1120, 800)
         }
-        this.music = '1'
+        //this.music = '669'
 
         /* END-USER-CTR-CODE */
     }
@@ -34,108 +90,128 @@ export default class Book extends RoomScene {
     _create() {
 
         // bg
-        const bg = this.add.image(0, -6, "book", "bg");
-        bg.setOrigin(0, 0);
+        const bg = this.add.sprite(756, 491, "book", "bg");
 
-        // books
-        const books = this.add.image(241, 267, "book", "books");
-        books.setOrigin(0.35501355013550134, 0.28205128205128205);
+        // bookshelf
+        const bookshelf = this.add.sprite(419, 333, "book", "bookshelf");
 
-        // chair_back
-        const chair_back = this.add.image(175, 590, "book", "chair_back");
-        chair_back.setOrigin(0.5052631578947369, 0.46808510638297873);
+        // bottomDeskDivider
+        const bottomDeskDivider = this.add.sprite(877, 633, "book", "bottomDeskDivider");
 
-        // chair_front
-        const chair_front = this.add.image(180, 652, "book", "chair_front");
-        chair_front.setOrigin(0.5022026431718062, 0.5178571428571429);
+        // bottomDeskLeftChair
+        const bottomDeskLeftChair = this.add.sprite(794, 756, "book", "bottomDeskLeftChair");
 
-        // chair_table
-        const chair_table = this.add.image(132, 722, "book", "chair_table");
-        chair_table.setOrigin(0.5069124423963134, 0.5103734439834025);
+        // bottomDeskLeft
+        const bottomDeskLeft = this.add.sprite(890.7078354253503, 786.2114846592042, "book", "bottomDeskLeft");
+        bottomDeskLeft.setOrigin(0.4892319618779188, 0.6530934115617574);
 
-        // poster
-        const poster = this.add.image(720, 97, "book", "poster");
-        poster.setOrigin(0, 0);
+        // bottomDeskRight
+        const bottomDeskRight = this.add.sprite(999, 784, "book", "bottomDeskRight");
 
-        // table
-        const table = this.add.image(951, 446, "book", "table");
-        table.setOrigin(0.5043478260869565, 0.46);
+        // sofaBack
+        const sofaBack = this.add.sprite(1396, 504, "book", "sofaBack");
 
-        // table_1
-        const table_1 = this.add.image(652, 444, "book", "table");
-        table_1.setOrigin(0.5043478260869565, 0.46);
+        // coffeeTable
+        const coffeeTable = this.add.sprite(1440, 628, "book", "coffeeTable");
 
-        // table_2
-        const table_2 = this.add.image(426, 646, "book", "table");
-        table_2.setOrigin(0.5043478260869565, 0.46);
+        // sofaFront
+        const sofaFront = this.add.sprite(1367, 826, "book", "sofaFront");
 
-        // table_3
-        const table_3 = this.add.image(806, 684, "book", "table");
-        table_3.setOrigin(0.5043478260869565, 0.46);
+        // topDeskLeftStorage
+        const topDeskLeftStorage = this.add.sprite(318, 443, "book", "topDeskLeftStorage");
 
-        // table_4
-        const table_4 = this.add.image(1208, 748, "book", "table");
-        table_4.setOrigin(0.5043478260869565, 0.46);
+        // noticeboard
+        const noticeboard = this.add.sprite(290.27413229285713, 664.3737525085712, "book", "noticeboard");
+        noticeboard.setOrigin(0.532044635651353, 0.707832351224489);
+
+        // hatStand
+        const hatStand = this.add.sprite(797, 312, "book", "hatStand");
+
+        // topDeskLeftChair
+        const topDeskLeftChair = this.add.sprite(638, 311, "book", "topDeskLeftChair");
+
+        // topDeskLeft
+        const topDeskLeft = this.add.sprite(611, 409, "book", "topDeskLeft");
+
+        // topDeskRightStorage
+        const topDeskRightStorage = this.add.sprite(991, 337, "book", "topDeskRightStorage");
+
+        // topDeskDivider
+        const topDeskDivider = this.add.sprite(835, 261, "book", "topDeskDivider");
+
+        // topDeskRightChair
+        const topDeskRightChair = this.add.sprite(1054, 409, "book", "topDeskRightChair");
+
+        // topDeskRight
+        const topDeskRight = this.add.sprite(1081, 469, "book", "topDeskRight");
+
+        // conveyorBottom
+        const conveyorBottom = this.add.sprite(365.20391795238095, 877.1037335238099, "book", "conveyorBottom");
+        conveyorBottom.setOrigin(0.497664392655892, 0.7982802019952697);
+
+        // newspapers
+        const newspapers = this.add.sprite(300.38824614285704, 920.3455175238088, "book", "newspapers0001");
+        newspapers.setOrigin(0.5063615656940461, 0.922607540616245);
+
+        // conveyorTop
+        const conveyorTop = this.add.sprite(477.81567180952385, 806.5057847142859, "book", "conveyorTop");
+        conveyorTop.setOrigin(0.4865713491766801, 0.3183737255216702);
+
+        // mancalaTable1
+        const mancalaTable1 = this.add.sprite(1241, 584, "book", "mancalaTable0001");
+
+        // mancalaTable2
+        const mancalaTable2 = this.add.sprite(1123, 666, "book", "mancalaTable0001");
+
+        // mancalaTable3
+        const mancalaTable3 = this.add.sprite(1270, 708, "book", "mancalaTable0001");
+
+        // mancalaTable4
+        const mancalaTable4 = this.add.sprite(1169, 810, "book", "mancalaTable0001");
+
+        // stool1
+        const stool1 = this.add.sprite(481, 708.5106262196813, "book", "stool");
+        stool1.setOrigin(0.5, 0.17695885633757666);
+
+        // stool2
+        const stool2 = this.add.sprite(597.7078354253503, 713.4488730816558, "book", "stool");
+        stool2.setOrigin(0.48343378750449045, 0.20059601319092496);
+
+        // fg
+        const fg = this.add.sprite(748, 991, "book", "fg");
+        fg.setOrigin(0.5, 1);
 
         // lists
-        const sort = [table_4, table_3, table_2, table_1, table, chair_table, chair_front, chair_back];
+        const sort = [stool2, stool1, mancalaTable4, mancalaTable3, mancalaTable2, mancalaTable1, topDeskRight, topDeskRightChair, topDeskDivider, topDeskRightStorage, topDeskLeft, topDeskLeftChair, hatStand, noticeboard, topDeskLeftStorage, coffeeTable, bottomDeskRight, bottomDeskLeft, bottomDeskLeftChair, bottomDeskDivider, bookshelf, fg, conveyorBottom, newspapers, conveyorTop];
 
-        // books (components)
-        const booksButton = new Button(books);
-        booksButton.spriteName = "books";
-        booksButton.activeFrame = false;
-
-        // poster (components)
-        const posterButton = new Button(poster);
-        posterButton.spriteName = "poster";
-        posterButton.activeFrame = false;
-        posterButton.pixelPerfect = true;
-
-        // table (components)
-        const tableButton = new Button(table);
-        tableButton.spriteName = "table";
-        tableButton.activeFrame = false;
-        tableButton.pixelPerfect = true;
-        new MoveTo(table);
-        const tableShowHint = new ShowHint(table);
-        tableShowHint.text = "mancala_hint";
-
-        // table_1 (components)
-        const table_1Button = new Button(table_1);
-        table_1Button.spriteName = "table";
-        table_1Button.activeFrame = false;
-        table_1Button.pixelPerfect = true;
-        new MoveTo(table_1);
-        const table_1ShowHint = new ShowHint(table_1);
-        table_1ShowHint.text = "mancala_hint";
-
-        // table_2 (components)
-        const table_2Button = new Button(table_2);
-        table_2Button.spriteName = "table";
-        table_2Button.activeFrame = false;
-        table_2Button.pixelPerfect = true;
-        new MoveTo(table_2);
-        const table_2ShowHint = new ShowHint(table_2);
-        table_2ShowHint.text = "mancala_hint";
-
-        // table_3 (components)
-        const table_3Button = new Button(table_3);
-        table_3Button.spriteName = "table";
-        table_3Button.activeFrame = false;
-        table_3Button.pixelPerfect = true;
-        new MoveTo(table_3);
-        const table_3ShowHint = new ShowHint(table_3);
-        table_3ShowHint.text = "mancala_hint";
-
-        // table_4 (components)
-        const table_4Button = new Button(table_4);
-        table_4Button.spriteName = "table";
-        table_4Button.activeFrame = false;
-        table_4Button.pixelPerfect = true;
-        new MoveTo(table_4);
-        const table_4ShowHint = new ShowHint(table_4);
-        table_4ShowHint.text = "mancala_hint";
-
+        this.bg = bg;
+        this.bookshelf = bookshelf;
+        this.bottomDeskDivider = bottomDeskDivider;
+        this.bottomDeskLeftChair = bottomDeskLeftChair;
+        this.bottomDeskLeft = bottomDeskLeft;
+        this.bottomDeskRight = bottomDeskRight;
+        this.sofaBack = sofaBack;
+        this.coffeeTable = coffeeTable;
+        this.sofaFront = sofaFront;
+        this.topDeskLeftStorage = topDeskLeftStorage;
+        this.noticeboard = noticeboard;
+        this.hatStand = hatStand;
+        this.topDeskLeftChair = topDeskLeftChair;
+        this.topDeskLeft = topDeskLeft;
+        this.topDeskRightStorage = topDeskRightStorage;
+        this.topDeskDivider = topDeskDivider;
+        this.topDeskRightChair = topDeskRightChair;
+        this.topDeskRight = topDeskRight;
+        this.conveyorBottom = conveyorBottom;
+        this.newspapers = newspapers;
+        this.conveyorTop = conveyorTop;
+        this.mancalaTable1 = mancalaTable1;
+        this.mancalaTable2 = mancalaTable2;
+        this.mancalaTable3 = mancalaTable3;
+        this.mancalaTable4 = mancalaTable4;
+        this.stool1 = stool1;
+        this.stool2 = stool2;
+        this.fg = fg;
         this.sort = sort;
 
         this.events.emit("scene-awake");
@@ -143,6 +219,10 @@ export default class Book extends RoomScene {
 
 
     /* START-USER-CODE */
+        // create(){
+        //     super.create()
+        //     this.newspapers.play("newspapers")
+        // }
     /* END-USER-CODE */
 }
 

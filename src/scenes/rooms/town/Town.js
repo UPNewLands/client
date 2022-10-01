@@ -19,11 +19,11 @@ export default class Town extends RoomScene {
         /* START-USER-CTR-CODE */
 
         this.roomTriggers = {
-            'dock': () => this.triggerRoom(800, 1200, 400),
-            'forts': () => this.triggerRoom(801, 360, 520),
-            'coffee': () => this.triggerRoom(110, 700, 450),
-            'dance': () => this.triggerRoom(120, 300, 560),
-            'gift': () => this.triggerRoom(130, 1036, 520),
+            'central': () => this.triggerRoom(1, 259, 727),
+            'coffee': () => this.triggerRoom(11, 975, 440),
+            'dance': () => null,
+            'shop': () => this.triggerRoom(13, 334, 546),
+            'tropical': () => this.triggerRoom(20, 1164, 354),
         }
 
         /* END-USER-CTR-CODE */
@@ -48,7 +48,7 @@ export default class Town extends RoomScene {
         this.add.image(1315, 337, "town", "Símbolo 6");
 
         // s_mbolo_30
-        this.add.image(36, 135, "town", "Símbolo 30");
+        this.add.image(34, 156, "town", "Símbolo 30");
 
         // s_mbolo_47
         this.add.image(89, 957, "town", "Símbolo 47");
@@ -141,7 +141,7 @@ export default class Town extends RoomScene {
         this.add.image(1512, 908, "town", "Símbolo 45");
 
         // sprite_470
-        this.add.image(1010, 760, "town", "sprite 470");
+        const sprite_470 = this.add.image(1010, 760, "town", "sprite 470");
 
         // s_mbolo_8
         this.add.image(471, 495, "town", "Símbolo 8");
@@ -153,13 +153,14 @@ export default class Town extends RoomScene {
         this.add.image(1368, 998, "town", "Symbol 281");
 
         // sprite_232
-        this.add.image(1286, 650, "town", "sprite 232");
+        const sprite_232 = this.add.image(1286, 650, "town", "sprite 232");
 
         // betabottom_1
         this.add.image(1812, 193, "town", "betabottom");
 
         // s_mbolo_16
-        this.add.image(767, 279, "town", "Símbolo 16");
+        const s_mbolo_16 = this.add.image(622.5402420516511, 604.0344553837848, "town", "Símbolo 16");
+        s_mbolo_16.setOrigin(0.38321765727700174, 0.7933523965557625);
 
         // s_mbolo_13
         this.add.image(1467, 248, "town", "Símbolo 13");
@@ -174,7 +175,7 @@ export default class Town extends RoomScene {
         this.add.image(57, 604, "town", "Símbolo 18");
 
         // s_mbolo_36
-        this.add.image(-51, 356, "town", "Símbolo 36");
+        this.add.image(-33, 388, "town", "Símbolo 36");
 
         // s_mbolo_43
         this.add.image(687, 592, "town", "Símbolo 43");
@@ -186,10 +187,11 @@ export default class Town extends RoomScene {
         this.add.image(1285, 746, "town", "Symbol 132");
 
         // symbol_394
-        this.add.image(557, 865, "town", "Symbol 394");
+        const symbol_394 = this.add.image(557, 865, "town", "Symbol 394");
 
         // balloons
-        this.add.image(784, 459, "town", "balloons");
+        const balloons = this.add.image(772.0382807855852, 982.3307164736958, "town", "balloons");
+        balloons.setOrigin(0.4926162063666352, 0.9881816031810594);
 
         // betatop
         this.add.image(742, 180, "town", "betatop");
@@ -201,7 +203,7 @@ export default class Town extends RoomScene {
         this.add.image(381, 298, "town", "port");
 
         // lists
-        const sort = [canopy_stars, canopy_lights];
+        const sort = [canopy_stars, canopy_lights, s_mbolo_16, balloons, sprite_470, sprite_232, symbol_394];
 
         // canopy_lights (components)
         const canopy_lightsAnimation = new Animation(canopy_lights);
@@ -223,11 +225,17 @@ export default class Town extends RoomScene {
         discodoor0001Animation.repeat = 0;
         discodoor0001Animation.autoPlay = false;
         discodoor0001Animation.onHover = true;
+        const discodoor0001MoveTo = new MoveTo(discodoor0001);
+        discodoor0001MoveTo.x = 692;
+        discodoor0001MoveTo.y = 445;
 
         // coffeedoor (components)
         const coffeedoorButton = new Button(coffeedoor);
         coffeedoorButton.spriteName = "coffeedoor";
         coffeedoorButton.activeFrame = false;
+        const coffeedoorMoveTo = new MoveTo(coffeedoor);
+        coffeedoorMoveTo.x = 331;
+        coffeedoorMoveTo.y = 356;
 
         this.canopy_lights = canopy_lights;
         this.sort = sort;

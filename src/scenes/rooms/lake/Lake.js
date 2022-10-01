@@ -173,7 +173,7 @@ export default class Lake extends RoomScene {
         // lakecatalog (components)
         const lakecatalogButton = new Button(lakecatalog);
         lakecatalogButton.spriteName = "lakecatalog";
-        lakecatalogButton.callback = () => this.interface.loadExternal('Hydrohopper');
+        lakecatalogButton.callback = () => this.interface.loadExternal('Hydro');
         lakecatalogButton.activeFrame = false;
 
         this.sort = sort;

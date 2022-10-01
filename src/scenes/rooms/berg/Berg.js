@@ -14,6 +14,10 @@ export default class Berg extends RoomScene {
     constructor() {
         super("Berg");
 
+        /** @type {Phaser.GameObjects.Image[]} */
+        this.sort;
+
+
         /* START-USER-CTR-CODE */
         // Write your code here.
         /* END-USER-CTR-CODE */
@@ -60,10 +64,15 @@ export default class Berg extends RoomScene {
         const lights0001 = this.add.sprite(715, 679, "iceberg", "lights0001");
 
         // s_mbolo_9
-        this.add.image(576, 306, "iceberg", "Símbolo 9");
+        const s_mbolo_9 = this.add.image(588.1650465735426, 419.5404346863972, "iceberg", "Símbolo 9");
+        s_mbolo_9.setOrigin(0.5115199304673699, 0.8145164395745075);
 
         // s_mbolo_91
-        this.add.image(586, 557, "iceberg", "Símbolo 91");
+        const s_mbolo_91 = this.add.image(575.8624611887145, 660.4028958751118, "iceberg", "Símbolo 91");
+        s_mbolo_91.setOrigin(0.4874379940380601, 0.8541195064216156);
+
+        // lists
+        const sort = [s_mbolo_91, s_mbolo_9];
 
         // booom0001 (components)
         const booom0001Animation = new Animation(booom0001);
@@ -90,8 +99,11 @@ export default class Berg extends RoomScene {
         lights0001Animation.key = "lights";
         lights0001Animation.end = 96;
 
+        this.sort = sort;
+
         this.events.emit("scene-awake");
     }
+
 
     /* START-USER-CODE */
 

@@ -401,7 +401,7 @@
                 "Button"
             ],
             "Button.spriteName": "lakecatalog",
-            "Button.callback": "() => this.interface.loadExternal('Hydrohopper')",
+            "Button.callback": "() => this.interface.loadExternal('Hydro')",
             "Button.activeFrame": false,
             "texture": {
                 "key": "lake",

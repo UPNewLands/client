@@ -161,7 +161,6 @@ export default class Mineint extends RoomScene {
         fire0001Animation.end = 11;
 
         this.sort = sort;
-
         this.events.emit("scene-awake");
     }
 

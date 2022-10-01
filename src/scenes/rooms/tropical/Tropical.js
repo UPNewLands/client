@@ -22,7 +22,7 @@ export default class Tropical extends RoomScene {
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
             'surfer': () => this.triggerGame('CatchinWaves', 912),
-            'central': () => null,
+            'central': () => this.triggerRoom(10, 263, 672),
             'port': () => this.triggerRoom(30, 555, 421),
         }
         /* END-USER-CTR-CODE */
@@ -430,8 +430,11 @@ export default class Tropical extends RoomScene {
         // symbol_37
         const symbol_37 = this.add.image(547, 466, "tropical", "Symbol 148");
 
+        // waves
+        const waves = this.add.image(1239, 80, "tropical", "waves");
+
         // lists
-        const sort = [symbol_366, symbol_362, symbol_371, symbol_368, symbol_30, symbol_170, fire0001, symbol_335, symbol_337, symbol_37, symbol_36, symbol_1, symbol_344, symbol_148, waterfall2, symbol_346];
+        const sort = [symbol_366, symbol_362, symbol_371, symbol_368, symbol_30, symbol_170, fire0001, symbol_335, symbol_337, symbol_37, symbol_36, symbol_1, symbol_344, symbol_148, waterfall2, symbol_346, wf130001, wf_3, sparkles0001, wf60001];
 
         // wf100001 (components)
         const wf100001Animation = new Animation(wf100001);
@@ -503,6 +506,11 @@ export default class Tropical extends RoomScene {
         const sparkles0001Animation = new Animation(sparkles0001);
         sparkles0001Animation.key = "sparkles";
         sparkles0001Animation.end = 30;
+
+        // waves (components)
+        const wavesButton = new Button(waves);
+        wavesButton.spriteName = "waves";
+        wavesButton.callback = () => this.interface.loadExternal('Waves');
 
         this.sort = sort;
 

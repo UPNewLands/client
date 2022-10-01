@@ -21,7 +21,7 @@ export default class Plaza extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'central': () => null,
+            'central': () => this.triggerRoom(1, 1198, 745),
             'park': () => this.triggerRoom(60, 188, 709),   
             'pizza': () => this.triggerRoom(53, 384, 620),          
             'secret': () => null,

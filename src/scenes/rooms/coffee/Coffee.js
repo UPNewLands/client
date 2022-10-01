@@ -1,33 +1,32 @@
-import RoomScene from '../RoomScene'
 
-import { Animation, Button, MoveTo, ShowHint, SimpleButton } from '@components/components'
-
+// You can write more code here
 
 /* START OF COMPILED CODE */
+
+import RoomScene from "../RoomScene";
+import Button from "../../components/Button";
+import MoveTo from "../../components/MoveTo";
+import SimpleButton from "../../components/SimpleButton";
+import ShowHint from "../../components/ShowHint";
+/* START-USER-IMPORTS */
+/* END-USER-IMPORTS */
 
 export default class Coffee extends RoomScene {
 
     constructor() {
         super("Coffee");
 
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.board;
         /** @type {Phaser.GameObjects.Image[]} */
         this.sort;
 
 
         /* START-USER-CTR-CODE */
-
         this.roomTriggers = {
-            'town': () => this.triggerRoom(100, 580, 520),
-            'beans': () => this.triggerGame(901),
-            'book': () => this.triggerRoom(111, 1200, 580)
+            'beans': () => null,
+            'library': () => null,
+            'smash': () => null,
+            'town': () => this.triggerRoom(10, 260, 439),
         }
-        this.roomAnims = true
-        this.music = '1'
-
-        this.boardToggle = true
-
         /* END-USER-CTR-CODE */
     }
 
@@ -41,113 +40,98 @@ export default class Coffee extends RoomScene {
     _create() {
 
         // bg
-        const bg = this.add.image(0, -7, "coffee", "bg");
-        bg.setOrigin(0, 0);
+        this.add.image(764, 516, "coffee", "bg");
 
-        // lamp
-        const lamp = this.add.image(172, -11, "coffee", "lamp");
-        lamp.setOrigin(0, 0);
+        // symbol_211
+        this.add.image(982, 722, "coffee", "Symbol 211");
 
-        // table
-        const table = this.add.image(414, 499, "coffee", "table");
-        table.setOrigin(0.5217391304347826, 0.5368421052631579);
+        // symbol_213
+        const symbol_213 = this.add.image(1094.9745915396577, 726.2647588729293, "coffee", "Symbol 213");
+        symbol_213.setOrigin(0.4075623934384003, 0.20631125035839443);
 
-        // counter_back
-        const counter_back = this.add.image(850, 458, "coffee", "counter_back");
-        counter_back.setOrigin(0.27906976744186046, 0.8363636363636363);
+        // door2
+        const door2 = this.add.image(963, 266, "coffee", "door2");
 
-        // counter_front
-        const counter_front = this.add.image(808, 621, "coffee", "counter_front");
-        counter_front.setOrigin(0.2864583333333333, 0.8710801393728222);
+        // symbol_173
+        this.add.image(1091, 411, "coffee", "Symbol 173");
 
-        // smoke
-        const smoke = this.add.sprite(903, 180, "coffee", "smoke0001");
-        smoke.setOrigin(0, 0);
+        // symbol_147
+        const symbol_147 = this.add.image(707.3192683878211, 376.53808712469214, "coffee", "Symbol 147");
+        symbol_147.setOrigin(0.8107619795313605, 0.6008967466010908);
 
-        // sign_back
-        const sign_back = this.add.image(903, 632, "coffee", "sign_back");
-        sign_back.setOrigin(0.5, 0.4789915966386555);
+        // symbol
+        const symbol = this.add.image(707.8609583625088, 428.40628436843554, "coffee", "Symbol 147");
+        symbol.setOrigin(0.7390476765625843, 0.46367717122360735);
 
-        // sign_front
-        const sign_front = this.add.image(880, 695, "coffee", "sign_front");
-        sign_front.setOrigin(0.5190839694656488, 0.8827586206896552);
+        // symbol_1
+        const symbol_1 = this.add.image(714.1560094209514, 516.8089552221917, "coffee", "Symbol 147");
+        symbol_1.setOrigin(0.8765000905860708, 0.5766815274168291);
 
-        // board
-        const board = this.add.sprite(947, 146, "coffee", "board0001");
-        board.setOrigin(0, 0);
+        // symbol_200
+        this.add.image(565, 356, "coffee", "Symbol 200");
 
-        // machine_1
-        const machine_1 = this.add.image(952, 468, "coffee", "machine_1");
-        machine_1.setOrigin(0, 0);
+        // symbol_202
+        this.add.image(575, 461, "coffee", "Symbol 202");
 
-        // machine_2
-        const machine_2 = this.add.image(960, 314, "coffee", "machine_2");
-        machine_2.setOrigin(0, 0);
+        // symbol_1940001
+        const symbol_1940001 = this.add.image(204, 440, "coffee", "Symbol 1940001");
 
-        // machine_3
-        const machine_3 = this.add.image(1017, 406, "coffee", "machine_3");
-        machine_3.setOrigin(0, 0);
+        // symbol_175
+        this.add.image(1127, 534, "coffee", "Symbol 175");
 
-        // bag
-        const bag = this.add.image(1073, 646, "coffee", "bag");
-        bag.setOrigin(0.4430379746835443, 0.5060240963855421);
+        // s_mbolo_3
+        this.add.image(890, 866, "coffee", "Símbolo 3");
 
-        // beans
-        const beans = this.add.image(1012, 643, "coffee", "beans");
-        beans.setOrigin(0.3411764705882353, 0.5528455284552846);
+        // s_mbolo_5
+        const s_mbolo_5 = this.add.image(736, 676, "coffee", "Símbolo 5");
 
-        // lamp_2
-        const lamp_2 = this.add.image(988, 151, "coffee", "lamp_2");
-        lamp_2.setOrigin(0, 0);
+        // s_mbolo_4
+        const s_mbolo_4 = this.add.image(632.8223714715443, 960.3360185885441, "coffee", "Símbolo 4");
+        s_mbolo_4.setOrigin(0.632246088282344, 0.6918096892842265);
 
-        // stairs
-        const stairs = this.add.image(1203, 328, "coffee", "stairs");
-        stairs.setOrigin(0, 0);
+        // symbol_217
+        this.add.image(412, 805, "coffee", "Symbol 217");
+
+        // symbol_196
+        this.add.image(58, 509, "coffee", "Symbol 196");
+
+        // symbol_198
+        this.add.image(156, 742, "coffee", "Symbol 198");
 
         // door
-        const door = this.add.image(724, 135, "coffee", "door");
-        door.setOrigin(0, 0);
+        const door = this.add.image(1324, 425, "coffee", "door");
+
+        // symbol_223
+        this.add.image(1480, 748, "coffee", "Symbol 223");
+
+        // sprite_764
+        const sprite_764 = this.add.image(733, 1215.1535917971228, "coffee", "Sprite 764");
+        sprite_764.setOrigin(0.5, 1.0354965604745079);
 
         // lists
-        const sort = [beans, bag, sign_front, sign_back, counter_front, counter_back, table];
+        const sort = [s_mbolo_5, symbol_213, sprite_764, s_mbolo_4, symbol, symbol_147, symbol_1];
 
-        // smoke (components)
-        const smokeAnimation = new Animation(smoke);
-        smokeAnimation.key = "smoke";
-        smokeAnimation.end = 5;
+        // door2 (components)
+        const door2Button = new Button(door2);
+        door2Button.spriteName = "door2";
+        door2Button.activeFrame = false;
+        const door2MoveTo = new MoveTo(door2);
+        door2MoveTo.x = 963;
+        door2MoveTo.y = 352;
 
-        // board (components)
-        const boardSimpleButton = new SimpleButton(board);
-        boardSimpleButton.callback = () => this.onBoardClick();
-        boardSimpleButton.pixelPerfect = true;
-
-        // beans (components)
-        const beansButton = new Button(beans);
-        beansButton.spriteName = "beans";
-        beansButton.activeFrame = false;
-        beansButton.pixelPerfect = true;
-        new MoveTo(beans);
-        const beansShowHint = new ShowHint(beans);
-        beansShowHint.text = "beans_hint";
-
-        // stairs (components)
-        const stairsButton = new Button(stairs);
-        stairsButton.spriteName = "stairs";
-        stairsButton.activeFrame = false;
-        const stairsMoveTo = new MoveTo(stairs);
-        stairsMoveTo.x = 1255;
-        stairsMoveTo.y = 820;
+        // symbol_1940001 (components)
+        new SimpleButton(symbol_1940001);
+        const symbol_1940001ShowHint = new ShowHint(symbol_1940001);
+        symbol_1940001ShowHint.text = "Play Smoothie Smash";
 
         // door (components)
         const doorButton = new Button(door);
         doorButton.spriteName = "door";
         doorButton.activeFrame = false;
-        doorButton.pixelPerfect = true;
         const doorMoveTo = new MoveTo(door);
-        doorMoveTo.x = 750;
-        doorMoveTo.y = 392;
+        doorMoveTo.x = 1327;
+        doorMoveTo.y = 580;
 
-        this.board = board;
         this.sort = sort;
 
         this.events.emit("scene-awake");
@@ -156,14 +140,10 @@ export default class Coffee extends RoomScene {
 
     /* START-USER-CODE */
 
-    onBoardClick() {
-        let animation = (this.boardToggle) ? 'board1' : 'board2'
-
-        this.board.play(animation)
-        this.boardToggle = !this.boardToggle
-    }
-
+    // Write your code here
     /* END-USER-CODE */
 }
 
 /* END OF COMPILED CODE */
+
+// You can write more code here
