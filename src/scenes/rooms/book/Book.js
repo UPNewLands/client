@@ -1,6 +1,6 @@
 import RoomScene from '@scenes/rooms/RoomScene'
 
-import { Button, MoveTo, ShowHint } from '@components/components'
+import { Button, MoveTo, ShowHint, Animation } from '@components/components'
 
 
 /* START OF COMPILED CODE */
@@ -161,10 +161,10 @@ export default class Book extends RoomScene {
         const mancalaTable1 = this.add.sprite(1241, 584, "book", "mancalaTable0001");
 
         // mancalaTable2
-        const mancalaTable2 = this.add.sprite(1123, 666, "book", "mancalaTable0001");
+        const mancalaTable2 = this.add.sprite(1123, 666, "book", "mancalaTable0002");
 
         // mancalaTable3
-        const mancalaTable3 = this.add.sprite(1270, 708, "book", "mancalaTable0001");
+        const mancalaTable3 = this.add.sprite(1270, 708, "book", "mancalaTable0003");
 
         // mancalaTable4
         const mancalaTable4 = this.add.sprite(1169, 810, "book", "mancalaTable0001");
@@ -183,6 +183,11 @@ export default class Book extends RoomScene {
 
         // lists
         const sort = [stool2, stool1, mancalaTable4, mancalaTable3, mancalaTable2, mancalaTable1, topDeskRight, topDeskRightChair, topDeskDivider, topDeskRightStorage, topDeskLeft, topDeskLeftChair, hatStand, noticeboard, topDeskLeftStorage, coffeeTable, bottomDeskRight, bottomDeskLeft, bottomDeskLeftChair, bottomDeskDivider, bookshelf, fg, conveyorBottom, newspapers, conveyorTop];
+
+        // newspapers (components)
+        const newspapersAnimation = new Animation(newspapers);
+        newspapersAnimation.key = "newspapers";
+        newspapersAnimation.end = 18;
 
         this.bg = bg;
         this.bookshelf = bookshelf;

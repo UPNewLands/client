@@ -23,8 +23,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "bg.png"
+                "key": "book",
+                "frame": "bg"
             },
             "x": 756,
             "y": 491
@@ -36,8 +36,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "bookshelf.png"
+                "key": "book",
+                "frame": "bookshelf"
             },
             "x": 419,
             "y": 333
@@ -49,8 +49,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "bottomDeskDivider.png"
+                "key": "book",
+                "frame": "bottomDeskDivider"
             },
             "x": 877,
             "y": 633
@@ -62,8 +62,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "bottomDeskLeftChair.png"
+                "key": "book",
+                "frame": "bottomDeskLeftChair"
             },
             "x": 794,
             "y": 756
@@ -75,8 +75,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "bottomDeskLeft.png"
+                "key": "book",
+                "frame": "bottomDeskLeft"
             },
             "x": 890.7078354253503,
             "y": 786.2114846592042,
@@ -90,8 +90,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "bottomDeskRight.png"
+                "key": "book",
+                "frame": "bottomDeskRight"
             },
             "x": 999,
             "y": 784
@@ -103,8 +103,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "sofaBack.png"
+                "key": "book",
+                "frame": "sofaBack"
             },
             "x": 1396,
             "y": 504
@@ -116,8 +116,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "coffeeTable.png"
+                "key": "book",
+                "frame": "coffeeTable"
             },
             "x": 1440,
             "y": 628
@@ -129,8 +129,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "sofaFront.png"
+                "key": "book",
+                "frame": "sofaFront"
             },
             "x": 1367,
             "y": 826
@@ -142,8 +142,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "topDeskLeftStorage.png"
+                "key": "book",
+                "frame": "topDeskLeftStorage"
             },
             "x": 318,
             "y": 443
@@ -155,8 +155,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "noticeboard.png"
+                "key": "book",
+                "frame": "noticeboard"
             },
             "x": 290.27413229285713,
             "y": 664.3737525085712,
@@ -170,8 +170,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "hatStand.png"
+                "key": "book",
+                "frame": "hatStand"
             },
             "x": 797,
             "y": 312
@@ -183,8 +183,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "topDeskLeftChair.png"
+                "key": "book",
+                "frame": "topDeskLeftChair"
             },
             "x": 638,
             "y": 311
@@ -196,8 +196,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "topDeskLeft.png"
+                "key": "book",
+                "frame": "topDeskLeft"
             },
             "x": 611,
             "y": 409
@@ -209,8 +209,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "topDeskRightStorage.png"
+                "key": "book",
+                "frame": "topDeskRightStorage"
             },
             "x": 991,
             "y": 337
@@ -222,8 +222,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "topDeskDivider.png"
+                "key": "book",
+                "frame": "topDeskDivider"
             },
             "x": 835,
             "y": 261
@@ -235,8 +235,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "topDeskRightChair.png"
+                "key": "book",
+                "frame": "topDeskRightChair"
             },
             "x": 1054,
             "y": 409
@@ -248,8 +248,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "topDeskRight.png"
+                "key": "book",
+                "frame": "topDeskRight"
             },
             "x": 1081,
             "y": 469
@@ -261,8 +261,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "conveyorBottom.png"
+                "key": "book",
+                "frame": "conveyorBottom"
             },
             "x": 365.20391795238095,
             "y": 877.1037335238099,
@@ -274,10 +274,14 @@
             "id": "d2dc239a-0fff-40bf-b492-25a154a22378",
             "label": "newspapers",
             "scope": "CLASS",
-            "components": [],
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "newspapers",
+            "Animation.end": 18,
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "newspapers0001.png"
+                "key": "book",
+                "frame": "newspapers0001"
             },
             "x": 300.38824614285704,
             "y": 920.3455175238088,
@@ -291,8 +295,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "conveyorTop.png"
+                "key": "book",
+                "frame": "conveyorTop"
             },
             "x": 477.81567180952385,
             "y": 806.5057847142859,
@@ -306,8 +310,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "mancalaTable0001.png"
+                "key": "book",
+                "frame": "mancalaTable0001"
             },
             "x": 1241,
             "y": 584
@@ -319,8 +323,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "mancalaTable0001.png"
+                "key": "book",
+                "frame": "mancalaTable0002"
             },
             "x": 1123,
             "y": 666
@@ -332,8 +336,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "mancalaTable0001.png"
+                "key": "book",
+                "frame": "mancalaTable0003"
             },
             "x": 1270,
             "y": 708
@@ -345,8 +349,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "mancalaTable0001.png"
+                "key": "book",
+                "frame": "mancalaTable0001"
             },
             "x": 1169,
             "y": 810
@@ -358,8 +362,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "stool.png"
+                "key": "book",
+                "frame": "stool"
             },
             "x": 481,
             "y": 708.5106262196813,
@@ -372,8 +376,8 @@
             "scope": "CLASS",
             "components": [],
             "texture": {
-                "key": "bookRoom-new",
-                "frame": "stool.png"
+                "key": "book",
+                "frame": "stool"
             },
             "x": 597.7078354253503,
             "y": 713.4488730816558,

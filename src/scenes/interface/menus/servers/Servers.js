@@ -17,9 +17,14 @@ export default class Servers extends BaseScene {
     /** @returns {void} */
     _create() {
 
-        // bg
-        const bg = this.add.image(0, 0, "load", "bg");
-        bg.setOrigin(0, 0);
+        // bg_1
+        this.add.image(760, 480, "newServers", "bg");
+
+        // clouds
+        this.add.image(760, 718, "newServers", "clouds");
+
+        // boxes
+        this.add.image(760, 800.5, "newServers", "boxes");
 
         // text_2
         const text_2 = this.add.text(1095, 908, "", {});
@@ -30,6 +35,7 @@ export default class Servers extends BaseScene {
         // safe_small
         const safe_small = this.add.image(1070, 908, "servers", "safe_small");
         safe_small.setOrigin(0.5, 0.5161290322580645);
+        safe_small.visible = false;
 
         // text_1
         const text_1 = this.add.text(645, 908, "", {});
@@ -38,7 +44,8 @@ export default class Servers extends BaseScene {
         text_1.setStyle({ "fixedWidth":300,"fontFamily": "Arial Narrow", "fontSize": "28px" });
 
         // bar_full_small
-        this.add.image(620, 908, "servers", "bar_full_small");
+        const bar_full_small = this.add.image(620, 908, "servers", "bar_full_small");
+        bar_full_small.visible = false;
 
         // text
         const text = this.add.text(277, 908, "", {});
@@ -58,7 +65,13 @@ export default class Servers extends BaseScene {
         const suggested = this.add.text(760, 85, "", {});
         suggested.setOrigin(0.5, 0.5);
         suggested.text = "YOUR SUGGESTED SERVERS";
-        suggested.setStyle({ "align": "center", "fixedWidth":1200,"fontFamily": "CCFaceFront", "fontSize": "40px", "fontStyle": "bold italic", "stroke": "#003366", "strokeThickness":10,"shadow.color": "#000000ff" });
+        suggested.setStyle({ "align": "center", "fixedWidth":1200,"fontFamily": "Burbank Small Bold", "fontSize": "40px", "fontStyle": "bold", "stroke": "#003366", "strokeThickness":10,"shadow.color": "#000000ff" });
+
+        // on
+        this.add.image(619, 908, "newServers", "on");
+
+        // text_3
+        this.add.image(1070, 907, "newServers", "text");
 
         this.events.emit("scene-awake");
     }

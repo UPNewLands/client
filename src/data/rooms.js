@@ -23,6 +23,12 @@ const rooms = {
         x: 963,
         y: 627
     }, 
+    12: {
+        key: 'Book',
+        scene: require('@rooms/book/Book').default,
+        x: 819,
+        y: 694
+    }, 
     13: {
         key: 'Dance',
         scene: require('@rooms/dance/Dance').default,
@@ -35,15 +41,15 @@ const rooms = {
         x: 638,
         y: 486
     }, 
+    15: {
+        key: 'Shop',
+        scene: require('@rooms/shop/Shop').default,
+        x: 638,
+        y: 486
+    }, 
     16: {
         key: 'Boiler',
         scene: require('@rooms/boiler/Boiler').default,
-        x: 819,
-        y: 694
-    }, 
-    17: {
-        key: 'Book',
-        scene: require('@rooms/book/Book').default,
         x: 819,
         y: 694
     }, 

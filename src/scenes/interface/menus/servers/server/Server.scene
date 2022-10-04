@@ -38,6 +38,24 @@
                 },
                 {
                     "type": "Image",
+                    "id": "eaffcb14-717c-4bf8-86dc-47741df40758",
+                    "label": "bar",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "bar",
+                    "Button.activeFrame": false,
+                    "texture": {
+                        "key": "newServers",
+                        "frame": "bar"
+                    },
+                    "x": 2,
+                    "scaleX": 1.53,
+                    "scaleY": 1.51
+                },
+                {
+                    "type": "Image",
                     "id": "0beddcfb-533b-4b7b-8b7b-2d4846cfebc4",
                     "label": "bar_5",
                     "components": [],
@@ -133,7 +151,8 @@
                     "x": 79,
                     "y": 1,
                     "originX": 0.509090909090909,
-                    "originY": 0.5094339622641509
+                    "originY": 0.5094339622641509,
+                    "visible": false
                 },
                 {
                     "type": "Text",
@@ -160,6 +179,87 @@
                     },
                     "x": 240,
                     "originY": 0.5076923076923077,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "96b353e5-af1f-4194-84b3-1aeb828a7d23",
+                    "label": "on",
+                    "components": [],
+                    "texture": {
+                        "key": "newServers",
+                        "frame": "on"
+                    },
+                    "x": 142,
+                    "scaleX": 2.1,
+                    "scaleY": 1.85
+                },
+                {
+                    "type": "Image",
+                    "id": "6dc3dc05-be89-4151-9b11-af08c858298c",
+                    "label": "off",
+                    "components": [],
+                    "texture": {
+                        "key": "newServers",
+                        "frame": "off"
+                    },
+                    "x": 187,
+                    "scaleX": 2.1,
+                    "scaleY": 1.86
+                },
+                {
+                    "type": "Image",
+                    "id": "d8a0d25c-da64-45d2-a67f-dd2b147803de",
+                    "label": "off_1",
+                    "components": [],
+                    "texture": {
+                        "key": "newServers",
+                        "frame": "off"
+                    },
+                    "x": 232,
+                    "scaleX": 2.1,
+                    "scaleY": 1.86
+                },
+                {
+                    "type": "Image",
+                    "id": "f695d2c6-6bd1-4160-a843-1398b23e2374",
+                    "label": "off_2",
+                    "components": [],
+                    "texture": {
+                        "key": "newServers",
+                        "frame": "off"
+                    },
+                    "x": 277,
+                    "scaleX": 2.1,
+                    "scaleY": 1.86
+                },
+                {
+                    "type": "Image",
+                    "id": "94a8eed9-6fed-478c-9836-787e4a304bd2",
+                    "label": "off_3",
+                    "components": [],
+                    "texture": {
+                        "key": "newServers",
+                        "frame": "off"
+                    },
+                    "x": 322,
+                    "scaleX": 2.1,
+                    "scaleY": 1.86
+                },
+                {
+                    "type": "Image",
+                    "id": "7d6773f1-16f3-463d-a2b9-5692ec1534df",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "newServers",
+                        "frame": "text"
+                    },
+                    "x": 78.5,
+                    "y": -0.8,
+                    "scaleX": 1.86,
+                    "scaleY": 1.86,
                     "visible": false
                 }
             ]

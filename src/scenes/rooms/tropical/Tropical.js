@@ -392,27 +392,30 @@ export default class Tropical extends RoomScene {
         this.add.image(724, 602, "tropical", "Symbol 368");
 
         // wf_3
-        const wf_3 = this.add.sprite(703, 123, "tropical", "wf100001");
+        const wf_3 = this.add.sprite(710.9999999999999, 338, "tropical", "wf100001");
         wf_3.scaleX = 0.6627737239001715;
         wf_3.angle = -16;
+        wf_3.setOrigin(-0.497593452830488, 9.994380184363813);
         wf_3.tintTopLeft = 1503707;
         wf_3.tintTopRight = 1503707;
         wf_3.tintBottomLeft = 1503707;
         wf_3.tintBottomRight = 1503707;
 
         // wf130001
-        const wf130001 = this.add.sprite(719, 215, "tropical", "wf130001");
+        const wf130001 = this.add.sprite(721, 319, "tropical", "wf130001");
         wf130001.scaleX = 0.5597882329842954;
         wf130001.angle = -7;
+        wf130001.setOrigin(0.24539612227723714, 1.7773893774490837);
         wf130001.tintTopLeft = 1503707;
         wf130001.tintTopRight = 1503707;
         wf130001.tintBottomLeft = 1503707;
         wf130001.tintBottomRight = 1503707;
 
         // sparkles0001
-        const sparkles0001 = this.add.sprite(714, 205, "tropical", "sparkles0001");
+        const sparkles0001 = this.add.sprite(712.0566312589104, 333.9101264922764, "tropical", "sparkles0001");
         sparkles0001.scaleX = 0.5992508224772785;
         sparkles0001.scaleY = 0.8073729195129792;
+        sparkles0001.setOrigin(0.47297502200096725, 1.4282915662941031);
 
         // symbol_36
         const symbol_36 = this.add.image(387, 501, "tropical", "Symbol 116");

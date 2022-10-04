@@ -136,7 +136,7 @@ export default class Plaza extends RoomScene {
         this.add.image(780, 604, "plaza", "Símbolo 73");
 
         // entry
-        const entry = this.add.image(691, 559, "plaza", "entry");
+        const entry = this.add.image(689, 561, "plaza", "entry");
 
         // s_mbolo_24
         this.add.image(930, 271, "plaza", "Símbolo 24");

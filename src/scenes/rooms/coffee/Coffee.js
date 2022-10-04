@@ -23,7 +23,7 @@ export default class Coffee extends RoomScene {
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
             'beans': () => null,
-            'library': () => null,
+            'library': () => this.triggerRoom(12, 1265, 489),
             'smash': () => null,
             'town': () => this.triggerRoom(10, 260, 439),
         }
@@ -40,20 +40,20 @@ export default class Coffee extends RoomScene {
     _create() {
 
         // bg
-        this.add.image(764, 516, "coffee", "bg");
+        this.add.image(764, 494, "coffee", "bg");
 
         // symbol_211
-        this.add.image(982, 722, "coffee", "Symbol 211");
+        this.add.image(982, 713, "coffee", "Symbol 211");
 
         // symbol_213
         const symbol_213 = this.add.image(1094.9745915396577, 726.2647588729293, "coffee", "Symbol 213");
         symbol_213.setOrigin(0.4075623934384003, 0.20631125035839443);
 
         // door2
-        const door2 = this.add.image(963, 266, "coffee", "door2");
+        const door2 = this.add.image(963, 245, "coffee", "door2");
 
         // symbol_173
-        this.add.image(1091, 411, "coffee", "Symbol 173");
+        this.add.image(1098, 423, "coffee", "Symbol 173");
 
         // symbol_147
         const symbol_147 = this.add.image(707.3192683878211, 376.53808712469214, "coffee", "Symbol 147");
@@ -68,10 +68,10 @@ export default class Coffee extends RoomScene {
         symbol_1.setOrigin(0.8765000905860708, 0.5766815274168291);
 
         // symbol_200
-        this.add.image(565, 356, "coffee", "Symbol 200");
+        this.add.image(564, 360, "coffee", "Symbol 200");
 
         // symbol_202
-        this.add.image(575, 461, "coffee", "Symbol 202");
+        this.add.image(573, 463, "coffee", "Symbol 202");
 
         // symbol_1940001
         const symbol_1940001 = this.add.image(204, 440, "coffee", "Symbol 1940001");
@@ -83,7 +83,7 @@ export default class Coffee extends RoomScene {
         this.add.image(890, 866, "coffee", "Símbolo 3");
 
         // s_mbolo_5
-        const s_mbolo_5 = this.add.image(736, 676, "coffee", "Símbolo 5");
+        const s_mbolo_5 = this.add.image(735, 681, "coffee", "Símbolo 5");
 
         // s_mbolo_4
         const s_mbolo_4 = this.add.image(632.8223714715443, 960.3360185885441, "coffee", "Símbolo 4");
@@ -99,7 +99,7 @@ export default class Coffee extends RoomScene {
         this.add.image(156, 742, "coffee", "Symbol 198");
 
         // door
-        const door = this.add.image(1324, 425, "coffee", "door");
+        const door = this.add.image(1337, 436, "coffee", "door");
 
         // symbol_223
         this.add.image(1480, 748, "coffee", "Symbol 223");
@@ -107,6 +107,9 @@ export default class Coffee extends RoomScene {
         // sprite_764
         const sprite_764 = this.add.image(733, 1215.1535917971228, "coffee", "Sprite 764");
         sprite_764.setOrigin(0.5, 1.0354965604745079);
+
+        // symbol_103
+        this.add.image(1474, 471, "coffee", "Symbol 103");
 
         // lists
         const sort = [s_mbolo_5, symbol_213, sprite_764, s_mbolo_4, symbol, symbol_147, symbol_1];

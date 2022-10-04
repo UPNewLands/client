@@ -21,7 +21,7 @@ export default class Town extends RoomScene {
         this.roomTriggers = {
             'central': () => this.triggerRoom(1, 259, 727),
             'coffee': () => this.triggerRoom(11, 975, 440),
-            'dance': () => null,
+            'dance': () => this.triggerRoom(15, 1141, 425),
             'shop': () => this.triggerRoom(13, 334, 546),
             'tropical': () => this.triggerRoom(20, 1164, 354),
         }
@@ -159,8 +159,8 @@ export default class Town extends RoomScene {
         this.add.image(1812, 193, "town", "betabottom");
 
         // s_mbolo_16
-        const s_mbolo_16 = this.add.image(622.5402420516511, 604.0344553837848, "town", "Símbolo 16");
-        s_mbolo_16.setOrigin(0.38321765727700174, 0.7933523965557625);
+        const s_mbolo_16 = this.add.image(195.1824474294629, 802.9202184915858, "town", "Símbolo 16");
+        s_mbolo_16.setOrigin(0.03773845376972135, 0.9728521561480952);
 
         // s_mbolo_13
         this.add.image(1467, 248, "town", "Símbolo 13");
@@ -216,6 +216,10 @@ export default class Town extends RoomScene {
         // shopdoor (components)
         const shopdoorButton = new Button(shopdoor);
         shopdoorButton.spriteName = "shopdoor";
+        shopdoorButton.activeFrame = false;
+        const shopdoorMoveTo = new MoveTo(shopdoor);
+        shopdoorMoveTo.x = 987;
+        shopdoorMoveTo.y = 346;
 
         // discodoor0001 (components)
         new SimpleButton(discodoor0001);

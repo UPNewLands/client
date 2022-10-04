@@ -13,6 +13,8 @@ export default class Server extends BaseContainer {
         /** @type {Phaser.GameObjects.Image} */
         this.server;
         /** @type {Phaser.GameObjects.Image} */
+        this.bar;
+        /** @type {Phaser.GameObjects.Image} */
         this.buddy;
         /** @type {Phaser.GameObjects.Image} */
         this.safe;
@@ -20,6 +22,8 @@ export default class Server extends BaseContainer {
         this.name;
         /** @type {Phaser.GameObjects.Image} */
         this.full;
+        /** @type {Phaser.GameObjects.Image} */
+        this.text;
         /** @type {Phaser.GameObjects.Image[]} */
         this.bars;
         /** @type {string} */
@@ -31,6 +35,12 @@ export default class Server extends BaseContainer {
         // server
         const server = scene.add.image(0, 0, "servers", "server");
         this.add(server);
+
+        // bar
+        const bar = scene.add.image(2, 0, "newServers", "bar");
+        bar.scaleX = 1.53;
+        bar.scaleY = 1.51;
+        this.add(bar);
 
         // bar_5
         const bar_5 = scene.add.image(322, 1, "servers", "bar_empty");
@@ -65,6 +75,7 @@ export default class Server extends BaseContainer {
         // safe
         const safe = scene.add.image(79, 1, "servers", "safe");
         safe.setOrigin(0.509090909090909, 0.5094339622641509);
+        safe.visible = false;
         this.add(safe);
 
         // name
@@ -79,6 +90,43 @@ export default class Server extends BaseContainer {
         full.visible = false;
         this.add(full);
 
+        // on
+        const on = scene.add.image(142, 0, "newServers", "on");
+        on.scaleX = 2.1;
+        on.scaleY = 1.85;
+        this.add(on);
+
+        // off
+        const off = scene.add.image(187, 0, "newServers", "off");
+        off.scaleX = 2.1;
+        off.scaleY = 1.86;
+        this.add(off);
+
+        // off_1
+        const off_1 = scene.add.image(232, 0, "newServers", "off");
+        off_1.scaleX = 2.1;
+        off_1.scaleY = 1.86;
+        this.add(off_1);
+
+        // off_2
+        const off_2 = scene.add.image(277, 0, "newServers", "off");
+        off_2.scaleX = 2.1;
+        off_2.scaleY = 1.86;
+        this.add(off_2);
+
+        // off_3
+        const off_3 = scene.add.image(322, 0, "newServers", "off");
+        off_3.scaleX = 2.1;
+        off_3.scaleY = 1.86;
+        this.add(off_3);
+
+        // text
+        const text = scene.add.image(78.5, -0.8, "newServers", "text");
+        text.scaleX = 1.86;
+        text.scaleY = 1.86;
+        text.visible = false;
+        this.add(text);
+
         // lists
         const bars = [bar_1, bar_2, bar_3, bar_4, bar_5];
 
@@ -87,16 +135,24 @@ export default class Server extends BaseContainer {
         serverButton.spriteName = "server";
         serverButton.activeFrame = false;
 
+        // bar (components)
+        const barButton = new Button(bar);
+        barButton.spriteName = "bar";
+        barButton.activeFrame = false;
+
         this.server = server;
+        this.bar = bar;
         this.buddy = buddy;
         this.safe = safe;
         this.name = name;
         this.full = full;
+        this.text = text;
         this.bars = bars;
 
         /* START-USER-CTR-CODE */
 
         this.button = serverButton
+        this.button = barButton
 
         /* END-USER-CTR-CODE */
     }

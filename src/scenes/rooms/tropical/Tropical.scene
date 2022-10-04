@@ -1383,10 +1383,12 @@
                 "key": "tropical",
                 "frame": "wf100001"
             },
-            "x": 703,
-            "y": 123,
+            "x": 710.9999999999999,
+            "y": 338,
             "scaleX": 0.6627737239001715,
             "angle": -16,
+            "originX": -0.497593452830488,
+            "originY": 9.994380184363813,
             "tintTopLeft": "#16F1DB",
             "tintTopRight": "#16F1DB",
             "tintBottomLeft": "#16F1DB",
@@ -1405,10 +1407,12 @@
                 "key": "tropical",
                 "frame": "wf130001"
             },
-            "x": 719,
-            "y": 215,
+            "x": 721,
+            "y": 319,
             "scaleX": 0.5597882329842954,
             "angle": -7,
+            "originX": 0.24539612227723714,
+            "originY": 1.7773893774490837,
             "tintTopLeft": "#16F1DB",
             "tintTopRight": "#16F1DB",
             "tintBottomLeft": "#16F1DB",
@@ -1427,10 +1431,12 @@
                 "key": "tropical",
                 "frame": "sparkles0001"
             },
-            "x": 714,
-            "y": 205,
+            "x": 712.0566312589104,
+            "y": 333.9101264922764,
             "scaleX": 0.5992508224772785,
-            "scaleY": 0.8073729195129792
+            "scaleY": 0.8073729195129792,
+            "originX": 0.47297502200096725,
+            "originY": 1.4282915662941031
         },
         {
             "type": "Image",

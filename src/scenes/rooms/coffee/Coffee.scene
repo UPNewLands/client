@@ -27,7 +27,7 @@
                 "frame": "bg"
             },
             "x": 764,
-            "y": 516
+            "y": 494
         },
         {
             "type": "Image",
@@ -39,7 +39,7 @@
                 "frame": "Symbol 211"
             },
             "x": 982,
-            "y": 722
+            "y": 713
         },
         {
             "type": "Image",
@@ -72,7 +72,7 @@
                 "frame": "door2"
             },
             "x": 963,
-            "y": 266
+            "y": 245
         },
         {
             "type": "Image",
@@ -83,8 +83,8 @@
                 "key": "coffee",
                 "frame": "Symbol 173"
             },
-            "x": 1091,
-            "y": 411
+            "x": 1098,
+            "y": 423
         },
         {
             "type": "Image",
@@ -137,8 +137,8 @@
                 "key": "coffee",
                 "frame": "Symbol 200"
             },
-            "x": 565,
-            "y": 356
+            "x": 564,
+            "y": 360
         },
         {
             "type": "Image",
@@ -149,8 +149,8 @@
                 "key": "coffee",
                 "frame": "Symbol 202"
             },
-            "x": 575,
-            "y": 461
+            "x": 573,
+            "y": 463
         },
         {
             "type": "Image",
@@ -201,8 +201,8 @@
                 "key": "coffee",
                 "frame": "Símbolo 5"
             },
-            "x": 736,
-            "y": 676
+            "x": 735,
+            "y": 681
         },
         {
             "type": "Image",
@@ -270,8 +270,8 @@
                 "key": "coffee",
                 "frame": "door"
             },
-            "x": 1324,
-            "y": 425
+            "x": 1337,
+            "y": 436
         },
         {
             "type": "Image",
@@ -297,6 +297,18 @@
             "x": 733,
             "y": 1215.1535917971228,
             "originY": 1.0354965604745079
+        },
+        {
+            "type": "Image",
+            "id": "eec2eb19-69a4-4d48-90e0-8368170a1825",
+            "label": "symbol_103",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 103"
+            },
+            "x": 1474,
+            "y": 471
         }
     ],
     "plainObjects": [],

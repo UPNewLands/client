@@ -154,9 +154,13 @@
             "id": "7bb3003e-b342-4890-af81-4e6b02c337c4",
             "label": "shopdoor",
             "components": [
-                "Button"
+                "Button",
+                "MoveTo"
             ],
             "Button.spriteName": "shopdoor",
+            "Button.activeFrame": false,
+            "MoveTo.x": 987,
+            "MoveTo.y": 346,
             "texture": {
                 "key": "town",
                 "frame": "shopdoor"
@@ -518,10 +522,10 @@
                 "key": "town",
                 "frame": "Símbolo 16"
             },
-            "x": 622.5402420516511,
-            "y": 604.0344553837848,
-            "originX": 0.38321765727700174,
-            "originY": 0.7933523965557625
+            "x": 195.1824474294629,
+            "y": 802.9202184915858,
+            "originX": 0.03773845376972135,
+            "originY": 0.9728521561480952
         },
         {
             "type": "Image",
