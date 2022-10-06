@@ -22,20 +22,18 @@
             "y": 480,
             "list": [
                 {
-                    "type": "Rectangle",
-                    "id": "43dbb293-36da-4727-8b01-a9969fda2bec",
-                    "label": "block",
-                    "components": [
-                        "Interactive"
-                    ],
-                    "x": -11,
-                    "scaleX": 1.0622070020971,
-                    "scaleY": 1.1688154174421634,
-                    "isFilled": true,
-                    "fillColor": "#000000",
-                    "fillAlpha": 0.5,
-                    "width": 1520,
-                    "height": 960
+                    "type": "Image",
+                    "id": "982aa769-0bee-4ba5-8f9b-5bbe37b39952",
+                    "label": "s_mbolo_27",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 27"
+                    },
+                    "x": 53,
+                    "y": 362,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
                 },
                 {
                     "type": "Image",
@@ -51,6 +49,81 @@
                     "y": -35,
                     "originY": 0.5007429420505201,
                     "visible": false
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "43dbb293-36da-4727-8b01-a9969fda2bec",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -32.77707700843423,
+                    "y": 23.469213665729455,
+                    "scaleX": 1.0622070020971,
+                    "scaleY": 1.1688154174421634,
+                    "originX": 0.4803183635209356,
+                    "originY": 0.49685330762054664,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.5,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "f2310966-9988-44c7-969f-e4879046ee82",
+                    "label": "sky",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "sky"
+                    },
+                    "x": 26,
+                    "y": -272,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "62862c87-4b2b-4552-a873-ab90415e5d09",
+                    "label": "cloud2",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "cloud2"
+                    },
+                    "x": 506,
+                    "y": -219,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "a9e3e529-71be-4f5e-b3e7-bbf23dc42db9",
+                    "label": "sprite_35",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "sprite 35"
+                    },
+                    "x": 400,
+                    "y": -256,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "9a1cb00c-a024-4c17-b85e-1a0678111d05",
+                    "label": "cloud1",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "cloud1"
+                    },
+                    "x": -417,
+                    "y": -179,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
                 },
                 {
                     "type": "Image",
@@ -366,6 +439,989 @@
                     "visible": false
                 },
                 {
+                    "type": "Image",
+                    "id": "c0460c44-b81b-46ff-94c2-d32a2e0e494c",
+                    "label": "a",
+                    "components": [],
+                    "texture": {
+                        "key": "map",
+                        "frame": "a"
+                    },
+                    "x": -1,
+                    "y": 18,
+                    "scaleX": 0.91,
+                    "scaleY": 0.91,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "a193d1fc-5d1a-4f0a-a925-bca4ab1291cc",
+                    "label": "overlay_main",
+                    "components": [],
+                    "texture": {
+                        "key": "map-new",
+                        "frame": "overlay/main"
+                    },
+                    "y": 17,
+                    "scaleX": 0.97,
+                    "scaleY": 0.95,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "1bf95d62-f4ce-45d5-b8db-180181759e78",
+                    "label": "sea",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "sea"
+                    },
+                    "x": 9,
+                    "y": 216,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "4bcf2075-c731-4dab-a714-22ceac66a345",
+                    "label": "waves",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "waves"
+                    },
+                    "x": 1,
+                    "y": 167,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "8696f758-2ddf-46be-9eee-f7d8ff4e6049",
+                    "label": "s_mbolo_42",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 42"
+                    },
+                    "x": 98,
+                    "y": -291,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "8ae75cf6-0020-41ce-b828-a135354159d4",
+                    "label": "symbol_14",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Symbol 14"
+                    },
+                    "x": 29,
+                    "y": -190,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "56ce9438-643a-4972-8866-c273e5cdcbaa",
+                    "label": "s_mbolo_46",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 46"
+                    },
+                    "x": -231,
+                    "y": -159,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "21b6720b-9962-4731-8895-cfc82280f54f",
+                    "label": "s_mbolo_47",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 47"
+                    },
+                    "x": 394,
+                    "y": -193,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "8821f7ad-4dcf-42d2-932e-5c0fda750a96",
+                    "label": "s_mbolo_45",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 45"
+                    },
+                    "x": -410,
+                    "y": -183,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "6cb44616-d3e1-458e-89fe-aa581d066016",
+                    "label": "s_mbolo_48",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 48"
+                    },
+                    "x": -86,
+                    "y": -205,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "662f1509-3d75-422b-a126-3a77fee137fa",
+                    "label": "shadows",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "shadows"
+                    },
+                    "x": -7,
+                    "y": 14,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "alpha": 0.2,
+                    "alphaTopLeft": 0.2,
+                    "alphaTopRight": 0.2,
+                    "alphaBottomLeft": 0.2,
+                    "alphaBottomRight": 0.2
+                },
+                {
+                    "type": "Image",
+                    "id": "b3e6141b-ff44-43e9-882e-284d67520813",
+                    "label": "s_mbolo_44",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 44"
+                    },
+                    "x": 88,
+                    "y": 196,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "80c5e2c6-936a-43f3-8e86-d882450c41c1",
+                    "label": "s_mbolo_4",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 4"
+                    },
+                    "x": -160,
+                    "y": 111,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "79278d10-f4dd-4f13-857b-d24f6a21aca8",
+                    "label": "s_mbolo_52",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 52"
+                    },
+                    "x": -481,
+                    "y": 176,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "4d1e1f39-25f6-4702-8522-4d10e3d639fb",
+                    "label": "s_mbolo_64",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 64"
+                    },
+                    "x": 92,
+                    "y": 83,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "4be9cd83-cd8f-42b6-8853-e74398ec908c",
+                    "label": "central",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "central",
+                    "Button.callback": "() => this.onRoomClick(1)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Centre Island",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "central"
+                    },
+                    "x": 121,
+                    "y": 11,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "30c76a3c-9a88-4561-9279-32493a674bdb",
+                    "label": "s_mbolo_69",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 69"
+                    },
+                    "x": 142,
+                    "y": 40,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "e9395488-5dac-4dd5-9a36-f41b2afed9e5",
+                    "label": "igloo_1",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "igloo",
+                    "Button.callback": "() => this.iglooMap.show()",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Show Igloos",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "igloo"
+                    },
+                    "x": 30,
+                    "y": 7,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "3efce772-d95c-450f-bb65-c8e40fded77b",
+                    "label": "s_mbolo_66",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 66"
+                    },
+                    "x": 179,
+                    "y": 103,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "7c9c8636-bc9a-40c6-8081-1684cc10067b",
+                    "label": "s_mbolo_70",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 70"
+                    },
+                    "x": 70,
+                    "y": 115,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "2657edf3-487d-4381-9e81-f66c16b7888e",
+                    "label": "town_1",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "town",
+                    "Button.callback": "() => this.onRoomClick(10)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Town Center",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "town"
+                    },
+                    "x": -177,
+                    "y": 137,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "314c66f4-f315-4a3e-b33f-a25bb5e01efb",
+                    "label": "s_mbolo_93",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 93"
+                    },
+                    "x": -292,
+                    "y": 199,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "8ab18eb5-0e2f-4e73-90cc-6a455bfc2c26",
+                    "label": "s_mbolo_6",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 6"
+                    },
+                    "x": -169,
+                    "y": 156,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "e56d0092-8d68-4e5b-8b36-71776e570872",
+                    "label": "s_mbolo_77",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 77"
+                    },
+                    "x": -400,
+                    "y": 203,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "5603ae09-9ecc-4ad2-bf3c-a33f89f2eb31",
+                    "label": "pirate",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "pirate",
+                    "Button.callback": "() => this.onRoomClick(40)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Pirate Island",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "pirate"
+                    },
+                    "x": -602,
+                    "y": 395,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "fa27a6e0-b865-4db4-a5bd-5fdea033c435",
+                    "label": "s_mbolo_65",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 65"
+                    },
+                    "x": -296,
+                    "y": 370,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "ed401832-66e0-4ef4-9725-6695338003fc",
+                    "label": "s_mbolo_78",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 78"
+                    },
+                    "x": -301,
+                    "y": 336,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "1e0ca9d5-4a7b-4cb7-b051-ee84b33db343",
+                    "label": "s_mbolo_109",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 109"
+                    },
+                    "x": -412,
+                    "y": 322,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "3b4b7c7d-339c-4a6d-8749-242c64c1dde9",
+                    "label": "port",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "port",
+                    "Button.callback": "() => this.onRoomClick(30)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "The Port",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "port"
+                    },
+                    "x": -380,
+                    "y": 305,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "3d7da6cd-3e40-4d4c-b003-fc4bae37a985",
+                    "label": "s_mbolo_97",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 97"
+                    },
+                    "x": 523,
+                    "y": 46,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "073ff127-452b-4bce-bbc0-4d3db2c22e0f",
+                    "label": "s_mbolo_87",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 87"
+                    },
+                    "x": 677,
+                    "y": 263,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "8b6da294-509a-4909-9d5f-cc9503aae255",
+                    "label": "forest_1",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "forest",
+                    "Button.callback": "() => this.onRoomClick(80)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Lost Forest",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "forest"
+                    },
+                    "x": 581,
+                    "y": 63,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "4c75ee5c-c7f5-49c7-8be2-f941a914c55e",
+                    "label": "s_mbolo_98",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 98"
+                    },
+                    "x": 596,
+                    "y": 92,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "1aaba75b-d08f-4483-8865-cd0448d2d8c6",
+                    "label": "hidden",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onRoomClick(92)",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "hidden"
+                    },
+                    "x": 675,
+                    "y": 269,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "46104280-82cd-4bf6-84a9-9477ee4d8958",
+                    "label": "s_mbolo_62",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 62"
+                    },
+                    "x": 649,
+                    "y": 86,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "77eea755-4b4c-436d-8e29-d81011c5e37f",
+                    "label": "s_mbolo_99",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 99"
+                    },
+                    "x": 611,
+                    "y": 110,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "0efa9122-0cb0-418f-bfcf-24bc223cf21e",
+                    "label": "tropical",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "tropical",
+                    "Button.callback": "() => this.onRoomClick(20)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Tropical Forest",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "tropical"
+                    },
+                    "x": -500,
+                    "y": 177,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "9cea8cb4-e03e-4b27-b94b-9048e73f3ad5",
+                    "label": "s_mbolo_100",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 100"
+                    },
+                    "x": 615,
+                    "y": 122,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "3198f23c-f40c-4d56-9481-a1b73013486f",
+                    "label": "plaza",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "plaza",
+                    "Button.callback": "() => this.onRoomClick(50)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Plaza",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "plaza"
+                    },
+                    "x": 290,
+                    "y": 94,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "b07e6200-aea0-4142-9610-c205a0ed1628",
+                    "label": "s_mbolo_107",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 107"
+                    },
+                    "x": 462,
+                    "y": 218,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "1fc4b27d-6b34-461b-b4ec-4c7c712eace3",
+                    "label": "s_mbolo_60",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 60"
+                    },
+                    "x": 378,
+                    "y": 187,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "a2992e2e-295d-48b1-ac31-3d1ae5809e08",
+                    "label": "mine_1",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "mine",
+                    "Button.callback": "() => this.onRoomClick(70)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Mine Entrance",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "mine"
+                    },
+                    "x": 429,
+                    "y": 51,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "f0df0482-fda7-48bb-927b-b9184c1fd944",
+                    "label": "s_mbolo_84",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 84"
+                    },
+                    "x": 506,
+                    "y": 229,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d93eb23f-9567-4d97-a8e5-c02cd04693c0",
+                    "label": "lake",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "lake",
+                    "Button.callback": "() => this.onRoomClick(90)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Lake",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "lake"
+                    },
+                    "x": 537,
+                    "y": 291,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "0cfe350f-789f-4ea0-be9e-d43e4de1bc58",
+                    "label": "s_mbolo_85",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 85"
+                    },
+                    "x": 592,
+                    "y": 282,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "6c1830f1-3e0e-4442-8303-ebbce5dc8f55",
+                    "label": "s_mbolo_71",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 71"
+                    },
+                    "x": 511,
+                    "y": 155,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "70f4e03f-72e5-4292-abea-9159c6229001",
+                    "label": "s_mbolo_105",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 105"
+                    },
+                    "x": 445,
+                    "y": 112,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "65bbc8cf-e135-4ee7-95f1-a110f647b82e",
+                    "label": "s_mbolo_51",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 51"
+                    },
+                    "x": 440,
+                    "y": -175,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "f94bd4b9-b646-4913-80ce-0a7a7746e275",
+                    "label": "park",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "park",
+                    "Button.callback": "() => this.onRoomClick(60)",
+                    "Button.activeFrame": false,
+                    "ShowHint.text": "Nature Park",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "park"
+                    },
+                    "x": 485,
+                    "y": 99,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "3c5ab19f-d35a-4ad3-8675-f86617bfd4b7",
+                    "label": "berg_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onRoomClick(2)",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "berg"
+                    },
+                    "x": -726,
+                    "y": 89,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "27a9edb7-e3b2-4d18-ba06-0f876ab4e1b4",
+                    "label": "s_mbolo_50",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 50"
+                    },
+                    "x": 97,
+                    "y": -173,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "206b2528-6726-44e2-84dd-56f0cf6792f0",
+                    "label": "s_mbolo_35",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 35"
+                    },
+                    "x": 609,
+                    "y": 215,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "f8b83e4d-6d89-4f4b-8e3e-881f789d92f3",
+                    "label": "dojo_1",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "dojo",
+                    "ShowHint.text": "Yōso Village",
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "dojo"
+                    },
+                    "x": 472,
+                    "y": -315
+                },
+                {
+                    "type": "Image",
+                    "id": "3e15caf8-4d88-4b62-ba73-141cfb1b973b",
+                    "label": "cloudsall",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "cloudsall"
+                    },
+                    "x": -5,
+                    "y": 9,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "150b7605-c9c0-4d6c-96f6-9237c2f12220",
+                    "label": "white_overlay",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 5,
+                    "y": 5,
+                    "scaleX": 11.693966924568103,
+                    "scaleY": 7.654820022230695,
+                    "visible": false,
+                    "alpha": 0.5,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "19d40e42-9aba-4873-9a57-7e64aa432f4f",
+                    "label": "overlay_main_1",
+                    "components": [],
+                    "texture": {
+                        "key": "map-new",
+                        "frame": "overlay/main"
+                    },
+                    "y": 20
+                },
+                {
+                    "type": "Image",
+                    "id": "6466fda5-512e-4d12-9c12-084e900d2f3e",
+                    "label": "grey_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => { this.visible = false }",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 716,
+                    "y": -414
+                },
+                {
+                    "type": "Image",
+                    "id": "45830b5d-99cb-41f8-8903-65046e08ebfe",
+                    "label": "grey_x",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 716,
+                    "y": -416
+                },
+                {
+                    "type": "Image",
+                    "id": "27b7b509-5408-48df-825f-3e980160a54f",
+                    "label": "overlay_shopsbutton0001",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.changeMode(\"shops\")",
+                    "texture": {
+                        "key": "map-new",
+                        "frame": "overlay/shopsbutton0001"
+                    },
+                    "x": -666,
+                    "y": -377
+                },
+                {
+                    "type": "Image",
+                    "id": "d3acda63-d067-4aa8-b864-b6b7afa14198",
+                    "label": "overlay_placesbutton0001",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.changeMode(\"places\")",
+                    "texture": {
+                        "key": "map-new",
+                        "frame": "overlay/placesbutton0001"
+                    },
+                    "x": -540,
+                    "y": -377
+                },
+                {
+                    "type": "Image",
+                    "id": "1ed76d2c-9328-4e1e-aece-51021764948b",
+                    "label": "overlay_gamesbutton0001",
+                    "components": [],
+                    "texture": {
+                        "key": "map-new",
+                        "frame": "overlay/gamesbutton0001"
+                    },
+                    "x": -411,
+                    "y": -377
+                },
+                {
+                    "type": "Text",
+                    "id": "b7a81630-a6ed-4507-a296-cf149b860657",
+                    "label": "text_1",
+                    "components": [],
+                    "x": -700,
+                    "y": -321,
+                    "text": "Shops",
+                    "fontFamily": "Burbank Small ",
+                    "fontSize": "25px",
+                    "color": "#404040ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "567fdbeb-29f9-48d1-8202-da5742d640f0",
+                    "label": "text",
+                    "components": [],
+                    "x": -577,
+                    "y": -321,
+                    "text": "Places",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "color": "#404040ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "b1ed96c6-5418-429f-881b-33645f2e5a4f",
+                    "label": "text_2",
+                    "components": [],
+                    "x": -450,
+                    "y": -321,
+                    "text": "Games",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "color": "#404040ff"
+                },
+                {
                     "prefabId": "9f793ade-93a8-4ab2-bd68-ccd899fb9179",
                     "id": "10280413-fe4e-43c5-87a0-4ff109f3c31a",
                     "unlock": [
@@ -382,242 +1438,476 @@
                     "nestedPrefabs": []
                 },
                 {
-                    "type": "Image",
-                    "id": "c0460c44-b81b-46ff-94c2-d32a2e0e494c",
-                    "label": "a",
+                    "type": "Container",
+                    "id": "21e66c7e-8369-4903-8a3d-cc63ff330ea3",
+                    "label": "shops_container",
+                    "scope": "CLASS",
                     "components": [],
-                    "texture": {
-                        "key": "map",
-                        "frame": "a"
-                    },
-                    "x": -1,
-                    "y": 18,
-                    "scaleX": 0.91,
-                    "scaleY": 0.91
+                    "x": -466,
+                    "y": -158,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "348533a4-07f2-4ed9-a1d5-30772dc31b1a",
+                            "label": "catchinwavesupgrades",
+                            "scope": "CLASS",
+                            "components": [
+                                "ShowHint",
+                                "SimpleButton"
+                            ],
+                            "ShowHint.text": "Game Upgrade",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "shops/catchinwavesupgrades0001"
+                            },
+                            "x": -42,
+                            "y": 365
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "5712dc37-cc1c-45df-82a6-151d9a3678cb",
+                            "label": "costumetrunk",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "shops/costumetrunk0001"
+                            },
+                            "x": 916,
+                            "y": 320,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e4d77378-6d15-4195-9b47-701b7bea293e",
+                            "label": "hydrohopperupgrades",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "ShowHint.text": "Game Upgrade",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "shops/hydrohopperupgrades0001"
+                            },
+                            "x": 1008,
+                            "y": 424
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "6199ac07-a150-4373-bccc-252a9f2ddab7",
+                            "label": "martialartworks",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "shops/martialartworks0001"
+                            },
+                            "x": 746,
+                            "y": 33,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "8fdae2ca-660a-4688-8c69-f48985859fed",
+                            "label": "musiccatalog",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(410)",
+                            "ShowHint.text": "Music Catalog",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "shops/musiccatalog0001"
+                            },
+                            "x": 80,
+                            "y": 447
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "4f45d2b6-faac-43dc-a7d5-5ea2a4127fca",
+                            "label": "penguinstyle",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(130)",
+                            "ShowHint.text": "Penguin Style",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "shops/penguinstyle0001"
+                            },
+                            "x": 275,
+                            "y": 287
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "33ab6acc-9ea9-4bf4-8bac-9b5087621227",
+                            "label": "petfurniture",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "ShowHint.text": "Pet Furniture",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "shops/petfurniture0001"
+                            },
+                            "x": 755,
+                            "y": 265
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1c026fe3-7d41-4bed-a4be-29ca8924351b",
+                            "label": "sledraceupgrades",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "shops/sledracerupgrades0001"
+                            },
+                            "x": 123,
+                            "y": 71,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a0802f25-392b-40f9-8adb-d45a07b52c98",
+                            "label": "snowandsports",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "shops/snowandsports0001"
+                            },
+                            "x": 544,
+                            "y": 172,
+                            "visible": false
+                        }
+                    ]
                 },
                 {
-                    "type": "Rectangle",
-                    "id": "a12d84c3-dda9-48fe-8983-d77f45936821",
-                    "label": "central_test",
-                    "components": [
-                        "ShowHint",
-                        "SimpleButton"
-                    ],
-                    "ShowHint.text": "Town on Building",
-                    "SimpleButton.callback": "() => this.onRoomClick(10)",
-                    "x": -150,
-                    "y": 134,
-                    "scaleY": 0.4364936485290203,
-                    "width": 128,
-                    "height": 128
-                },
-                {
-                    "type": "Image",
-                    "id": "a193d1fc-5d1a-4f0a-a925-bca4ab1291cc",
-                    "label": "overlay_main",
+                    "type": "Container",
+                    "id": "5fe054c3-e6dc-4b26-aa69-3d06ad5b2244",
+                    "label": "games_container",
+                    "scope": "CLASS",
                     "components": [],
-                    "texture": {
-                        "key": "map-new",
-                        "frame": "overlay/main"
-                    },
-                    "y": 17,
-                    "scaleX": 0.97,
-                    "scaleY": 0.95
-                },
-                {
-                    "type": "Image",
-                    "id": "6466fda5-512e-4d12-9c12-084e900d2f3e",
-                    "label": "grey_button",
-                    "components": [
-                        "Button"
-                    ],
-                    "Button.spriteName": "grey-button",
-                    "Button.callback": "() => { this.visible = false }",
-                    "texture": {
-                        "key": "main",
-                        "frame": "grey-button"
-                    },
-                    "x": 696,
-                    "y": -398
-                },
-                {
-                    "type": "Image",
-                    "id": "45830b5d-99cb-41f8-8903-65046e08ebfe",
-                    "label": "grey_x",
-                    "components": [],
-                    "texture": {
-                        "key": "main",
-                        "frame": "grey-x"
-                    },
-                    "x": 696,
-                    "y": -400
-                },
-                {
-                    "type": "Rectangle",
-                    "id": "43012551-8aa5-404e-91bf-aa9948391a7b",
-                    "label": "rectangle_1",
-                    "components": [
-                        "SimpleButton",
-                        "ShowHint"
-                    ],
-                    "SimpleButton.callback": "() => this.onRoomClick(60)",
-                    "ShowHint.text": "Park",
-                    "x": 449,
-                    "y": 126,
-                    "scaleX": 0.5104699314572384,
-                    "scaleY": 0.3728060295052945,
-                    "alpha": 0.1,
-                    "isFilled": true,
-                    "width": 128,
-                    "height": 128
-                },
-                {
-                    "type": "Rectangle",
-                    "id": "89ddab18-1d0c-45e2-a875-dabd75fac635",
-                    "label": "rectangle",
-                    "components": [
-                        "SimpleButton",
-                        "ShowHint"
-                    ],
-                    "SimpleButton.callback": "() => this.onRoomClick(80)",
-                    "ShowHint.text": "Lost Forest",
-                    "x": 534,
-                    "y": 71,
-                    "scaleX": 0.6781767344211687,
-                    "scaleY": 0.4780733043598887,
-                    "alpha": 0.1,
-                    "isFilled": true,
-                    "width": 128,
-                    "height": 128
-                },
-                {
-                    "type": "Rectangle",
-                    "id": "0b48cf53-5a05-4bd5-8c7e-6617e9035275",
-                    "label": "rectangle_2",
-                    "components": [
-                        "SimpleButton",
-                        "ShowHint"
-                    ],
-                    "SimpleButton.callback": "() => this.onRoomClick(70)",
-                    "ShowHint.text": "Mine",
-                    "x": 405,
-                    "y": 69,
-                    "scaleX": 0.3793734102024384,
-                    "scaleY": 0.2614106227221028,
-                    "alpha": 0.1,
-                    "isFilled": true,
-                    "width": 128,
-                    "height": 128
-                },
-                {
-                    "type": "Rectangle",
-                    "id": "95df7adc-fc66-4902-a191-5893a9a5d7e4",
-                    "label": "rectangle_3",
-                    "components": [
-                        "SimpleButton",
-                        "ShowHint"
-                    ],
-                    "SimpleButton.callback": "() => this.onRoomClick(50)",
-                    "ShowHint.text": "Plaza",
-                    "x": 279,
-                    "y": 122,
-                    "scaleX": 0.8954755570136395,
-                    "scaleY": 0.6041666565449354,
-                    "alpha": 0.1,
-                    "isFilled": true,
-                    "width": 128,
-                    "height": 128
-                },
-                {
-                    "type": "Rectangle",
-                    "id": "17e998c5-a10b-4381-b4a5-66ba2783343d",
-                    "label": "rectangle_4",
-                    "components": [
-                        "SimpleButton",
-                        "ShowHint"
-                    ],
-                    "SimpleButton.callback": "() => this.onRoomClick(90)",
-                    "ShowHint.text": "Lake",
-                    "x": 497,
-                    "y": 263,
-                    "scaleX": 0.8954755570136395,
-                    "scaleY": 0.6041666565449354,
-                    "alpha": 0.1,
-                    "isFilled": true,
-                    "width": 128,
-                    "height": 128
-                },
-                {
-                    "type": "Rectangle",
-                    "id": "e1e5f361-1085-44c0-90c9-86179f0bd982",
-                    "label": "rectangle_5",
-                    "components": [
-                        "SimpleButton",
-                        "ShowHint"
-                    ],
-                    "SimpleButton.callback": "() => this.onRoomClick(30)",
-                    "ShowHint.text": "The Port",
-                    "x": -271,
-                    "y": 322,
-                    "scaleX": 1.4937234037182128,
-                    "scaleY": 0.754009407852105,
-                    "alpha": 0.1,
-                    "isFilled": true,
-                    "width": 128,
-                    "height": 128
-                },
-                {
-                    "type": "Rectangle",
-                    "id": "55136ca7-b2a8-4528-973c-569e60830293",
-                    "label": "rectangle_6",
-                    "components": [
-                        "SimpleButton",
-                        "ShowHint"
-                    ],
-                    "SimpleButton.callback": "() => this.onRoomClick(40)",
-                    "ShowHint.text": "Pirate Island",
-                    "x": -508,
-                    "y": 379,
-                    "scaleX": 0.8954755570136395,
-                    "scaleY": 0.6041666565449354,
-                    "alpha": 0.1,
-                    "isFilled": true,
-                    "width": 128,
-                    "height": 128
-                },
-                {
-                    "type": "Rectangle",
-                    "id": "2ebe9fc0-7e26-4fa2-8b06-dd1fbefa1b46",
-                    "label": "central_test_1",
-                    "components": [
-                        "ShowHint",
-                        "SimpleButton"
-                    ],
-                    "ShowHint.text": "Central on Building",
-                    "x": 68,
-                    "y": 82,
-                    "scaleY": 0.4364936485290203,
-                    "width": 128,
-                    "height": 128
-                },
-                {
-                    "type": "Rectangle",
-                    "id": "10dd35f1-6821-4dea-a1ca-069e953e1668",
-                    "label": "rectangle_7",
-                    "components": [
-                        "SimpleButton",
-                        "ShowHint"
-                    ],
-                    "SimpleButton.callback": "() => this.onRoomClick(20)",
-                    "ShowHint.text": "Tropical Forest",
-                    "x": -288,
-                    "y": 238,
-                    "scaleX": 0.5141331000220111,
-                    "scaleY": 0.5863126157852041,
-                    "alpha": 0.1,
-                    "isFilled": true,
-                    "width": 128,
-                    "height": 128
+                    "x": -642,
+                    "y": -216,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "8c9160ea-d5b1-4cd4-abae-b5a7971ea99d",
+                            "label": "aqua",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(805)",
+                            "ShowHint.text": "Aqua Grabber",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/aquagrabber0001"
+                            },
+                            "x": -54,
+                            "y": 276
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "440a112f-39fc-4469-a68b-61584a566867",
+                            "label": "arcade",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(121)",
+                            "ShowHint.text": "Arcade",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/arcadegames0001"
+                            },
+                            "x": 464,
+                            "y": 258
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1f848eb6-787a-408e-b3b7-233644c166bb",
+                            "label": "counters",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(110)",
+                            "ShowHint.text": "Bean Counters",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/beancounters0001"
+                            },
+                            "x": 356,
+                            "y": 338
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3c4c2a60-7929-4763-b76d-9d6766f09575",
+                            "label": "jitsu",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/cardjitsu0001"
+                            },
+                            "x": 789,
+                            "y": 50,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "31dee9f2-bd63-4761-80de-752747791697",
+                            "label": "surfer",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(808)",
+                            "ShowHint.text": "Cart Surfer",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/cartsurfer0001"
+                            },
+                            "x": 1098,
+                            "y": 307
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "ac52ead4-6c84-4cc0-95d0-f8d2d5afc23c",
+                            "label": "waves_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/catchinwaves0001"
+                            },
+                            "x": 141,
+                            "y": 421
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3470a4cb-c2d6-441e-aaf5-8641d15007b9",
+                            "label": "dancecontest",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(120)",
+                            "ShowHint.text": "Dance Contest",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/dancecontest0001"
+                            },
+                            "x": 464,
+                            "y": 400
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "0d9fd072-b799-4fea-ab61-4e3e27fc7f5f",
+                            "label": "soundstudio",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/dj3ksoundstudio0001"
+                            },
+                            "x": 448,
+                            "y": 444,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "62b8c02e-ac4a-4a09-a41a-519d29fe76ee",
+                            "label": "hydro",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(800)",
+                            "ShowHint.text": "Hydro Hopper",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/hydrohopper0001"
+                            },
+                            "x": 1190,
+                            "y": 497
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "0700a22a-d6d3-40bb-a7a8-ede9a6131bf4",
+                            "label": "fishing",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(220)",
+                            "ShowHint.text": "Ice Fishing",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/icefishing0001"
+                            },
+                            "x": 182,
+                            "y": 225,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "ef17009a-5133-4769-87b7-0002c0778421",
+                            "label": "jetpack",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(411)",
+                            "ShowHint.text": "Jetpack Adventure",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/jetpackadventure0001"
+                            },
+                            "x": 259,
+                            "y": 498
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "37baa192-4ae7-41bc-b024-d4e70c93ddd3",
+                            "label": "pizzatron",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(330)",
+                            "ShowHint.text": "Pizzatron 3000",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/pizzatron0001"
+                            },
+                            "x": 983,
+                            "y": 338
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "ca9ad3fc-7863-44b2-a343-685d60f36dc2",
+                            "label": "cannon",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(310)",
+                            "ShowHint.text": "Puffle Launch",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/pufflelaunch0001"
+                            },
+                            "x": 836,
+                            "y": 364
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "f05f832c-8601-4858-aadf-08e7512e8e57",
+                            "label": "rescue",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(808)",
+                            "ShowHint.text": "Puffle Rescue",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/pufflerescue0001"
+                            },
+                            "x": 1071,
+                            "y": 189
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "34a234eb-4085-4330-920a-502972b79c54",
+                            "label": "roundup",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(310)",
+                            "ShowHint.text": "Puffle Roundup\n",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/puffleroundup0001"
+                            },
+                            "x": 890,
+                            "y": 247
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "f03575fc-952d-4d0c-b745-a807b6d9091f",
+                            "label": "pufflescape",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/pufflescape0001"
+                            },
+                            "x": 855,
+                            "y": 491,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1a709627-ef35-4cfd-b891-dafeb94b417d",
+                            "label": "sled",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.callback": "() => this.onRoomClick(230)",
+                            "ShowHint.text": "Sled Racing",
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/sledracing0001"
+                            },
+                            "x": 153,
+                            "y": 89,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "8a469c8d-c5a2-41c8-84c6-c26ba7e5b82c",
+                            "label": "smoothie",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "map-new",
+                                "frame": "games/smoothiesmash0001"
+                            },
+                            "x": 322,
+                            "y": 529,
+                            "visible": false
+                        }
+                    ]
                 }
             ]
         }

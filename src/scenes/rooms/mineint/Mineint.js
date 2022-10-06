@@ -56,17 +56,20 @@ export default class Mineint extends RoomScene {
         this.add.image(1193, 810, "mineint", "Símbolo 33");
 
         // symbol_5
-        const symbol_5 = this.add.image(712.4138180538076, 571.0491090053631, "mineint", "Symbol 5");
+        const symbol_5 = this.add.image(1856, 104, "mineint", "Symbol 5");
         symbol_5.setOrigin(0.4697865511452747, 1.0079669159463451);
 
-        // s_mbolo_37
-        this.add.image(252, 412, "mineint", "Símbolo 37");
+        // s_mbolo_3
+        this.add.image(254, 414, "mineint", "Símbolo 3");
 
         // shape_17
         this.add.image(167, 542, "mineint", "Shape 17");
 
         // sprite_28
         const sprite_28 = this.add.image(1269, 743, "mineint", "sprite 28");
+
+        // s_mbolo_2
+        this.add.image(1071, 397, "mineint", "Símbolo 2");
 
         // arc2
         this.add.image(1248, 658, "mineint", "arc2");
@@ -161,6 +164,7 @@ export default class Mineint extends RoomScene {
         fire0001Animation.end = 11;
 
         this.sort = sort;
+
         this.events.emit("scene-awake");
     }
 

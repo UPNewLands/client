@@ -19,18 +19,6 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "c7b78e77-6380-4c8f-b5f3-2f52837dba43",
-            "label": "block",
-            "components": [],
-            "texture": {
-                "key": "plaza",
-                "frame": "block"
-            },
-            "x": 760,
-            "y": 480
-        },
-        {
-            "type": "Image",
             "id": "19b4078c-7f96-407d-b8a1-7227b9b5c1fd",
             "label": "sky",
             "components": [],
@@ -38,8 +26,20 @@
                 "key": "plaza",
                 "frame": "sky"
             },
-            "x": 805,
-            "y": 140
+            "x": 871,
+            "y": 103
+        },
+        {
+            "type": "Image",
+            "id": "5fa6716c-847d-49a0-b6ba-3796ae0711f4",
+            "label": "s_mbolo_29",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 29"
+            },
+            "x": 910,
+            "y": 102
         },
         {
             "type": "Sprite",
@@ -77,6 +77,19 @@
             "texture": {
                 "key": "plaza",
                 "frame": "Símbolo 60"
+            },
+            "x": 635,
+            "y": 346,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "865fa072-7b96-4a4f-aa71-e33e116cbfb0",
+            "label": "s_mbolo_600",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 600"
             },
             "x": 635,
             "y": 346
@@ -143,18 +156,6 @@
         },
         {
             "type": "Image",
-            "id": "f94cf884-16f2-47cf-ac87-f236408d4186",
-            "label": "symbol_242",
-            "components": [],
-            "texture": {
-                "key": "plaza",
-                "frame": "Symbol 242"
-            },
-            "x": 221,
-            "y": 398
-        },
-        {
-            "type": "Image",
             "id": "6c41fc89-54a7-4f8b-b1e1-dbda93af26b2",
             "label": "sprite",
             "components": [],
@@ -166,6 +167,20 @@
             "y": 786.5465872776916,
             "originX": 0.4480228119410787,
             "originY": 0.330181364038933
+        },
+        {
+            "type": "Image",
+            "id": "958dc1f4-ab76-432a-9eca-0c08110cc296",
+            "label": "s_mbolo_58",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 58"
+            },
+            "x": 764,
+            "y": 506,
+            "scaleX": 0.8,
+            "scaleY": 0.8
         },
         {
             "type": "Image",
@@ -397,18 +412,6 @@
         },
         {
             "type": "Image",
-            "id": "6345ee51-0cfd-49c6-b9c6-95526dc15ce6",
-            "label": "s_mbolo_73",
-            "components": [],
-            "texture": {
-                "key": "plaza",
-                "frame": "Símbolo 73"
-            },
-            "x": 780,
-            "y": 604
-        },
-        {
-            "type": "Image",
             "id": "9643caf6-dbd7-403b-965e-7af57d794dfe",
             "label": "entry",
             "components": [
@@ -444,8 +447,10 @@
                 "key": "plaza",
                 "frame": "Sprite 331"
             },
-            "x": 817.5754687099732,
-            "y": 531.4454092157933,
+            "x": 814,
+            "y": 544,
+            "scaleX": 0.8,
+            "scaleY": 0.8,
             "originX": 0.5167236450692404,
             "originY": 0.3950041693445508
         },
@@ -486,6 +491,18 @@
             "y": 179
         },
         {
+            "type": "Image",
+            "id": "c9ab5580-cee3-47e4-aa2d-8d37bccb046c",
+            "label": "symbol_118",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Symbol 118"
+            },
+            "x": 183,
+            "y": 455
+        },
+        {
             "type": "Sprite",
             "id": "e41b9f87-9f4a-4afc-914c-b8816dd0e72e",
             "label": "fire0001",
@@ -515,6 +532,30 @@
         },
         {
             "type": "Image",
+            "id": "db9cd3ef-3498-4c84-b414-0d0c7ab16b52",
+            "label": "noentry",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "noentry"
+            },
+            "x": 202,
+            "y": 398
+        },
+        {
+            "type": "Image",
+            "id": "0f415c99-85e1-4373-b4ef-dc01ac85a7d4",
+            "label": "s_mbolo_70",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 70"
+            },
+            "x": 248,
+            "y": 401
+        },
+        {
+            "type": "Image",
             "id": "8add6ec1-b3e2-47b2-a727-1b6f5baa6e4c",
             "label": "s_mbolo_79",
             "components": [],
@@ -522,8 +563,68 @@
                 "key": "plaza",
                 "frame": "Símbolo 79"
             },
-            "x": 752,
-            "y": 137
+            "x": 1421,
+            "y": 220
+        },
+        {
+            "type": "Image",
+            "id": "e0db08a8-c85e-4add-a05d-1f319b3e96f6",
+            "label": "sprite_181",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Sprite 181"
+            },
+            "x": 90,
+            "y": 457
+        },
+        {
+            "type": "Image",
+            "id": "b19d684e-02d1-4f15-80e7-48e38321dad5",
+            "label": "symbol_263",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Symbol 263"
+            },
+            "x": 51,
+            "y": 536
+        },
+        {
+            "type": "Image",
+            "id": "3740f738-32cd-4070-82d7-69ac95d3935a",
+            "label": "symbol_234",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Symbol 234"
+            },
+            "x": 1388,
+            "y": 366
+        },
+        {
+            "type": "Image",
+            "id": "6345ee51-0cfd-49c6-b9c6-95526dc15ce6",
+            "label": "s_mbolo_73",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "Símbolo 73"
+            },
+            "x": 780,
+            "y": 604
+        },
+        {
+            "type": "Image",
+            "id": "7e262f06-4f6f-4142-a8f4-c3cd452c546f",
+            "label": "lights",
+            "components": [],
+            "texture": {
+                "key": "plaza",
+                "frame": "lights"
+            },
+            "x": 308,
+            "y": 214
         }
     ],
     "plainObjects": [],

@@ -47,6 +47,12 @@ export default class Changelog extends BaseContainer {
         text_3.setStyle({ "fontFamily": "Burbank Small", "fontSize": "26px" });
         this.add(text_3);
 
+        // text_4
+        const text_4 = scene.add.text(256, 225, "", {});
+        text_4.text = "v1.0.0    2022-05-10\n\n- 🎉 first release!";
+        text_4.setStyle({ "fontFamily": "Burbank Small", "fontSize": "25px" });
+        this.add(text_4);
+
         // block (components)
         new Interactive(block);
 

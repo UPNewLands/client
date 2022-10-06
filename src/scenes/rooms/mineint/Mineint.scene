@@ -99,22 +99,22 @@
                 "key": "mineint",
                 "frame": "Symbol 5"
             },
-            "x": 712.4138180538076,
-            "y": 571.0491090053631,
+            "x": 1856,
+            "y": 104,
             "originX": 0.4697865511452747,
             "originY": 1.0079669159463451
         },
         {
             "type": "Image",
-            "id": "aa62d422-2427-40d6-8abf-e2377e5cb92d",
-            "label": "s_mbolo_37",
+            "id": "a8c4ec5c-3804-462f-8ddd-c61ad90aec25",
+            "label": "s_mbolo_3",
             "components": [],
             "texture": {
                 "key": "mineint",
-                "frame": "Símbolo 37"
+                "frame": "Símbolo 3"
             },
-            "x": 252,
-            "y": 412
+            "x": 254,
+            "y": 414
         },
         {
             "type": "Image",
@@ -143,6 +143,18 @@
             },
             "x": 1269,
             "y": 743
+        },
+        {
+            "type": "Image",
+            "id": "f0bcd03d-9c82-4b1e-9af4-76012a8efb7c",
+            "label": "s_mbolo_2",
+            "components": [],
+            "texture": {
+                "key": "mineint",
+                "frame": "Símbolo 2"
+            },
+            "x": 1071,
+            "y": 397
         },
         {
             "type": "Image",

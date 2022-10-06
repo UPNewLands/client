@@ -39,11 +39,11 @@ export default class Plaza extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // block
-        this.add.image(760, 480, "plaza", "block");
-
         // sky
-        this.add.image(805, 140, "plaza", "sky");
+        this.add.image(871, 103, "plaza", "sky");
+
+        // s_mbolo_29
+        this.add.image(910, 102, "plaza", "Símbolo 29");
 
         // smoke0001
         const smoke0001 = this.add.sprite(1048, 29, "plaza", "smoke0001");
@@ -52,7 +52,11 @@ export default class Plaza extends RoomScene {
         this.add.image(749, 654, "plaza", "Símbolo 64");
 
         // s_mbolo_60
-        this.add.image(635, 346, "plaza", "Símbolo 60");
+        const s_mbolo_60 = this.add.image(635, 346, "plaza", "Símbolo 60");
+        s_mbolo_60.visible = false;
+
+        // s_mbolo_600
+        this.add.image(635, 346, "plaza", "Símbolo 600");
 
         // s_mbolo_43
         this.add.image(656, 764, "plaza", "Símbolo 43");
@@ -69,12 +73,14 @@ export default class Plaza extends RoomScene {
         // s_mbolo_69
         this.add.image(530, 189, "plaza", "Símbolo 69");
 
-        // symbol_242
-        this.add.image(221, 398, "plaza", "Symbol 242");
-
         // sprite
         const sprite = this.add.image(725.995492125174, 786.5465872776916, "plaza", "Sprite 331");
         sprite.setOrigin(0.4480228119410787, 0.330181364038933);
+
+        // s_mbolo_58
+        const s_mbolo_58 = this.add.image(764, 506, "plaza", "Símbolo 58");
+        s_mbolo_58.scaleX = 0.8;
+        s_mbolo_58.scaleY = 0.8;
 
         // pizzadoor
         const pizzadoor = this.add.image(1003, 433, "plaza", "pizzadoor");
@@ -132,9 +138,6 @@ export default class Plaza extends RoomScene {
         // s_mbolo_21
         this.add.image(441, 546, "plaza", "Símbolo 21");
 
-        // s_mbolo_73
-        this.add.image(780, 604, "plaza", "Símbolo 73");
-
         // entry
         const entry = this.add.image(689, 561, "plaza", "entry");
 
@@ -142,7 +145,9 @@ export default class Plaza extends RoomScene {
         this.add.image(930, 271, "plaza", "Símbolo 24");
 
         // sprite_331
-        const sprite_331 = this.add.image(817.5754687099732, 531.4454092157933, "plaza", "Sprite 331");
+        const sprite_331 = this.add.image(814, 544, "plaza", "Sprite 331");
+        sprite_331.scaleX = 0.8;
+        sprite_331.scaleY = 0.8;
         sprite_331.setOrigin(0.5167236450692404, 0.3950041693445508);
 
         // s_mbolo_78
@@ -154,14 +159,38 @@ export default class Plaza extends RoomScene {
         // glow
         this.add.image(372, 179, "plaza", "glow");
 
+        // symbol_118
+        this.add.image(183, 455, "plaza", "Symbol 118");
+
         // fire0001
         const fire0001 = this.add.sprite(371, 178, "plaza", "fire0001");
 
         // front
         this.add.image(373, 182, "plaza", "front");
 
+        // noentry
+        this.add.image(202, 398, "plaza", "noentry");
+
+        // s_mbolo_70
+        this.add.image(248, 401, "plaza", "Símbolo 70");
+
         // s_mbolo_79
-        this.add.image(752, 137, "plaza", "Símbolo 79");
+        this.add.image(1421, 220, "plaza", "Símbolo 79");
+
+        // sprite_181
+        this.add.image(90, 457, "plaza", "Sprite 181");
+
+        // symbol_263
+        this.add.image(51, 536, "plaza", "Symbol 263");
+
+        // symbol_234
+        this.add.image(1388, 366, "plaza", "Symbol 234");
+
+        // s_mbolo_73
+        this.add.image(780, 604, "plaza", "Símbolo 73");
+
+        // lights
+        this.add.image(308, 214, "plaza", "lights");
 
         // lists
         const sort = [s_mbolo_59, s_mbolo_77, sprite, symbol_185, sprite_72, sprite_331, s_mbolo_76, s_mbolo_61, s_mbolo_75, s_mbolo_63];

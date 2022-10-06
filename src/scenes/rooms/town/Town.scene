@@ -601,18 +601,6 @@
         },
         {
             "type": "Image",
-            "id": "4d458baa-ccc7-4406-a0cf-47928970dc31",
-            "label": "symbol_158",
-            "components": [],
-            "texture": {
-                "key": "town",
-                "frame": "Symbol 158"
-            },
-            "x": 804,
-            "y": 274
-        },
-        {
-            "type": "Image",
             "id": "350140b2-c1c2-4bac-9783-043fe882a35d",
             "label": "symbol_132",
             "components": [],
@@ -684,6 +672,30 @@
             },
             "x": 381,
             "y": 298
+        },
+        {
+            "type": "Image",
+            "id": "3c69a81b-1d05-4ae1-9d7f-5a32c04a2391",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Symbol 158"
+            },
+            "x": -58,
+            "y": 303
+        },
+        {
+            "type": "Image",
+            "id": "4d458baa-ccc7-4406-a0cf-47928970dc31",
+            "label": "symbol_158",
+            "components": [],
+            "texture": {
+                "key": "town",
+                "frame": "Symbol 158"
+            },
+            "x": 959,
+            "y": 295
         }
     ],
     "plainObjects": [],

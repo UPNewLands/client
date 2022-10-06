@@ -180,9 +180,6 @@ export default class Town extends RoomScene {
         // s_mbolo_43
         this.add.image(687, 592, "town", "Símbolo 43");
 
-        // symbol_158
-        this.add.image(804, 274, "town", "Symbol 158");
-
         // symbol_132
         this.add.image(1285, 746, "town", "Symbol 132");
 
@@ -201,6 +198,12 @@ export default class Town extends RoomScene {
 
         // port
         this.add.image(381, 298, "town", "port");
+
+        // symbol
+        this.add.image(-58, 303, "town", "Symbol 158");
+
+        // symbol_158
+        this.add.image(959, 295, "town", "Symbol 158");
 
         // lists
         const sort = [canopy_stars, canopy_lights, s_mbolo_16, balloons, sprite_470, sprite_232, symbol_394];
