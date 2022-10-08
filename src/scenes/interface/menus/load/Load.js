@@ -98,6 +98,14 @@ export default class Load extends BaseScene {
 
         this._create()
 
+        this.tween = this.tweens.add({
+            targets: this.spinner,
+            angle: { from: 0, to: 180 },
+            duration: 900,
+            repeat: -1,
+            ease: 'Cubic'
+        })
+
         if (localStorage.clientMode == 'legacy') {
             this.spinner.visible = false
             this.loading.visible = true
@@ -128,8 +136,8 @@ export default class Load extends BaseScene {
 
     onSleep() {
         if (localStorage.clientMode == 'legacy') {
-            // this.tween.pause()
-            // this.spinner.angle = 0
+            this.tween.pause()
+            this.spinner.angle = 0
         }
         if (this.timeout) clearTimeout(this.timeout)
     }
