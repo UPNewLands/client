@@ -81,7 +81,7 @@ let config = {
 
 module.exports = (env, argv) => {
     if (argv.mode === 'production') {
-        config.output.filename = 'cpforever.min.js'
+        config.output.filename = 'upnewlands.min.js'
         config.optimization.minimize = true
 
         if (env.obfuscate === 'true') {
