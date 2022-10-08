@@ -42,7 +42,9 @@
             "type": "Image",
             "id": "99840cae-8c4a-4ad5-9274-1077116ac62e",
             "label": "s_mbolo_23",
-            "components": [],
+            "components": [
+                "Interactive"
+            ],
             "texture": {
                 "key": "newinterface",
                 "frame": "Símbolo 23"
@@ -473,7 +475,7 @@
                 "frame": "buddy-button"
             },
             "x": 269,
-            "y": 79,
+            "y": 68,
             "visible": false
         },
         {

@@ -279,7 +279,7 @@ export default class Main extends BaseScene {
         crosshair.visible = false;
 
         // request_button
-        const request_button = this.add.image(269, 79, "main", "buddy-button");
+        const request_button = this.add.image(269, 68, "main", "buddy-button");
         request_button.visible = false;
 
         // mail_btn
@@ -514,6 +514,9 @@ export default class Main extends BaseScene {
         // lists
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];
+
+        // s_mbolo_23 (components)
+        new Interactive(s_mbolo_23);
 
         // chat_box (components)
         new Interactive(chat_box);

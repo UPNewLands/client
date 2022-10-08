@@ -87,8 +87,8 @@ export default class Central extends RoomScene {
         this.add.image(1015, 289, "central", "Símbolo 41");
 
         // s_mbolo_42
-        const s_mbolo_42 = this.add.image(993.0046139128931, 202.6806621099433, "central", "Símbolo 42");
-        s_mbolo_42.setOrigin(0.6400761841690598, 0.40096943260615975);
+        const s_mbolo_42 = this.add.image(721.492589601603, 523.064881965421, "central", "Símbolo 42");
+        s_mbolo_42.setOrigin(0.4970998550114652, 0.9358345710083652);
 
         // s_mbolo_43
         this.add.image(425, 766, "central", "Símbolo 43");
@@ -136,9 +136,12 @@ export default class Central extends RoomScene {
         // s_mbolo_14
         this.add.image(133, 308, "central", "Símbolo 14");
 
+        // s_mbolo_33
+        this.add.image(1401, 818, "central", "Símbolo 33");
+
         // s_mbolo_8
-        const s_mbolo_8 = this.add.image(1430.1697979098803, 742.1912013456466, "central", "Símbolo 8");
-        s_mbolo_8.setOrigin(0.8309561830428296, 0.7213752720907344);
+        const s_mbolo_8 = this.add.image(1301.5087589535815, 807.6120913739072, "central", "Símbolo 8");
+        s_mbolo_8.setOrigin(0.21535311676959507, 0.9401741624899851);
 
         // s_mbolo_61
         this.add.image(1300, 815, "central", "Símbolo 61");
@@ -149,9 +152,6 @@ export default class Central extends RoomScene {
 
         // arbol_1
         this.add.image(62, 259, "central", "Arbol 1");
-
-        // s_mbolo_33
-        this.add.image(1401, 818, "central", "Símbolo 33");
 
         // back
         const back = this.add.image(1010, 260, "central", "back");
@@ -175,18 +175,20 @@ export default class Central extends RoomScene {
         // s_mbolo_21
         this.add.image(1103, 737, "central", "Símbolo 21");
 
-        // symbol_158
-        this.add.image(811, 315, "central", "Symbol 158");
-
-        // symbol_2
-        this.add.image(-25, 157, "central", "Symbol 158");
-
         // symbol_1
         const symbol_1 = this.add.image(1169.7584450245981, 481.1705985875134, "central", "Symbol 88");
         symbol_1.setOrigin(0.5283240775273699, 0.7297691522780999);
 
+        // symbol_2
+        const symbol_2 = this.add.image(-12.757225574364838, 463.06936064087745, "central", "Symbol 158");
+        symbol_2.setOrigin(0.5091912720913176, 0.8849929064665125);
+
+        // symbol_158
+        const symbol_158 = this.add.image(815.897109770254, 608.8265862152423, "central", "Symbol 158");
+        symbol_158.setOrigin(0.503676508836527, 0.869593190207852);
+
         // lists
-        const sort = [sprite_181, symbol, s_mbolo_60, s_mbolo_8, s_mbolo_47, symbol_1, s_mbolo_42, s_mbolo_46, s_mbolo_522, back, front, flyer, snow];
+        const sort = [sprite_181, symbol, s_mbolo_60, s_mbolo_8, s_mbolo_47, symbol_1, s_mbolo_42, s_mbolo_46, s_mbolo_522, back, front, flyer, snow, symbol_158, symbol_2];
 
         // fire0001 (components)
         const fire0001Animation = new Animation(fire0001);
