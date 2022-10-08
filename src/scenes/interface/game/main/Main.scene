@@ -473,7 +473,7 @@
                 "frame": "buddy-button"
             },
             "x": 269,
-            "y": 79,
+            "y": 69,
             "visible": false
         },
         {
@@ -492,7 +492,8 @@
                 "frame": "mail-button"
             },
             "x": 170,
-            "y": 55
+            "y": 55,
+            "visible": false
         },
         {
             "type": "Image",
@@ -503,7 +504,7 @@
                 "Button"
             ],
             "Button.spriteName": "news-button",
-            "Button.callback": "() => window.open('https://discord.gg/cpf', '_blank').focus();",
+            "Button.callback": "() => window.open('https://discord.com/invite/2JwJ7JjVeb', '_blank').focus();",
             "Button.activeFrame": false,
             "texture": {
                 "key": "main",

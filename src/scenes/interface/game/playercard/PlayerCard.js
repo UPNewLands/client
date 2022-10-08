@@ -71,6 +71,7 @@ export default class PlayerCard extends BaseContainer {
         const stamps_btn = scene.add.image(-155, 28, "main", "blue-button");
         stamps_btn.scaleX = 0.8;
         stamps_btn.scaleY = 0.8;
+        stamps_btn.visible = false;
         stats.add(stamps_btn);
 
         // card_coin
@@ -90,6 +91,7 @@ export default class PlayerCard extends BaseContainer {
         // stamps
         const stamps = scene.add.text(22, 28, "", {});
         stamps.setOrigin(0.5, 0.5);
+        stamps.visible = false;
         stamps.tintFill = true;
         stamps.text = "Your Stamps: 69/420";
         stamps.setStyle({ "color": "#000000ff", "fixedWidth":300,"fontFamily": "Burbank Small", "fontSize": "20px", "fontStyle": "bold" });
@@ -99,10 +101,11 @@ export default class PlayerCard extends BaseContainer {
         const card_stamp = scene.add.image(-155, 27, "main", "stamps-icon");
         card_stamp.scaleX = 0.8;
         card_stamp.scaleY = 0.8;
+        card_stamp.visible = false;
         stats.add(card_stamp);
 
         // username
-        const username = scene.add.text(0, -233, "", {});
+        const username = scene.add.text(1, -229, "", {});
         username.setOrigin(0.5, 0.5);
         username.tintFill = true;
         username.text = "Username";

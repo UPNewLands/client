@@ -279,11 +279,12 @@ export default class Main extends BaseScene {
         crosshair.visible = false;
 
         // request_button
-        const request_button = this.add.image(269, 79, "main", "buddy-button");
+        const request_button = this.add.image(269, 69, "main", "buddy-button");
         request_button.visible = false;
 
         // mail_btn
         const mail_btn = this.add.sprite(170, 55, "main", "mail-button");
+        mail_btn.visible = false;
 
         // news_button
         const news_button = this.add.image(70, 71, "main", "news-button");
@@ -598,7 +599,7 @@ export default class Main extends BaseScene {
         // news_button (components)
         const news_buttonButton = new Button(news_button);
         news_buttonButton.spriteName = "news-button";
-        news_buttonButton.callback = () => window.open('https://discord.gg/cpf', '_blank').focus();;
+        news_buttonButton.callback = () => window.open('https://discord.com/invite/2JwJ7JjVeb', '_blank').focus();;
         news_buttonButton.activeFrame = false;
 
         // mod_button (components)
