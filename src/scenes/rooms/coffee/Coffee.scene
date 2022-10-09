@@ -158,9 +158,12 @@
             "label": "symbol_1940001",
             "components": [
                 "SimpleButton",
-                "ShowHint"
+                "ShowHint",
+                "MoveTo"
             ],
             "ShowHint.text": "Play Smoothie Smash",
+            "MoveTo.x": 204,
+            "MoveTo.y": 440,
             "texture": {
                 "key": "coffee",
                 "frame": "Symbol 1940001"
@@ -277,7 +280,14 @@
             "type": "Image",
             "id": "6e505bda-49fc-481c-8939-11a7eb10f96f",
             "label": "symbol_223",
-            "components": [],
+            "components": [
+                "SimpleButton",
+                "ShowHint",
+                "MoveTo"
+            ],
+            "ShowHint.text": "Play Bean Counters",
+            "MoveTo.x": 1480,
+            "MoveTo.y": 748,
             "texture": {
                 "key": "coffee",
                 "frame": "Symbol 223"

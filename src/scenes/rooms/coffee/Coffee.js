@@ -102,7 +102,7 @@ export default class Coffee extends RoomScene {
         const door = this.add.image(1337, 436, "coffee", "door");
 
         // symbol_223
-        this.add.image(1480, 748, "coffee", "Symbol 223");
+        const symbol_223 = this.add.image(1480, 748, "coffee", "Symbol 223");
 
         // sprite_764
         const sprite_764 = this.add.image(733, 1215.1535917971228, "coffee", "Sprite 764");
@@ -126,6 +126,9 @@ export default class Coffee extends RoomScene {
         new SimpleButton(symbol_1940001);
         const symbol_1940001ShowHint = new ShowHint(symbol_1940001);
         symbol_1940001ShowHint.text = "Play Smoothie Smash";
+        const symbol_1940001MoveTo = new MoveTo(symbol_1940001);
+        symbol_1940001MoveTo.x = 204;
+        symbol_1940001MoveTo.y = 440;
 
         // door (components)
         const doorButton = new Button(door);
@@ -134,6 +137,14 @@ export default class Coffee extends RoomScene {
         const doorMoveTo = new MoveTo(door);
         doorMoveTo.x = 1327;
         doorMoveTo.y = 580;
+
+        // symbol_223 (components)
+        new SimpleButton(symbol_223);
+        const symbol_223ShowHint = new ShowHint(symbol_223);
+        symbol_223ShowHint.text = "Play Bean Counters";
+        const symbol_223MoveTo = new MoveTo(symbol_223);
+        symbol_223MoveTo.x = 1480;
+        symbol_223MoveTo.y = 748;
 
         this.sort = sort;
 

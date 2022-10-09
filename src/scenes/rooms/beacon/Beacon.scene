@@ -58,9 +58,12 @@
             "id": "c6135f91-f398-4f73-8414-43259c939e61",
             "label": "jetpack",
             "components": [
-                "Button"
+                "Button",
+                "MoveTo"
             ],
             "Button.spriteName": "jetpack",
+            "MoveTo.x": 1337,
+            "MoveTo.y": 561,
             "texture": {
                 "key": "beacon",
                 "frame": "jetpack"

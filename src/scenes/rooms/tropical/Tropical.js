@@ -7,6 +7,7 @@ import RoomScene from "../RoomScene";
 import Animation from "../../components/Animation";
 import Button from "../../components/Button";
 import ShowHint from "../../components/ShowHint";
+import MoveTo from "../../components/MoveTo";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -128,7 +129,8 @@ export default class Tropical extends RoomScene {
         const waterfall2 = this.add.image(688, 221, "tropical", "waterfall2");
 
         // s_mbolo_4
-        const s_mbolo_4 = this.add.image(592, 72, "tropical", "Símbolo 4");
+        const s_mbolo_4 = this.add.image(606.2134159521579, 225.97867281504432, "tropical", "Símbolo 4");
+        s_mbolo_4.setOrigin(0.5794045583919436, 1.2263144944105864);
 
         // wf60001
         const wf60001 = this.add.sprite(732, 366, "tropical", "wf60001");
@@ -437,7 +439,7 @@ export default class Tropical extends RoomScene {
         const waves = this.add.image(1239, 80, "tropical", "waves");
 
         // lists
-        const sort = [symbol_366, symbol_362, symbol_371, symbol_368, symbol_30, symbol_170, fire0001, symbol_335, symbol_337, symbol_37, symbol_36, symbol_1, symbol_344, symbol_148, waterfall2, symbol_346, wf130001, wf_3, sparkles0001, wf60001, symbol_113, s_mbolo_4];
+        const sort = [symbol_366, symbol_362, symbol_371, symbol_368, symbol_30, symbol_170, fire0001, symbol_335, symbol_337, symbol_37, symbol_36, symbol_1, symbol_344, symbol_148, waterfall2, symbol_346, wf130001, wf_3, sparkles0001, wf60001, symbol_113, s_mbolo_4, symbol_38];
 
         // wf100001 (components)
         const wf100001Animation = new Animation(wf100001);
@@ -489,6 +491,9 @@ export default class Tropical extends RoomScene {
         surferButton.spriteName = "surfer";
         const surferShowHint = new ShowHint(surfer);
         surferShowHint.text = "Go Surfing";
+        const surferMoveTo = new MoveTo(surfer);
+        surferMoveTo.x = 272;
+        surferMoveTo.y = 821;
 
         // fire0001 (components)
         const fire0001Animation = new Animation(fire0001);
