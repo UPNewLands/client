@@ -279,12 +279,11 @@ export default class Main extends BaseScene {
         crosshair.visible = false;
 
         // request_button
-        const request_button = this.add.image(269, 69, "main", "buddy-button");
+        const request_button = this.add.image(269, 73, "main", "buddy-button");
         request_button.visible = false;
 
         // mail_btn
-        const mail_btn = this.add.sprite(170, 55, "main", "mail-button");
-        mail_btn.visible = false;
+        const mail_btn = this.add.sprite(170, 59, "main", "mail-button");
 
         // news_button
         const news_button = this.add.image(70, 71, "main", "news-button");
@@ -883,7 +882,7 @@ export default class Main extends BaseScene {
         this.chatInput.setFocus()
     }
 
-    
+
     simplifyArabic(str) {
         var arabicNormChar = {
             'ك': 'ک', 'ﻷ': 'لا', 'ؤ': 'و', 'ى': 'ی', 'ي': 'ی', 'ئ': 'ی', 'أ': 'ا', 'إ': 'ا', 'آ': 'ا', 'ٱ': 'ا', 'ٳ': 'ا', 'ة': 'ه', 'ء': '', 'ِ': '', 'ْ': '', 'ُ': '', 'َ': '', 'ّ': '', 'ٍ': '', 'ً': '', 'ٌ': '', 'ٓ': '', 'ٰ': '', 'ٔ': '', '�': ''

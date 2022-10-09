@@ -473,7 +473,7 @@
                 "frame": "buddy-button"
             },
             "x": 269,
-            "y": 69,
+            "y": 73,
             "visible": false
         },
         {
@@ -492,8 +492,7 @@
                 "frame": "mail-button"
             },
             "x": 170,
-            "y": 55,
-            "visible": false
+            "y": 59
         },
         {
             "type": "Image",
