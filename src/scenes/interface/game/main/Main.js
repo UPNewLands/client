@@ -883,9 +883,22 @@ export default class Main extends BaseScene {
         this.chatInput.setFocus()
     }
 
+    
+    simplifyArabic(str) {
+        var arabicNormChar = {
+            'ك': 'ک', 'ﻷ': 'لا', 'ؤ': 'و', 'ى': 'ی', 'ي': 'ی', 'ئ': 'ی', 'أ': 'ا', 'إ': 'ا', 'آ': 'ا', 'ٱ': 'ا', 'ٳ': 'ا', 'ة': 'ه', 'ء': '', 'ِ': '', 'ْ': '', 'ُ': '', 'َ': '', 'ّ': '', 'ٍ': '', 'ً': '', 'ٌ': '', 'ٓ': '', 'ٰ': '', 'ٔ': '', '�': ''
+        }
+        return str.replace(/[^\u0000-\u007E]/g, function(a){ 
+            var retval = arabicNormChar[a]
+            if (retval == undefined) {retval = a}
+            return retval; 
+        }).normalize('NFKD').toLowerCase();
+    }
+
     onChatSend() {
         let text = this.chatInput.text
-        text = text.replace(/[^\x00-\x7F]/g, "");
+        text = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
+        text = this.simplifyArabic(text)
         if (text.replace(" ", "").length < 1) return;
 
         this.chatInput.clearText()
