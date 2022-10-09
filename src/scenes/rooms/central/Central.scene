@@ -230,10 +230,10 @@
                 "key": "central",
                 "frame": "Símbolo 42"
             },
-            "x": 993.0046139128931,
-            "y": 202.6806621099433,
-            "originX": 0.6400761841690598,
-            "originY": 0.40096943260615975
+            "x": 721.492589601603,
+            "y": 523.064881965421,
+            "originX": 0.4970998550114652,
+            "originY": 0.9358345710083652
         },
         {
             "type": "Image",
@@ -406,6 +406,18 @@
         },
         {
             "type": "Image",
+            "id": "98c7f212-05d6-4211-a59a-0863d65ecbc9",
+            "label": "s_mbolo_33",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Símbolo 33"
+            },
+            "x": 1401,
+            "y": 818
+        },
+        {
+            "type": "Image",
             "id": "aeda29db-3507-4a3a-839e-7fac225d0c5e",
             "label": "s_mbolo_8",
             "components": [],
@@ -413,10 +425,10 @@
                 "key": "central",
                 "frame": "Símbolo 8"
             },
-            "x": 1430.1697979098803,
-            "y": 742.1912013456466,
-            "originX": 0.8309561830428296,
-            "originY": 0.7213752720907344
+            "x": 1301.5087589535815,
+            "y": 807.6120913739072,
+            "originX": 0.21535311676959507,
+            "originY": 0.9401741624899851
         },
         {
             "type": "Image",
@@ -455,18 +467,6 @@
             },
             "x": 62,
             "y": 259
-        },
-        {
-            "type": "Image",
-            "id": "98c7f212-05d6-4211-a59a-0863d65ecbc9",
-            "label": "s_mbolo_33",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 33"
-            },
-            "x": 1401,
-            "y": 818
         },
         {
             "type": "Image",
@@ -545,30 +545,6 @@
         },
         {
             "type": "Image",
-            "id": "0e9ccdae-4988-46d9-ae91-61ed9e00749c",
-            "label": "symbol_158",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Symbol 158"
-            },
-            "x": 811,
-            "y": 315
-        },
-        {
-            "type": "Image",
-            "id": "ddcab276-ba40-4a29-a6ad-1bd633ef57fe",
-            "label": "symbol_2",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Symbol 158"
-            },
-            "x": -25,
-            "y": 157
-        },
-        {
-            "type": "Image",
             "id": "c4c52c45-be93-4e1e-ae62-c4b9deda0ed1",
             "label": "symbol_1",
             "components": [],
@@ -580,6 +556,34 @@
             "y": 481.1705985875134,
             "originX": 0.5283240775273699,
             "originY": 0.7297691522780999
+        },
+        {
+            "type": "Image",
+            "id": "ddcab276-ba40-4a29-a6ad-1bd633ef57fe",
+            "label": "symbol_2",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 158"
+            },
+            "x": -12.757225574364838,
+            "y": 463.06936064087745,
+            "originX": 0.5091912720913176,
+            "originY": 0.8849929064665125
+        },
+        {
+            "type": "Image",
+            "id": "0e9ccdae-4988-46d9-ae91-61ed9e00749c",
+            "label": "symbol_158",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 158"
+            },
+            "x": 815.897109770254,
+            "y": 608.8265862152423,
+            "originX": 0.503676508836527,
+            "originY": 0.869593190207852
         }
     ],
     "plainObjects": [],
@@ -606,7 +610,9 @@
                 "2e8a7859-68c4-457f-a33f-b707caf83a54",
                 "d6d07d6a-30a1-4be6-a129-0f6773e7d941",
                 "0fd772e3-6aa6-46a7-9e8b-548dbce2ee16",
-                "a5f1aab4-4839-49bd-add9-502922bc6932"
+                "a5f1aab4-4839-49bd-add9-502922bc6932",
+                "0e9ccdae-4988-46d9-ae91-61ed9e00749c",
+                "ddcab276-ba40-4a29-a6ad-1bd633ef57fe"
             ]
         }
     ]
