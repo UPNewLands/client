@@ -87,8 +87,8 @@ export default class Central extends RoomScene {
         this.add.image(1015, 289, "central", "Símbolo 41");
 
         // s_mbolo_42
-        const s_mbolo_42 = this.add.image(721.492589601603, 523.064881965421, "central", "Símbolo 42");
-        s_mbolo_42.setOrigin(0.4970998550114652, 0.9358345710083652);
+        const s_mbolo_42 = this.add.image(1432.012244292344, 343.95882416968436, "central", "Símbolo 42");
+        s_mbolo_42.setOrigin(0.8712544782585689, 0.6368261299375648);
 
         // s_mbolo_43
         this.add.image(425, 766, "central", "Símbolo 43");
