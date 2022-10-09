@@ -86,10 +86,6 @@ export default class Central extends RoomScene {
         // s_mbolo_41
         this.add.image(1015, 289, "central", "Símbolo 41");
 
-        // s_mbolo_42
-        const s_mbolo_42 = this.add.image(721.492589601603, 523.064881965421, "central", "Símbolo 42");
-        s_mbolo_42.setOrigin(0.4970998550114652, 0.9358345710083652);
-
         // s_mbolo_43
         this.add.image(425, 766, "central", "Símbolo 43");
 
@@ -120,6 +116,10 @@ export default class Central extends RoomScene {
         // sprite_181
         const sprite_181 = this.add.image(871, 613, "central", "Sprite 181");
 
+        // leftsign
+        const leftsign = this.add.image(1515.515000541477, 530.7786707096961, "central", "leftsign");
+        leftsign.setOrigin(0.5453756490711842, 0.8388048463981765);
+
         // fire0001
         const fire0001 = this.add.sprite(136, 609, "central", "fire0001");
         fire0001.scaleX = 0.7;
@@ -136,29 +136,40 @@ export default class Central extends RoomScene {
         // s_mbolo_14
         this.add.image(133, 308, "central", "Símbolo 14");
 
+        // rightsign
+        this.add.image(-38, 241, "central", "rightsign");
+
         // s_mbolo_33
         this.add.image(1401, 818, "central", "Símbolo 33");
 
         // s_mbolo_8
-        const s_mbolo_8 = this.add.image(1301.5087589535815, 807.6120913739072, "central", "Símbolo 8");
+        const s_mbolo_8 = this.add.image(1301.5087589535815, 808.6120913739072, "central", "Símbolo 8");
         s_mbolo_8.setOrigin(0.21535311676959507, 0.9401741624899851);
 
+        // s_mbolo_3
+        this.add.image(816, 100, "central", "Símbolo 3");
+
+        // middle
+        const middle = this.add.image(633.0350563839235, 345.7908853401799, "central", "middle");
+        middle.setOrigin(0.4134464067581241, 0.907486647093364);
+
         // s_mbolo_61
-        this.add.image(1300, 815, "central", "Símbolo 61");
+        this.add.image(1298, 816, "central", "Símbolo 61");
 
         // s_mbolo_60
-        const s_mbolo_60 = this.add.image(184.7229668306538, 805.998301904448, "central", "Símbolo 60");
+        const s_mbolo_60 = this.add.image(183.7229668306538, 806.998301904448, "central", "Símbolo 60");
         s_mbolo_60.setOrigin(0.5769974923074122, 0.5995634240356017);
 
         // arbol_1
-        this.add.image(62, 259, "central", "Arbol 1");
+        this.add.image(62, 258, "central", "Arbol 1");
 
         // back
-        const back = this.add.image(1010, 260, "central", "back");
+        const back = this.add.image(1035.6449742663624, 371.12822182090406, "central", "back");
+        back.setOrigin(0.564596912509729, 0.8230471564561165);
 
         // flyer
-        const flyer = this.add.image(1052.4298373372394, 332.49189136149084, "central", "flyer");
-        flyer.setOrigin(0.55531916662413, 0.8167869931738995);
+        const flyer = this.add.image(1048.9853115467968, 395.64101275534165, "central", "flyer");
+        flyer.setOrigin(0.49976274689000516, 1.706211365443236);
         flyer.flipX = true;
 
         // front
@@ -180,15 +191,15 @@ export default class Central extends RoomScene {
         symbol_1.setOrigin(0.5283240775273699, 0.7297691522780999);
 
         // symbol_2
-        const symbol_2 = this.add.image(-12.757225574364838, 463.06936064087745, "central", "Symbol 158");
+        const symbol_2 = this.add.image(-8, 413, "central", "Symbol 158");
         symbol_2.setOrigin(0.5091912720913176, 0.8849929064665125);
 
         // symbol_158
-        const symbol_158 = this.add.image(815.897109770254, 608.8265862152423, "central", "Symbol 158");
+        const symbol_158 = this.add.image(815.897109770254, 609.8265862152423, "central", "Symbol 158");
         symbol_158.setOrigin(0.503676508836527, 0.869593190207852);
 
         // lists
-        const sort = [sprite_181, symbol, s_mbolo_60, s_mbolo_8, s_mbolo_47, symbol_1, s_mbolo_42, s_mbolo_46, s_mbolo_522, back, front, flyer, snow, symbol_158, symbol_2];
+        const sort = [sprite_181, symbol, s_mbolo_60, s_mbolo_8, s_mbolo_47, symbol_1, s_mbolo_46, s_mbolo_522, back, front, flyer, snow, symbol_158, symbol_2, middle, leftsign];
 
         // fire0001 (components)
         const fire0001Animation = new Animation(fire0001);

@@ -126,11 +126,12 @@ export default class Tropical extends RoomScene {
         this.add.image(969, 115, "tropical", "Symbol 111");
 
         // waterfall2
-        const waterfall2 = this.add.image(688, 221, "tropical", "waterfall2");
+        const waterfall2 = this.add.image(683.9147515601431, 128.9300400927598, "tropical", "waterfall2");
+        waterfall2.setOrigin(0.46678632572099293, 0.221000128960678);
 
         // s_mbolo_4
-        const s_mbolo_4 = this.add.image(606.2134159521579, 225.97867281504432, "tropical", "Símbolo 4");
-        s_mbolo_4.setOrigin(0.5794045583919436, 1.2263144944105864);
+        const s_mbolo_4 = this.add.image(681.61794371169, -18.104427627244306, "tropical", "Símbolo 4");
+        s_mbolo_4.setOrigin(1.000658618198795, 0.07497914141048753);
 
         // wf60001
         const wf60001 = this.add.sprite(732, 366, "tropical", "wf60001");
@@ -394,10 +395,10 @@ export default class Tropical extends RoomScene {
         this.add.image(724, 602, "tropical", "Symbol 368");
 
         // wf_3
-        const wf_3 = this.add.sprite(715.8238398581328, 212.58818754649636, "tropical", "wf100001");
+        const wf_3 = this.add.sprite(704, 137, "tropical", "wf100001");
         wf_3.scaleX = 0.6627737239001715;
         wf_3.angle = -16;
-        wf_3.setOrigin(0.260779879292004, 4.575109384069916);
+        wf_3.setOrigin(0.4773425466427418, 0.6241868656631688);
         wf_3.tintTopLeft = 1503707;
         wf_3.tintTopRight = 1503707;
         wf_3.tintBottomLeft = 1503707;
@@ -429,7 +430,8 @@ export default class Tropical extends RoomScene {
         this.add.image(578, 408, "tropical", "Symbol 137");
 
         // symbol_38
-        const symbol_38 = this.add.image(488, 326, "tropical", "Symbol 127");
+        const symbol_38 = this.add.image(543.9940371158149, 415.885164843808, "tropical", "Symbol 127");
+        symbol_38.setOrigin(0.7455878820869074, 0.8221690496193835);
         symbol_38.flipX = true;
 
         // symbol_37
@@ -439,7 +441,7 @@ export default class Tropical extends RoomScene {
         const waves = this.add.image(1239, 80, "tropical", "waves");
 
         // lists
-        const sort = [symbol_366, symbol_362, symbol_371, symbol_368, symbol_30, symbol_170, fire0001, symbol_335, symbol_337, symbol_37, symbol_36, symbol_1, symbol_344, symbol_148, waterfall2, symbol_346, wf130001, wf_3, sparkles0001, wf60001, symbol_113, s_mbolo_4, symbol_38];
+        const sort = [symbol_366, symbol_362, symbol_371, symbol_368, symbol_30, symbol_170, fire0001, symbol_335, symbol_337, symbol_37, symbol_36, symbol_1, symbol_344, symbol_148, symbol_346, sparkles0001, symbol_113, symbol_38];
 
         // wf100001 (components)
         const wf100001Animation = new Animation(wf100001);

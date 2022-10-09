@@ -223,20 +223,6 @@
         },
         {
             "type": "Image",
-            "id": "fa3d9fdc-37df-459f-ac1a-44c264926939",
-            "label": "s_mbolo_42",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 42"
-            },
-            "x": 721.492589601603,
-            "y": 523.064881965421,
-            "originX": 0.4970998550114652,
-            "originY": 0.9358345710083652
-        },
-        {
-            "type": "Image",
             "id": "a2ea5455-e3c1-427b-bd3a-3141b274700f",
             "label": "s_mbolo_43",
             "components": [],
@@ -348,6 +334,20 @@
             "y": 613
         },
         {
+            "type": "Image",
+            "id": "26538c90-58f1-40f2-ba2c-57cbcd8629ba",
+            "label": "leftsign",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "leftsign"
+            },
+            "x": 1515.515000541477,
+            "y": 530.7786707096961,
+            "originX": 0.5453756490711842,
+            "originY": 0.8388048463981765
+        },
+        {
             "type": "Sprite",
             "id": "f814b523-0670-4698-88fb-1f5583061ced",
             "label": "fire0001",
@@ -406,6 +406,18 @@
         },
         {
             "type": "Image",
+            "id": "b1ef44f0-6286-4509-9413-8b59065368b1",
+            "label": "rightsign",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "rightsign"
+            },
+            "x": -38,
+            "y": 241
+        },
+        {
+            "type": "Image",
             "id": "98c7f212-05d6-4211-a59a-0863d65ecbc9",
             "label": "s_mbolo_33",
             "components": [],
@@ -426,9 +438,35 @@
                 "frame": "Símbolo 8"
             },
             "x": 1301.5087589535815,
-            "y": 807.6120913739072,
+            "y": 808.6120913739072,
             "originX": 0.21535311676959507,
             "originY": 0.9401741624899851
+        },
+        {
+            "type": "Image",
+            "id": "cdc97531-ec0f-424d-8f69-fdefd2d01c2b",
+            "label": "s_mbolo_3",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Símbolo 3"
+            },
+            "x": 816,
+            "y": 100
+        },
+        {
+            "type": "Image",
+            "id": "1c80e1b9-bfe5-4811-b7e7-3e817c0b71ba",
+            "label": "middle",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "middle"
+            },
+            "x": 633.0350563839235,
+            "y": 345.7908853401799,
+            "originX": 0.4134464067581241,
+            "originY": 0.907486647093364
         },
         {
             "type": "Image",
@@ -439,8 +477,8 @@
                 "key": "central",
                 "frame": "Símbolo 61"
             },
-            "x": 1300,
-            "y": 815
+            "x": 1298,
+            "y": 816
         },
         {
             "type": "Image",
@@ -451,8 +489,8 @@
                 "key": "central",
                 "frame": "Símbolo 60"
             },
-            "x": 184.7229668306538,
-            "y": 805.998301904448,
+            "x": 183.7229668306538,
+            "y": 806.998301904448,
             "originX": 0.5769974923074122,
             "originY": 0.5995634240356017
         },
@@ -466,7 +504,7 @@
                 "frame": "Arbol 1"
             },
             "x": 62,
-            "y": 259
+            "y": 258
         },
         {
             "type": "Image",
@@ -477,8 +515,10 @@
                 "key": "central",
                 "frame": "back"
             },
-            "x": 1010,
-            "y": 260
+            "x": 1035.6449742663624,
+            "y": 371.12822182090406,
+            "originX": 0.564596912509729,
+            "originY": 0.8230471564561165
         },
         {
             "type": "Image",
@@ -494,10 +534,10 @@
                 "key": "central",
                 "frame": "flyer"
             },
-            "x": 1052.4298373372394,
-            "y": 332.49189136149084,
-            "originX": 0.55531916662413,
-            "originY": 0.8167869931738995,
+            "x": 1048.9853115467968,
+            "y": 395.64101275534165,
+            "originX": 0.49976274689000516,
+            "originY": 1.706211365443236,
             "flipX": true
         },
         {
@@ -566,8 +606,8 @@
                 "key": "central",
                 "frame": "Symbol 158"
             },
-            "x": -12.757225574364838,
-            "y": 463.06936064087745,
+            "x": -8,
+            "y": 413,
             "originX": 0.5091912720913176,
             "originY": 0.8849929064665125
         },
@@ -581,7 +621,7 @@
                 "frame": "Symbol 158"
             },
             "x": 815.897109770254,
-            "y": 608.8265862152423,
+            "y": 609.8265862152423,
             "originX": 0.503676508836527,
             "originY": 0.869593190207852
         }
@@ -604,7 +644,6 @@
                 "aeda29db-3507-4a3a-839e-7fac225d0c5e",
                 "067667db-63bd-4520-bd4f-17182b1b12eb",
                 "c4c52c45-be93-4e1e-ae62-c4b9deda0ed1",
-                "fa3d9fdc-37df-459f-ac1a-44c264926939",
                 "683a2d6a-0e8a-40d9-a4c3-074d774a646e",
                 "ffae8496-e08d-4782-ad3d-30f654bb1ecc",
                 "2e8a7859-68c4-457f-a33f-b707caf83a54",
@@ -612,7 +651,9 @@
                 "0fd772e3-6aa6-46a7-9e8b-548dbce2ee16",
                 "a5f1aab4-4839-49bd-add9-502922bc6932",
                 "0e9ccdae-4988-46d9-ae91-61ed9e00749c",
-                "ddcab276-ba40-4a29-a6ad-1bd633ef57fe"
+                "ddcab276-ba40-4a29-a6ad-1bd633ef57fe",
+                "1c80e1b9-bfe5-4811-b7e7-3e817c0b71ba",
+                "26538c90-58f1-40f2-ba2c-57cbcd8629ba"
             ]
         }
     ]
