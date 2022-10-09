@@ -181,8 +181,6 @@ export default class RoomScene extends BaseScene {
         let text = this.getString(`${this.crumbs.games[id].key}_prompt`)
 
         this.interface.prompt.showWindow(text, 'dual', () => {
-            console.log(text)
-
             this.interface.prompt.window.visible = false
         })
     }

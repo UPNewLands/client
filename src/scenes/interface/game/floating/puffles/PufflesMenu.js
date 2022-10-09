@@ -151,13 +151,13 @@ export default class PufflesMenu extends FloatingMenu {
     }
 
     puffleDig() {
+        this.network.send("play_puffle_anim", {id: this.world.client.penguin.id, anim: 'dig'})
         this.network.send("puffle_dig", {id: this.world.client.penguin.id})
         this.playPuffleAnim('dig')
     }
 
 
     disableDigging(bool) {
-        console.log(bool, !bool)
         this.disableCoinBag.visible = !bool;
         this.coinbag.visible = bool;
     }

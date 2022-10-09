@@ -23,7 +23,6 @@ export default class RoomFactory {
     }
 
     createRoom(args) {
-        console.log(this.world.crumbs.scenes)
         let config = this.rooms[args.room]
 
         if (config.key in this.scene.manager.keys) {
