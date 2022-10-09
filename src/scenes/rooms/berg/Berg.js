@@ -19,7 +19,9 @@ export default class Berg extends RoomScene {
 
 
         /* START-USER-CTR-CODE */
-        // Write your code here.
+        this.roomTriggers = {
+            'aqua': null
+        }
         /* END-USER-CTR-CODE */
     }
 

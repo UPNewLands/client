@@ -5,6 +5,7 @@
 
 import RoomScene from "../RoomScene";
 import Button from "../../components/Button";
+import MoveTo from "../../components/MoveTo";
 import Animation from "../../components/Animation";
 import SimpleButton from "../../components/SimpleButton";
 /* START-USER-IMPORTS */
@@ -72,6 +73,9 @@ export default class Beacon extends RoomScene {
         // jetpack (components)
         const jetpackButton = new Button(jetpack);
         jetpackButton.spriteName = "jetpack";
+        const jetpackMoveTo = new MoveTo(jetpack);
+        jetpackMoveTo.x = 1337;
+        jetpackMoveTo.y = 561;
 
         // fareon (components)
         new Animation(fareon);

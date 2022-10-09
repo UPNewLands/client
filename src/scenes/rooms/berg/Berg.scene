@@ -115,7 +115,8 @@
             "label": "aqua0001",
             "components": [
                 "SimpleButton",
-                "Animation"
+                "Animation",
+                "MoveTo"
             ],
             "Animation.key": "aqua",
             "Animation.start": 171,
@@ -123,6 +124,8 @@
             "Animation.repeat": 0,
             "Animation.autoPlay": false,
             "Animation.onHover": true,
+            "MoveTo.x": 1187,
+            "MoveTo.y": 413,
             "texture": {
                 "key": "berg",
                 "frame": "aqua0001"

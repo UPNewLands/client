@@ -391,8 +391,10 @@
                 "key": "tropical",
                 "frame": "Símbolo 4"
             },
-            "x": 592,
-            "y": 72
+            "x": 606.2134159521579,
+            "y": 225.97867281504432,
+            "originX": 0.5794045583919436,
+            "originY": 1.2263144944105864
         },
         {
             "type": "Sprite",
@@ -650,10 +652,13 @@
             "label": "surfer",
             "components": [
                 "Button",
-                "ShowHint"
+                "ShowHint",
+                "MoveTo"
             ],
             "Button.spriteName": "surfer",
             "ShowHint.text": "Go Surfing",
+            "MoveTo.x": 272,
+            "MoveTo.y": 821,
             "texture": {
                 "key": "tropical",
                 "frame": "surfer"
@@ -1549,7 +1554,8 @@
                 "155a22f3-b53a-48fa-a213-7b7fad0fe9d9",
                 "0a981715-9430-4de9-b3c4-7af2d0c4d5be",
                 "8b25a455-3718-46bd-8ddc-9e4d0c07e860",
-                "9a08ec1e-f36b-4e1d-af1b-5f418860fc0d"
+                "9a08ec1e-f36b-4e1d-af1b-5f418860fc0d",
+                "f5000f71-804e-43ab-a9d1-eafdec8c4bc2"
             ]
         }
     ]
