@@ -146,6 +146,7 @@ export default class PufflesMenu extends FloatingMenu {
 
         if (this.playing) {
             this.world.interface.main.pufflesMenu.visible = false;
+            this.world.client.penguin.playPuffleAnim(anim) 
             this.network.send("play_puffle_anim", {id: this.world.client.penguin.id, anim: anim})
         }
     }
