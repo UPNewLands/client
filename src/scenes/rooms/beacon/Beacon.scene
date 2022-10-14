@@ -93,15 +93,14 @@
                 "frame": "fareoff"
             },
             "x": 695,
-            "y": 359
+            "y": 359,
+            "visible": false
         },
         {
             "type": "Sprite",
             "id": "f8d4b3af-3b51-40bf-b5b0-f3be4086b63d",
             "label": "fareon",
-            "components": [
-                "Animation"
-            ],
+            "components": [],
             "texture": {
                 "key": "beacon",
                 "frame": "fareon"
@@ -114,10 +113,8 @@
             "id": "91926fce-dd41-48a6-927a-1170db029219",
             "label": "switch0001",
             "components": [
-                "SimpleButton",
                 "Animation"
             ],
-            "SimpleButton.callback": "() => { this.onClickSwitch() }",
             "Animation.key": "switch",
             "Animation.end": 19,
             "Animation.repeat": 0,
@@ -165,7 +162,8 @@
                 "frame": "lightsoff"
             },
             "x": 699,
-            "y": 364
+            "y": 364,
+            "visible": false
         },
         {
             "type": "Sprite",

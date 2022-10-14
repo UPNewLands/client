@@ -884,10 +884,6 @@ export default class Map extends BaseContainer {
         const forest_1ShowHint = new ShowHint(forest_1);
         forest_1ShowHint.text = "Lost Forest";
 
-        // hidden (components)
-        const hiddenSimpleButton = new SimpleButton(hidden);
-        hiddenSimpleButton.callback = () => this.onRoomClick(92);
-
         // tropical (components)
         const tropicalButton = new Button(tropical);
         tropicalButton.spriteName = "tropical";
@@ -933,8 +929,6 @@ export default class Map extends BaseContainer {
         berg_1SimpleButton.callback = () => this.onRoomClick(2);
 
         // dojo_1 (components)
-        const dojo_1Button = new Button(dojo_1);
-        dojo_1Button.spriteName = "dojo";
         const dojo_1ShowHint = new ShowHint(dojo_1);
         dojo_1ShowHint.text = "Yōso Village";
 
@@ -948,7 +942,7 @@ export default class Map extends BaseContainer {
 
         // overlay_shopsbutton0001 (components)
         const overlay_shopsbutton0001SimpleButton = new SimpleButton(overlay_shopsbutton0001);
-        overlay_shopsbutton0001SimpleButton.callback = () => this.changeMode("shops");
+        overlay_shopsbutton0001SimpleButton.callback = null;
 
         // overlay_placesbutton0001 (components)
         const overlay_placesbutton0001SimpleButton = new SimpleButton(overlay_placesbutton0001);

@@ -24,6 +24,8 @@ export default class Lighthouse extends RoomScene {
             'beacon': () => this.triggerRoom(32, 298, 743),
             'port': () => this.triggerRoom(30, 273, 487),
         }        
+
+        this.music = "lighthouse"
         /* END-USER-CTR-CODE */
     }
 

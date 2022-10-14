@@ -23,6 +23,8 @@ export default class Park extends RoomScene {
             'lake': () => this.triggerRoom(90, 390, 299),          
             'plaza': () => this.triggerRoom(50, 819, 700),        
         }
+
+        this.music = "park"
         /* END-USER-CTR-CODE */
     }
 

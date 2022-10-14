@@ -19,8 +19,8 @@ export default class Cavelake extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'hidden': null,
-            'minecave': null,
+            'hidden': () => this.triggerRoom(92, 842, 701),
+            'minecave':  () => this.triggerRoom(72, 778, 606),
             'popup': () => this.world.interface.main.cavepopup.visible = true
         }
         /* END-USER-CTR-CODE */

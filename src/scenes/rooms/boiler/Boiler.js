@@ -25,6 +25,9 @@ export default class Boiler extends RoomScene {
             'dance': () => this.triggerRoom(13, 960, 473),
             'pool': () => null
         }
+
+        this.music = "boiler"
+
         /* END-USER-CTR-CODE */
     }
 

@@ -75,7 +75,7 @@ export default class Book extends RoomScene {
         this.roomTriggers = {
             'coffee': () => this.triggerRoom(11, 1120, 800)
         }
-        //this.music = '669'
+        this.music = 'coffee'
 
         /* END-USER-CTR-CODE */
     }
@@ -154,8 +154,8 @@ export default class Book extends RoomScene {
         newspapers.setOrigin(0.5063615656940461, 0.922607540616245);
 
         // conveyorTop
-        const conveyorTop = this.add.sprite(477.81567180952385, 806.5057847142859, "book", "conveyorTop");
-        conveyorTop.setOrigin(0.4865713491766801, 0.3183737255216702);
+        const conveyorTop = this.add.sprite(413.66645386876064, 965.7728076407423, "book", "conveyorTop");
+        conveyorTop.setOrigin(0.3666662677417218, 0.9148794386657482);
 
         // mancalaTable1
         const mancalaTable1 = this.add.sprite(1241, 584, "book", "mancalaTable0001");

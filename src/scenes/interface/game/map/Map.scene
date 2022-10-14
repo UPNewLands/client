@@ -952,10 +952,7 @@
                     "type": "Image",
                     "id": "1aaba75b-d08f-4483-8865-cd0448d2d8c6",
                     "label": "hidden",
-                    "components": [
-                        "SimpleButton"
-                    ],
-                    "SimpleButton.callback": "() => this.onRoomClick(92)",
+                    "components": [],
                     "texture": {
                         "key": "newestMap",
                         "frame": "hidden"
@@ -1260,10 +1257,8 @@
                     "id": "f8b83e4d-6d89-4f4b-8e3e-881f789d92f3",
                     "label": "dojo_1",
                     "components": [
-                        "Button",
                         "ShowHint"
                     ],
-                    "Button.spriteName": "dojo",
                     "ShowHint.text": "Yōso Village",
                     "texture": {
                         "key": "newestMap",
@@ -1350,7 +1345,7 @@
                     "components": [
                         "SimpleButton"
                     ],
-                    "SimpleButton.callback": "() => this.changeMode(\"shops\")",
+                    "SimpleButton.callback": "null",
                     "texture": {
                         "key": "map-new",
                         "frame": "overlay/shopsbutton0001"

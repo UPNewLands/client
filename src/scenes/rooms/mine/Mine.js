@@ -20,6 +20,7 @@ export default class Mine extends RoomScene {
             'mineint': () => this.triggerRoom(71, 718, 226),
             'park': () => this.triggerRoom(80, 380, 577),
         }
+        this.music = "mine"
         /* END-USER-CTR-CODE */
     }
 

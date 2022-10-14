@@ -25,6 +25,8 @@ export default class Lake extends RoomScene {
             'park': () => this.triggerRoom(60, 1201, 766),
             'hidden': () => this.triggerRoom(92, 1201, 766),         
         }
+
+        this.music = "lake"
         /* END-USER-CTR-CODE */
     }
 

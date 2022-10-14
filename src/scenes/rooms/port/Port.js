@@ -24,6 +24,8 @@ export default class Port extends RoomScene {
             'tropical': () => this.triggerRoom(20, 1239, 816),
             'lighthouse': () => this.triggerRoom(31, 620, 486)  
         }
+
+        this.music = "port"
         /* END-USER-CTR-CODE */
     }
 

@@ -26,6 +26,8 @@ export default class Town extends RoomScene {
             'tropical': () => this.triggerRoom(20, 1164, 354),
         }
 
+        this.music = "town"
+
         /* END-USER-CTR-CODE */
     }
 

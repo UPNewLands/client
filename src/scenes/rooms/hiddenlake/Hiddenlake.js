@@ -15,10 +15,13 @@ export default class Hiddenlake extends RoomScene {
         /** @type {Phaser.GameObjects.Image[]} */
         this.sort;
 
+
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'cave': () => this.triggerRoom(91, 352, 490),
+            'cave': () => this.triggerRoom(91, 1083, 284),
         }
+
+        this.music = "lake_hidden"
         /* END-USER-CTR-CODE */
     }
 
@@ -98,8 +101,8 @@ export default class Hiddenlake extends RoomScene {
         this.add.image(160, 635, "hidden", "Símbolo 18");
 
         // s_mbolo_17
-        const s_mbolo_17 = this.add.image(239.97434015903684, 661.733714529326, "hidden", "Símbolo 17");
-        s_mbolo_17.setOrigin(0.5649969042128337, 0.7036685332448536);
+        const s_mbolo_17 = this.add.image(294.92618012357684, 588.1541140008131, "hidden", "Símbolo 17");
+        s_mbolo_17.setOrigin(0.8205868828490196, 0.33577058518251307);
 
         // s_mbolo_20
         const s_mbolo_20 = this.add.image(643.385644881488, 571.9640820620295, "hidden", "Símbolo 20");

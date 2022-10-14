@@ -19,6 +19,8 @@ export default class Forest extends RoomScene {
             'mine': () => this.triggerRoom(70, 989, 766),
             'lake': () => this.triggerRoom(60, 1365, 535),         
         }
+
+        this.music = "lost_forest"
         /* END-USER-CTR-CODE */
     }
 

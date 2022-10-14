@@ -7,7 +7,6 @@ import RoomScene from "../RoomScene";
 import Button from "../../components/Button";
 import MoveTo from "../../components/MoveTo";
 import Animation from "../../components/Animation";
-import SimpleButton from "../../components/SimpleButton";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -22,6 +21,8 @@ export default class Beacon extends RoomScene {
             'lighthouse': () => this.triggerRoom(31, 380, 237),
             'telescope': () => this.world.interface.main.telescope.visible = true
         }
+
+        this.music = "beacon"
         /* END-USER-CTR-CODE */
     }
 
@@ -50,10 +51,11 @@ export default class Beacon extends RoomScene {
         this.add.image(193, 585, "beacon", "Símbolo 4");
 
         // fareoff
-        this.add.image(695, 359, "beacon", "fareoff");
+        const fareoff = this.add.image(695, 359, "beacon", "fareoff");
+        fareoff.visible = false;
 
         // fareon
-        const fareon = this.add.sprite(695, 359, "beacon", "fareon");
+        this.add.sprite(695, 359, "beacon", "fareon");
 
         // switch0001
         const switch0001 = this.add.sprite(501, 456, "beacon", "switch0001");
@@ -65,7 +67,8 @@ export default class Beacon extends RoomScene {
         this.add.image(719, 106, "beacon", "Symbol 301");
 
         // lightsoff
-        this.add.image(699, 364, "beacon", "lightsoff");
+        const lightsoff = this.add.image(699, 364, "beacon", "lightsoff");
+        lightsoff.visible = false;
 
         // lights
         const lights = this.add.sprite(699, 364, "beacon", "lights");
@@ -77,12 +80,7 @@ export default class Beacon extends RoomScene {
         jetpackMoveTo.x = 1337;
         jetpackMoveTo.y = 561;
 
-        // fareon (components)
-        new Animation(fareon);
-
         // switch0001 (components)
-        const switch0001SimpleButton = new SimpleButton(switch0001);
-        switch0001SimpleButton.callback = () => { this.onClickSwitch() };
         const switch0001Animation = new Animation(switch0001);
         switch0001Animation.key = "switch";
         switch0001Animation.end = 19;

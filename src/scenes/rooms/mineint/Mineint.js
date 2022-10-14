@@ -26,7 +26,9 @@ export default class Mineint extends RoomScene {
             'rescue': () => null,
             'surfer': () => null,
 
-        }        
+        }       
+
+        this.music = "mine_int" 
         /* END-USER-CTR-CODE */
     }
 

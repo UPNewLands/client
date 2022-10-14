@@ -26,6 +26,8 @@ export default class Tropical extends RoomScene {
             'central': () => this.triggerRoom(10, 263, 672),
             'port': () => this.triggerRoom(30, 555, 421),
         }
+
+        this.music = "tropical_forest"
         /* END-USER-CTR-CODE */
     }
 
