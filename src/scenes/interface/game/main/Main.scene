@@ -1186,6 +1186,7 @@
                 "visible"
             ],
             "label": "modActions",
+            "scope": "CLASS",
             "components": [],
             "x": 766,
             "y": 476,
@@ -1201,6 +1202,7 @@
                 "visible"
             ],
             "label": "snitch",
+            "scope": "CLASS",
             "components": [],
             "x": 761,
             "y": 487,
@@ -1216,6 +1218,7 @@
                 "visible"
             ],
             "label": "moderator",
+            "scope": "CLASS",
             "components": [],
             "x": 765,
             "y": 484,

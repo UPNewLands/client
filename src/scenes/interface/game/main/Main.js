@@ -29,6 +29,11 @@ import Changelog from '@scenes/closeup/changelog/Changelog'
 import Telescope from '@scenes/closeup/telescope/Telescope'
 import PufflesMenu from '../floating/puffles/PufflesMenu'
 import Safe from '../floating/safe/Safe'
+import Moderator from '../moderator/Moderator'
+import ModActions from '../modactions/ModActions'
+import Snitch from '../snitch/Snitch'
+
+
 
 /* START OF COMPILED CODE */
 
@@ -157,6 +162,12 @@ export default class Main extends BaseScene {
         this.changelog;
         /** @type {Rules} */
         this.rules;
+        /** @type {ModActions} */
+        this.modActions;
+        /** @type {Snitch} */
+        this.snitch;
+        /** @type {Moderator} */
+        this.moderator;
         /** @type {Array<PlayerCard|Buddy>} */
         this.hideOnSleep;
         /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite|ChatLog>} */
@@ -700,6 +711,9 @@ export default class Main extends BaseScene {
         this.beta = beta;
         this.changelog = changelog;
         this.rules = rules;
+        this.modActions = modActions;
+        this.snitch = snitch;
+        this.moderator = moderator;
         this.hideOnSleep = hideOnSleep;
         this.interfaceList = interfaceList;
 
@@ -780,9 +794,9 @@ export default class Main extends BaseScene {
             visibility: 'hidden'
         }
 
-        // this.addcoins = new TextInput(this, 974, 322, 'number', actionsstyle, () => this.modActions.handleAddCoins(), 48, true, 'addcoins')
-        // this.additems = new TextInput(this, 974, 427, 'number', actionsstyle, () => this.modActions.handleAddItems(), 48, true, 'additems')
-        // this.changeusername = new TextInput(this, 974, 639, 'text', actionsstyle, () => this.modActions.handleChangeUsername(), 48, true, 'changeusername', false, true)
+        this.addcoins = new TextInput(this, 974, 322, 'number', actionsstyle, () => this.modActions.handleAddCoins(), 48, true, 'addcoins')
+        this.additems = new TextInput(this, 974, 427, 'number', actionsstyle, () => this.modActions.handleAddItems(), 48, true, 'additems')
+        this.changeusername = new TextInput(this, 974, 639, 'text', actionsstyle, () => this.modActions.handleChangeUsername(), 48, true, 'changeusername', false, true)
 
         let managestyle = {
             width: 250,
@@ -799,13 +813,13 @@ export default class Main extends BaseScene {
         this.newpassconfirm = new TextInput(this, 920, 459, 'text', managestyle, null, 48, true, 'newpassconfirm', true)
 
 
-        // if (this.world.client.penguin.rank > 3) {
-        //     this.add.existing(this.addcoins)
-        //     this.add.existing(this.additems)
-        //     this.add.existing(this.changeusername)
+        if (this.world.client.penguin.rank > 3) {
+            this.add.existing(this.addcoins)
+            this.add.existing(this.additems)
+            this.add.existing(this.changeusername)
 
-        //     this.add.existing(this.search)
-        // }
+            this.add.existing(this.search)
+        }
 
         this.add.existing(this.newuser)
         this.add.existing(this.newuserconfirm)
@@ -1029,8 +1043,8 @@ export default class Main extends BaseScene {
 
     onModClick() {
         this.onModOut()
-        // this.moderator.visible = true
-        // this.moderator.load()
+        this.moderator.visible = true
+        this.moderator.load()
     }
 
     onEasterClick() {
