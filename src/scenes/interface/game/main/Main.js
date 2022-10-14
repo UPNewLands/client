@@ -470,6 +470,7 @@ export default class Main extends BaseScene {
         const log = this.add.image(68, 177, "newinterface", "log");
         log.scaleX = 0.5;
         log.scaleY = 0.5;
+        log.visible = false;
 
         // telescope
         const telescope = new Telescope(this, 708, 249.00000000000003);
@@ -1073,10 +1074,6 @@ export default class Main extends BaseScene {
     hide(){
         for (let item of this.interfaceList) {
             item.visible = false
-        }
-
-        if (this.world.client.penguin.rank > 1){
-            this.log.visible = true
         }
 
         this.input.keyboard.on('keydown-TAB', (event) => null)

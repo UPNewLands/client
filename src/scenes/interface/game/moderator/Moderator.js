@@ -738,6 +738,7 @@ export default class Moderator extends BaseContainer {
     }
 
     showUsers(users) {
+        this.visible = true;
         this.currentlyHandling = 0
         if (users[0] == undefined) {
             this.player1.visible = false
