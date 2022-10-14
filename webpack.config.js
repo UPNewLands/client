@@ -80,46 +80,20 @@ let config = {
 }
 
 module.exports = (env, argv) => {
-    if (argv.mode !== 'production') {
-        return config
-    }
+    if (argv.mode === 'production') {
+        config.output.filename = 'upnewlands.min.js'
+        config.optimization.minimize = true
 
-    config.output = {
-        filename: 'assets/scripts/client/[name].min.js',
-        path: path.resolve(__dirname, 'dist'),
-        clean: true,
-    }
-
-    config.optimization.minimize = true
-    config.optimization.minimizer = [
-        new TerserPlugin({
-            extractComments: false
-        })
-    ]
-
-    config.plugins.push(
-        new HtmlWebpackPlugin({
-            filename: 'index.html',
-            inject: false,
-            template: 'index.ejs',
-            templateParameters: {
-                timestamp: timestamp
-            }
-        }),
-        // MIT License do not remove
-        new BannerPlugin({
-            banner: fs.readFileSync('./LICENSE', 'utf-8')
-        })
-    )
-
-    if (env.obfuscate === 'true') {
-        config.plugins.push(
-            new WebpackObfuscator({
-                rotateStringArray: true,
-                reservedStrings: ['\s*']
-            }, [])
-        )
+        if (env.obfuscate === 'true') {
+            config.plugins.push(
+                new WebpackObfuscator({
+                    rotateStringArray: true,
+                    reservedStrings: ['\s*']
+                }, [])
+            )
+        }
     }
 
     return config
 }
+

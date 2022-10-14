@@ -32,7 +32,6 @@ export default class PaperDollLoader {
     }
 
     loadItem(item, slot) {
-        console.log(item)
         if (slot == 'color') return this.setColor(item)
         if (item == 0) return this.removeItem(slot)
 

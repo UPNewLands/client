@@ -124,7 +124,8 @@
                             "x": -155,
                             "y": 28,
                             "scaleX": 0.8,
-                            "scaleY": 0.8
+                            "scaleY": 0.8,
+                            "visible": false
                         },
                         {
                             "type": "Image",
@@ -168,6 +169,7 @@
                             "y": 28,
                             "originX": 0.5,
                             "originY": 0.5,
+                            "visible": false,
                             "tintFill": true,
                             "text": "Your Stamps: 69/420",
                             "fixedWidth": 300,
@@ -188,7 +190,8 @@
                             "x": -155,
                             "y": 27,
                             "scaleX": 0.8,
-                            "scaleY": 0.8
+                            "scaleY": 0.8,
+                            "visible": false
                         }
                     ]
                 },
@@ -198,7 +201,8 @@
                     "label": "username",
                     "scope": "CLASS",
                     "components": [],
-                    "y": -233,
+                    "x": 1,
+                    "y": -229,
                     "originX": 0.5,
                     "originY": 0.5,
                     "tintFill": true,

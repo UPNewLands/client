@@ -279,11 +279,11 @@ export default class Main extends BaseScene {
         crosshair.visible = false;
 
         // request_button
-        const request_button = this.add.image(269, 68, "main", "buddy-button");
+        const request_button = this.add.image(269, 73, "main", "buddy-button");
         request_button.visible = false;
 
         // mail_btn
-        const mail_btn = this.add.sprite(170, 55, "main", "mail-button");
+        const mail_btn = this.add.sprite(170, 59, "main", "mail-button");
 
         // news_button
         const news_button = this.add.image(70, 71, "main", "news-button");
@@ -515,9 +515,6 @@ export default class Main extends BaseScene {
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];
 
-        // s_mbolo_23 (components)
-        new Interactive(s_mbolo_23);
-
         // chat_box (components)
         new Interactive(chat_box);
 
@@ -601,7 +598,7 @@ export default class Main extends BaseScene {
         // news_button (components)
         const news_buttonButton = new Button(news_button);
         news_buttonButton.spriteName = "news-button";
-        news_buttonButton.callback = () => window.open('https://discord.gg/cpf', '_blank').focus();;
+        news_buttonButton.callback = () => window.open('https://discord.com/invite/2JwJ7JjVeb', '_blank').focus();;
         news_buttonButton.activeFrame = false;
 
         // mod_button (components)
@@ -885,9 +882,22 @@ export default class Main extends BaseScene {
         this.chatInput.setFocus()
     }
 
+
+    simplifyArabic(str) {
+        var arabicNormChar = {
+            'ك': 'ک', 'ﻷ': 'لا', 'ؤ': 'و', 'ى': 'ی', 'ي': 'ی', 'ئ': 'ی', 'أ': 'ا', 'إ': 'ا', 'آ': 'ا', 'ٱ': 'ا', 'ٳ': 'ا', 'ة': 'ه', 'ء': '', 'ِ': '', 'ْ': '', 'ُ': '', 'َ': '', 'ّ': '', 'ٍ': '', 'ً': '', 'ٌ': '', 'ٓ': '', 'ٰ': '', 'ٔ': '', '�': ''
+        }
+        return str.replace(/[^\u0000-\u007E]/g, function(a){ 
+            var retval = arabicNormChar[a]
+            if (retval == undefined) {retval = a}
+            return retval; 
+        }).normalize('NFKD').toLowerCase();
+    }
+
     onChatSend() {
         let text = this.chatInput.text
-        text = text.replace(/[^\x00-\x7F]/g, "");
+        text = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
+        text = this.simplifyArabic(text)
         if (text.replace(" ", "").length < 1) return;
 
         this.chatInput.clearText()
