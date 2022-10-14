@@ -4,8 +4,8 @@
 
         const HOST = '127.0.0.1';
         const USER = 'root';
-        const PASSWORD = 'password';
-        const DATABASE = 'yukon';
+        const PASSWORD = 'p5Q2VHTQv&b3';
+        const DATABASE = 'newlands';
 
         function __construct() {
             $this->db = new mysqli(self::HOST, self::USER, self::PASSWORD, self::DATABASE);
