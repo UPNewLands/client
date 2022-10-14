@@ -83,7 +83,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "help-button",
-                    "Button.callback": "() => {window.open('https://cpforever.org/manage', '_blank').focus();}",
+                    "Button.callback": "null",
                     "texture": {
                         "key": "main",
                         "frame": "help-button"
