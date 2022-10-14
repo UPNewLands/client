@@ -89,6 +89,9 @@ export default class Start extends BaseScene {
         text_2.text = "ver 1.0";
         text_2.setStyle({ "fontFamily": "Burbank Small Medium", "fontSize": "25px" });
 
+        // beta
+        this.add.image(759, 380, "newstart", "beta");
+
         // blogButton (components)
         const blogButtonSimpleButton = new SimpleButton(blogButton);
         blogButtonSimpleButton.callback = () => this.onBlogClick();

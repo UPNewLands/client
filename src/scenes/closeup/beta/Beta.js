@@ -27,7 +27,7 @@ export default class Beta extends BaseContainer {
         this.add(panel);
 
         // closepanel
-        const closepanel = scene.add.image(1441, -22, "newinterface", "closepanel");
+        const closepanel = scene.add.image(1452, 17, "newinterface", "closepanel");
         this.add(closepanel);
 
         // card1
@@ -92,6 +92,7 @@ export default class Beta extends BaseContainer {
         // item1 (components)
         const item1Button = new Button(item1);
         item1Button.spriteName = "item1";
+        item1Button.callback = () => this.interface.prompt.showItem(37374);
         item1Button.activeFrame = false;
 
         /* START-USER-CTR-CODE */

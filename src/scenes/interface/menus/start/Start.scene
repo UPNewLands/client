@@ -246,6 +246,18 @@
             "text": "ver 1.0",
             "fontFamily": "Burbank Small Medium",
             "fontSize": "25px"
+        },
+        {
+            "type": "Image",
+            "id": "c86dbb17-8616-4e3a-ae07-53427efc923b",
+            "label": "beta",
+            "components": [],
+            "texture": {
+                "key": "newstart",
+                "frame": "beta"
+            },
+            "x": 759,
+            "y": 380
         }
     ],
     "plainObjects": [],

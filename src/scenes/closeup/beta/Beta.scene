@@ -60,8 +60,8 @@
                         "key": "newinterface",
                         "frame": "closepanel"
                     },
-                    "x": 1441,
-                    "y": -22
+                    "x": 1452,
+                    "y": 17
                 },
                 {
                     "type": "Image",
@@ -107,6 +107,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "item1",
+                    "Button.callback": "() => this.interface.prompt.showItem(37374)",
                     "Button.activeFrame": false,
                     "texture": {
                         "key": "newinterface",

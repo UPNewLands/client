@@ -146,6 +146,8 @@ export default class Main extends BaseScene {
         this.elevator;
         /** @type {Cavepopup} */
         this.cavepopup;
+        /** @type {Phaser.GameObjects.Image} */
+        this.log;
         /** @type {Telescope} */
         this.telescope;
         /** @type {Phaser.GameObjects.Container} */
@@ -464,6 +466,11 @@ export default class Main extends BaseScene {
         // iconbeta
         const iconbeta = this.add.image(1353, 70, "newinterface", "iconbeta");
 
+        // log
+        const log = this.add.image(68, 177, "newinterface", "log");
+        log.scaleX = 0.5;
+        log.scaleY = 0.5;
+
         // telescope
         const telescope = new Telescope(this, 708, 249.00000000000003);
         this.add.existing(telescope);
@@ -523,17 +530,17 @@ export default class Main extends BaseScene {
         rules.visible = false;
 
         // modActions
-        const modActions = new ModActions(this, 766, 476);
+        const modActions = new ModActions(this, 760, 461);
         this.add.existing(modActions);
         modActions.visible = false;
 
         // snitch
-        const snitch = new Snitch(this, 761, 487);
+        const snitch = new Snitch(this, 760, 487);
         this.add.existing(snitch);
         snitch.visible = false;
 
         // moderator
-        const moderator = new Moderator(this, 765, 484);
+        const moderator = new Moderator(this, 760, 481);
         this.add.existing(moderator);
         moderator.visible = false;
 
@@ -651,6 +658,12 @@ export default class Main extends BaseScene {
         iconbetaButton.callback = () => this.beta.visible = true;
         iconbetaButton.activeFrame = false;
 
+        // log (components)
+        const logButton = new Button(log);
+        logButton.spriteName = "log";
+        logButton.callback = () => this.world.network.send('get_unverified_users');
+        logButton.activeFrame = false;
+
         this.pinContainer = pinContainer;
         this.chat_box = chat_box;
         this.puffle_button_disabled = puffle_button_disabled;
@@ -703,6 +716,7 @@ export default class Main extends BaseScene {
         this.puffleCare = puffleCare;
         this.elevator = elevator;
         this.cavepopup = cavepopup;
+        this.log = log;
         this.telescope = telescope;
         this.popup_coins = popup_coins;
         this.popup_coin_text = popup_coin_text;
@@ -735,8 +749,8 @@ export default class Main extends BaseScene {
 
         this.events.on('sleep', this.onSleep, this)
 
-        if (this.world.client.penguin.rank > 3){
-            this.mod_btn.visible = true
+        if (this.world.client.penguin.rank > 5){
+            this.log.visible = true
         }
 
         this.setupWidgets()
@@ -1062,7 +1076,7 @@ export default class Main extends BaseScene {
         }
 
         if (this.world.client.penguin.rank > 1){
-            this.mod_btn.visible = true
+            this.log.visible = true
         }
 
         this.input.keyboard.on('keydown-TAB', (event) => null)
@@ -1090,7 +1104,7 @@ export default class Main extends BaseScene {
         }
 
         this.mod_btn.visible = false
-
+        this.log.visible = false
         this.input.keyboard.on('keydown-TAB', (event) => this.onChatKeyDown(event))
         this.input.keyboard.on('keydown-ENTER', (event) => this.onChatKeyDown(event))
 
