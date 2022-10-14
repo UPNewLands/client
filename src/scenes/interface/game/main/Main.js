@@ -511,6 +511,21 @@ export default class Main extends BaseScene {
         this.add.existing(rules);
         rules.visible = false;
 
+        // modActions
+        const modActions = new ModActions(this, 766, 476);
+        this.add.existing(modActions);
+        modActions.visible = false;
+
+        // snitch
+        const snitch = new Snitch(this, 761, 487);
+        this.add.existing(snitch);
+        snitch.visible = false;
+
+        // moderator
+        const moderator = new Moderator(this, 765, 484);
+        this.add.existing(moderator);
+        moderator.visible = false;
+
         // lists
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];

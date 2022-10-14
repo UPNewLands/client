@@ -1176,6 +1176,51 @@
             "y": -48,
             "visible": false,
             "nestedPrefabs": []
+        },
+        {
+            "prefabId": "e1fd9cda-cb4e-4071-8083-ad30ac555494",
+            "id": "41f6885a-b60f-4745-9314-7ff20cdbb58e",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "modActions",
+            "components": [],
+            "x": 766,
+            "y": 476,
+            "visible": false,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "660de11c-0cd6-4b68-8d0c-bee940918a4d",
+            "id": "c2bde08f-4a32-4f03-8350-223b2669fc06",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "snitch",
+            "components": [],
+            "x": 761,
+            "y": 487,
+            "visible": false,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "d44a536e-8824-4c11-8cdd-649f5629a29c",
+            "id": "41585573-e081-4ce6-a5e5-313bdea39723",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "moderator",
+            "components": [],
+            "x": 765,
+            "y": 484,
+            "visible": false,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [],
