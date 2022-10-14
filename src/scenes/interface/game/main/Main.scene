@@ -1188,8 +1188,8 @@
             "label": "modActions",
             "scope": "CLASS",
             "components": [],
-            "x": 766,
-            "y": 476,
+            "x": 760,
+            "y": 461,
             "visible": false,
             "nestedPrefabs": []
         },
@@ -1204,7 +1204,7 @@
             "label": "snitch",
             "scope": "CLASS",
             "components": [],
-            "x": 761,
+            "x": 760,
             "y": 487,
             "visible": false,
             "nestedPrefabs": []
@@ -1220,8 +1220,8 @@
             "label": "moderator",
             "scope": "CLASS",
             "components": [],
-            "x": 765,
-            "y": 484,
+            "x": 760,
+            "y": 481,
             "visible": false,
             "nestedPrefabs": []
         }

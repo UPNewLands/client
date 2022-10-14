@@ -1,6 +1,6 @@
 export default class TextInput extends Phaser.GameObjects.DOMElement {
 
-    constructor(scene, x, y, type, style, callback = () => {}, maxLength = 100, preventTab = true) {
+    constructor(scene, x, y, type, style, callback = () => {}, maxLength = 100, preventTab = true, id, allowSpecialCharacters = false, allowNumbers = false) {
         let element = document.createElement('input')
 
         // Combine default styles with passed in styles
@@ -17,6 +17,10 @@ export default class TextInput extends Phaser.GameObjects.DOMElement {
         element.autocomplete = 'new-password'
         element.spellcheck = false
         element.maxLength = maxLength
+		element.id = id
+        element.allowSpecialCharacters = allowSpecialCharacters
+        element.allowNumbers = allowNumbers
+
 
         super(scene, x, y, element, style)
 
@@ -35,8 +39,23 @@ export default class TextInput extends Phaser.GameObjects.DOMElement {
         this.phaserText.setOrigin(0.5, 0.5)
         this.phaserText.visible = false
 
-        this.addListeners()
+        this.addListeners(element)
         this.addInput()
+    }
+
+    setInputFilter(textbox, inputFilter) {
+        ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop"].forEach(function(event) {
+            textbox.addEventListener(event, function() {
+                if (inputFilter(this.value)) {
+                    this.oldValue = this.value;
+                    this.oldSelectionStart = this.selectionStart;
+                    this.oldSelectionEnd = this.selectionEnd;
+                } else if (this.hasOwnProperty("oldValue")) {
+                    this.value = this.oldValue;
+                    this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+                }
+            });
+        });
     }
 
     get text() {
@@ -60,7 +79,7 @@ export default class TextInput extends Phaser.GameObjects.DOMElement {
         return parseInt(parsed[1]) + parseInt(parsed[3])
     }
 
-    addListeners() {
+    addListeners(element) {
         this.addListener('focus')
         this.addListener('blur')
         this.addListener('keydown')
@@ -69,6 +88,18 @@ export default class TextInput extends Phaser.GameObjects.DOMElement {
         this.scene.events.on('hideinput', () => this.onHide())
 
         this.on('destroy', () => this.onDestroy())
+		
+		if (element.type == 'text' && !element.allowSpecialCharacters && !element.allowNumbers) {
+            this.setInputFilter(element, function(value) {
+                return /^[A-Z _!?#'"]*$/i.test(value);
+            });
+        }
+        else if (element.allowNumbers && !element.allowSpecialCharacters) {
+            this.setInputFilter(element, function(value) {
+                return /^[A-Z0-9 ]*$/i.test(value);
+            });
+        }
+		
     }
 
     addInput() {
