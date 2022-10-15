@@ -84,14 +84,12 @@ module.exports = (env, argv) => {
         config.output.filename = 'upnewlands.min.js'
         config.optimization.minimize = true
 
-        if (env.obfuscate === 'true') {
-            config.plugins.push(
+        config.plugins.push(
                 new WebpackObfuscator({
                     rotateStringArray: true,
                     reservedStrings: ['\s*']
                 }, [])
             )
-        }
     }
 
     return config
