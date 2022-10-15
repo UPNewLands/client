@@ -151,7 +151,7 @@ const rooms = {
     },
     912: {
         key: 'CatchinWaves',
-        scene: require('@games/waves/CatchinWaves').default
+        scene: require('@games/catchinWaves/CatchinWaves').default
     },
     // 91: {
     //     key: 'CaveLake',

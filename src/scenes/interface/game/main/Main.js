@@ -742,6 +742,7 @@ export default class Main extends BaseScene {
 
         this._create()
 
+
         // map
         const map = (localStorage.clientMode == 'vanilla') ? new NewMap(this, 760, 460) : new Map(this, 760, 460)
         this.add.existing(map);
@@ -858,6 +859,8 @@ export default class Main extends BaseScene {
 
         window.show = this.show
         window.show = show.bind(this)
+
+        this.network.send("puffle_timeout");
 
         // init partycontroller
 
