@@ -938,7 +938,7 @@ export default class Main extends BaseScene {
             var retval = arabicNormChar[a]
             if (retval == undefined) {retval = a}
             return retval; 
-        }).normalize('NFKD').toLowerCase();
+        }).normalize('NFKD');
     }
 
     onChatSend() {
