@@ -26,16 +26,27 @@
                 return true;
             }
         }
+        
+        function checkALT($as) {
+            $statement = $this->db->prepare("SELECT `as` FROM users WHERE `as` = ?");
+            $statement->bind_param('s', $as);
+            $statement->execute();
 
-        function insertUser($username, $email, $password) {
+            $result = $statement->get_result();
+			if (mysqli_num_rows($result) >= 3) {
+				$this->dieWithMessage('username', 'You can only create 3 accounts!');
+			}
+        }
+
+        function insertUser($username, $email, $password, $as) {
             if ($this->userExists($username)) {
                 $this->dieWithMessage('username', 'That username is already taken.');
             }
 
             $password = $this->hashPassword($password);
 
-            $statement = $this->db->prepare('INSERT INTO users (username, email, password) VALUES (?, ?, ?)');
-            $statement->bind_param('sss', $username, $email, $password);
+            $statement = $this->db->prepare('INSERT INTO users (username, email, password, as) VALUES (?, ?, ?, ?)');
+            $statement->bind_param('ssss', $username, $email, $password, $as);
 
             if (!$statement->execute()) {
                 $this->dieWithMessage('username', 'There was an error.');
