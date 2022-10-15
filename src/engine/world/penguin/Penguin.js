@@ -292,6 +292,11 @@ export default class Penguin extends BaseContainer {
     playPuffleAnim(anim) {
         if (!this.pufflesprite) return
         let pos = this.getPuffleAnimPos(anim)
+
+        let direction = this.direction;
+        if (direction == null) {
+            direction = 1;
+        }
         
         this.pufflesprite.x = pos.x
         this.pufflesprite.y = pos.y
@@ -300,7 +305,7 @@ export default class Penguin extends BaseContainer {
         this.pufflesprite.once('animationrepeat', () => {
             this.pufflesprite.stop(null,true)
             this.pufflesprite.animating = false
-            this.pufflesprite.setTexture("puffle_" + this.pufflesprite.color, this.direction + "_1")
+            this.pufflesprite.setTexture("puffle_" + this.pufflesprite.color, direction + "_1")
             this.pufflesprite.x = 60
             this.pufflesprite.y = 0
         })
