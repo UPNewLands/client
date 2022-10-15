@@ -7,6 +7,7 @@ import RoomScene from "../RoomScene";
 import Animation from "../../components/Animation";
 import SimpleButton from "../../components/SimpleButton";
 import ShowHint from "../../components/ShowHint";
+import MoveTo from "../../components/MoveTo";
 import Button from "../../components/Button";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
@@ -23,7 +24,8 @@ export default class Lake extends RoomScene {
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
             'park': () => this.triggerRoom(60, 1201, 766),
-            'hidden': () => this.triggerRoom(92, 1201, 766),         
+            'hidden': () => this.triggerRoom(92, 1201, 766),        
+            'hydro': () => this.triggerGame('HydroHopper', 903)
         }
 
         this.music = "lake"
@@ -171,6 +173,9 @@ export default class Lake extends RoomScene {
         new SimpleButton(boat0001);
         const boat0001ShowHint = new ShowHint(boat0001);
         boat0001ShowHint.text = "Play Hydro Hopper";
+        const boat0001MoveTo = new MoveTo(boat0001);
+        boat0001MoveTo.x = 514;
+        boat0001MoveTo.y = 814;
 
         // lakecatalog (components)
         const lakecatalogButton = new Button(lakecatalog);
