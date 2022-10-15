@@ -41,17 +41,17 @@ export default class MiniGame extends Plugin {
     }
 	
 	endRuffleMinigame(args){
-		this.client.coins = args.coins
-		let prompt = this.world.game.scene.getScene('InterfaceController').prompt
-		if (args.coinsEarned == null){
-			args.coinsEarned = 0
-		}
-        prompt.showCoin(args.game, args.coinsEarned)
+        this.interface.prompt.showCoin(args.coins - this.world.client.coins)
+
+        this.world.client.coins = args.coins
+
+        this.interface.refreshPlayerCard()
+        this.interface.updateCatalogCoins(args.coins)
 	}
 	
 	checkLegit(args) {
 		let ruffleplayer = document.getElementsByTagName("ruffle-player")[0]
-		this.network.send('check_legit', { coins: ruffleplayer.checkCoins(), game: args.game })
+		this.network.send('check_legit', { coins: ruffleplayer.checkCoins(), stamps: ruffleplayer.checkStamps(), game: args.game })
 		ruffleplayer.pause()
 	}
 

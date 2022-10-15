@@ -78,17 +78,6 @@
                     "x": 0,
                     "y": 130,
                     "nestedPrefabs": []
-                },
-                {
-                    "type": "Image",
-                    "id": "ab64c519-909b-4d35-8b48-b0a1ad26bc10",
-                    "label": "prompt_coin",
-                    "components": [],
-                    "texture": {
-                        "key": "main",
-                        "frame": "prompt_coin"
-                    },
-                    "y": -182
                 }
             ]
         }
