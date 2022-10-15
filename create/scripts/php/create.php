@@ -45,7 +45,19 @@
         die($v->getErrors());
     }
 
+    //Grabs IP Behind Proxy (AKA CloudFlare)
+	if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
+		$_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+		$_SERVER['HTTP_CLIENT_IP'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+	} else {
+		$_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_X_FORWARDED_FOR'];
+	}
+	
+    //Gets Unique AS provided by Internet Provider
+	$data = json_decode("http://ip-api.com/json/" . $_SERVER['REMOTE_ADDR']);
+	$as = $data->AS.split(" ")[0];
+
     $db = new Database();
-    $db->insertUser($username, $email, $password);
+    $db->insertUser($username, $email, $password, $as);
 
 ?>
