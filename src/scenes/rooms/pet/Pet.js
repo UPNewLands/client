@@ -347,8 +347,8 @@ export default class Pet extends RoomScene {
         puffle_btnSimpleButton.hoverCallback = () => this.onPufflesOver();
         puffle_btnSimpleButton.hoverOutCallback = () => this.onPufflesOut();
         const puffle_btnMoveTo = new MoveTo(puffle_btn);
-        puffle_btnMoveTo.x = 350;
-        puffle_btnMoveTo.y = 450;
+        puffle_btnMoveTo.x = 450;
+        puffle_btnMoveTo.y = 424;
 
         // pufflescape_btn (components)
         const pufflescape_btnSimpleButton = new SimpleButton(pufflescape_btn);
