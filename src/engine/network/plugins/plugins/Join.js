@@ -30,7 +30,6 @@ export default class Join extends Plugin {
     }
 
     joinRoom(args) {
-        console.log(this.crumbs.scenes.rooms[args.room].key)
         this.interface.showLoading(this.getString('loading', this.crumbs.scenes.rooms[args.room].key), true)
         this.world.joinRoom(args)
     }
