@@ -221,6 +221,7 @@ export default class ClientController {
         this.lockRotation = false
 
         let random = PathEngine.getRandomPos(x, y, randomRange)
+        
         this.network.send('join_room', { room: id, x: random.x, y: random.y })
     }
 
