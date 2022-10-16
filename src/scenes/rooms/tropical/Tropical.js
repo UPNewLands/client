@@ -6,8 +6,6 @@
 import RoomScene from "../RoomScene";
 import Animation from "../../components/Animation";
 import Button from "../../components/Button";
-import ShowHint from "../../components/ShowHint";
-import MoveTo from "../../components/MoveTo";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -202,7 +200,7 @@ export default class Tropical extends RoomScene {
         symbol_114.flipX = true;
 
         // surfer
-        const surfer = this.add.image(272, 821, "tropical", "surfer");
+        this.add.image(272, 821, "tropical", "surfer");
 
         // symbol_137
         this.add.image(109, 392, "tropical", "Symbol 137");
@@ -489,15 +487,6 @@ export default class Tropical extends RoomScene {
         const wf60001Animation = new Animation(wf60001);
         wf60001Animation.key = "wf6";
         wf60001Animation.end = 12;
-
-        // surfer (components)
-        const surferButton = new Button(surfer);
-        surferButton.spriteName = "surfer";
-        const surferShowHint = new ShowHint(surfer);
-        surferShowHint.text = "Go Surfing";
-        const surferMoveTo = new MoveTo(surfer);
-        surferMoveTo.x = 272;
-        surferMoveTo.y = 821;
 
         // fire0001 (components)
         const fire0001Animation = new Animation(fire0001);

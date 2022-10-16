@@ -24,8 +24,8 @@ export default class Mineint extends RoomScene {
         this.roomTriggers = {
             'cave': () => this.triggerRoom(72, 527, 712),
             'mine': () => this.triggerRoom(70, 527, 712),
-            'rescue': () => this.triggerGame('PuffleRescue', 927),
-            'surfer': () => this.triggerGame('CartSurfer', 905),
+            'rescue': () => this.triggerGame('puffleRescue', 927),
+            'surfer': () => this.triggerGame('cartSurfer', 905),
 
         }       
 

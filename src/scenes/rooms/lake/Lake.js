@@ -25,7 +25,7 @@ export default class Lake extends RoomScene {
         this.roomTriggers = {
             'park': () => this.triggerRoom(60, 1201, 766),
             'hidden': () => this.triggerRoom(92, 1201, 766),        
-            'hydro': () => this.triggerGame('HydroHopper', 903)
+            'hydro': () => this.triggerGame('hydroHopper', 903)
         }
 
         this.music = "lake"

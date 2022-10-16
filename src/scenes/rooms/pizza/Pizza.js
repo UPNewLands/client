@@ -18,7 +18,7 @@ export default class Pizza extends RoomScene {
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
             'plaza': () => this.triggerRoom(50, 819, 700),
-            'pizzatron': () => this.triggerGame('Pizzatron', 910)
+            'pizzatron': () => this.triggerGame('pizzatron', 910)
         }
 
         this.music = "pizza"
