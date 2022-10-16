@@ -49,10 +49,12 @@ export default class PenguinLoader {
         let x = penguin.x
         let y = penguin.y + 40
         if (penguin.username_approved == 1) {
-            var nameTag = penguin.room.add.text(x, y, capitalizeFirstLetter(penguin.username), this.nameStyle)
+            var username = this.capitalizeFirstLetter(penguin.username)
         } else if (penguin.username_approved != 1) {
-            var nameTag = penguin.room.add.text(x, y, "P" + penguin.id, this.nameStyle)
+            var username = "P" + penguin.id
         }
+
+        var nameTag = penguin.room.add.text(x, y, username, this.nameStyle)
 
         nameTag.setOrigin(0.5)
         nameTag.depth = penguin.depth + 2000 // Keep nametag above everything else
