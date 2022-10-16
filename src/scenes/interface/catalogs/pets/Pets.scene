@@ -1,0 +1,723 @@
+{
+    "id": "893e5ca4-52e5-4b14-8ced-75920457d7fb",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 260,
+        "snapHeight": 260,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "Book",
+        "preloadPackFiles": [
+            "www/assets/media/interface/catalogs/pets/pets-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Pets",
+        "borderWidth": 1650,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "52f3005a-7ddb-490b-87f4-cf073294cbde",
+            "label": "block",
+            "components": [
+                "Interactive"
+            ],
+            "x": 825,
+            "y": 500,
+            "scaleX": 1.0855357488020507,
+            "scaleY": 1.041677287131595,
+            "isFilled": true,
+            "fillColor": "#000000",
+            "fillAlpha": 0.2,
+            "width": 1520,
+            "height": 960
+        },
+        {
+            "type": "Container",
+            "id": "e1e4623b-dd81-4738-9d6f-80ca94c95867",
+            "label": "page9",
+            "components": [],
+            "x": 69,
+            "y": 23,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "782b3bf3-fd1e-4e08-a723-1a120d95f50b",
+                    "label": "p9",
+                    "components": [],
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page/page0016"
+                    },
+                    "x": 1,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "ca8aab4b-149e-4c1a-9a1a-2c8f0de28972",
+                    "label": "closeLeft_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close_left",
+                    "Button.callback": "() => this.close()",
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "pets",
+                        "frame": "close_left"
+                    },
+                    "x": 492,
+                    "y": 39,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "7445e40c-fe11-4b2c-b676-c6f3349dfcd0",
+                    "label": "pageLeft_2",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "page_left",
+                    "Button.callback": "() => this.prevPage()",
+                    "Button.activeFrame": false,
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page_left"
+                    },
+                    "x": 493,
+                    "y": 590,
+                    "originX": 0,
+                    "originY": 0
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "216e2f91-26bd-416e-a411-9003ab6e2e89",
+            "label": "page8",
+            "components": [],
+            "x": 69,
+            "y": 23,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "0509a250-5974-4e11-9331-fa4bbefc8bf1",
+                    "label": "p8",
+                    "components": [],
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page/page0008"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "b414b128-2716-4eb1-bd69-8e92a6c65517",
+            "label": "page7",
+            "components": [],
+            "x": 69,
+            "y": 23,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8980cc67-93eb-4d3f-a3c5-7daeb660b897",
+                    "label": "p7",
+                    "components": [],
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page/page0007"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "1b4f6084-2516-4cce-a880-4318ca415cb1",
+                    "unlock": [
+                        "item",
+                        "angle",
+                        "x",
+                        "y",
+                        "Button.spriteName",
+                        "texture",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "tag1_19",
+                    "item": 758,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 279,
+                    "y": 442,
+                    "scaleX": 1.7524432091032764,
+                    "scaleY": 1.636077604184822,
+                    "angle": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "f455670e-a6f4-4418-90a4-7d37cc9c93f5",
+                    "unlock": [
+                        "item",
+                        "angle",
+                        "x",
+                        "y",
+                        "Button.spriteName",
+                        "texture",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "tag1_20",
+                    "item": 759,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 824,
+                    "y": 464,
+                    "scaleX": 1.7542919010089648,
+                    "scaleY": 1.6364317368545018,
+                    "angle": 0
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "7776572e-39a3-4406-a915-c957a8f958e1",
+            "label": "page6",
+            "components": [],
+            "x": 69,
+            "y": 23,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "0c5503f5-9532-4a16-871e-9b094147d8af",
+                    "label": "p6",
+                    "components": [],
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page/page0006"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "88fbc824-ebba-4d85-9623-1304ac01f540",
+                    "unlock": [
+                        "item",
+                        "angle",
+                        "x",
+                        "y",
+                        "texture",
+                        "Button.spriteName",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "tag1_13",
+                    "item": 754,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 502,
+                    "y": 464,
+                    "scaleX": 1.7650084335093914,
+                    "scaleY": 1.7302170534335133,
+                    "angle": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "4d5323c5-13d6-4c11-abe6-e56dabb94724",
+                    "unlock": [
+                        "item",
+                        "angle",
+                        "x",
+                        "y",
+                        "texture",
+                        "Button.spriteName",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "tag1_14",
+                    "item": 757,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 1073,
+                    "y": 419,
+                    "scaleX": 1.7652206566052013,
+                    "scaleY": 1.6983542790459691,
+                    "angle": 0
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "ed7d98e2-2102-4467-a0ea-fb8f18a5ecf2",
+            "label": "page5",
+            "components": [],
+            "x": 69,
+            "y": 23,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8b20bf5f-3136-4efa-9282-5cc936d0c53a",
+                    "label": "p5",
+                    "components": [],
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page/page0005"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "5a78d48e-a0dd-4a46-96fc-46579fafdf10",
+                    "unlock": [
+                        "item",
+                        "angle",
+                        "x",
+                        "y",
+                        "Button.spriteName",
+                        "texture",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "tag1_9",
+                    "item": 753,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 262,
+                    "y": 442,
+                    "scaleX": 1.7736145989919416,
+                    "scaleY": 1.7074422082467215,
+                    "angle": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "5b5d9bb7-59f3-480c-8006-206506ca19fe",
+                    "unlock": [
+                        "item",
+                        "angle",
+                        "x",
+                        "y",
+                        "Button.spriteName",
+                        "texture",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "tag1_10",
+                    "item": 756,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 812,
+                    "y": 491,
+                    "scaleX": 1.770907930036187,
+                    "scaleY": 1.689381312447221,
+                    "angle": 0
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "949b9cb9-749a-4dd8-af3d-c6bf8238d4ac",
+            "label": "page4",
+            "components": [],
+            "x": 69,
+            "y": 23,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "d750d832-5cde-4798-b4af-09dd65a5d732",
+                    "label": "p4",
+                    "components": [],
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page/page0004"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "40ef2e32-a309-4d98-9395-9f7b4e95ec3d",
+                    "unlock": [
+                        "item",
+                        "angle",
+                        "x",
+                        "y",
+                        "Button.spriteName",
+                        "texture",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "tag1_4",
+                    "item": 751,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 512,
+                    "y": 494,
+                    "scaleX": 1.850100455913055,
+                    "scaleY": 1.587390871647282,
+                    "angle": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "dec18dbc-af0a-4736-83e3-611a233e64eb",
+                    "unlock": [
+                        "item",
+                        "angle",
+                        "x",
+                        "y",
+                        "texture",
+                        "Button.spriteName",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "tag1_5",
+                    "item": 752,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 1071,
+                    "y": 443,
+                    "scaleX": 1.8491033120072728,
+                    "scaleY": 1.5901931329383932,
+                    "angle": 0
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "3cb07d17-88a2-49ab-ab28-6e2201aaf7b0",
+            "label": "page3",
+            "components": [],
+            "x": 69,
+            "y": 23,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "82a590bd-3d37-4c47-8c5a-26a419112f10",
+                    "label": "p3",
+                    "components": [],
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page/page0003"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "8c939974-84f5-420e-b4c1-da739f4091fd",
+                    "unlock": [
+                        "item",
+                        "x",
+                        "y",
+                        "texture",
+                        "angle",
+                        "originX",
+                        "originY",
+                        "scaleX",
+                        "scaleY",
+                        "Button.spriteName"
+                    ],
+                    "label": "tag1",
+                    "item": 750,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 262,
+                    "y": 484,
+                    "scaleX": 1.679331838128801,
+                    "scaleY": 1.5979152903424434,
+                    "angle": 0,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "prefabId": "fdabdf4b-9d2e-4a40-a724-14fda606e501",
+                    "id": "e8b088de-a288-4b7b-8d29-02e524e308cb",
+                    "unlock": [
+                        "item",
+                        "angle",
+                        "x",
+                        "y",
+                        "Button.spriteName",
+                        "texture",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "tag1_1",
+                    "item": 755,
+                    "components": [],
+                    "Button.spriteName": "buy2",
+                    "texture": {
+                        "key": "pets",
+                        "frame": "buy2"
+                    },
+                    "x": 808,
+                    "y": 474,
+                    "scaleX": 1.6851496676122024,
+                    "scaleY": 1.5342537048133331,
+                    "angle": 0
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "647a8a3a-4d1e-4ac9-9d36-e2abeba085d9",
+            "label": "page2",
+            "components": [],
+            "x": 69,
+            "y": 23,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "3657748f-268b-4f7c-8532-c0a27d09e7ee",
+                    "label": "p2",
+                    "components": [],
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page/page0002"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "4d6b5a52-5818-4ee0-977e-d5ac0b712b2a",
+            "label": "page1",
+            "components": [],
+            "x": 69,
+            "y": 23,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f4bdae25-bf55-4cdf-9987-46f222b57bfb",
+                    "label": "p1",
+                    "components": [],
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page/page0001"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "f654a19b-68e4-48d4-b8aa-b86b55c8c16d",
+                    "label": "pageFront",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "page_front",
+                    "Button.callback": "() => this.nextPage()",
+                    "Button.activeFrame": false,
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page_front"
+                    },
+                    "x": 469,
+                    "y": 42,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "2a037fde-ba7a-4915-9a95-a4b7339ade73",
+                    "label": "closeRight_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close_right",
+                    "Button.callback": "() => this.close()",
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "pets",
+                        "frame": "close_right"
+                    },
+                    "x": 925,
+                    "y": 37,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "b19ece57-eca7-46a4-aa36-06b54ad77458",
+                    "label": "text_1",
+                    "components": [],
+                    "x": 491,
+                    "y": 762,
+                    "tintTopLeft": "#fd6161ff",
+                    "tintTopRight": "#fd6161ff",
+                    "tintBottomLeft": "#fd6161ff",
+                    "tintBottomRight": "#fd6161ff",
+                    "text": "Pre - Alpha v0.0.1",
+                    "fontFamily": "Impact",
+                    "fontSize": "23px",
+                    "color": "#f59191ff"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "f754888f-b0a5-474f-981c-815c9db2d940",
+            "label": "buttons",
+            "scope": "CLASS",
+            "components": [],
+            "x": 259,
+            "y": 64,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "e96bd1ac-4d0c-4386-a603-47ee34eda922",
+                    "label": "closeRight",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close_right",
+                    "Button.callback": "() => this.close()",
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "pets",
+                        "frame": "close_right"
+                    },
+                    "x": 1012,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "c841d72e-5f61-4ade-8f7b-d7ad4b2dab92",
+                    "label": "pageRight",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "page_right",
+                    "Button.callback": "() => this.nextPage()",
+                    "Button.activeFrame": false,
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page_right"
+                    },
+                    "x": 1012,
+                    "y": 549,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "74940239-aff1-4e28-ad81-55a9d08d3121",
+                    "label": "pageLeft",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "page_left",
+                    "Button.callback": "() => this.prevPage()",
+                    "Button.activeFrame": false,
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "pets",
+                        "frame": "page_left"
+                    },
+                    "y": 549,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "03e2c332-7c90-4eef-b439-0ff416fed521",
+                    "label": "coins",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 1130,
+                    "y": 790,
+                    "originX": 1,
+                    "text": "YOUR COINS:",
+                    "fixedWidth": 600,
+                    "align": "right",
+                    "fontFamily": "CCComiccrazy",
+                    "fontSize": "32px",
+                    "stroke": "#000",
+                    "strokeThickness": 9
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "f5986f3f-53b8-4425-98a1-7981e4c2dc88",
+            "label": "pages",
+            "objectIds": [
+                "4d6b5a52-5818-4ee0-977e-d5ac0b712b2a",
+                "647a8a3a-4d1e-4ac9-9d36-e2abeba085d9",
+                "3cb07d17-88a2-49ab-ab28-6e2201aaf7b0",
+                "949b9cb9-749a-4dd8-af3d-c6bf8238d4ac",
+                "ed7d98e2-2102-4467-a0ea-fb8f18a5ecf2",
+                "7776572e-39a3-4406-a915-c957a8f958e1",
+                "b414b128-2716-4eb1-bd69-8e92a6c65517",
+                "216e2f91-26bd-416e-a411-9003ab6e2e89",
+                "e1e4623b-dd81-4738-9d6f-80ca94c95867"
+            ]
+        }
+    ]
+}
