@@ -17,7 +17,7 @@ export default class Beacon extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'jetpack': null,
+            'jetpack': () => this.triggerGame('jetpackAdventure', 926),
             'lighthouse': () => this.triggerRoom(31, 380, 237),
             'telescope': () => this.world.interface.main.telescope.visible = true
         }

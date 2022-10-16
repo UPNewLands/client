@@ -91,11 +91,14 @@
             "label": "tron",
             "components": [
                 "Button",
-                "ShowHint"
+                "ShowHint",
+                "MoveTo"
             ],
             "Button.spriteName": "tron",
             "Button.activeFrame": false,
             "ShowHint.text": "Pizzatron 3000",
+            "MoveTo.x": 349,
+            "MoveTo.y": 330,
             "texture": {
                 "key": "pizza",
                 "frame": "tron"

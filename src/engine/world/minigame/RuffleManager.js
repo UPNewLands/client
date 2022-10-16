@@ -126,8 +126,7 @@ export default class RuffleManager {
 
 	killMinigame(game, roomid, coins) {
 		document.getElementsByTagName("ruffle-player")[0].style.visibility = "hidden";
-		let room = this.crumbs.scenes.rooms[roomid]
-		this.world.client.sendJoinRoom(roomid, room.key)
+		this.world.client.sendJoinLastRoom()
 
 		this.world.client.inMinigame = false
 

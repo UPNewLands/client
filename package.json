@@ -3,7 +3,7 @@
   "version": "1.3-beta",
   "scripts": {
     "dev": "webpack serve",
-    "editor": "phasereditor2d-launcher -project . -max-number-files 5000",
+    "editor": "phasereditor2d-launcher -project . -max-number-files 6000",
     "build": "webpack --mode production --env obfuscate=true",
     "build-crumbs": "node ./utils/build-crumbs.js"
   },

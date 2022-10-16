@@ -14,10 +14,10 @@ export default class Pet extends RoomScene {
 
         this.roomTriggers = {
             'adopt': () => this.world.RuffleManager.handleLoadOtherSwf("petShopAdopt.swf"),
-            'cannon': () => this.triggerGame("PuffleLaunch", 925),
-            'park': () => this.triggerGame("PuffleRoundup", 925),
+            'cannon': () => this.triggerGame("puffleLaunch", 928),
+            'park': () => null,
             'plaza': () => this.triggerRoom(50, 819, 700),
-            'pufflescape': () => this.unimplementedPrompt()
+            'pufflescape': () => null,
         }
 
         this.music = "659"
@@ -347,8 +347,8 @@ export default class Pet extends RoomScene {
         puffle_btnSimpleButton.hoverCallback = () => this.onPufflesOver();
         puffle_btnSimpleButton.hoverOutCallback = () => this.onPufflesOut();
         const puffle_btnMoveTo = new MoveTo(puffle_btn);
-        puffle_btnMoveTo.x = 350;
-        puffle_btnMoveTo.y = 450;
+        puffle_btnMoveTo.x = 450;
+        puffle_btnMoveTo.y = 424;
 
         // pufflescape_btn (components)
         const pufflescape_btnSimpleButton = new SimpleButton(pufflescape_btn);

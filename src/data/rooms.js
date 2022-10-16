@@ -150,8 +150,52 @@ const rooms = {
         y: 618
     },
     912: {
-        key: 'CatchinWaves',
+        key: 'catchinWaves',
         scene: require('@games/catchinWaves/CatchinWaves').default
+    },
+    903: {
+        key: 'hydroHopper',
+        scene: require('@games/hydrohopper/HydroHopper').default
+    },
+    926: {
+        key: 'jetPackAdventure',
+        scene: require('@games/jetpackadventure/JetPackAdventure').default
+    },
+    901: {
+        key: 'beanCounters',
+        scene: require('@games/beancounters/beanCounters').default
+    },
+    930: {
+        key: 'danceContest',
+        scene: require('@games/dancecontest/DanceContest').default
+    },
+    925: {
+        key: 'puffleRoundup',
+        scene: require('@games/puffleroundup/PuffleRoundup').default
+    },
+    909: {
+        key: 'thinIce',
+        scene: require('@games/thinice/ThinIce').default
+    },
+    900: {
+        key: 'astroBarrier',
+        scene: require('@games/astrobarrier/AstroBarrier').default
+    },
+    928: {
+        key: 'puffleLaunch',
+        scene: require('@games/pufflelaunch/PuffleLaunch').default
+    },
+    910: {
+        key: 'pizzatron',
+        scene: require('@games/pizzatron/Pizzatron').default
+    },
+    927: {
+        key: 'puffleRescue',
+        scene: require('@games/pufflerescue/PuffleRescue').default
+    },
+    905: {
+        key: 'cartSurfer',
+        scene: require('@games/cartsurfer/CartSurfer').default
     },
     // 91: {
     //     key: 'CaveLake',

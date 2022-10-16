@@ -652,15 +652,7 @@
             "type": "Image",
             "id": "d365ed98-f938-40ab-8270-d096ddbc3668",
             "label": "surfer",
-            "components": [
-                "Button",
-                "ShowHint",
-                "MoveTo"
-            ],
-            "Button.spriteName": "surfer",
-            "ShowHint.text": "Go Surfing",
-            "MoveTo.x": 272,
-            "MoveTo.y": 821,
+            "components": [],
             "texture": {
                 "key": "tropical",
                 "frame": "surfer"

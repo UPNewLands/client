@@ -329,20 +329,6 @@
             "y": 1010.2642734728257,
             "originX": 0.5039548141077563,
             "originY": 1.0418547541297565
-        },
-        {
-            "type": "Image",
-            "id": "004a3871-b6fc-4ce7-afab-2da47f5e0115",
-            "label": "symbol_14",
-            "components": [],
-            "texture": {
-                "key": "cavelake",
-                "frame": "Symbol 14"
-            },
-            "x": 545.4028511256201,
-            "y": 1005.2767608609074,
-            "originX": 0.5078372227642497,
-            "originY": 1.2893312732565585
         }
     ],
     "plainObjects": [],
@@ -360,7 +346,6 @@
                 "cb403dad-4b43-4367-abf2-ee4b802b7744",
                 "46a44b51-e92f-44ca-8389-c1d3a1fcb55e",
                 "cf3d4796-d559-4525-9bbd-a5a93615c62a",
-                "004a3871-b6fc-4ce7-afab-2da47f5e0115",
                 "24f43599-a501-427a-89fe-371dace3f681",
                 "5fa1fbad-7a94-4e06-8512-89ea7d583c63"
             ]

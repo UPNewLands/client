@@ -327,6 +327,18 @@
             },
             "x": 734,
             "y": 320
+        },
+        {
+            "type": "Image",
+            "id": "f3a9836f-2b4c-410e-829d-f49e51c19d7a",
+            "label": "sprite_249",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "sprite 249"
+            },
+            "x": 765,
+            "y": 470
         }
     ],
     "plainObjects": [],

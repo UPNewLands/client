@@ -81,14 +81,16 @@
                 },
                 {
                     "type": "Image",
-                    "id": "ab64c519-909b-4d35-8b48-b0a1ad26bc10",
-                    "label": "prompt_coin",
+                    "id": "c7b8af9b-25a1-4ba9-a42e-80dd05ba1583",
+                    "label": "coin_png",
                     "components": [],
                     "texture": {
-                        "key": "main",
-                        "frame": "prompt_coin"
+                        "key": "coins",
+                        "frame": "coin.png"
                     },
-                    "y": -182
+                    "y": -182,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4
                 }
             ]
         }

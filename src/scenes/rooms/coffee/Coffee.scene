@@ -156,14 +156,7 @@
             "type": "Image",
             "id": "790dea67-6bd8-4dac-8a4d-9f95c0adf712",
             "label": "symbol_1940001",
-            "components": [
-                "SimpleButton",
-                "ShowHint",
-                "MoveTo"
-            ],
-            "ShowHint.text": "Play Smoothie Smash",
-            "MoveTo.x": 204,
-            "MoveTo.y": 440,
+            "components": [],
             "texture": {
                 "key": "coffee",
                 "frame": "Symbol 1940001"

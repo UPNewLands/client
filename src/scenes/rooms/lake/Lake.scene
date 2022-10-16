@@ -318,11 +318,14 @@
             "components": [
                 "Animation",
                 "SimpleButton",
-                "ShowHint"
+                "ShowHint",
+                "MoveTo"
             ],
             "Animation.key": "boat",
             "Animation.end": 80,
             "ShowHint.text": "Play Hydro Hopper",
+            "MoveTo.x": 514,
+            "MoveTo.y": 814,
             "texture": {
                 "key": "lake",
                 "frame": "boat0001"

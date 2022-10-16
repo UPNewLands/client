@@ -16,6 +16,7 @@ export default class Dance extends RoomScene {
             'arcade': () => this.triggerRoom(14, 1169, 600),
             'boiler': () => this.triggerRoom(16, 1064, 634),
             'contest': () => null,
+            // 'contest': () => this.triggerGame('DanceContest', 930),
             'soundstudio': () => null,
             'town': () => this.triggerRoom(10, 713, 561),
         }

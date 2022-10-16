@@ -45,7 +45,10 @@ export default class WorldController extends BaseScene {
         this.room = this.roomFactory.create(args)
 
         if (args.users) {
-            this.lastRoom = this.room.id
+            const arr = [903, 912, 929, 908, 926, 900, 909, 925, 928, 901, 910, 927, 905];
+            if(!arr.includes(this.room.id)) {
+                this.lastRoom = this.room.id
+            }
 
             this.room.waiting = args.users
             this.room.events.once('create', () => this.addPenguins())

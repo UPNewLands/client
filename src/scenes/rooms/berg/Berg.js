@@ -6,6 +6,7 @@
 import RoomScene from "../RoomScene";
 import Animation from "../../components/Animation";
 import SimpleButton from "../../components/SimpleButton";
+import MoveTo from "../../components/MoveTo";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -20,7 +21,7 @@ export default class Berg extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'aqua': null
+            'aqua': () => this.triggerGame('aquaGrabber', 929)
         }
         this.music = "berg_beta"
 
@@ -97,6 +98,9 @@ export default class Berg extends RoomScene {
         aqua0001Animation.repeat = 0;
         aqua0001Animation.autoPlay = false;
         aqua0001Animation.onHover = true;
+        const aqua0001MoveTo = new MoveTo(aqua0001);
+        aqua0001MoveTo.x = 1216;
+        aqua0001MoveTo.y = 393;
 
         // lights0001 (components)
         const lights0001Animation = new Animation(lights0001);

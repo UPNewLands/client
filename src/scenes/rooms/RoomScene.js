@@ -179,10 +179,15 @@ export default class RoomScene extends BaseScene {
 
 	triggerGame(minigame, id) {
 		let prompt = this.game.scene.getScene('InterfaceController').prompt
-        prompt.showWindow('Do you want to play ' + this.getString(minigame) + '?', "dual",  () => this.joinGame(minigame, id))
+        prompt.showWindow('Do you want to play ' + this.getString(minigame) + '?', 'dual', () => {
+            this.joinGame(minigame,id)
+
+            this.interface.prompt.window.visible = false
+        })
     }
 
     joinGame(minigame, id){
+        minigame = minigame.charAt(0).toLowerCase() + minigame.slice(1);
 		this.world.loadMinigame(minigame)
         let room = this.crumbs.scenes.rooms[id]
         this.world.client.sendJoinRoom(id, room.key)

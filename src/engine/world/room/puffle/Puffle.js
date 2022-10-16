@@ -247,7 +247,7 @@ export default class Puffle extends BaseContainer {
         this.removeInteractive()
 
         anim.on('animationcomplete', function() {
-            this.sprite.setFrame('stand/south')
+            this.sprite.setFrame('1_1')
             this.isTweening = false
             this.addPuffleInput()
         }, this)
