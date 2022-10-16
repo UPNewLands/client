@@ -1,9 +1,14 @@
-import RoomScene from '@scenes/rooms/RoomScene'
-
-import { Animation, Button, MoveTo, SimpleButton, Zone } from '@components/components'
-
 
 /* START OF COMPILED CODE */
+
+import RoomScene from "../RoomScene";
+import Button from "../../components/Button";
+import MoveTo from "../../components/MoveTo";
+import Animation from "../../components/Animation";
+import Zone from "../../components/Zone";
+/* START-USER-IMPORTS */
+import dock from "../../interface/game/main/Main";
+/* END-USER-IMPORTS */
 
 export default class Shop extends RoomScene {
 
@@ -11,51 +16,19 @@ export default class Shop extends RoomScene {
         super("Shop");
 
         /** @type {Phaser.GameObjects.Sprite} */
-        this.bg;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.rail;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.speakers;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.chairBody;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.chairArm;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.chairBody_1;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.chairArm_1;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.deskChair;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.desk;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.chest;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.register;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.spinner;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.door;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.circularStool;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.squareStool;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.fg;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.catalog;
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.unlock;
-        /** @type {Array<Phaser.GameObjects.Sprite|Phaser.GameObjects.Container>} */
+        this.display0001;
+        /** @type {Array<any>} */
         this.sort;
 
 
         /* START-USER-CTR-CODE */
+        this.music = '345'
 
         this.roomTriggers = {
-            'town': () => this.triggerRoom(10, 1045, 421)
+            'town': () => this.triggerRoom(100, 932, 560),
+            'unlock': () => this.interface.loadExternal('Unlock'),
+            'catalog': () => this.interface.loadExternal('ClothingCatalog')
         }
-        this.music = 'clothing_shop'
 
         /* END-USER-CTR-CODE */
     }
@@ -69,117 +42,144 @@ export default class Shop extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // bg
-        const bg = this.add.sprite(765, 468, "clothesShop-new", "bg");
+        // symbol_68_png
+        this.add.image(773, 464, "shop", "Symbol 68");
 
-        // rail
-        const rail = this.add.sprite(363, 472, "clothesShop-new", "rail");
+        // shop_door_png
+        const shop_door_png = this.add.sprite(1111, 230, "shop", "shop-door");
+        shop_door_png.scaleY = 1.01;
 
-        // speakers
-        const speakers = this.add.sprite(762, 224, "clothesShop-new", "speakers0001");
+        // curten_png
+        const curten_png = this.add.sprite(467, 275, "shop", "curten");
+        curten_png.scaleY = 1.01;
 
-        // chairBody
-        const chairBody = this.add.sprite(282, 640, "clothesShop-new", "chairBody");
+        // symbol_560001
+        const symbol_560001 = this.add.sprite(770, 219, "shop", "Symbol 560001");
+        symbol_560001.scaleY = 1.01;
 
-        // chairArm
-        const chairArm = this.add.sprite(301, 686, "clothesShop-new", "chairArm");
+        // symbol_70
+        const symbol_70 = this.add.image(369, 466, "shop", "Symbol 70");
+        symbol_70.scaleY = 1.01;
 
-        // chairBody_1
-        const chairBody_1 = this.add.sprite(336, 767, "clothesShop-new", "chairBody");
+        // symbol_72
+        const symbol_72 = this.add.image(305, 632, "shop", "Symbol 72");
+        symbol_72.scaleY = 1.01;
 
-        // chairArm_1
-        const chairArm_1 = this.add.sprite(355, 814, "clothesShop-new", "chairArm");
+        // symbol_74
+        const symbol_74 = this.add.image(322, 683, "shop", "Symbol 74");
+        symbol_74.scaleY = 1.01;
 
-        // deskChair
-        const deskChair = this.add.sprite(1370, 380, "clothesShop-new", "deskChair");
+        // symbol_76
+        const symbol_76 = this.add.image(351, 747, "shop", "Symbol 76");
+        symbol_76.scaleY = 1.01;
 
-        // desk_container
-        const desk_container = this.add.container(1337.3141623444612, 415.3218257529371);
+        // symbol_78
+        const symbol_78 = this.add.image(370, 803, "shop", "Symbol 78");
+        symbol_78.scaleY = 1.01;
 
-        // desk
-        const desk = this.add.sprite(13.685837655538762, 45.678174247062884, "clothesShop-new", "desk");
-        desk_container.add(desk);
+        // symbol_80
+        const symbol_80 = this.add.image(1109, 616, "shop", "Symbol 80");
+        symbol_80.scaleY = 1.01;
 
-        // chest
-        const chest = this.add.sprite(15.685837655538762, 123.67817424706288, "clothesShop-new", "chest");
-        desk_container.add(chest);
+        // symbol_82
+        const symbol_82 = this.add.image(1050, 682, "shop", "Symbol 82");
+        symbol_82.scaleY = 1.01;
+
+        // symbol_84
+        const symbol_84 = this.add.image(1381, 374, "shop", "Symbol 84");
+        symbol_84.scaleY = 1.01;
+
+        // symbol_86
+        const symbol_86 = this.add.image(1363, 455, "shop", "Symbol 86");
+        symbol_86.scaleY = 1.01;
 
         // register
-        const register = this.add.sprite(-48.31416234446124, -46.321825752937116, "clothesShop-new", "register");
-        desk_container.add(register);
+        const register = this.add.sprite(1297, 361, "shop", "register");
+        register.scaleY = 1.01;
 
-        // spinner
-        const spinner = this.add.sprite(1403, 436, "clothesShop-new", "spinner0001");
+        // display0001
+        const display0001 = this.add.sprite(1417, 429, "shop", "display0001");
+        display0001.scaleY = 1.01;
 
-        // door
-        const door = this.add.sprite(1103, 248, "clothesShop-new", "door");
+        // chest
+        const chest = this.add.sprite(1359, 533, "shop", "chest");
+        chest.scaleY = 1.01;
 
-        // circularStool
-        const circularStool = this.add.sprite(1105.0536438593308, 585.1647632822302, "clothesShop-new", "circularStool");
-        circularStool.setOrigin(0.3927203373794677, 0.1307307179502602);
-
-        // squareStool
-        const squareStool = this.add.sprite(1032.9632984323307, 645.1017420341761, "clothesShop-new", "squareStool");
-        squareStool.setOrigin(0.3475601335676138, 0.1008847133406621);
-
-        // fg
-        const fg = this.add.sprite(782, 980.5, "clothesShop-new", "fg");
-        fg.setOrigin(0.5, 1);
-
-        // catalog
-        const catalog = this.add.sprite(1340, 1055, "clothesShop-new", "style");
-        catalog.setOrigin(0, 2);
+        // symbol_153
+        const symbol_153 = this.add.image(793, 477, "shop", "Symbol 153");
+        symbol_153.scaleY = 1.01;
 
         // unlock
-        const unlock = this.add.sprite(1415, 771, "clothesShop-new", "unlock");
-        unlock.visible = false;
+        const unlock = this.add.sprite(1418, 753, "shop", "unlock");
+        unlock.scaleY = 1.01;
+
+        // catalog
+        const catalog = this.add.sprite(1418, 891, "shop", "catalog");
+        catalog.scaleY = 1.01;
+
+        // rectangle_1
+        const rectangle_1 = this.add.rectangle(1425, 426, 128, 128);
+        rectangle_1.scaleX = 0.7519419054693485;
+        rectangle_1.scaleY = 0.7102463973722253;
+        rectangle_1.isFilled = true;
 
         // lists
-        const sort = [catalog, fg, squareStool, circularStool, door, spinner, deskChair, chairArm_1, chairBody_1, chairArm, chairBody, speakers, rail, desk_container];
+        const sort = [];
+
+        // shop_door_png (components)
+        const shop_door_pngButton = new Button(shop_door_png);
+        shop_door_pngButton.spriteName = "shop-door";
+        const shop_door_pngMoveTo = new MoveTo(shop_door_png);
+        shop_door_pngMoveTo.x = 1124;
+        shop_door_pngMoveTo.y = 376;
+
+        // curten_png (components)
+        const curten_pngButton = new Button(curten_png);
+        curten_pngButton.spriteName = "curten";
+        const curten_pngMoveTo = new MoveTo(curten_png);
+        curten_pngMoveTo.x = 518;
+        curten_pngMoveTo.y = 424;
+
+        // symbol_560001 (components)
+        const symbol_560001Animation = new Animation(symbol_560001);
+        symbol_560001Animation.key = "Symbol 56";
+        symbol_560001Animation.end = 10;
+        symbol_560001Animation.repeatDelay = 10;
 
         // register (components)
         const registerButton = new Button(register);
         registerButton.spriteName = "register";
-        registerButton.activeFrame = false;
 
-        // spinner (components)
-        const spinnerSimpleButton = new SimpleButton(spinner);
-        spinnerSimpleButton.hoverCallback = () => this.onSpinnerOver();
-        spinnerSimpleButton.hoverOutCallback = () => this.onSpinnerOut();
+        // display0001 (components)
+        const display0001Animation = new Animation(display0001);
+        display0001Animation.key = "display";
+        display0001Animation.end = 24;
+        display0001Animation.autoPlay = false;
+        display0001Animation.onHover = true;
 
-        // door (components)
-        const doorButton = new Button(door);
-        doorButton.spriteName = "door";
-        doorButton.activeFrame = false;
-        const doorMoveTo = new MoveTo(door);
-        doorMoveTo.x = 1100;
-        doorMoveTo.y = 350;
+        // chest (components)
+        const chestButton = new Button(chest);
+        chestButton.spriteName = "chest";
+        const chestMoveTo = new MoveTo(chest);
+        chestMoveTo.x = 1360;
+        chestMoveTo.y = 625;
+
+        // unlock (components)
+        const unlockButton = new Button(unlock);
+        unlockButton.spriteName = "unlock";
+        unlockButton.callback = () => this.interface.loadExternal('Unlock');
 
         // catalog (components)
         const catalogButton = new Button(catalog);
-        catalogButton.spriteName = "style";
+        catalogButton.spriteName = "catalog";
         catalogButton.callback = () => this.interface.loadExternal('ClothingCatalog');
-        catalogButton.activeFrame = false;
-        catalogButton.pixelPerfect = true;
 
-        this.bg = bg;
-        this.rail = rail;
-        this.speakers = speakers;
-        this.chairBody = chairBody;
-        this.chairArm = chairArm;
-        this.chairBody_1 = chairBody_1;
-        this.chairArm_1 = chairArm_1;
-        this.deskChair = deskChair;
-        this.desk = desk;
-        this.chest = chest;
-        this.register = register;
-        this.spinner = spinner;
-        this.door = door;
-        this.circularStool = circularStool;
-        this.squareStool = squareStool;
-        this.fg = fg;
-        this.catalog = catalog;
-        this.unlock = unlock;
+        // rectangle_1 (components)
+        const rectangle_1Zone = new Zone(rectangle_1);
+        rectangle_1Zone.hoverCallback = () => this.onDisplayHover();
+        rectangle_1Zone.hoverOutCallback = () => this.pauseDisplay();
+
+        this.display0001 = display0001;
         this.sort = sort;
 
         this.events.emit("scene-awake");
@@ -187,22 +187,12 @@ export default class Shop extends RoomScene {
 
 
     /* START-USER-CODE */
-
-    create(){
-        super.create()
-        this.speakers.play("clothesSpeakers")
-        this.spinner.on('animationcomplete', () => this.spinner.setFrame("spinner0001"))
+    onDisplayHover() {
+        this.display0001.__Animation.play()
     }
-
-    onSpinnerOver(){
-        this.spinner.play("spinner")
+    pauseDisplay() {
+        this.display0001.__Animation.stop()
     }
-
-    onSpinnerOut(){
-        this.spinner.stop("spinner")
-        this.spinner.setFrame("spinner0001")
-    }
-
     /* END-USER-CODE */
 }
 
