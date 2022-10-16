@@ -17,7 +17,6 @@ export default class PenguinFactory {
         if (user.puffle && user.puffle !== 0){
             this.world.network.send('get_puffle_color', {puffle: user.puffle, penguinId: user.id})
         }
-        console.log(user.puffle !== 0)
         // if (user.puffle && user.puffle !== 0){
         //     this.world.network.send('get_puffle_color', {puffle: user.puffle, penguinId: user.id})
         // }
