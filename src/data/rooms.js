@@ -150,15 +150,15 @@ const rooms = {
         y: 618
     },
     912: {
-        key: 'CatchinWaves',
+        key: 'catchinWaves',
         scene: require('@games/catchinWaves/CatchinWaves').default
     },
     903: {
-        key: 'HydroHopper',
+        key: 'hydroHopper',
         scene: require('@games/hydrohopper/HydroHopper').default
     },
     926: {
-        key: 'JetPackAdventure',
+        key: 'jetPackAdventure',
         scene: require('@games/jetpackadventure/JetPackAdventure').default
     },
     901: {
@@ -166,27 +166,27 @@ const rooms = {
         scene: require('@games/beancounters/beanCounters').default
     },
     930: {
-        key: 'DanceContest',
+        key: 'danceContest',
         scene: require('@games/dancecontest/DanceContest').default
     },
     925: {
-        key: 'PuffleRoundup',
+        key: 'puffleRoundup',
         scene: require('@games/puffleroundup/PuffleRoundup').default
     },
     909: {
-        key: 'ThinIce',
+        key: 'thinIce',
         scene: require('@games/thinice/ThinIce').default
     },
     900: {
-        key: 'AstroBarrier',
+        key: 'astroBarrier',
         scene: require('@games/astrobarrier/AstroBarrier').default
     },
     928: {
-        key: 'PuffleLaunch',
+        key: 'puffleLaunch',
         scene: require('@games/pufflelaunch/PuffleLaunch').default
     },
     910: {
-        key: 'Pizzatron',
+        key: 'pizzatron',
         scene: require('@games/pizzatron/Pizzatron').default
     },
     927: {
