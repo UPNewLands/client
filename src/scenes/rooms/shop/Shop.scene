@@ -1,0 +1,338 @@
+{
+    "id": "ff968ca9-1120-4c82-a657-7584e672fe61",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/shop/shop-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Shop",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "4436ef37-bde4-4d2e-8e23-56c5221c5f35",
+            "label": "symbol_68_png",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 68"
+            },
+            "x": 773,
+            "y": 464
+        },
+        {
+            "type": "Sprite",
+            "id": "81a1cd23-805f-47e7-84f0-321d3c7174ba",
+            "label": "shop_door_png",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "shop-door",
+            "MoveTo.x": 1124,
+            "MoveTo.y": 376,
+            "texture": {
+                "key": "shop",
+                "frame": "shop-door"
+            },
+            "x": 1111,
+            "y": 230,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Sprite",
+            "id": "8b9f9694-4cbf-4139-806c-4372b7b63269",
+            "label": "curten_png",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "curten",
+            "MoveTo.x": 518,
+            "MoveTo.y": 424,
+            "texture": {
+                "key": "shop",
+                "frame": "curten"
+            },
+            "x": 467,
+            "y": 275,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Sprite",
+            "id": "c1ff870f-99f0-4d2a-b97c-0bb48e8fe612",
+            "label": "symbol_560001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "Symbol 56",
+            "Animation.end": 10,
+            "Animation.repeatDelay": 10,
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 560001"
+            },
+            "x": 770,
+            "y": 219,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "1ee9534a-8094-4776-976c-6bbfe40e3fc1",
+            "label": "symbol_70",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 70"
+            },
+            "x": 369,
+            "y": 466,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "487df225-46ba-4c9d-8e8f-2930fa7c9de7",
+            "label": "symbol_72",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 72"
+            },
+            "x": 305,
+            "y": 632,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "023bdc85-ed7d-402e-8afb-a435fe253c70",
+            "label": "symbol_74",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 74"
+            },
+            "x": 322,
+            "y": 683,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "9071476f-e6f1-47e0-89b6-c60f285df3fa",
+            "label": "symbol_76",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 76"
+            },
+            "x": 351,
+            "y": 747,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "e8b64e99-919e-4498-bcb0-4182edbb3219",
+            "label": "symbol_78",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 78"
+            },
+            "x": 370,
+            "y": 803,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "b5cf562e-ec76-4ad2-a74a-e7fbf167ee3e",
+            "label": "symbol_80",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 80"
+            },
+            "x": 1109,
+            "y": 616,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "9606f76a-8eae-45bd-b63d-2fc0fcada5f4",
+            "label": "symbol_82",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 82"
+            },
+            "x": 1050,
+            "y": 682,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "0b9034ad-189c-4f0a-8605-e13ec3872e8b",
+            "label": "symbol_84",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 84"
+            },
+            "x": 1381,
+            "y": 374,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "5eb35545-d25a-4b63-aef5-fc5663a14367",
+            "label": "symbol_86",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 86"
+            },
+            "x": 1363,
+            "y": 455,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Sprite",
+            "id": "50e6ff06-dd14-49cf-a533-165261b32818",
+            "label": "register",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "register",
+            "texture": {
+                "key": "shop",
+                "frame": "register"
+            },
+            "x": 1297,
+            "y": 361,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Sprite",
+            "id": "5ee4efaa-7805-4869-ba27-70943ef49973",
+            "label": "display0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "display",
+            "Animation.end": 24,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "texture": {
+                "key": "shop",
+                "frame": "display0001"
+            },
+            "x": 1417,
+            "y": 429,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Sprite",
+            "id": "5a56b157-4444-485d-a0d3-6fa149ee9379",
+            "label": "chest",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "chest",
+            "MoveTo.x": 1360,
+            "MoveTo.y": 625,
+            "texture": {
+                "key": "shop",
+                "frame": "chest"
+            },
+            "x": 1359,
+            "y": 533,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "0c5763e4-be58-4df4-b65a-796482659769",
+            "label": "symbol_153",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 153"
+            },
+            "x": 793,
+            "y": 477,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Sprite",
+            "id": "26e4f904-ee08-444a-b408-491fb8526d2f",
+            "label": "unlock",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "unlock",
+            "Button.callback": "() => this.interface.loadExternal('Unlock')",
+            "texture": {
+                "key": "shop",
+                "frame": "unlock"
+            },
+            "x": 1418,
+            "y": 753,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Sprite",
+            "id": "e7ed775b-e5c3-4c40-91a0-35f6b274a1ca",
+            "label": "catalog",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "catalog",
+            "Button.callback": "() => this.interface.loadExternal('ClothingCatalog')",
+            "texture": {
+                "key": "shop",
+                "frame": "catalog"
+            },
+            "x": 1418,
+            "y": 891,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Rectangle",
+            "id": "d9a9e50a-2a6a-4d18-8eba-b975a27f4953",
+            "label": "rectangle_1",
+            "components": [
+                "Zone"
+            ],
+            "Zone.hoverCallback": "() => this.onDisplayHover()",
+            "Zone.hoverOutCallback": "() => this.pauseDisplay()",
+            "x": 1425,
+            "y": 426,
+            "scaleX": 0.7519419054693485,
+            "scaleY": 0.7102463973722253,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "74808b14-d54a-4e8f-8e73-510aada4154f",
+            "label": "sort"
+        }
+    ]
+}
