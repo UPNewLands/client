@@ -12,7 +12,7 @@
     $username = $v->name('username', 'Username')
         ->required()
         ->trim()
-        ->pattern('/[^A-Za-z0-9 ]/')
+        ->pattern('/[^A-Za-z ]/')
         ->string()
         ->length(4, 12)
         ->getField();
