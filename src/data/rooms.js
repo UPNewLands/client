@@ -190,11 +190,11 @@ const rooms = {
         scene: require('@games/pizzatron/Pizzatron').default
     },
     927: {
-        key: 'PuffleRescue',
+        key: 'puffleRescue',
         scene: require('@games/pufflerescue/PuffleRescue').default
     },
     905: {
-        key: 'CartSurfer',
+        key: 'cartSurfer',
         scene: require('@games/cartsurfer/CartSurfer').default
     },
     // 91: {

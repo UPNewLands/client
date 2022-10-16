@@ -187,6 +187,7 @@ export default class RoomScene extends BaseScene {
     }
 
     joinGame(minigame, id){
+        minigame = minigame.charAt(0).toLowerCase() + minigame.slice(1);
 		this.world.loadMinigame(minigame)
         let room = this.crumbs.scenes.rooms[id]
         this.world.client.sendJoinRoom(id, room.key)
