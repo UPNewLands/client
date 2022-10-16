@@ -24,7 +24,6 @@ export default class RoomFactory {
 
     createRoom(args) {
         let config = this.rooms[args.room]
-        console.log(config.key)
         if (config.key in this.scene.manager.keys) {
             this.scene.start(config.key)
 
