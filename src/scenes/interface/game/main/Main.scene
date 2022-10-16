@@ -376,6 +376,119 @@
         },
         {
             "type": "Image",
+            "id": "fa892a02-5168-4cb7-80a6-afae145ab6f7",
+            "label": "emotes_1",
+            "components": [],
+            "texture": {
+                "key": "newinterface",
+                "frame": "emotes"
+            },
+            "x": 306,
+            "y": 915,
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "4bf35ab5-bd88-4b93-917c-228c23dca8a4",
+            "label": "actions_1",
+            "components": [],
+            "texture": {
+                "key": "newinterface",
+                "frame": "actions"
+            },
+            "x": 366,
+            "y": 915,
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "bd1c881a-8c97-40df-8760-9fa8d2a2a56c",
+            "label": "snowball",
+            "components": [],
+            "texture": {
+                "key": "newinterface",
+                "frame": "snowball"
+            },
+            "x": 426,
+            "y": 915,
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "bbdb09f6-3856-4ebb-a14a-345d3b24a1b5",
+            "label": "player",
+            "components": [],
+            "texture": {
+                "key": "newinterface",
+                "frame": "player"
+            },
+            "x": 1086,
+            "y": 915,
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "42462421-91bf-44f4-b036-e9c09ddbed46",
+            "label": "buddies_1",
+            "components": [],
+            "texture": {
+                "key": "newinterface",
+                "frame": "buddies"
+            },
+            "x": 1146,
+            "y": 915,
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "dd8c4b69-b9d3-491d-9ca8-c392c9142b14",
+            "label": "igloo",
+            "components": [],
+            "texture": {
+                "key": "newinterface",
+                "frame": "igloo"
+            },
+            "x": 1206,
+            "y": 915,
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "51a747b9-fde6-4863-b426-51ce265f523e",
+            "label": "account_1",
+            "components": [],
+            "texture": {
+                "key": "newinterface",
+                "frame": "account"
+            },
+            "x": 1266,
+            "y": 915,
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "a7eb5d03-0e8d-48e1-a99f-ad5b030d0d77",
+            "label": "send",
+            "components": [],
+            "texture": {
+                "key": "newinterface",
+                "frame": "send"
+            },
+            "x": 1026,
+            "y": 915,
+            "scaleX": 0.6,
+            "scaleY": 0.8,
+            "flipX": true
+        },
+        {
+            "type": "Image",
             "id": "2dd95bb8-62eb-4d8a-916e-734bc44b3c9d",
             "label": "help_icon",
             "scope": "CLASS",
@@ -877,119 +990,6 @@
             "y": 890,
             "scaleX": 0.6,
             "scaleY": 0.6
-        },
-        {
-            "type": "Image",
-            "id": "fa892a02-5168-4cb7-80a6-afae145ab6f7",
-            "label": "emotes_1",
-            "components": [],
-            "texture": {
-                "key": "newinterface",
-                "frame": "emotes"
-            },
-            "x": 306,
-            "y": 915,
-            "scaleX": 0.4,
-            "scaleY": 0.4
-        },
-        {
-            "type": "Image",
-            "id": "4bf35ab5-bd88-4b93-917c-228c23dca8a4",
-            "label": "actions_1",
-            "components": [],
-            "texture": {
-                "key": "newinterface",
-                "frame": "actions"
-            },
-            "x": 366,
-            "y": 915,
-            "scaleX": 0.4,
-            "scaleY": 0.4
-        },
-        {
-            "type": "Image",
-            "id": "bd1c881a-8c97-40df-8760-9fa8d2a2a56c",
-            "label": "snowball",
-            "components": [],
-            "texture": {
-                "key": "newinterface",
-                "frame": "snowball"
-            },
-            "x": 426,
-            "y": 915,
-            "scaleX": 0.4,
-            "scaleY": 0.4
-        },
-        {
-            "type": "Image",
-            "id": "bbdb09f6-3856-4ebb-a14a-345d3b24a1b5",
-            "label": "player",
-            "components": [],
-            "texture": {
-                "key": "newinterface",
-                "frame": "player"
-            },
-            "x": 1086,
-            "y": 915,
-            "scaleX": 0.4,
-            "scaleY": 0.4
-        },
-        {
-            "type": "Image",
-            "id": "42462421-91bf-44f4-b036-e9c09ddbed46",
-            "label": "buddies_1",
-            "components": [],
-            "texture": {
-                "key": "newinterface",
-                "frame": "buddies"
-            },
-            "x": 1146,
-            "y": 915,
-            "scaleX": 0.4,
-            "scaleY": 0.4
-        },
-        {
-            "type": "Image",
-            "id": "dd8c4b69-b9d3-491d-9ca8-c392c9142b14",
-            "label": "igloo",
-            "components": [],
-            "texture": {
-                "key": "newinterface",
-                "frame": "igloo"
-            },
-            "x": 1206,
-            "y": 915,
-            "scaleX": 0.4,
-            "scaleY": 0.4
-        },
-        {
-            "type": "Image",
-            "id": "51a747b9-fde6-4863-b426-51ce265f523e",
-            "label": "account_1",
-            "components": [],
-            "texture": {
-                "key": "newinterface",
-                "frame": "account"
-            },
-            "x": 1266,
-            "y": 915,
-            "scaleX": 0.4,
-            "scaleY": 0.4
-        },
-        {
-            "type": "Image",
-            "id": "a7eb5d03-0e8d-48e1-a99f-ad5b030d0d77",
-            "label": "send",
-            "components": [],
-            "texture": {
-                "key": "newinterface",
-                "frame": "send"
-            },
-            "x": 1026,
-            "y": 915,
-            "scaleX": 0.6,
-            "scaleY": 0.8,
-            "flipX": true
         },
         {
             "prefabId": "f4222e55-925f-4da8-940d-6a289fa5e815",

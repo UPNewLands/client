@@ -78,6 +78,19 @@
                     "x": 0,
                     "y": 130,
                     "nestedPrefabs": []
+                },
+                {
+                    "type": "Image",
+                    "id": "c7b8af9b-25a1-4ba9-a42e-80dd05ba1583",
+                    "label": "coin_png",
+                    "components": [],
+                    "texture": {
+                        "key": "coins",
+                        "frame": "coin.png"
+                    },
+                    "y": -182,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4
                 }
             ]
         }

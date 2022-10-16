@@ -124,8 +124,8 @@
             "Animation.repeat": 0,
             "Animation.autoPlay": false,
             "Animation.onHover": true,
-            "MoveTo.x": 1187,
-            "MoveTo.y": 413,
+            "MoveTo.x": 1216,
+            "MoveTo.y": 393,
             "texture": {
                 "key": "berg",
                 "frame": "aqua0001"

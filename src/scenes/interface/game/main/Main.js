@@ -265,6 +265,47 @@ export default class Main extends BaseScene {
         // help_button
         const help_button = this.add.image(1266, 917, "main", "blue-button");
 
+        // emotes_1
+        const emotes_1 = this.add.image(306, 915, "newinterface", "emotes");
+        emotes_1.scaleX = 0.4;
+        emotes_1.scaleY = 0.4;
+
+        // actions_1
+        const actions_1 = this.add.image(366, 915, "newinterface", "actions");
+        actions_1.scaleX = 0.4;
+        actions_1.scaleY = 0.4;
+
+        // snowball
+        const snowball = this.add.image(426, 915, "newinterface", "snowball");
+        snowball.scaleX = 0.4;
+        snowball.scaleY = 0.4;
+
+        // player
+        const player = this.add.image(1086, 915, "newinterface", "player");
+        player.scaleX = 0.4;
+        player.scaleY = 0.4;
+
+        // buddies_1
+        const buddies_1 = this.add.image(1146, 915, "newinterface", "buddies");
+        buddies_1.scaleX = 0.4;
+        buddies_1.scaleY = 0.4;
+
+        // igloo
+        const igloo = this.add.image(1206, 915, "newinterface", "igloo");
+        igloo.scaleX = 0.4;
+        igloo.scaleY = 0.4;
+
+        // account_1
+        const account_1 = this.add.image(1266, 915, "newinterface", "account");
+        account_1.scaleX = 0.4;
+        account_1.scaleY = 0.4;
+
+        // send
+        const send = this.add.image(1026, 915, "newinterface", "send");
+        send.scaleX = 0.6;
+        send.scaleY = 0.8;
+        send.flipX = true;
+
         // help_icon
         const help_icon = this.add.image(1266, 915, "main", "help-icon");
         help_icon.visible = false;
@@ -416,47 +457,6 @@ export default class Main extends BaseScene {
         const map = this.add.image(93, 890, "newinterface", "map");
         map.scaleX = 0.6;
         map.scaleY = 0.6;
-
-        // emotes_1
-        const emotes_1 = this.add.image(306, 915, "newinterface", "emotes");
-        emotes_1.scaleX = 0.4;
-        emotes_1.scaleY = 0.4;
-
-        // actions_1
-        const actions_1 = this.add.image(366, 915, "newinterface", "actions");
-        actions_1.scaleX = 0.4;
-        actions_1.scaleY = 0.4;
-
-        // snowball
-        const snowball = this.add.image(426, 915, "newinterface", "snowball");
-        snowball.scaleX = 0.4;
-        snowball.scaleY = 0.4;
-
-        // player
-        const player = this.add.image(1086, 915, "newinterface", "player");
-        player.scaleX = 0.4;
-        player.scaleY = 0.4;
-
-        // buddies_1
-        const buddies_1 = this.add.image(1146, 915, "newinterface", "buddies");
-        buddies_1.scaleX = 0.4;
-        buddies_1.scaleY = 0.4;
-
-        // igloo
-        const igloo = this.add.image(1206, 915, "newinterface", "igloo");
-        igloo.scaleX = 0.4;
-        igloo.scaleY = 0.4;
-
-        // account_1
-        const account_1 = this.add.image(1266, 915, "newinterface", "account");
-        account_1.scaleX = 0.4;
-        account_1.scaleY = 0.4;
-
-        // send
-        const send = this.add.image(1026, 915, "newinterface", "send");
-        send.scaleX = 0.6;
-        send.scaleY = 0.8;
-        send.flipX = true;
 
         // cavepopup
         const cavepopup = new Cavepopup(this, 16, -11);

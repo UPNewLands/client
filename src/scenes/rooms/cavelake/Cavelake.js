@@ -116,12 +116,8 @@ export default class Cavelake extends RoomScene {
         const symbol_149 = this.add.image(762.9915433732508, 1010.2642734728257, "cavelake", "Symbol_149");
         symbol_149.setOrigin(0.5039548141077563, 1.0418547541297565);
 
-        // symbol_14
-        const symbol_14 = this.add.image(545.4028511256201, 1005.2767608609074, "cavelake", "Symbol 14");
-        symbol_14.setOrigin(0.5078372227642497, 1.2893312732565585);
-
         // lists
-        const sort = [symbol_149, s_mbolo_49, symbol_13, symbol_14, water20001, water];
+        const sort = [symbol_149, s_mbolo_49, symbol_13, water20001, water];
 
         // water10001 (components)
         const water10001Animation = new Animation(water10001);

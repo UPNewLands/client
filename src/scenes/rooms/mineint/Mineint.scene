@@ -68,9 +68,12 @@
             "label": "button",
             "components": [
                 "ShowHint",
-                "SimpleButton"
+                "SimpleButton",
+                "MoveTo"
             ],
             "ShowHint.text": "Play Puffle Rescue",
+            "MoveTo.x": 331,
+            "MoveTo.y": 221,
             "texture": {
                 "key": "mineint",
                 "frame": "button"
@@ -134,9 +137,12 @@
             "label": "sprite_28",
             "components": [
                 "ShowHint",
-                "SimpleButton"
+                "SimpleButton",
+                "MoveTo"
             ],
             "ShowHint.text": "Play Cart Surfer",
+            "MoveTo.x": 1230,
+            "MoveTo.y": 796,
             "texture": {
                 "key": "mineint",
                 "frame": "sprite 28"

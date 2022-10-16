@@ -27,7 +27,7 @@ export default class Beta extends BaseContainer {
         this.add(panel);
 
         // closepanel
-        const closepanel = scene.add.image(1452, 17, "newinterface", "closepanel");
+        const closepanel = scene.add.image(1448, 15, "newinterface", "closepanel");
         this.add(closepanel);
 
         // card1
@@ -44,15 +44,15 @@ export default class Beta extends BaseContainer {
 
         // item1
         const item1 = scene.add.image(243, 314, "newinterface", "item1");
+        item1.alpha = 0.5;
+        item1.alphaTopLeft = 0.5;
+        item1.alphaTopRight = 0.5;
+        item1.alphaBottomLeft = 0.5;
+        item1.alphaBottomRight = 0.5;
         this.add(item1);
 
         // item2
         const item2 = scene.add.image(527, 506, "newinterface", "item2");
-        item2.alpha = 0.5;
-        item2.alphaTopLeft = 0.5;
-        item2.alphaTopRight = 0.5;
-        item2.alphaBottomLeft = 0.5;
-        item2.alphaBottomRight = 0.5;
         this.add(item2);
 
         // item3
@@ -89,11 +89,14 @@ export default class Beta extends BaseContainer {
         const closepanelSimpleButton = new SimpleButton(closepanel);
         closepanelSimpleButton.callback = () => { this.visible = false };
 
-        // item1 (components)
-        const item1Button = new Button(item1);
-        item1Button.spriteName = "item1";
-        item1Button.callback = () => this.interface.prompt.showItem(37374);
-        item1Button.activeFrame = false;
+        // card2 (components)
+        const card2SimpleButton = new SimpleButton(card2);
+        card2SimpleButton.callback = () => this.interface.prompt.showItem(37375);
+
+        // item2 (components)
+        const item2Button = new Button(item2);
+        item2Button.spriteName = "item2";
+        item2Button.callback = () => this.interface.prompt.showItem(37375);
 
         /* START-USER-CTR-CODE */
         // Write your code here.

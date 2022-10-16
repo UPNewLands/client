@@ -45,7 +45,7 @@ export default class WorldController extends BaseScene {
         this.room = this.roomFactory.create(args)
 
         if (args.users) {
-            const arr = [903, 912];
+            const arr = [903, 912, 929, 908, 926, 900, 909, 925, 928, 901, 910, 927, 905];
             if(!arr.includes(this.room.id)) {
                 this.lastRoom = this.room.id
             }

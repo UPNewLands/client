@@ -108,6 +108,9 @@ export default class Mine extends RoomScene {
         // sprite_280_copia
         this.add.image(734, 320, "mine", "Sprite 280 copia");
 
+        // sprite_249
+        this.add.image(765, 470, "mine", "sprite 249");
+
         // kart0001 (components)
         const kart0001Animation = new Animation(kart0001);
         kart0001Animation.key = "kart";

@@ -18,7 +18,7 @@ export default class Pizza extends RoomScene {
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
             'plaza': () => this.triggerRoom(50, 819, 700),
-            'pizzatron': () => null
+            'pizzatron': () => this.triggerGame('Pizzatron', 910)
         }
 
         this.music = "pizza"
@@ -136,6 +136,9 @@ export default class Pizza extends RoomScene {
         tronButton.activeFrame = false;
         const tronShowHint = new ShowHint(tron);
         tronShowHint.text = "Pizzatron 3000";
+        const tronMoveTo = new MoveTo(tron);
+        tronMoveTo.x = 349;
+        tronMoveTo.y = 330;
 
         // check0001 (components)
         const check0001Animation = new Animation(check0001);

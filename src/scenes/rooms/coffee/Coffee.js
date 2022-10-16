@@ -22,7 +22,7 @@ export default class Coffee extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'beans': () => null,
+            'beans': () => this.triggerGame('beanCounters', 908),
             'library': () => this.triggerRoom(12, 1265, 489),
             'smash': () => null,
             'town': () => this.triggerRoom(10, 260, 439),
@@ -76,7 +76,7 @@ export default class Coffee extends RoomScene {
         this.add.image(573, 463, "coffee", "Symbol 202");
 
         // symbol_1940001
-        const symbol_1940001 = this.add.image(204, 440, "coffee", "Symbol 1940001");
+        this.add.image(204, 440, "coffee", "Symbol 1940001");
 
         // symbol_175
         this.add.image(1127, 534, "coffee", "Symbol 175");
@@ -123,14 +123,6 @@ export default class Coffee extends RoomScene {
         const door2MoveTo = new MoveTo(door2);
         door2MoveTo.x = 963;
         door2MoveTo.y = 352;
-
-        // symbol_1940001 (components)
-        new SimpleButton(symbol_1940001);
-        const symbol_1940001ShowHint = new ShowHint(symbol_1940001);
-        symbol_1940001ShowHint.text = "Play Smoothie Smash";
-        const symbol_1940001MoveTo = new MoveTo(symbol_1940001);
-        symbol_1940001MoveTo.x = 204;
-        symbol_1940001MoveTo.y = 440;
 
         // door (components)
         const doorButton = new Button(door);

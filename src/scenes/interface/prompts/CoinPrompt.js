@@ -44,6 +44,12 @@ export default class CoinPrompt extends BaseContainer {
         const singleButton = new SingleButton(scene, 0, 130);
         this.add(singleButton);
 
+        // coin_png
+        const coin_png = scene.add.image(0, -182, "coins", "coin.png");
+        coin_png.scaleX = 0.4;
+        coin_png.scaleY = 0.4;
+        this.add(coin_png);
+
         // block (components)
         new Interactive(block);
 

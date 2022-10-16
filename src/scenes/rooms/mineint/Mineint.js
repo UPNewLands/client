@@ -7,6 +7,7 @@ import RoomScene from "../RoomScene";
 import Animation from "../../components/Animation";
 import ShowHint from "../../components/ShowHint";
 import SimpleButton from "../../components/SimpleButton";
+import MoveTo from "../../components/MoveTo";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -21,10 +22,10 @@ export default class Mineint extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'cave': () => null,
+            'cave': () => this.triggerRoom(72, 527, 712),
             'mine': () => this.triggerRoom(70, 527, 712),
-            'rescue': () => null,
-            'surfer': () => null,
+            'rescue': () => this.triggerGame('PuffleRescue', 927),
+            'surfer': () => this.triggerGame('CartSurfer', 905),
 
         }       
 
@@ -154,11 +155,17 @@ export default class Mineint extends RoomScene {
         const buttonShowHint = new ShowHint(button);
         buttonShowHint.text = "Play Puffle Rescue";
         new SimpleButton(button);
+        const buttonMoveTo = new MoveTo(button);
+        buttonMoveTo.x = 331;
+        buttonMoveTo.y = 221;
 
         // sprite_28 (components)
         const sprite_28ShowHint = new ShowHint(sprite_28);
         sprite_28ShowHint.text = "Play Cart Surfer";
         new SimpleButton(sprite_28);
+        const sprite_28MoveTo = new MoveTo(sprite_28);
+        sprite_28MoveTo.x = 1230;
+        sprite_28MoveTo.y = 796;
 
         // fire0001 (components)
         const fire0001Animation = new Animation(fire0001);
