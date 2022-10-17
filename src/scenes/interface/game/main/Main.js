@@ -935,7 +935,7 @@ export default class Main extends BaseScene {
         text = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
         text = text.replace(/[^¡!¿?-_/.,0-9a-zñáéíóúüçöêôîęėēįīºõøœōūâ|ªãåąæāÚÜÓÁÉÍÑÓûïëä ]+/g,"");
         text = text.replace("   ", "")
-\        
+        
         if (text.replace(" ", "").length < 1) return;
 
         this.chatInput.clearText()
