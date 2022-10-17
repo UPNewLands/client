@@ -32,7 +32,7 @@ export default class MiniGame extends Plugin {
 
     gameOver(args) {
         // Difference in coins = coins earned
-        this.interface.prompt.showCoin(args.coins - this.world.client.coins)
+        this.interface.prompt.showCoin(args.coinsEarned)
 
         this.world.client.coins = args.coins
 
@@ -41,7 +41,7 @@ export default class MiniGame extends Plugin {
     }
 	
 	endRuffleMinigame(args){
-        this.interface.prompt.showCoin(args.coins - this.world.client.coins)
+        this.interface.prompt.showCoin(args.coinsEarned)
 
         this.world.client.coins = args.coins
 

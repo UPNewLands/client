@@ -32,7 +32,7 @@ export default class Puffles extends Plugin {
         if (args.type == "coins") {
             this.world.interface.main.popup_coin_text.text = `You've earned ${args.coins} Coins!`
             this.world.interface.main.onCoinDigtween()
-            this.world.client.coins += args.coins
+            this.world.client.coins = this.world.client.coins + args.coins
 
             this.interface.refreshPlayerCard()
             this.interface.updateCatalogCoins(this.world.client.coins)
