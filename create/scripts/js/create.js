@@ -61,7 +61,7 @@ function showSuccess() {
         'Account Created',
         '<p>Your account has been successfully created.</p>',
         'Play Now',
-        () => window.location.href = '/'
+        () => window.location.href = '/play'
     )
 }
 
