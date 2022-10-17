@@ -18,13 +18,12 @@ export default class RoomFactory {
             return this.createIgloo(args)
 
         } else if (args.game) {
-            return this.createGame(args)
+            return this.createRoom(args)
         }
     }
 
     createRoom(args) {
         let config = this.rooms[args.room]
-
         if (config.key in this.scene.manager.keys) {
             this.scene.start(config.key)
 

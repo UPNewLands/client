@@ -169,24 +169,23 @@ export default class Settings extends BaseContainer {
     onMuteClick() {
         this.toggle(this.checkbox)
 
-        this.soundManager.muteMusic = this.checkbox.checked
+        this.soundManager.muteMusic = (localStorage.muteMusic == 'true') ? true : false
 
-        let music = this.world.room.music
-        if (!music) {
+        if (!this.world.room.music) {
             return
         }
 
         if (this.soundManager.muteMusic) {
             this.world.room.stopMusic()
         } else {
-            this.world.room.playMusic(music)
+            this.world.room.playMusic(this.world.room.music)
         }
     }
 
     toggle(checkbox) {
-        let texture = (checkbox.checked) ? 'checkbox' : 'checkbox-active'
+        let texture = (localStorage.muteMusic == 'true') ? 'checkbox' : 'checkbox-active'
 
-        checkbox.checked = !checkbox.checked
+        localStorage.muteMusic = (localStorage.muteMusic == 'true') ? 'false' : 'true'
         checkbox.setTexture('login', texture)
     }
 

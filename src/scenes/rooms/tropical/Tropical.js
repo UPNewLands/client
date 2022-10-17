@@ -20,7 +20,7 @@ export default class Tropical extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'surfer': () => this.triggerGame('CatchinWaves', 912),
+            'surfer': () => this.triggerGame('catchinWaves', 912),
             'central': () => this.triggerRoom(10, 263, 672),
             'port': () => this.triggerRoom(30, 555, 421),
         }

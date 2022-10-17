@@ -16,6 +16,11 @@ export default class PenguinLoader {
         }
     }
 
+    capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+      }
+      
+
     loadPenguin(penguin) {
         this.ploader = new PuffleLoader(penguin)
         this.addPenguin(penguin)
@@ -44,11 +49,12 @@ export default class PenguinLoader {
         let x = penguin.x
         let y = penguin.y + 40
         if (penguin.username_approved == 1) {
-            var nameTag = penguin.room.add.text(x, y, penguin.username, this.nameStyle)
+            var username = this.capitalizeFirstLetter(penguin.username)
+        } else if (penguin.username_approved != 1) {
+            var username = "P" + penguin.id
         }
-        if (penguin.username_approved != 1) {
-            var nameTag = penguin.room.add.text(x, y, "P" + penguin.id, this.nameStyle)
-        }
+
+        var nameTag = penguin.room.add.text(x, y, username, this.nameStyle)
 
         nameTag.setOrigin(0.5)
         nameTag.depth = penguin.depth + 2000 // Keep nametag above everything else

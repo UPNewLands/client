@@ -82,7 +82,6 @@
                     "components": [
                         "SimpleButton"
                     ],
-                    "SimpleButton.callback": "() => this.interface.prompt.showItem(37375)",
                     "texture": {
                         "key": "newinterface",
                         "frame": "card2"
@@ -94,7 +93,10 @@
                     "type": "Image",
                     "id": "9d3edb99-499a-49cd-b5f0-f3e9a000b0fa",
                     "label": "card3",
-                    "components": [],
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(37376)",
                     "texture": {
                         "key": "newinterface",
                         "frame": "card3"
@@ -123,34 +125,34 @@
                     "type": "Image",
                     "id": "82b0d7bb-44e0-490f-8a10-991628a57c5f",
                     "label": "item2",
-                    "components": [
-                        "Button"
-                    ],
-                    "Button.spriteName": "item2",
-                    "Button.callback": "() => this.interface.prompt.showItem(37375)",
+                    "components": [],
                     "texture": {
                         "key": "newinterface",
                         "frame": "item2"
                     },
                     "x": 527,
-                    "y": 506
-                },
-                {
-                    "type": "Image",
-                    "id": "237e47a4-2f6e-4587-a64c-413afcb48ec2",
-                    "label": "item3",
-                    "components": [],
-                    "texture": {
-                        "key": "newinterface",
-                        "frame": "item3"
-                    },
-                    "x": 799,
-                    "y": 273,
+                    "y": 506,
                     "alpha": 0.5,
                     "alphaTopLeft": 0.5,
                     "alphaTopRight": 0.5,
                     "alphaBottomLeft": 0.5,
                     "alphaBottomRight": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "237e47a4-2f6e-4587-a64c-413afcb48ec2",
+                    "label": "item3",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "item3",
+                    "Button.callback": "() => this.interface.prompt.showItem(37376)",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "item3"
+                    },
+                    "x": 799,
+                    "y": 273
                 },
                 {
                     "type": "Image",
