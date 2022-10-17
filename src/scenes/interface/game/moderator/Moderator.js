@@ -2,8 +2,6 @@ import BaseContainer from '@scenes/base/BaseContainer'
 
 import { Button, Interactive, NineSlice, SimpleButton } from '@components/components'
 
-import TextInput from '@engine/interface/text/TextInput'
-
 
 /* START OF COMPILED CODE */
 
@@ -733,12 +731,12 @@ export default class Moderator extends BaseContainer {
 
     load() {
         this.network.send('get_unverified_users')
-        var searchbar = document.getElementById("search")
-        searchbar.style.visibility = 'visible'
     }
 
     showUsers(users) {
         this.visible = true;
+        this.searchbar = document.getElementById("search")
+        this.searchbar.style.visibility = 'visible'
         this.currentlyHandling = 0
         if (users[0] == undefined) {
             this.player1.visible = false
@@ -826,8 +824,7 @@ export default class Moderator extends BaseContainer {
 
     close(){
         this.visible = false
-        var searchbar = document.getElementById("search")
-        searchbar.style.visibility = 'hidden'
+        this.searchbar.style.visibility = 'hidden'
     }
 
     /* END-USER-CODE */
