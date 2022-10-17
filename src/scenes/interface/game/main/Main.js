@@ -930,15 +930,13 @@ export default class Main extends BaseScene {
     }
 
 
-    checkCharacters(str) {
-        if(/[^0-9a-zñáéíóúü]/i.test(str)) {return true;}
-        return false
-    }
     onChatSend() {
         let text = this.chatInput.text
         text = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
-        console.log(this.checkCharacters(text))
-        if (this.checkCharacters(text) !== true) {return}
+        text = text.replace(/[^¡!¿?-_/.,0-9a-zñáéíóúüçöêôîęėēįīºõøœōūâ|ªãåąæāÚÜÓÁÉÍÑÓûïëä ]+/g,"");
+        text = text.replace("   ", "")
+        console.log(text)
+        
         if (text.replace(" ", "").length < 1) return;
 
         this.chatInput.clearText()
