@@ -416,7 +416,7 @@ export default class ModActions extends BaseContainer {
 
     handleAddCoins(){
         let coins = this.addcoins.value.toString()
-        this.network.send('add_user_coins', { id: this.id, coins: coins })
+        this.network.send('add_user_coins', { id: this.id, coins: parseInt(coins) })
         this.show()
     }
 

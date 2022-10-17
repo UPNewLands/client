@@ -751,7 +751,7 @@ export default class Main extends BaseScene {
 
         this.events.on('sleep', this.onSleep, this)
 
-        if (this.world.client.penguin.rank == 5){
+        if (this.world.client.penguin.rank > 4){
             this.log.visible = true
         }
 
