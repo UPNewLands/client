@@ -28,7 +28,7 @@
         }
         
         function checkALT($as) {
-            $statement = $this->db->prepare("SELECT `as` FROM users WHERE `as` = ?");
+            $statement = $this->db->prepare("SELECT `asn` FROM users WHERE `asn` = ?");
             $statement->bind_param('s', $as);
             $statement->execute();
 
