@@ -56,12 +56,14 @@
 			
         }
 
-        function insertUser($username, $email, $password, $as) {
-            if ($this->userExists($username)) {
+        function insertUser($name, $email, $password, $as) {
+            if ($this->userExists($name)) {
                 $this->dieWithMessage('username', 'That username is already taken.');
             }
 
             $password = $this->hashPassword($password);
+		
+	    $username = strtolower($name);
 
             $statement = $this->db->prepare('INSERT INTO users (username, email, password, as) VALUES (?, ?, ?, ?)');
             $statement->bind_param('ssss', $username, $email, $password, $as);
