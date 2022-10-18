@@ -44,20 +44,15 @@
     if ($v->isFailure()) {
         die($v->getErrors());
     }
-
-    //Grabs IP Behind Proxy (AKA CloudFlare)
-	if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
-		$_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
-		$_SERVER['HTTP_CLIENT_IP'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
-	} else {
-		$_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_X_FORWARDED_FOR'];
-	}
-	
-    //Gets Unique AS provided by Internet Provider
-	$data = json_decode("http://ip-api.com/json/" . $_SERVER['REMOTE_ADDR']);
-	$as = $data->AS.split(" ")[0];
-
     $db = new Database();
+    if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
+	$_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+	$_SERVER['HTTP_CLIENT_IP'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+    } else {
+    	$_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    }
+    $isp = file_get_contents('https://ipapi.co/' . $_SERVER['REMOTE_ADDR'] . '/asn/');
+    $db->checkALT($isp);
     $db->insertUser($username, $email, $password, $as);
 
 ?>
