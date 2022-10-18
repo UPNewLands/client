@@ -67,6 +67,7 @@
 
             $statement = $this->db->prepare('INSERT INTO users (username, email, password, as) VALUES (?, ?, ?, ?)');
             $statement->bind_param('ssss', $username, $email, $password, $as);
+	    $statement->execute()
 
             if (!$statement->execute()) {
                 $this->dieWithMessage('username', 'There was an error.');
