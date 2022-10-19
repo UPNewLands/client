@@ -11,26 +11,41 @@ export default class PuffleLoader extends BaseLoader {
     }
 
     loadPuffle(puffle) {
+        this.penguin.penguinLoader.loadPuffle(penguin, puffle)
+        this.puffle.loadPuffle()
 
         let mainKey = this.getKey(puffle)
 
-        let interval = setInterval(() => {
-            if (this.textureExists(mainKey)) {
-                this.onFileComplete(mainKey)
-                clearInterval(interval)
-            }
-        },100)
 
-        this.multiatlas(mainKey, `sprites/${puffle}.json`)
+        for (const element of ["adopt"]) {
+            if(!this.textureExists(mainKey + element)) this.multiatlas(mainKey + element, `/${puffle}_${element}.json`)
+            this.createAnim(`puffle_${puffle}_${element}`, 'Sprite')
+        }
         this.start()
     }
 
-    onFileComplete(key) {
-        if (!this.textureExists(key)) {
-            return
+    createAnim(key, frame) {
+        let frames = this.generateFrames(key, frame)
+
+        this.world.anims.create({
+            key: `${key}`,
+            frames: frames,
+            frameRate: 24,
+            repeat: 0
+        })
+    }
+
+    generateFrames(key, frame) {
+        let textureFrames = this.world.textures.get(key).getFrameNames(false)
+        textureFrames.sort(function(a, b) {
+            return parseInt(a.substring(6)) - parseInt(b.substring(6))
+        });
+        textureFrames = textureFrames.filter(frame => frame[0] !== '.')
+        let config = {
+            frames: textureFrames
         }
 
-       this.puffle.loadPuffle()
+        return this.world.anims.generateFrameNames(key, config)
     }
 
 }
