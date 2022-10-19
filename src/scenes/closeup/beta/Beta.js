@@ -71,15 +71,15 @@ export default class Beta extends BaseContainer {
 
         // item4
         const item4 = scene.add.image(1090, 409, "newinterface", "item4");
+        item4.alpha = 0.5;
+        item4.alphaTopLeft = 0.5;
+        item4.alphaTopRight = 0.5;
+        item4.alphaBottomLeft = 0.5;
+        item4.alphaBottomRight = 0.5;
         this.add(item4);
 
         // item5
         const item5 = scene.add.image(1354, 358, "newinterface", "item5");
-        item5.alpha = 0.5;
-        item5.alphaTopLeft = 0.5;
-        item5.alphaTopRight = 0.5;
-        item5.alphaBottomLeft = 0.5;
-        item5.alphaBottomRight = 0.5;
         this.add(item5);
 
         // block (components)
@@ -89,10 +89,10 @@ export default class Beta extends BaseContainer {
         const closepanelSimpleButton = new SimpleButton(closepanel);
         closepanelSimpleButton.callback = () => { this.visible = false };
 
-        // item4 (components)
-        const item4Button = new Button(item4);
-        item4Button.spriteName = "item4";
-        item4Button.callback = () => this.interface.prompt.showItem(37377);
+        // item5 (components)
+        const item5Button = new Button(item5);
+        item5Button.spriteName = "item5";
+        item5Button.callback = () => this.interface.prompt.showItem(37378);
 
         /* START-USER-CTR-CODE */
         // Write your code here.

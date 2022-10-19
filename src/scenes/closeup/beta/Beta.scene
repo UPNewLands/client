@@ -154,34 +154,34 @@
                     "type": "Image",
                     "id": "451dbdfc-63cf-4783-a825-0476aec5a4d9",
                     "label": "item4",
-                    "components": [
-                        "Button"
-                    ],
-                    "Button.spriteName": "item4",
-                    "Button.callback": "() => this.interface.prompt.showItem(37377)",
+                    "components": [],
                     "texture": {
                         "key": "newinterface",
                         "frame": "item4"
                     },
                     "x": 1090,
-                    "y": 409
-                },
-                {
-                    "type": "Image",
-                    "id": "74564615-47f8-44e2-ac2e-aad4424f953a",
-                    "label": "item5",
-                    "components": [],
-                    "texture": {
-                        "key": "newinterface",
-                        "frame": "item5"
-                    },
-                    "x": 1354,
-                    "y": 358,
+                    "y": 409,
                     "alpha": 0.5,
                     "alphaTopLeft": 0.5,
                     "alphaTopRight": 0.5,
                     "alphaBottomLeft": 0.5,
                     "alphaBottomRight": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "74564615-47f8-44e2-ac2e-aad4424f953a",
+                    "label": "item5",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "item5",
+                    "Button.callback": "() => this.interface.prompt.showItem(37378)",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "item5"
+                    },
+                    "x": 1354,
+                    "y": 358
                 }
             ]
         }
