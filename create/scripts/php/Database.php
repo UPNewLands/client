@@ -39,20 +39,20 @@
         }
 	    
 	function checkCode($code) {
-            $statement = $this->db->prepare('SELECT * FROM `redeem` WHERE `code` = ? LIMIT 1');
+            $statement = $this->db->prepare('SELECT reward FROM redeem WHERE code = ? LIMIT 1');
             $statement->bind_param('s', $code);
             $statement->execute();
             $result = $statement->get_result();
 
             if (mysqli_num_rows($result) == 0) {
-                $this->dieWithMessage('code', 'Invalid code');
+                die('"code": "invalid code"');
             }
-			if (!$statement->execute()) {
-                $this->dieWithMessage('code', 'Code not found!');
+	    if (!$statement->execute()) {
+                die('"code": "Servers down?"');
             }
-			foreach ($result as $row) {
-				$this->dieWithMessage('code', $row['code']);
-			}
+	    foreach ($result as $row) {
+		$this->dieWithMessage('item', $row['reward']);
+	    }
 			
         }
 
