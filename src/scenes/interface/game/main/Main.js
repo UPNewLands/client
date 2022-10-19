@@ -549,6 +549,9 @@ export default class Main extends BaseScene {
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];
 
+        // s_mbolo_23 (components)
+        new Interactive(s_mbolo_23);
+
         // chat_box (components)
         new Interactive(chat_box);
 
@@ -935,7 +938,7 @@ export default class Main extends BaseScene {
         text = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
         text = text.replace(/[^¡!¿?-_/.,0-9a-zñáéíóúüçöêôîęėēįīºõøœōūâ|ªãåąæāÚÜÓÁÉÍÑÓûïëä ]+/g,"");
         text = text.replace("   ", "")
-        
+
         if (text.replace(" ", "").length < 1) return;
 
         this.chatInput.clearText()

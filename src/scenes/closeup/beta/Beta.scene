@@ -182,6 +182,31 @@
                     },
                     "x": 1354,
                     "y": 358
+                },
+                {
+                    "type": "Sprite",
+                    "id": "98978f98-37ef-49a1-b32f-755409c5185c",
+                    "label": "stars0001",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.key": "stars",
+                    "Animation.end": 50,
+                    "Animation.autoPlay": false,
+                    "Animation.onHover": true,
+                    "SimpleButton.callback": "() => this.interface.prompt.showFurniture(12157)",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "stars0001"
+                    },
+                    "x": 1390,
+                    "y": 671,
+                    "tintTopLeft": "#a534d1",
+                    "tintTopRight": "#a534d1",
+                    "tintBottomLeft": "#a534d1",
+                    "tintBottomRight": "#a534d1",
+                    "tintFill": true
                 }
             ]
         }

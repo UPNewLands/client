@@ -7,6 +7,7 @@ import BaseContainer from "../../base/BaseContainer";
 import Interactive from "../../components/Interactive";
 import SimpleButton from "../../components/SimpleButton";
 import Button from "../../components/Button";
+import Animation from "../../components/Animation";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -82,6 +83,15 @@ export default class Beta extends BaseContainer {
         const item5 = scene.add.image(1354, 358, "newinterface", "item5");
         this.add(item5);
 
+        // stars0001
+        const stars0001 = scene.add.sprite(1390, 671, "newinterface", "stars0001");
+        stars0001.tintFill = true;
+        stars0001.tintTopLeft = 10826961;
+        stars0001.tintTopRight = 10826961;
+        stars0001.tintBottomLeft = 10826961;
+        stars0001.tintBottomRight = 10826961;
+        this.add(stars0001);
+
         // block (components)
         new Interactive(block);
 
@@ -93,6 +103,15 @@ export default class Beta extends BaseContainer {
         const item5Button = new Button(item5);
         item5Button.spriteName = "item5";
         item5Button.callback = () => this.interface.prompt.showItem(37378);
+
+        // stars0001 (components)
+        const stars0001Animation = new Animation(stars0001);
+        stars0001Animation.key = "stars";
+        stars0001Animation.end = 50;
+        stars0001Animation.autoPlay = false;
+        stars0001Animation.onHover = true;
+        const stars0001SimpleButton = new SimpleButton(stars0001);
+        stars0001SimpleButton.callback = () => this.interface.prompt.showFurniture(12157);
 
         /* START-USER-CTR-CODE */
         // Write your code here.
