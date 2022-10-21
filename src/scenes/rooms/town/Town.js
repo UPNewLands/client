@@ -10,9 +10,7 @@ export default class Town extends RoomScene {
     constructor() {
         super("Town");
 
-        /** @type {Phaser.GameObjects.Sprite} */
-        this.canopy_lights;
-        /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite>} */
+        /** @type {Phaser.GameObjects.Image[]} */
         this.sort;
 
 
@@ -58,15 +56,6 @@ export default class Town extends RoomScene {
         // s_mbolo_24
         this.add.image(208, 951, "town", "Símbolo 24");
 
-        // canopy_lights
-        const canopy_lights = this.add.sprite(648, 548, "town", "canopy_lights0001");
-        canopy_lights.setOrigin(0, 7.142857142857143);
-        canopy_lights.visible = false;
-
-        // canopy_stars
-        const canopy_stars = this.add.image(647, 548, "town", "canopy_stars");
-        canopy_stars.setOrigin(0, 7.142857142857143);
-
         // s_mbolo_25
         this.add.image(760, 595, "town", "Símbolo 25");
 
@@ -81,9 +70,6 @@ export default class Town extends RoomScene {
 
         // s_mbolo_34
         this.add.image(609, 95, "town", "Símbolo 34");
-
-        // betabottom
-        this.add.image(630, 130, "town", "betabottom");
 
         // s_mbolo_44
         this.add.image(1050, 746, "town", "Símbolo 44");
@@ -105,6 +91,9 @@ export default class Town extends RoomScene {
 
         // s_mbolo_46
         this.add.image(1261, 773, "town", "Símbolo 46");
+
+        // symbol_1
+        this.add.image(140, 304, "town", "Symbol 90");
 
         // coffee
         this.add.image(388, 225, "town", "coffee");
@@ -133,9 +122,6 @@ export default class Town extends RoomScene {
         // s_mbolo_51
         this.add.image(1465, 287, "town", "Símbolo 51");
 
-        // hat
-        this.add.image(951, 198, "town", "hat");
-
         // s_mbolo_2
         this.add.image(1546, 627, "town", "Símbolo 48");
 
@@ -145,30 +131,32 @@ export default class Town extends RoomScene {
         // sprite_470
         const sprite_470 = this.add.image(1010, 760, "town", "sprite 470");
 
-        // s_mbolo_8
-        this.add.image(471, 495, "town", "Símbolo 8");
-
-        // s_mbolo_8_copia
-        this.add.image(1107, 318, "town", "Símbolo 8 copia");
-
         // symbol_281
         this.add.image(1368, 998, "town", "Symbol 281");
 
         // sprite_232
         const sprite_232 = this.add.image(1286, 650, "town", "sprite 232");
 
-        // betabottom_1
-        this.add.image(1812, 193, "town", "betabottom");
+        // s_mbolo_11
+        const s_mbolo_11 = this.add.image(1333.1419950240486, 279.9713012189646, "town", "Símbolo 11");
+        s_mbolo_11.scaleX = 1.5;
+        s_mbolo_11.scaleY = 1.5;
+        s_mbolo_11.setOrigin(0.7266855911925535, 0.9358448631288497);
+        s_mbolo_11.flipX = true;
 
-        // s_mbolo_16
-        const s_mbolo_16 = this.add.image(195.1824474294629, 802.9202184915858, "town", "Símbolo 16");
-        s_mbolo_16.setOrigin(0.03773845376972135, 0.9728521561480952);
+        // bottom
+        this.add.image(1328, 309, "town", "bottom");
 
         // s_mbolo_13
-        this.add.image(1467, 248, "town", "Símbolo 13");
+        const s_mbolo_13 = this.add.image(1351.0913287599444, 298.99145460279135, "town", "Símbolo 13");
+        s_mbolo_13.setOrigin(0.04004497936044132, 0.6895592724136329);
 
         // symbol_94
         this.add.image(6, 424, "town", "Symbol 94");
+
+        // signs
+        const signs = this.add.image(221.48559018866226, 541.1685743392318, "town", "signs");
+        signs.setOrigin(0.6849233819410655, 0.5244382593905437);
 
         // symbol_90
         this.add.image(32, 563, "town", "Symbol 90");
@@ -186,14 +174,7 @@ export default class Town extends RoomScene {
         this.add.image(1285, 746, "town", "Symbol 132");
 
         // symbol_394
-        const symbol_394 = this.add.image(557, 865, "town", "Symbol 394");
-
-        // balloons
-        const balloons = this.add.image(772.0382807855852, 982.3307164736958, "town", "balloons");
-        balloons.setOrigin(0.4926162063666352, 0.9881816031810594);
-
-        // betatop
-        this.add.image(742, 180, "town", "betatop");
+        const symbol_394 = this.add.image(557, 833, "town", "Symbol 394");
 
         // s_mbolo_9
         this.add.image(1029, 174, "town", "Símbolo 9");
@@ -208,15 +189,7 @@ export default class Town extends RoomScene {
         this.add.image(959, 295, "town", "Symbol 158");
 
         // lists
-        const sort = [canopy_stars, canopy_lights, s_mbolo_16, balloons, sprite_470, sprite_232, symbol_394];
-
-        // canopy_lights (components)
-        const canopy_lightsAnimation = new Animation(canopy_lights);
-        canopy_lightsAnimation.key = "canopy_lights";
-        canopy_lightsAnimation.end = 57;
-        canopy_lightsAnimation.autoPlay = false;
-        canopy_lightsAnimation.showOnStart = true;
-        canopy_lightsAnimation.hideOnComplete = true;
+        const sort = [sprite_470, sprite_232, symbol_394, s_mbolo_13, signs, s_mbolo_11];
 
         // shopdoor (components)
         const shopdoorButton = new Button(shopdoor);
@@ -246,7 +219,6 @@ export default class Town extends RoomScene {
         coffeedoorMoveTo.x = 331;
         coffeedoorMoveTo.y = 356;
 
-        this.canopy_lights = canopy_lights;
         this.sort = sort;
 
         this.events.emit("scene-awake");

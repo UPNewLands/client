@@ -137,6 +137,12 @@ export default class Shop extends RoomScene {
         // lists
         const sort = [catalog, fg, squareStool, circularStool, door, spinner, deskChair, chairArm_1, chairBody_1, chairArm, chairBody, speakers, rail, desk_container];
 
+        // chest (components)
+        const chestButton = new Button(chest);
+        chestButton.spriteName = "chest";
+        chestButton.callback = () => this.interface.loadExternal('Unlock');
+        chestButton.activeFrame = false;
+
         // register (components)
         const registerButton = new Button(register);
         registerButton.spriteName = "register";

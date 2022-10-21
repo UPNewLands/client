@@ -152,9 +152,6 @@ export default class Plaza extends RoomScene {
         sprite_331.scaleY = 0.8;
         sprite_331.setOrigin(0.5167236450692404, 0.3950041693445508);
 
-        // s_mbolo_78
-        this.add.image(667, 256, "plaza", "Símbolo 78");
-
         // back
         this.add.image(373, 179, "plaza", "back");
 

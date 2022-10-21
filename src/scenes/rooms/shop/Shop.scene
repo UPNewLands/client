@@ -146,7 +146,12 @@
                     "id": "95dca7d3-d9f2-4c70-b3f7-f49a4ada0c8a",
                     "label": "chest",
                     "scope": "CLASS",
-                    "components": [],
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "chest",
+                    "Button.callback": "() => this.interface.loadExternal('Unlock')",
+                    "Button.activeFrame": false,
                     "texture": {
                         "key": "clothesShop-new",
                         "frame": "chest"

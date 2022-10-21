@@ -1,0 +1,438 @@
+{
+    "id": "959e6f87-080d-45b0-a6d6-53cb44d687a0",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "Book",
+        "preloadPackFiles": [
+            "www/assets/media/interface/catalogs/unlock/unlock-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Unlock",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "ba43c5e1-1e12-4cdd-81b4-6e0672de6aaa",
+            "label": "block",
+            "components": [
+                "Interactive"
+            ],
+            "x": 825,
+            "y": 500,
+            "isFilled": true,
+            "fillColor": "#000000",
+            "fillAlpha": 0.2,
+            "width": 1650,
+            "height": 1000
+        },
+        {
+            "type": "Container",
+            "id": "8f2ca7d8-e657-44a2-a471-70d7c15ec123",
+            "label": "page2",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "95e12080-f430-4b10-9c13-57becee49909",
+                    "label": "rectangle_1",
+                    "components": [],
+                    "x": 764,
+                    "y": 487,
+                    "scaleX": 11.909224665264004,
+                    "scaleY": 7.484623172550488,
+                    "isFilled": true,
+                    "fillColor": "#1363c4",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "fd1c0dd1-7715-48b8-8bf5-2f38b1246394",
+                    "label": "symbol",
+                    "components": [],
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "Symbol 4"
+                    },
+                    "x": 791,
+                    "y": 500
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d50e2b26-65d6-480c-866b-7fdc5b95d3b8",
+                    "label": "chest",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "chest",
+                    "Animation.end": 57,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "chest0001"
+                    },
+                    "x": 791,
+                    "y": 423,
+                    "originX": 0.484,
+                    "originY": 0.523
+                },
+                {
+                    "type": "Image",
+                    "id": "befadca4-7c82-4eae-847a-a928ffa37e8f",
+                    "label": "close_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close-button",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "close-button"
+                    },
+                    "x": 1463,
+                    "y": 59
+                },
+                {
+                    "type": "Image",
+                    "id": "298f4dc0-c425-4e5e-95f7-4313aa2bd9b3",
+                    "label": "next_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "next-button",
+                    "Button.callback": "() => this.back()",
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "next-button"
+                    },
+                    "x": 793,
+                    "y": 839,
+                    "scaleX": 0.7751291662326959,
+                    "scaleY": 0.547162044689459
+                },
+                {
+                    "type": "Text",
+                    "id": "05e7b83c-b5d5-4be9-a059-f7ea83bb245c",
+                    "label": "text",
+                    "components": [],
+                    "x": 793,
+                    "y": 839,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Back",
+                    "align": "center",
+                    "fontFamily": "Calibri"
+                },
+                {
+                    "type": "Container",
+                    "id": "4ec80bab-b92a-4071-bb4c-76f1ff6f5051",
+                    "label": "chest-buttons",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -34,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "290f2747-6dcc-48e3-918e-00ff40a1610c",
+                            "label": "symbol_1",
+                            "components": [],
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "Symbol 173"
+                            },
+                            "x": 825,
+                            "y": 698
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a623382a-67b4-42be-ab7d-b9d615151a28",
+                            "label": "unlock_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "unlock-button",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "unlock-button"
+                            },
+                            "x": 974,
+                            "y": 535
+                        },
+                        {
+                            "type": "Image",
+                            "id": "226ce349-cdfa-498e-9af7-777afe842b61",
+                            "label": "book_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "book-button",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "book-button"
+                            },
+                            "x": 676,
+                            "y": 535
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4c4f6ae0-8a23-4e22-bdf6-322e2085c5ad",
+                            "label": "book_text_1",
+                            "components": [],
+                            "x": 703,
+                            "y": 538,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "I've got a Book",
+                            "fontFamily": "Calibri",
+                            "fontSize": "26px"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c74d5cbb-47db-40d4-a203-8334db0042f6",
+                            "label": "unlock_text_2",
+                            "components": [],
+                            "x": 986,
+                            "y": 537,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "I've got a Code",
+                            "fontFamily": "Calibri",
+                            "fontSize": "26px"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "009548f2-99d5-4644-ac55-16fbd972977a",
+                            "label": "item_text",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 825,
+                            "y": 628,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Enter your code! \nMake sure you enter it exactly as it appears.",
+                            "align": "center",
+                            "fontFamily": "Calibri",
+                            "fontSize": "26px"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "822e32c5-33ab-459b-9b28-b90ca746dc46",
+                            "label": "next_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "next-button",
+                            "Button.callback": "() => this.onSubmit()",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "next-button"
+                            },
+                            "x": 825,
+                            "y": 778
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ca5a9ce0-76ac-468d-ab19-8f145e7a74ae",
+                            "label": "text_2",
+                            "components": [],
+                            "x": 825,
+                            "y": 778,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Next",
+                            "align": "center",
+                            "fontFamily": "Calibri",
+                            "fontSize": "26px"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1f916146-3dcf-43e6-9335-507eeb697f19",
+                            "label": "field",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "input"
+                            },
+                            "x": 825,
+                            "y": 706
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "e231458c-5734-4365-8af4-9c50020057af",
+            "label": "page1",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "466dc420-a4e7-45f3-aa2a-242ec22657f0",
+                    "label": "rectangle",
+                    "components": [],
+                    "x": 760,
+                    "y": 482,
+                    "scaleX": 11.909224665264004,
+                    "scaleY": 7.484623172550488,
+                    "isFilled": true,
+                    "fillColor": "#1363c4",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "a30cfd76-33e7-4289-bb11-84da832a0bc9",
+                    "label": "symbol_4",
+                    "components": [],
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "Symbol 4"
+                    },
+                    "x": 791,
+                    "y": 500
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4a6237fd-f27e-493e-b865-e6194c883857",
+                    "label": "chest-1",
+                    "components": [],
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "chest0001"
+                    },
+                    "x": 791,
+                    "y": 423,
+                    "originX": 0.484,
+                    "originY": 0.523
+                },
+                {
+                    "type": "Image",
+                    "id": "de4f3ac0-d01f-49b8-abbf-d8cc3e64e871",
+                    "label": "symbol_173",
+                    "components": [],
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "Symbol 173"
+                    },
+                    "x": 791,
+                    "y": 698
+                },
+                {
+                    "type": "Image",
+                    "id": "f496c549-5c6b-4339-bbe8-5a3d6b74f822",
+                    "label": "unlock_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "unlock-button",
+                    "Button.callback": "() => this.createCode()",
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "unlock-button"
+                    },
+                    "x": 940,
+                    "y": 535
+                },
+                {
+                    "type": "Image",
+                    "id": "ca75c481-6029-454e-8d49-9c9e896a5baa",
+                    "label": "book_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "book-button",
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "book-button"
+                    },
+                    "x": 642,
+                    "y": 535
+                },
+                {
+                    "type": "Text",
+                    "id": "6c150d12-f9bb-465b-8089-cc2ba4ef2058",
+                    "label": "book_text",
+                    "components": [],
+                    "x": 669,
+                    "y": 538,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "I've got a Book",
+                    "fontFamily": "Calibri",
+                    "fontSize": "26px"
+                },
+                {
+                    "type": "Text",
+                    "id": "3a55d654-d3ec-48df-8e7b-8779614b73cd",
+                    "label": "unlock_text",
+                    "components": [],
+                    "x": 952,
+                    "y": 537,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "I've got a Code",
+                    "fontFamily": "Calibri",
+                    "fontSize": "26px"
+                },
+                {
+                    "type": "Text",
+                    "id": "8f4fdaba-31bc-45da-ae40-e35dd6c2f3a0",
+                    "label": "unlock_text_1",
+                    "components": [],
+                    "x": 807,
+                    "y": 628,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Unlock your items. Choose an option.",
+                    "fontFamily": "Calibri",
+                    "fontSize": "26px"
+                },
+                {
+                    "type": "Image",
+                    "id": "f56ccf5e-82ae-4e58-b61b-b118a96a1cbe",
+                    "label": "close_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close-button",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "close-button"
+                    },
+                    "x": 1463,
+                    "y": 59
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "bc5b19b0-ac95-48f2-925c-c45e72108a39",
+            "label": "pages",
+            "objectIds": [
+                "e231458c-5734-4365-8af4-9c50020057af",
+                "8f2ca7d8-e657-44a2-a471-70d7c15ec123"
+            ]
+        }
+    ]
+}

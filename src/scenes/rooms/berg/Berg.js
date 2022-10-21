@@ -4,8 +4,8 @@
 /* START OF COMPILED CODE */
 
 import RoomScene from "../RoomScene";
-import Animation from "../../components/Animation";
 import SimpleButton from "../../components/SimpleButton";
+import Animation from "../../components/Animation";
 import MoveTo from "../../components/MoveTo";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
@@ -15,7 +15,7 @@ export default class Berg extends RoomScene {
     constructor() {
         super("Berg");
 
-        /** @type {Phaser.GameObjects.Image[]} */
+        /** @type {Array<any>} */
         this.sort;
 
 
@@ -49,15 +49,6 @@ export default class Berg extends RoomScene {
         // s_mbolo_10
         this.add.image(704, 623, "iceberg", "Símbolo 10");
 
-        // booom0001
-        const booom0001 = this.add.sprite(626, 245, "iceberg", "booom0001");
-
-        // iceberg
-        this.add.image(670, 476, "iceberg", "iceberg");
-
-        // platform0001
-        const platform0001 = this.add.sprite(627, 496, "iceberg", "platform0001");
-
         // aqua0001
         const aqua0001 = this.add.sprite(1265, 319, "berg", "aqua0001");
         aqua0001.setOrigin(0.5, 0.4014336917562724);
@@ -65,29 +56,11 @@ export default class Berg extends RoomScene {
         // snow
         this.add.image(638, 596, "iceberg", "snow");
 
-        // lights0001
-        const lights0001 = this.add.sprite(715, 679, "iceberg", "lights0001");
-
-        // s_mbolo_9
-        const s_mbolo_9 = this.add.image(588.1650465735426, 419.5404346863972, "iceberg", "Símbolo 9");
-        s_mbolo_9.setOrigin(0.5115199304673699, 0.8145164395745075);
-
-        // s_mbolo_91
-        const s_mbolo_91 = this.add.image(575.8624611887145, 660.4028958751118, "iceberg", "Símbolo 91");
-        s_mbolo_91.setOrigin(0.4874379940380601, 0.8541195064216156);
+        // shape_16
+        this.add.image(670, 524, "iceberg", "shape 16");
 
         // lists
-        const sort = [s_mbolo_91, s_mbolo_9];
-
-        // booom0001 (components)
-        const booom0001Animation = new Animation(booom0001);
-        booom0001Animation.key = "booom";
-        booom0001Animation.end = 72;
-
-        // platform0001 (components)
-        const platform0001Animation = new Animation(platform0001);
-        platform0001Animation.key = "platform";
-        platform0001Animation.end = 72;
+        const sort = [];
 
         // aqua0001 (components)
         new SimpleButton(aqua0001);
@@ -101,11 +74,6 @@ export default class Berg extends RoomScene {
         const aqua0001MoveTo = new MoveTo(aqua0001);
         aqua0001MoveTo.x = 1216;
         aqua0001MoveTo.y = 393;
-
-        // lights0001 (components)
-        const lights0001Animation = new Animation(lights0001);
-        lights0001Animation.key = "lights";
-        lights0001Animation.end = 96;
 
         this.sort = sort;
 

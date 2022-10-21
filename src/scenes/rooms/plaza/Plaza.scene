@@ -456,18 +456,6 @@
         },
         {
             "type": "Image",
-            "id": "444c6ed7-3ec3-41a8-8380-a272945b1351",
-            "label": "s_mbolo_78",
-            "components": [],
-            "texture": {
-                "key": "plaza",
-                "frame": "Símbolo 78"
-            },
-            "x": 667,
-            "y": 256
-        },
-        {
-            "type": "Image",
             "id": "222aef97-f788-4d8e-a233-206bd656ef2c",
             "label": "back",
             "components": [],

@@ -23,7 +23,6 @@ import Manage from '../manage/Manage'
 import Prompt from '../prompt/Prompt'
 import Elevator from '../elevator/Elevator'
 import Cavepopup from '@scenes/popup/cavepoup/Cavepopup'
-import Beta from '@scenes/closeup/beta/Beta'
 import Rules from '@scenes/popup/rules/Rules'
 import Changelog from '@scenes/closeup/changelog/Changelog'
 import Telescope from '@scenes/closeup/telescope/Telescope'
@@ -158,8 +157,6 @@ export default class Main extends BaseScene {
         this.popup_items;
         /** @type {Phaser.GameObjects.Text} */
         this.popup_items_text;
-        /** @type {Beta} */
-        this.beta;
         /** @type {Changelog} */
         this.changelog;
         /** @type {Rules} */
@@ -463,9 +460,6 @@ export default class Main extends BaseScene {
         this.add.existing(cavepopup);
         cavepopup.visible = false;
 
-        // iconbeta
-        const iconbeta = this.add.image(1353, 70, "newinterface", "iconbeta");
-
         // log
         const log = this.add.image(68, 177, "newinterface", "log");
         log.scaleX = 0.5;
@@ -514,11 +508,6 @@ export default class Main extends BaseScene {
         popup_items_text.text = "####################\nHas been Unlocked";
         popup_items_text.setStyle({ "fontFamily": "Burbank Small", "fontSize": "42px" });
         popup_items.add(popup_items_text);
-
-        // beta
-        const beta = new Beta(this, -28, 104);
-        this.add.existing(beta);
-        beta.visible = false;
 
         // changelog
         const changelog = new Changelog(this, 504, 304);
@@ -656,12 +645,6 @@ export default class Main extends BaseScene {
         mapButton.spriteName = "map";
         mapButton.callback = () => this.map.visible = true;
 
-        // iconbeta (components)
-        const iconbetaButton = new Button(iconbeta);
-        iconbetaButton.spriteName = "iconbeta";
-        iconbetaButton.callback = () => this.beta.visible = true;
-        iconbetaButton.activeFrame = false;
-
         // log (components)
         const logButton = new Button(log);
         logButton.spriteName = "log";
@@ -726,7 +709,6 @@ export default class Main extends BaseScene {
         this.popup_coin_text = popup_coin_text;
         this.popup_items = popup_items;
         this.popup_items_text = popup_items_text;
-        this.beta = beta;
         this.changelog = changelog;
         this.rules = rules;
         this.modActions = modActions;
