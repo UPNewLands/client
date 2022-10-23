@@ -12,7 +12,7 @@
     $username = $v->name('username', 'Username')
         ->required()
         ->trim()
-        ->pattern('/[^A-Za-z0-9 ]/')
+        ->pattern('/[^A-Za-z ]/')
         ->string()
         ->length(4, 12)
         ->getField();
@@ -44,8 +44,15 @@
     if ($v->isFailure()) {
         die($v->getErrors());
     }
-
     $db = new Database();
-    $db->insertUser($username, $email, $password);
+    if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
+	$_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+	$_SERVER['HTTP_CLIENT_IP'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+    } else {
+    	$_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    }
+    $isp = file_get_contents('https://ipapi.co/' . $_SERVER['REMOTE_ADDR'] . '/asn/');
+    $db->checkALT($isp);
+    $db->insertUser($username, $email, $password, $as);
 
 ?>

@@ -6,12 +6,6 @@
         "javaScriptInitFieldsInConstructor": true,
         "exportClass": true,
         "autoImport": true,
-        "superClassName": "Book",
-        "preloadPackFiles": [
-            "www/assets/media/interface/catalogs/unlock/unlock-pack.json"
-        ],
-        "createMethodName": "_create",
-        "sceneKey": "Unlock",
         "borderWidth": 1520,
         "borderHeight": 960
     },

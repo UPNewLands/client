@@ -26,8 +26,38 @@
                 return true;
             }
         }
+        
+        function checkALT($as) {
+            $statement = $this->db->prepare("SELECT `asn` FROM users WHERE `asn` = ?");
+            $statement->bind_param('s', $as);
+            $statement->execute();
+
+            $result = $statement->get_result();
+			if (mysqli_num_rows($result) >= 3) {
+				$this->dieWithMessage('username', 'You can only create 3 accounts!');
+			}
+        }
+	    
+	function checkCode($code) {
+            $statement = $this->db->prepare('SELECT reward FROM redeem WHERE code = ? LIMIT 1');
+            $statement->bind_param('s', $code);
+            $statement->execute();
+            $result = $statement->get_result();
+
+            if (mysqli_num_rows($result) == 0) {
+                die('"code": "invalid code"');
+            }
+	    if (!$statement->execute()) {
+                die('"code": "Servers down?"');
+            }
+	    foreach ($result as $row) {
+		$this->dieWithMessage('item', $row['reward']);
+	    }
+			
+        }
 
         function insertUser($name, $email, $password) {
+
             if ($this->userExists($name)) {
                 $this->dieWithMessage('username', 'That username is already taken.');
             }

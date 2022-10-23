@@ -1,10 +1,7 @@
-# sorry for the latest commit lmao
+# Development Branch
 
-8/28
+10/15/2022
 
-things to fix
-- brown puffle crashes the game - Fixed, database issue.
-- the "P1" nickname - Fixed
-- puffle sometimes doesn't appear when you login - Fixed
-- penguin speed, make it less faster to give flash vibe - Fixed
-- minigames ain't working
+This branch is to show changes to the game incase something breaks and is to prevent security breaches being pushed to the production environment.
+
+- [x] Please look over changes and commits to ensure the changes are safe and not excessive.

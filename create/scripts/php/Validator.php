@@ -17,6 +17,14 @@
             'max' => '%s must not exceed %s characters.',
             'equals' => '%s does not match %s.'
         ];
+        function code($code, $label) {
+            $this->code = $code;
+            $this->label = $label;
+
+            $this->field = $_POST[$code] ?? '';
+
+            return $this;
+        }
 
         function name($name, $label) {
             $this->name = $name;
