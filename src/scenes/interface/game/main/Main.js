@@ -23,7 +23,6 @@ import Manage from '../manage/Manage'
 import Prompt from '../prompt/Prompt'
 import Elevator from '../elevator/Elevator'
 import Cavepopup from '@scenes/popup/cavepoup/Cavepopup'
-import Beta from '@scenes/closeup/beta/Beta'
 import Rules from '@scenes/popup/rules/Rules'
 import Changelog from '@scenes/closeup/changelog/Changelog'
 import Telescope from '@scenes/closeup/telescope/Telescope'
@@ -158,8 +157,6 @@ export default class Main extends BaseScene {
         this.popup_items;
         /** @type {Phaser.GameObjects.Text} */
         this.popup_items_text;
-        /** @type {Beta} */
-        this.beta;
         /** @type {Changelog} */
         this.changelog;
         /** @type {Rules} */
@@ -463,9 +460,6 @@ export default class Main extends BaseScene {
         this.add.existing(cavepopup);
         cavepopup.visible = false;
 
-        // iconbeta
-        const iconbeta = this.add.image(1353, 70, "newinterface", "iconbeta");
-
         // log
         const log = this.add.image(68, 177, "newinterface", "log");
         log.scaleX = 0.5;
@@ -515,11 +509,6 @@ export default class Main extends BaseScene {
         popup_items_text.setStyle({ "fontFamily": "Burbank Small", "fontSize": "42px" });
         popup_items.add(popup_items_text);
 
-        // beta
-        const beta = new Beta(this, -28, 104);
-        this.add.existing(beta);
-        beta.visible = false;
-
         // changelog
         const changelog = new Changelog(this, 504, 304);
         this.add.existing(changelog);
@@ -548,6 +537,9 @@ export default class Main extends BaseScene {
         // lists
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];
+
+        // s_mbolo_23 (components)
+        new Interactive(s_mbolo_23);
 
         // chat_box (components)
         new Interactive(chat_box);
@@ -653,12 +645,6 @@ export default class Main extends BaseScene {
         mapButton.spriteName = "map";
         mapButton.callback = () => this.map.visible = true;
 
-        // iconbeta (components)
-        const iconbetaButton = new Button(iconbeta);
-        iconbetaButton.spriteName = "iconbeta";
-        iconbetaButton.callback = () => this.beta.visible = true;
-        iconbetaButton.activeFrame = false;
-
         // log (components)
         const logButton = new Button(log);
         logButton.spriteName = "log";
@@ -723,7 +709,6 @@ export default class Main extends BaseScene {
         this.popup_coin_text = popup_coin_text;
         this.popup_items = popup_items;
         this.popup_items_text = popup_items_text;
-        this.beta = beta;
         this.changelog = changelog;
         this.rules = rules;
         this.modActions = modActions;
@@ -935,7 +920,7 @@ export default class Main extends BaseScene {
         text = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
         text = text.replace(/[^¡!¿?-_/.,0-9a-zñáéíóúüçöêôîęėēįīºõøœōūâ|ªãåąæāÚÜÓÁÉÍÑÓûïëä ]+/g,"");
         text = text.replace("   ", "")
-        
+
         if (text.replace(" ", "").length < 1) return;
 
         this.chatInput.clearText()

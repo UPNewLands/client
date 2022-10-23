@@ -7,6 +7,7 @@ import BaseContainer from "../../base/BaseContainer";
 import Interactive from "../../components/Interactive";
 import SimpleButton from "../../components/SimpleButton";
 import Button from "../../components/Button";
+import Animation from "../../components/Animation";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -62,6 +63,11 @@ export default class Beta extends BaseContainer {
 
         // item3
         const item3 = scene.add.image(799, 273, "newinterface", "item3");
+        item3.alpha = 0.5;
+        item3.alphaTopLeft = 0.5;
+        item3.alphaTopRight = 0.5;
+        item3.alphaBottomLeft = 0.5;
+        item3.alphaBottomRight = 0.5;
         this.add(item3);
 
         // item4
@@ -75,12 +81,16 @@ export default class Beta extends BaseContainer {
 
         // item5
         const item5 = scene.add.image(1354, 358, "newinterface", "item5");
-        item5.alpha = 0.5;
-        item5.alphaTopLeft = 0.5;
-        item5.alphaTopRight = 0.5;
-        item5.alphaBottomLeft = 0.5;
-        item5.alphaBottomRight = 0.5;
         this.add(item5);
+
+        // stars0001
+        const stars0001 = scene.add.sprite(1390, 671, "newinterface", "stars0001");
+        stars0001.tintFill = true;
+        stars0001.tintTopLeft = 10826961;
+        stars0001.tintTopRight = 10826961;
+        stars0001.tintBottomLeft = 10826961;
+        stars0001.tintBottomRight = 10826961;
+        this.add(stars0001);
 
         // block (components)
         new Interactive(block);
@@ -89,17 +99,19 @@ export default class Beta extends BaseContainer {
         const closepanelSimpleButton = new SimpleButton(closepanel);
         closepanelSimpleButton.callback = () => { this.visible = false };
 
-        // card2 (components)
-        new SimpleButton(card2);
+        // item5 (components)
+        const item5Button = new Button(item5);
+        item5Button.spriteName = "item5";
+        item5Button.callback = () => this.interface.prompt.showItem(37378);
 
-        // card3 (components)
-        const card3SimpleButton = new SimpleButton(card3);
-        card3SimpleButton.callback = () => this.interface.prompt.showItem(37376);
-
-        // item3 (components)
-        const item3Button = new Button(item3);
-        item3Button.spriteName = "item3";
-        item3Button.callback = () => this.interface.prompt.showItem(37376);
+        // stars0001 (components)
+        const stars0001Animation = new Animation(stars0001);
+        stars0001Animation.key = "stars";
+        stars0001Animation.end = 50;
+        stars0001Animation.autoPlay = false;
+        stars0001Animation.onHover = true;
+        const stars0001SimpleButton = new SimpleButton(stars0001);
+        stars0001SimpleButton.callback = () => this.interface.prompt.showFurniture(12157);
 
         /* START-USER-CTR-CODE */
         // Write your code here.

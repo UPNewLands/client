@@ -72,7 +72,7 @@
                     "x": -60,
                     "y": -149,
                     "text": "What's New",
-                    "fontFamily": "Burbank Regular Bold",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "100px",
                     "fontStyle": "bold"
                 },
@@ -83,7 +83,7 @@
                     "components": [],
                     "x": -47,
                     "y": -53,
-                    "text": "October 02, 2022",
+                    "text": "October 22, 2022",
                     "fontFamily": "Burbank Small",
                     "fontSize": "26px"
                 },
@@ -97,17 +97,6 @@
                     "text": "Follow us for more information",
                     "fontFamily": "Burbank Small",
                     "fontSize": "26px"
-                },
-                {
-                    "type": "Text",
-                    "id": "306c0267-7bed-4974-a128-78656ca35d14",
-                    "label": "text_4",
-                    "components": [],
-                    "x": 256,
-                    "y": 225,
-                    "text": "v1.0.0    2022-05-10\n\n- 🎉 first release!",
-                    "fontFamily": "Burbank Small",
-                    "fontSize": "25px"
                 }
             ]
         }

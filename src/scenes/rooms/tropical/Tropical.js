@@ -144,7 +144,7 @@ export default class Tropical extends RoomScene {
         this.add.image(511, 138, "tropical", "Symbol 105");
 
         // symbol_113
-        const symbol_113 = this.add.image(572, 108, "tropical", "Symbol 113");
+        this.add.image(572, 108, "tropical", "Symbol 113");
 
         // symbol_9
         const symbol_9 = this.add.image(446, 78, "tropical", "Symbol 127");
@@ -213,7 +213,7 @@ export default class Tropical extends RoomScene {
         symbol_1.setOrigin(0.9688794072817514, 0.5784261830549002);
 
         // symbol_190
-        this.add.image(496, 189, "tropical", "Symbol 190");
+        const symbol_190 = this.add.image(496, 189, "tropical", "Symbol 190");
 
         // symbol_344
         const symbol_344 = this.add.image(280.22225219557737, 358.4892245904664, "tropical", "Symbol 344");
@@ -438,10 +438,10 @@ export default class Tropical extends RoomScene {
         const symbol_37 = this.add.image(547, 466, "tropical", "Symbol 148");
 
         // waves
-        const waves = this.add.image(1239, 80, "tropical", "waves");
+        const waves = this.add.image(1333, 80, "tropical", "waves");
 
         // lists
-        const sort = [symbol_366, symbol_362, symbol_371, symbol_368, symbol_30, symbol_170, fire0001, symbol_335, symbol_337, symbol_37, symbol_36, symbol_1, symbol_344, symbol_148, symbol_346, sparkles0001, symbol_113, symbol_38];
+        const sort = [symbol_366, symbol_362, symbol_371, symbol_368, symbol_30, symbol_170, fire0001, symbol_335, symbol_337, symbol_37, symbol_36, symbol_1, symbol_344, symbol_148, symbol_346, sparkles0001, symbol_38, symbol_190];
 
         // wf100001 (components)
         const wf100001Animation = new Animation(wf100001);

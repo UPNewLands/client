@@ -79,9 +79,7 @@
                     "type": "Image",
                     "id": "b90fbe8d-11a5-48fa-8521-8f4afe5d0d21",
                     "label": "card2",
-                    "components": [
-                        "SimpleButton"
-                    ],
+                    "components": [],
                     "texture": {
                         "key": "newinterface",
                         "frame": "card2"
@@ -93,10 +91,7 @@
                     "type": "Image",
                     "id": "9d3edb99-499a-49cd-b5f0-f3e9a000b0fa",
                     "label": "card3",
-                    "components": [
-                        "SimpleButton"
-                    ],
-                    "SimpleButton.callback": "() => this.interface.prompt.showItem(37376)",
+                    "components": [],
                     "texture": {
                         "key": "newinterface",
                         "frame": "card3"
@@ -142,17 +137,18 @@
                     "type": "Image",
                     "id": "237e47a4-2f6e-4587-a64c-413afcb48ec2",
                     "label": "item3",
-                    "components": [
-                        "Button"
-                    ],
-                    "Button.spriteName": "item3",
-                    "Button.callback": "() => this.interface.prompt.showItem(37376)",
+                    "components": [],
                     "texture": {
                         "key": "newinterface",
                         "frame": "item3"
                     },
                     "x": 799,
-                    "y": 273
+                    "y": 273,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5
                 },
                 {
                     "type": "Image",
@@ -175,18 +171,42 @@
                     "type": "Image",
                     "id": "74564615-47f8-44e2-ac2e-aad4424f953a",
                     "label": "item5",
-                    "components": [],
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "item5",
+                    "Button.callback": "() => this.interface.prompt.showItem(37378)",
                     "texture": {
                         "key": "newinterface",
                         "frame": "item5"
                     },
                     "x": 1354,
-                    "y": 358,
-                    "alpha": 0.5,
-                    "alphaTopLeft": 0.5,
-                    "alphaTopRight": 0.5,
-                    "alphaBottomLeft": 0.5,
-                    "alphaBottomRight": 0.5
+                    "y": 358
+                },
+                {
+                    "type": "Sprite",
+                    "id": "98978f98-37ef-49a1-b32f-755409c5185c",
+                    "label": "stars0001",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.key": "stars",
+                    "Animation.end": 50,
+                    "Animation.autoPlay": false,
+                    "Animation.onHover": true,
+                    "SimpleButton.callback": "() => this.interface.prompt.showFurniture(12157)",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "stars0001"
+                    },
+                    "x": 1390,
+                    "y": 671,
+                    "tintTopLeft": "#a534d1",
+                    "tintTopRight": "#a534d1",
+                    "tintBottomLeft": "#a534d1",
+                    "tintBottomRight": "#a534d1",
+                    "tintFill": true
                 }
             ]
         }

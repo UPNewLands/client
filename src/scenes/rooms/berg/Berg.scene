@@ -67,50 +67,6 @@
         },
         {
             "type": "Sprite",
-            "id": "45b2053e-e17a-46bf-a4fc-d0c116365237",
-            "label": "booom0001",
-            "components": [
-                "Animation"
-            ],
-            "Animation.key": "booom",
-            "Animation.end": 72,
-            "texture": {
-                "key": "iceberg",
-                "frame": "booom0001"
-            },
-            "x": 626,
-            "y": 245
-        },
-        {
-            "type": "Image",
-            "id": "545f7362-89ca-46ec-8baa-6c2abac7c0c8",
-            "label": "iceberg",
-            "components": [],
-            "texture": {
-                "key": "iceberg",
-                "frame": "iceberg"
-            },
-            "x": 670,
-            "y": 476
-        },
-        {
-            "type": "Sprite",
-            "id": "7714834f-9fd1-4a68-8631-28d1d12e44b2",
-            "label": "platform0001",
-            "components": [
-                "Animation"
-            ],
-            "Animation.key": "platform",
-            "Animation.end": 72,
-            "texture": {
-                "key": "iceberg",
-                "frame": "platform0001"
-            },
-            "x": 627,
-            "y": 496
-        },
-        {
-            "type": "Sprite",
             "id": "4359bfa5-02a5-4cae-8475-683904003f3a",
             "label": "aqua0001",
             "components": [
@@ -147,48 +103,16 @@
             "y": 596
         },
         {
-            "type": "Sprite",
-            "id": "ccb535c1-2535-414d-9366-b279bebd2d65",
-            "label": "lights0001",
-            "components": [
-                "Animation"
-            ],
-            "Animation.key": "lights",
-            "Animation.end": 96,
-            "texture": {
-                "key": "iceberg",
-                "frame": "lights0001"
-            },
-            "x": 715,
-            "y": 679
-        },
-        {
             "type": "Image",
-            "id": "bcdda212-1ed3-46ba-aaf0-55f2c3e3d1c2",
-            "label": "s_mbolo_9",
+            "id": "54ec5512-62d5-47cf-b2d0-80f70ce4c7f1",
+            "label": "shape_16",
             "components": [],
             "texture": {
                 "key": "iceberg",
-                "frame": "Símbolo 9"
+                "frame": "shape 16"
             },
-            "x": 588.1650465735426,
-            "y": 419.5404346863972,
-            "originX": 0.5115199304673699,
-            "originY": 0.8145164395745075
-        },
-        {
-            "type": "Image",
-            "id": "206c9609-ac67-4269-85bb-ac139a74e96b",
-            "label": "s_mbolo_91",
-            "components": [],
-            "texture": {
-                "key": "iceberg",
-                "frame": "Símbolo 91"
-            },
-            "x": 575.8624611887145,
-            "y": 660.4028958751118,
-            "originX": 0.4874379940380601,
-            "originY": 0.8541195064216156
+            "x": 670,
+            "y": 524
         }
     ],
     "plainObjects": [],
@@ -201,11 +125,7 @@
     "lists": [
         {
             "id": "66a28302-680f-4c3d-b91b-9f28033815eb",
-            "label": "sort",
-            "objectIds": [
-                "206c9609-ac67-4269-85bb-ac139a74e96b",
-                "bcdda212-1ed3-46ba-aaf0-55f2c3e3d1c2"
-            ]
+            "label": "sort"
         }
     ]
 }

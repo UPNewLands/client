@@ -7,6 +7,7 @@ import Animation from "../../../components/Animation";
 import TextInput from '@engine/interface/text/TextInput'
 
 /* START OF COMPILED CODE */
+/* END-USER-IMPORTS */
 
 export default class Unlock extends Book {
 
@@ -49,38 +50,42 @@ export default class Unlock extends Book {
         const page2 = this.add.container(0, 0);
         page2.visible = false;
 
-        // background_1
-        const background_1 = this.add.image(825, 500, "unlock", "background");
-        page2.add(background_1);
+        // rectangle_1
+        const rectangle_1 = this.add.rectangle(764, 487, 128, 128);
+        rectangle_1.scaleX = 11.909224665264004;
+        rectangle_1.scaleY = 7.484623172550488;
+        rectangle_1.isFilled = true;
+        rectangle_1.fillColor = 1270724;
+        page2.add(rectangle_1);
 
         // symbol
-        const symbol = this.add.image(825, 500, "unlock", "Symbol 4");
+        const symbol = this.add.image(791, 500, "unlock", "Symbol 4");
         page2.add(symbol);
 
         // chest
-        const chest = this.add.sprite(825, 423, "unlock", "chest0001");
+        const chest = this.add.sprite(791, 423, "unlock", "chest0001");
         chest.setOrigin(0.484, 0.523);
         page2.add(chest);
 
         // close_button_1
-        const close_button_1 = this.add.image(1594, 54, "unlock", "close-button");
+        const close_button_1 = this.add.image(1463, 59, "unlock", "close-button");
         page2.add(close_button_1);
 
         // next_button_1
-        const next_button_1 = this.add.image(827, 839, "unlock", "next-button");
+        const next_button_1 = this.add.image(793, 839, "unlock", "next-button");
         next_button_1.scaleX = 0.7751291662326959;
         next_button_1.scaleY = 0.547162044689459;
         page2.add(next_button_1);
 
         // text
-        const text = this.add.text(827, 839, "", {});
+        const text = this.add.text(793, 839, "", {});
         text.setOrigin(0.5, 0.5);
         text.text = "Back";
         text.setStyle({ "align": "center", "fontFamily": "Calibri" });
         page2.add(text);
 
         // chest-buttons
-        const chest_buttons = this.add.container(0, 0);
+        const chest_buttons = this.add.container(-34, 0);
         page2.add(chest_buttons);
 
         // symbol_1
@@ -96,7 +101,7 @@ export default class Unlock extends Book {
         chest_buttons.add(book_button_1);
 
         // book_text_1
-        const book_text_1 = this.add.text(703, 537, "", {});
+        const book_text_1 = this.add.text(703, 538, "", {});
         book_text_1.setOrigin(0.5, 0.5);
         book_text_1.text = "I've got a Book";
         book_text_1.setStyle({ "fontFamily": "Calibri", "fontSize": "26px" });
@@ -135,54 +140,58 @@ export default class Unlock extends Book {
         const page1 = this.add.container(0, 0);
         page1.visible = false;
 
-        // background
-        const background = this.add.image(825, 500, "unlock", "background");
-        page1.add(background);
+        // rectangle
+        const rectangle = this.add.rectangle(760, 482, 128, 128);
+        rectangle.scaleX = 11.909224665264004;
+        rectangle.scaleY = 7.484623172550488;
+        rectangle.isFilled = true;
+        rectangle.fillColor = 1270724;
+        page1.add(rectangle);
 
         // symbol_4
-        const symbol_4 = this.add.image(825, 500, "unlock", "Symbol 4");
+        const symbol_4 = this.add.image(791, 500, "unlock", "Symbol 4");
         page1.add(symbol_4);
 
         // chest-1
-        const chest_1 = this.add.sprite(825, 423, "unlock", "chest0001");
+        const chest_1 = this.add.sprite(791, 423, "unlock", "chest0001");
         chest_1.setOrigin(0.484, 0.523);
         page1.add(chest_1);
 
         // symbol_173
-        const symbol_173 = this.add.image(825, 698, "unlock", "Symbol 173");
+        const symbol_173 = this.add.image(791, 698, "unlock", "Symbol 173");
         page1.add(symbol_173);
 
         // unlock_button
-        const unlock_button = this.add.image(974, 535, "unlock", "unlock-button");
+        const unlock_button = this.add.image(940, 535, "unlock", "unlock-button");
         page1.add(unlock_button);
 
         // book_button
-        const book_button = this.add.image(676, 535, "unlock", "book-button");
+        const book_button = this.add.image(642, 535, "unlock", "book-button");
         page1.add(book_button);
 
         // book_text
-        const book_text = this.add.text(703, 537, "", {});
+        const book_text = this.add.text(669, 538, "", {});
         book_text.setOrigin(0.5, 0.5);
         book_text.text = "I've got a Book";
         book_text.setStyle({ "fontFamily": "Calibri", "fontSize": "26px" });
         page1.add(book_text);
 
         // unlock_text
-        const unlock_text = this.add.text(986, 537, "", {});
+        const unlock_text = this.add.text(952, 537, "", {});
         unlock_text.setOrigin(0.5, 0.5);
         unlock_text.text = "I've got a Code";
         unlock_text.setStyle({ "fontFamily": "Calibri", "fontSize": "26px" });
         page1.add(unlock_text);
 
         // unlock_text_1
-        const unlock_text_1 = this.add.text(825, 628, "", {});
+        const unlock_text_1 = this.add.text(807, 628, "", {});
         unlock_text_1.setOrigin(0.5, 0.5);
         unlock_text_1.text = "Unlock your items. Choose an option.";
         unlock_text_1.setStyle({ "fontFamily": "Calibri", "fontSize": "26px" });
         page1.add(unlock_text_1);
 
         // close_button
-        const close_button = this.add.image(1594, 54, "unlock", "close-button");
+        const close_button = this.add.image(1463, 59, "unlock", "close-button");
         page1.add(close_button);
 
         // lists
@@ -307,7 +316,7 @@ export default class Unlock extends Book {
             fontSize: 35,
             color: '#000'
         }
-        this.coreInput = new TextInput(this, 872, 706, 'text', style, () => this.onSubmit(), 13, true)
+        this.coreInput = new TextInput(this, 825, 706, 'text', style, () => this.onSubmit(), 13, true)
         this.add.existing(this.coreInput)
         this.chest_buttons.visible = true;
         this.nextPage()

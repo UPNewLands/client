@@ -334,20 +334,6 @@
             "y": 613
         },
         {
-            "type": "Image",
-            "id": "26538c90-58f1-40f2-ba2c-57cbcd8629ba",
-            "label": "leftsign",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "leftsign"
-            },
-            "x": 1515.515000541477,
-            "y": 530.7786707096961,
-            "originX": 0.5453756490711842,
-            "originY": 0.8388048463981765
-        },
-        {
             "type": "Sprite",
             "id": "f814b523-0670-4698-88fb-1f5583061ced",
             "label": "fire0001",
@@ -406,18 +392,6 @@
         },
         {
             "type": "Image",
-            "id": "b1ef44f0-6286-4509-9413-8b59065368b1",
-            "label": "rightsign",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "rightsign"
-            },
-            "x": -38,
-            "y": 241
-        },
-        {
-            "type": "Image",
             "id": "98c7f212-05d6-4211-a59a-0863d65ecbc9",
             "label": "s_mbolo_33",
             "components": [],
@@ -427,46 +401,6 @@
             },
             "x": 1401,
             "y": 818
-        },
-        {
-            "type": "Image",
-            "id": "aeda29db-3507-4a3a-839e-7fac225d0c5e",
-            "label": "s_mbolo_8",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 8"
-            },
-            "x": 1301.5087589535815,
-            "y": 808.6120913739072,
-            "originX": 0.21535311676959507,
-            "originY": 0.9401741624899851
-        },
-        {
-            "type": "Image",
-            "id": "cdc97531-ec0f-424d-8f69-fdefd2d01c2b",
-            "label": "s_mbolo_3",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 3"
-            },
-            "x": 816,
-            "y": 100
-        },
-        {
-            "type": "Image",
-            "id": "1c80e1b9-bfe5-4811-b7e7-3e817c0b71ba",
-            "label": "middle",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "middle"
-            },
-            "x": 633.0350563839235,
-            "y": 345.7908853401799,
-            "originX": 0.4134464067581241,
-            "originY": 0.907486647093364
         },
         {
             "type": "Image",
@@ -599,6 +533,32 @@
         },
         {
             "type": "Image",
+            "id": "e7f2f98e-85e4-4482-8b13-17f334a7ffd9",
+            "label": "symbol1",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "symbol1"
+            },
+            "x": 1437,
+            "y": 694
+        },
+        {
+            "type": "Image",
+            "id": "91e243e4-ed0c-467e-a304-1ca28f95dae5",
+            "label": "symbol2",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "symbol2"
+            },
+            "x": 1304.0275689833436,
+            "y": 780.2732084759872,
+            "originX": 0.23218905638345838,
+            "originY": 0.8453952529689244
+        },
+        {
+            "type": "Image",
             "id": "ddcab276-ba40-4a29-a6ad-1bd633ef57fe",
             "label": "symbol_2",
             "components": [],
@@ -606,8 +566,8 @@
                 "key": "central",
                 "frame": "Symbol 158"
             },
-            "x": -8,
-            "y": 413,
+            "x": -80,
+            "y": 651,
             "originX": 0.5091912720913176,
             "originY": 0.8849929064665125
         },
@@ -620,8 +580,8 @@
                 "key": "central",
                 "frame": "Symbol 158"
             },
-            "x": 815.897109770254,
-            "y": 609.8265862152423,
+            "x": 1113,
+            "y": 677,
             "originX": 0.503676508836527,
             "originY": 0.869593190207852
         }
@@ -641,7 +601,6 @@
                 "186d9ed3-ef2b-49fb-b18e-68765766b881",
                 "a252f9ee-c783-4ab1-8168-5cd2225a46ac",
                 "83b445ae-f07b-4ceb-92e3-48e71fc6941b",
-                "aeda29db-3507-4a3a-839e-7fac225d0c5e",
                 "067667db-63bd-4520-bd4f-17182b1b12eb",
                 "c4c52c45-be93-4e1e-ae62-c4b9deda0ed1",
                 "683a2d6a-0e8a-40d9-a4c3-074d774a646e",
@@ -652,8 +611,7 @@
                 "a5f1aab4-4839-49bd-add9-502922bc6932",
                 "0e9ccdae-4988-46d9-ae91-61ed9e00749c",
                 "ddcab276-ba40-4a29-a6ad-1bd633ef57fe",
-                "1c80e1b9-bfe5-4811-b7e7-3e817c0b71ba",
-                "26538c90-58f1-40f2-ba2c-57cbcd8629ba"
+                "91e243e4-ed0c-467e-a304-1ca28f95dae5"
             ]
         }
     ]

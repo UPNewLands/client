@@ -46,9 +46,12 @@ export default class Igloo extends Plugin {
 
         this.interface.refreshPlayerCard()
 
-        if (this.interface.iglooEdit.gridView.visible) {
-            this.interface.iglooEdit.showGridView()
+        if (this.interface.iglooEdit.gridView) {
+            if (this.interface.iglooEdit.gridView.visible) {
+                this.interface.iglooEdit.showGridView()
+            }
         }
+        
 
         this.interface.updateCatalogCoins(args.coins)
 

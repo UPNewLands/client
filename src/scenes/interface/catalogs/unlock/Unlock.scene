@@ -5,14 +5,9 @@
         "compilerInsertSpaces": true,
         "javaScriptInitFieldsInConstructor": true,
         "exportClass": true,
-        "superClassName": "Book",
-        "preloadPackFiles": [
-            "www/assets/media/interface/catalogs/unlock/unlock-pack.json"
-        ],
-        "createMethodName": "_create",
-        "sceneKey": "Unlock",
-        "borderWidth": 1650,
-        "borderHeight": 1000
+        "autoImport": true,
+        "borderWidth": 1520,
+        "borderHeight": 960
     },
     "displayList": [
         {
@@ -38,16 +33,18 @@
             "visible": false,
             "list": [
                 {
-                    "type": "Image",
-                    "id": "e0afe703-3c53-497d-a18a-5669f834e7ba",
-                    "label": "background_1",
+                    "type": "Rectangle",
+                    "id": "95e12080-f430-4b10-9c13-57becee49909",
+                    "label": "rectangle_1",
                     "components": [],
-                    "texture": {
-                        "key": "unlock",
-                        "frame": "background"
-                    },
-                    "x": 825,
-                    "y": 500
+                    "x": 764,
+                    "y": 487,
+                    "scaleX": 11.909224665264004,
+                    "scaleY": 7.484623172550488,
+                    "isFilled": true,
+                    "fillColor": "#1363c4",
+                    "width": 128,
+                    "height": 128
                 },
                 {
                     "type": "Image",
@@ -58,7 +55,7 @@
                         "key": "unlock",
                         "frame": "Symbol 4"
                     },
-                    "x": 825,
+                    "x": 791,
                     "y": 500
                 },
                 {
@@ -77,7 +74,7 @@
                         "key": "unlock",
                         "frame": "chest0001"
                     },
-                    "x": 825,
+                    "x": 791,
                     "y": 423,
                     "originX": 0.484,
                     "originY": 0.523
@@ -95,8 +92,8 @@
                         "key": "unlock",
                         "frame": "close-button"
                     },
-                    "x": 1594,
-                    "y": 54
+                    "x": 1463,
+                    "y": 59
                 },
                 {
                     "type": "Image",
@@ -111,7 +108,7 @@
                         "key": "unlock",
                         "frame": "next-button"
                     },
-                    "x": 827,
+                    "x": 793,
                     "y": 839,
                     "scaleX": 0.7751291662326959,
                     "scaleY": 0.547162044689459
@@ -121,7 +118,7 @@
                     "id": "05e7b83c-b5d5-4be9-a059-f7ea83bb245c",
                     "label": "text",
                     "components": [],
-                    "x": 827,
+                    "x": 793,
                     "y": 839,
                     "originX": 0.5,
                     "originY": 0.5,
@@ -135,6 +132,7 @@
                     "label": "chest-buttons",
                     "scope": "CLASS",
                     "components": [],
+                    "x": -34,
                     "list": [
                         {
                             "type": "Image",
@@ -184,7 +182,7 @@
                             "label": "book_text_1",
                             "components": [],
                             "x": 703,
-                            "y": 537,
+                            "y": 538,
                             "originX": 0.5,
                             "originY": 0.5,
                             "text": "I've got a Book",
@@ -274,16 +272,18 @@
             "visible": false,
             "list": [
                 {
-                    "type": "Image",
-                    "id": "00130f7c-9ea5-48e4-8769-f34a533036e2",
-                    "label": "background",
+                    "type": "Rectangle",
+                    "id": "466dc420-a4e7-45f3-aa2a-242ec22657f0",
+                    "label": "rectangle",
                     "components": [],
-                    "texture": {
-                        "key": "unlock",
-                        "frame": "background"
-                    },
-                    "x": 825,
-                    "y": 500
+                    "x": 760,
+                    "y": 482,
+                    "scaleX": 11.909224665264004,
+                    "scaleY": 7.484623172550488,
+                    "isFilled": true,
+                    "fillColor": "#1363c4",
+                    "width": 128,
+                    "height": 128
                 },
                 {
                     "type": "Image",
@@ -294,7 +294,7 @@
                         "key": "unlock",
                         "frame": "Symbol 4"
                     },
-                    "x": 825,
+                    "x": 791,
                     "y": 500
                 },
                 {
@@ -306,7 +306,7 @@
                         "key": "unlock",
                         "frame": "chest0001"
                     },
-                    "x": 825,
+                    "x": 791,
                     "y": 423,
                     "originX": 0.484,
                     "originY": 0.523
@@ -320,7 +320,7 @@
                         "key": "unlock",
                         "frame": "Symbol 173"
                     },
-                    "x": 825,
+                    "x": 791,
                     "y": 698
                 },
                 {
@@ -336,7 +336,7 @@
                         "key": "unlock",
                         "frame": "unlock-button"
                     },
-                    "x": 974,
+                    "x": 940,
                     "y": 535
                 },
                 {
@@ -351,7 +351,7 @@
                         "key": "unlock",
                         "frame": "book-button"
                     },
-                    "x": 676,
+                    "x": 642,
                     "y": 535
                 },
                 {
@@ -359,8 +359,8 @@
                     "id": "6c150d12-f9bb-465b-8089-cc2ba4ef2058",
                     "label": "book_text",
                     "components": [],
-                    "x": 703,
-                    "y": 537,
+                    "x": 669,
+                    "y": 538,
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "I've got a Book",
@@ -372,7 +372,7 @@
                     "id": "3a55d654-d3ec-48df-8e7b-8779614b73cd",
                     "label": "unlock_text",
                     "components": [],
-                    "x": 986,
+                    "x": 952,
                     "y": 537,
                     "originX": 0.5,
                     "originY": 0.5,
@@ -385,7 +385,7 @@
                     "id": "8f4fdaba-31bc-45da-ae40-e35dd6c2f3a0",
                     "label": "unlock_text_1",
                     "components": [],
-                    "x": 825,
+                    "x": 807,
                     "y": 628,
                     "originX": 0.5,
                     "originY": 0.5,
@@ -406,8 +406,8 @@
                         "key": "unlock",
                         "frame": "close-button"
                     },
-                    "x": 1594,
-                    "y": 54
+                    "x": 1463,
+                    "y": 59
                 }
             ]
         }

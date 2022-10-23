@@ -70,7 +70,6 @@ export default class Puffles extends Plugin {
         if (playercard.visible && (playercard.id === args.penguinId)) playercard.paperDoll.paperDollPuffleLoader.loadPuffle(this.world.crumbs.puffles[args.color].name)
 
         if (args.penguinId == this.world.client.penguin.id) this.world.interface.main.showPuffle(this.sortPuffleColors(this.world.crumbs.puffles[args.color].name))
-        
     }
 
     sortPuffleColors(puffleName) {
@@ -116,7 +115,11 @@ export default class Puffles extends Plugin {
         } 
 
         penguin.puffle = args.puffle
-        this.network.send('get_puffle_color', {puffle: args.puffle, penguinId: args.user})
+        if (args.info == "adopt") {
+            return this.network.send('get_puffle_color', {puffle: args.puffle, penguinId: args.user, info: "adopt", color: args.color})
+        }
+        return this.network.send('get_puffle_color', {puffle: args.puffle, penguinId: args.user, color: args.color})
+
     }
 
     destroyPuffleplayercard(args) {
@@ -131,6 +134,9 @@ export default class Puffles extends Plugin {
     }
 
     adoptPuffle(args) {
+        args.user = this.world.client.penguin.id
+        args.info = "adopt"
+        this.network.send("walk_puffle", args)
         this.world.client.coins = args.coins
     }
 

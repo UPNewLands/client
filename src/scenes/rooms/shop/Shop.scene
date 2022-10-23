@@ -155,52 +155,58 @@
             "id": "b5cf562e-ec76-4ad2-a74a-e7fbf167ee3e",
             "label": "symbol_80",
             "components": [],
-            "texture": {
-                "key": "shop",
-                "frame": "Symbol 80"
-            },
-            "x": 1109,
-            "y": 616,
-            "scaleY": 1.01
-        },
-        {
-            "type": "Image",
-            "id": "9606f76a-8eae-45bd-b63d-2fc0fcada5f4",
-            "label": "symbol_82",
-            "components": [],
-            "texture": {
-                "key": "shop",
-                "frame": "Symbol 82"
-            },
-            "x": 1050,
-            "y": 682,
-            "scaleY": 1.01
-        },
-        {
-            "type": "Image",
-            "id": "0b9034ad-189c-4f0a-8605-e13ec3872e8b",
-            "label": "symbol_84",
-            "components": [],
-            "texture": {
-                "key": "shop",
-                "frame": "Symbol 84"
-            },
-            "x": 1381,
-            "y": 374,
-            "scaleY": 1.01
-        },
-        {
-            "type": "Image",
-            "id": "5eb35545-d25a-4b63-aef5-fc5663a14367",
-            "label": "symbol_86",
-            "components": [],
-            "texture": {
-                "key": "shop",
-                "frame": "Symbol 86"
-            },
-            "x": 1363,
-            "y": 455,
-            "scaleY": 1.01
+            "x": 1337.3141623444612,
+            "y": 415.3218257529371,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "7057c1fb-d5d6-4adf-9afa-65d3c1d1b128",
+                    "label": "desk",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "clothesShop-new",
+                        "frame": "desk"
+                    },
+                    "x": 13.685837655538762,
+                    "y": 45.678174247062884
+                },
+                {
+                    "type": "Sprite",
+                    "id": "95dca7d3-d9f2-4c70-b3f7-f49a4ada0c8a",
+                    "label": "chest",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "chest",
+                    "Button.callback": "() => this.interface.loadExternal('Unlock')",
+                    "Button.activeFrame": false,
+                    "texture": {
+                        "key": "clothesShop-new",
+                        "frame": "chest"
+                    },
+                    "x": 15.685837655538762,
+                    "y": 123.67817424706288
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f96aae91-1544-4534-ac8e-9c16c961f5d4",
+                    "label": "register",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "register",
+                    "Button.activeFrame": false,
+                    "texture": {
+                        "key": "clothesShop-new",
+                        "frame": "register"
+                    },
+                    "x": -48.31416234446124,
+                    "y": -46.321825752937116
+                }
+            ]
         },
         {
             "type": "Sprite",

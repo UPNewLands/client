@@ -146,6 +146,12 @@ export default class Shop extends RoomScene {
         symbol_560001Animation.end = 10;
         symbol_560001Animation.repeatDelay = 10;
 
+        // chest (components)
+        const chestButton = new Button(chest);
+        chestButton.spriteName = "chest";
+        chestButton.callback = () => this.interface.loadExternal('Unlock');
+        chestButton.activeFrame = false;
+
         // register (components)
         const registerButton = new Button(register);
         registerButton.spriteName = "register";

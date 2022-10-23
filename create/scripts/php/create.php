@@ -3,7 +3,7 @@
     include 'Database.php';
     include 'Validator.php';
 
-    const HCAPTCHA_SECRET = '0x0000000000000000000000000000000000000000';
+    const HCAPTCHA_SECRET = '0xdA13dC41f47b9Ea954eaCB22dD7502591E2D8130';
 
     error_reporting(0);
 

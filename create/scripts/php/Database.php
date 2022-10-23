@@ -56,18 +56,16 @@
 			
         }
 
-        function insertUser($name, $email, $password, $as) {
+        function insertUser($name, $email, $password) {
+
             if ($this->userExists($name)) {
                 $this->dieWithMessage('username', 'That username is already taken.');
             }
 
             $password = $this->hashPassword($password);
-		
-	    $username = strtolower($name);
-
-            $statement = $this->db->prepare('INSERT INTO users (username, email, password, as) VALUES (?, ?, ?, ?)');
-            $statement->bind_param('ssss', $username, $email, $password, $as);
-	    $statement->execute()
+            $username = strtolower($name);
+            $statement = $this->db->prepare('INSERT INTO users (username, email, password) VALUES (?, ?, ?)');
+            $statement->bind_param('sss', $username, $email, $password);
 
             if (!$statement->execute()) {
                 $this->dieWithMessage('username', 'There was an error.');

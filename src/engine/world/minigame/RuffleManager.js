@@ -240,7 +240,9 @@ export default class RuffleManager {
 			type: type,
 			name: name
 		})
-		this.world.network.send('walk_puffle', {puffle: type})
+
+		this.time.delayedCall(2000, ()=>{this.world.network.send("play_puffle_anim", {id: this.world.client.penguin.id, anim: "adopt"})}, null, this);
+
 	}
 
 	getPostcards() {

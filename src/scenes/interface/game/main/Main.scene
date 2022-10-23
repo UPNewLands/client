@@ -42,7 +42,9 @@
             "type": "Image",
             "id": "99840cae-8c4a-4ad5-9274-1077116ac62e",
             "label": "s_mbolo_23",
-            "components": [],
+            "components": [
+                "Interactive"
+            ],
             "texture": {
                 "key": "newinterface",
                 "frame": "Símbolo 23"
@@ -1009,23 +1011,6 @@
         },
         {
             "type": "Image",
-            "id": "104489ca-8a90-411b-b2ed-baa22e1357ba",
-            "label": "iconbeta",
-            "components": [
-                "Button"
-            ],
-            "Button.spriteName": "iconbeta",
-            "Button.callback": "() => this.beta.visible = true",
-            "Button.activeFrame": false,
-            "texture": {
-                "key": "newinterface",
-                "frame": "iconbeta"
-            },
-            "x": 1353,
-            "y": 70
-        },
-        {
-            "type": "Image",
             "id": "09957106-b5e7-456d-b8e9-98188a3f1a3a",
             "label": "log",
             "scope": "CLASS",
@@ -1149,22 +1134,6 @@
                     "fontSize": "42px"
                 }
             ]
-        },
-        {
-            "prefabId": "e6ed3a4e-b4cd-4aaf-bc06-434266651a70",
-            "id": "ad0fa4a5-a410-4794-be04-74447e4aa86c",
-            "unlock": [
-                "x",
-                "y",
-                "visible"
-            ],
-            "label": "beta",
-            "scope": "CLASS",
-            "components": [],
-            "x": -28,
-            "y": 104,
-            "visible": false,
-            "nestedPrefabs": []
         },
         {
             "prefabId": "4095ac48-6b82-404a-8b3a-6c8b95b2e471",
