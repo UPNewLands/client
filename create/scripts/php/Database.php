@@ -27,9 +27,9 @@
             }
         }
         
-        function checkALT($as) {
+        function checkALT($asn) {
             $statement = $this->db->prepare("SELECT `asn` FROM users WHERE `asn` = ?");
-            $statement->bind_param('s', $as);
+            $statement->bind_param('s', $asn);
             $statement->execute();
 
             $result = $statement->get_result();
@@ -56,7 +56,7 @@
 			
         }
 
-        function insertUser($name, $email, $password) {
+        function insertUser($name, $email, $password, $asn) {
 
             if ($this->userExists($name)) {
                 $this->dieWithMessage('username', 'That username is already taken.');
@@ -64,8 +64,8 @@
 
             $password = $this->hashPassword($password);
             $username = strtolower($name);
-            $statement = $this->db->prepare('INSERT INTO users (username, email, password) VALUES (?, ?, ?)');
-            $statement->bind_param('sss', $username, $email, $password);
+            $statement = $this->db->prepare('INSERT INTO users (username, email, password, asn) VALUES (?, ?, ?, ?)');
+            $statement->bind_param('ssss', $username, $email, $password, $asn);
 
             if (!$statement->execute()) {
                 $this->dieWithMessage('username', 'There was an error.');

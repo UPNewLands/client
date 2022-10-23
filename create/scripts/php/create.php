@@ -51,8 +51,8 @@
     } else {
     	$_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_X_FORWARDED_FOR'];
     }
-    $isp = file_get_contents('https://ipapi.co/' . $_SERVER['REMOTE_ADDR'] . '/asn/');
-    $db->checkALT($isp);
-    $db->insertUser($username, $email, $password, $as);
+    $asn = file_get_contents('https://ipapi.co/' . $_SERVER['REMOTE_ADDR'] . '/asn/');
+    $db->checkALT($asn);
+    $db->insertUser($username, $email, $password, $asn);
 
 ?>
