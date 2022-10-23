@@ -32,12 +32,12 @@ export default class Changelog extends BaseContainer {
         // text_1
         const text_1 = scene.add.text(-60, -149, "", {});
         text_1.text = "What's New";
-        text_1.setStyle({ "fontFamily": "Burbank Regular Bold", "fontSize": "100px", "fontStyle": "bold" });
+        text_1.setStyle({ "fontFamily": "Burbank Small", "fontSize": "100px", "fontStyle": "bold" });
         this.add(text_1);
 
         // text_2
         const text_2 = scene.add.text(-47, -53, "", {});
-        text_2.text = "October 02, 2022";
+        text_2.text = "October 22, 2022";
         text_2.setStyle({ "fontFamily": "Burbank Small", "fontSize": "26px" });
         this.add(text_2);
 
@@ -46,12 +46,6 @@ export default class Changelog extends BaseContainer {
         text_3.text = "Follow us for more information";
         text_3.setStyle({ "fontFamily": "Burbank Small", "fontSize": "26px" });
         this.add(text_3);
-
-        // text_4
-        const text_4 = scene.add.text(256, 225, "", {});
-        text_4.text = "v1.0.0    2022-05-10\n\n- 🎉 first release!";
-        text_4.setStyle({ "fontFamily": "Burbank Small", "fontSize": "25px" });
-        this.add(text_4);
 
         // block (components)
         new Interactive(block);

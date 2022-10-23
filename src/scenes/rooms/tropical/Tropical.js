@@ -438,7 +438,7 @@ export default class Tropical extends RoomScene {
         const symbol_37 = this.add.image(547, 466, "tropical", "Symbol 148");
 
         // waves
-        const waves = this.add.image(1239, 80, "tropical", "waves");
+        const waves = this.add.image(1333, 80, "tropical", "waves");
 
         // lists
         const sort = [symbol_366, symbol_362, symbol_371, symbol_368, symbol_30, symbol_170, fire0001, symbol_335, symbol_337, symbol_37, symbol_36, symbol_1, symbol_344, symbol_148, symbol_346, sparkles0001, symbol_38, symbol_190];
