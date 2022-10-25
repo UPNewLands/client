@@ -12,6 +12,10 @@ export default class Back extends RoomScene {
     constructor() {
         super("Back");
 
+        /** @type {Phaser.GameObjects.Image[]} */
+        this.sort;
+
+
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
             'central': () => this.triggerRoom(1, 725, 434),
@@ -34,9 +38,6 @@ export default class Back extends RoomScene {
         // symbol_381
         this.add.image(1462, 945, "back", "Symbol 381");
 
-        // symbol_233
-        this.add.image(784, 952, "back", "Symbol 233");
-
         // sky
         this.add.image(670, 218, "back", "sky");
 
@@ -46,8 +47,18 @@ export default class Back extends RoomScene {
         // s_mbolo_9
         this.add.image(717, 550, "back", "Símbolo 9");
 
+        // symbol_233
+        const symbol_233 = this.add.image(786.5622053962313, 731.6503359241074, "back", "Symbol 233");
+        symbol_233.setOrigin(0.5013925029327344, -0.007718119990536021);
+
+        // lists
+        const sort = [symbol_233];
+
+        this.sort = sort;
+
         this.events.emit("scene-awake");
     }
+
 
     /* START-USER-CODE */
 

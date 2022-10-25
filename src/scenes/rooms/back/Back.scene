@@ -43,18 +43,6 @@
         },
         {
             "type": "Image",
-            "id": "d4642b4f-b29d-4da6-bd2d-d1b4b95407ae",
-            "label": "symbol_233",
-            "components": [],
-            "texture": {
-                "key": "back",
-                "frame": "Symbol 233"
-            },
-            "x": 784,
-            "y": 952
-        },
-        {
-            "type": "Image",
             "id": "d12c2765-d1ec-455d-8c90-ddd227c58b63",
             "label": "sky",
             "components": [],
@@ -88,6 +76,20 @@
             },
             "x": 717,
             "y": 550
+        },
+        {
+            "type": "Image",
+            "id": "d4642b4f-b29d-4da6-bd2d-d1b4b95407ae",
+            "label": "symbol_233",
+            "components": [],
+            "texture": {
+                "key": "back",
+                "frame": "Symbol 233"
+            },
+            "x": 786.5622053962313,
+            "y": 731.6503359241074,
+            "originX": 0.5013925029327344,
+            "originY": -0.007718119990536021
         }
     ],
     "plainObjects": [],
@@ -96,5 +98,14 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 3
-    }
+    },
+    "lists": [
+        {
+            "id": "69e37396-5a16-476c-89ce-6a7fe8e50fa7",
+            "label": "sort",
+            "objectIds": [
+                "d4642b4f-b29d-4da6-bd2d-d1b4b95407ae"
+            ]
+        }
+    ]
 }
