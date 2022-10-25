@@ -1,0 +1,100 @@
+{
+    "id": "c2a31aff-b559-468c-9755-15dc74a3ecd0",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/back/back-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Back",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7b64d14c-cfd4-4303-a817-cc8d9f460927",
+            "label": "s_mbolo_6",
+            "components": [],
+            "texture": {
+                "key": "back",
+                "frame": "Símbolo 6"
+            },
+            "x": 1294,
+            "y": 709
+        },
+        {
+            "type": "Image",
+            "id": "3d655fef-1f53-4f0b-910d-2dd721b339d6",
+            "label": "symbol_381",
+            "components": [],
+            "texture": {
+                "key": "back",
+                "frame": "Symbol 381"
+            },
+            "x": 1462,
+            "y": 945
+        },
+        {
+            "type": "Image",
+            "id": "d4642b4f-b29d-4da6-bd2d-d1b4b95407ae",
+            "label": "symbol_233",
+            "components": [],
+            "texture": {
+                "key": "back",
+                "frame": "Symbol 233"
+            },
+            "x": 784,
+            "y": 952
+        },
+        {
+            "type": "Image",
+            "id": "d12c2765-d1ec-455d-8c90-ddd227c58b63",
+            "label": "sky",
+            "components": [],
+            "texture": {
+                "key": "back",
+                "frame": "sky"
+            },
+            "x": 670,
+            "y": 218
+        },
+        {
+            "type": "Image",
+            "id": "ee085e7d-00e3-47e6-bb7c-df5abe615df1",
+            "label": "s_mbolo_4",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Símbolo 4"
+            },
+            "x": 773,
+            "y": 314
+        },
+        {
+            "type": "Image",
+            "id": "e4999552-d1e6-45eb-a09d-cebab89c5f09",
+            "label": "s_mbolo_9",
+            "components": [],
+            "texture": {
+                "key": "back",
+                "frame": "Símbolo 9"
+            },
+            "x": 717,
+            "y": 550
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

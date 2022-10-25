@@ -19,323 +19,79 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "886c9123-dbf5-413c-832c-8f8a1dd82bdb",
-            "label": "sky",
+            "id": "d2535221-b2aa-47a4-907f-b9c0fa01b289",
+            "label": "s_mbolo_53",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "sky"
+                "frame": "Símbolo 53"
             },
-            "x": 811,
-            "y": 179
+            "x": 770,
+            "y": 193
         },
         {
             "type": "Image",
-            "id": "9637c200-6cae-4a90-94ea-8b07fb979923",
-            "label": "sea",
+            "id": "1970434f-cce9-4e69-a98a-2dff717d1e1a",
+            "label": "s_mbolo_34",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "sea"
+                "frame": "Símbolo 34"
             },
-            "x": 719,
-            "y": 646
+            "x": 721,
+            "y": 835
         },
         {
             "type": "Image",
-            "id": "10912ace-1898-4792-b37e-8da0362fccda",
-            "label": "s_mbolo_32",
+            "id": "f5f64179-42c1-47f4-bd8b-2820cd1c28a5",
+            "label": "s_mbolo_2",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "Símbolo 32"
+                "frame": "Símbolo 2"
             },
-            "x": 732,
-            "y": 266
+            "x": 661,
+            "y": 482
         },
         {
             "type": "Image",
-            "id": "3e1f212d-77e1-4dea-bd1b-eeac294bc03d",
-            "label": "symbol_888",
+            "id": "4a6210ff-82d1-495e-8dac-6c7bae617cb9",
+            "label": "symbol_71",
             "components": [],
             "texture": {
-                "key": "central",
-                "frame": "Symbol 888"
+                "key": "halloween",
+                "frame": "Symbol 71"
             },
-            "x": 420,
-            "y": 217
+            "x": 763,
+            "y": 506
         },
         {
             "type": "Image",
-            "id": "8e548af4-474a-4102-8908-dfd02806568d",
-            "label": "waves",
+            "id": "37d3129e-fc15-4b93-ba9d-261ab3837dd5",
+            "label": "symbol_290",
             "components": [],
             "texture": {
-                "key": "central",
-                "frame": "waves"
+                "key": "halloween",
+                "frame": "Symbol 290"
             },
-            "x": 679,
-            "y": 881
+            "x": 1483,
+            "y": 514
         },
         {
             "type": "Image",
-            "id": "5c020afc-e3ac-4f6d-861f-4d0b9658ca21",
-            "label": "s_mbolo_26",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 26"
-            },
-            "x": 196,
-            "y": 647
-        },
-        {
-            "type": "Image",
-            "id": "25eac3c9-75c5-4d0e-9c29-97c30db2ef09",
-            "label": "s_mbolo_25",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 25"
-            },
-            "x": 148,
-            "y": 492
-        },
-        {
-            "type": "Image",
-            "id": "51bb06ef-e6b4-428e-96c6-1b44082f88bf",
-            "label": "s_mbolo_23",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 23"
-            },
-            "x": 495,
-            "y": 553
-        },
-        {
-            "type": "Image",
-            "id": "6d64533f-5a80-4a8e-93fe-08b14be9390d",
-            "label": "s_mbolo_31",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 31"
-            },
-            "x": 871,
-            "y": 440
-        },
-        {
-            "type": "Image",
-            "id": "7d85ba51-bbde-4956-8835-b96c92990037",
-            "label": "symbol_1_copia",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Symbol 1 copia"
-            },
-            "x": 795,
-            "y": 507
-        },
-        {
-            "type": "Image",
-            "id": "136936ec-718e-4c33-905a-18b52d698599",
-            "label": "s_mbolo_22",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 22"
-            },
-            "x": 810,
-            "y": 657
-        },
-        {
-            "type": "Image",
-            "id": "a44dbae4-ac07-44ce-a970-807b88f29604",
-            "label": "s_mbolo_36",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 36"
-            },
-            "x": 767,
-            "y": 480
-        },
-        {
-            "type": "Image",
-            "id": "b8458221-bfc7-4b09-9989-6caf83165fa9",
-            "label": "s_mbolo",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 38"
-            },
-            "x": 811,
-            "y": 623
-        },
-        {
-            "type": "Image",
-            "id": "69a61a8e-c092-44c6-8075-c0cd7d4b1ee7",
-            "label": "s_mbolo_38",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 38"
-            },
-            "x": 1518,
-            "y": 458
-        },
-        {
-            "type": "Image",
-            "id": "d6630e48-f6d3-49d2-b6c3-d4b74611c8e6",
-            "label": "symbol_88",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Symbol 88"
-            },
-            "x": 1525,
-            "y": 310
-        },
-        {
-            "type": "Image",
-            "id": "3abad73d-28a3-4a28-b756-a22127546e46",
-            "label": "symbol_134",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Symbol 134"
-            },
-            "x": 199,
-            "y": 166
-        },
-        {
-            "type": "Image",
-            "id": "becb5cba-01fd-43dd-a731-e30b8c25c256",
-            "label": "s_mbolo_41",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 41"
-            },
-            "x": 1015,
-            "y": 289
-        },
-        {
-            "type": "Image",
-            "id": "a2ea5455-e3c1-427b-bd3a-3141b274700f",
-            "label": "s_mbolo_43",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 43"
-            },
-            "x": 425,
-            "y": 766
-        },
-        {
-            "type": "Image",
-            "id": "c8f95fd2-1f5f-4960-8770-d4899dd0e714",
-            "label": "s_mbolo_45",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 45"
-            },
-            "x": 1002,
-            "y": 769
-        },
-        {
-            "type": "Image",
-            "id": "683a2d6a-0e8a-40d9-a4c3-074d774a646e",
-            "label": "s_mbolo_46",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 46"
-            },
-            "x": 503.71957396351394,
-            "y": 823.8095337313498,
-            "originX": 0.4564188103342839,
-            "originY": 0.8591510088114434
-        },
-        {
-            "type": "Image",
-            "id": "88109b17-7ee5-4b27-ae43-206a01111539",
-            "label": "sprite_331",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Sprite 331"
-            },
-            "x": 1226,
-            "y": 672
-        },
-        {
-            "type": "Image",
-            "id": "113bb3cd-db45-4aa4-949d-cf8c6b8c1c5e",
+            "id": "3568efd1-14a4-4a8d-8f59-2fe2d506b881",
             "label": "shape_315",
             "components": [],
             "texture": {
                 "key": "central",
                 "frame": "shape 315"
             },
-            "x": 127,
-            "y": 658,
-            "scaleX": 0.7,
-            "scaleY": 0.7
-        },
-        {
-            "type": "Image",
-            "id": "4e864197-a080-4d87-920c-8ace7331117b",
-            "label": "s_mbolo_50",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 50"
-            },
-            "x": 120,
-            "y": 573
-        },
-        {
-            "type": "Image",
-            "id": "affe8931-68ef-4f0f-a222-5cfca56447c3",
-            "label": "symbol_140_copia",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Symbol 140 copia"
-            },
-            "x": 15,
-            "y": 711
-        },
-        {
-            "type": "Image",
-            "id": "a252f9ee-c783-4ab1-8168-5cd2225a46ac",
-            "label": "symbol",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Symbol 888"
-            },
-            "x": 412,
-            "y": 582
-        },
-        {
-            "type": "Image",
-            "id": "186d9ed3-ef2b-49fb-b18e-68765766b881",
-            "label": "sprite_181",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Sprite 181"
-            },
-            "x": 871,
-            "y": 613
+            "x": 135,
+            "y": 674
         },
         {
             "type": "Sprite",
-            "id": "f814b523-0670-4698-88fb-1f5583061ced",
+            "id": "4278a5e9-ceb9-4ba2-a25e-b368e7512e2d",
             "label": "fire0001",
             "components": [
                 "Animation"
@@ -343,247 +99,359 @@
             "Animation.key": "fire",
             "Animation.end": 20,
             "texture": {
-                "key": "central",
+                "key": "halloween",
                 "frame": "fire0001"
             },
-            "x": 136,
-            "y": 609,
-            "scaleX": 0.7,
-            "scaleY": 0.7
+            "x": 144,
+            "y": 600
         },
         {
             "type": "Image",
-            "id": "067667db-63bd-4520-bd4f-17182b1b12eb",
-            "label": "s_mbolo_47",
+            "id": "be5274c4-cd78-468d-ac3d-e11ae3cdca3d",
+            "label": "s_mbolo_82_copia",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Símbolo 82 copia"
+            },
+            "x": 138.33341687781237,
+            "y": 744.0017544340595,
+            "originX": 0.5187137434309206,
+            "originY": 0.8943723747678153
+        },
+        {
+            "type": "Image",
+            "id": "faa7daa6-6fa6-40b4-915b-4353487d9f45",
+            "label": "symbol_349",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "Símbolo 47"
+                "frame": "Symbol 349"
             },
-            "x": 1317.7246649262058,
-            "y": 625.5810540548766,
-            "originX": 0.43234438353652055,
-            "originY": 0.826887714414231
+            "x": 1021,
+            "y": 247
         },
         {
             "type": "Image",
-            "id": "ffae8496-e08d-4782-ad3d-30f654bb1ecc",
-            "label": "s_mbolo_522",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 522"
-            },
-            "x": 1103,
-            "y": 825.8412781094582,
-            "originY": 0.8600185233254818
-        },
-        {
-            "type": "Image",
-            "id": "4f0f122b-a66a-4372-a6d7-68f3b2aa8741",
-            "label": "s_mbolo_14",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 14"
-            },
-            "x": 133,
-            "y": 308
-        },
-        {
-            "type": "Image",
-            "id": "98c7f212-05d6-4211-a59a-0863d65ecbc9",
-            "label": "s_mbolo_33",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 33"
-            },
-            "x": 1401,
-            "y": 818
-        },
-        {
-            "type": "Image",
-            "id": "adb6e1e9-850b-46c9-a32b-08c1b5545c6f",
-            "label": "s_mbolo_61",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 61"
-            },
-            "x": 1298,
-            "y": 816
-        },
-        {
-            "type": "Image",
-            "id": "83b445ae-f07b-4ceb-92e3-48e71fc6941b",
-            "label": "s_mbolo_60",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Símbolo 60"
-            },
-            "x": 183.7229668306538,
-            "y": 806.998301904448,
-            "originX": 0.5769974923074122,
-            "originY": 0.5995634240356017
-        },
-        {
-            "type": "Image",
-            "id": "c1f15c80-e3c4-4243-97dd-24c88cff4fcd",
-            "label": "arbol_1",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "Arbol 1"
-            },
-            "x": 62,
-            "y": 258
-        },
-        {
-            "type": "Image",
-            "id": "2e8a7859-68c4-457f-a33f-b707caf83a54",
-            "label": "back",
-            "components": [],
-            "texture": {
-                "key": "central",
-                "frame": "back"
-            },
-            "x": 1035.6449742663624,
-            "y": 371.12822182090406,
-            "originX": 0.564596912509729,
-            "originY": 0.8230471564561165
-        },
-        {
-            "type": "Image",
-            "id": "0fd772e3-6aa6-46a7-9e8b-548dbce2ee16",
+            "id": "66357e8e-0907-4066-beee-28a4d52d2f8f",
             "label": "flyer",
             "components": [
                 "Button"
             ],
             "Button.spriteName": "flyer",
-            "Button.callback": "() => this.world.interface.main.changelog.visible = true",
             "Button.activeFrame": false,
             "texture": {
                 "key": "central",
                 "frame": "flyer"
             },
-            "x": 1048.9853115467968,
-            "y": 395.64101275534165,
-            "originX": 0.49976274689000516,
-            "originY": 1.706211365443236,
-            "flipX": true
+            "x": 1062,
+            "y": 311,
+            "flipX": true,
+            "tintTopLeft": "#a4a4a4",
+            "tintTopRight": "#a4a4a4",
+            "tintBottomLeft": "#a4a4a4",
+            "tintBottomRight": "#a4a4a4"
         },
         {
             "type": "Image",
-            "id": "d6d07d6a-30a1-4be6-a129-0f6773e7d941",
-            "label": "front",
+            "id": "e40fc59f-dec0-4a68-9f9a-a51051aa9ec6",
+            "label": "s_mbolo_35",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "front"
+                "frame": "Símbolo 35"
             },
-            "x": 941.8064533032593,
-            "y": 484.59533527092384,
-            "originX": 0.5725806534473497,
-            "originY": 2.1080223843686166
+            "x": 928,
+            "y": 220
         },
         {
             "type": "Image",
-            "id": "a5f1aab4-4839-49bd-add9-502922bc6932",
-            "label": "snow",
+            "id": "1a442c34-25a0-4224-a896-dca904384ad6",
+            "label": "s_mbolo_27",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "snow"
+                "frame": "Símbolo 27"
             },
-            "x": 1030.8509519987576,
-            "y": 432.58486429565227,
-            "scaleX": 0.8,
-            "scaleY": 0.8,
-            "originX": 0.5258848467324116,
-            "originY": 1.7925836390153003,
-            "flipX": true
+            "x": -95,
+            "y": 271
         },
         {
             "type": "Image",
-            "id": "75e0ec0b-8198-4bea-b0f9-9bce44e02255",
-            "label": "s_mbolo_21",
+            "id": "bb45e35d-a931-4eb5-9053-e36f2a777df4",
+            "label": "symbol_84",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "Símbolo 21"
+                "frame": "Symbol 84"
             },
-            "x": 1103,
-            "y": 737
+            "x": 874,
+            "y": 599
         },
         {
             "type": "Image",
-            "id": "c4c52c45-be93-4e1e-ae62-c4b9deda0ed1",
-            "label": "symbol_1",
+            "id": "871c779a-0abc-454d-a760-a57894556065",
+            "label": "s_mbolo_8_copia_2",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "Symbol 88"
+                "frame": "Símbolo 8 copia 2"
             },
-            "x": 1169.7584450245981,
-            "y": 481.1705985875134,
-            "originX": 0.5283240775273699,
-            "originY": 0.7297691522780999
+            "x": 1346,
+            "y": 460
         },
         {
             "type": "Image",
-            "id": "e7f2f98e-85e4-4482-8b13-17f334a7ffd9",
+            "id": "3dab69cc-a37a-4fd6-b644-31a891b06fbf",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 84"
+            },
+            "x": 1448.6500640220313,
+            "y": 632.751637237894,
+            "originX": 0.5890088717748448,
+            "originY": 0.7442590439045863
+        },
+        {
+            "type": "Image",
+            "id": "ba46986b-b566-49e8-a2a0-17003d07b93b",
             "label": "symbol1",
             "components": [],
             "texture": {
                 "key": "central",
                 "frame": "symbol1"
             },
-            "x": 1437,
-            "y": 694
+            "x": 1451,
+            "y": 695.9430638908892,
+            "originY": 0.5128679727873459,
+            "tintTopLeft": "#a4a4a4",
+            "tintTopRight": "#a4a4a4",
+            "tintBottomLeft": "#a4a4a4",
+            "tintBottomRight": "#a4a4a4"
         },
         {
             "type": "Image",
-            "id": "91e243e4-ed0c-467e-a304-1ca28f95dae5",
+            "id": "0abfa238-77bf-4429-b5e9-a0c288e5b54c",
             "label": "symbol2",
             "components": [],
             "texture": {
                 "key": "central",
                 "frame": "symbol2"
             },
-            "x": 1304.0275689833436,
-            "y": 780.2732084759872,
-            "originX": 0.23218905638345838,
-            "originY": 0.8453952529689244
+            "x": 1326.7694339162374,
+            "y": 827.1752292453045,
+            "originX": 0.26444705223080095,
+            "originY": 0.9821914021582091,
+            "tintTopLeft": "#a4a4a4",
+            "tintTopRight": "#a4a4a4",
+            "tintBottomLeft": "#a4a4a4",
+            "tintBottomRight": "#a4a4a4"
         },
         {
             "type": "Image",
-            "id": "ddcab276-ba40-4a29-a6ad-1bd633ef57fe",
-            "label": "symbol_2",
+            "id": "21249d62-c7d0-404f-9bf8-a4822e03546e",
+            "label": "symbol_88",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "Symbol 158"
+                "frame": "Symbol 88"
             },
-            "x": -80,
-            "y": 651,
-            "originX": 0.5091912720913176,
-            "originY": 0.8849929064665125
+            "x": 1178,
+            "y": 499
         },
         {
             "type": "Image",
-            "id": "0e9ccdae-4988-46d9-ae91-61ed9e00749c",
-            "label": "symbol_158",
+            "id": "de82aff4-d423-4e4a-9412-216cb6e4de5f",
+            "label": "symbol_153_copy0001",
             "components": [],
             "texture": {
                 "key": "central",
-                "frame": "Symbol 158"
+                "frame": "Symbol 153 copy0001"
             },
-            "x": 1113,
-            "y": 677,
-            "originX": 0.503676508836527,
-            "originY": 0.869593190207852
+            "x": 144,
+            "y": 542
+        },
+        {
+            "type": "Image",
+            "id": "1b1c46c3-28b2-47f4-8754-ae335d8a4410",
+            "label": "symbol_358",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 358"
+            },
+            "x": 30,
+            "y": 552
+        },
+        {
+            "type": "Image",
+            "id": "68f21f3b-61ba-4330-a50d-fba47bef43da",
+            "label": "symbol_116",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 116"
+            },
+            "x": 244,
+            "y": 579
+        },
+        {
+            "type": "Image",
+            "id": "4da9ae32-f790-4dac-9c8c-74eb8f02a9a1",
+            "label": "symbol_110",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 110"
+            },
+            "x": 52,
+            "y": 588
+        },
+        {
+            "type": "Image",
+            "id": "d4858938-8860-426e-9f4a-ca1571ad4e26",
+            "label": "symbol_140_copia",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 140 copia"
+            },
+            "x": 7,
+            "y": 695
+        },
+        {
+            "type": "Image",
+            "id": "7f38dd65-af03-4727-9f32-5c92a7a418c2",
+            "label": "symbol_389_copia",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 389 copia"
+            },
+            "x": 565,
+            "y": 317,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "63fe83a7-4aff-4c03-a941-7ad5621e80ee",
+            "label": "symbol_84_copia",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 84 copia"
+            },
+            "x": 444,
+            "y": 477,
+            "originX": 0.6356296789005009,
+            "originY": 0.6857083295714552
+        },
+        {
+            "type": "Image",
+            "id": "d4e43dd8-bdc2-408d-9e55-5d4a0f286ed6",
+            "label": "s_mbolo_41",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Símbolo 41"
+            },
+            "x": 204.53692199968205,
+            "y": 798.3086268033704,
+            "originX": 0.46927572077818847,
+            "originY": 0.8310515736084833,
+            "tintTopLeft": "#a4a4a4",
+            "tintTopRight": "#a4a4a4",
+            "tintBottomLeft": "#a4a4a4",
+            "tintBottomRight": "#a4a4a4"
+        },
+        {
+            "type": "Image",
+            "id": "cc63e2de-59fd-48cc-a897-e4027858ce26",
+            "label": "symbol_4",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 4"
+            },
+            "x": 131,
+            "y": 897
+        },
+        {
+            "type": "Image",
+            "id": "a3da7bae-a243-4641-bec7-d7cb16c9cba5",
+            "label": "s_mbolo_37",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Símbolo 37"
+            },
+            "x": 542,
+            "y": 811
+        },
+        {
+            "type": "Image",
+            "id": "e7084361-6bec-4e12-9c50-acc0c388c1be",
+            "label": "symbol_1",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Symbol 84"
+            },
+            "x": 1516.4964704950924,
+            "y": 345.4903526865857,
+            "originX": 0.5969675452374671,
+            "originY": 0.7355952210214012,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "f11c6e2a-19cc-493b-bf76-2aa166e1e754",
+            "label": "s_mbolo_13",
+            "components": [],
+            "texture": {
+                "key": "central",
+                "frame": "Símbolo 13"
+            },
+            "x": 1084,
+            "y": 796
+        },
+        {
+            "type": "Image",
+            "id": "4c354898-0368-4fb9-b426-38b4c0ab520d",
+            "label": "symbol_389",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 389"
+            },
+            "x": 51,
+            "y": 393
+        },
+        {
+            "type": "Image",
+            "id": "9cabc60d-76a6-4539-a6c6-baefd3bd80cc",
+            "label": "symbol_207_copia",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 207 copia"
+            },
+            "x": 434,
+            "y": 643
+        },
+        {
+            "type": "Image",
+            "id": "0321e187-f673-4ed5-80a5-12cef4707d42",
+            "label": "symbol_329",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 329"
+            },
+            "x": 1057,
+            "y": 507
         }
     ],
     "plainObjects": [],
@@ -598,20 +466,19 @@
             "id": "abccb449-bbfd-4d92-8902-1a25df9e0ef6",
             "label": "sort",
             "objectIds": [
-                "186d9ed3-ef2b-49fb-b18e-68765766b881",
-                "a252f9ee-c783-4ab1-8168-5cd2225a46ac",
-                "83b445ae-f07b-4ceb-92e3-48e71fc6941b",
-                "067667db-63bd-4520-bd4f-17182b1b12eb",
-                "c4c52c45-be93-4e1e-ae62-c4b9deda0ed1",
-                "683a2d6a-0e8a-40d9-a4c3-074d774a646e",
-                "ffae8496-e08d-4782-ad3d-30f654bb1ecc",
-                "2e8a7859-68c4-457f-a33f-b707caf83a54",
-                "d6d07d6a-30a1-4be6-a129-0f6773e7d941",
-                "0fd772e3-6aa6-46a7-9e8b-548dbce2ee16",
-                "a5f1aab4-4839-49bd-add9-502922bc6932",
-                "0e9ccdae-4988-46d9-ae91-61ed9e00749c",
-                "ddcab276-ba40-4a29-a6ad-1bd633ef57fe",
-                "91e243e4-ed0c-467e-a304-1ca28f95dae5"
+                "0abfa238-77bf-4429-b5e9-a0c288e5b54c",
+                "d4e43dd8-bdc2-408d-9e55-5d4a0f286ed6",
+                "a3da7bae-a243-4641-bec7-d7cb16c9cba5",
+                "63fe83a7-4aff-4c03-a941-7ad5621e80ee",
+                "f11c6e2a-19cc-493b-bf76-2aa166e1e754",
+                "21249d62-c7d0-404f-9bf8-a4822e03546e",
+                "871c779a-0abc-454d-a760-a57894556065",
+                "e7084361-6bec-4e12-9c50-acc0c388c1be",
+                "3dab69cc-a37a-4fd6-b644-31a891b06fbf",
+                "bb45e35d-a931-4eb5-9053-e36f2a777df4",
+                "ba46986b-b566-49e8-a2a0-17003d07b93b",
+                "be5274c4-cd78-468d-ac3d-e11ae3cdca3d",
+                "7f38dd65-af03-4727-9f32-5c92a7a418c2"
             ]
         }
     ]

@@ -6,7 +6,6 @@
 import RoomScene from "../RoomScene";
 import Animation from "../../components/Animation";
 import Button from "../../components/Button";
-import MoveTo from "../../components/MoveTo";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -42,157 +41,158 @@ export default class Plaza extends RoomScene {
     _create() {
 
         // sky
-        this.add.image(871, 103, "plaza", "sky");
-
-        // s_mbolo_29
-        this.add.image(910, 102, "plaza", "Símbolo 29");
-
-        // smoke0001
-        const smoke0001 = this.add.sprite(1048, 29, "plaza", "smoke0001");
+        this.add.image(814, 123, "plaza", "sky");
 
         // s_mbolo_64
-        this.add.image(749, 654, "plaza", "Símbolo 64");
+        this.add.image(750, 644, "plaza", "Símbolo 64");
+
+        // s_mbolo_96
+        this.add.image(845, 722, "plaza", "Símbolo 96");
+
+        // s_mbolo_97
+        this.add.image(1202, 513, "plaza", "Símbolo 97");
+
+        // s_mbolo_95
+        this.add.image(444, 689, "plaza", "Símbolo 95");
+
+        // s_mbolo_107
+        this.add.image(1166, 511, "plaza", "Símbolo 107");
+
+        // symbol_256
+        this.add.image(525, 647, "plaza", "Symbol 256");
 
         // s_mbolo_60
-        const s_mbolo_60 = this.add.image(635, 346, "plaza", "Símbolo 60");
-        s_mbolo_60.visible = false;
+        this.add.image(659, 330, "plaza", "Símbolo 60");
 
-        // s_mbolo_600
-        this.add.image(635, 346, "plaza", "Símbolo 600");
+        // s_mbolo_106
+        this.add.image(886, 686, "plaza", "Símbolo 106");
+
+        // s_mbolo_105
+        this.add.image(447, 649, "plaza", "Símbolo 105");
 
         // s_mbolo_43
-        this.add.image(656, 764, "plaza", "Símbolo 43");
-
-        // s_mbolo_56
-        this.add.image(1305, 208, "plaza", "Símbolo 56");
+        this.add.image(731, 620, "plaza", "Símbolo 43");
 
         // s_mbolo_28
-        this.add.image(124, 296, "plaza", "Símbolo 28");
+        this.add.image(168, 263, "plaza", "Símbolo 28");
 
-        // pizza
-        this.add.image(916, 284, "plaza", "pizza");
+        // symbol_82
+        this.add.image(17, 261, "plaza", "Symbol 82");
 
-        // s_mbolo_69
-        this.add.image(530, 189, "plaza", "Símbolo 69");
+        // s_mbolo_98
+        this.add.image(870, 76, "plaza", "Símbolo 98");
 
-        // sprite
-        const sprite = this.add.image(725.995492125174, 786.5465872776916, "plaza", "Sprite 331");
-        sprite.setOrigin(0.4480228119410787, 0.330181364038933);
-
-        // s_mbolo_58
-        const s_mbolo_58 = this.add.image(764, 506, "plaza", "Símbolo 58");
-        s_mbolo_58.scaleX = 0.8;
-        s_mbolo_58.scaleY = 0.8;
-
-        // pizzadoor
-        const pizzadoor = this.add.image(1003, 433, "plaza", "pizzadoor");
-
-        // s_mbolo_59
-        const s_mbolo_59 = this.add.image(614.2298322702271, 793.2090540588943, "plaza", "Símbolo 59");
-        s_mbolo_59.setOrigin(0.3769827671120317, 0.6106236779833379);
-
-        // s_mbolo_77
-        const s_mbolo_77 = this.add.image(758, 869, "plaza", "Símbolo 77");
-
-        // sprite_791_copia
-        this.add.image(1518, 491, "plaza", "Sprite 791 copia");
-
-        // symbol_185
-        const symbol_185 = this.add.image(1267, 556, "plaza", "Symbol 185");
-
-        // sprite_72
-        const sprite_72 = this.add.image(1283, 559, "plaza", "Sprite 72");
-
-        // s_mbolo_65
-        this.add.image(1365, 688, "plaza", "Símbolo 65");
-
-        // s_mbolo_61
-        const s_mbolo_61 = this.add.image(1050.857327137573, 695.0079164547627, "plaza", "Símbolo 61");
-        s_mbolo_61.setOrigin(0.5997958236247515, 0.7446082416019714);
-
-        // s_mbolo_75
-        const s_mbolo_75 = this.add.image(1186.396861463759, 717.5814353182392, "plaza", "Símbolo 75");
-        s_mbolo_75.setOrigin(0.4766347031629726, 0.011130609047263703);
-
-        // s_mbolo
-        this.add.image(342, 538, "plaza", "Símbolo 21");
-
-        // s_mbolo_20
-        this.add.image(395, 543, "plaza", "Símbolo 20");
-
-        // petdoor
-        const petdoor = this.add.image(411, 470, "plaza", "petdoor");
-
-        // s_mbolo_610001
-        this.add.image(132, 863, "plaza", "Símbolo 610001");
-
-        // s_mbolo_440001
-        this.add.image(-33, 761, "plaza", "Símbolo 440001");
-
-        // s_mbolo_76
-        const s_mbolo_76 = this.add.image(119.4261586612322, 906.3786836925167, "plaza", "Símbolo 76");
-        s_mbolo_76.setOrigin(0.804937285407684, 0.6893130863996516);
-
-        // s_mbolo_63
-        const s_mbolo_63 = this.add.image(1486.8542065760457, 1014.6990939933496, "plaza", "Símbolo 63");
-        s_mbolo_63.setOrigin(0.5181810337408466, 1.0351018337028859);
-
-        // s_mbolo_21
-        this.add.image(441, 546, "plaza", "Símbolo 21");
-
-        // entry
-        const entry = this.add.image(689, 561, "plaza", "entry");
-
-        // s_mbolo_24
-        this.add.image(930, 271, "plaza", "Símbolo 24");
-
-        // sprite_331
-        const sprite_331 = this.add.image(814, 544, "plaza", "Sprite 331");
-        sprite_331.scaleX = 0.8;
-        sprite_331.scaleY = 0.8;
-        sprite_331.setOrigin(0.5167236450692404, 0.3950041693445508);
-
-        // back
-        this.add.image(373, 179, "plaza", "back");
-
-        // glow
-        this.add.image(372, 179, "plaza", "glow");
+        // s_mbolo_56
+        this.add.image(1327, 154, "plaza", "Símbolo 56");
 
         // symbol_118
-        this.add.image(183, 455, "plaza", "Symbol 118");
+        this.add.image(196, 433, "plaza", "Symbol 118");
 
-        // fire0001
-        const fire0001 = this.add.sprite(371, 178, "plaza", "fire0001");
+        // smoke0001
+        const smoke0001 = this.add.sprite(1073, 15, "plaza", "smoke0001");
 
-        // front
-        this.add.image(373, 182, "plaza", "front");
+        // symbol_242_copia
+        this.add.image(246, 452, "plaza", "Symbol 242 copia");
 
-        // noentry
-        this.add.image(202, 398, "plaza", "noentry");
+        // symbol_242
+        this.add.image(231, 388, "plaza", "Symbol 242");
 
-        // s_mbolo_70
-        this.add.image(248, 401, "plaza", "Símbolo 70");
-
-        // s_mbolo_79
-        this.add.image(1421, 220, "plaza", "Símbolo 79");
-
-        // sprite_181
-        this.add.image(90, 457, "plaza", "Sprite 181");
+        // symbol_4
+        this.add.image(98, 439, "plaza", "Symbol 4");
 
         // symbol_263
-        this.add.image(51, 536, "plaza", "Symbol 263");
+        this.add.image(65, 521, "plaza", "Symbol 263");
 
-        // symbol_234
-        this.add.image(1388, 366, "plaza", "Symbol 234");
+        // s_mbolo_23
+        this.add.image(937, 274, "plaza", "Símbolo 23");
+
+        // pizzadoor
+        const pizzadoor = this.add.image(1025, 421, "plaza", "pizzadoor");
+
+        // s_mbolo_5
+        this.add.image(554, 181, "plaza", "Símbolo 5");
+
+        // s_mbolo_99
+        this.add.image(341, 514, "plaza", "Símbolo 99");
+
+        // s_mbolo_101
+        this.add.image(733, 529, "plaza", "Símbolo 101");
+
+        // s_mbolo_104
+        this.add.image(792, 597, "plaza", "Símbolo 104");
+
+        // s_mbolo_72
+        this.add.image(698, 550, "plaza", "Símbolo 72");
+
+        // s_mbolo_100
+        const s_mbolo_100 = this.add.image(665.4527516054771, 756.944967890457, "plaza", "Símbolo 100");
+        s_mbolo_100.setOrigin(0.4952097572924989, 0.6038421741290502);
+
+        // s_mbolo_102
+        const s_mbolo_102 = this.add.image(1088.3597696137265, 594.4331585208872, "plaza", "Símbolo 102");
+        s_mbolo_102.setOrigin(0.542229454935921, 0.4870768530221246);
+
+        // s_mbolo_103
+        const s_mbolo_103 = this.add.image(1291.3582548164316, 543.7559743123655, "plaza", "Símbolo 103");
+        s_mbolo_103.setOrigin(0.4718682110086761, 0.6464850551027547);
+
+        // tentacles010001
+        const tentacles010001 = this.add.sprite(419, 682, "plaza", "tentacles010001");
+
+        // tentacles020001
+        const tentacles020001 = this.add.sprite(837, 654, "plaza", "tentacles020001");
+
+        // tentacles030001
+        const tentacles030001 = this.add.sprite(902, 698, "plaza", "tentacles030001");
+
+        // tentacles
+        const tentacles = this.add.sprite(1231, 500, "plaza", "tentacles020001");
+
+        // tentacles_1
+        const tentacles_1 = this.add.sprite(1154, 475, "plaza", "tentacles030001");
+
+        // shopdoor
+        const shopdoor = this.add.image(431, 468, "plaza", "shopdoor");
+
+        // s_mbolo_20
+        this.add.image(415, 543, "plaza", "Símbolo 20");
+
+        // s_mbolo_21
+        this.add.image(469, 539, "plaza", "Símbolo 21");
+
+        // s_mbolo_69
+        this.add.image(496, 581, "plaza", "Símbolo 69");
+
+        // shape_194
+        this.add.image(446, 849, "plaza", "Shape 194");
+
+        // s_mbolo_34
+        this.add.image(359, 808, "plaza", "Símbolo 34");
+
+        // sprite_193
+        this.add.image(240, 837, "plaza", "Sprite 193");
+
+        // fire0001
+        const fire0001 = this.add.sprite(401, 974, "plaza", "fire0001");
+        fire0001.scaleX = 0.5;
+        fire0001.scaleY = 0.5;
 
         // s_mbolo_73
-        this.add.image(780, 604, "plaza", "Símbolo 73");
+        this.add.image(1194, 796, "plaza", "Símbolo 73");
 
-        // lights
-        this.add.image(308, 214, "plaza", "lights");
+        // s_mbolo_94
+        const s_mbolo_94 = this.add.image(1323.8427832972393, 592.9002247740751, "plaza", "Símbolo 94");
+        s_mbolo_94.setOrigin(0.38018313932180886, 0.23038544759246476);
+
+        // s_mbolo_108
+        this.add.image(742, 275, "plaza", "Símbolo 108");
+
+        // s_mbolo_109
+        const s_mbolo_109 = this.add.image(778.5962532994058, 900.5779351610272, "plaza", "Símbolo 109");
+        s_mbolo_109.setOrigin(0.6107464545569242, 0.7368005101385497);
 
         // lists
-        const sort = [s_mbolo_59, s_mbolo_77, sprite, symbol_185, sprite_72, sprite_331, s_mbolo_76, s_mbolo_61, s_mbolo_75, s_mbolo_63];
+        const sort = [s_mbolo_100, s_mbolo_102, s_mbolo_103, s_mbolo_109, s_mbolo_94];
 
         // smoke0001 (components)
         const smoke0001Animation = new Animation(smoke0001);
@@ -203,27 +203,41 @@ export default class Plaza extends RoomScene {
         const pizzadoorButton = new Button(pizzadoor);
         pizzadoorButton.spriteName = "pizzadoor";
         pizzadoorButton.activeFrame = false;
-        const pizzadoorMoveTo = new MoveTo(pizzadoor);
-        pizzadoorMoveTo.x = 995;
-        pizzadoorMoveTo.y = 472;
 
-        // petdoor (components)
-        const petdoorButton = new Button(petdoor);
-        petdoorButton.spriteName = "petdoor";
-        petdoorButton.activeFrame = false;
-        const petdoorMoveTo = new MoveTo(petdoor);
-        petdoorMoveTo.x = 417;
-        petdoorMoveTo.y = 505;
+        // tentacles010001 (components)
+        const tentacles010001Animation = new Animation(tentacles010001);
+        tentacles010001Animation.key = "tentacles01";
+        tentacles010001Animation.end = 77;
 
-        // entry (components)
-        const entryButton = new Button(entry);
-        entryButton.spriteName = "entry";
-        entryButton.activeFrame = false;
+        // tentacles020001 (components)
+        const tentacles020001Animation = new Animation(tentacles020001);
+        tentacles020001Animation.key = "tentacles02";
+        tentacles020001Animation.end = 81;
+
+        // tentacles030001 (components)
+        const tentacles030001Animation = new Animation(tentacles030001);
+        tentacles030001Animation.key = "tentacles03";
+        tentacles030001Animation.end = 71;
+
+        // tentacles (components)
+        const tentaclesAnimation = new Animation(tentacles);
+        tentaclesAnimation.key = "tentacles02";
+        tentaclesAnimation.end = 81;
+
+        // tentacles_1 (components)
+        const tentacles_1Animation = new Animation(tentacles_1);
+        tentacles_1Animation.key = "tentacles03";
+        tentacles_1Animation.end = 71;
+
+        // shopdoor (components)
+        const shopdoorButton = new Button(shopdoor);
+        shopdoorButton.spriteName = "shopdoor";
+        shopdoorButton.activeFrame = false;
 
         // fire0001 (components)
         const fire0001Animation = new Animation(fire0001);
         fire0001Animation.key = "fire";
-        fire0001Animation.end = 21;
+        fire0001Animation.end = 20;
 
         this.sort = sort;
 
