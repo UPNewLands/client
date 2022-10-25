@@ -25,7 +25,7 @@ export default class Shop extends RoomScene {
         this.music = '345'
 
         this.roomTriggers = {
-            'town': () => this.triggerRoom(100, 932, 560),
+            'town': () => this.triggerRoom(10, 932, 560),
             'unlock': () => this.interface.loadExternal('Unlock'),
             'catalog': () => this.interface.loadExternal('ClothingCatalog')
         }
@@ -164,11 +164,17 @@ export default class Shop extends RoomScene {
         display0001Animation.onHover = true;
 
         // chest (components)
+<<<<<<< HEAD
         // const chestButton = new Button(chest);
         // chestButton.spriteName = "chest";
         // const chestMoveTo = new MoveTo(chest);
         // chestMoveTo.x = 1360;
         // chestMoveTo.y = 625;
+=======
+        const chestMoveTo = new MoveTo(chest);
+        chestMoveTo.x = 1360;
+        chestMoveTo.y = 625;
+>>>>>>> 9b04b6e96e0982c37194ea17768a4c83c4d3c376
 
         // unlock (components)
         const unlockButton = new Button(unlock);
