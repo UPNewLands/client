@@ -19,47 +19,43 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "611a0152-b02b-437f-9c49-53213333f6b0",
-            "label": "symbol_126",
+            "id": "c460abd8-89a7-4cad-b2ea-a2e71f059c1d",
+            "label": "sky",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "Symbol 126"
+                "frame": "sky"
             },
-            "x": 726,
-            "y": 167
+            "x": 687,
+            "y": 172
         },
         {
             "type": "Image",
-            "id": "800d8ddb-ebc7-4528-86e2-e5d5ef276ab1",
-            "label": "fondo",
+            "id": "5bffc12e-b586-4fdc-9f6a-73f9cbab5fbf",
+            "label": "bg",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "fondo"
+                "frame": "bg"
             },
-            "x": 767,
-            "y": 448
+            "x": 652,
+            "y": 468
         },
         {
-            "type": "Sprite",
-            "id": "3225f881-0665-4c34-ad27-2de1de50ffe1",
-            "label": "water",
-            "components": [
-                "Animation"
-            ],
-            "Animation.key": "water",
-            "Animation.end": 6,
+            "type": "Image",
+            "id": "9c1285e4-cb67-4ea2-a789-ed20b6daa130",
+            "label": "symbol_70",
+            "components": [],
             "texture": {
-                "key": "forest",
-                "frame": "water0001"
+                "key": "halloween",
+                "frame": "Symbol 70"
             },
-            "x": 917,
-            "y": 54
+            "x": 747,
+            "y": 697
         },
         {
             "type": "Sprite",
-            "id": "3fbcdb3a-40e8-4f5f-8b6f-0e65358b13bd",
+            "id": "aa7ed77b-e5b8-4dca-b534-d4e0d2999c04",
             "label": "water0001",
             "components": [
                 "Animation"
@@ -70,150 +66,122 @@
                 "key": "forest",
                 "frame": "water0001"
             },
-            "x": 918,
-            "y": 123
+            "x": 551,
+            "y": 371
         },
         {
             "type": "Image",
-            "id": "bec61e9e-8cba-4ad7-8124-20316a5b45ef",
-            "label": "symbol_185",
+            "id": "684f7e2e-0287-4302-bae6-67089313f888",
+            "label": "symbol_187",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "Symbol 185"
+                "frame": "Symbol 187"
             },
-            "x": 549,
-            "y": 253
+            "x": 392,
+            "y": 342
         },
         {
             "type": "Image",
-            "id": "9204798d-a5e6-46cf-bfaf-e8d469a5dcfb",
-            "label": "sprite_148",
-            "components": [],
-            "texture": {
-                "key": "forest",
-                "frame": "Sprite 148"
-            },
-            "x": 758,
-            "y": 393
-        },
-        {
-            "type": "Image",
-            "id": "c13ec0a3-db64-414f-99f1-3887e3b1bf82",
+            "id": "c928ee01-fd20-4638-a1e1-36bd88f6151c",
             "label": "symbol_195",
             "components": [],
             "texture": {
                 "key": "forest",
                 "frame": "Symbol 195"
             },
-            "x": 1307,
-            "y": 244
+            "x": 1313,
+            "y": 266
         },
         {
             "type": "Image",
-            "id": "137555f3-d903-40d7-a5e7-8c854f527b52",
-            "label": "shape_202",
+            "id": "f153b127-0985-4373-a963-869709e760d8",
+            "label": "s_mbolo_2",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "shape 202"
+                "frame": "Símbolo 2"
             },
-            "x": 1110,
-            "y": 341
+            "x": 1105,
+            "y": 307
         },
         {
             "type": "Image",
-            "id": "2f110457-b0bf-40f6-8655-552dc7fea309",
-            "label": "sprite_345",
+            "id": "19ee9b1d-bc92-40a2-a951-9cb9bf4357e8",
+            "label": "symbol_126_copia_copia",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "sprite 345"
+                "frame": "Symbol 126 copia copia"
             },
-            "x": 1184.4957158806087,
-            "y": 417.82619313434776,
-            "originX": 0.7125974072745124,
-            "originY": 0.9756936737572747
+            "x": 880.1766584675588,
+            "y": 421.4417225699897,
+            "originX": 0.3612888732715406,
+            "originY": 0.6379709908011297
         },
         {
             "type": "Image",
-            "id": "766870f9-f256-462f-960b-d887eb703892",
-            "label": "symbol_222",
+            "id": "9d14f359-cf8f-48ad-8e3e-1d772a92badb",
+            "label": "symbol_105",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "Symbol 222"
+                "frame": "Symbol 105"
             },
-            "x": 451,
-            "y": 710
+            "x": 1361,
+            "y": 332
         },
         {
             "type": "Image",
-            "id": "5cee4930-08b8-460d-b1ef-cf64400d370c",
+            "id": "50151282-3c4d-4c56-b2cd-ed2dbbdd2e79",
             "label": "sprite_204",
             "components": [],
             "texture": {
                 "key": "forest",
                 "frame": "Sprite 204"
             },
-            "x": 248.4565167395822,
-            "y": 680.5871689076805,
-            "originX": 0.5964627515794247,
-            "originY": 0.49339804791086717
+            "x": 232,
+            "y": 648
         },
         {
             "type": "Image",
-            "id": "848ecccf-2037-4787-821f-b438bfb9ed60",
+            "id": "0db2b6c6-0afd-4125-858c-7e020ba12b6e",
             "label": "sprite_211",
             "components": [],
             "texture": {
                 "key": "forest",
                 "frame": "Sprite 211"
             },
-            "x": 146.68820698358644,
-            "y": 792.2547096773266,
-            "originX": 0.27889374268883843,
-            "originY": 0.8142781055322537
+            "x": 228,
+            "y": 658
         },
         {
             "type": "Image",
-            "id": "0f43cfb7-316a-4947-b6e8-54800584e564",
-            "label": "symbol_359",
+            "id": "ee3ff93c-8b9f-4b02-b31d-23e908350e3d",
+            "label": "symbol_222",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "Symbol 359"
+                "frame": "Symbol 222"
             },
-            "x": 327,
-            "y": 825
+            "x": 446,
+            "y": 711
         },
         {
             "type": "Image",
-            "id": "142fb0f6-6d68-4f2d-a973-482e6a08900e",
-            "label": "symbol_224",
+            "id": "e533c85b-a4bc-4c7e-9ce7-136163ef40e5",
+            "label": "symbol_192",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "Symbol 224"
+                "frame": "Symbol 192"
             },
-            "x": 630,
-            "y": 765
-        },
-        {
-            "type": "Image",
-            "id": "69c14bfd-a031-423f-a810-c2ce4ba26a9e",
-            "label": "symbol_220",
-            "components": [],
-            "texture": {
-                "key": "forest",
-                "frame": "Symbol 220"
-            },
-            "x": 497,
-            "y": 778
+            "x": 505,
+            "y": 779
         },
         {
             "type": "Sprite",
-            "id": "1b8253bd-a1cd-44ea-866d-4007f0d783ee",
+            "id": "680cd940-7d7f-46f3-a377-1c6b187c1002",
             "label": "fire0001",
             "components": [
                 "Animation"
@@ -224,98 +192,152 @@
                 "key": "forest",
                 "frame": "fire0001"
             },
-            "x": 553,
-            "y": 958,
-            "scaleX": 0.9,
-            "scaleY": 0.9
+            "x": 557,
+            "y": 939,
+            "scaleX": 0.8,
+            "scaleY": 0.8
         },
         {
             "type": "Image",
-            "id": "124539cd-a043-4946-9910-de3a46c1dd3c",
+            "id": "e0d30ac0-8cea-4300-bc7d-d7196d56ff2f",
             "label": "symbol_353",
             "components": [],
             "texture": {
                 "key": "forest",
                 "frame": "Symbol 353"
             },
-            "x": 497,
+            "x": 505,
             "y": 796,
-            "scaleX": 0.9,
-            "scaleY": 0.9
+            "scaleX": 0.8,
+            "scaleY": 0.8
         },
         {
             "type": "Image",
-            "id": "baadc106-8faa-4084-b472-3ed5f63bdd83",
-            "label": "symbol_357",
+            "id": "27faeb3c-8ddd-4e6a-97b0-fef83308d468",
+            "label": "symbol_326",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "Symbol 357"
+                "frame": "Symbol 326"
             },
-            "x": 498,
-            "y": 806
+            "x": 503,
+            "y": 810
         },
         {
             "type": "Image",
-            "id": "fb0fdfae-9243-4a55-ad64-aca54c82eb20",
-            "label": "sprite_195",
+            "id": "18c775a2-6dc2-409c-aadf-bdb9a7c93081",
+            "label": "symbol_224",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "Sprite 195"
+                "frame": "Symbol 224"
             },
-            "x": 550,
-            "y": 837
+            "x": 623,
+            "y": 767
         },
         {
             "type": "Image",
-            "id": "7aa753e5-4369-4950-8dd4-b8a8522f9bfe",
+            "id": "312a223c-c9cf-4f14-8bd9-f564602b30e9",
+            "label": "symbol_359",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 359"
+            },
+            "x": 308,
+            "y": 815
+        },
+        {
+            "type": "Image",
+            "id": "b4126674-6c4f-4900-b0e0-63d1dc0c7ea8",
             "label": "symbol_361",
             "components": [],
             "texture": {
                 "key": "forest",
                 "frame": "Symbol 361"
             },
-            "x": 406,
-            "y": 898
+            "x": 396,
+            "y": 900
         },
         {
             "type": "Image",
-            "id": "802cd39d-0d86-4bba-9222-d6276aa1c934",
+            "id": "eefd4aa7-c2c8-4395-af46-4bac314d5cfd",
             "label": "symbol_365",
             "components": [],
             "texture": {
                 "key": "forest",
                 "frame": "Symbol 365"
             },
-            "x": 280,
-            "y": 869
+            "x": 276,
+            "y": 848
         },
         {
             "type": "Image",
-            "id": "96dd4879-4998-4af8-b451-fafdc36315aa",
-            "label": "sprite_401",
+            "id": "a8dc5967-80ad-46f1-b560-ec193f3f8a05",
+            "label": "sprite_195",
             "components": [],
             "texture": {
                 "key": "forest",
-                "frame": "Sprite 401"
+                "frame": "Sprite 195"
             },
-            "x": 940,
-            "y": 597
+            "x": 580,
+            "y": 849
         },
         {
             "type": "Image",
-            "id": "43f69ba3-a48e-46e0-8d5a-a50d34229d59",
+            "id": "9fb323fe-7b88-454f-9c9a-4a9111209fd1",
             "label": "symbol_385",
             "components": [],
             "texture": {
                 "key": "forest",
                 "frame": "Symbol 385"
             },
-            "x": 808.7732036329768,
-            "y": 1021.2665932153564,
-            "originX": 0.5088747109169189,
-            "originY": 0.9696676794335662
+            "x": 779.0866359105157,
+            "y": 966.601729106229,
+            "originX": 0.4909747256726338,
+            "originY": 0.9283493296575904
+        },
+        {
+            "type": "Image",
+            "id": "1f62ad96-5139-4b38-b6e7-530c88b74a21",
+            "label": "s_mbolo_82_copia",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Símbolo 82 copia"
+            },
+            "x": 508.8775533861769,
+            "y": 938.6019325824068,
+            "originX": 0.4892923464576023,
+            "originY": 0.9911508661000177
+        },
+        {
+            "type": "Image",
+            "id": "be891c99-889f-4e00-bd88-357f6106777e",
+            "label": "symbol_257",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 257"
+            },
+            "x": 215.22833479244758,
+            "y": 693.027506819234,
+            "originX": 0.5115844959517015,
+            "originY": 0.5292281637491086
+        },
+        {
+            "type": "Image",
+            "id": "eef5b2fa-f55c-4e32-8d4e-3b8e0e5b82e4",
+            "label": "symbol_261",
+            "components": [],
+            "texture": {
+                "key": "forest",
+                "frame": "Symbol 261"
+            },
+            "x": 185.74412437695915,
+            "y": 963.6017291062288,
+            "originX": 0.44820517678610056,
+            "originY": 0.9955751801873529
         }
     ],
     "plainObjects": [],
@@ -330,13 +352,12 @@
             "id": "adc6dee8-ab4a-4215-92af-f5272ec15c19",
             "label": "sort",
             "objectIds": [
-                "43f69ba3-a48e-46e0-8d5a-a50d34229d59",
-                "2f110457-b0bf-40f6-8655-552dc7fea309",
-                "5cee4930-08b8-460d-b1ef-cf64400d370c",
-                "848ecccf-2037-4787-821f-b438bfb9ed60",
-                "1b8253bd-a1cd-44ea-866d-4007f0d783ee",
-                "baadc106-8faa-4084-b472-3ed5f63bdd83",
-                "124539cd-a043-4946-9910-de3a46c1dd3c"
+                "eef5b2fa-f55c-4e32-8d4e-3b8e0e5b82e4",
+                "9fb323fe-7b88-454f-9c9a-4a9111209fd1",
+                "be891c99-889f-4e00-bd88-357f6106777e",
+                "1f62ad96-5139-4b38-b6e7-530c88b74a21",
+                "0db2b6c6-0afd-4125-858c-7e020ba12b6e",
+                "19ee9b1d-bc92-40a2-a951-9cb9bf4357e8"
             ]
         }
     ]

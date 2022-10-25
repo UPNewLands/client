@@ -1,12 +1,11 @@
 
-// You can write more code here
-import Book from '@scenes/interface/books/Book'
-import Button from "../../../components/Button";
+/* START OF COMPILED CODE */
+
+import Book from "../../../rooms/book/Book";
 import Interactive from "../../../components/Interactive";
 import Animation from "../../../components/Animation";
-import TextInput from '@engine/interface/text/TextInput'
-
-/* START OF COMPILED CODE */
+import Button from "../../../components/Button";
+/* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
 export default class Unlock extends Book {

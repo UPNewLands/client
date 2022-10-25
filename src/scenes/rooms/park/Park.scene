@@ -21,709 +21,502 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "c211fbb0-4337-40ce-a784-78f0292e371e",
-            "label": "sky",
+            "id": "64a1a6ed-5fd3-486b-93ff-1b9c42e4742c",
+            "label": "shape_8",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sky"
+                "frame": "shape 8"
             },
-            "x": 742,
-            "y": 112
+            "x": 849,
+            "y": 166
         },
         {
             "type": "Image",
-            "id": "43d10f5b-c3b8-49a6-8866-ac6c4c99fe73",
-            "label": "symbol",
+            "id": "f6be21fc-b9b3-4169-9916-8f84563be205",
+            "label": "bg0001",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Symbol 150"
+                "frame": "bg0001"
             },
-            "x": 809,
-            "y": 210,
-            "flipX": true
-        },
-        {
-            "type": "Image",
-            "id": "d25c146a-42cb-4b92-90c9-d09186eba384",
-            "label": "symbol_150",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 150"
-            },
-            "x": 706,
-            "y": 193
-        },
-        {
-            "type": "Image",
-            "id": "71486d6a-1e1b-4000-90d4-bb85e3d54c5b",
-            "label": "symbol_79",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 79"
-            },
-            "x": 570,
-            "y": 631
-        },
-        {
-            "type": "Image",
-            "id": "90808237-8a19-45d4-9e3e-ff6ed0277fcb",
-            "label": "s_mbolo_8",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 8"
-            },
-            "x": 168,
-            "y": 257
-        },
-        {
-            "type": "Image",
-            "id": "c1e8d275-088e-4d5c-9603-d428b0071ddd",
-            "label": "s_mbolo_13",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 5"
-            },
-            "x": 641,
-            "y": 379,
-            "scaleX": 0.8,
-            "scaleY": 0.8,
-            "flipX": true
-        },
-        {
-            "type": "Image",
-            "id": "179602b2-564d-4f9f-8727-db46c58979d7",
-            "label": "symbol_1",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 150"
-            },
-            "x": 653,
-            "y": 261,
-            "flipX": true
-        },
-        {
-            "type": "Image",
-            "id": "5615ac80-88df-4cb0-bf98-1b752e663ab2",
-            "label": "symbol_81",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 81"
-            },
-            "x": 1229,
-            "y": 577
-        },
-        {
-            "type": "Image",
-            "id": "f02557bf-01d9-4ea7-8f0e-0dedb4c78573",
-            "label": "s_mbolo_330001",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 330001"
-            },
-            "x": 675,
-            "y": 693
+            "x": 738,
+            "y": 521
         },
         {
             "type": "Sprite",
-            "id": "2803c9bd-e9bd-4b79-997a-b2d5ac187519",
-            "label": "water10001",
+            "id": "8a0305da-df57-4d72-8308-d64d7dab9a36",
+            "label": "wf10001",
             "components": [
                 "Animation"
             ],
-            "Animation.key": "water1",
-            "Animation.end": 7,
+            "Animation.key": "wf1",
+            "Animation.end": 20,
             "texture": {
                 "key": "park",
-                "frame": "water10001"
+                "frame": "wf10001"
             },
-            "x": 1177,
-            "y": 487,
-            "scaleX": 0.9580913382652938,
-            "scaleY": 0.8842137984537657,
-            "angle": -36,
+            "x": 1168,
+            "y": 503,
             "flipX": true,
-            "flipY": true,
-            "alpha": 0.8,
-            "alphaTopLeft": 0.8,
-            "alphaTopRight": 0.8,
-            "alphaBottomLeft": 0.8,
-            "alphaBottomRight": 0.8,
+            "tintTopLeft": "#74BF6E",
+            "tintTopRight": "#74BF6E",
+            "tintBottomLeft": "#74BF6E",
+            "tintBottomRight": "#74BF6E",
             "tintFill": true
         },
         {
-            "type": "Image",
-            "id": "82f446e7-a059-4cf3-b91e-1f1d2fd2ec07",
-            "label": "symbol_191",
-            "components": [],
+            "type": "Sprite",
+            "id": "f000599c-8995-40a7-ab40-139dba0835bd",
+            "label": "wf20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf2",
+            "Animation.end": 16,
             "texture": {
                 "key": "park",
-                "frame": "Symbol 191"
+                "frame": "wf20001"
             },
-            "x": 856,
-            "y": 417
-        },
-        {
-            "type": "Image",
-            "id": "e9fe2897-6ff1-4d03-a009-87a052b36a8b",
-            "label": "s_mbolo_2",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 2"
-            },
-            "x": 503,
-            "y": 492
-        },
-        {
-            "type": "Image",
-            "id": "fa84cd48-737f-44cb-9d92-f1cfea4465fb",
-            "label": "s_mbolo_6",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 5"
-            },
-            "x": 1239,
-            "y": 191,
-            "scaleX": 0.8,
-            "scaleY": 0.8
-        },
-        {
-            "type": "Image",
-            "id": "409b881f-5f38-4752-8a3e-0fa687198fc0",
-            "label": "s_mbolo_4",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 5"
-            },
-            "x": 942,
-            "y": 237,
-            "scaleX": 0.6,
-            "scaleY": 0.6,
+            "x": 1177,
+            "y": 513,
             "flipX": true
         },
         {
             "type": "Image",
-            "id": "5d7d4636-5a00-4885-9577-f9832082c979",
-            "label": "s_mbolo_3",
+            "id": "dc413cb3-ef38-45ef-9006-18baf920b48b",
+            "label": "symbol_158",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Símbolo 3"
+                "frame": "Symbol 158"
             },
-            "x": 1066,
-            "y": 548
+            "x": 616,
+            "y": 347
         },
         {
             "type": "Image",
-            "id": "f451f471-4c16-48de-a1c8-4a06dcf2f182",
-            "label": "s_mbolo_11",
+            "id": "e865c3d6-efa4-42f9-b7c2-842d17fda154",
+            "label": "s_mbolo_330003",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Símbolo 11"
+                "frame": "Símbolo 330003"
             },
-            "x": 511,
-            "y": 637
+            "x": 705,
+            "y": 677
         },
         {
             "type": "Image",
-            "id": "3545e0a0-5e95-4283-96bd-cb4d4406d3a7",
-            "label": "symbol_148",
+            "id": "49809dc4-dff9-41d3-89b5-3d31640fbba1",
+            "label": "symbol_1022",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Symbol 148"
+                "frame": "Symbol 1022"
             },
-            "x": 1006,
-            "y": 449
+            "x": 268,
+            "y": 311
         },
         {
             "type": "Image",
-            "id": "cfaf1816-f69d-475b-ab30-7cac6fe6208c",
-            "label": "symbol_171",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 171"
-            },
-            "x": 777.5786284000865,
-            "y": 455.2167933176267,
-            "originX": 0.43311045164578854,
-            "originY": 0.5213635509196793
-        },
-        {
-            "type": "Image",
-            "id": "22ce4a02-442e-472a-8a86-c46c4fe974db",
-            "label": "symbol_1762",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 1762"
-            },
-            "x": 789.389909695933,
-            "y": 523.2481574416453,
-            "originX": 0.498478516299564,
-            "originY": 0.8701646305241629
-        },
-        {
-            "type": "Image",
-            "id": "bd0a9129-0ccd-424d-86aa-278b47cc2402",
-            "label": "symbol_190",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 190"
-            },
-            "x": 491.3646753660954,
-            "y": 583.4955824274214,
-            "originX": 0.4917852410584481,
-            "originY": 0.8948840619378414
-        },
-        {
-            "type": "Image",
-            "id": "5ebcb5e2-1c82-4150-99c5-14acca5240fa",
-            "label": "symbol_173_copia",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 173 copia"
-            },
-            "x": 593,
-            "y": 714
-        },
-        {
-            "type": "Image",
-            "id": "580176d8-a621-47ce-9fc0-b201c2d4a3e8",
-            "label": "s_mbolo_12",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 12"
-            },
-            "x": 771,
-            "y": 704
-        },
-        {
-            "type": "Image",
-            "id": "e54efc74-e5a9-4ba6-ac42-1693ccf0ec51",
-            "label": "symbol_176",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 176"
-            },
-            "x": 746,
-            "y": 793
-        },
-        {
-            "type": "Image",
-            "id": "8eaf86d4-20ed-4513-b700-0924c29d6231",
-            "label": "symbol_178",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 178"
-            },
-            "x": 477,
-            "y": 837
-        },
-        {
-            "type": "Image",
-            "id": "da201525-ef60-4e94-9f61-c95899f8d3fd",
-            "label": "symbol_172",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Symbol 172"
-            },
-            "x": 932,
-            "y": 867
-        },
-        {
-            "type": "Image",
-            "id": "efeb41a4-744d-4c66-b295-54a3ac495d06",
-            "label": "s_mbolo",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 12"
-            },
-            "x": 740,
-            "y": 816.9501296940946,
-            "originY": 0.7631882383966437
-        },
-        {
-            "type": "Image",
-            "id": "c349e4f3-69c7-45a1-90bb-4f0e15bd5ba5",
-            "label": "stairs",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "stairs"
-            },
-            "x": 1226,
-            "y": 913
-        },
-        {
-            "type": "Image",
-            "id": "abd7a8a8-5728-490c-b930-311784a19084",
-            "label": "sprite_318",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "sprite 318"
-            },
-            "x": 1426.892172865238,
-            "y": 721.0191597733333,
-            "originX": 0.48665268512335036,
-            "originY": 0.8231162476388884
-        },
-        {
-            "type": "Image",
-            "id": "5069a9f0-cc01-4ba0-baba-1c31724f9a92",
-            "label": "stairs2",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "stairs2"
-            },
-            "x": 1505,
-            "y": 779
-        },
-        {
-            "type": "Image",
-            "id": "6a7ed501-b848-4b05-8eec-51990614567f",
-            "label": "entry0001",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "entry0001"
-            },
-            "x": 5,
-            "y": 931,
-            "originY": 0.5716117530726303,
-            "flipX": true
-        },
-        {
-            "type": "Image",
-            "id": "c28d7602-f47e-4f13-b4d3-80c221e55700",
-            "label": "s_mbolo_1",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 5"
-            },
-            "x": 1091,
-            "y": 220,
-            "scaleX": 0.8,
-            "scaleY": 0.8
-        },
-        {
-            "type": "Image",
-            "id": "47d22403-dcd7-420c-80a9-f356ea394d1d",
+            "id": "8468fc85-f8ec-4680-9e8f-f88531cfb537",
             "label": "s_mbolo_5",
             "components": [],
             "texture": {
                 "key": "park",
                 "frame": "Símbolo 5"
             },
-            "x": 1177,
-            "y": 228,
-            "scaleX": 0.8,
-            "scaleY": 0.8,
-            "flipX": true
-        },
-        {
-            "type": "Image",
-            "id": "9bc664ec-fab7-4e57-ad22-6b338ba4eb7b",
-            "label": "sprite_206",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "sprite 206"
-            },
-            "x": 1120,
-            "y": 213
-        },
-        {
-            "type": "Image",
-            "id": "7a0547bf-6946-422f-8902-aa8f87f2070d",
-            "label": "s_mbolo_7",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "Símbolo 5"
-            },
-            "x": 1352,
-            "y": 164,
-            "scaleX": 0.8,
-            "scaleY": 0.8
-        },
-        {
-            "type": "Image",
-            "id": "355b8501-977f-4487-93fd-2c369c3ded7e",
-            "label": "sprite",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "sprite 206"
-            },
-            "x": 1289,
-            "y": 193,
-            "scaleX": 0.6,
-            "scaleY": 0.6
-        },
-        {
-            "type": "Image",
-            "id": "e5fcd702-ddc9-4b1f-ab07-9edfcbeed31b",
-            "label": "sprite_1",
-            "components": [],
-            "texture": {
-                "key": "park",
-                "frame": "sprite 206"
-            },
-            "x": 1392,
+            "x": 669,
             "y": 190
         },
         {
             "type": "Image",
-            "id": "e02fce99-31e4-4f6c-acc9-b4a8edf157f7",
-            "label": "s_mbolo_10",
+            "id": "ff51d63d-0a94-45ea-bcee-f0f29db1a8b6",
+            "label": "symbol_224",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Símbolo 5"
+                "frame": "Symbol 224"
             },
-            "x": 1519,
-            "y": 259,
-            "scaleX": 0.8,
-            "scaleY": 0.8
+            "x": 615,
+            "y": 194
         },
         {
             "type": "Image",
-            "id": "f2f696bc-5828-41cd-b3db-1798cf472d46",
-            "label": "s_mbolo_9",
+            "id": "a7009374-f628-4538-ba40-653a4a29ff37",
+            "label": "symbol_126_copia",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Símbolo 5"
+                "frame": "Symbol 126 copia"
             },
-            "x": 1459,
-            "y": 266,
-            "scaleX": 0.8,
-            "scaleY": 0.8
+            "x": 1008,
+            "y": 252
         },
         {
             "type": "Image",
-            "id": "e22ad04a-1b5b-43fa-bdf6-da85030a7c26",
-            "label": "symbol_109",
+            "id": "88185c2b-65d9-4a75-971f-3b896b4bcfa3",
+            "label": "symbol_2244",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Symbol 109"
+                "frame": "Symbol 2244"
             },
-            "x": 1516,
-            "y": 223
+            "x": 330,
+            "y": 266
         },
         {
             "type": "Image",
-            "id": "9bf1feb8-c914-4900-8344-5b4c7b175e07",
-            "label": "sprite_240",
+            "id": "85885ecc-b30f-4592-80da-b8c292a31603",
+            "label": "symbol_191",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 240"
+                "frame": "Symbol 191"
             },
-            "x": 1411,
-            "y": 373
+            "x": 817,
+            "y": 436
         },
         {
             "type": "Image",
-            "id": "997d411e-b429-4418-a76d-82c25bf41a68",
-            "label": "sprite_178",
+            "id": "ae0601ae-49dc-4389-9299-dfc929ed86f7",
+            "label": "symbol_148",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 178"
+                "frame": "Symbol 148"
             },
-            "x": 1,
-            "y": 137
+            "x": 998,
+            "y": 457
         },
         {
             "type": "Image",
-            "id": "4c08c651-bd1d-4dc8-babd-f2e206c9d014",
-            "label": "sprite_278",
+            "id": "efe707ee-e189-4d06-9897-f9b267d697b2",
+            "label": "symbol_171",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 278"
+                "frame": "Symbol 171"
             },
-            "x": 95,
-            "y": 221
+            "x": 784,
+            "y": 466
         },
         {
             "type": "Image",
-            "id": "58f672dc-59b3-4cc4-8fb3-8c3028a0e0d4",
-            "label": "sprite_189",
+            "id": "04783870-c035-4b3f-8db3-5702dfd3962a",
+            "label": "symbol_176",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 189"
+                "frame": "Symbol 176"
             },
-            "x": 48,
-            "y": 446
+            "x": 773,
+            "y": 387
         },
         {
             "type": "Image",
-            "id": "5d9c6422-c290-412f-9be6-9a934654f449",
-            "label": "sprite_276",
+            "id": "8379d8c3-4639-4f9f-ba5b-8bfec4ab8b1a",
+            "label": "symbol_252",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 276"
+                "frame": "Symbol 252"
             },
-            "x": 58,
-            "y": 425
+            "x": 699,
+            "y": 564
         },
         {
             "type": "Image",
-            "id": "a88bccd4-8469-44e1-ba11-9e29578c5f34",
-            "label": "sprite_230",
+            "id": "f8650d6e-3691-439c-91af-dde0e67412c2",
+            "label": "symbol_190",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 230"
+                "frame": "Symbol 190"
             },
-            "x": 162,
-            "y": 498
+            "x": 482.7457280493217,
+            "y": 542.0082891237556,
+            "originX": 0.5112911384560764,
+            "originY": 0.8372383565081178
         },
         {
             "type": "Image",
-            "id": "751b713f-ec2e-43cc-a5ca-78400df96d42",
-            "label": "sprite_331",
+            "id": "e6056e97-29d1-41d7-94f0-0a42106a2cc1",
+            "label": "symbol_207_copia",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 331"
+                "frame": "Symbol 207 copia"
             },
-            "x": 60,
-            "y": 525
+            "x": 39,
+            "y": 484
         },
         {
             "type": "Image",
-            "id": "80414c9f-126d-47f5-ae76-624d912846b8",
-            "label": "sprite_228",
+            "id": "d89b2ab8-95d3-48dd-9da0-a59768e2b70f",
+            "label": "symbol_290",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 228"
+                "frame": "Symbol 290"
             },
-            "x": 181,
-            "y": 526
+            "x": 1160,
+            "y": 546
         },
         {
             "type": "Image",
-            "id": "239d7cf1-6006-401f-aa04-21262a3ebbc4",
-            "label": "sprite_329",
+            "id": "6d231791-0ecb-41bb-bae6-7688d4a2d792",
+            "label": "symbol_102",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 329"
+                "frame": "Symbol 102"
             },
-            "x": 43,
-            "y": 558
+            "x": 1594,
+            "y": 383
         },
         {
             "type": "Image",
-            "id": "20324633-c206-4f13-986d-bca9891663a0",
-            "label": "sprite_364",
+            "id": "14a7bc5b-f1d6-448c-be46-dc2a4c3fad00",
+            "label": "symbol_145_copia_4",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "sprite 364"
+                "frame": "Symbol 145 copia 4"
             },
-            "x": -42,
-            "y": 341
-        },
-        {
-            "type": "Sprite",
-            "id": "99107502-8dcc-4254-a0ad-850a0c95b3d8",
-            "label": "water20001",
-            "components": [
-                "Animation"
-            ],
-            "Animation.key": "water2",
-            "Animation.end": 16,
-            "texture": {
-                "key": "park",
-                "frame": "water20001"
-            },
-            "x": 1185,
-            "y": 505,
-            "scaleX": 0.8524246542788476,
-            "scaleY": 0.9387169648844497,
-            "angle": 3,
-            "flipX": true,
-            "tintFill": true
+            "x": 766,
+            "y": 778
         },
         {
             "type": "Image",
-            "id": "5bfe9e15-d7b3-4613-a5f3-e375e1069fb5",
+            "id": "287870e2-fe0d-4cf8-a9c7-74873af744f0",
+            "label": "symbol_162",
+            "components": [],
+            "texture": {
+                "key": "park",
+                "frame": "Symbol 162"
+            },
+            "x": 193,
+            "y": 826
+        },
+        {
+            "type": "Image",
+            "id": "05c37ef8-cce2-4a04-af0a-5ba282e32a9a",
+            "label": "sprite_359",
+            "components": [],
+            "texture": {
+                "key": "park",
+                "frame": "sprite 359"
+            },
+            "x": 62,
+            "y": 903
+        },
+        {
+            "type": "Image",
+            "id": "de2ac379-c926-4fb1-b2d8-201ba8786ebc",
+            "label": "symbol_75",
+            "components": [],
+            "texture": {
+                "key": "park",
+                "frame": "Symbol 75"
+            },
+            "x": 660,
+            "y": 875
+        },
+        {
+            "type": "Image",
+            "id": "e2f5971d-1a29-4a63-a804-9a8a883dff70",
             "label": "symbol_153",
             "components": [],
             "texture": {
                 "key": "park",
                 "frame": "Symbol 153"
             },
-            "x": 253,
-            "y": 325
+            "x": 255,
+            "y": 380
         },
         {
             "type": "Image",
-            "id": "e8e19870-cb6d-43bb-9c8b-4041a5a2442a",
-            "label": "symbol_245",
+            "id": "f99c0052-5128-489c-82c5-afb00681c7d4",
+            "label": "symbol_102222",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Symbol 245"
+                "frame": "Symbol 102222"
             },
-            "x": 1277,
-            "y": 214
+            "x": 524,
+            "y": 867
         },
         {
             "type": "Image",
-            "id": "cecf889e-be53-4dbe-a3b4-4e948b6af66b",
-            "label": "symbol_248",
+            "id": "dc2ff956-eb41-406c-9739-6633bb869783",
+            "label": "symbol_160",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Symbol 248"
+                "frame": "Symbol 160"
             },
-            "x": 634,
-            "y": 187
+            "x": 1437,
+            "y": 498
         },
         {
             "type": "Image",
-            "id": "f6b03f40-7a4c-4816-a3f8-cc3b17640a23",
-            "label": "symbol_2",
+            "id": "4358f37c-1530-4556-89f2-764ee3b25050",
+            "label": "symbol_108",
             "components": [],
             "texture": {
                 "key": "park",
-                "frame": "Symbol 245"
+                "frame": "Symbol 108"
             },
-            "x": 22,
-            "y": 215
+            "x": 1219,
+            "y": 301
+        },
+        {
+            "type": "Image",
+            "id": "0942b4ea-2406-46b4-bc90-f732489703c1",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "park",
+                "frame": "Symbol 2244"
+            },
+            "x": 1482,
+            "y": 185
+        },
+        {
+            "type": "Image",
+            "id": "35880c3b-d8dc-41ce-ac95-57b606ae8cc0",
+            "label": "sprite_323",
+            "components": [],
+            "texture": {
+                "key": "park",
+                "frame": "sprite 323"
+            },
+            "x": 1197.4760678321727,
+            "y": 854.7712813986072,
+            "originX": 0.4715894539035902,
+            "originY": 0.42532085026086575
+        },
+        {
+            "type": "Image",
+            "id": "e949ea50-0257-47c4-890d-ef0897110f2a",
+            "label": "sprite_3233",
+            "components": [],
+            "texture": {
+                "key": "park",
+                "frame": "sprite 3233"
+            },
+            "x": 1539,
+            "y": 679
+        },
+        {
+            "type": "Image",
+            "id": "854ab7f6-3f44-4bc4-bcf5-718fb55cfee1",
+            "label": "sprite_318",
+            "components": [],
+            "texture": {
+                "key": "park",
+                "frame": "sprite 318"
+            },
+            "x": 1410,
+            "y": 671
+        },
+        {
+            "type": "Sprite",
+            "id": "b25bd23c-3acd-4698-90a3-1f86ad3704d7",
+            "label": "ghost10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ghost1",
+            "Animation.end": 45,
+            "texture": {
+                "key": "park",
+                "frame": "ghost10001"
+            },
+            "x": 147,
+            "y": 302
+        },
+        {
+            "type": "Sprite",
+            "id": "1edb0bbc-db9c-4dff-904e-919940802e94",
+            "label": "ghost20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ghost2",
+            "Animation.end": 59,
+            "texture": {
+                "key": "park",
+                "frame": "ghost20001"
+            },
+            "x": 990,
+            "y": 186
+        },
+        {
+            "type": "Sprite",
+            "id": "fdb136c5-6fc8-45d5-9b33-91af493ef406",
+            "label": "ghost30001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ghost3",
+            "Animation.end": 51,
+            "texture": {
+                "key": "park",
+                "frame": "ghost30001"
+            },
+            "x": 1448,
+            "y": 598
+        },
+        {
+            "type": "Sprite",
+            "id": "ac7f088a-716c-415a-80f2-97b3e6d22000",
+            "label": "tentacles010001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "tentacles01",
+            "Animation.end": 77,
+            "texture": {
+                "key": "park",
+                "frame": "tentacles010001"
+            },
+            "x": 1169,
+            "y": 419
+        },
+        {
+            "type": "Sprite",
+            "id": "b1b0567e-613d-4aa4-848b-9bda9d1421a3",
+            "label": "tentacles020001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "tentacles02",
+            "Animation.end": 81,
+            "texture": {
+                "key": "park",
+                "frame": "tentacles020001"
+            },
+            "x": 1138,
+            "y": 439
+        },
+        {
+            "type": "Sprite",
+            "id": "b47a2f4c-b6e9-460a-b76e-794ffb4d36a0",
+            "label": "tentacles030001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "tentacles03",
+            "Animation.end": 73,
+            "texture": {
+                "key": "park",
+                "frame": "tentacles030001"
+            },
+            "x": 1090,
+            "y": 437
         }
     ],
     "plainObjects": [],
@@ -738,14 +531,12 @@
             "id": "f9ed2486-7528-4eee-b547-e63a72aab5f0",
             "label": "sort",
             "objectIds": [
-                "efeb41a4-744d-4c66-b295-54a3ac495d06",
-                "bd0a9129-0ccd-424d-86aa-278b47cc2402",
-                "6a7ed501-b848-4b05-8eec-51990614567f",
-                "abd7a8a8-5728-490c-b930-311784a19084",
-                "8eaf86d4-20ed-4513-b700-0924c29d6231",
-                "da201525-ef60-4e94-9f61-c95899f8d3fd",
-                "cfaf1816-f69d-475b-ab30-7cac6fe6208c",
-                "22ce4a02-442e-472a-8a86-c46c4fe974db"
+                "fdb136c5-6fc8-45d5-9b33-91af493ef406",
+                "287870e2-fe0d-4cf8-a9c7-74873af744f0",
+                "05c37ef8-cce2-4a04-af0a-5ba282e32a9a",
+                "e949ea50-0257-47c4-890d-ef0897110f2a",
+                "854ab7f6-3f44-4bc4-bcf5-718fb55cfee1",
+                "f8650d6e-3691-439c-91af-dde0e67412c2"
             ]
         }
     ]
