@@ -20,6 +20,7 @@ export default class Central extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
+            'back': () => this.triggerRoom(3, 223, 778),
             'plaza': () => this.triggerRoom(50, 128, 652),
             'town': () => this.triggerRoom(10, 1310, 408),
         }
@@ -38,160 +39,133 @@ export default class Central extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // sky
-        this.add.image(811, 179, "central", "sky");
+        // s_mbolo_53
+        this.add.image(770, 193, "central", "Símbolo 53");
 
-        // sea
-        this.add.image(719, 646, "central", "sea");
+        // s_mbolo_34
+        this.add.image(721, 835, "central", "Símbolo 34");
 
-        // s_mbolo_32
-        this.add.image(732, 266, "central", "Símbolo 32");
+        // s_mbolo_2
+        this.add.image(661, 482, "central", "Símbolo 2");
 
-        // symbol_888
-        this.add.image(420, 217, "central", "Symbol 888");
+        // symbol_71
+        this.add.image(763, 506, "halloween", "Symbol 71");
 
-        // waves
-        this.add.image(679, 881, "central", "waves");
-
-        // s_mbolo_26
-        this.add.image(196, 647, "central", "Símbolo 26");
-
-        // s_mbolo_25
-        this.add.image(148, 492, "central", "Símbolo 25");
-
-        // s_mbolo_23
-        this.add.image(495, 553, "central", "Símbolo 23");
-
-        // s_mbolo_31
-        this.add.image(871, 440, "central", "Símbolo 31");
-
-        // symbol_1_copia
-        this.add.image(795, 507, "central", "Symbol 1 copia");
-
-        // s_mbolo_22
-        this.add.image(810, 657, "central", "Símbolo 22");
-
-        // s_mbolo_36
-        this.add.image(767, 480, "central", "Símbolo 36");
-
-        // s_mbolo
-        this.add.image(811, 623, "central", "Símbolo 38");
-
-        // s_mbolo_38
-        this.add.image(1518, 458, "central", "Símbolo 38");
-
-        // symbol_88
-        this.add.image(1525, 310, "central", "Symbol 88");
-
-        // symbol_134
-        this.add.image(199, 166, "central", "Symbol 134");
-
-        // s_mbolo_41
-        this.add.image(1015, 289, "central", "Símbolo 41");
-
-        // s_mbolo_43
-        this.add.image(425, 766, "central", "Símbolo 43");
-
-        // s_mbolo_45
-        this.add.image(1002, 769, "central", "Símbolo 45");
-
-        // s_mbolo_46
-        const s_mbolo_46 = this.add.image(503.71957396351394, 823.8095337313498, "central", "Símbolo 46");
-        s_mbolo_46.setOrigin(0.4564188103342839, 0.8591510088114434);
-
-        // sprite_331
-        this.add.image(1226, 672, "central", "Sprite 331");
+        // symbol_290
+        this.add.image(1483, 514, "halloween", "Symbol 290");
 
         // shape_315
-        const shape_315 = this.add.image(127, 658, "central", "shape 315");
-        shape_315.scaleX = 0.7;
-        shape_315.scaleY = 0.7;
-
-        // s_mbolo_50
-        this.add.image(120, 573, "central", "Símbolo 50");
-
-        // symbol_140_copia
-        this.add.image(15, 711, "central", "Symbol 140 copia");
-
-        // symbol
-        const symbol = this.add.image(412, 582, "central", "Symbol 888");
-
-        // sprite_181
-        const sprite_181 = this.add.image(871, 613, "central", "Sprite 181");
+        this.add.image(135, 674, "central", "shape 315");
 
         // fire0001
-        const fire0001 = this.add.sprite(136, 609, "central", "fire0001");
-        fire0001.scaleX = 0.7;
-        fire0001.scaleY = 0.7;
+        const fire0001 = this.add.sprite(144, 600, "halloween", "fire0001");
 
-        // s_mbolo_47
-        const s_mbolo_47 = this.add.image(1317.7246649262058, 625.5810540548766, "central", "Símbolo 47");
-        s_mbolo_47.setOrigin(0.43234438353652055, 0.826887714414231);
+        // s_mbolo_82_copia
+        const s_mbolo_82_copia = this.add.image(138.33341687781237, 744.0017544340595, "halloween", "Símbolo 82 copia");
+        s_mbolo_82_copia.setOrigin(0.5187137434309206, 0.8943723747678153);
 
-        // s_mbolo_522
-        const s_mbolo_522 = this.add.image(1103, 825.8412781094582, "central", "Símbolo 522");
-        s_mbolo_522.setOrigin(0.5, 0.8600185233254818);
-
-        // s_mbolo_14
-        this.add.image(133, 308, "central", "Símbolo 14");
-
-        // s_mbolo_33
-        this.add.image(1401, 818, "central", "Símbolo 33");
-
-        // s_mbolo_61
-        this.add.image(1298, 816, "central", "Símbolo 61");
-
-        // s_mbolo_60
-        const s_mbolo_60 = this.add.image(183.7229668306538, 806.998301904448, "central", "Símbolo 60");
-        s_mbolo_60.setOrigin(0.5769974923074122, 0.5995634240356017);
-
-        // arbol_1
-        this.add.image(62, 258, "central", "Arbol 1");
-
-        // back
-        const back = this.add.image(1035.6449742663624, 371.12822182090406, "central", "back");
-        back.setOrigin(0.564596912509729, 0.8230471564561165);
+        // symbol_349
+        this.add.image(1021, 247, "central", "Symbol 349");
 
         // flyer
-        const flyer = this.add.image(1048.9853115467968, 395.64101275534165, "central", "flyer");
-        flyer.setOrigin(0.49976274689000516, 1.706211365443236);
+        const flyer = this.add.image(1062, 311, "central", "flyer");
         flyer.flipX = true;
+        flyer.tintTopLeft = 10790052;
+        flyer.tintTopRight = 10790052;
+        flyer.tintBottomLeft = 10790052;
+        flyer.tintBottomRight = 10790052;
 
-        // front
-        const front = this.add.image(941.8064533032593, 484.59533527092384, "central", "front");
-        front.setOrigin(0.5725806534473497, 2.1080223843686166);
+        // s_mbolo_35
+        this.add.image(928, 220, "central", "Símbolo 35");
 
-        // snow
-        const snow = this.add.image(1030.8509519987576, 432.58486429565227, "central", "snow");
-        snow.scaleX = 0.8;
-        snow.scaleY = 0.8;
-        snow.setOrigin(0.5258848467324116, 1.7925836390153003);
-        snow.flipX = true;
+        // s_mbolo_27
+        this.add.image(-95, 271, "central", "Símbolo 27");
 
-        // s_mbolo_21
-        this.add.image(1103, 737, "central", "Símbolo 21");
+        // symbol_84
+        const symbol_84 = this.add.image(874, 599, "central", "Symbol 84");
 
-        // symbol_1
-        const symbol_1 = this.add.image(1169.7584450245981, 481.1705985875134, "central", "Symbol 88");
-        symbol_1.setOrigin(0.5283240775273699, 0.7297691522780999);
+        // s_mbolo_8_copia_2
+        const s_mbolo_8_copia_2 = this.add.image(1346, 460, "central", "Símbolo 8 copia 2");
+
+        // symbol
+        const symbol = this.add.image(1448.6500640220313, 632.751637237894, "central", "Symbol 84");
+        symbol.setOrigin(0.5890088717748448, 0.7442590439045863);
 
         // symbol1
-        this.add.image(1437, 694, "central", "symbol1");
+        const symbol1 = this.add.image(1451, 695.9430638908892, "central", "symbol1");
+        symbol1.setOrigin(0.5, 0.5128679727873459);
+        symbol1.tintTopLeft = 10790052;
+        symbol1.tintTopRight = 10790052;
+        symbol1.tintBottomLeft = 10790052;
+        symbol1.tintBottomRight = 10790052;
 
         // symbol2
-        const symbol2 = this.add.image(1304.0275689833436, 780.2732084759872, "central", "symbol2");
-        symbol2.setOrigin(0.23218905638345838, 0.8453952529689244);
+        const symbol2 = this.add.image(1326.7694339162374, 827.1752292453045, "central", "symbol2");
+        symbol2.setOrigin(0.26444705223080095, 0.9821914021582091);
+        symbol2.tintTopLeft = 10790052;
+        symbol2.tintTopRight = 10790052;
+        symbol2.tintBottomLeft = 10790052;
+        symbol2.tintBottomRight = 10790052;
 
-        // symbol_2
-        const symbol_2 = this.add.image(-80, 651, "central", "Symbol 158");
-        symbol_2.setOrigin(0.5091912720913176, 0.8849929064665125);
+        // symbol_88
+        const symbol_88 = this.add.image(1178, 499, "central", "Symbol 88");
 
-        // symbol_158
-        const symbol_158 = this.add.image(1113, 677, "central", "Symbol 158");
-        symbol_158.setOrigin(0.503676508836527, 0.869593190207852);
+        // symbol_153_copy0001
+        this.add.image(144, 542, "central", "Symbol 153 copy0001");
+
+        // symbol_358
+        this.add.image(30, 552, "central", "Symbol 358");
+
+        // symbol_116
+        this.add.image(244, 579, "central", "Symbol 116");
+
+        // symbol_110
+        this.add.image(52, 588, "central", "Symbol 110");
+
+        // symbol_140_copia
+        this.add.image(7, 695, "central", "Symbol 140 copia");
+
+        // symbol_389_copia
+        const symbol_389_copia = this.add.image(565, 317, "halloween", "Symbol 389 copia");
+        symbol_389_copia.flipX = true;
+
+        // symbol_84_copia
+        const symbol_84_copia = this.add.image(444, 477, "central", "Symbol 84 copia");
+        symbol_84_copia.setOrigin(0.6356296789005009, 0.6857083295714552);
+
+        // s_mbolo_41
+        const s_mbolo_41 = this.add.image(204.53692199968205, 798.3086268033704, "central", "Símbolo 41");
+        s_mbolo_41.setOrigin(0.46927572077818847, 0.8310515736084833);
+        s_mbolo_41.tintTopLeft = 10790052;
+        s_mbolo_41.tintTopRight = 10790052;
+        s_mbolo_41.tintBottomLeft = 10790052;
+        s_mbolo_41.tintBottomRight = 10790052;
+
+        // symbol_4
+        this.add.image(131, 897, "central", "Symbol 4");
+
+        // s_mbolo_37
+        const s_mbolo_37 = this.add.image(542, 811, "central", "Símbolo 37");
+
+        // symbol_1
+        const symbol_1 = this.add.image(1516.4964704950924, 345.4903526865857, "central", "Symbol 84");
+        symbol_1.setOrigin(0.5969675452374671, 0.7355952210214012);
+        symbol_1.flipX = true;
+
+        // s_mbolo_13
+        const s_mbolo_13 = this.add.image(1084, 796, "central", "Símbolo 13");
+
+        // symbol_389
+        this.add.image(51, 393, "halloween", "Symbol 389");
+
+        // symbol_207_copia
+        this.add.image(434, 643, "halloween", "Symbol 207 copia");
+
+        // symbol_329
+        this.add.image(1057, 507, "halloween", "Symbol 329");
 
         // lists
-        const sort = [sprite_181, symbol, s_mbolo_60, s_mbolo_47, symbol_1, s_mbolo_46, s_mbolo_522, back, front, flyer, snow, symbol_158, symbol_2, symbol2];
+        const sort = [symbol2, s_mbolo_41, s_mbolo_37, symbol_84_copia, s_mbolo_13, symbol_88, s_mbolo_8_copia_2, symbol_1, symbol, symbol_84, symbol1, s_mbolo_82_copia, symbol_389_copia];
 
         // fire0001 (components)
         const fire0001Animation = new Animation(fire0001);
@@ -201,7 +175,6 @@ export default class Central extends RoomScene {
         // flyer (components)
         const flyerButton = new Button(flyer);
         flyerButton.spriteName = "flyer";
-        flyerButton.callback = () => this.world.interface.main.changelog.visible = true;
         flyerButton.activeFrame = false;
 
         this.sort = sort;

@@ -164,8 +164,6 @@ export default class Shop extends RoomScene {
         display0001Animation.onHover = true;
 
         // chest (components)
-        const chestButton = new Button(chest);
-        chestButton.spriteName = "chest";
         const chestMoveTo = new MoveTo(chest);
         chestMoveTo.x = 1360;
         chestMoveTo.y = 625;

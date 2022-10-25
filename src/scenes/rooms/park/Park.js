@@ -13,7 +13,7 @@ export default class Park extends RoomScene {
     constructor() {
         super("Park");
 
-        /** @type {Phaser.GameObjects.Image[]} */
+        /** @type {Array<Phaser.GameObjects.Sprite|Phaser.GameObjects.Image>} */
         this.sort;
 
 
@@ -37,226 +37,171 @@ export default class Park extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // sky
-        this.add.image(742, 112, "park", "sky");
+        // shape_8
+        this.add.image(849, 166, "park", "shape 8");
 
-        // symbol
-        const symbol = this.add.image(809, 210, "park", "Symbol 150");
-        symbol.flipX = true;
+        // bg0001
+        this.add.image(738, 521, "park", "bg0001");
 
-        // symbol_150
-        this.add.image(706, 193, "park", "Symbol 150");
+        // wf10001
+        const wf10001 = this.add.sprite(1168, 503, "park", "wf10001");
+        wf10001.flipX = true;
+        wf10001.tintFill = true;
+        wf10001.tintTopLeft = 7651182;
+        wf10001.tintTopRight = 7651182;
+        wf10001.tintBottomLeft = 7651182;
+        wf10001.tintBottomRight = 7651182;
 
-        // symbol_79
-        this.add.image(570, 631, "park", "Symbol 79");
+        // wf20001
+        const wf20001 = this.add.sprite(1177, 513, "park", "wf20001");
+        wf20001.flipX = true;
 
-        // s_mbolo_8
-        this.add.image(168, 257, "park", "Símbolo 8");
+        // symbol_158
+        this.add.image(616, 347, "park", "Symbol 158");
 
-        // s_mbolo_13
-        const s_mbolo_13 = this.add.image(641, 379, "park", "Símbolo 5");
-        s_mbolo_13.scaleX = 0.8;
-        s_mbolo_13.scaleY = 0.8;
-        s_mbolo_13.flipX = true;
+        // s_mbolo_330003
+        this.add.image(705, 677, "park", "Símbolo 330003");
 
-        // symbol_1
-        const symbol_1 = this.add.image(653, 261, "park", "Symbol 150");
-        symbol_1.flipX = true;
-
-        // symbol_81
-        this.add.image(1229, 577, "park", "Symbol 81");
-
-        // s_mbolo_330001
-        this.add.image(675, 693, "park", "Símbolo 330001");
-
-        // water10001
-        const water10001 = this.add.sprite(1177, 487, "park", "water10001");
-        water10001.scaleX = 0.9580913382652938;
-        water10001.scaleY = 0.8842137984537657;
-        water10001.angle = -36;
-        water10001.flipX = true;
-        water10001.flipY = true;
-        water10001.alpha = 0.8;
-        water10001.alphaTopLeft = 0.8;
-        water10001.alphaTopRight = 0.8;
-        water10001.alphaBottomLeft = 0.8;
-        water10001.alphaBottomRight = 0.8;
-        water10001.tintFill = true;
-
-        // symbol_191
-        this.add.image(856, 417, "park", "Symbol 191");
-
-        // s_mbolo_2
-        this.add.image(503, 492, "park", "Símbolo 2");
-
-        // s_mbolo_6
-        const s_mbolo_6 = this.add.image(1239, 191, "park", "Símbolo 5");
-        s_mbolo_6.scaleX = 0.8;
-        s_mbolo_6.scaleY = 0.8;
-
-        // s_mbolo_4
-        const s_mbolo_4 = this.add.image(942, 237, "park", "Símbolo 5");
-        s_mbolo_4.scaleX = 0.6;
-        s_mbolo_4.scaleY = 0.6;
-        s_mbolo_4.flipX = true;
-
-        // s_mbolo_3
-        this.add.image(1066, 548, "park", "Símbolo 3");
-
-        // s_mbolo_11
-        this.add.image(511, 637, "park", "Símbolo 11");
-
-        // symbol_148
-        this.add.image(1006, 449, "park", "Symbol 148");
-
-        // symbol_171
-        const symbol_171 = this.add.image(777.5786284000865, 455.2167933176267, "park", "Symbol 171");
-        symbol_171.setOrigin(0.43311045164578854, 0.5213635509196793);
-
-        // symbol_1762
-        const symbol_1762 = this.add.image(789.389909695933, 523.2481574416453, "park", "Symbol 1762");
-        symbol_1762.setOrigin(0.498478516299564, 0.8701646305241629);
-
-        // symbol_190
-        const symbol_190 = this.add.image(491.3646753660954, 583.4955824274214, "park", "Symbol 190");
-        symbol_190.setOrigin(0.4917852410584481, 0.8948840619378414);
-
-        // symbol_173_copia
-        this.add.image(593, 714, "park", "Symbol 173 copia");
-
-        // s_mbolo_12
-        this.add.image(771, 704, "park", "Símbolo 12");
-
-        // symbol_176
-        this.add.image(746, 793, "park", "Symbol 176");
-
-        // symbol_178
-        const symbol_178 = this.add.image(477, 837, "park", "Symbol 178");
-
-        // symbol_172
-        const symbol_172 = this.add.image(932, 867, "park", "Symbol 172");
-
-        // s_mbolo
-        const s_mbolo = this.add.image(740, 816.9501296940946, "park", "Símbolo 12");
-        s_mbolo.setOrigin(0.5, 0.7631882383966437);
-
-        // stairs
-        this.add.image(1226, 913, "park", "stairs");
-
-        // sprite_318
-        const sprite_318 = this.add.image(1426.892172865238, 721.0191597733333, "park", "sprite 318");
-        sprite_318.setOrigin(0.48665268512335036, 0.8231162476388884);
-
-        // stairs2
-        this.add.image(1505, 779, "park", "stairs2");
-
-        // entry0001
-        const entry0001 = this.add.image(5, 931, "park", "entry0001");
-        entry0001.setOrigin(0.5, 0.5716117530726303);
-        entry0001.flipX = true;
-
-        // s_mbolo_1
-        const s_mbolo_1 = this.add.image(1091, 220, "park", "Símbolo 5");
-        s_mbolo_1.scaleX = 0.8;
-        s_mbolo_1.scaleY = 0.8;
+        // symbol_1022
+        this.add.image(268, 311, "park", "Symbol 1022");
 
         // s_mbolo_5
-        const s_mbolo_5 = this.add.image(1177, 228, "park", "Símbolo 5");
-        s_mbolo_5.scaleX = 0.8;
-        s_mbolo_5.scaleY = 0.8;
-        s_mbolo_5.flipX = true;
+        this.add.image(669, 190, "park", "Símbolo 5");
 
-        // sprite_206
-        this.add.image(1120, 213, "park", "sprite 206");
+        // symbol_224
+        this.add.image(615, 194, "park", "Symbol 224");
 
-        // s_mbolo_7
-        const s_mbolo_7 = this.add.image(1352, 164, "park", "Símbolo 5");
-        s_mbolo_7.scaleX = 0.8;
-        s_mbolo_7.scaleY = 0.8;
+        // symbol_126_copia
+        this.add.image(1008, 252, "park", "Symbol 126 copia");
 
-        // sprite
-        const sprite = this.add.image(1289, 193, "park", "sprite 206");
-        sprite.scaleX = 0.6;
-        sprite.scaleY = 0.6;
+        // symbol_2244
+        this.add.image(330, 266, "park", "Symbol 2244");
 
-        // sprite_1
-        this.add.image(1392, 190, "park", "sprite 206");
+        // symbol_191
+        this.add.image(817, 436, "park", "Symbol 191");
 
-        // s_mbolo_10
-        const s_mbolo_10 = this.add.image(1519, 259, "park", "Símbolo 5");
-        s_mbolo_10.scaleX = 0.8;
-        s_mbolo_10.scaleY = 0.8;
+        // symbol_148
+        this.add.image(998, 457, "park", "Symbol 148");
 
-        // s_mbolo_9
-        const s_mbolo_9 = this.add.image(1459, 266, "park", "Símbolo 5");
-        s_mbolo_9.scaleX = 0.8;
-        s_mbolo_9.scaleY = 0.8;
+        // symbol_171
+        this.add.image(784, 466, "park", "Symbol 171");
 
-        // symbol_109
-        this.add.image(1516, 223, "park", "Symbol 109");
+        // symbol_176
+        this.add.image(773, 387, "park", "Symbol 176");
 
-        // sprite_240
-        this.add.image(1411, 373, "park", "sprite 240");
+        // symbol_252
+        this.add.image(699, 564, "park", "Symbol 252");
 
-        // sprite_178
-        this.add.image(1, 137, "park", "sprite 178");
+        // symbol_190
+        const symbol_190 = this.add.image(482.7457280493217, 542.0082891237556, "park", "Symbol 190");
+        symbol_190.setOrigin(0.5112911384560764, 0.8372383565081178);
 
-        // sprite_278
-        this.add.image(95, 221, "park", "sprite 278");
+        // symbol_207_copia
+        this.add.image(39, 484, "park", "Symbol 207 copia");
 
-        // sprite_189
-        this.add.image(48, 446, "park", "sprite 189");
+        // symbol_290
+        this.add.image(1160, 546, "park", "Symbol 290");
 
-        // sprite_276
-        this.add.image(58, 425, "park", "sprite 276");
+        // symbol_102
+        this.add.image(1594, 383, "park", "Symbol 102");
 
-        // sprite_230
-        this.add.image(162, 498, "park", "sprite 230");
+        // symbol_145_copia_4
+        this.add.image(766, 778, "park", "Symbol 145 copia 4");
 
-        // sprite_331
-        this.add.image(60, 525, "park", "sprite 331");
+        // symbol_162
+        const symbol_162 = this.add.image(193, 826, "park", "Symbol 162");
 
-        // sprite_228
-        this.add.image(181, 526, "park", "sprite 228");
+        // sprite_359
+        const sprite_359 = this.add.image(62, 903, "park", "sprite 359");
 
-        // sprite_329
-        this.add.image(43, 558, "park", "sprite 329");
-
-        // sprite_364
-        this.add.image(-42, 341, "park", "sprite 364");
-
-        // water20001
-        const water20001 = this.add.sprite(1185, 505, "park", "water20001");
-        water20001.scaleX = 0.8524246542788476;
-        water20001.scaleY = 0.9387169648844497;
-        water20001.angle = 3;
-        water20001.flipX = true;
-        water20001.tintFill = true;
+        // symbol_75
+        this.add.image(660, 875, "park", "Symbol 75");
 
         // symbol_153
-        this.add.image(253, 325, "park", "Symbol 153");
+        this.add.image(255, 380, "park", "Symbol 153");
 
-        // symbol_245
-        this.add.image(1277, 214, "park", "Symbol 245");
+        // symbol_102222
+        this.add.image(524, 867, "park", "Symbol 102222");
 
-        // symbol_248
-        this.add.image(634, 187, "park", "Symbol 248");
+        // symbol_160
+        this.add.image(1437, 498, "park", "Symbol 160");
 
-        // symbol_2
-        this.add.image(22, 215, "park", "Symbol 245");
+        // symbol_108
+        this.add.image(1219, 301, "park", "Symbol 108");
+
+        // symbol
+        this.add.image(1482, 185, "park", "Symbol 2244");
+
+        // sprite_323
+        const sprite_323 = this.add.image(1197.4760678321727, 854.7712813986072, "park", "sprite 323");
+        sprite_323.setOrigin(0.4715894539035902, 0.42532085026086575);
+
+        // sprite_3233
+        const sprite_3233 = this.add.image(1539, 679, "park", "sprite 3233");
+
+        // sprite_318
+        const sprite_318 = this.add.image(1410, 671, "park", "sprite 318");
+
+        // ghost10001
+        const ghost10001 = this.add.sprite(147, 302, "park", "ghost10001");
+
+        // ghost20001
+        const ghost20001 = this.add.sprite(990, 186, "park", "ghost20001");
+
+        // ghost30001
+        const ghost30001 = this.add.sprite(1448, 598, "park", "ghost30001");
+
+        // tentacles010001
+        const tentacles010001 = this.add.sprite(1169, 419, "park", "tentacles010001");
+
+        // tentacles020001
+        const tentacles020001 = this.add.sprite(1138, 439, "park", "tentacles020001");
+
+        // tentacles030001
+        const tentacles030001 = this.add.sprite(1090, 437, "park", "tentacles030001");
 
         // lists
-        const sort = [s_mbolo, symbol_190, entry0001, sprite_318, symbol_178, symbol_172, symbol_171, symbol_1762];
+        const sort = [ghost30001, symbol_162, sprite_359, sprite_3233, sprite_318, symbol_190];
 
-        // water10001 (components)
-        const water10001Animation = new Animation(water10001);
-        water10001Animation.key = "water1";
-        water10001Animation.end = 7;
+        // wf10001 (components)
+        const wf10001Animation = new Animation(wf10001);
+        wf10001Animation.key = "wf1";
+        wf10001Animation.end = 20;
 
-        // water20001 (components)
-        const water20001Animation = new Animation(water20001);
-        water20001Animation.key = "water2";
-        water20001Animation.end = 16;
+        // wf20001 (components)
+        const wf20001Animation = new Animation(wf20001);
+        wf20001Animation.key = "wf2";
+        wf20001Animation.end = 16;
+
+        // ghost10001 (components)
+        const ghost10001Animation = new Animation(ghost10001);
+        ghost10001Animation.key = "ghost1";
+        ghost10001Animation.end = 45;
+
+        // ghost20001 (components)
+        const ghost20001Animation = new Animation(ghost20001);
+        ghost20001Animation.key = "ghost2";
+        ghost20001Animation.end = 59;
+
+        // ghost30001 (components)
+        const ghost30001Animation = new Animation(ghost30001);
+        ghost30001Animation.key = "ghost3";
+        ghost30001Animation.end = 51;
+
+        // tentacles010001 (components)
+        const tentacles010001Animation = new Animation(tentacles010001);
+        tentacles010001Animation.key = "tentacles01";
+        tentacles010001Animation.end = 77;
+
+        // tentacles020001 (components)
+        const tentacles020001Animation = new Animation(tentacles020001);
+        tentacles020001Animation.key = "tentacles02";
+        tentacles020001Animation.end = 81;
+
+        // tentacles030001 (components)
+        const tentacles030001Animation = new Animation(tentacles030001);
+        tentacles030001Animation.key = "tentacles03";
+        tentacles030001Animation.end = 73;
 
         this.sort = sort;
 

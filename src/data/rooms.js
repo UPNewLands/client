@@ -11,6 +11,12 @@ const rooms = {
         x: 619,
         y: 487
     },
+    3: {
+        key: 'Back',
+        scene: require('@rooms/back/Back').default,
+        x: 619,
+        y: 487
+    },
     10: {
         key: 'Town',
         scene: require('@rooms/town/Town').default,
