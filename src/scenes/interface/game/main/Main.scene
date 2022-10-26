@@ -1214,6 +1214,21 @@
             "y": 481,
             "visible": false,
             "nestedPrefabs": []
+        },
+        {
+            "prefabId": "7677384a-02c2-4316-a236-03fda41c7de3",
+            "id": "bf7b9dd2-e14b-4d8b-88e0-392564b1cbd4",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "halloween",
+            "components": [],
+            "x": 1252,
+            "y": 205,
+            "visible": false,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [],

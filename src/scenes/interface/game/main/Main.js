@@ -534,6 +534,11 @@ export default class Main extends BaseScene {
         this.add.existing(moderator);
         moderator.visible = false;
 
+        // halloween
+        const halloween = new Halloween(this, 1252, 205);
+        this.add.existing(halloween);
+        halloween.visible = false;
+
         // lists
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];
