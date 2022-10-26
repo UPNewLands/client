@@ -25,6 +25,7 @@ import Elevator from '../elevator/Elevator'
 import Cavepopup from '@scenes/popup/cavepoup/Cavepopup'
 import Rules from '@scenes/popup/rules/Rules'
 import Changelog from '@scenes/closeup/changelog/Changelog'
+import Halloween from '@scenes/closeup/halloween/Halloween'
 import Telescope from '@scenes/closeup/telescope/Telescope'
 import PufflesMenu from '../floating/puffles/PufflesMenu'
 import Safe from '../floating/safe/Safe'
@@ -167,6 +168,8 @@ export default class Main extends BaseScene {
         this.snitch;
         /** @type {Moderator} */
         this.moderator;
+        /** @type {Halloween} */
+        this.halloween;
         /** @type {Array<PlayerCard|Buddy>} */
         this.hideOnSleep;
         /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite|ChatLog>} */
@@ -534,8 +537,13 @@ export default class Main extends BaseScene {
         this.add.existing(moderator);
         moderator.visible = false;
 
+        // icon_1
+        const icon_1 = this.add.image(1344, 73, "newinterface", "icon");
+        icon_1.scaleX = 0.5;
+        icon_1.scaleY = 0.5;
+
         // halloween
-        const halloween = new Halloween(this, 1252, 205);
+        const halloween = new Halloween(this, 538, 452);
         this.add.existing(halloween);
         halloween.visible = false;
 
@@ -656,6 +664,11 @@ export default class Main extends BaseScene {
         logButton.callback = () => this.world.network.send('get_unverified_users');
         logButton.activeFrame = false;
 
+        // icon_1 (components)
+        const icon_1Button = new Button(icon_1);
+        icon_1Button.spriteName = "icon";
+        icon_1Button.callback = () => this.halloween.visible = true;
+
         this.pinContainer = pinContainer;
         this.chat_box = chat_box;
         this.puffle_button_disabled = puffle_button_disabled;
@@ -719,6 +732,7 @@ export default class Main extends BaseScene {
         this.modActions = modActions;
         this.snitch = snitch;
         this.moderator = moderator;
+        this.halloween = halloween;
         this.hideOnSleep = hideOnSleep;
         this.interfaceList = interfaceList;
 
@@ -731,7 +745,6 @@ export default class Main extends BaseScene {
     create() {
 
         this._create()
-
 
         // map
         const map = (localStorage.clientMode == 'vanilla') ? new NewMap(this, 760, 460) : new Map(this, 760, 460)

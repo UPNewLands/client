@@ -1216,17 +1216,36 @@
             "nestedPrefabs": []
         },
         {
-            "prefabId": "7677384a-02c2-4316-a236-03fda41c7de3",
-            "id": "bf7b9dd2-e14b-4d8b-88e0-392564b1cbd4",
+            "type": "Image",
+            "id": "7edcbf6c-f950-4ded-a426-accb1f3d300d",
+            "label": "icon_1",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "icon",
+            "Button.callback": "() => this.halloween.visible = true",
+            "texture": {
+                "key": "newinterface",
+                "frame": "icon"
+            },
+            "x": 1344,
+            "y": 73,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "prefabId": "991b2866-3e07-4b50-936d-76af731735af",
+            "id": "47501cef-846f-4e5a-9eac-2a224d18b0bd",
             "unlock": [
                 "x",
                 "y",
                 "visible"
             ],
             "label": "halloween",
+            "scope": "CLASS",
             "components": [],
-            "x": 1252,
-            "y": 205,
+            "x": 538,
+            "y": 452,
             "visible": false,
             "nestedPrefabs": []
         }

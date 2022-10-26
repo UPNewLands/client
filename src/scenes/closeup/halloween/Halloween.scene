@@ -1,0 +1,361 @@
+{
+    "id": "991b2866-3e07-4b50-936d-76af731735af",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "e5d18a85-45f3-407f-8020-492e18c19e0e",
+            "label": "container_1",
+            "components": [],
+            "x": 542,
+            "y": 462,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "3fd33cf6-e987-433e-9744-978c39e9c43a",
+                    "label": "s_mbolo_3",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "Símbolo 3"
+                    },
+                    "x": 214,
+                    "y": 50
+                },
+                {
+                    "type": "Container",
+                    "id": "40357c6e-69fe-4574-98f3-38001ad162e8",
+                    "label": "container_1",
+                    "components": [],
+                    "x": -542,
+                    "y": -462,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c459395d-9e00-450a-972e-f08c9e9c3508",
+                            "label": "day1",
+                            "components": [],
+                            "texture": {
+                                "key": "newinterface",
+                                "frame": "day1"
+                            },
+                            "x": 768,
+                            "y": 362
+                        },
+                        {
+                            "type": "Image",
+                            "id": "89290c31-f7ee-4d35-a273-e4c0c9544241",
+                            "label": "claim",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "claim",
+                            "texture": {
+                                "key": "newinterface",
+                                "frame": "claim"
+                            },
+                            "x": 257,
+                            "y": 469
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9d0ed415-3b7c-49cf-8f5a-7d2d4e27a495",
+                            "label": "claim_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "claim",
+                            "texture": {
+                                "key": "newinterface",
+                                "frame": "claim"
+                            },
+                            "x": 517,
+                            "y": 469
+                        },
+                        {
+                            "type": "Image",
+                            "id": "569ea9b8-ec78-45c6-84df-f899396a9c55",
+                            "label": "base",
+                            "components": [],
+                            "texture": {
+                                "key": "newinterface",
+                                "frame": "base"
+                            },
+                            "x": 260,
+                            "y": 446
+                        },
+                        {
+                            "type": "Image",
+                            "id": "72c6c8d6-c8bc-4616-89a7-6c45bf92ef1f",
+                            "label": "base_1",
+                            "components": [],
+                            "texture": {
+                                "key": "newinterface",
+                                "frame": "base"
+                            },
+                            "x": 519,
+                            "y": 446
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9a073e0a-1d46-4bbf-97c3-ea70b9ced067",
+                            "label": "item1",
+                            "components": [],
+                            "texture": {
+                                "key": "newinterface",
+                                "frame": "item1"
+                            },
+                            "x": 261,
+                            "y": 392
+                        },
+                        {
+                            "type": "Image",
+                            "id": "55fd2c2c-e710-413c-a8a0-5293874765b0",
+                            "label": "item2",
+                            "components": [],
+                            "texture": {
+                                "key": "newinterface",
+                                "frame": "item2"
+                            },
+                            "x": 519,
+                            "y": 472
+                        },
+                        {
+                            "type": "Image",
+                            "id": "02f9e5a3-040b-457d-bd36-265071f5bc6f",
+                            "label": "tp",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "tp",
+                            "texture": {
+                                "key": "newinterface",
+                                "frame": "tp"
+                            },
+                            "x": 1124,
+                            "y": 563
+                        },
+                        {
+                            "type": "Text",
+                            "id": "95c2b5ea-938c-45ff-98d5-da4b25580f99",
+                            "label": "text_1",
+                            "components": [],
+                            "x": 246,
+                            "y": 558,
+                            "text": "Claim",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "color": "#885A19"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "32b25e48-b812-4a0f-82d3-ebc3153735ca",
+                            "label": "text",
+                            "components": [],
+                            "x": 510,
+                            "y": 558,
+                            "text": "Claim",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "color": "#885A19"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7f229007-8ec8-4e66-97dd-9c79aad23a92",
+                            "label": "text_2",
+                            "components": [],
+                            "x": 856,
+                            "y": 335,
+                            "text": "Help Gary with the\npumpkins at his lab",
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "60px",
+                            "stroke": "#717171ff",
+                            "strokeThickness": 2,
+                            "shadow.offsetX": 5,
+                            "shadow.stroke": true,
+                            "shadow.color": "#000000ff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6569c5c7-2bb5-4377-8b52-ee20e094646d",
+                            "label": "text_3",
+                            "components": [],
+                            "x": 1043,
+                            "y": 539,
+                            "text": "GO THERE",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "40px",
+                            "stroke": "#717171ff",
+                            "strokeThickness": 2,
+                            "shadow.offsetX": 5,
+                            "shadow.stroke": true,
+                            "shadow.color": "#000000ff"
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "61039966-f9c6-4a44-9fa7-346a1ce79dce",
+                            "label": "rectangle_1",
+                            "components": [],
+                            "x": 399,
+                            "y": 171,
+                            "scaleX": 2.10134431306879,
+                            "scaleY": 0.6787617711688003,
+                            "isFilled": true,
+                            "fillColor": "#464746",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "d95e0bcc-2d45-4d30-a61f-fd108e25aaf1",
+                            "label": "rectangle",
+                            "components": [],
+                            "x": 1131,
+                            "y": 166,
+                            "scaleX": 2.10134431306879,
+                            "scaleY": 0.6787617711688003,
+                            "isFilled": true,
+                            "fillColor": "#464746",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f38c89b8-68bc-4261-9922-020552537724",
+                            "label": "text_4",
+                            "components": [],
+                            "x": 297,
+                            "y": 116,
+                            "text": "Daily Free \nItems",
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "40px",
+                            "stroke": "#717171ff",
+                            "strokeThickness": 2,
+                            "shadow.offsetX": 5,
+                            "shadow.stroke": true,
+                            "shadow.color": "#000000ff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "58bccfde-4d7a-4fc3-8503-9fa46e0a9597",
+                            "label": "text_5",
+                            "components": [],
+                            "x": 1041,
+                            "y": 116,
+                            "text": "Day #1\nMission",
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "40px",
+                            "stroke": "#717171ff",
+                            "strokeThickness": 2,
+                            "shadow.offsetX": 5,
+                            "shadow.stroke": true,
+                            "shadow.color": "#000000ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "fdbf0cf9-16f9-4d2e-a2e9-1bd85a972368",
+                    "label": "container_2",
+                    "components": [],
+                    "x": -542,
+                    "y": -462,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e6eaea33-9b1b-4d76-b486-a60bacc990e0",
+                            "label": "day2",
+                            "components": [],
+                            "texture": {
+                                "key": "newinterface",
+                                "frame": "day2"
+                            },
+                            "x": 796,
+                            "y": 439,
+                            "visible": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "0f74763f-d0bc-459f-bd54-2dc7f8212efc",
+                    "label": "symbol_519",
+                    "components": [],
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "Symbol 519"
+                    },
+                    "x": 238,
+                    "y": 412
+                },
+                {
+                    "type": "Image",
+                    "id": "93c2c0d5-9f56-4912-a18f-5c0fe66d5419",
+                    "label": "right",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "right",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "right"
+                    },
+                    "x": 930,
+                    "y": -20
+                },
+                {
+                    "type": "Image",
+                    "id": "59167f6f-6168-43da-ada0-5d3a5f84f85f",
+                    "label": "left",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "left",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "left"
+                    },
+                    "x": -485,
+                    "y": -20
+                },
+                {
+                    "type": "Image",
+                    "id": "911ce7e8-b698-420a-824b-ceed1136d91a",
+                    "label": "closepanel",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.visible = false",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "closepanel"
+                    },
+                    "x": 921,
+                    "y": -387
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

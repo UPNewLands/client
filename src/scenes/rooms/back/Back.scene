@@ -31,18 +31,6 @@
         },
         {
             "type": "Image",
-            "id": "3d655fef-1f53-4f0b-910d-2dd721b339d6",
-            "label": "symbol_381",
-            "components": [],
-            "texture": {
-                "key": "back",
-                "frame": "Symbol 381"
-            },
-            "x": 1462,
-            "y": 945
-        },
-        {
-            "type": "Image",
             "id": "d12c2765-d1ec-455d-8c90-ddd227c58b63",
             "label": "sky",
             "components": [],
@@ -93,6 +81,18 @@
         },
         {
             "type": "Image",
+            "id": "3d655fef-1f53-4f0b-910d-2dd721b339d6",
+            "label": "symbol_381",
+            "components": [],
+            "texture": {
+                "key": "back",
+                "frame": "Symbol 381"
+            },
+            "x": 1379,
+            "y": 907
+        },
+        {
+            "type": "Image",
             "id": "d4642b4f-b29d-4da6-bd2d-d1b4b95407ae",
             "label": "symbol_233",
             "components": [],
@@ -100,10 +100,10 @@
                 "key": "back",
                 "frame": "Symbol 233"
             },
-            "x": 786.5622053962313,
-            "y": 731.6503359241074,
-            "originX": 0.5013925029327344,
-            "originY": -0.007718119990536021
+            "x": 753.8479984633971,
+            "y": 1055.8182753470774,
+            "originX": 0.4836130483888096,
+            "originY": 0.7392126306021681
         }
     ],
     "plainObjects": [],
@@ -118,7 +118,8 @@
             "id": "69e37396-5a16-476c-89ce-6a7fe8e50fa7",
             "label": "sort",
             "objectIds": [
-                "d4642b4f-b29d-4da6-bd2d-d1b4b95407ae"
+                "d4642b4f-b29d-4da6-bd2d-d1b4b95407ae",
+                "3d655fef-1f53-4f0b-910d-2dd721b339d6"
             ]
         }
     ]

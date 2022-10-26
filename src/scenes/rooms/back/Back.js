@@ -39,9 +39,6 @@ export default class Back extends RoomScene {
         // s_mbolo_6
         this.add.image(1294, 709, "back", "Símbolo 6");
 
-        // symbol_381
-        this.add.image(1462, 945, "back", "Symbol 381");
-
         // sky
         this.add.image(670, 218, "back", "sky");
 
@@ -54,12 +51,15 @@ export default class Back extends RoomScene {
         // s_mbolo_9
         this.add.image(717, 550, "back", "Símbolo 9");
 
+        // symbol_381
+        const symbol_381 = this.add.image(1379, 907, "back", "Symbol 381");
+
         // symbol_233
-        const symbol_233 = this.add.image(786.5622053962313, 731.6503359241074, "back", "Symbol 233");
-        symbol_233.setOrigin(0.5013925029327344, -0.007718119990536021);
+        const symbol_233 = this.add.image(753.8479984633971, 1055.8182753470774, "back", "Symbol 233");
+        symbol_233.setOrigin(0.4836130483888096, 0.7392126306021681);
 
         // lists
-        const sort = [symbol_233];
+        const sort = [symbol_233, symbol_381];
 
         this.pumpkin = pumpkin;
         this.mouth = mouth;
