@@ -1,0 +1,78 @@
+{
+    "id": "7677384a-02c2-4316-a236-03fda41c7de3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "2c691320-3271-4076-81ff-b6aab208ec3e",
+            "label": "container_1",
+            "components": [],
+            "x": 884,
+            "y": 245,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "819a2a0a-4999-4975-851e-920a663f975b",
+                    "label": "s_mbolo_2",
+                    "components": [],
+                    "texture": {
+                        "key": "halloween",
+                        "frame": "Símbolo 2"
+                    },
+                    "x": -193,
+                    "y": 241
+                },
+                {
+                    "type": "Container",
+                    "id": "6e30db91-df9f-41ba-a839-f463c8e77b96",
+                    "label": "bar",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -27,
+                    "y": 248,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8766ad28-17c0-4f2e-9148-32e043a4e3a9",
+                            "label": "s_mbolo_7",
+                            "components": [],
+                            "texture": {
+                                "key": "halloween",
+                                "frame": "Símbolo 7"
+                            },
+                            "x": 10,
+                            "y": 4
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4b171836-05f1-4e16-a03b-e07143357ff5",
+                            "label": "reflect",
+                            "components": [],
+                            "texture": {
+                                "key": "halloween",
+                                "frame": "reflect"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

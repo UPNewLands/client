@@ -12,6 +12,10 @@ export default class Back extends RoomScene {
     constructor() {
         super("Back");
 
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.pumpkin;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.mouth;
         /** @type {Phaser.GameObjects.Image[]} */
         this.sort;
 
@@ -41,8 +45,11 @@ export default class Back extends RoomScene {
         // sky
         this.add.image(670, 218, "back", "sky");
 
-        // s_mbolo_4
-        this.add.image(773, 314, "halloween", "Símbolo 4");
+        // pumpkin
+        const pumpkin = this.add.sprite(809, 327, "halloween", "pumpkin");
+
+        // mouth
+        const mouth = this.add.sprite(771, 460, "halloween", "mouth");
 
         // s_mbolo_9
         this.add.image(717, 550, "back", "Símbolo 9");
@@ -54,6 +61,8 @@ export default class Back extends RoomScene {
         // lists
         const sort = [symbol_233];
 
+        this.pumpkin = pumpkin;
+        this.mouth = mouth;
         this.sort = sort;
 
         this.events.emit("scene-awake");
@@ -62,7 +71,24 @@ export default class Back extends RoomScene {
 
     /* START-USER-CODE */
 
-    // Write your code here
+    create() {
+        super.create();
+
+        this.bounds = this.mouth.getBounds();
+        this.mouth.on('animationcomplete', () => this.onTargetAnimComplete())
+    }
+
+
+    onSnowballComplete(x, y) {
+        if (this.bounds.contains(x, y)) {
+            console.log("Trigger Works")
+        }
+    }
+
+    onTargetAnimComplete() {
+        this.mouth.setFrame("mouth")
+    }
+
 
     /* END-USER-CODE */
 }

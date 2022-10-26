@@ -54,16 +54,30 @@
             "y": 218
         },
         {
-            "type": "Image",
-            "id": "ee085e7d-00e3-47e6-bb7c-df5abe615df1",
-            "label": "s_mbolo_4",
+            "type": "Sprite",
+            "id": "733b6cbc-022a-4c77-b347-732f23617987",
+            "label": "pumpkin",
+            "scope": "CLASS",
             "components": [],
             "texture": {
                 "key": "halloween",
-                "frame": "Símbolo 4"
+                "frame": "pumpkin"
             },
-            "x": 773,
-            "y": 314
+            "x": 809,
+            "y": 327
+        },
+        {
+            "type": "Sprite",
+            "id": "8d8523f9-6514-4f2c-a91a-b86b6da0d565",
+            "label": "mouth",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "mouth"
+            },
+            "x": 771,
+            "y": 460
         },
         {
             "type": "Image",
