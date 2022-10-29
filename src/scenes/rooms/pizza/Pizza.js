@@ -11,6 +11,8 @@ export default class Pizza extends RoomScene {
     constructor() {
         super("Pizza");
 
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.candy_1;
         /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite>} */
         this.sort;
 
@@ -88,7 +90,7 @@ export default class Pizza extends RoomScene {
         this.add.image(713, 646, "pizza", "Symbol 128");
 
         // candy_1
-        const candy_1 = this.add.image(56, 806, "dialogue", "candy_1");
+        const candy_1 = this.add.sprite(56, 806, "dialogue", "candy_1");
         candy_1.scaleX = 0.2;
         candy_1.scaleY = 0.2;
 
@@ -188,7 +190,8 @@ export default class Pizza extends RoomScene {
         tronMoveTo.y = 330;
 
         // candy_1 (components)
-        new SimpleButton(candy_1);
+        const candy_1SimpleButton = new SimpleButton(candy_1);
+        candy_1SimpleButton.callback = () => {this.foundCandy(1,this.candy_1)};
 
         // check0001 (components)
         const check0001Animation = new Animation(check0001);
@@ -199,6 +202,7 @@ export default class Pizza extends RoomScene {
         check0001Animation.onHover = true;
         new SimpleButton(check0001);
 
+        this.candy_1 = candy_1;
         this.sort = sort;
 
         this.events.emit("scene-awake");
@@ -207,6 +211,13 @@ export default class Pizza extends RoomScene {
 
     /* START-USER-CODE */
 
+    create() {
+        super.create();
+        if (this.world.client.penguin.candy1 == 1) {
+            this.candy_1.visible = false;
+        }
+    }
+ 
     /* END-USER-CODE */
 }
 

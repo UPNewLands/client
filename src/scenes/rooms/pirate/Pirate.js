@@ -9,6 +9,10 @@ export default class Pirate extends RoomScene {
     constructor() {
         super("Pirate");
 
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.candy_4;
+
+
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
             'port': () => this.triggerRoom(30, 1154, 435),
@@ -61,7 +65,7 @@ export default class Pirate extends RoomScene {
         s_mbolo_8.tintBottomRight = 8880770;
 
         // candy_4
-        const candy_4 = this.add.image(1157, 497, "dialogue", "candy_4");
+        const candy_4 = this.add.sprite(1157, 497, "dialogue", "candy_4");
         candy_4.scaleX = 0.2;
         candy_4.scaleY = 0.2;
 
@@ -210,7 +214,8 @@ export default class Pirate extends RoomScene {
         puffle0001Animation.end = 76;
 
         // candy_4 (components)
-        new SimpleButton(candy_4);
+        const candy_4SimpleButton = new SimpleButton(candy_4);
+        candy_4SimpleButton.callback = () => {this.foundCandy(4,this.candy_4)};
 
         // wave10001 (components)
         const wave10001Animation = new Animation(wave10001);
@@ -240,12 +245,20 @@ export default class Pirate extends RoomScene {
         flag0001Animation.key = "flag";
         flag0001Animation.end = 13;
 
+        this.candy_4 = candy_4;
+
         this.events.emit("scene-awake");
     }
 
+
     /* START-USER-CODE */
 
-    // Write your code here
+    create() {
+        super.create();
+        if (this.world.client.penguin.candy4 == 1) {
+            this.candy_4.visible = false;
+        }
+    }
 
     /* END-USER-CODE */
 }

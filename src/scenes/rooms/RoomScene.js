@@ -186,6 +186,14 @@ export default class RoomScene extends BaseScene {
         })
     }
 
+    foundCandy(id, sprite) {
+        let prompt = this.game.scene.getScene('InterfaceController').prompt
+        prompt.showWindow('Candy #' + id + " has been added to your inventory", 'single', () => {
+            this.network.send("add_candy", {candy: id})
+            this.interface.prompt.window.visible = false
+            sprite.visible = false
+        })
+    }
     
     joinGame(minigame, id){
 		this.world.loadMinigame(minigame)

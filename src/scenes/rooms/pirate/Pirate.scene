@@ -126,12 +126,14 @@
             "tintBottomRight": "#878282"
         },
         {
-            "type": "Image",
+            "type": "Sprite",
             "id": "cb5d1615-69f7-4543-8b23-4b6ebecc02e4",
             "label": "candy_4",
+            "scope": "CLASS",
             "components": [
                 "SimpleButton"
             ],
+            "SimpleButton.callback": "() => {this.foundCandy(4,this.candy_4)}",
             "texture": {
                 "key": "dialogue",
                 "frame": "candy_4"

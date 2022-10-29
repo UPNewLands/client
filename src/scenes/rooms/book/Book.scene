@@ -310,12 +310,14 @@
             "tintBottomRight": "#9f9f9f"
         },
         {
-            "type": "Image",
+            "type": "Sprite",
             "id": "54554c3b-a1ef-4a9d-9b21-c17b54c054fa",
             "label": "candy_3",
+            "scope": "CLASS",
             "components": [
                 "SimpleButton"
             ],
+            "SimpleButton.callback": "() => {this.foundCandy(3,candy_3)}",
             "texture": {
                 "key": "dialogue",
                 "frame": "candy_3"

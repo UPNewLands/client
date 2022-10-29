@@ -16,6 +16,8 @@ export default class Port extends RoomScene {
     constructor() {
         super("Port");
 
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.candy_2;
         /** @type {Phaser.GameObjects.Image[]} */
         this.sort;
 
@@ -235,7 +237,7 @@ export default class Port extends RoomScene {
         s_mbolo_100.setOrigin(0.5, 1.002895042170364);
 
         // candy_2
-        const candy_2 = this.add.image(252, 294, "dialogue", "candy_2");
+        const candy_2 = this.add.sprite(252, 294, "dialogue", "candy_2");
         candy_2.scaleX = 0.2;
         candy_2.scaleY = 0.2;
         candy_2.tintTopLeft = 13158600;
@@ -354,8 +356,10 @@ export default class Port extends RoomScene {
         wave_29Animation.end = 42;
 
         // candy_2 (components)
-        new SimpleButton(candy_2);
+        const candy_2SimpleButton = new SimpleButton(candy_2);
+        candy_2SimpleButton.callback = () => {this.foundCandy(2,this.candy_2)};
 
+        this.candy_2 = candy_2;
         this.sort = sort;
 
         this.events.emit("scene-awake");
@@ -364,7 +368,12 @@ export default class Port extends RoomScene {
 
     /* START-USER-CODE */
 
-    // Write your code here
+    create() {
+        super.create();
+        if (this.world.client.penguin.candy2 == 1) {
+            this.candy_2.visible = false;
+        }
+    }
 
     /* END-USER-CODE */
 }

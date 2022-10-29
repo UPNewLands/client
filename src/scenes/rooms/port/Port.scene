@@ -676,12 +676,14 @@
             "originY": 1.002895042170364
         },
         {
-            "type": "Image",
+            "type": "Sprite",
             "id": "3bbac300-fa34-45c4-90b1-fa5f5446c07f",
             "label": "candy_2",
+            "scope": "CLASS",
             "components": [
                 "SimpleButton"
             ],
+            "SimpleButton.callback": "() => {this.foundCandy(2,this.candy_2)}",
             "texture": {
                 "key": "dialogue",
                 "frame": "candy_2"

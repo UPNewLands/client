@@ -221,12 +221,14 @@
             "y": 646
         },
         {
-            "type": "Image",
+            "type": "Sprite",
             "id": "1f6fb889-7098-4f00-b8af-42239c86fa37",
             "label": "candy_1",
+            "scope": "CLASS",
             "components": [
                 "SimpleButton"
             ],
+            "SimpleButton.callback": "() => {this.foundCandy(1,this.candy_1)}",
             "texture": {
                 "key": "dialogue",
                 "frame": "candy_1"

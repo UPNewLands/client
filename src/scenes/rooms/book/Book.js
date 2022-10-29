@@ -43,6 +43,8 @@ export default class Book extends RoomScene {
         /** @type {Phaser.GameObjects.Sprite} */
         this.topDeskRight;
         /** @type {Phaser.GameObjects.Sprite} */
+        this.candy_3;
+        /** @type {Phaser.GameObjects.Sprite} */
         this.conveyorBottom;
         /** @type {Phaser.GameObjects.Sprite} */
         this.newspapers;
@@ -191,7 +193,7 @@ export default class Book extends RoomScene {
         topDeskRight.tintBottomRight = 10461087;
 
         // candy_3
-        const candy_3 = this.add.image(1071, 471, "dialogue", "candy_3");
+        const candy_3 = this.add.sprite(1071, 471, "dialogue", "candy_3");
         candy_3.scaleX = 0.2;
         candy_3.scaleY = 0.2;
         candy_3.tintTopLeft = 10329501;
@@ -255,7 +257,8 @@ export default class Book extends RoomScene {
         const sort = [stool2, stool1, topDeskRight, topDeskRightChair, topDeskDivider, topDeskRightStorage, topDeskLeft, topDeskLeftChair, topDeskLeftStorage, coffeeTable, bottomDeskRight, bottomDeskLeft, bottomDeskLeftChair, bottomDeskDivider, bookshelf, fg, conveyorBottom, newspapers, conveyorTop, s_mbolo_4444];
 
         // candy_3 (components)
-        new SimpleButton(candy_3);
+        const candy_3SimpleButton = new SimpleButton(candy_3);
+        candy_3SimpleButton.callback = () => {this.foundCandy(3,candy_3)};
 
         // newspapers (components)
         const newspapersAnimation = new Animation(newspapers);
@@ -278,6 +281,7 @@ export default class Book extends RoomScene {
         this.topDeskDivider = topDeskDivider;
         this.topDeskRightChair = topDeskRightChair;
         this.topDeskRight = topDeskRight;
+        this.candy_3 = candy_3;
         this.conveyorBottom = conveyorBottom;
         this.newspapers = newspapers;
         this.conveyorTop = conveyorTop;
@@ -295,6 +299,13 @@ export default class Book extends RoomScene {
         //     super.create()
         //     this.newspapers.play("newspapers")
         // }
+
+        create() {
+            super.create();
+            if (this.world.client.penguin.candy3 == 1) {
+                this.candy_3.visible = false;
+            }
+        }
     /* END-USER-CODE */
 }
 
