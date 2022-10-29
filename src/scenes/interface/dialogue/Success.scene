@@ -1,0 +1,91 @@
+{
+    "id": "4b5c13af-e29a-429e-9818-d3593c0d4977",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "79969db3-737a-4951-958e-3fd52c8adc37",
+            "label": "container_1",
+            "components": [],
+            "x": 761,
+            "y": 159,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "58eced93-a062-4b66-946c-346ad5bbd2fd",
+                    "label": "tiny_globe",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "dialogue",
+                        "frame": "tiny-globe"
+                    },
+                    "x": 455,
+                    "y": 205
+                },
+                {
+                    "type": "Text",
+                    "id": "987ed23d-3e7d-429d-9875-9382b1685d2f",
+                    "label": "text_3",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 307,
+                    "y": 164,
+                    "text": "Great! \nYou found one candy!",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "color": "#858585ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "5bf4e5eb-8601-4f7f-9073-242b71084f26",
+                    "label": "gary_happy_tiny",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "dialogue",
+                        "frame": "gary-happy-tiny"
+                    },
+                    "x": 668,
+                    "y": 195
+                },
+                {
+                    "type": "Image",
+                    "id": "d4801e52-a387-476d-8947-247386225924",
+                    "label": "close",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.visible = false;",
+                    "texture": {
+                        "key": "dialogue",
+                        "frame": "close"
+                    },
+                    "x": 722,
+                    "y": 131
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

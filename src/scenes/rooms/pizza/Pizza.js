@@ -191,7 +191,9 @@ export default class Pizza extends RoomScene {
 
         // candy_1 (components)
         const candy_1SimpleButton = new SimpleButton(candy_1);
-        candy_1SimpleButton.callback = () => {this.foundCandy(1,this.candy_1)};
+        candy_1SimpleButton.callback = () => {this.foundCandy(1,this.candy_1),
+        this.world.interface.main.success_1.visible = true; 
+        };
 
         // check0001 (components)
         const check0001Animation = new Animation(check0001);

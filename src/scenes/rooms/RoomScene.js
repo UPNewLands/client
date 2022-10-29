@@ -195,6 +195,10 @@ export default class RoomScene extends BaseScene {
         })
     }
     
+    insertSeen(id) {
+            this.network.send("addSeen", {intro: id})
+    }
+
     joinGame(minigame, id){
 		this.world.loadMinigame(minigame)
         let room = this.crumbs.scenes.rooms[id]

@@ -357,7 +357,8 @@ export default class Port extends RoomScene {
 
         // candy_2 (components)
         const candy_2SimpleButton = new SimpleButton(candy_2);
-        candy_2SimpleButton.callback = () => {this.foundCandy(2,this.candy_2)};
+        candy_2SimpleButton.callback = () => {this.foundCandy(2,this.candy_2),
+                this.world.interface.main.success_1.visible = true; };
 
         this.candy_2 = candy_2;
         this.sort = sort;

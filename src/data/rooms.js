@@ -17,6 +17,12 @@ const rooms = {
         x: 619,
         y: 487
     },
+    4: {
+        key: 'Lab',
+        scene: require('@rooms/lab/Lab').default,
+        x: 619,
+        y: 487
+    },
     10: {
         key: 'Town',
         scene: require('@rooms/town/Town').default,

@@ -29,7 +29,6 @@
                     "components": [],
                     "x": -262,
                     "y": -677,
-                    "visible": false,
                     "list": [
                         {
                             "type": "Rectangle",
@@ -169,7 +168,7 @@
                                 "Button"
                             ],
                             "Button.spriteName": "ok",
-                            "Button.callback": "() => this.visible = false;",
+                            "Button.callback": "() => this.visible = false, this.insertSeen(1);",
                             "texture": {
                                 "key": "dialogue",
                                 "frame": "ok"
@@ -211,6 +210,7 @@
                     "components": [],
                     "x": -262,
                     "y": -677,
+                    "visible": false,
                     "list": [
                         {
                             "type": "Rectangle",

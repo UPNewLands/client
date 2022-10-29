@@ -20,7 +20,8 @@ export default class Central extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'back': () => this.triggerRoom(3, 223, 778),
+            // 'back': () => this.triggerRoom(3, 223, 778),
+            'back': () => null,
             'plaza': () => this.triggerRoom(50, 128, 652),
             'town': () => this.triggerRoom(10, 1310, 408),
         }

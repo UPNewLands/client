@@ -1,0 +1,240 @@
+{
+    "id": "bd6eef2d-b384-43de-a489-9eba4deba30b",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/lab/lab-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Lab",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "0221d89d-0a8f-495d-99c3-518629d8acf5",
+            "label": "bg",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "bg"
+            },
+            "x": 719,
+            "y": 486
+        },
+        {
+            "type": "Sprite",
+            "id": "145ce949-a3ad-44e4-8adb-42199425cdca",
+            "label": "effect20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "effect2",
+            "Animation.end": 100,
+            "Animation.stopOnOut": false,
+            "texture": {
+                "key": "lab",
+                "frame": "effect20001"
+            },
+            "x": 780,
+            "y": 241
+        },
+        {
+            "type": "Sprite",
+            "id": "0fa6e439-7f60-4d80-a44d-025ef718cdd1",
+            "label": "effect10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "effect1",
+            "Animation.end": 100,
+            "Animation.stopOnOut": false,
+            "texture": {
+                "key": "lab",
+                "frame": "effect10001"
+            },
+            "x": 769,
+            "y": 245
+        },
+        {
+            "type": "Image",
+            "id": "502229f2-8b02-43a3-afb7-b6fa81c26ec1",
+            "label": "symbol_191",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "Symbol 191"
+            },
+            "x": 278,
+            "y": 370
+        },
+        {
+            "type": "Image",
+            "id": "d1104e94-deff-4c5d-ab83-f800e17c5893",
+            "label": "symbol_509",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "Symbol 509"
+            },
+            "x": 1472,
+            "y": 592
+        },
+        {
+            "type": "Image",
+            "id": "d7f5c056-5310-4544-af49-2d336f61df35",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "Button.activeFrame": false,
+            "MoveTo.x": 779,
+            "MoveTo.y": 784,
+            "texture": {
+                "key": "lab",
+                "frame": "door"
+            },
+            "x": 773,
+            "y": 821
+        },
+        {
+            "type": "Image",
+            "id": "7ffc847c-286e-444a-b16e-0675676b51ec",
+            "label": "s_mbolo_1",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "Símbolo 1"
+            },
+            "x": 93,
+            "y": 628
+        },
+        {
+            "type": "Image",
+            "id": "d366fd30-1b0f-40ca-9f63-737e0c477f77",
+            "label": "s_mbolo",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "Símbolo 4"
+            },
+            "x": 229,
+            "y": 475,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "a56fa012-123f-46ca-963a-19632449e1ff",
+            "label": "s_mbolo_4",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "Símbolo 4"
+            },
+            "x": 1325,
+            "y": 473
+        },
+        {
+            "type": "Image",
+            "id": "40698490-51fb-418d-b85f-05d413ac57dc",
+            "label": "s_mbolo_5",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "Símbolo 5"
+            },
+            "x": 776,
+            "y": 338
+        },
+        {
+            "type": "Sprite",
+            "id": "42044141-92d2-4d8d-bb6c-673f06510c99",
+            "label": "lever0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lever",
+            "Animation.end": 96,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "Animation.stopOnOut": false,
+            "texture": {
+                "key": "lab",
+                "frame": "lever0001"
+            },
+            "x": 407,
+            "y": 111
+        },
+        {
+            "type": "Image",
+            "id": "410aa663-f0a9-457f-a46f-9db89c3b4185",
+            "label": "symbol_645",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "Symbol 645"
+            },
+            "x": 760,
+            "y": 456
+        },
+        {
+            "type": "Image",
+            "id": "1564cfb6-3a5d-4b2e-baf4-f8aa64f8c271",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "Symbol 191"
+            },
+            "x": 363,
+            "y": 309
+        },
+        {
+            "type": "Image",
+            "id": "0837fa83-c823-4316-8afb-b9489cb7b6ed",
+            "label": "symbol_555",
+            "components": [],
+            "texture": {
+                "key": "lab",
+                "frame": "Symbol 555"
+            },
+            "x": 1139,
+            "y": 123
+        },
+        {
+            "type": "Image",
+            "id": "d8cffd71-5f98-4cf1-aafd-afbdde5db394",
+            "label": "gary",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "gary",
+            "Button.callback": "() => this.world.interface.main.random.visible = true",
+            "Button.activeFrame": false,
+            "texture": {
+                "key": "lab",
+                "frame": "gary"
+            },
+            "x": 1173,
+            "y": 302,
+            "scaleX": 1.8,
+            "scaleY": 1.8
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

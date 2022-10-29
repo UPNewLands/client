@@ -1262,6 +1262,38 @@
             "x": 264,
             "y": 683,
             "nestedPrefabs": []
+        },
+        {
+            "prefabId": "4b5c13af-e29a-429e-9818-d3593c0d4977",
+            "id": "d828db7d-b518-4808-a00a-1d05b4acddd8",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "success_1",
+            "scope": "CLASS",
+            "components": [],
+            "x": 772,
+            "y": 68,
+            "visible": false,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "bbc4d4d9-8c33-4e06-bd9d-963feff6f0d4",
+            "id": "f40c48ad-3497-48d5-bd76-73b971c7b737",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "random",
+            "scope": "CLASS",
+            "components": [],
+            "x": 291,
+            "y": 480,
+            "visible": false,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [],

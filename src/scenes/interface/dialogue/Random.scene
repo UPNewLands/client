@@ -1,0 +1,115 @@
+{
+    "id": "bbc4d4d9-8c33-4e06-bd9d-963feff6f0d4",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "5c57064c-6b56-4f0f-8284-9f0d616fcc08",
+            "label": "container_1",
+            "components": [],
+            "x": 283,
+            "y": 474,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "b4529ec0-5ac0-4a3c-a440-f74b47aacc3a",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 485,
+                    "y": 9,
+                    "scaleX": 12.45414843162558,
+                    "scaleY": 8.033582834174968,
+                    "alpha": 0.5,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "befebf03-c5b7-4257-a48e-3530507e739c",
+                    "label": "gary_happy",
+                    "components": [],
+                    "texture": {
+                        "key": "dialogue",
+                        "frame": "gary-happy"
+                    },
+                    "x": -33,
+                    "y": 241
+                },
+                {
+                    "type": "Image",
+                    "id": "94bc6f32-3ad7-45b1-8f94-dee86c97404e",
+                    "label": "globe",
+                    "components": [],
+                    "texture": {
+                        "key": "dialogue",
+                        "frame": "globe"
+                    },
+                    "x": 699,
+                    "y": 311
+                },
+                {
+                    "type": "Image",
+                    "id": "a076c822-fd4c-4f6d-84da-ed81f32a9a21",
+                    "label": "ok",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "ok",
+                    "Button.callback": "() => this.visible = false;",
+                    "Button.activeFrame": false,
+                    "texture": {
+                        "key": "dialogue",
+                        "frame": "ok"
+                    },
+                    "x": 1106,
+                    "y": 369
+                },
+                {
+                    "type": "Text",
+                    "id": "6c1884a6-3f92-4d84-8ee1-5fda73dbd922",
+                    "label": "text_2",
+                    "components": [],
+                    "x": 1073,
+                    "y": 354,
+                    "text": "Close",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "color": "#858585ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "c49ca1ff-c7e8-4549-bc03-3dfb4bdb139f",
+                    "label": "text_1",
+                    "components": [],
+                    "x": 329,
+                    "y": 247,
+                    "text": "[Default Text]",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "color": "#858585ff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

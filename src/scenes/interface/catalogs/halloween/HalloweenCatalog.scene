@@ -1,0 +1,3881 @@
+{
+    "id": "077e5586-7759-455f-9b26-cef211be20cd",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "Book",
+        "preloadPackFiles": [
+            "client-master/assets/media/interface/catalogs/halloween/halloween-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "HalloweenCatalog",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "f49a0af4-b899-4c04-a4b6-513432ffddff",
+            "label": "block",
+            "components": [
+                "Interactive"
+            ],
+            "y": 1,
+            "scaleX": 1.0855357488020507,
+            "scaleY": 1.041677287131595,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "fillColor": "#000000",
+            "fillAlpha": 0.2,
+            "width": 1520,
+            "height": 960
+        },
+        {
+            "type": "Container",
+            "id": "3b30bfe2-1c9e-4359-87d5-089d555d83a6",
+            "label": "page12",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "4f2bc422-be96-4c27-8c7c-41c7e8fc1b2a",
+                    "label": "p12",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 5"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "dc46e385-d934-410d-b59e-1182e66eb1b0",
+                    "label": "symbol_661_png",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 661"
+                    },
+                    "x": 887,
+                    "y": 554,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "93298d65-ab2b-4903-a172-7196eb0c25fc",
+                    "label": "shadow_png-123",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 1061,
+                    "y": 468,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "9a3dff35-11f1-4540-aa7c-a2e413a9ed68",
+                    "label": "text_210983",
+                    "components": [],
+                    "x": 753,
+                    "y": 214,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "UPNewLands Style\n",
+                    "fontFamily": "Asterisk",
+                    "fontSize": "64px",
+                    "fontStyle": "bold italic"
+                },
+                {
+                    "type": "Text",
+                    "id": "9d0fa6cb-6e48-4c04-88fd-c2d95250023f",
+                    "label": "text12903",
+                    "components": [],
+                    "x": 814,
+                    "y": 262,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Halloween 2022 Edition\n",
+                    "fontFamily": "Asterisk",
+                    "fontSize": "32px",
+                    "fontStyle": "italic"
+                },
+                {
+                    "type": "Image",
+                    "id": "d489ba41-0fb6-437d-b909-ec7ee60bb98a",
+                    "label": "close12",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1041,
+                    "y": 143,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d84e50da-e88d-467a-baeb-eca2847f81c1",
+                    "label": "backPage_12",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 497,
+                    "y": 771,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "5692e2af-a026-4361-9e74-41f17c4a4cea",
+                    "label": "text_882828",
+                    "components": [],
+                    "x": 645,
+                    "y": 617,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Made by wildmaster84\nand alot of tears :')",
+                    "fontFamily": "Asterisk",
+                    "fontSize": "32px",
+                    "fontStyle": "italic"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "ee364da6-8c65-44d6-94f6-c11c220c7467",
+            "label": "page11",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8cb2f35e-6d07-459e-bfaf-22cc3a5da69c",
+                    "label": "p11",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 1328"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.8175061799564842,
+                    "scaleY": 1.6143088989137644
+                },
+                {
+                    "type": "Image",
+                    "id": "a23c2e46-7a18-4674-b717-f5f20b04065c",
+                    "label": "flagBtn_active",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 415,
+                    "y": 234,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "7a512d28-dd06-4e01-b971-cde164dd5d17",
+                    "label": "flagBtn_active_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 499,
+                    "y": 233,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "b11e1503-a5ca-4dcc-9b6e-a6bd2156f99a",
+                    "label": "flagBtn_active_2",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 589,
+                    "y": 233,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "945efcea-3778-4c92-ae86-2b840d08e30d",
+                    "label": "flagBtn_active_3",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 679,
+                    "y": 232,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "9a038e00-a3a6-4da9-a7ee-bb5b150e80ad",
+                    "label": "flagBtn_active_4",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 677,
+                    "y": 331,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "bb7e0faa-08d8-492f-90b0-a186a188e994",
+                    "label": "flagBtn_active_5",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 586,
+                    "y": 330,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "ab39cb71-b519-4941-b7ab-2057cb1694e3",
+                    "label": "flagBtn_active_6",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 498,
+                    "y": 330,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d51e4ab4-3ef3-43cb-9a0f-00826004f0fe",
+                    "label": "flagBtn_active_7",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 409,
+                    "y": 331,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "e32831c2-b241-4ec4-a0f0-2cb56753e3ab",
+                    "label": "flagBtn_active_8",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 677,
+                    "y": 427,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "15fb39af-ab77-4b01-b48f-273d505fad62",
+                    "label": "flagBtn_active_9",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 586,
+                    "y": 426,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "f9bdb597-6555-4dbd-934d-3371ddbafd36",
+                    "label": "flagBtn_active_10",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 497,
+                    "y": 426,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "56f09110-2dac-4d1a-9fdd-7efc1d074f5d",
+                    "label": "flagBtn_active_11",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 406,
+                    "y": 427,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "1d3ff464-698b-4160-b9b7-5032d76c03ee",
+                    "label": "flagBtn_active_12",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 676,
+                    "y": 527,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "3a0e82ab-cf25-4e00-b236-a4f1fbc1b659",
+                    "label": "flagBtn_active_13",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.buy(500)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 585,
+                    "y": 526,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "755bfadb-e3de-44d1-a6e4-79b83f031b8e",
+                    "label": "flagBtn_active_14",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 498,
+                    "y": 526,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "05e13544-22fa-4e0d-958c-db01dea8d5e7",
+                    "label": "flagBtn_active_15",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 406,
+                    "y": 527,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "e53c8bec-9fe0-45d8-b29c-4616dc3cf13d",
+                    "label": "flagBtn_active_16",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 677,
+                    "y": 629,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d0a486f5-d1b9-4a4e-8ee2-3ef68bd28d7b",
+                    "label": "flagBtn_active_17",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 586,
+                    "y": 628,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "af8b6b38-e7a3-42b1-9e9d-ed3ddd5a6ada",
+                    "label": "flagBtn_active_18",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 498,
+                    "y": 628,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "32794ca5-078f-4b3f-a620-504fa9bbf23c",
+                    "label": "flagBtn_active_20",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 677,
+                    "y": 733,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "785332ef-b67e-4b74-bc08-86a99adac3c4",
+                    "label": "flagBtn_active_21",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 585,
+                    "y": 733,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "7a822105-a769-44fb-b27a-4cf274bd56ce",
+                    "label": "flagBtn_active_22",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 499,
+                    "y": 733,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "85b93dc3-c362-475a-b452-c7a4aed749ce",
+                    "label": "flagBtn_active_23",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 407,
+                    "y": 733,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "6945eb87-a8b9-4c2e-ac9a-97bf49cf7041",
+                    "label": "flagBtn_active_24",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 862,
+                    "y": 626,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "db374f1d-7e02-4e6c-9048-865feb5f1036",
+                    "label": "flagBtn_active_25",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 860,
+                    "y": 729,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "7ece6c4c-1eee-425b-93e7-f4b216772984",
+                    "label": "flagBtn_active_26",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 948,
+                    "y": 729,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "26b102e7-6b3b-4ba6-aab1-c34829448210",
+                    "label": "flagBtn_active_27",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1035,
+                    "y": 729,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "54bee4f5-d3ad-445a-b21e-3b0239531b84",
+                    "label": "flagBtn_active_28",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1119,
+                    "y": 729,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "ea643269-5a56-416d-b057-d256e4128692",
+                    "label": "flagBtn_active_29",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 945,
+                    "y": 626,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "bbff6b54-c44b-4f2a-903d-848d91258b30",
+                    "label": "flagBtn_active_30",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1035,
+                    "y": 627,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "e7c2ee44-490b-4667-a2bf-50db3336f455",
+                    "label": "flagBtn_active_31",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1119,
+                    "y": 626,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "96d1ea17-1b59-4103-9429-e28374b1e25d",
+                    "label": "flagBtn_active_32",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 861,
+                    "y": 523,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "61d54855-2d27-4a8d-8923-243b179ed1db",
+                    "label": "flagBtn_active_33",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 947,
+                    "y": 524,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "eae25350-0813-40bc-a07a-c4b91de06612",
+                    "label": "flagBtn_active_34",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1035,
+                    "y": 523,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "f41a0950-a5d9-4234-9a9a-75175420d63b",
+                    "label": "flagBtn_active_35",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1119,
+                    "y": 524,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "cd4ff156-5043-4475-a979-3bb532c7be23",
+                    "label": "flagBtn_active_36",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 861,
+                    "y": 424,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "e1461419-b04c-4563-99cc-65e512f89014",
+                    "label": "flagBtn_active_37",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 947,
+                    "y": 422,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "dceba9bc-e1be-41c4-9263-e1675566555d",
+                    "label": "flagBtn_active_38",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1034,
+                    "y": 422,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "33597b16-8e94-4303-aca3-8bf1bddadc08",
+                    "label": "flagBtn_active_39",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1118,
+                    "y": 422,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "ce80cec5-b0fa-49da-a380-2dd7d1324d8f",
+                    "label": "flagBtn_active_40",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 862,
+                    "y": 324,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "5ed6f6ec-8e52-43f7-abba-934a49697090",
+                    "label": "flagBtn_active_41",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 947,
+                    "y": 324,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "4b66b7b3-1784-4646-9cba-7d15a272fdc0",
+                    "label": "flagBtn_active_42",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.buy(503)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1034,
+                    "y": 324,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "c01eff31-5c2c-40be-b8b6-8d3fd8b0080d",
+                    "label": "flagBtn_active_43",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1117,
+                    "y": 325,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "059f92a9-a537-4c0e-88cf-80339903c570",
+                    "label": "flagBtn_active_44",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1120,
+                    "y": 227,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "996a58b1-3fb3-4ddf-a8f3-de86f0969ef1",
+                    "label": "flagBtn_active_45",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1032,
+                    "y": 228,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d746efd3-f47a-481e-b309-29c27d9b3f4f",
+                    "label": "flagBtn_active_46",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 947,
+                    "y": 228,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "067fc366-9b12-4feb-918a-312fc94e8d89",
+                    "label": "flagBtn_active_47",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 862,
+                    "y": 227,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "85281185-e1b2-4b33-800f-f654883b534e",
+                    "label": "flagBtn_active_19",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 408,
+                    "y": 629,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "24f9ea7c-d1c3-4d70-a228-1085ce190704",
+                    "label": "flagBtn_active_48",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1207.568115234375,
+                    "y": 227.89950561523438,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "0ee15da4-3357-4029-892c-9d2e3796617b",
+                    "label": "flagBtn_active_49",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1206.568115234375,
+                    "y": 325.8995056152344,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "fa5c4a54-4e66-47bc-93e2-18bcedd56918",
+                    "label": "flagBtn_active_50",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.buy(501)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1205.568115234375,
+                    "y": 423.89947509765625,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "0489b23b-297e-4da2-9e1c-6e2e654b15b4",
+                    "label": "flagBtn_active_51",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1206.568115234375,
+                    "y": 524.8994750976562,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "da3662b5-e09d-4937-adc5-1c1d9a15f8a4",
+                    "label": "flagBtn_active_52",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1206.568115234375,
+                    "y": 628.8994750976562,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "e54c6581-5979-4b85-9355-ef1ddf6871dd",
+                    "label": "flagBtn_active_54",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 315,
+                    "y": 331,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "51b09186-f278-4b1a-9d95-ad510c37d5d3",
+                    "label": "flagBtn_active_55",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 314,
+                    "y": 428,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "75f7abaf-d63d-4edb-b11c-69c64b873f2e",
+                    "label": "flagBtn_active_56",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 317,
+                    "y": 528,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "bf36c327-cbe8-49b2-a2ae-0d76a2e2f443",
+                    "label": "flagBtn_active_57",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 315,
+                    "y": 629,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "fec4bae7-14ef-4ca2-b6b8-777df314846f",
+                    "label": "flagBtn_active_58",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 315,
+                    "y": 735,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "5f54fac1-f142-48e3-8304-06dde93492c5",
+                    "label": "flagBtn_active_53",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "flagBtn",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "flagBtn"
+                    },
+                    "x": 1205.568115234375,
+                    "y": 728.8994750976562,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "097f718e-28d8-4bf9-8486-e17092709bd7",
+                    "label": "symbol_13",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 13"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "558d10f4-8504-4ad9-b783-5194a9d88cac",
+                    "label": "shadow_png_1345",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "34bb2248-f191-440a-adfd-a746208cf67f",
+                    "label": "symbol_1637",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 1637"
+                    },
+                    "x": 281,
+                    "y": 172,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "dc42e651-9aff-41de-bbac-2aee618200f7",
+                    "label": "text_2345",
+                    "components": [],
+                    "x": 273,
+                    "y": 169,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Flags for your\nplayercard",
+                    "fontFamily": "MYRIADPRO",
+                    "fontSize": "24px"
+                },
+                {
+                    "type": "Image",
+                    "id": "dd2c68ea-8920-43d8-84ee-b74ec1adc942",
+                    "label": "nextPage_1345",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1291,
+                    "y": 738,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "22cef38e-fd2e-41eb-be26-ebe1fb183f37",
+                    "label": "backPage324",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 240,
+                    "y": 738,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "76142ae7-a799-4548-ae9b-28aa6046f6d0",
+                    "label": "close_1123",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "a6cd1065-19c6-4761-8364-3614c05650b9",
+            "label": "page10",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f7b7ddeb-22b6-40e7-af22-6abd4e451ead",
+                    "label": "p10",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 983"
+                    },
+                    "x": 698,
+                    "y": 120,
+                    "scaleX": 1.4944271024159024,
+                    "scaleY": 1.5188868705268257,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "e5251d9e-1284-48cb-b3b4-05da0ee1c7d5",
+                    "label": "shadow_png_443",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "f74e5125-275c-4b2d-8f2c-df65ab084ea3",
+                    "label": "nextPage_3564",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1289,
+                    "y": 760,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "ec27c964-9f19-45f5-82c7-75dbf7f9e39a",
+                    "label": "backPage_1015",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 232,
+                    "y": 759,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "344dd5c7-95c6-4336-b3af-265ed8bb5180",
+                    "label": "close_3534",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "dc0cc8c0-886f-4b33-b2a1-5e180687cafd",
+                    "label": "text_34565",
+                    "components": [],
+                    "x": 955,
+                    "y": 486,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "The Grim",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "65e12322-2659-40ea-bb0e-83d444e0b235",
+                    "label": "buy_30454",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 951,
+                    "y": 511
+                },
+                {
+                    "type": "Image",
+                    "id": "c33b9fb0-e956-43f3-a351-cf1c4885d392",
+                    "label": "buy_31555",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1185,
+                    "y": 505
+                },
+                {
+                    "type": "Text",
+                    "id": "b93841cf-3559-4b53-9dd4-6a19ba9ffeb8",
+                    "label": "text_3544",
+                    "components": [],
+                    "x": 1189,
+                    "y": 479,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Spectacles",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "f5f440bd-3f8c-432e-b9f9-ba52139a9f5f",
+                    "label": "buy_32wada",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 954,
+                    "y": 718
+                },
+                {
+                    "type": "Text",
+                    "id": "9fd14415-d9c1-4a1e-98ee-af4a94b15f66",
+                    "label": "text_3656u",
+                    "components": [],
+                    "x": 958,
+                    "y": 693,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Gravedigger Suit",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "4d85ceb7-ffe5-4d6b-891f-ef1a42500780",
+                    "label": "buy_333222",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1183,
+                    "y": 717
+                },
+                {
+                    "type": "Text",
+                    "id": "ecc69396-49a5-484e-bb4e-95a98e2e2692",
+                    "label": "text_3756u",
+                    "components": [],
+                    "x": 1187,
+                    "y": 691,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Gray Shovel",
+                    "color": "#000000ff"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "5606137c-bceb-4da1-af80-f6cc1ac60c93",
+            "label": "page9",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "6193a8a4-67f8-48f5-ac89-dc1c0ea11c3c",
+                    "label": "p9",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 857"
+                    },
+                    "x": 765,
+                    "y": 577,
+                    "scaleX": 1.502,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "199e1c75-6927-407a-bbd9-53ed755ad4ab",
+                    "label": "shadow_png_99",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "b8e02a2f-aa94-4189-a549-934364930d51",
+                    "label": "nextPage_9",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1289,
+                    "y": 759,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d74818cc-a236-4a79-9ae1-21db02011b61",
+                    "label": "backPage9",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 232,
+                    "y": 759,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "6a43f9be-50b0-4fca-8a0c-6a2aebffcf6f",
+                    "label": "close_9",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "8be6b5c8-7166-4cf7-8f2c-c897577215a1",
+                    "label": "text_2945",
+                    "components": [],
+                    "x": 928,
+                    "y": 352,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "The Enchantress"
+                },
+                {
+                    "type": "Image",
+                    "id": "43bbfa7a-a984-4c12-802d-c5e763831dda",
+                    "label": "buy_25g65",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 923,
+                    "y": 379
+                },
+                {
+                    "type": "Image",
+                    "id": "cc94c290-3584-4b35-a953-138c1679cb38",
+                    "label": "buy_2655555",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1131,
+                    "y": 365
+                },
+                {
+                    "type": "Text",
+                    "id": "2112ff7f-3475-4b49-8862-e9f46987f5cc",
+                    "label": "text_30erg",
+                    "components": [],
+                    "x": 1136,
+                    "y": 338,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Candy Wing Warmers"
+                },
+                {
+                    "type": "Image",
+                    "id": "a56c36c1-3762-4db7-b6be-ac84c5e48d7b",
+                    "label": "buy_27qwd",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 924,
+                    "y": 606
+                },
+                {
+                    "type": "Text",
+                    "id": "dcbc0e7d-3651-47dc-ae26-a2070f15b3ae",
+                    "label": "text_31ewf",
+                    "components": [],
+                    "x": 929,
+                    "y": 579,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Enchantdress"
+                },
+                {
+                    "type": "Image",
+                    "id": "a7dd416a-44bb-4610-ac26-f4ce6af43a8a",
+                    "label": "buy_28",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 932,
+                    "y": 750
+                },
+                {
+                    "type": "Text",
+                    "id": "21af36bd-5d5d-43cc-ae7f-233d2ea28b37",
+                    "label": "text_32t6j",
+                    "components": [],
+                    "x": 937,
+                    "y": 723,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Sparkly Amber Shoes"
+                },
+                {
+                    "type": "Image",
+                    "id": "21efd582-fc5b-4828-822a-9c9d49574059",
+                    "label": "buy_29rrgrg",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1145,
+                    "y": 695
+                },
+                {
+                    "type": "Text",
+                    "id": "72c52f9e-74c4-48c9-8d91-292481f1ef0c",
+                    "label": "text_3365u5",
+                    "components": [],
+                    "x": 1150,
+                    "y": 668,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Witches Broom"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "a50c3858-6943-4b7d-9b5e-142fbd511c61",
+            "label": "page8",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f4d95d8c-9886-4860-8fb8-0906fd169eea",
+                    "label": "p8",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 820"
+                    },
+                    "x": 185,
+                    "y": 839,
+                    "scaleX": 1.4235059355563722,
+                    "scaleY": 1.435386474187358,
+                    "originX": 0,
+                    "originY": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "62724fdf-835b-409b-847f-476045f12eef",
+                    "label": "text_2378956478",
+                    "components": [],
+                    "x": 447,
+                    "y": 293,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Creepy Doll Makeup",
+                    "align": "center",
+                    "fontSize": "13px"
+                },
+                {
+                    "type": "Image",
+                    "id": "ffc0a7c5-5807-4f70-8e5c-dd9f99d0ab06",
+                    "label": "buy_1948g9dq",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 441,
+                    "y": 320
+                },
+                {
+                    "type": "Image",
+                    "id": "f982d6a7-69f9-40d0-a106-cd6f3cfa69dc",
+                    "label": "buy_205f5f58798",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 892,
+                    "y": 399
+                },
+                {
+                    "type": "Text",
+                    "id": "8ad1ce7f-989b-49bf-b8cd-5eb4c6a5e6d7",
+                    "label": "text_24d4d44d",
+                    "components": [],
+                    "x": 898,
+                    "y": 372,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "The Phantom",
+                    "align": "center",
+                    "fontSize": "13px"
+                },
+                {
+                    "type": "Image",
+                    "id": "4bdc6c0b-1d05-495a-ba15-2f2b143768bc",
+                    "label": "buy_212135",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1121,
+                    "y": 330
+                },
+                {
+                    "type": "Text",
+                    "id": "b61d05f2-a65e-4998-82ba-c3c6e811548f",
+                    "label": "text_25456456",
+                    "components": [],
+                    "x": 1127,
+                    "y": 303,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Skull Mask",
+                    "align": "center",
+                    "fontSize": "13px"
+                },
+                {
+                    "type": "Image",
+                    "id": "a96b814f-6aab-49fe-b8ce-77ba380892e2",
+                    "label": "buy_22u8lu",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1066,
+                    "y": 662
+                },
+                {
+                    "type": "Text",
+                    "id": "ee3a1c4d-8bce-4366-889c-c8cab622d08e",
+                    "label": "text_26i9i",
+                    "components": [],
+                    "x": 1072,
+                    "y": 635,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "The Mystery",
+                    "align": "center",
+                    "fontSize": "13px"
+                },
+                {
+                    "type": "Image",
+                    "id": "3275b8b2-ba14-4919-bea6-cfc49a8f2d6e",
+                    "label": "buy_23lihl",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 572,
+                    "y": 517
+                },
+                {
+                    "type": "Text",
+                    "id": "e1a8e647-8b61-4478-80ad-31978aea6989",
+                    "label": "text_27u65",
+                    "components": [],
+                    "x": 578,
+                    "y": 490,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Count Mask",
+                    "align": "center",
+                    "fontSize": "13px"
+                },
+                {
+                    "type": "Image",
+                    "id": "0b79c06d-dfbf-49f8-b687-f3d9267e1d79",
+                    "label": "buy_24u65",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 362,
+                    "y": 668
+                },
+                {
+                    "type": "Text",
+                    "id": "9b18af47-41cd-4167-940b-f7d6abeeecec",
+                    "label": "text_28q",
+                    "components": [],
+                    "x": 368,
+                    "y": 641,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Countess Makeup",
+                    "align": "center",
+                    "fontSize": "13px"
+                },
+                {
+                    "type": "Image",
+                    "id": "aa63b335-7d58-49a3-a613-459dea3bf83a",
+                    "label": "shadow_png_8",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "6a54f81e-a820-4707-a89c-d1789a9eabe7",
+                    "label": "nextPage_8",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1288,
+                    "y": 754,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "b36c9fe1-650f-4378-9ee8-0ae32c312e77",
+                    "label": "backPage88",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 232,
+                    "y": 759,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "1543db7f-d4eb-4f64-bf21-9cb1c9edb969",
+                    "label": "close_8",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "c42198f1-30c3-4bf9-8366-19dfc050fbe7",
+            "label": "page7",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "3059f6e3-8b3c-4769-82de-c1e95e8b9e74",
+                    "label": "p7",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 731"
+                    },
+                    "x": 751,
+                    "y": 488,
+                    "scaleX": 1.4884518288130728,
+                    "scaleY": 1.5176249240285442
+                },
+                {
+                    "type": "Image",
+                    "id": "0d718efa-491d-483e-83e3-6bd4374ccc28",
+                    "label": "shadow_png_7",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "eb213a52-b3b3-4fcc-bf69-1776e1fb320b",
+                    "label": "symbol_615",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 615"
+                    },
+                    "x": 323,
+                    "y": 160,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "3fc085f0-31eb-4d91-88bd-5f6c3ad1f5cf",
+                    "label": "text_esfsuifysiue",
+                    "components": [],
+                    "x": 316,
+                    "y": 157,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Custom Items!",
+                    "fontFamily": "MYRIADPRO",
+                    "fontSize": "32px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "dfb4d5e8-21bd-4f87-b68b-a6c31811524b",
+                    "label": "nextPage_7",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1288,
+                    "y": 754,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "5cfeeb88-430e-4f2f-afa1-acadcfda2fdb",
+                    "label": "backPage7",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 232,
+                    "y": 759,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "2fb62e5e-0b9c-42fc-90e6-2270e2388b68",
+                    "label": "close_7",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "441f0285-914a-4f31-9390-3b6caa411a65",
+                    "label": "text_20",
+                    "components": [],
+                    "x": 1068,
+                    "y": 304,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Blue pumpkin head"
+                },
+                {
+                    "type": "Image",
+                    "id": "dade483a-6477-4600-8421-0481afb6dd09",
+                    "label": "buy_16",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1063,
+                    "y": 330
+                },
+                {
+                    "type": "Image",
+                    "id": "86e34023-21a7-4305-8904-3d7c919c9e64",
+                    "label": "buy_17",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1066,
+                    "y": 564
+                },
+                {
+                    "type": "Text",
+                    "id": "c2d77581-91ed-4f6c-be1d-c652a471ba11",
+                    "label": "text_21",
+                    "components": [],
+                    "x": 1071,
+                    "y": 538,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Pumpkin headband"
+                },
+                {
+                    "type": "Image",
+                    "id": "55e87286-d029-4338-aeb3-f9f1e929dfd7",
+                    "label": "buy_18",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1048,
+                    "y": 727
+                },
+                {
+                    "type": "Text",
+                    "id": "c1c1dc85-3b6c-45a6-8787-8cb0b4976ed0",
+                    "label": "text_22",
+                    "components": [],
+                    "x": 1053,
+                    "y": 700,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Chained pumpkin"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "bec198c2-88c7-4abe-9202-c902720937e3",
+            "label": "page6",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "bf1229ab-b9bb-44d7-a079-d965d436c1a1",
+                    "label": "p6",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 699"
+                    },
+                    "x": 640,
+                    "y": 400,
+                    "scaleX": 1.52,
+                    "scaleY": 1.508
+                },
+                {
+                    "type": "Image",
+                    "id": "d6bdb11d-e2db-46a3-ba0b-07ba656a66cf",
+                    "label": "shadow_png_6",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "6862775b-ab59-4ab9-95ef-fc18f3d22554",
+                    "label": "nextPage_6",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1288,
+                    "y": 754,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d875fa86-325a-4f60-aae5-c022714adf78",
+                    "label": "backPage6",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 232,
+                    "y": 759,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "df917b38-526e-428e-817f-50bb760c4526",
+                    "label": "close_6",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "191f34f8-73b7-4db1-8918-1b6a10c33209",
+                    "label": "text_15",
+                    "components": [],
+                    "x": 936,
+                    "y": 728,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Happy Punk O'Ween"
+                },
+                {
+                    "type": "Text",
+                    "id": "47a1f6d0-fd1c-458a-a2e8-97489ebaa477",
+                    "label": "text_16",
+                    "components": [],
+                    "x": 1157,
+                    "y": 636,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Halloween Tee"
+                },
+                {
+                    "type": "Text",
+                    "id": "519cc9bc-ae55-4a4f-89c2-66fa3816ea5e",
+                    "label": "text_17",
+                    "components": [],
+                    "x": 944,
+                    "y": 484,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Jagged Purple\necklace",
+                    "align": "center"
+                },
+                {
+                    "type": "Text",
+                    "id": "cf455e86-ab67-456b-a91c-cea0cc29582f",
+                    "label": "text_18",
+                    "components": [],
+                    "x": 1148,
+                    "y": 385,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "The Shadow Spike",
+                    "align": "center"
+                },
+                {
+                    "type": "Text",
+                    "id": "e2ee4b06-6ad4-4cb5-84aa-d0e8b3d4c002",
+                    "label": "text_19",
+                    "components": [],
+                    "x": 941,
+                    "y": 342,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "The Spider Poof",
+                    "align": "center"
+                },
+                {
+                    "type": "Image",
+                    "id": "b3e95731-7183-4903-b591-e9a515df7701",
+                    "label": "buy_11",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1152,
+                    "y": 671,
+                    "scaleX": 1.52,
+                    "scaleY": 1.52
+                },
+                {
+                    "type": "Image",
+                    "id": "0b692299-40ad-480e-8c07-549682337e75",
+                    "label": "buy_12",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1141,
+                    "y": 420,
+                    "scaleX": 1.52,
+                    "scaleY": 1.52
+                },
+                {
+                    "type": "Image",
+                    "id": "47e5079d-f8e4-49f4-b13e-52d30e80cf98",
+                    "label": "buy_13",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 934,
+                    "y": 374,
+                    "scaleX": 1.52,
+                    "scaleY": 1.52
+                },
+                {
+                    "type": "Image",
+                    "id": "986b9ad0-6c82-41ab-a00a-3606f443aa6e",
+                    "label": "buy_14",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 936,
+                    "y": 526,
+                    "scaleX": 1.52,
+                    "scaleY": 1.52
+                },
+                {
+                    "type": "Image",
+                    "id": "9e2a315c-fdad-4ee9-9f09-72c315af5627",
+                    "label": "buy_15",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 929,
+                    "y": 768,
+                    "scaleX": 1.52,
+                    "scaleY": 1.52
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "0be0185e-47d7-451f-9c8e-e7462380e947",
+            "label": "page5",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "987ab332-1ece-4e5c-b6af-d1c3cc4fe738",
+                    "label": "p5",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 610"
+                    },
+                    "x": 760,
+                    "y": 329,
+                    "scaleX": 1.5,
+                    "scaleY": 1.431
+                },
+                {
+                    "type": "Image",
+                    "id": "2672d98e-548e-44e7-857d-cc32189db297",
+                    "label": "symbol_611",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 611"
+                    },
+                    "x": 311,
+                    "y": 177,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "b7187c67-3c9a-43d9-8f08-b5acd189ed2b",
+                    "label": "shadow_png_5",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "06cf4636-330b-4cab-84e3-9884baeb21bf",
+                    "label": "text_2uwudwuai",
+                    "components": [],
+                    "x": 304,
+                    "y": 174,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Custom Items!",
+                    "fontFamily": "MYRIADPRO",
+                    "fontSize": "32px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "fbe43be2-e596-4cb5-b0b7-fc13ff4b2f60",
+                    "label": "nextPage_5",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1317,
+                    "y": 754,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "0a303b34-96e9-4526-a21c-2e8e307e7eff",
+                    "label": "backPage",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 203,
+                    "y": 755,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d4e19e65-bcb9-4bb5-96b4-d844c5aaf32b",
+                    "label": "close_5",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "927904ab-5256-4898-a804-445bd817c67e",
+                    "label": "buy_7",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 485,
+                    "y": 441,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "ee526003-fae9-4ebf-8382-85c64cb16a2b",
+                    "label": "text_11",
+                    "components": [],
+                    "x": 492,
+                    "y": 406,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Green Ghost Costume"
+                },
+                {
+                    "type": "Text",
+                    "id": "0f2529de-0951-433e-b1a0-0862f5048b30",
+                    "label": "text_12",
+                    "components": [],
+                    "x": 1050,
+                    "y": 406,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Scary Penguin mask"
+                },
+                {
+                    "type": "Image",
+                    "id": "7f27abbd-359a-4f43-aa2d-98c7ea58cee0",
+                    "label": "buy_8",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1043,
+                    "y": 441,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "836b7e96-8914-4675-b7c8-ca7b4470ee84",
+                    "label": "text_13",
+                    "components": [],
+                    "x": 492,
+                    "y": 669,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Purple skeleton costume"
+                },
+                {
+                    "type": "Image",
+                    "id": "150321cf-c89e-4586-9705-7749d3b541e4",
+                    "label": "buy_9",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 485,
+                    "y": 704,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "ef22ae57-6b9c-4f50-a9ff-220fe8c0002c",
+                    "label": "buy_10",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1043,
+                    "y": 704,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "5ac8a414-c2c8-45de-b418-ffbc1d51c960",
+                    "label": "text_14",
+                    "components": [],
+                    "x": 1050,
+                    "y": 658,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Vintage snowman\nhead",
+                    "align": "center"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "b453fbe9-5c57-4490-a564-7a8e66d2cf9c",
+            "label": "page4",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "016057b9-de79-44d3-8d2b-6e0a108af61e",
+                    "label": "p4",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 11"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "f4c87d41-f107-4e60-b9df-d979668e931a",
+                    "label": "symbol_239_png",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 558"
+                    },
+                    "x": 323,
+                    "y": 171,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "1783c322-397e-477a-8976-9e472f6d7f9a",
+                    "label": "symbol_504",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 504"
+                    },
+                    "x": 290,
+                    "y": 855,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "a08938fe-a2cd-42be-bc0e-d307ab754989",
+                    "label": "penguin0001",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "penguin0001"
+                    },
+                    "x": 925,
+                    "y": 502,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "9fca3795-b5ec-4f1b-839a-364228ca05ac",
+                    "label": "shadow_png_4",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "27ece395-13cb-4075-a189-a10f4ce060f9",
+                    "label": "text_2dawdawdatt",
+                    "components": [],
+                    "x": 316,
+                    "y": 166,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Items for everyone",
+                    "fontFamily": "MYRIADPRO",
+                    "fontSize": "25px"
+                },
+                {
+                    "type": "Image",
+                    "id": "057c038b-5965-4ecf-bafa-0019bd8f980d",
+                    "label": "nextPage_4",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1288,
+                    "y": 758,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "f7b1dec9-902a-42b4-a087-fb6f99cd5801",
+                    "label": "backPage4",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 234,
+                    "y": 757,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "6b7b0f3e-ef1f-4722-9e7e-95c1831da837",
+                    "label": "close_4",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "c4f97c7e-b4d6-4954-9ec9-23e390e7bea6",
+                    "label": "symbol_10",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 10"
+                    },
+                    "x": 960,
+                    "y": 271,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "862d84cf-b4f9-4477-9daa-92ce75a9bc3d",
+                    "label": "symbol_12",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 12"
+                    },
+                    "x": 1251,
+                    "y": 614,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "4b1c8f38-e705-4cab-8c44-809b04ffc10f",
+                    "label": "symbol_15",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 15"
+                    },
+                    "x": 1108,
+                    "y": 617,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "902c384c-d3be-4c34-82c1-40854660ba88",
+                    "label": "symbol_515",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 515"
+                    },
+                    "x": 1108,
+                    "y": 452,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "bfac54c2-e8b2-4c96-b1df-50aeb4183c8f",
+                    "label": "symbol_517",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 517"
+                    },
+                    "x": 1251,
+                    "y": 442,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "d3fc679a-f335-487f-9d5b-b01c4bf3a004",
+                    "label": "symbol_520",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 520"
+                    },
+                    "x": 1251,
+                    "y": 271,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "6936b4b4-9691-4540-b0b1-0faa815e2c28",
+                    "label": "symbol_522",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 522"
+                    },
+                    "x": 1108,
+                    "y": 271,
+                    "scaleX": 1.493,
+                    "scaleY": 1.446
+                },
+                {
+                    "type": "Image",
+                    "id": "5f0fb9ae-e62b-4415-b117-bc675ff32a6f",
+                    "label": "buy",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 955,
+                    "y": 356
+                },
+                {
+                    "type": "Image",
+                    "id": "5995a855-f386-40ab-ab74-d3797dd0ddc4",
+                    "label": "buy_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1104,
+                    "y": 356
+                },
+                {
+                    "type": "Image",
+                    "id": "81752097-14eb-4f69-8585-eda453f05d53",
+                    "label": "buy_2",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1247,
+                    "y": 356
+                },
+                {
+                    "type": "Text",
+                    "id": "cc01355c-978c-4674-9fed-bfe6f8a908cf",
+                    "label": "text_3",
+                    "components": [],
+                    "x": 959,
+                    "y": 321,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Star\nT-Shirt",
+                    "align": "center"
+                },
+                {
+                    "type": "Text",
+                    "id": "6315f318-5cd2-465b-b1da-fa77d64cb6f3",
+                    "label": "text_4",
+                    "components": [],
+                    "x": 1109,
+                    "y": 321,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Green\nBaseball cap",
+                    "align": "center"
+                },
+                {
+                    "type": "Text",
+                    "id": "66a11dc8-92b0-47d1-9294-98d866087371",
+                    "label": "text_5",
+                    "components": [],
+                    "x": 1251,
+                    "y": 321,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Baseball Glove",
+                    "align": "center"
+                },
+                {
+                    "type": "Text",
+                    "id": "ae518793-4149-4fdc-a854-1e7e51b8eb16",
+                    "label": "text_6",
+                    "components": [],
+                    "x": 903,
+                    "y": 646,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Run the cursor through the Items\nto see how they look on your penguin",
+                    "align": "center",
+                    "fontSize": "12px"
+                },
+                {
+                    "type": "Text",
+                    "id": "50c1c6e4-a606-4b5b-9940-c4268efdea3a",
+                    "label": "text_7",
+                    "components": [],
+                    "x": 1109,
+                    "y": 504,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Red scarf",
+                    "align": "center"
+                },
+                {
+                    "type": "Text",
+                    "id": "6a82d06d-e458-49ef-8fe9-740378821c53",
+                    "label": "text_8",
+                    "components": [],
+                    "x": 1251,
+                    "y": 504,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Pink purse",
+                    "align": "center"
+                },
+                {
+                    "type": "Image",
+                    "id": "3fe7ac67-6c14-4f79-99cc-eec6c0cefe2e",
+                    "label": "buy_3",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1104,
+                    "y": 539
+                },
+                {
+                    "type": "Image",
+                    "id": "5c4d74db-9763-480b-9e16-50573e0238c2",
+                    "label": "buy_4",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1247,
+                    "y": 539
+                },
+                {
+                    "type": "Text",
+                    "id": "265a0692-103b-43ae-aab6-92658a88714a",
+                    "label": "text_9",
+                    "components": [],
+                    "x": 1251,
+                    "y": 680,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Bufferfly\nT-Shirt",
+                    "align": "center"
+                },
+                {
+                    "type": "Image",
+                    "id": "03c4509c-e415-4a63-bf71-be1e3d94fc09",
+                    "label": "buy_5",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1247,
+                    "y": 715
+                },
+                {
+                    "type": "Text",
+                    "id": "e44a6b22-50d5-41b8-b6de-3d365752b2d5",
+                    "label": "text_10",
+                    "components": [],
+                    "x": 1109,
+                    "y": 680,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Golden hairstyle\nfor girls",
+                    "align": "center"
+                },
+                {
+                    "type": "Image",
+                    "id": "ef563fb3-b56a-4ba6-951c-d3e6d99f4112",
+                    "label": "buy_6",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buy",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "buy"
+                    },
+                    "x": 1104,
+                    "y": 715
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "ee732a23-14a9-458d-bac7-0e2ad283d367",
+            "label": "page3",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "30dd9fbe-fd39-4ed1-a6bf-5e2de98b6da2",
+                    "label": "p3",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 7"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.4238,
+                    "scaleY": 1.4238
+                },
+                {
+                    "type": "Image",
+                    "id": "c2bd5930-0dda-490f-9aab-065357a5359c",
+                    "label": "symbol_2323456789",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 491"
+                    },
+                    "x": 336,
+                    "y": 165,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "8a8d9997-e8a3-4742-9f0c-3c3320a48487",
+                    "label": "shadow_png_13",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.4238,
+                    "scaleY": 1.4238
+                },
+                {
+                    "type": "Text",
+                    "id": "381cc3d9-2877-4d8f-adc2-44423ce48b31",
+                    "label": "text_2798789798",
+                    "components": [],
+                    "x": 327,
+                    "y": 163,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Backgrounds for your\nplayercard",
+                    "fontFamily": "MYRIADPRO",
+                    "fontSize": "26px"
+                },
+                {
+                    "type": "Image",
+                    "id": "05a36933-7bc0-4e8f-8475-6a261061919f",
+                    "label": "nextPage_13",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1288,
+                    "y": 754,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "b1d5632c-6052-40ee-8e35-342a176ae879",
+                    "label": "backPage33",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 232,
+                    "y": 759,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "19a1d4c5-9f6f-4c27-bc33-7d55a09d95d5",
+                    "label": "close_33",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "bdb00ade-c5ea-4c8b-95e5-de388f0737dc",
+                    "label": "symbol_409",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 409"
+                    },
+                    "x": 486,
+                    "y": 500,
+                    "scaleX": 1.4238,
+                    "scaleY": 1.4238
+                },
+                {
+                    "type": "Image",
+                    "id": "a6a14098-e128-4570-a66b-41f6f93d2578",
+                    "label": "symbol_487",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 487"
+                    },
+                    "x": 1023,
+                    "y": 500,
+                    "scaleX": 1.4238,
+                    "scaleY": 1.4238
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "6cf05be2-f10a-4c4f-9198-2a5c8994c92b",
+            "label": "page2",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "3c4729da-0c3d-41df-813c-529539b4fb73",
+                    "label": "p2",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 178"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "759a686f-4e2f-4000-b80a-04a1caa519c4",
+                    "label": "symbol_235555_png",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 239"
+                    },
+                    "x": 323,
+                    "y": 162,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "a95f99cd-1f80-46d4-8233-8c34665a88fd",
+                    "label": "color0001_png",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "color0001"
+                    },
+                    "x": 1042,
+                    "y": 525,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "3ef06631-001f-42e6-b080-2aef08475876",
+                    "label": "shadow_png_12222",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "556ceeed-093d-450e-837c-4c62fe130a01",
+                    "label": "aqua",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "aqua",
+                    "Button.callback": "() => this.scene.buy(9)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "aqua"
+                    },
+                    "x": 567,
+                    "y": 524,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "a38484bb-b5ac-4efa-873f-7f0534036265",
+                    "label": "black",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "black",
+                    "Button.callback": "() => this.scene.buy(13)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "black"
+                    },
+                    "x": 367,
+                    "y": 724,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "98aa8beb-d2dc-40e0-a5f2-2083059450c5",
+                    "label": "blue",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue",
+                    "Button.callback": "() => this.scene.buy(1)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "blue"
+                    },
+                    "x": 367,
+                    "y": 324,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "726610d3-f9e1-42e3-964f-a4d84e8d79bd",
+                    "label": "brown",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "brown",
+                    "Button.callback": "() => this.scene.buy(5)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "brown"
+                    },
+                    "x": 467,
+                    "y": 424,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "0bf9982e-ef0b-4540-b575-f5e492beb336",
+                    "label": "cyan",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "cyan",
+                    "Button.callback": "() => this.scene.buy(7)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "cyan"
+                    },
+                    "x": 367,
+                    "y": 524,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "aee8b6ee-fb26-4004-9ddd-3a14eff04689",
+                    "label": "darkgreen",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "darkgreen",
+                    "Button.callback": "() => this.scene.buy(14)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "darkgreen"
+                    },
+                    "x": 467,
+                    "y": 724,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "e16ed851-5f08-4d91-b8bb-617eac88cd71",
+                    "label": "green",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "green",
+                    "Button.callback": "() => this.scene.buy(2)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "green"
+                    },
+                    "x": 467,
+                    "y": 324,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "af85b76d-ee19-49aa-9b1a-73f5be899cb4",
+                    "label": "lime",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "lime",
+                    "Button.callback": "() => this.scene.buy(8)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "lime"
+                    },
+                    "x": 467,
+                    "y": 524,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "6e7de560-197f-4f76-b93e-0ae3245e898e",
+                    "label": "magenta",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "magenta",
+                    "Button.callback": "() => this.scene.buy(3)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "magenta"
+                    },
+                    "x": 567,
+                    "y": 324,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d62424d6-45f9-4cf9-8e6e-ad6bd1ccd4ad",
+                    "label": "orange",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "orange",
+                    "Button.callback": "() => this.scene.buy(11)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "orange"
+                    },
+                    "x": 467,
+                    "y": 624,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "9a952250-bbfa-4e79-9394-ba54f07367d7",
+                    "label": "pink",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pink",
+                    "Button.callback": "() => this.scene.buy(6)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "pink"
+                    },
+                    "x": 567,
+                    "y": 424,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "2533479e-c182-4188-95bb-0d1f80e2c45b",
+                    "label": "purple",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "purple",
+                    "Button.callback": "() => this.scene.buy(4)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "purple"
+                    },
+                    "x": 367,
+                    "y": 424,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "7c2e77eb-0325-42fa-a156-8b425e94098b",
+                    "label": "red",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "red",
+                    "Button.callback": "() => this.scene.buy(10)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "red"
+                    },
+                    "x": 367,
+                    "y": 624,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "a70e90b6-f52d-4704-81f0-3e1ea21eee79",
+                    "label": "white",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "white",
+                    "Button.callback": "() => this.scene.buy(15)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "white"
+                    },
+                    "x": 567,
+                    "y": 724,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d7bafc43-21ce-4ebe-a87f-e052fc4a3230",
+                    "label": "yellow",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "yellow",
+                    "Button.callback": "() => this.scene.buy(12)",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "yellow"
+                    },
+                    "x": 567,
+                    "y": 624,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "8f4a8054-be56-4e67-b6fe-1dee089db832",
+                    "label": "text_24646645",
+                    "components": [],
+                    "x": 316,
+                    "y": 157,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Colors\n     for everyone!",
+                    "fontFamily": "MYRIADPRO",
+                    "fontSize": "32px"
+                },
+                {
+                    "type": "Image",
+                    "id": "9342ca67-47cf-4e8f-80ed-de4be08e1445",
+                    "label": "nextPage_19494949977",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1288,
+                    "y": 754,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "7b2491c4-22d2-459c-88bd-ee88375b302f",
+                    "label": "backPage489489984894",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "backPage",
+                    "Button.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "backPage"
+                    },
+                    "x": 232,
+                    "y": 759,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "fa7311fe-0f34-4505-837b-2636cade9574",
+                    "label": "close_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1308,
+                    "y": 153,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "68d12ced-79ce-457c-a38e-592dcda87624",
+            "label": "page1",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c36b5e69-bb79-49b5-87b1-43cabcca30b3",
+                    "label": "p1",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 5"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "803e626c-1985-419e-a8c8-2bf0e64a9916",
+                    "label": "symbol_3120_png",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 30"
+                    },
+                    "x": 751,
+                    "y": 721,
+                    "scaleX": 1.4
+                },
+                {
+                    "type": "Image",
+                    "id": "cbe2b450-6927-4432-b473-b1f8ab75c242",
+                    "label": "symbol_66100",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "Symbol 661"
+                    },
+                    "x": 712,
+                    "y": 572,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "be8d1532-7a2c-4b44-82a7-5da4625715dd",
+                    "label": "shadow_png",
+                    "components": [],
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "shadow"
+                    },
+                    "x": 456,
+                    "y": 468,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "91ca4a38-f665-4397-a817-5d5169e7cde5",
+                    "label": "text_1uioqueioqueoqp",
+                    "components": [],
+                    "x": 753,
+                    "y": 214,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "UPNewLands Style\n",
+                    "fontFamily": "Asterisk",
+                    "fontSize": "64px",
+                    "fontStyle": "bold italic"
+                },
+                {
+                    "type": "Text",
+                    "id": "c266fed3-4240-4208-8a9a-34f31e7968d4",
+                    "label": "textrgdrgdrgd",
+                    "components": [],
+                    "x": 814,
+                    "y": 262,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Halloween 2022 Edition\n",
+                    "fontFamily": "Asterisk",
+                    "fontSize": "32px",
+                    "fontStyle": "italic"
+                },
+                {
+                    "type": "Image",
+                    "id": "83abf999-c5a3-492a-8c74-bf1fcbd7669d",
+                    "label": "nextPage231",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "nextPage",
+                    "Button.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "nextPage"
+                    },
+                    "x": 1023,
+                    "y": 771,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "848acdec-9920-49b8-80e8-e2dafb9c61ac",
+                    "label": "close34243",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "HalloweenCatalog",
+                        "frame": "close"
+                    },
+                    "x": 1041,
+                    "y": 143,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "a8c66509-01e6-42a1-8820-6e68f0877ec3",
+            "label": "buttons",
+            "scope": "CLASS",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "7436909b-8302-43d6-b933-e0e2f1821697",
+                    "label": "coins",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 1130,
+                    "y": 790,
+                    "originX": 1,
+                    "text": "YOUR COINS:",
+                    "fixedWidth": 600,
+                    "align": "right",
+                    "fontFamily": "CCComiccrazy",
+                    "fontSize": "32px",
+                    "stroke": "#000",
+                    "strokeThickness": 9
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "22998b36-bd5e-4114-ab38-4bcb41a8d2a8",
+            "label": "pages",
+            "objectIds": [
+                "68d12ced-79ce-457c-a38e-592dcda87624",
+                "6cf05be2-f10a-4c4f-9198-2a5c8994c92b",
+                "ee732a23-14a9-458d-bac7-0e2ad283d367",
+                "b453fbe9-5c57-4490-a564-7a8e66d2cf9c",
+                "0be0185e-47d7-451f-9c8e-e7462380e947",
+                "bec198c2-88c7-4abe-9202-c902720937e3",
+                "c42198f1-30c3-4bf9-8366-19dfc050fbe7",
+                "a50c3858-6943-4b7d-9b5e-142fbd511c61",
+                "5606137c-bceb-4da1-af80-f6cc1ac60c93",
+                "a6cd1065-19c6-4761-8364-3614c05650b9",
+                "ee364da6-8c65-44d6-94f6-c11c220c7467",
+                "3b30bfe2-1c9e-4359-87d5-089d555d83a6"
+            ]
+        }
+    ]
+}

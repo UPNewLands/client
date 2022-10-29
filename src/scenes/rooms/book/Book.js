@@ -1,6 +1,6 @@
 import RoomScene from '@scenes/rooms/RoomScene'
 
-import { Button, MoveTo, ShowHint, Animation } from '@components/components'
+import { Button, MoveTo, ShowHint, Animation, SimpleButton } from '@components/components'
 
 
 /* START OF COMPILED CODE */
@@ -258,7 +258,7 @@ export default class Book extends RoomScene {
 
         // candy_3 (components)
         const candy_3SimpleButton = new SimpleButton(candy_3);
-        candy_3SimpleButton.callback = () => {this.foundCandy(3,candy_3)};
+        candy_3SimpleButton.callback = () => {this.foundCandy(3,candy_3), this.world.interface.main.success_1.visible = true; };
 
         // newspapers (components)
         const newspapersAnimation = new Animation(newspapers);
@@ -304,6 +304,7 @@ export default class Book extends RoomScene {
             super.create();
             if (this.world.client.penguin.candy3 == 1) {
                 this.candy_3.visible = false;
+                this.world.interface.main.gary.visible = false; 
             }
         }
     /* END-USER-CODE */

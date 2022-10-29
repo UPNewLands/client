@@ -6,6 +6,7 @@ const interfaces = {
     'Hydro': require('@scenes/interface/catalogs/hydro/Hydro').default,
     'Waves': require('@scenes/interface/catalogs/waves/Waves').default,
     'Unlock': require('@scenes/interface/catalogs/unlock/Unlock').default,
+    'HalloweenCatalog': require('@scenes/interface/catalogs/halloween/HalloweenCatalog').default
 }
 
 export default interfaces
