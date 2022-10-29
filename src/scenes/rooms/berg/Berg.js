@@ -37,43 +37,36 @@ export default class Berg extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // sky
-        this.add.image(757, 138, "iceberg", "sky");
+        // s_mbolo_5
+        this.add.image(734, 91, "iceberg", "Símbolo 5");
 
-        // city
-        this.add.image(1169, 95, "iceberg", "city");
+        // s_mbolo_6
+        const s_mbolo_6 = this.add.image(157, 148, "iceberg", "Símbolo 6");
+        s_mbolo_6.flipX = true;
 
-        // sea
-        this.add.image(760, 592, "iceberg", "sea");
+        // s_mbolo_7
+        this.add.image(1234, 56, "iceberg", "Símbolo 7");
 
-        // s_mbolo_10
-        this.add.image(704, 623, "iceberg", "Símbolo 10");
+        // s_mbolo_8
+        this.add.image(801, 659, "iceberg", "Símbolo 8");
 
-        // aqua0001
-        const aqua0001 = this.add.sprite(1265, 319, "berg", "aqua0001");
-        aqua0001.setOrigin(0.5, 0.4014336917562724);
+        // aqua
+        const aqua = this.add.sprite(1266, 331, "iceberg", "aqua0001");
 
-        // snow
-        this.add.image(638, 596, "iceberg", "snow");
-
-        // shape_16
-        this.add.image(670, 524, "iceberg", "shape 16");
+        // sprite_18
+        this.add.image(724, 487, "iceberg", "sprite 18");
 
         // lists
         const sort = [];
 
-        // aqua0001 (components)
-        new SimpleButton(aqua0001);
-        const aqua0001Animation = new Animation(aqua0001);
-        aqua0001Animation.key = "aqua";
-        aqua0001Animation.start = 171;
-        aqua0001Animation.end = 348;
-        aqua0001Animation.repeat = 0;
-        aqua0001Animation.autoPlay = false;
-        aqua0001Animation.onHover = true;
-        const aqua0001MoveTo = new MoveTo(aqua0001);
-        aqua0001MoveTo.x = 1216;
-        aqua0001MoveTo.y = 393;
+        // aqua (components)
+        new SimpleButton(aqua);
+        const aquaAnimation = new Animation(aqua);
+        aquaAnimation.key = "aqua";
+        aquaAnimation.end = 81;
+        const aquaMoveTo = new MoveTo(aqua);
+        aquaMoveTo.x = 1216;
+        aquaMoveTo.y = 393;
 
         this.sort = sort;
 

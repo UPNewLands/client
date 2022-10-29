@@ -7,6 +7,7 @@ import RoomScene from "../RoomScene";
 import Button from "../../components/Button";
 import MoveTo from "../../components/MoveTo";
 import Animation from "../../components/Animation";
+import SimpleButton from "../../components/SimpleButton";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -38,97 +39,38 @@ export default class Port extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // s_mbolo_9
-        this.add.image(762, 777, "port", "Símbolo 9");
-
-        // sky_bg
-        this.add.image(760, 181, "port", "sky_bg");
-
-        // tree_bg_1
-        this.add.image(148, 113, "port", "tree_bg_1");
-
-        // tree_bg_2
-        this.add.image(1227, 176, "port", "tree_bg_2");
-
-        // symbol_479
-        this.add.image(1151, 192, "port", "Symbol 479");
-
-        // symbol_112
-        this.add.image(1410, 300, "port", "Symbol 112");
-
-        // s_mbolo_3
-        this.add.image(1196, 282, "port", "Símbolo 3");
-
-        // sand1
-        this.add.image(152, 381, "port", "sand1");
-
-        // water
-        this.add.image(775, 786, "port", "water");
-
-        // symbol_469
-        this.add.image(366, 663, "port", "Symbol 469");
-
-        // symbol_481
-        this.add.image(456, 323, "port", "Symbol 481");
-
-        // symbol_483
-        this.add.image(819, 320, "port", "Symbol 483");
+        // bg
+        this.add.image(692, 459, "port", "bg");
 
         // s_mbolo_1
-        this.add.image(1311, 169, "port", "Símbolo 1");
+        this.add.image(1312, 189, "port", "Símbolo 1");
 
         // symbol_493
-        const symbol_493 = this.add.image(500.76229496326164, 285.50567102316546, "port", "Symbol 493");
-        symbol_493.setOrigin(0.3666179891477266, 0.6303940900629003);
+        this.add.image(578, 232, "port", "Symbol 493");
+
+        // s_mbolo_15
+        this.add.image(396, 214, "port", "Símbolo 15");
 
         // symbol_545
-        this.add.image(774, 446, "port", "Symbol 545");
-
-        // symbol_733
-        this.add.image(248, 631, "port", "Symbol 733");
-
-        // symbol_719
-        this.add.image(110, 608, "port", "Symbol 719");
+        this.add.image(769, 442, "port", "Symbol 545");
 
         // symbol_1
-        this.add.image(1069, 566, "port", "Symbol 719");
+        this.add.image(58, 601, "port", "Symbol 719");
 
-        // symbol_2
-        const symbol_2 = this.add.image(839, 623, "port", "Symbol 719");
-        symbol_2.flipX = true;
+        // symbol_719
+        this.add.image(589, 638, "port", "Symbol 719");
 
-        // symbol_735
-        this.add.image(107, 680, "port", "Symbol 735");
+        // symbol
+        const symbol = this.add.image(862, 615, "port", "Symbol 719");
+        symbol.flipX = true;
 
-        // s_mbolo_11
-        this.add.image(165, 218, "port", "Símbolo 11");
+        // symbol_719_copia
+        this.add.image(1050, 580, "port", "Symbol 719 copia");
 
         // door
-        const door = this.add.image(187, 317, "port", "door");
+        const door = this.add.image(157, 320, "port", "door");
         door.scaleX = 1.1;
         door.scaleY = 1.1;
-
-        // symbol_514
-        this.add.image(832, 245, "port", "Symbol 514");
-
-        // symbol_555
-        this.add.image(1180, 280, "port", "Symbol 555");
-
-        // symbol_3
-        this.add.image(590, 637, "port", "Symbol 719");
-
-        // symbol_573
-        const symbol_573 = this.add.image(1145.5042993162485, 321.8155937850912, "port", "Symbol 573");
-        symbol_573.setOrigin(0.6024014253154693, 0.24622255465296705);
-
-        // symbol_561
-        this.add.image(868, 477, "port", "Symbol 561");
-
-        // symbol_567
-        this.add.image(608, 506, "port", "Symbol 567");
-
-        // symbol_713
-        this.add.image(166, 508, "port", "Symbol 713");
 
         // wave10001
         const wave10001 = this.add.sprite(106, 883, "port", "wave10001");
@@ -257,23 +199,52 @@ export default class Port extends RoomScene {
         wave_29.scaleY = 1.9;
         wave_29.flipX = true;
 
+        // symbol_733
+        this.add.image(203, 624, "port", "Symbol 733");
+
+        // s_mbolo_14
+        this.add.image(687, 321, "port", "Símbolo 14");
+
+        // symbol_514
+        this.add.image(807, 230, "port", "Symbol 514");
+
+        // symbol_573
+        this.add.image(1063, 356, "port", "Symbol 573");
+
+        // overaly
+        this.add.image(771, 738, "port", "overaly");
+
         // symbol_921
-        this.add.image(92, 772, "port", "Symbol 921");
+        this.add.image(74, 796, "port", "Symbol 921");
 
-        // floating0001
-        const floating0001 = this.add.sprite(899, 776, "port", "floating0001");
+        // symbol_389_copia
+        const symbol_389_copia = this.add.image(29, 447, "halloween", "Symbol 389 copia");
+        symbol_389_copia.flipX = true;
 
-        // s_mbolo_4
-        this.add.image(787, 685, "port", "Símbolo 4");
+        // symbol_290
+        this.add.image(1433, 382, "halloween", "Symbol 290");
 
-        // symbol_228_copy
-        this.add.image(792, 639, "port", "Symbol 228 copy");
+        // symbol_207_copia
+        this.add.image(695, 331, "halloween", "Symbol 207 copia");
 
         // s_mbolo_10
-        this.add.image(375, 689, "port", "Símbolo 10");
+        this.add.image(1386, 76, "port", "Símbolo 10");
+
+        // s_mbolo_100
+        const s_mbolo_100 = this.add.image(463, 207.56742826539133, "port", "Símbolo 100");
+        s_mbolo_100.setOrigin(0.5, 1.002895042170364);
+
+        // candy_2
+        const candy_2 = this.add.image(252, 294, "dialogue", "candy_2");
+        candy_2.scaleX = 0.2;
+        candy_2.scaleY = 0.2;
+        candy_2.tintTopLeft = 13158600;
+        candy_2.tintTopRight = 13158600;
+        candy_2.tintBottomLeft = 13158600;
+        candy_2.tintBottomRight = 13158600;
 
         // lists
-        const sort = [symbol_573];
+        const sort = [s_mbolo_100];
 
         // door (components)
         const doorButton = new Button(door);
@@ -382,10 +353,8 @@ export default class Port extends RoomScene {
         wave_29Animation.key = "wave1";
         wave_29Animation.end = 42;
 
-        // floating0001 (components)
-        const floating0001Animation = new Animation(floating0001);
-        floating0001Animation.key = "floating";
-        floating0001Animation.end = 48;
+        // candy_2 (components)
+        new SimpleButton(candy_2);
 
         this.sort = sort;
 

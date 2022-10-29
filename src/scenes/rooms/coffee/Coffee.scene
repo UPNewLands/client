@@ -19,240 +19,19 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "ba8e2ec2-dd93-44be-a26f-b9ca314cab27",
-            "label": "bg",
+            "id": "683ed190-cdca-41ba-8862-e0b2064262a0",
+            "label": "symbol_105",
             "components": [],
             "texture": {
                 "key": "coffee",
-                "frame": "bg"
+                "frame": "Symbol 105"
             },
-            "x": 764,
-            "y": 494
+            "x": 762,
+            "y": 472
         },
         {
             "type": "Image",
-            "id": "adf3a70e-6623-4e4f-8039-4f395aea6d03",
-            "label": "symbol_211",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 211"
-            },
-            "x": 982,
-            "y": 713
-        },
-        {
-            "type": "Image",
-            "id": "e8af7cdb-fd1a-48db-8ff0-35261bb7e0cb",
-            "label": "symbol_213",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 213"
-            },
-            "x": 1094.9745915396577,
-            "y": 726.2647588729293,
-            "originX": 0.4075623934384003,
-            "originY": 0.20631125035839443
-        },
-        {
-            "type": "Image",
-            "id": "9615eb10-8866-46a4-a19b-0da0d0f1b830",
-            "label": "door2",
-            "components": [
-                "Button",
-                "MoveTo"
-            ],
-            "Button.spriteName": "door2",
-            "Button.activeFrame": false,
-            "MoveTo.x": 963,
-            "MoveTo.y": 352,
-            "texture": {
-                "key": "coffee",
-                "frame": "door2"
-            },
-            "x": 963,
-            "y": 245
-        },
-        {
-            "type": "Image",
-            "id": "75926177-117c-4c9c-8b71-67573390358e",
-            "label": "symbol_173",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 173"
-            },
-            "x": 1098,
-            "y": 423
-        },
-        {
-            "type": "Image",
-            "id": "3076131c-4f6e-461a-97ab-b44879dd15b0",
-            "label": "symbol_147",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 147"
-            },
-            "x": 707.3192683878211,
-            "y": 376.53808712469214,
-            "originX": 0.8107619795313605,
-            "originY": 0.6008967466010908
-        },
-        {
-            "type": "Image",
-            "id": "a90c95d0-7aca-48c0-bacd-427546646872",
-            "label": "symbol",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 147"
-            },
-            "x": 707.8609583625088,
-            "y": 428.40628436843554,
-            "originX": 0.7390476765625843,
-            "originY": 0.46367717122360735
-        },
-        {
-            "type": "Image",
-            "id": "e40f6ef5-0f07-4e33-b489-62641e5277b7",
-            "label": "symbol_1",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 147"
-            },
-            "x": 714.1560094209514,
-            "y": 516.8089552221917,
-            "originX": 0.8765000905860708,
-            "originY": 0.5766815274168291
-        },
-        {
-            "type": "Image",
-            "id": "313ee4eb-3d05-4bfb-bae9-71cb9f7d3cd9",
-            "label": "symbol_200",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 200"
-            },
-            "x": 564,
-            "y": 360
-        },
-        {
-            "type": "Image",
-            "id": "33d6c287-e6f4-4954-bbd0-53ffc1eccecb",
-            "label": "symbol_202",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 202"
-            },
-            "x": 573,
-            "y": 463
-        },
-        {
-            "type": "Image",
-            "id": "790dea67-6bd8-4dac-8a4d-9f95c0adf712",
-            "label": "symbol_1940001",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 1940001"
-            },
-            "x": 204,
-            "y": 440
-        },
-        {
-            "type": "Image",
-            "id": "984d0446-449b-498d-a0b5-0057e997fbfa",
-            "label": "symbol_175",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 175"
-            },
-            "x": 1127,
-            "y": 534
-        },
-        {
-            "type": "Image",
-            "id": "ab320fb0-55cf-4c50-b774-42b4806be25e",
-            "label": "s_mbolo_3",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Símbolo 3"
-            },
-            "x": 890,
-            "y": 866
-        },
-        {
-            "type": "Image",
-            "id": "fae2d44c-5472-47e1-8567-23177afafbf3",
-            "label": "s_mbolo_5",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Símbolo 5"
-            },
-            "x": 735,
-            "y": 681
-        },
-        {
-            "type": "Image",
-            "id": "bacd38c1-50d5-44c3-9f3b-851207f67a3f",
-            "label": "s_mbolo_4",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Símbolo 4"
-            },
-            "x": 632.8223714715443,
-            "y": 960.3360185885441,
-            "originX": 0.632246088282344,
-            "originY": 0.6918096892842265
-        },
-        {
-            "type": "Image",
-            "id": "832c3a1c-07b4-4156-93f6-3f33de0c68e3",
-            "label": "symbol_217",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 217"
-            },
-            "x": 412,
-            "y": 805
-        },
-        {
-            "type": "Image",
-            "id": "cca72df9-24a3-4cac-a7b3-5b15d8c558e6",
-            "label": "symbol_196",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 196"
-            },
-            "x": 58,
-            "y": 509
-        },
-        {
-            "type": "Image",
-            "id": "8b096146-e292-49b9-a68b-c9b25a1cee18",
-            "label": "symbol_198",
-            "components": [],
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 198"
-            },
-            "x": 156,
-            "y": 742
-        },
-        {
-            "type": "Image",
-            "id": "8182f791-b95e-47a2-8269-1f3551acf296",
+            "id": "7e938a84-4b2b-4ed1-86f4-ab09e9cf0f0f",
             "label": "door",
             "components": [
                 "Button",
@@ -260,58 +39,383 @@
             ],
             "Button.spriteName": "door",
             "Button.activeFrame": false,
-            "MoveTo.x": 1327,
-            "MoveTo.y": 580,
+            "MoveTo.x": 1403,
+            "MoveTo.y": 616,
             "texture": {
                 "key": "coffee",
                 "frame": "door"
             },
-            "x": 1337,
-            "y": 436
+            "x": 1355,
+            "y": 439,
+            "tintTopLeft": "#9d9d9d",
+            "tintTopRight": "#9d9d9d",
+            "tintBottomLeft": "#9d9d9d",
+            "tintBottomRight": "#9d9d9d"
         },
         {
             "type": "Image",
-            "id": "6e505bda-49fc-481c-8939-11a7eb10f96f",
-            "label": "symbol_223",
-            "components": [
-                "SimpleButton",
-                "ShowHint",
-                "MoveTo"
-            ],
-            "ShowHint.text": "Play Bean Counters",
-            "MoveTo.x": 1480,
-            "MoveTo.y": 748,
-            "texture": {
-                "key": "coffee",
-                "frame": "Symbol 223"
-            },
-            "x": 1480,
-            "y": 748
-        },
-        {
-            "type": "Image",
-            "id": "469b2f50-77c3-476f-a39f-9706ba0a4a55",
-            "label": "sprite_764",
+            "id": "a2122290-bfa9-4c9a-b857-97a27c4b8530",
+            "label": "symbol_211",
             "components": [],
             "texture": {
                 "key": "coffee",
-                "frame": "Sprite 764"
+                "frame": "Symbol 211"
             },
-            "x": 733,
-            "y": 1215.1535917971228,
-            "originY": 1.0354965604745079
+            "x": 973,
+            "y": 710
         },
         {
             "type": "Image",
-            "id": "eec2eb19-69a4-4d48-90e0-8368170a1825",
+            "id": "e8af3d90-50c8-4e2d-9209-9895c4ab286c",
+            "label": "symbol_290",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 290"
+            },
+            "x": 309,
+            "y": 595,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "209c6d08-1580-4ed4-990b-3fe2bee69b3e",
+            "label": "symbol_130",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 130"
+            },
+            "x": 426,
+            "y": 252,
+            "tintTopLeft": "#9d9d9d",
+            "tintTopRight": "#9d9d9d",
+            "tintBottomLeft": "#9d9d9d",
+            "tintBottomRight": "#9d9d9d"
+        },
+        {
+            "type": "Image",
+            "id": "757c3ad9-26e6-4f14-ba74-794945f6095b",
+            "label": "symbol_1940001",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 1940001"
+            },
+            "x": 194,
+            "y": 434
+        },
+        {
+            "type": "Image",
+            "id": "7b605341-bd9a-44d7-8d1f-b04a73a3d6a7",
+            "label": "symbol_196",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 196"
+            },
+            "x": 76,
+            "y": 512
+        },
+        {
+            "type": "Image",
+            "id": "eee5a408-c04f-4256-a1b0-66c9cd3a4cc1",
             "label": "symbol_103",
             "components": [],
             "texture": {
                 "key": "coffee",
                 "frame": "Symbol 103"
             },
-            "x": 1474,
-            "y": 471
+            "x": 1485,
+            "y": 387
+        },
+        {
+            "type": "Image",
+            "id": "950ae58b-f257-4606-89c9-855f360ba773",
+            "label": "door2",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door2",
+            "MoveTo.x": 944,
+            "MoveTo.y": 241,
+            "texture": {
+                "key": "coffee",
+                "frame": "door2"
+            },
+            "x": 944,
+            "y": 241,
+            "tintTopLeft": "#9d9d9d",
+            "tintTopRight": "#9d9d9d",
+            "tintBottomLeft": "#9d9d9d",
+            "tintBottomRight": "#9d9d9d"
+        },
+        {
+            "type": "Image",
+            "id": "6f389836-6bdc-41fb-8862-bd31e18241dc",
+            "label": "symbol_173",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 173"
+            },
+            "x": 1099,
+            "y": 426,
+            "tintTopLeft": "#9d9d9d",
+            "tintTopRight": "#9d9d9d",
+            "tintBottomLeft": "#9d9d9d",
+            "tintBottomRight": "#9d9d9d"
+        },
+        {
+            "type": "Image",
+            "id": "f862630e-51f6-42dd-9e9d-24f58cfe2ea6",
+            "label": "symbol_198",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 198"
+            },
+            "x": 167,
+            "y": 733,
+            "tintTopLeft": "#9d9d9d",
+            "tintTopRight": "#9d9d9d"
+        },
+        {
+            "type": "Image",
+            "id": "d305f367-b3aa-4e2e-939b-ade668b032f8",
+            "label": "symbol_217",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 217"
+            },
+            "x": 431,
+            "y": 822
+        },
+        {
+            "type": "Image",
+            "id": "86e66d06-23ab-40e7-8e6e-f24a7efe18db",
+            "label": "s_mbolo_5",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Símbolo 5"
+            },
+            "x": 715,
+            "y": 686,
+            "tintTopLeft": "#9d9d9d",
+            "tintTopRight": "#9d9d9d",
+            "tintBottomLeft": "#9d9d9d",
+            "tintBottomRight": "#9d9d9d"
+        },
+        {
+            "type": "Image",
+            "id": "52738130-d51a-46ea-b3c7-45322692fcd9",
+            "label": "s_mbolo_3",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Símbolo 3"
+            },
+            "x": 891,
+            "y": 868
+        },
+        {
+            "type": "Image",
+            "id": "a757a4fb-dd53-4def-b4b5-303ac6673b2c",
+            "label": "symbol_213",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 213"
+            },
+            "x": 1106,
+            "y": 807
+        },
+        {
+            "type": "Image",
+            "id": "19c3dec3-7212-4ed7-961e-70425b929de8",
+            "label": "symbol_448",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 448"
+            },
+            "x": 1160,
+            "y": 927
+        },
+        {
+            "type": "Image",
+            "id": "04781b20-ca70-47db-adfb-6c66b3fa32aa",
+            "label": "s_mbolo_16",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Símbolo 16"
+            },
+            "x": 981,
+            "y": 668
+        },
+        {
+            "type": "Image",
+            "id": "7072000e-23a8-493d-b9f6-90f6889546eb",
+            "label": "symbol_202",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 202"
+            },
+            "x": 570,
+            "y": 466
+        },
+        {
+            "type": "Image",
+            "id": "52d81482-26ad-46b4-afc0-1fd9222074bb",
+            "label": "symbol_200",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 200"
+            },
+            "x": 562,
+            "y": 365
+        },
+        {
+            "type": "Image",
+            "id": "86cb5463-a12b-435b-aea5-d18d71c3e44f",
+            "label": "symbol_147",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 147"
+            },
+            "x": 678,
+            "y": 358
+        },
+        {
+            "type": "Image",
+            "id": "ca4fd06e-1163-417f-bb32-407393b499c4",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 147"
+            },
+            "x": 676,
+            "y": 428
+        },
+        {
+            "type": "Image",
+            "id": "86516088-1c3b-4957-9159-cea78c85fe9c",
+            "label": "symbol_1",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 147"
+            },
+            "x": 675,
+            "y": 498
+        },
+        {
+            "type": "Image",
+            "id": "8206ebb2-3ea4-4a21-9c83-87bf6a85678a",
+            "label": "s_mbolo_15",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Símbolo 15"
+            },
+            "x": 945,
+            "y": 136
+        },
+        {
+            "type": "Image",
+            "id": "6362ec0e-fbac-4182-b292-08993ec8948b",
+            "label": "s_mbolo_10",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Símbolo 10"
+            },
+            "x": 1435,
+            "y": 81
+        },
+        {
+            "type": "Image",
+            "id": "a88f298b-143c-43f9-9bca-1c6032d8cd3e",
+            "label": "symbol_223",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 223"
+            },
+            "x": 1482,
+            "y": 649,
+            "tintTopLeft": "#9d9d9d",
+            "tintTopRight": "#9d9d9d",
+            "tintBottomLeft": "#9d9d9d",
+            "tintBottomRight": "#9d9d9d"
+        },
+        {
+            "type": "Image",
+            "id": "10cfbbde-e11d-4386-8765-30a0940b3059",
+            "label": "symbol_329",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 329"
+            },
+            "x": 1154,
+            "y": 535
+        },
+        {
+            "type": "Image",
+            "id": "50875dd1-55d4-4094-827a-1eee6c948555",
+            "label": "symbol_207_copia",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 207 copia"
+            },
+            "x": 438,
+            "y": 344
+        },
+        {
+            "type": "Image",
+            "id": "5db2f092-2cfc-4f0b-98a8-a0df2ecd5854",
+            "label": "sprite_763",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Sprite 763"
+            },
+            "x": 749,
+            "y": 531
+        },
+        {
+            "type": "Image",
+            "id": "5641f04d-80e8-457f-a834-4cde318525d6",
+            "label": "s_mbolo_4",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Símbolo 4"
+            },
+            "x": 605,
+            "y": 914
+        },
+        {
+            "type": "Image",
+            "id": "ada96d20-02eb-44e8-b6f7-296a463f86cd",
+            "label": "symbol_102",
+            "components": [],
+            "texture": {
+                "key": "coffee",
+                "frame": "Symbol 102"
+            },
+            "x": 627,
+            "y": 889
         }
     ],
     "plainObjects": [],
@@ -324,16 +428,7 @@
     "lists": [
         {
             "id": "d8014338-e465-4139-bd11-d2d330aded64",
-            "label": "sort",
-            "objectIds": [
-                "fae2d44c-5472-47e1-8567-23177afafbf3",
-                "e8af7cdb-fd1a-48db-8ff0-35261bb7e0cb",
-                "469b2f50-77c3-476f-a39f-9706ba0a4a55",
-                "bacd38c1-50d5-44c3-9f3b-851207f67a3f",
-                "a90c95d0-7aca-48c0-bacd-427546646872",
-                "3076131c-4f6e-461a-97ab-b44879dd15b0",
-                "e40f6ef5-0f07-4e33-b489-62641e5277b7"
-            ]
+            "label": "sort"
         }
     ]
 }

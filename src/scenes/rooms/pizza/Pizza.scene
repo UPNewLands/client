@@ -194,6 +194,21 @@
             "y": 352
         },
         {
+            "type": "Rectangle",
+            "id": "f009fc2d-b266-4a57-b156-b091c7c8fb4f",
+            "label": "rectangle",
+            "components": [],
+            "x": 769,
+            "y": 521,
+            "scaleX": 13.061895678386591,
+            "scaleY": 8.093393731727916,
+            "alpha": 0.2,
+            "isFilled": true,
+            "fillColor": "#000033",
+            "width": 128,
+            "height": 128
+        },
+        {
             "type": "Image",
             "id": "0f85c5be-a090-4b8a-af39-3431f3503e34",
             "label": "symbol_128",
@@ -207,17 +222,37 @@
         },
         {
             "type": "Image",
-            "id": "79ff1d1a-e337-46ab-9d3b-42b7982c0c13",
-            "label": "symbol_151",
+            "id": "1f6fb889-7098-4f00-b8af-42239c86fa37",
+            "label": "candy_1",
+            "components": [
+                "SimpleButton"
+            ],
+            "texture": {
+                "key": "dialogue",
+                "frame": "candy_1"
+            },
+            "x": 56,
+            "y": 806,
+            "scaleX": 0.2,
+            "scaleY": 0.2
+        },
+        {
+            "type": "Image",
+            "id": "ce1c5dac-f2ca-48ad-9b6d-272c072c7ddd",
+            "label": "symbol_242",
             "components": [],
             "texture": {
                 "key": "pizza",
-                "frame": "Symbol 151"
+                "frame": "Symbol 242"
             },
-            "x": 822.7825317382812,
-            "y": 915.2690852811945,
-            "originX": 0.5018021476386325,
-            "originY": 0.9286969300775461
+            "x": 818.6627671287639,
+            "y": 754.1190130633809,
+            "originX": 0.4984862481403911,
+            "originY": 0.7695020010570386,
+            "tintTopLeft": "#fff",
+            "tintTopRight": "#fff",
+            "tintBottomLeft": "#fff",
+            "tintBottomRight": "#fff"
         },
         {
             "type": "Image",
@@ -229,7 +264,11 @@
                 "frame": "Symbol 79"
             },
             "x": 917,
-            "y": 600
+            "y": 600,
+            "tintTopLeft": "#bebebe",
+            "tintTopRight": "#bebebe",
+            "tintBottomLeft": "#bebebe",
+            "tintBottomRight": "#bebebe"
         },
         {
             "type": "Image",
@@ -279,7 +318,11 @@
             "x": 1056.9819124129513,
             "y": 656.5226529682866,
             "originX": 0.5055789868256358,
-            "originY": 0.8751316486977713
+            "originY": 0.8751316486977713,
+            "tintTopLeft": "#bebebe",
+            "tintTopRight": "#bebebe",
+            "tintBottomLeft": "#bebebe",
+            "tintBottomRight": "#bebebe"
         },
         {
             "type": "Image",
@@ -363,7 +406,83 @@
                 "frame": "Symbol 124"
             },
             "x": 336,
-            "y": 544
+            "y": 544,
+            "tintTopLeft": "#bebebe",
+            "tintTopRight": "#bebebe",
+            "tintBottomLeft": "#bebebe",
+            "tintBottomRight": "#bebebe"
+        },
+        {
+            "type": "Image",
+            "id": "9866d724-5db2-4fc5-b732-5cca71fc561e",
+            "label": "s_mbolo_2",
+            "components": [],
+            "texture": {
+                "key": "pizza",
+                "frame": "Símbolo 2"
+            },
+            "x": 282,
+            "y": 559
+        },
+        {
+            "type": "Image",
+            "id": "b3a7da07-293d-40fa-b638-58a4c1ecc62a",
+            "label": "symbol_80",
+            "components": [],
+            "texture": {
+                "key": "pizza",
+                "frame": "Symbol 80"
+            },
+            "x": 267,
+            "y": 858
+        },
+        {
+            "type": "Image",
+            "id": "5f1d6873-cdcc-4232-bf8b-b957415a92b7",
+            "label": "symbol_2",
+            "components": [],
+            "texture": {
+                "key": "pizza",
+                "frame": "Symbol 80"
+            },
+            "x": 848,
+            "y": 853
+        },
+        {
+            "type": "Image",
+            "id": "33247141-18b3-424f-9295-324bfbeca11e",
+            "label": "symbol_3",
+            "components": [],
+            "texture": {
+                "key": "pizza",
+                "frame": "Symbol 80"
+            },
+            "x": 1462,
+            "y": 853
+        },
+        {
+            "type": "Image",
+            "id": "53d63aac-97c8-418f-b167-0d08399bbb40",
+            "label": "s_mbolo_4",
+            "components": [],
+            "texture": {
+                "key": "pizza",
+                "frame": "Símbolo 4"
+            },
+            "x": 779,
+            "y": 97
+        },
+        {
+            "type": "Image",
+            "id": "5ca183fc-29dc-45a0-930f-fcfe218150e8",
+            "label": "s_mbolo_1",
+            "components": [],
+            "texture": {
+                "key": "pizza",
+                "frame": "Símbolo 1"
+            },
+            "x": 43,
+            "y": 525
         }
     ],
     "plainObjects": [],
@@ -382,10 +501,10 @@
                 "5d0cfe0c-e777-4c69-a22b-8e8df9768170",
                 "b06e9f65-2ce8-468a-ab58-4da6f84719d3",
                 "e3a6960e-2a38-4925-8ac5-9f709ca0dc02",
-                "79ff1d1a-e337-46ab-9d3b-42b7982c0c13",
                 "cf7e852d-9cfd-4b57-8c88-963ca76a744c",
                 "8afe8afb-892c-4a69-a74b-18a0a2a41c14",
-                "e201a514-b693-47f9-8be1-828f0f7bc38b"
+                "e201a514-b693-47f9-8be1-828f0f7bc38b",
+                "ce1c5dac-f2ca-48ad-9b6d-272c072c7ddd"
             ]
         }
     ]

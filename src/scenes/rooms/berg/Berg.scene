@@ -19,100 +19,84 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "525240b0-f660-485f-8609-b8dbeddb03e7",
-            "label": "sky",
+            "id": "99e24a8d-0d67-4c6b-94d5-4f374585531b",
+            "label": "s_mbolo_5",
             "components": [],
             "texture": {
                 "key": "iceberg",
-                "frame": "sky"
+                "frame": "Símbolo 5"
             },
-            "x": 757,
-            "y": 138
+            "x": 734,
+            "y": 91
         },
         {
             "type": "Image",
-            "id": "a3621286-e408-4293-b1e3-55ac71820953",
-            "label": "city",
+            "id": "ed2d6b9f-6e35-4cb2-bc62-0fcbe259f93c",
+            "label": "s_mbolo_6",
             "components": [],
             "texture": {
                 "key": "iceberg",
-                "frame": "city"
+                "frame": "Símbolo 6"
             },
-            "x": 1169,
-            "y": 95
+            "x": 157,
+            "y": 148,
+            "flipX": true
         },
         {
             "type": "Image",
-            "id": "862d352b-5ed7-4210-bfc6-a68e78b078e7",
-            "label": "sea",
+            "id": "5645dadb-1429-48cd-8895-5e4e09d48c71",
+            "label": "s_mbolo_7",
             "components": [],
             "texture": {
                 "key": "iceberg",
-                "frame": "sea"
+                "frame": "Símbolo 7"
             },
-            "x": 760,
-            "y": 592
+            "x": 1234,
+            "y": 56
         },
         {
             "type": "Image",
-            "id": "bd3cb73d-5e88-423f-8498-9263e3ed0a6f",
-            "label": "s_mbolo_10",
+            "id": "e45fadae-05b7-41a1-babd-c8cf1dad7702",
+            "label": "s_mbolo_8",
             "components": [],
             "texture": {
                 "key": "iceberg",
-                "frame": "Símbolo 10"
+                "frame": "Símbolo 8"
             },
-            "x": 704,
-            "y": 623
+            "x": 801,
+            "y": 659
         },
         {
             "type": "Sprite",
-            "id": "4359bfa5-02a5-4cae-8475-683904003f3a",
-            "label": "aqua0001",
+            "id": "f226d60d-1b8c-4264-8643-85682af7bd83",
+            "label": "aqua",
             "components": [
                 "SimpleButton",
                 "Animation",
                 "MoveTo"
             ],
             "Animation.key": "aqua",
-            "Animation.start": 171,
-            "Animation.end": 348,
-            "Animation.repeat": 0,
-            "Animation.autoPlay": false,
-            "Animation.onHover": true,
+            "Animation.end": 81,
             "MoveTo.x": 1216,
             "MoveTo.y": 393,
             "texture": {
-                "key": "berg",
+                "key": "iceberg",
                 "frame": "aqua0001"
             },
-            "x": 1265,
-            "y": 319,
-            "originY": 0.4014336917562724
+            "x": 1266,
+            "y": 331
         },
         {
             "type": "Image",
-            "id": "9e761bdc-e0f6-4cfd-a417-4e6939a2d2e4",
-            "label": "snow",
+            "id": "580a2df3-bad6-4f68-b449-a9d10899d062",
+            "label": "sprite_18",
             "components": [],
             "texture": {
                 "key": "iceberg",
-                "frame": "snow"
+                "frame": "sprite 18"
             },
-            "x": 638,
-            "y": 596
-        },
-        {
-            "type": "Image",
-            "id": "54ec5512-62d5-47cf-b2d0-80f70ce4c7f1",
-            "label": "shape_16",
-            "components": [],
-            "texture": {
-                "key": "iceberg",
-                "frame": "shape 16"
-            },
-            "x": 670,
-            "y": 524
+            "x": 724,
+            "y": 487
         }
     ],
     "plainObjects": [],

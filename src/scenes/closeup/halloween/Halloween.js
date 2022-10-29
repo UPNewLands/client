@@ -4,6 +4,7 @@
 /* START OF COMPILED CODE */
 
 import BaseContainer from "../../base/BaseContainer";
+import Interactive from "../../components/Interactive";
 import Button from "../../components/Button";
 import SimpleButton from "../../components/SimpleButton";
 /* START-USER-IMPORTS */
@@ -20,7 +21,6 @@ export default class Halloween extends BaseContainer {
 
         // container_1
         const container_1 = scene.add.container(-542, -462);
-        container_1.visible = false;
         this.add(container_1);
 
         // day1
@@ -132,6 +132,9 @@ export default class Halloween extends BaseContainer {
         const closepanel = scene.add.image(921, -387, "newinterface", "closepanel");
         this.add(closepanel);
 
+        // s_mbolo_3 (components)
+        new Interactive(s_mbolo_3);
+
         // claim (components)
         const claimButton = new Button(claim);
         claimButton.spriteName = "claim";
@@ -143,6 +146,9 @@ export default class Halloween extends BaseContainer {
         // tp (components)
         const tpButton = new Button(tp);
         tpButton.spriteName = "tp";
+
+        // symbol_519 (components)
+        new Interactive(symbol_519);
 
         // right (components)
         const rightButton = new Button(right);

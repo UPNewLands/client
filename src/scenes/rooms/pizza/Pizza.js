@@ -76,15 +76,36 @@ export default class Pizza extends RoomScene {
         // symbol_99
         const symbol_99 = this.add.image(1364, 352, "pizza", "Symbol 99");
 
+        // rectangle
+        const rectangle = this.add.rectangle(769, 521, 128, 128);
+        rectangle.scaleX = 13.061895678386591;
+        rectangle.scaleY = 8.093393731727916;
+        rectangle.alpha = 0.2;
+        rectangle.isFilled = true;
+        rectangle.fillColor = 51;
+
         // symbol_128
         this.add.image(713, 646, "pizza", "Symbol 128");
 
-        // symbol_151
-        const symbol_151 = this.add.image(822.7825317382812, 915.2690852811945, "pizza", "Symbol 151");
-        symbol_151.setOrigin(0.5018021476386325, 0.9286969300775461);
+        // candy_1
+        const candy_1 = this.add.image(56, 806, "dialogue", "candy_1");
+        candy_1.scaleX = 0.2;
+        candy_1.scaleY = 0.2;
+
+        // symbol_242
+        const symbol_242 = this.add.image(818.6627671287639, 754.1190130633809, "pizza", "Symbol 242");
+        symbol_242.setOrigin(0.4984862481403911, 0.7695020010570386);
+        symbol_242.tintTopLeft = 16777215;
+        symbol_242.tintTopRight = 16777215;
+        symbol_242.tintBottomLeft = 16777215;
+        symbol_242.tintBottomRight = 16777215;
 
         // symbol_79
-        this.add.image(917, 600, "pizza", "Symbol 79");
+        const symbol_79 = this.add.image(917, 600, "pizza", "Symbol 79");
+        symbol_79.tintTopLeft = 12500670;
+        symbol_79.tintTopRight = 12500670;
+        symbol_79.tintBottomLeft = 12500670;
+        symbol_79.tintBottomRight = 12500670;
 
         // symbol_77
         this.add.image(1044, 491, "pizza", "Symbol 77");
@@ -98,6 +119,10 @@ export default class Pizza extends RoomScene {
         // symbol_83
         const symbol_83 = this.add.image(1056.9819124129513, 656.5226529682866, "pizza", "Symbol 83");
         symbol_83.setOrigin(0.5055789868256358, 0.8751316486977713);
+        symbol_83.tintTopLeft = 12500670;
+        symbol_83.tintTopRight = 12500670;
+        symbol_83.tintBottomLeft = 12500670;
+        symbol_83.tintBottomRight = 12500670;
 
         // symbol_1
         this.add.image(510, 457, "pizza", "Symbol 120");
@@ -117,10 +142,32 @@ export default class Pizza extends RoomScene {
         check0001.setOrigin(0.7256172471413461, 0.5016995556961342);
 
         // symbol_124
-        this.add.image(336, 544, "pizza", "Symbol 124");
+        const symbol_124 = this.add.image(336, 544, "pizza", "Symbol 124");
+        symbol_124.tintTopLeft = 12500670;
+        symbol_124.tintTopRight = 12500670;
+        symbol_124.tintBottomLeft = 12500670;
+        symbol_124.tintBottomRight = 12500670;
+
+        // s_mbolo_2
+        this.add.image(282, 559, "pizza", "Símbolo 2");
+
+        // symbol_80
+        this.add.image(267, 858, "pizza", "Symbol 80");
+
+        // symbol_2
+        this.add.image(848, 853, "pizza", "Symbol 80");
+
+        // symbol_3
+        this.add.image(1462, 853, "pizza", "Symbol 80");
+
+        // s_mbolo_4
+        this.add.image(779, 97, "pizza", "Símbolo 4");
+
+        // s_mbolo_1
+        this.add.image(43, 525, "pizza", "Símbolo 1");
 
         // lists
-        const sort = [symbol_88, symbol_83, symbol_75, symbol_99, symbol_151, symbol_65, check0001, symbol_90];
+        const sort = [symbol_88, symbol_83, symbol_75, symbol_99, symbol_65, check0001, symbol_90, symbol_242];
 
         // main (components)
         const mainButton = new Button(main);
@@ -139,6 +186,9 @@ export default class Pizza extends RoomScene {
         const tronMoveTo = new MoveTo(tron);
         tronMoveTo.x = 349;
         tronMoveTo.y = 330;
+
+        // candy_1 (components)
+        new SimpleButton(candy_1);
 
         // check0001 (components)
         const check0001Animation = new Animation(check0001);

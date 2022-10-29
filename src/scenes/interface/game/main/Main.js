@@ -29,6 +29,7 @@ import Halloween from '@scenes/closeup/halloween/Halloween'
 import Telescope from '@scenes/closeup/telescope/Telescope'
 import PufflesMenu from '../floating/puffles/PufflesMenu'
 import Safe from '../floating/safe/Safe'
+import Gary from '../../dialogue/Gary'
 import Moderator from '../moderator/Moderator'
 import ModActions from '../modactions/ModActions'
 import Snitch from '../snitch/Snitch'
@@ -170,6 +171,8 @@ export default class Main extends BaseScene {
         this.moderator;
         /** @type {Halloween} */
         this.halloween;
+        /** @type {Gary} */
+        this.gary;
         /** @type {Array<PlayerCard|Buddy>} */
         this.hideOnSleep;
         /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite|ChatLog>} */
@@ -547,6 +550,10 @@ export default class Main extends BaseScene {
         this.add.existing(halloween);
         halloween.visible = false;
 
+        // gary
+        const gary = new Gary(this, 264, 683);
+        this.add.existing(gary);
+
         // lists
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];
@@ -733,9 +740,10 @@ export default class Main extends BaseScene {
         this.snitch = snitch;
         this.moderator = moderator;
         this.halloween = halloween;
+        this.gary = gary;
         this.hideOnSleep = hideOnSleep;
         this.interfaceList = interfaceList;
-
+        
         this.events.emit("scene-awake");
     }
 

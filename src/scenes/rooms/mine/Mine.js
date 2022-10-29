@@ -5,8 +5,6 @@
 
 import RoomScene from "../RoomScene";
 import Animation from "../../components/Animation";
-import SimpleButton from "../../components/SimpleButton";
-import MoveTo from "../../components/MoveTo";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -15,10 +13,14 @@ export default class Mine extends RoomScene {
     constructor() {
         super("Mine");
 
+        /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite>} */
+        this.sort;
+
+
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
             'mineint': () => this.triggerRoom(71, 718, 226),
-            'park': () => this.triggerRoom(80, 380, 577),
+            'forest': () => this.triggerRoom(80, 380, 577),
         }
         this.music = "mine"
         /* END-USER-CTR-CODE */
@@ -33,98 +35,86 @@ export default class Mine extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // bg
-        this.add.image(783, 476, "mine", "bg");
+        // sky
+        this.add.image(748, 144, "mine", "sky");
 
-        // trees
-        this.add.image(782, 208, "mine", "trees");
+        // s_mbolo_5
+        this.add.image(817, 580, "mine", "Símbolo 5");
 
-        // snow
-        this.add.image(923, 444, "mine", "snow");
-
-        // trees3
-        this.add.image(365, 194, "mine", "trees3");
-
-        // trees2
-        this.add.image(1416, 259, "mine", "trees2");
-
-        // s_mbolo_10
-        this.add.image(1487, 528, "mine", "Símbolo 10");
-
-        // s_mbolo_33
-        this.add.image(927, 836, "mine", "Símbolo 33");
-
-        // symbol_3
-        this.add.image(611, 362, "mine", "Symbol 3");
-
-        // s_mbolo_26
-        this.add.image(322, 456, "mine", "Símbolo 26");
-
-        // kart0001
-        const kart0001 = this.add.sprite(252, 570, "mine", "kart0001");
-
-        // s_mbolo_35
-        this.add.image(81, 511, "mine", "Símbolo 35");
-
-        // s_mbolo_31
-        this.add.image(472, 453, "mine", "Símbolo 31");
-
-        // s_mbolo_36
-        this.add.image(192, 530, "mine", "Símbolo 36");
-
-        // shape_45
-        this.add.image(473, 373, "mine", "Shape 45");
-
-        // s_mbolo_39
-        this.add.image(188, 574, "mine", "Símbolo 39");
-
-        // s_mbolo_40
-        this.add.image(297, 404, "mine", "Símbolo 40");
-
-        // s_mbolo_41
-        this.add.image(197, 301, "mine", "Símbolo 41");
-
-        // s_mbolo_42
-        this.add.image(189, 208, "mine", "Símbolo 42");
-
-        // s_mbolo_44
-        this.add.image(133, 696, "mine", "Símbolo 44");
-
-        // shape_17
-        this.add.image(127, 655, "mine", "Shape 17");
-
-        // s_mbolo_32
-        this.add.image(510, 554, "mine", "Símbolo 32");
-
-        // leaves
-        this.add.image(771, 669, "mine", "leaves");
+        // s_mbolo_47
+        this.add.image(772, 683, "mine", "Símbolo 47");
 
         // s_mbolo_37
-        this.add.image(490, 726, "mine", "Símbolo 37");
+        this.add.image(568, 772, "mine", "Símbolo 37");
+
+        // s_mbolo_18
+        this.add.image(950, 437, "mine", "Símbolo 18");
+
+        // s_mbolo_33
+        this.add.image(796, 651, "mine", "Símbolo 33");
+
+        // s_mbolo_42
+        this.add.image(876, 355, "mine", "Símbolo 42");
+
+        // s_mbolo_21
+        this.add.image(492, 193, "mine", "Símbolo 21");
 
         // symbol_8
-        this.add.image(865, 363, "mine", "Symbol 8");
+        this.add.image(881, 358, "mine", "Symbol 8");
 
-        // sprite_280_copia
-        this.add.image(734, 320, "mine", "Sprite 280 copia");
+        // symbol_401
+        this.add.image(851, 710, "mine", "Symbol 401");
 
-        // sprite_249
-        this.add.image(765, 470, "mine", "sprite 249");
+        // symbol_84
+        const symbol_84 = this.add.image(909.6701892008058, 414.93727631370774, "mine", "Symbol 84");
+        symbol_84.setOrigin(0.5581256223710717, 0.6371982561776091);
 
-        // kart0001 (components)
-        const kart0001Animation = new Animation(kart0001);
-        kart0001Animation.key = "kart";
-        kart0001Animation.repeat = 0;
-        kart0001Animation.autoPlay = false;
-        kart0001Animation.onHover = true;
-        kart0001Animation.stopOnOut = false;
-        new SimpleButton(kart0001);
-        const kart0001MoveTo = new MoveTo(kart0001);
-        kart0001MoveTo.x = 252;
-        kart0001MoveTo.y = 570;
+        // symbol_406
+        const symbol_406 = this.add.image(861, 604.3978635495336, "mine", "Symbol 406");
+        symbol_406.setOrigin(0.5, 0.5958928833997277);
+
+        // water0001
+        const water0001 = this.add.sprite(807, 936, "mine", "water0001");
+
+        // symbol_287
+        this.add.image(1302, 452, "mine", "Symbol 287");
+
+        // s_mbolo_444
+        this.add.image(663, 351, "mine", "Símbolo 444");
+
+        // s_mbolo_44
+        this.add.image(194, 309, "mine", "Símbolo 44");
+
+        // s_mbolo_45
+        this.add.image(266, 484, "mine", "Símbolo 45");
+
+        // s_mbolo_46
+        const s_mbolo_46 = this.add.image(237.13697113053811, 582.0991964307987, "mine", "Símbolo 46");
+        s_mbolo_46.setOrigin(0.45546403263583807, 0.6120986429614977);
+
+        // symbol_207_copia
+        const symbol_207_copia = this.add.image(237, 744, "mine", "Symbol 207 copia");
+
+        // s_mbolo_27
+        this.add.image(119, 791, "mine", "Símbolo 27");
+
+        // overlay
+        const overlay = this.add.image(776.334337472626, 976.5356701397272, "mine", "overlay");
+        overlay.setOrigin(0.5260111021235716, 0.8912806341410331);
+
+        // lists
+        const sort = [overlay, symbol_406, water0001, s_mbolo_46, symbol_84, symbol_207_copia];
+
+        // water0001 (components)
+        const water0001Animation = new Animation(water0001);
+        water0001Animation.key = "water";
+        water0001Animation.end = 10;
+
+        this.sort = sort;
 
         this.events.emit("scene-awake");
     }
+
 
     /* START-USER-CODE */
 

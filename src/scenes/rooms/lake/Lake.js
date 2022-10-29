@@ -8,7 +8,6 @@ import Animation from "../../components/Animation";
 import SimpleButton from "../../components/SimpleButton";
 import ShowHint from "../../components/ShowHint";
 import MoveTo from "../../components/MoveTo";
-import Button from "../../components/Button";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -41,130 +40,94 @@ export default class Lake extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // s_mbolo_2
-        this.add.image(849, 639, "lake", "Símbolo 2");
+        // s_mbolo_4
+        this.add.image(431, 354, "lake", "Símbolo 4");
 
         // s_mbolo_3
-        const s_mbolo_3 = this.add.image(891, 995, "lake", "Símbolo 3");
-        s_mbolo_3.setOrigin(0.5033443208200835, 1.0183697271129328);
+        this.add.image(836, 636, "lake", "Símbolo 3");
 
-        // buoy0001
-        const buoy0001 = this.add.sprite(1351.4317262615164, 1109.5079281041458, "lake", "buoy0001");
-        buoy0001.setOrigin(0.5219982452661305, 3.318918000531356);
+        // s_mbolo_33
+        const s_mbolo_33 = this.add.image(1169, 998, "lake", "Símbolo 33");
+        s_mbolo_33.setOrigin(0.6320128723221484, 1.0186057406655433);
+        s_mbolo_33.tintTopLeft = 4043603;
+        s_mbolo_33.tintTopRight = 4043603;
+        s_mbolo_33.tintBottomLeft = 4043603;
+        s_mbolo_33.tintBottomRight = 4043603;
 
         // symbol_1
-        const symbol_1 = this.add.image(712.1129150390625, 1191.8485107421875, "lake", "Symbol 1");
-        symbol_1.setOrigin(0.5330979263826029, 1.3272006818819861);
+        this.add.image(660, 410, "lake", "Symbol 1");
 
-        // symbol_32
-        this.add.image(488, 100, "lake", "Symbol 32");
+        // s_mbolo_34
+        const s_mbolo_34 = this.add.image(361.204829301191, 290.5545376381123, "lake", "Símbolo 34");
+        s_mbolo_34.setOrigin(0.5078166568321733, 1.1140990277731277);
 
         // symbol_8
-        this.add.image(415, 797, "lake", "Symbol 8");
-
-        // symbol_25
-        this.add.image(175, 126, "lake", "Symbol 25");
-
-        // symbol_3
-        this.add.image(1071, 173, "lake", "Symbol 3");
-
-        // symbol_11
-        this.add.image(661, 268, "lake", "Symbol 11");
-
-        // symbol_22
-        this.add.image(100, 424, "lake", "Symbol 22");
-
-        // symbol_192
-        this.add.image(91, 372, "lake", "Symbol 192");
-
-        // symbol
-        this.add.image(24, 395, "lake", "Symbol 192");
+        const symbol_8 = this.add.image(396.4542107345854, 692.9028985898295, "lake", "Symbol 8");
+        symbol_8.setOrigin(0.48888660566143527, 0.0037004040566784146);
 
         // speakers0001
-        const speakers0001 = this.add.sprite(99, 368, "lake", "speakers0001");
-
-        // s_mbolo_11
-        this.add.image(802, 407, "lake", "Símbolo 11");
-
-        // speakers
-        const speakers = this.add.sprite(34, 385, "lake", "speakers0001");
-
-        // s_mbolo_12
-        this.add.image(749, 265, "lake", "Símbolo 12");
-
-        // lights0001
-        const lights0001 = this.add.sprite(79, 400, "lake", "lights0001");
-
-        // symbol_16
-        this.add.image(734, 348, "lake", "Symbol 16");
-
-        // pole0002
-        this.add.image(527, 126, "lake", "pole0002");
-
-        // s_mbolo_7
-        this.add.image(1244, 26, "lake", "Símbolo 7");
-
-        // shape_315
-        const shape_315 = this.add.image(912, 134, "lake", "shape 315");
-        shape_315.scaleX = 0.8;
-        shape_315.scaleY = 0.8;
-
-        // fire0001
-        const fire0001 = this.add.sprite(916, 72, "lake", "fire0001");
-        fire0001.scaleX = 0.8;
-        fire0001.scaleY = 0.8;
+        const speakers0001 = this.add.sprite(22, 420, "lake", "speakers0001");
+        speakers0001.tintTopLeft = 10790052;
+        speakers0001.tintTopRight = 10790052;
+        speakers0001.tintBottomLeft = 10790052;
+        speakers0001.tintBottomRight = 10790052;
 
         // boat0001
-        const boat0001 = this.add.sprite(422.3674793521371, 849.142231878498, "lake", "boat0001");
-        boat0001.setOrigin(0.5290915055829669, 0.4669841918417959);
+        const boat0001 = this.add.sprite(407, 856, "lake", "boat0001");
         boat0001.flipX = true;
+        boat0001.tintTopLeft = 10790052;
+        boat0001.tintTopRight = 10790052;
+        boat0001.tintBottomLeft = 10790052;
+        boat0001.tintBottomRight = 10790052;
 
-        // s_mbolo_8
-        this.add.image(1218, 141, "lake", "Símbolo 8");
+        // speakers
+        const speakers = this.add.sprite(91, 399, "lake", "speakers0001");
+        speakers.tintTopLeft = 10790052;
+        speakers.tintTopRight = 10790052;
+        speakers.tintBottomLeft = 10790052;
+        speakers.tintBottomRight = 10790052;
 
-        // symbol_411
-        this.add.image(1277, 114, "lake", "Symbol 411");
+        // symbol_207_copia
+        this.add.image(96, 471, "halloween", "Symbol 207 copia");
 
-        // symbol_425
-        this.add.image(1204, 118, "lake", "Symbol 425");
+        // symbol_7
+        const symbol_7 = this.add.image(925.6922667742001, 408.9301569971442, "lake", "Symbol 7");
+        symbol_7.setOrigin(0.9433760725076988, 0.7668638212424885);
 
-        // symbol_2
-        this.add.image(1127, 170, "lake", "Symbol 411");
+        // symbol_16
+        const symbol_16 = this.add.image(773.28800408217, 410.4232016618909, "lake", "Symbol 16");
+        symbol_16.setOrigin(0.5114536722676569, 0.9997812065389464);
 
-        // s_mbolo_9
-        this.add.image(727, 55, "lake", "Símbolo 9");
+        // lights0004
+        const lights0004 = this.add.sprite(86, 423, "lake", "lights0004");
 
-        // lakecatalog
-        const lakecatalog = this.add.image(1417.0815259450555, 1050.5160173510058, "lake", "lakecatalog");
-        lakecatalog.setOrigin(0.47665220756044435, 2.0001502151583113);
+        // symbol_30
+        this.add.image(72, 248, "lake", "Symbol 30");
+
+        // buoy0001
+        const buoy0001 = this.add.sprite(1350, 563, "lake", "buoy0001");
+        buoy0001.tintTopLeft = 10790052;
+        buoy0001.tintTopRight = 10790052;
+        buoy0001.tintBottomLeft = 10790052;
+        buoy0001.tintBottomRight = 10790052;
+
+        // symbol_24
+        this.add.image(-29, 548, "lake", "Symbol 24");
+
+        // symbol_389_copia
+        this.add.image(1018, 197, "halloween", "Symbol 389 copia");
+
+        // symbol_329
+        const symbol_329 = this.add.image(851.1069528994517, 449.9412047349232, "halloween", "Symbol 329");
+        symbol_329.setOrigin(0.530535549267416, 1.37789704143823);
 
         // lists
-        const sort = [s_mbolo_3, buoy0001, boat0001, lakecatalog];
-
-        // buoy0001 (components)
-        const buoy0001Animation = new Animation(buoy0001);
-        buoy0001Animation.key = "buoy";
-        buoy0001Animation.end = 50;
+        const sort = [s_mbolo_33, symbol_8, boat0001, s_mbolo_34, symbol_7, symbol_16, symbol_329];
 
         // speakers0001 (components)
         const speakers0001Animation = new Animation(speakers0001);
         speakers0001Animation.key = "speakers";
         speakers0001Animation.end = 10;
-
-        // speakers (components)
-        const speakersAnimation = new Animation(speakers);
-        speakersAnimation.key = "speakers";
-        speakersAnimation.end = 10;
-
-        // lights0001 (components)
-        const lights0001Animation = new Animation(lights0001);
-        lights0001Animation.key = "lights";
-        lights0001Animation.end = 46;
-
-        // fire0001 (components)
-        const fire0001Animation = new Animation(fire0001);
-        fire0001Animation.key = "fire";
-        fire0001Animation.end = 20;
 
         // boat0001 (components)
         const boat0001Animation = new Animation(boat0001);
@@ -172,16 +135,25 @@ export default class Lake extends RoomScene {
         boat0001Animation.end = 80;
         new SimpleButton(boat0001);
         const boat0001ShowHint = new ShowHint(boat0001);
-        boat0001ShowHint.text = "Play Hydro Hopper";
+        boat0001ShowHint.text = "Play Hydrohopper";
         const boat0001MoveTo = new MoveTo(boat0001);
-        boat0001MoveTo.x = 514;
+        boat0001MoveTo.x = 518;
         boat0001MoveTo.y = 814;
 
-        // lakecatalog (components)
-        const lakecatalogButton = new Button(lakecatalog);
-        lakecatalogButton.spriteName = "lakecatalog";
-        lakecatalogButton.callback = () => this.interface.loadExternal('Hydro');
-        lakecatalogButton.activeFrame = false;
+        // speakers (components)
+        const speakersAnimation = new Animation(speakers);
+        speakersAnimation.key = "speakers";
+        speakersAnimation.end = 10;
+
+        // lights0004 (components)
+        const lights0004Animation = new Animation(lights0004);
+        lights0004Animation.key = "lights";
+        lights0004Animation.end = 46;
+
+        // buoy0001 (components)
+        const buoy0001Animation = new Animation(buoy0001);
+        buoy0001Animation.key = "buoy";
+        buoy0001Animation.end = 50;
 
         this.sort = sort;
 

@@ -19,161 +19,89 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "a8c853d6-ae2d-41f6-b1c2-57a410bc02ee",
-            "label": "s_mbolo_2",
+            "id": "6f23ffdf-21cf-4ac4-a3ea-8b6cefdd6446",
+            "label": "s_mbolo_4",
             "components": [],
             "texture": {
                 "key": "lake",
-                "frame": "Símbolo 2"
+                "frame": "Símbolo 4"
             },
-            "x": 849,
-            "y": 639
+            "x": 431,
+            "y": 354
         },
         {
             "type": "Image",
-            "id": "cb4b1b56-0e4d-4893-8178-c48afec309ea",
+            "id": "59fccb58-e4b0-4891-85ab-fa377c641a1c",
             "label": "s_mbolo_3",
             "components": [],
             "texture": {
                 "key": "lake",
                 "frame": "Símbolo 3"
             },
-            "x": 891,
-            "y": 995,
-            "originX": 0.5033443208200835,
-            "originY": 1.0183697271129328
-        },
-        {
-            "type": "Sprite",
-            "id": "7f5d04cd-3890-416b-ab60-a4e89e99c61b",
-            "label": "buoy0001",
-            "components": [
-                "Animation"
-            ],
-            "Animation.key": "buoy",
-            "Animation.end": 50,
-            "texture": {
-                "key": "lake",
-                "frame": "buoy0001"
-            },
-            "x": 1351.4317262615164,
-            "y": 1109.5079281041458,
-            "originX": 0.5219982452661305,
-            "originY": 3.318918000531356
+            "x": 836,
+            "y": 636
         },
         {
             "type": "Image",
-            "id": "19459724-3e83-424d-9d8c-d4a0546d2134",
+            "id": "428ebbc7-436b-4fc8-9555-583571f128a0",
+            "label": "s_mbolo_33",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Símbolo 33"
+            },
+            "x": 1169,
+            "y": 998,
+            "originX": 0.6320128723221484,
+            "originY": 1.0186057406655433,
+            "tintTopLeft": "#3db353",
+            "tintTopRight": "#3db353",
+            "tintBottomLeft": "#3db353",
+            "tintBottomRight": "#3db353"
+        },
+        {
+            "type": "Image",
+            "id": "13f62735-1f44-4985-a063-da6e02080e0e",
             "label": "symbol_1",
             "components": [],
             "texture": {
                 "key": "lake",
                 "frame": "Symbol 1"
             },
-            "x": 712.1129150390625,
-            "y": 1191.8485107421875,
-            "originX": 0.5330979263826029,
-            "originY": 1.3272006818819861
+            "x": 660,
+            "y": 410
         },
         {
             "type": "Image",
-            "id": "d30d8868-1fe3-4669-86d6-2d6354df9240",
-            "label": "symbol_32",
+            "id": "b910a134-041d-4c96-a6f2-93b0b174c690",
+            "label": "s_mbolo_34",
             "components": [],
             "texture": {
                 "key": "lake",
-                "frame": "Symbol 32"
+                "frame": "Símbolo 34"
             },
-            "x": 488,
-            "y": 100
+            "x": 361.204829301191,
+            "y": 290.5545376381123,
+            "originX": 0.5078166568321733,
+            "originY": 1.1140990277731277
         },
         {
             "type": "Image",
-            "id": "598db524-5c74-45ae-aafa-5c21be013e6e",
+            "id": "908223b7-8afb-4611-ac1d-8d137f6de8b6",
             "label": "symbol_8",
             "components": [],
             "texture": {
                 "key": "lake",
                 "frame": "Symbol 8"
             },
-            "x": 415,
-            "y": 797
-        },
-        {
-            "type": "Image",
-            "id": "1c9d4a86-8db0-4560-963d-3f6b9986583d",
-            "label": "symbol_25",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Symbol 25"
-            },
-            "x": 175,
-            "y": 126
-        },
-        {
-            "type": "Image",
-            "id": "d2cba0c1-2529-4b98-a5dd-732c610d8eb2",
-            "label": "symbol_3",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Symbol 3"
-            },
-            "x": 1071,
-            "y": 173
-        },
-        {
-            "type": "Image",
-            "id": "9d8df5fb-0ca1-4917-bddb-c5c31ebcc2ae",
-            "label": "symbol_11",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Symbol 11"
-            },
-            "x": 661,
-            "y": 268
-        },
-        {
-            "type": "Image",
-            "id": "73dcce47-3da0-4050-95f4-4532798ff959",
-            "label": "symbol_22",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Symbol 22"
-            },
-            "x": 100,
-            "y": 424
-        },
-        {
-            "type": "Image",
-            "id": "2e93bdf4-1e8f-4cb0-b353-31bed9a47dd8",
-            "label": "symbol_192",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Symbol 192"
-            },
-            "x": 91,
-            "y": 372
-        },
-        {
-            "type": "Image",
-            "id": "da07eb71-025c-490d-a55c-c815403aebab",
-            "label": "symbol",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Symbol 192"
-            },
-            "x": 24,
-            "y": 395
+            "x": 396.4542107345854,
+            "y": 692.9028985898295,
+            "originX": 0.48888660566143527,
+            "originY": 0.0037004040566784146
         },
         {
             "type": "Sprite",
-            "id": "19a7e43f-6bbc-4dec-b2b8-a800962a55a5",
+            "id": "ca7a7568-8ebd-4ba0-adc7-01ce40c97291",
             "label": "speakers0001",
             "components": [
                 "Animation"
@@ -184,24 +112,43 @@
                 "key": "lake",
                 "frame": "speakers0001"
             },
-            "x": 99,
-            "y": 368
-        },
-        {
-            "type": "Image",
-            "id": "4b33348a-fde0-4ecc-a7a6-1e9aab9721ad",
-            "label": "s_mbolo_11",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Símbolo 11"
-            },
-            "x": 802,
-            "y": 407
+            "x": 22,
+            "y": 420,
+            "tintTopLeft": "#a4a4a4",
+            "tintTopRight": "#a4a4a4",
+            "tintBottomLeft": "#a4a4a4",
+            "tintBottomRight": "#a4a4a4"
         },
         {
             "type": "Sprite",
-            "id": "a4c9fa62-2acc-423f-967f-89ccc3517561",
+            "id": "c93b8378-68c4-46dc-9d02-e71f320dc233",
+            "label": "boat0001",
+            "components": [
+                "Animation",
+                "SimpleButton",
+                "ShowHint",
+                "MoveTo"
+            ],
+            "Animation.key": "boat",
+            "Animation.end": 80,
+            "ShowHint.text": "Play Hydrohopper",
+            "MoveTo.x": 518,
+            "MoveTo.y": 814,
+            "texture": {
+                "key": "lake",
+                "frame": "boat0001"
+            },
+            "x": 407,
+            "y": 856,
+            "flipX": true,
+            "tintTopLeft": "#a4a4a4",
+            "tintTopRight": "#a4a4a4",
+            "tintBottomLeft": "#a4a4a4",
+            "tintBottomRight": "#a4a4a4"
+        },
+        {
+            "type": "Sprite",
+            "id": "fa3a4baa-9118-4b73-8cd9-d82489f814c0",
             "label": "speakers",
             "components": [
                 "Animation"
@@ -212,25 +159,57 @@
                 "key": "lake",
                 "frame": "speakers0001"
             },
-            "x": 34,
-            "y": 385
+            "x": 91,
+            "y": 399,
+            "tintTopLeft": "#a4a4a4",
+            "tintTopRight": "#a4a4a4",
+            "tintBottomLeft": "#a4a4a4",
+            "tintBottomRight": "#a4a4a4"
         },
         {
             "type": "Image",
-            "id": "fe413f4a-bd77-47d6-a9b9-aefcb8cfe6af",
-            "label": "s_mbolo_12",
+            "id": "0bfbfbf8-1e44-4984-b461-098af27f3992",
+            "label": "symbol_207_copia",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 207 copia"
+            },
+            "x": 96,
+            "y": 471
+        },
+        {
+            "type": "Image",
+            "id": "07190f14-32b8-41e1-86e0-8120e1888346",
+            "label": "symbol_7",
             "components": [],
             "texture": {
                 "key": "lake",
-                "frame": "Símbolo 12"
+                "frame": "Symbol 7"
             },
-            "x": 749,
-            "y": 265
+            "x": 925.6922667742001,
+            "y": 408.9301569971442,
+            "originX": 0.9433760725076988,
+            "originY": 0.7668638212424885
+        },
+        {
+            "type": "Image",
+            "id": "b91ba036-2385-4b78-9cbe-c6eb1787f11c",
+            "label": "symbol_16",
+            "components": [],
+            "texture": {
+                "key": "lake",
+                "frame": "Symbol 16"
+            },
+            "x": 773.28800408217,
+            "y": 410.4232016618909,
+            "originX": 0.5114536722676569,
+            "originY": 0.9997812065389464
         },
         {
             "type": "Sprite",
-            "id": "2298bd8d-7fa9-4c6d-86b8-f09e79e4722e",
-            "label": "lights0001",
+            "id": "16b63ff3-fa35-45ae-9bee-b75909db2f11",
+            "label": "lights0004",
             "components": [
                 "Animation"
             ],
@@ -238,182 +217,80 @@
             "Animation.end": 46,
             "texture": {
                 "key": "lake",
-                "frame": "lights0001"
+                "frame": "lights0004"
             },
-            "x": 79,
-            "y": 400
+            "x": 86,
+            "y": 423
         },
         {
             "type": "Image",
-            "id": "e3c1649e-5621-443e-8726-c0f477a3f3f8",
-            "label": "symbol_16",
+            "id": "5586e1df-f994-4376-83ed-996ec4902b7b",
+            "label": "symbol_30",
             "components": [],
             "texture": {
                 "key": "lake",
-                "frame": "Symbol 16"
+                "frame": "Symbol 30"
             },
-            "x": 734,
-            "y": 348
-        },
-        {
-            "type": "Image",
-            "id": "165e298a-5e8a-42cb-b85b-17114e707636",
-            "label": "pole0002",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "pole0002"
-            },
-            "x": 527,
-            "y": 126
-        },
-        {
-            "type": "Image",
-            "id": "5e8e0ce9-979e-4a7e-a50f-e90198eac12a",
-            "label": "s_mbolo_7",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Símbolo 7"
-            },
-            "x": 1244,
-            "y": 26
-        },
-        {
-            "type": "Image",
-            "id": "37dae505-b4f4-48d3-90dd-fa93ffef0c9e",
-            "label": "shape_315",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "shape 315"
-            },
-            "x": 912,
-            "y": 134,
-            "scaleX": 0.8,
-            "scaleY": 0.8
+            "x": 72,
+            "y": 248
         },
         {
             "type": "Sprite",
-            "id": "8ed13f4e-3e78-4898-bad0-89e5c114ccbd",
-            "label": "fire0001",
+            "id": "65211ce4-bb4d-4e5c-a828-6703645f122b",
+            "label": "buoy0001",
             "components": [
                 "Animation"
             ],
-            "Animation.key": "fire",
-            "Animation.end": 20,
+            "Animation.key": "buoy",
+            "Animation.end": 50,
             "texture": {
                 "key": "lake",
-                "frame": "fire0001"
+                "frame": "buoy0001"
             },
-            "x": 916,
-            "y": 72,
-            "scaleX": 0.8,
-            "scaleY": 0.8
-        },
-        {
-            "type": "Sprite",
-            "id": "570e22a4-0bf2-41a8-8032-e25a80968c2b",
-            "label": "boat0001",
-            "components": [
-                "Animation",
-                "SimpleButton",
-                "ShowHint",
-                "MoveTo"
-            ],
-            "Animation.key": "boat",
-            "Animation.end": 80,
-            "ShowHint.text": "Play Hydro Hopper",
-            "MoveTo.x": 514,
-            "MoveTo.y": 814,
-            "texture": {
-                "key": "lake",
-                "frame": "boat0001"
-            },
-            "x": 422.3674793521371,
-            "y": 849.142231878498,
-            "originX": 0.5290915055829669,
-            "originY": 0.4669841918417959,
-            "flipX": true
+            "x": 1350,
+            "y": 563,
+            "tintTopLeft": "#a4a4a4",
+            "tintTopRight": "#a4a4a4",
+            "tintBottomLeft": "#a4a4a4",
+            "tintBottomRight": "#a4a4a4"
         },
         {
             "type": "Image",
-            "id": "1532352a-7cb1-46df-a344-d57b551fb506",
-            "label": "s_mbolo_8",
+            "id": "a80f9991-af02-4513-b7a4-7626a9b0a175",
+            "label": "symbol_24",
             "components": [],
             "texture": {
                 "key": "lake",
-                "frame": "Símbolo 8"
+                "frame": "Symbol 24"
             },
-            "x": 1218,
-            "y": 141
+            "x": -29,
+            "y": 548
         },
         {
             "type": "Image",
-            "id": "24e44309-1ce4-4dcd-895b-d952a9f65c35",
-            "label": "symbol_411",
+            "id": "bf5dd8ed-e337-4b5f-ab64-0ee3a648af8d",
+            "label": "symbol_389_copia",
             "components": [],
             "texture": {
-                "key": "lake",
-                "frame": "Symbol 411"
+                "key": "halloween",
+                "frame": "Symbol 389 copia"
             },
-            "x": 1277,
-            "y": 114
+            "x": 1018,
+            "y": 197
         },
         {
             "type": "Image",
-            "id": "d8226d98-f543-4370-9010-cfc831e0f576",
-            "label": "symbol_425",
+            "id": "219967b8-6643-473c-9179-4c2730e38091",
+            "label": "symbol_329",
             "components": [],
             "texture": {
-                "key": "lake",
-                "frame": "Symbol 425"
+                "key": "halloween",
+                "frame": "Symbol 329"
             },
-            "x": 1204,
-            "y": 118
-        },
-        {
-            "type": "Image",
-            "id": "e43dd66b-ee31-4afc-b5c1-b1345c1dae4e",
-            "label": "symbol_2",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Symbol 411"
-            },
-            "x": 1127,
-            "y": 170
-        },
-        {
-            "type": "Image",
-            "id": "2b239f4a-faa0-450d-9b82-b5d2ca3f6da7",
-            "label": "s_mbolo_9",
-            "components": [],
-            "texture": {
-                "key": "lake",
-                "frame": "Símbolo 9"
-            },
-            "x": 727,
-            "y": 55
-        },
-        {
-            "type": "Image",
-            "id": "09e1b684-539d-4ae2-84ee-83e4491443cb",
-            "label": "lakecatalog",
-            "components": [
-                "Button"
-            ],
-            "Button.spriteName": "lakecatalog",
-            "Button.callback": "() => this.interface.loadExternal('Hydro')",
-            "Button.activeFrame": false,
-            "texture": {
-                "key": "lake",
-                "frame": "lakecatalog"
-            },
-            "x": 1417.0815259450555,
-            "y": 1050.5160173510058,
-            "originX": 0.47665220756044435,
-            "originY": 2.0001502151583113
+            "x": 851.1069528994517,
+            "y": 449.9412047349232,
+            "originX": 0.530535549267416,
+            "originY": 1.37789704143823
         }
     ],
     "plainObjects": [],
@@ -428,10 +305,13 @@
             "id": "2b62c150-1172-42a9-8fd6-0abe2631136f",
             "label": "sort",
             "objectIds": [
-                "cb4b1b56-0e4d-4893-8178-c48afec309ea",
-                "7f5d04cd-3890-416b-ab60-a4e89e99c61b",
-                "570e22a4-0bf2-41a8-8032-e25a80968c2b",
-                "09e1b684-539d-4ae2-84ee-83e4491443cb"
+                "428ebbc7-436b-4fc8-9555-583571f128a0",
+                "908223b7-8afb-4611-ac1d-8d137f6de8b6",
+                "c93b8378-68c4-46dc-9d02-e71f320dc233",
+                "b910a134-041d-4c96-a6f2-93b0b174c690",
+                "07190f14-32b8-41e1-86e0-8120e1888346",
+                "b91ba036-2385-4b78-9cbe-c6eb1787f11c",
+                "219967b8-6643-473c-9179-4c2730e38091"
             ]
         }
     ]

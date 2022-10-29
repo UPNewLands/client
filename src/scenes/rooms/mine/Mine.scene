@@ -19,326 +19,266 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "f8770cfc-f766-4d5a-b5dd-55df0be31e77",
-            "label": "bg",
+            "id": "d4b6b80f-7baa-4486-9132-dfe832febc2e",
+            "label": "sky",
             "components": [],
             "texture": {
                 "key": "mine",
-                "frame": "bg"
+                "frame": "sky"
             },
-            "x": 783,
-            "y": 476
+            "x": 748,
+            "y": 144
         },
         {
             "type": "Image",
-            "id": "6d11a233-795e-48ba-af80-6018b98f97af",
-            "label": "trees",
+            "id": "4a1c2395-5ea7-46f1-8240-0aeb1955eb53",
+            "label": "s_mbolo_5",
             "components": [],
             "texture": {
                 "key": "mine",
-                "frame": "trees"
+                "frame": "Símbolo 5"
             },
-            "x": 782,
-            "y": 208
+            "x": 817,
+            "y": 580
         },
         {
             "type": "Image",
-            "id": "23d9b69b-c866-4a5a-995a-4ee17b17ae34",
-            "label": "snow",
+            "id": "164921a7-e873-4f1a-8186-9ad8a98e4998",
+            "label": "s_mbolo_47",
             "components": [],
             "texture": {
                 "key": "mine",
-                "frame": "snow"
+                "frame": "Símbolo 47"
             },
-            "x": 923,
-            "y": 444
+            "x": 772,
+            "y": 683
         },
         {
             "type": "Image",
-            "id": "7b2abdd5-5faa-49db-9023-9f851b12eea1",
-            "label": "trees3",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "trees3"
-            },
-            "x": 365,
-            "y": 194
-        },
-        {
-            "type": "Image",
-            "id": "f319b6d8-3b49-48b5-857d-2fad4df277d0",
-            "label": "trees2",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "trees2"
-            },
-            "x": 1416,
-            "y": 259
-        },
-        {
-            "type": "Image",
-            "id": "68bd0de1-3b4e-4bba-8a7e-729f0aabc8d5",
-            "label": "s_mbolo_10",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 10"
-            },
-            "x": 1487,
-            "y": 528
-        },
-        {
-            "type": "Image",
-            "id": "76c42630-1123-4319-91fb-060edff96776",
-            "label": "s_mbolo_33",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 33"
-            },
-            "x": 927,
-            "y": 836
-        },
-        {
-            "type": "Image",
-            "id": "558b3db7-dc47-4107-8fec-29a3a5beed4d",
-            "label": "symbol_3",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Symbol 3"
-            },
-            "x": 611,
-            "y": 362
-        },
-        {
-            "type": "Image",
-            "id": "63edb811-83b9-4523-add7-f7978752e5a8",
-            "label": "s_mbolo_26",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 26"
-            },
-            "x": 322,
-            "y": 456
-        },
-        {
-            "type": "Sprite",
-            "id": "161ce5dc-9b47-48e0-9c36-f2f25d44dcc5",
-            "label": "kart0001",
-            "components": [
-                "Animation",
-                "SimpleButton",
-                "MoveTo"
-            ],
-            "Animation.key": "kart",
-            "Animation.repeat": 0,
-            "Animation.autoPlay": false,
-            "Animation.onHover": true,
-            "Animation.stopOnOut": false,
-            "MoveTo.x": 252,
-            "MoveTo.y": 570,
-            "texture": {
-                "key": "mine",
-                "frame": "kart0001"
-            },
-            "x": 252,
-            "y": 570
-        },
-        {
-            "type": "Image",
-            "id": "59c74713-45f8-4f83-a990-fb39a83c1fa1",
-            "label": "s_mbolo_35",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 35"
-            },
-            "x": 81,
-            "y": 511
-        },
-        {
-            "type": "Image",
-            "id": "f62cde81-356b-46f6-a122-d7cd2af10a7d",
-            "label": "s_mbolo_31",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 31"
-            },
-            "x": 472,
-            "y": 453
-        },
-        {
-            "type": "Image",
-            "id": "a8418a59-671f-4cb8-a2a5-561e16e65817",
-            "label": "s_mbolo_36",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 36"
-            },
-            "x": 192,
-            "y": 530
-        },
-        {
-            "type": "Image",
-            "id": "02d6536c-0502-4098-8bee-196bc80db375",
-            "label": "shape_45",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Shape 45"
-            },
-            "x": 473,
-            "y": 373
-        },
-        {
-            "type": "Image",
-            "id": "f3e6666f-9f59-49e9-81e1-5aa4834c0433",
-            "label": "s_mbolo_39",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 39"
-            },
-            "x": 188,
-            "y": 574
-        },
-        {
-            "type": "Image",
-            "id": "c887f885-da07-4567-8894-5c1832e6a436",
-            "label": "s_mbolo_40",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 40"
-            },
-            "x": 297,
-            "y": 404
-        },
-        {
-            "type": "Image",
-            "id": "b09d289a-9a30-4026-ac03-9e778c372004",
-            "label": "s_mbolo_41",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 41"
-            },
-            "x": 197,
-            "y": 301
-        },
-        {
-            "type": "Image",
-            "id": "c87cbc19-2db5-42c1-84b7-08ff500b71bb",
-            "label": "s_mbolo_42",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 42"
-            },
-            "x": 189,
-            "y": 208
-        },
-        {
-            "type": "Image",
-            "id": "3e915ddf-2399-4887-a7cd-5115609225aa",
-            "label": "s_mbolo_44",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 44"
-            },
-            "x": 133,
-            "y": 696
-        },
-        {
-            "type": "Image",
-            "id": "51a4da6d-f060-4625-b093-2a75ffc65030",
-            "label": "shape_17",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Shape 17"
-            },
-            "x": 127,
-            "y": 655
-        },
-        {
-            "type": "Image",
-            "id": "dc2209a4-244f-40fd-97c1-478ece42778a",
-            "label": "s_mbolo_32",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "Símbolo 32"
-            },
-            "x": 510,
-            "y": 554
-        },
-        {
-            "type": "Image",
-            "id": "70c5d8d1-798d-46ce-a20f-1b1fb7aa1b8b",
-            "label": "leaves",
-            "components": [],
-            "texture": {
-                "key": "mine",
-                "frame": "leaves"
-            },
-            "x": 771,
-            "y": 669
-        },
-        {
-            "type": "Image",
-            "id": "56eb3373-7645-4edc-841c-08765d3c8e21",
+            "id": "d8c7d668-fe8c-4577-8ef5-bfb6bc230f60",
             "label": "s_mbolo_37",
             "components": [],
             "texture": {
                 "key": "mine",
                 "frame": "Símbolo 37"
             },
-            "x": 490,
-            "y": 726
+            "x": 568,
+            "y": 772
         },
         {
             "type": "Image",
-            "id": "09e74162-1798-4d3b-b5a5-0075d12fefc2",
+            "id": "0c70b13b-3d3b-42c2-aa24-8b532253025d",
+            "label": "s_mbolo_18",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Símbolo 18"
+            },
+            "x": 950,
+            "y": 437
+        },
+        {
+            "type": "Image",
+            "id": "183efb32-4bf7-4016-8503-eec20561aa49",
+            "label": "s_mbolo_33",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Símbolo 33"
+            },
+            "x": 796,
+            "y": 651
+        },
+        {
+            "type": "Image",
+            "id": "090bd562-b34d-47b6-8b89-7bbcc3473574",
+            "label": "s_mbolo_42",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Símbolo 42"
+            },
+            "x": 876,
+            "y": 355
+        },
+        {
+            "type": "Image",
+            "id": "768f653b-37e5-4504-977e-7d939bdae906",
+            "label": "s_mbolo_21",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Símbolo 21"
+            },
+            "x": 492,
+            "y": 193
+        },
+        {
+            "type": "Image",
+            "id": "b88206f7-e7c2-4448-9325-f07cd729962d",
             "label": "symbol_8",
             "components": [],
             "texture": {
                 "key": "mine",
                 "frame": "Symbol 8"
             },
-            "x": 865,
-            "y": 363
+            "x": 881,
+            "y": 358
         },
         {
             "type": "Image",
-            "id": "04164933-c4a2-4327-a7b3-55e6bb42053b",
-            "label": "sprite_280_copia",
+            "id": "984d9341-850b-4875-81fb-ceea874485d8",
+            "label": "symbol_401",
             "components": [],
             "texture": {
                 "key": "mine",
-                "frame": "Sprite 280 copia"
+                "frame": "Symbol 401"
             },
-            "x": 734,
-            "y": 320
+            "x": 851,
+            "y": 710
         },
         {
             "type": "Image",
-            "id": "f3a9836f-2b4c-410e-829d-f49e51c19d7a",
-            "label": "sprite_249",
+            "id": "ff82cd35-9e9d-47a1-a131-8a0a574dad61",
+            "label": "symbol_84",
             "components": [],
             "texture": {
                 "key": "mine",
-                "frame": "sprite 249"
+                "frame": "Symbol 84"
             },
-            "x": 765,
-            "y": 470
+            "x": 909.6701892008058,
+            "y": 414.93727631370774,
+            "originX": 0.5581256223710717,
+            "originY": 0.6371982561776091
+        },
+        {
+            "type": "Image",
+            "id": "00ab3b96-5ad4-4827-96e0-74159f171f0f",
+            "label": "symbol_406",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Symbol 406"
+            },
+            "x": 861,
+            "y": 604.3978635495336,
+            "originY": 0.5958928833997277
+        },
+        {
+            "type": "Sprite",
+            "id": "77b1d77d-eb28-47fe-983b-7c44f0d54ddc",
+            "label": "water0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "water",
+            "Animation.end": 10,
+            "texture": {
+                "key": "mine",
+                "frame": "water0001"
+            },
+            "x": 807,
+            "y": 936
+        },
+        {
+            "type": "Image",
+            "id": "fb2e0f51-d22d-4cf7-bd2e-3cc814e117b5",
+            "label": "symbol_287",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Symbol 287"
+            },
+            "x": 1302,
+            "y": 452
+        },
+        {
+            "type": "Image",
+            "id": "910793fb-fa6d-4104-98c6-9c499a49083c",
+            "label": "s_mbolo_444",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Símbolo 444"
+            },
+            "x": 663,
+            "y": 351
+        },
+        {
+            "type": "Image",
+            "id": "e7e8d3fd-1fa5-40c9-83d8-41caaa565783",
+            "label": "s_mbolo_44",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Símbolo 44"
+            },
+            "x": 194,
+            "y": 309
+        },
+        {
+            "type": "Image",
+            "id": "1e9d6b12-3eaa-472b-9d37-4b8b313c75cd",
+            "label": "s_mbolo_45",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Símbolo 45"
+            },
+            "x": 266,
+            "y": 484
+        },
+        {
+            "type": "Image",
+            "id": "bc83a124-1f1c-45f2-b28c-a9870fe3153b",
+            "label": "s_mbolo_46",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Símbolo 46"
+            },
+            "x": 237.13697113053811,
+            "y": 582.0991964307987,
+            "originX": 0.45546403263583807,
+            "originY": 0.6120986429614977
+        },
+        {
+            "type": "Image",
+            "id": "f54b04f7-871b-457a-85da-f99b93bd8c31",
+            "label": "symbol_207_copia",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Symbol 207 copia"
+            },
+            "x": 237,
+            "y": 744
+        },
+        {
+            "type": "Image",
+            "id": "b623deef-7026-4e88-8940-feeec5c7dee3",
+            "label": "s_mbolo_27",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "Símbolo 27"
+            },
+            "x": 119,
+            "y": 791
+        },
+        {
+            "type": "Image",
+            "id": "18428b46-da21-4955-b4ac-775acfce4e50",
+            "label": "overlay",
+            "components": [],
+            "texture": {
+                "key": "mine",
+                "frame": "overlay"
+            },
+            "x": 776.334337472626,
+            "y": 976.5356701397272,
+            "originX": 0.5260111021235716,
+            "originY": 0.8912806341410331
         }
     ],
     "plainObjects": [],
@@ -347,5 +287,19 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 3
-    }
+    },
+    "lists": [
+        {
+            "id": "678c7031-68d0-4df0-a23b-4641d6ebb49b",
+            "label": "sort",
+            "objectIds": [
+                "18428b46-da21-4955-b4ac-775acfce4e50",
+                "00ab3b96-5ad4-4827-96e0-74159f171f0f",
+                "77b1d77d-eb28-47fe-983b-7c44f0d54ddc",
+                "bc83a124-1f1c-45f2-b28c-a9870fe3153b",
+                "ff82cd35-9e9d-47a1-a131-8a0a574dad61",
+                "f54b04f7-871b-457a-85da-f99b93bd8c31"
+            ]
+        }
+    ]
 }

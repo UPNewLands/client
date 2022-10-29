@@ -6,8 +6,6 @@
 import RoomScene from "../RoomScene";
 import Button from "../../components/Button";
 import MoveTo from "../../components/MoveTo";
-import SimpleButton from "../../components/SimpleButton";
-import ShowHint from "../../components/ShowHint";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -16,7 +14,7 @@ export default class Coffee extends RoomScene {
     constructor() {
         super("Coffee");
 
-        /** @type {Phaser.GameObjects.Image[]} */
+        /** @type {Array<any>} */
         this.sort;
 
 
@@ -41,104 +39,140 @@ export default class Coffee extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // bg
-        this.add.image(764, 494, "coffee", "bg");
-
-        // symbol_211
-        this.add.image(982, 713, "coffee", "Symbol 211");
-
-        // symbol_213
-        const symbol_213 = this.add.image(1094.9745915396577, 726.2647588729293, "coffee", "Symbol 213");
-        symbol_213.setOrigin(0.4075623934384003, 0.20631125035839443);
-
-        // door2
-        const door2 = this.add.image(963, 245, "coffee", "door2");
-
-        // symbol_173
-        this.add.image(1098, 423, "coffee", "Symbol 173");
-
-        // symbol_147
-        const symbol_147 = this.add.image(707.3192683878211, 376.53808712469214, "coffee", "Symbol 147");
-        symbol_147.setOrigin(0.8107619795313605, 0.6008967466010908);
-
-        // symbol
-        const symbol = this.add.image(707.8609583625088, 428.40628436843554, "coffee", "Symbol 147");
-        symbol.setOrigin(0.7390476765625843, 0.46367717122360735);
-
-        // symbol_1
-        const symbol_1 = this.add.image(714.1560094209514, 516.8089552221917, "coffee", "Symbol 147");
-        symbol_1.setOrigin(0.8765000905860708, 0.5766815274168291);
-
-        // symbol_200
-        this.add.image(564, 360, "coffee", "Symbol 200");
-
-        // symbol_202
-        this.add.image(573, 463, "coffee", "Symbol 202");
-
-        // symbol_1940001
-        this.add.image(204, 440, "coffee", "Symbol 1940001");
-
-        // symbol_175
-        this.add.image(1127, 534, "coffee", "Symbol 175");
-
-        // s_mbolo_3
-        this.add.image(890, 866, "coffee", "Símbolo 3");
-
-        // s_mbolo_5
-        const s_mbolo_5 = this.add.image(735, 681, "coffee", "Símbolo 5");
-
-        // s_mbolo_4
-        const s_mbolo_4 = this.add.image(632.8223714715443, 960.3360185885441, "coffee", "Símbolo 4");
-        s_mbolo_4.setOrigin(0.632246088282344, 0.6918096892842265);
-
-        // symbol_217
-        this.add.image(412, 805, "coffee", "Symbol 217");
-
-        // symbol_196
-        this.add.image(58, 509, "coffee", "Symbol 196");
-
-        // symbol_198
-        this.add.image(156, 742, "coffee", "Symbol 198");
+        // symbol_105
+        this.add.image(762, 472, "coffee", "Symbol 105");
 
         // door
-        const door = this.add.image(1337, 436, "coffee", "door");
+        const door = this.add.image(1355, 439, "coffee", "door");
+        door.tintTopLeft = 10329501;
+        door.tintTopRight = 10329501;
+        door.tintBottomLeft = 10329501;
+        door.tintBottomRight = 10329501;
 
-        // symbol_223
-        const symbol_223 = this.add.image(1480, 748, "coffee", "Symbol 223");
+        // symbol_211
+        this.add.image(973, 710, "coffee", "Symbol 211");
 
-        // sprite_764
-        const sprite_764 = this.add.image(733, 1215.1535917971228, "coffee", "Sprite 764");
-        sprite_764.setOrigin(0.5, 1.0354965604745079);
+        // symbol_290
+        const symbol_290 = this.add.image(309, 595, "halloween", "Symbol 290");
+        symbol_290.flipX = true;
+
+        // symbol_130
+        const symbol_130 = this.add.image(426, 252, "coffee", "Symbol 130");
+        symbol_130.tintTopLeft = 10329501;
+        symbol_130.tintTopRight = 10329501;
+        symbol_130.tintBottomLeft = 10329501;
+        symbol_130.tintBottomRight = 10329501;
+
+        // symbol_1940001
+        this.add.image(194, 434, "coffee", "Symbol 1940001");
+
+        // symbol_196
+        this.add.image(76, 512, "coffee", "Symbol 196");
 
         // symbol_103
-        this.add.image(1474, 471, "coffee", "Symbol 103");
+        this.add.image(1485, 387, "coffee", "Symbol 103");
+
+        // door2
+        const door2 = this.add.image(944, 241, "coffee", "door2");
+        door2.tintTopLeft = 10329501;
+        door2.tintTopRight = 10329501;
+        door2.tintBottomLeft = 10329501;
+        door2.tintBottomRight = 10329501;
+
+        // symbol_173
+        const symbol_173 = this.add.image(1099, 426, "coffee", "Symbol 173");
+        symbol_173.tintTopLeft = 10329501;
+        symbol_173.tintTopRight = 10329501;
+        symbol_173.tintBottomLeft = 10329501;
+        symbol_173.tintBottomRight = 10329501;
+
+        // symbol_198
+        const symbol_198 = this.add.image(167, 733, "coffee", "Symbol 198");
+        symbol_198.tintTopLeft = 10329501;
+        symbol_198.tintTopRight = 10329501;
+
+        // symbol_217
+        this.add.image(431, 822, "coffee", "Symbol 217");
+
+        // s_mbolo_5
+        const s_mbolo_5 = this.add.image(715, 686, "coffee", "Símbolo 5");
+        s_mbolo_5.tintTopLeft = 10329501;
+        s_mbolo_5.tintTopRight = 10329501;
+        s_mbolo_5.tintBottomLeft = 10329501;
+        s_mbolo_5.tintBottomRight = 10329501;
+
+        // s_mbolo_3
+        this.add.image(891, 868, "coffee", "Símbolo 3");
+
+        // symbol_213
+        this.add.image(1106, 807, "coffee", "Symbol 213");
+
+        // symbol_448
+        this.add.image(1160, 927, "coffee", "Symbol 448");
+
+        // s_mbolo_16
+        this.add.image(981, 668, "coffee", "Símbolo 16");
+
+        // symbol_202
+        this.add.image(570, 466, "coffee", "Symbol 202");
+
+        // symbol_200
+        this.add.image(562, 365, "coffee", "Symbol 200");
+
+        // symbol_147
+        this.add.image(678, 358, "coffee", "Symbol 147");
+
+        // symbol
+        this.add.image(676, 428, "coffee", "Symbol 147");
+
+        // symbol_1
+        this.add.image(675, 498, "coffee", "Symbol 147");
+
+        // s_mbolo_15
+        this.add.image(945, 136, "coffee", "Símbolo 15");
+
+        // s_mbolo_10
+        this.add.image(1435, 81, "coffee", "Símbolo 10");
+
+        // symbol_223
+        const symbol_223 = this.add.image(1482, 649, "coffee", "Symbol 223");
+        symbol_223.tintTopLeft = 10329501;
+        symbol_223.tintTopRight = 10329501;
+        symbol_223.tintBottomLeft = 10329501;
+        symbol_223.tintBottomRight = 10329501;
+
+        // symbol_329
+        this.add.image(1154, 535, "halloween", "Symbol 329");
+
+        // symbol_207_copia
+        this.add.image(438, 344, "halloween", "Symbol 207 copia");
+
+        // sprite_763
+        this.add.image(749, 531, "coffee", "Sprite 763");
+
+        // s_mbolo_4
+        this.add.image(605, 914, "coffee", "Símbolo 4");
+
+        // symbol_102
+        this.add.image(627, 889, "coffee", "Symbol 102");
 
         // lists
-        const sort = [s_mbolo_5, symbol_213, sprite_764, s_mbolo_4, symbol, symbol_147, symbol_1];
-
-        // door2 (components)
-        const door2Button = new Button(door2);
-        door2Button.spriteName = "door2";
-        door2Button.activeFrame = false;
-        const door2MoveTo = new MoveTo(door2);
-        door2MoveTo.x = 963;
-        door2MoveTo.y = 352;
+        const sort = [];
 
         // door (components)
         const doorButton = new Button(door);
         doorButton.spriteName = "door";
         doorButton.activeFrame = false;
         const doorMoveTo = new MoveTo(door);
-        doorMoveTo.x = 1327;
-        doorMoveTo.y = 580;
+        doorMoveTo.x = 1403;
+        doorMoveTo.y = 616;
 
-        // symbol_223 (components)
-        new SimpleButton(symbol_223);
-        const symbol_223ShowHint = new ShowHint(symbol_223);
-        symbol_223ShowHint.text = "Play Bean Counters";
-        const symbol_223MoveTo = new MoveTo(symbol_223);
-        symbol_223MoveTo.x = 1480;
-        symbol_223MoveTo.y = 748;
+        // door2 (components)
+        const door2Button = new Button(door2);
+        door2Button.spriteName = "door2";
+        const door2MoveTo = new MoveTo(door2);
+        door2MoveTo.x = 944;
+        door2MoveTo.y = 241;
 
         this.sort = sort;
 

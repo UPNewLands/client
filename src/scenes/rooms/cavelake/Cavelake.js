@@ -35,11 +35,11 @@ export default class Cavelake extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // symbol_11
-        this.add.image(743, 190, "cavelake", "Symbol 11");
-
         // s_mbolo_35
         this.add.image(674, 728, "cavelake", "Símbolo 35");
+
+        // halloween1
+        this.add.image(729, 169, "cavelake", "halloween1");
 
         // s_mbolo_37
         this.add.image(719, 325, "cavelake", "Símbolo 37");
@@ -112,12 +112,26 @@ export default class Cavelake extends RoomScene {
         // s_mbolo_39
         this.add.image(1369, 502, "cavelake", "Símbolo 39");
 
-        // symbol_149
-        const symbol_149 = this.add.image(762.9915433732508, 1010.2642734728257, "cavelake", "Symbol_149");
-        symbol_149.setOrigin(0.5039548141077563, 1.0418547541297565);
+        // rectangle_1
+        const rectangle_1 = this.add.rectangle(777, 484, 128, 128);
+        rectangle_1.scaleX = 13.061895678386591;
+        rectangle_1.scaleY = 8.093393731727916;
+        rectangle_1.alpha = 0.4;
+        rectangle_1.isFilled = true;
+        rectangle_1.fillColor = 51;
+
+        // symbol_207_copia
+        this.add.image(181, 414, "halloween", "Symbol 207 copia");
+
+        // symbol_290
+        this.add.image(1364, 311, "halloween", "Symbol 290");
+
+        // halloween2
+        const halloween2 = this.add.image(780.8240373514141, 894.0973944527935, "cavelake", "halloween2");
+        halloween2.setOrigin(0.5071445791098442, 0.9200596615933405);
 
         // lists
-        const sort = [symbol_149, s_mbolo_49, symbol_13, water20001, water];
+        const sort = [s_mbolo_49, symbol_13, water20001, water, halloween2];
 
         // water10001 (components)
         const water10001Animation = new Animation(water10001);

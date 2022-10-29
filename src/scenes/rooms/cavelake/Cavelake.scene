@@ -19,18 +19,6 @@
     "displayList": [
         {
             "type": "Image",
-            "id": "194db8e6-1574-459d-832f-ae6f152386b1",
-            "label": "symbol_11",
-            "components": [],
-            "texture": {
-                "key": "cavelake",
-                "frame": "Symbol 11"
-            },
-            "x": 743,
-            "y": 190
-        },
-        {
-            "type": "Image",
             "id": "b949f54f-e16b-4e1a-98d6-9727f58ecc82",
             "label": "s_mbolo_35",
             "components": [],
@@ -40,6 +28,18 @@
             },
             "x": 674,
             "y": 728
+        },
+        {
+            "type": "Image",
+            "id": "6d70b210-1232-4850-bb0f-4472a8bdd325",
+            "label": "halloween1",
+            "components": [],
+            "texture": {
+                "key": "cavelake",
+                "frame": "halloween1"
+            },
+            "x": 729,
+            "y": 169
         },
         {
             "type": "Image",
@@ -317,18 +317,57 @@
             "y": 502
         },
         {
+            "type": "Rectangle",
+            "id": "debe6d39-2032-45ba-a0a7-a5667f784c80",
+            "label": "rectangle_1",
+            "components": [],
+            "x": 777,
+            "y": 484,
+            "scaleX": 13.061895678386591,
+            "scaleY": 8.093393731727916,
+            "alpha": 0.4,
+            "isFilled": true,
+            "fillColor": "#000033",
+            "width": 128,
+            "height": 128
+        },
+        {
             "type": "Image",
-            "id": "cb403dad-4b43-4367-abf2-ee4b802b7744",
-            "label": "symbol_149",
+            "id": "8520e6cd-f199-430a-be27-312ce5afe005",
+            "label": "symbol_207_copia",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 207 copia"
+            },
+            "x": 181,
+            "y": 414
+        },
+        {
+            "type": "Image",
+            "id": "9576ebee-140c-48a9-ac16-f556c528738b",
+            "label": "symbol_290",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 290"
+            },
+            "x": 1364,
+            "y": 311
+        },
+        {
+            "type": "Image",
+            "id": "6b2b2807-cf6d-4e74-a835-4164915d7424",
+            "label": "halloween2",
             "components": [],
             "texture": {
                 "key": "cavelake",
-                "frame": "Symbol_149"
+                "frame": "halloween2"
             },
-            "x": 762.9915433732508,
-            "y": 1010.2642734728257,
-            "originX": 0.5039548141077563,
-            "originY": 1.0418547541297565
+            "x": 780.8240373514141,
+            "y": 894.0973944527935,
+            "originX": 0.5071445791098442,
+            "originY": 0.9200596615933405
         }
     ],
     "plainObjects": [],
@@ -343,11 +382,11 @@
             "id": "7bba70c1-11a5-44b3-8eb8-a5fb2f910787",
             "label": "sort",
             "objectIds": [
-                "cb403dad-4b43-4367-abf2-ee4b802b7744",
                 "46a44b51-e92f-44ca-8389-c1d3a1fcb55e",
                 "cf3d4796-d559-4525-9bbd-a5a93615c62a",
                 "24f43599-a501-427a-89fe-371dace3f681",
-                "5fa1fbad-7a94-4e06-8512-89ea7d583c63"
+                "5fa1fbad-7a94-4e06-8512-89ea7d583c63",
+                "6b2b2807-cf6d-4e74-a835-4164915d7424"
             ]
         }
     ]

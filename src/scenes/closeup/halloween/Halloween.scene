@@ -25,7 +25,9 @@
                     "type": "Image",
                     "id": "3fd33cf6-e987-433e-9744-978c39e9c43a",
                     "label": "s_mbolo_3",
-                    "components": [],
+                    "components": [
+                        "Interactive"
+                    ],
                     "texture": {
                         "key": "newinterface",
                         "frame": "Símbolo 3"
@@ -40,7 +42,6 @@
                     "components": [],
                     "x": -542,
                     "y": -462,
-                    "visible": false,
                     "list": [
                         {
                             "type": "Image",
@@ -295,7 +296,9 @@
                     "type": "Image",
                     "id": "0f74763f-d0bc-459f-bd54-2dc7f8212efc",
                     "label": "symbol_519",
-                    "components": [],
+                    "components": [
+                        "Interactive"
+                    ],
                     "texture": {
                         "key": "newinterface",
                         "frame": "Symbol 519"

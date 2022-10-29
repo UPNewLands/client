@@ -40,7 +40,25 @@
                 "frame": "bookshelf"
             },
             "x": 419,
-            "y": 333
+            "y": 333,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
+        },
+        {
+            "type": "Image",
+            "id": "dc95792b-ce2a-406a-8a29-8f650850251f",
+            "label": "s_mbolo_4444",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Símbolo 4444"
+            },
+            "x": 770.8495266986909,
+            "y": 383.796213589527,
+            "originX": 0.5085394550345852,
+            "originY": 0.6376359223221382
         },
         {
             "type": "Sprite",
@@ -53,7 +71,8 @@
                 "frame": "bottomDeskDivider"
             },
             "x": 877,
-            "y": 633
+            "y": 633,
+            "tintTopLeft": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -66,7 +85,11 @@
                 "frame": "bottomDeskLeftChair"
             },
             "x": 794,
-            "y": 756
+            "y": 756,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -81,7 +104,11 @@
             "x": 890.7078354253503,
             "y": 786.2114846592042,
             "originX": 0.4892319618779188,
-            "originY": 0.6530934115617574
+            "originY": 0.6530934115617574,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -94,7 +121,11 @@
                 "frame": "bottomDeskRight"
             },
             "x": 999,
-            "y": 784
+            "y": 784,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -107,7 +138,23 @@
                 "frame": "sofaBack"
             },
             "x": 1396,
-            "y": 504
+            "y": 504,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
+        },
+        {
+            "type": "Image",
+            "id": "8f4c4f91-2c15-48eb-b934-ad3beaa671d5",
+            "label": "symbol_389_copia",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 389 copia"
+            },
+            "x": 1372,
+            "y": 482
         },
         {
             "type": "Sprite",
@@ -120,7 +167,11 @@
                 "frame": "coffeeTable"
             },
             "x": 1440,
-            "y": 628
+            "y": 628,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -133,7 +184,11 @@
                 "frame": "sofaFront"
             },
             "x": 1367,
-            "y": 826
+            "y": 826,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -146,35 +201,11 @@
                 "frame": "topDeskLeftStorage"
             },
             "x": 318,
-            "y": 443
-        },
-        {
-            "type": "Sprite",
-            "id": "c7460b55-e672-4969-8400-573b7c893f40",
-            "label": "noticeboard",
-            "scope": "CLASS",
-            "components": [],
-            "texture": {
-                "key": "book",
-                "frame": "noticeboard"
-            },
-            "x": 290.27413229285713,
-            "y": 664.3737525085712,
-            "originX": 0.532044635651353,
-            "originY": 0.707832351224489
-        },
-        {
-            "type": "Sprite",
-            "id": "1e6f4303-7279-4410-bd19-7cc290302b74",
-            "label": "hatStand",
-            "scope": "CLASS",
-            "components": [],
-            "texture": {
-                "key": "book",
-                "frame": "hatStand"
-            },
-            "x": 797,
-            "y": 312
+            "y": 443,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -187,7 +218,11 @@
                 "frame": "topDeskLeftChair"
             },
             "x": 638,
-            "y": 311
+            "y": 311,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -200,7 +235,11 @@
                 "frame": "topDeskLeft"
             },
             "x": 611,
-            "y": 409
+            "y": 409,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -213,7 +252,11 @@
                 "frame": "topDeskRightStorage"
             },
             "x": 991,
-            "y": 337
+            "y": 337,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -226,7 +269,11 @@
                 "frame": "topDeskDivider"
             },
             "x": 835,
-            "y": 261
+            "y": 261,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -239,7 +286,11 @@
                 "frame": "topDeskRightChair"
             },
             "x": 1054,
-            "y": 409
+            "y": 409,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -252,7 +303,31 @@
                 "frame": "topDeskRight"
             },
             "x": 1081,
-            "y": 469
+            "y": 469,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
+        },
+        {
+            "type": "Image",
+            "id": "54554c3b-a1ef-4a9d-9b21-c17b54c054fa",
+            "label": "candy_3",
+            "components": [
+                "SimpleButton"
+            ],
+            "texture": {
+                "key": "dialogue",
+                "frame": "candy_3"
+            },
+            "x": 1071,
+            "y": 471,
+            "scaleX": 0.2,
+            "scaleY": 0.2,
+            "tintTopLeft": "#9d9d9d",
+            "tintTopRight": "#9d9d9d",
+            "tintBottomLeft": "#9d9d9d",
+            "tintBottomRight": "#9d9d9d"
         },
         {
             "type": "Sprite",
@@ -286,7 +361,11 @@
             "x": 300.38824614285704,
             "y": 920.3455175238088,
             "originX": 0.5063615656940461,
-            "originY": 0.922607540616245
+            "originY": 0.922607540616245,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -305,58 +384,6 @@
         },
         {
             "type": "Sprite",
-            "id": "8b73100e-43f7-48dd-b2b7-45dd1492ba4c",
-            "label": "mancalaTable1",
-            "scope": "CLASS",
-            "components": [],
-            "texture": {
-                "key": "book",
-                "frame": "mancalaTable0001"
-            },
-            "x": 1241,
-            "y": 584
-        },
-        {
-            "type": "Sprite",
-            "id": "1a64c4d0-1dc8-435d-95ed-aea0ad6dfbc5",
-            "label": "mancalaTable2",
-            "scope": "CLASS",
-            "components": [],
-            "texture": {
-                "key": "book",
-                "frame": "mancalaTable0002"
-            },
-            "x": 1123,
-            "y": 666
-        },
-        {
-            "type": "Sprite",
-            "id": "8670f17f-37df-496f-b135-621525e64eb7",
-            "label": "mancalaTable3",
-            "scope": "CLASS",
-            "components": [],
-            "texture": {
-                "key": "book",
-                "frame": "mancalaTable0003"
-            },
-            "x": 1270,
-            "y": 708
-        },
-        {
-            "type": "Sprite",
-            "id": "90deffe5-7996-436c-8767-a55fcd4931a6",
-            "label": "mancalaTable4",
-            "scope": "CLASS",
-            "components": [],
-            "texture": {
-                "key": "book",
-                "frame": "mancalaTable0001"
-            },
-            "x": 1169,
-            "y": 810
-        },
-        {
-            "type": "Sprite",
             "id": "2385cf65-bfb4-45db-8e46-fc8e9ca8e1e7",
             "label": "stool1",
             "scope": "CLASS",
@@ -367,7 +394,11 @@
             },
             "x": 481,
             "y": 708.5106262196813,
-            "originY": 0.17695885633757666
+            "originY": 0.17695885633757666,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -382,7 +413,11 @@
             "x": 597.7078354253503,
             "y": 713.4488730816558,
             "originX": 0.48343378750449045,
-            "originY": 0.20059601319092496
+            "originY": 0.20059601319092496,
+            "tintTopLeft": "#9f9f9f",
+            "tintTopRight": "#9f9f9f",
+            "tintBottomLeft": "#9f9f9f",
+            "tintBottomRight": "#9f9f9f"
         },
         {
             "type": "Sprite",
@@ -397,6 +432,67 @@
             "x": 748,
             "y": 991,
             "originY": 1
+        },
+        {
+            "type": "Image",
+            "id": "856ad8e8-28d6-4351-a965-be12509d46d9",
+            "label": "symbol_80",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 80"
+            },
+            "x": 1281,
+            "y": 870
+        },
+        {
+            "type": "Image",
+            "id": "e36553a6-ad4e-44fe-8841-7c6aec81855e",
+            "label": "symbol",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 80"
+            },
+            "x": 219,
+            "y": 872
+        },
+        {
+            "type": "Image",
+            "id": "2f197196-af34-457c-b93f-e73cc2fa6c04",
+            "label": "lOL",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "LOL"
+            },
+            "x": 110,
+            "y": 339
+        },
+        {
+            "type": "Image",
+            "id": "d17754ba-e0b1-4b24-b9d1-b8e087c9c275",
+            "label": "s_mbolo_6",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Símbolo 6"
+            },
+            "x": 34,
+            "y": 483,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "5e8496bf-15c7-4356-8949-df55ee131858",
+            "label": "s_mbolo_10",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Símbolo 10"
+            },
+            "x": 1276,
+            "y": 196
         }
     ],
     "plainObjects": [],
@@ -413,18 +509,12 @@
             "objectIds": [
                 "22ae5fd3-c75c-4f3f-8900-3e81793fa695",
                 "2385cf65-bfb4-45db-8e46-fc8e9ca8e1e7",
-                "90deffe5-7996-436c-8767-a55fcd4931a6",
-                "8670f17f-37df-496f-b135-621525e64eb7",
-                "1a64c4d0-1dc8-435d-95ed-aea0ad6dfbc5",
-                "8b73100e-43f7-48dd-b2b7-45dd1492ba4c",
                 "dda57bd5-6160-4b31-ba9f-090cfb685237",
                 "66e2b0f1-add7-47da-8e11-bd6fddb3c14c",
                 "12625016-650e-468a-8c42-963b51f15224",
                 "e2611479-043d-466a-b6ca-1c4048dfe9b6",
                 "a1b78521-da38-40ad-84d9-f1838f6582cf",
                 "ea0ee424-1c19-44ea-bc18-014a7e5682bc",
-                "1e6f4303-7279-4410-bd19-7cc290302b74",
-                "c7460b55-e672-4969-8400-573b7c893f40",
                 "268bb2a4-ac75-4be0-a561-52b7afd43a3f",
                 "5cd6889a-9644-4be8-98cb-bdce85b2f958",
                 "13f44798-7ade-4841-ae06-4a7b9b809d76",
@@ -435,7 +525,8 @@
                 "0aa6da28-bb68-45c4-ac5b-174e6054a2d5",
                 "c53b198f-e4a1-444f-94fa-07525c1af53f",
                 "d2dc239a-0fff-40bf-b492-25a154a22378",
-                "b17d926e-34dd-4c9a-82f8-e831cc500350"
+                "b17d926e-34dd-4c9a-82f8-e831cc500350",
+                "dc95792b-ce2a-406a-8a29-8f650850251f"
             ]
         }
     ]

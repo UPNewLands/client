@@ -43,15 +43,27 @@
         },
         {
             "type": "Image",
-            "id": "2a607ef2-c18a-4cdb-9337-77c7af4431e7",
-            "label": "sky",
+            "id": "621df924-370c-4981-a448-f1d6f538a71e",
+            "label": "s_mbolo_53",
             "components": [],
             "texture": {
                 "key": "pirate",
-                "frame": "sky"
+                "frame": "Símbolo 53"
             },
-            "x": 722,
-            "y": 138
+            "x": 1091,
+            "y": 276
+        },
+        {
+            "type": "Image",
+            "id": "9a8cb1cc-ded2-4b7b-bed4-2bb456b19690",
+            "label": "clouds",
+            "components": [],
+            "texture": {
+                "key": "pirate",
+                "frame": "clouds"
+            },
+            "x": 957,
+            "y": 185
         },
         {
             "type": "Image",
@@ -63,7 +75,27 @@
                 "frame": "water"
             },
             "x": 764,
-            "y": 638
+            "y": 638,
+            "tintTopLeft": "#43de5d",
+            "tintTopRight": "#43de5d",
+            "tintBottomLeft": "#43de5d",
+            "tintBottomRight": "#43de5d"
+        },
+        {
+            "type": "Sprite",
+            "id": "aec5fe56-b821-4f6c-9407-d963a1f251a4",
+            "label": "puffle0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "puffle",
+            "Animation.end": 76,
+            "texture": {
+                "key": "pirate",
+                "frame": "puffle0001"
+            },
+            "x": 953,
+            "y": 253
         },
         {
             "type": "Image",
@@ -75,7 +107,8 @@
                 "frame": "sand"
             },
             "x": 645,
-            "y": 558
+            "y": 558,
+            "tintBottomRight": "#a4a4a4"
         },
         {
             "type": "Image",
@@ -87,7 +120,26 @@
                 "frame": "Símbolo 8"
             },
             "x": 714,
-            "y": 617
+            "y": 617,
+            "tintTopRight": "#878282",
+            "tintBottomLeft": "#878282",
+            "tintBottomRight": "#878282"
+        },
+        {
+            "type": "Image",
+            "id": "cb5d1615-69f7-4543-8b23-4b6ebecc02e4",
+            "label": "candy_4",
+            "components": [
+                "SimpleButton"
+            ],
+            "texture": {
+                "key": "dialogue",
+                "frame": "candy_4"
+            },
+            "x": 1157,
+            "y": 497,
+            "scaleX": 0.2,
+            "scaleY": 0.2
         },
         {
             "type": "Image",
@@ -111,7 +163,9 @@
                 "frame": "Símbolo 9"
             },
             "x": 729,
-            "y": 322
+            "y": 322,
+            "tintBottomLeft": "#878282",
+            "tintBottomRight": "#878282"
         },
         {
             "type": "Image",
@@ -135,7 +189,11 @@
                 "frame": "Symbol 130"
             },
             "x": 552,
-            "y": 164
+            "y": 164,
+            "tintTopLeft": "#878282",
+            "tintTopRight": "#878282",
+            "tintBottomLeft": "#878282",
+            "tintBottomRight": "#878282"
         },
         {
             "type": "Image",
@@ -159,7 +217,8 @@
                 "frame": "ship"
             },
             "x": 443,
-            "y": 312
+            "y": 312,
+            "tintTopLeft": "#736c6c"
         },
         {
             "type": "Image",
@@ -195,7 +254,8 @@
                 "frame": "Symbol 23"
             },
             "x": 1134,
-            "y": 487
+            "y": 487,
+            "tintTopLeft": "#878282"
         },
         {
             "type": "Image",
@@ -207,7 +267,11 @@
                 "frame": "Symbol 22"
             },
             "x": 1131,
-            "y": 577
+            "y": 577,
+            "tintTopLeft": "#b3b3b3",
+            "tintTopRight": "#b3b3b3",
+            "tintBottomLeft": "#b3b3b3",
+            "tintBottomRight": "#b3b3b3"
         },
         {
             "type": "Image",
@@ -243,7 +307,9 @@
                 "frame": "Symbol 19"
             },
             "x": 814,
-            "y": 736
+            "y": 736,
+            "tintBottomLeft": "#878282",
+            "tintBottomRight": "#878282"
         },
         {
             "type": "Image",
@@ -516,15 +582,66 @@
         },
         {
             "type": "Image",
-            "id": "e072f2b9-241c-49e2-9c83-bdc46126eb61",
-            "label": "fore",
+            "id": "f88caa52-24bf-446b-b4f9-f7cf75b019f4",
+            "label": "symbol_56",
             "components": [],
             "texture": {
                 "key": "pirate",
-                "frame": "fore"
+                "frame": "Symbol 56"
             },
-            "x": 649,
-            "y": 682
+            "x": 760,
+            "y": 463
+        },
+        {
+            "type": "Rectangle",
+            "id": "1c89923a-dc0c-49d4-8e66-926efbf65e6c",
+            "label": "rectangle_1",
+            "components": [],
+            "x": 766,
+            "y": 477,
+            "scaleX": 13.061895678386591,
+            "scaleY": 8.093393731727916,
+            "alpha": 0.4,
+            "isFilled": true,
+            "fillColor": "#000033",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "f112a413-0d3c-4636-b24f-5da298f809bf",
+            "label": "symbol_329",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 329"
+            },
+            "x": 1113,
+            "y": 499
+        },
+        {
+            "type": "Image",
+            "id": "5b4678d9-80b8-4901-a55c-a9238da77b74",
+            "label": "symbol_207_copia",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 207 copia"
+            },
+            "x": 141,
+            "y": 425
+        },
+        {
+            "type": "Image",
+            "id": "520a2c87-8258-4caa-b77f-dea095d06b04",
+            "label": "symbol_389_copia",
+            "components": [],
+            "texture": {
+                "key": "halloween",
+                "frame": "Symbol 389 copia"
+            },
+            "x": 1401,
+            "y": 715
         }
     ],
     "plainObjects": [],

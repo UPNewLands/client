@@ -34,35 +34,61 @@ export default class Pirate extends RoomScene {
         // sea
         this.add.image(760, 615, "pirate", "sea");
 
-        // sky
-        this.add.image(722, 138, "pirate", "sky");
+        // s_mbolo_53
+        this.add.image(1091, 276, "pirate", "Símbolo 53");
+
+        // clouds
+        this.add.image(957, 185, "pirate", "clouds");
 
         // water
-        this.add.image(764, 638, "pirate", "water");
+        const water = this.add.image(764, 638, "pirate", "water");
+        water.tintTopLeft = 4447837;
+        water.tintTopRight = 4447837;
+        water.tintBottomLeft = 4447837;
+        water.tintBottomRight = 4447837;
+
+        // puffle0001
+        const puffle0001 = this.add.sprite(953, 253, "pirate", "puffle0001");
 
         // sand
-        this.add.image(645, 558, "pirate", "sand");
+        const sand = this.add.image(645, 558, "pirate", "sand");
+        sand.tintBottomRight = 10790052;
 
         // s_mbolo_8
-        this.add.image(714, 617, "pirate", "Símbolo 8");
+        const s_mbolo_8 = this.add.image(714, 617, "pirate", "Símbolo 8");
+        s_mbolo_8.tintTopRight = 8880770;
+        s_mbolo_8.tintBottomLeft = 8880770;
+        s_mbolo_8.tintBottomRight = 8880770;
+
+        // candy_4
+        const candy_4 = this.add.image(1157, 497, "dialogue", "candy_4");
+        candy_4.scaleX = 0.2;
+        candy_4.scaleY = 0.2;
 
         // symbol_136
         this.add.image(793, 297, "pirate", "Symbol 136");
 
         // s_mbolo_9
-        this.add.image(729, 322, "pirate", "Símbolo 9");
+        const s_mbolo_9 = this.add.image(729, 322, "pirate", "Símbolo 9");
+        s_mbolo_9.tintBottomLeft = 8880770;
+        s_mbolo_9.tintBottomRight = 8880770;
 
         // symbol_111
         this.add.image(558, 216, "pirate", "Symbol 111");
 
         // symbol_130
-        this.add.image(552, 164, "pirate", "Symbol 130");
+        const symbol_130 = this.add.image(552, 164, "pirate", "Symbol 130");
+        symbol_130.tintTopLeft = 8880770;
+        symbol_130.tintTopRight = 8880770;
+        symbol_130.tintBottomLeft = 8880770;
+        symbol_130.tintBottomRight = 8880770;
 
         // symbol_158
         this.add.image(517, 221, "pirate", "Symbol 158");
 
         // ship
-        this.add.image(443, 312, "pirate", "ship");
+        const ship = this.add.image(443, 312, "pirate", "ship");
+        ship.tintTopLeft = 7564396;
 
         // symbol_32
         this.add.image(259, 360, "pirate", "Symbol 32");
@@ -71,10 +97,15 @@ export default class Pirate extends RoomScene {
         this.add.image(961, 441, "pirate", "Symbol 20");
 
         // symbol_23
-        this.add.image(1134, 487, "pirate", "Symbol 23");
+        const symbol_23 = this.add.image(1134, 487, "pirate", "Symbol 23");
+        symbol_23.tintTopLeft = 8880770;
 
         // symbol_22
-        this.add.image(1131, 577, "pirate", "Symbol 22");
+        const symbol_22 = this.add.image(1131, 577, "pirate", "Symbol 22");
+        symbol_22.tintTopLeft = 11776947;
+        symbol_22.tintTopRight = 11776947;
+        symbol_22.tintBottomLeft = 11776947;
+        symbol_22.tintBottomRight = 11776947;
 
         // symbol_166
         this.add.image(679, 653, "pirate", "Symbol 166");
@@ -83,7 +114,9 @@ export default class Pirate extends RoomScene {
         this.add.image(698, 671, "pirate", "Symbol 21");
 
         // symbol_19
-        this.add.image(814, 736, "pirate", "Symbol 19");
+        const symbol_19 = this.add.image(814, 736, "pirate", "Symbol 19");
+        symbol_19.tintBottomLeft = 8880770;
+        symbol_19.tintBottomRight = 8880770;
 
         // sprite_308
         this.add.image(536, 643, "pirate", "Sprite 308");
@@ -151,8 +184,33 @@ export default class Pirate extends RoomScene {
         // flag0001
         const flag0001 = this.add.sprite(1439, 806, "pirate", "flag0001");
 
-        // fore
-        this.add.image(649, 682, "pirate", "fore");
+        // symbol_56
+        this.add.image(760, 463, "pirate", "Symbol 56");
+
+        // rectangle_1
+        const rectangle_1 = this.add.rectangle(766, 477, 128, 128);
+        rectangle_1.scaleX = 13.061895678386591;
+        rectangle_1.scaleY = 8.093393731727916;
+        rectangle_1.alpha = 0.4;
+        rectangle_1.isFilled = true;
+        rectangle_1.fillColor = 51;
+
+        // symbol_329
+        this.add.image(1113, 499, "halloween", "Symbol 329");
+
+        // symbol_207_copia
+        this.add.image(141, 425, "halloween", "Symbol 207 copia");
+
+        // symbol_389_copia
+        this.add.image(1401, 715, "halloween", "Symbol 389 copia");
+
+        // puffle0001 (components)
+        const puffle0001Animation = new Animation(puffle0001);
+        puffle0001Animation.key = "puffle";
+        puffle0001Animation.end = 76;
+
+        // candy_4 (components)
+        new SimpleButton(candy_4);
 
         // wave10001 (components)
         const wave10001Animation = new Animation(wave10001);

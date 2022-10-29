@@ -1248,6 +1248,20 @@
             "y": 452,
             "visible": false,
             "nestedPrefabs": []
+        },
+        {
+            "prefabId": "9dda56e8-c64f-45af-bf77-1fb342fe1dc3",
+            "id": "e4fff204-6664-4c0a-b333-e657a2973eee",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "gary",
+            "scope": "CLASS",
+            "components": [],
+            "x": 264,
+            "y": 683,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [],
