@@ -16,6 +16,7 @@ export default class Gary extends BaseContainer {
 
         // dialogue_1
         const dialogue_1 = scene.add.container(-262, -677);
+        // dialogue_1.visible = false;
         this.add(dialogue_1);
 
         // rectangle_1
@@ -152,10 +153,8 @@ export default class Gary extends BaseContainer {
         // ok (components)
         const okButton = new Button(ok);
         okButton.spriteName = "ok";
-        // okButton.callback  = () => { this.visible = false, this.insertSeen(1); } 
-        okButton.callback = () => {
-        this.visible = false; 
-        };
+        okButton.callback = () => this.finishDialog();;
+
         // ok_1 (components)
         const ok_1Button = new Button(ok_1);
         ok_1Button.spriteName = "ok";
@@ -182,6 +181,19 @@ export default class Gary extends BaseContainer {
         this.dialogue_1.visible = false;
         this.dialogue_2.visible = true; 
     }
+
+    finishDialog(){
+        this.visible = false; 
+        this.network.send("addSeen", {}) ;
+    }
+
+    create() {
+        super.create();
+        if (this.world.client.penguin.intro == 1) {
+            this.dialogue_1.visible = false;
+        }
+    }
+
     /* END-USER-CODE */
 }
 

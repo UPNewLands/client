@@ -168,7 +168,7 @@
                                 "Button"
                             ],
                             "Button.spriteName": "ok",
-                            "Button.callback": "() => this.visible = false, this.insertSeen(1);",
+                            "Button.callback": "() => this.finishDialog();",
                             "texture": {
                                 "key": "dialogue",
                                 "frame": "ok"
