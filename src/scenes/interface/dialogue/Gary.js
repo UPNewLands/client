@@ -187,12 +187,7 @@ export default class Gary extends BaseContainer {
         this.network.send("addSeen", {}) ;
     }
 
-    create() {
-        super.create();
-        if (this.world.client.penguin.intro == 1) {
-            this.dialogue_1.visible = false;
-        }
-    }
+ 
 
     /* END-USER-CODE */
 }

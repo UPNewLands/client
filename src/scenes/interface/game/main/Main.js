@@ -890,6 +890,10 @@ export default class Main extends BaseScene {
         window.show = show.bind(this)
 
         this.network.send("puffle_timeout");
+        
+        if (this.world.client.penguin.intro == 1) {
+            this.gary.visible = false;
+        }
 
         // init partycontroller
 
