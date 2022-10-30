@@ -23,20 +23,6 @@
             "list": [
                 {
                     "type": "Image",
-                    "id": "982aa769-0bee-4ba5-8f9b-5bbe37b39952",
-                    "label": "s_mbolo_27",
-                    "components": [],
-                    "texture": {
-                        "key": "newestMap",
-                        "frame": "Símbolo 27"
-                    },
-                    "x": 53,
-                    "y": 362,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5
-                },
-                {
-                    "type": "Image",
                     "id": "3b02b716-3b32-4703-89fd-ec27acfcacf2",
                     "label": "bg",
                     "components": [
@@ -71,15 +57,41 @@
                 },
                 {
                     "type": "Image",
-                    "id": "f2310966-9988-44c7-969f-e4879046ee82",
-                    "label": "sky",
+                    "id": "6a068bdc-28a0-4cdf-9c45-948af35ad421",
+                    "label": "night",
                     "components": [],
                     "texture": {
                         "key": "newestMap",
-                        "frame": "sky"
+                        "frame": "night"
                     },
-                    "x": 26,
-                    "y": -272,
+                    "x": -16,
+                    "y": -336
+                },
+                {
+                    "type": "Image",
+                    "id": "5f312bca-163b-45c4-8235-2d392493f48e",
+                    "label": "s_mbolo_355",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 355"
+                    },
+                    "x": -128,
+                    "y": 222,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "abf32146-2de2-4093-93fc-90da98a85583",
+                    "label": "s_mbolo_7",
+                    "components": [],
+                    "texture": {
+                        "key": "newestMap",
+                        "frame": "Símbolo 7"
+                    },
+                    "x": -8,
+                    "y": 162,
                     "scaleX": 0.5,
                     "scaleY": 0.5
                 },
@@ -469,34 +481,6 @@
                 },
                 {
                     "type": "Image",
-                    "id": "1bf95d62-f4ce-45d5-b8db-180181759e78",
-                    "label": "sea",
-                    "components": [],
-                    "texture": {
-                        "key": "newestMap",
-                        "frame": "sea"
-                    },
-                    "x": 9,
-                    "y": 216,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5
-                },
-                {
-                    "type": "Image",
-                    "id": "4bcf2075-c731-4dab-a714-22ceac66a345",
-                    "label": "waves",
-                    "components": [],
-                    "texture": {
-                        "key": "newestMap",
-                        "frame": "waves"
-                    },
-                    "x": 1,
-                    "y": 167,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5
-                },
-                {
-                    "type": "Image",
                     "id": "8696f758-2ddf-46be-9eee-f7d8ff4e6049",
                     "label": "s_mbolo_42",
                     "components": [],
@@ -578,25 +562,6 @@
                     "y": -205,
                     "scaleX": 0.5,
                     "scaleY": 0.5
-                },
-                {
-                    "type": "Image",
-                    "id": "662f1509-3d75-422b-a126-3a77fee137fa",
-                    "label": "shadows",
-                    "components": [],
-                    "texture": {
-                        "key": "newestMap",
-                        "frame": "shadows"
-                    },
-                    "x": -7,
-                    "y": 14,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "alpha": 0.2,
-                    "alphaTopLeft": 0.2,
-                    "alphaTopRight": 0.2,
-                    "alphaBottomLeft": 0.2,
-                    "alphaBottomRight": 0.2
                 },
                 {
                     "type": "Image",
@@ -1279,7 +1244,11 @@
                     "x": -5,
                     "y": 9,
                     "scaleX": 0.5,
-                    "scaleY": 0.5
+                    "scaleY": 0.5,
+                    "tintTopLeft": "#fff",
+                    "tintTopRight": "#fff",
+                    "tintBottomLeft": "#316c36",
+                    "tintBottomRight": "#316c36"
                 },
                 {
                     "type": "Rectangle",

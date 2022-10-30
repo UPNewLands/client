@@ -38,186 +38,147 @@ export default class Town extends RoomScene {
     /** @returns {void} */
     _create() {
 
-        // sky
-        this.add.image(699, 31, "town", "sky");
+        // bg_png
+        this.add.image(719, 492, "town", "bg.png");
 
-        // s_mbolo_22
-        this.add.image(1220, 141, "town", "Símbolo 22");
+        // s_mbolo_10
+        this.add.image(49, 625, "town", "Símbolo 10");
 
-        // s_mbolo_6
-        this.add.image(1315, 337, "town", "Símbolo 6");
-
-        // s_mbolo_30
-        this.add.image(34, 156, "town", "Símbolo 30");
-
-        // s_mbolo_47
-        this.add.image(89, 957, "town", "Símbolo 47");
-
-        // s_mbolo_24
-        this.add.image(208, 951, "town", "Símbolo 24");
-
-        // s_mbolo_25
-        this.add.image(760, 595, "town", "Símbolo 25");
-
-        // s_mbolo_31
-        this.add.image(90, 241, "town", "Símbolo 31");
-
-        // shopdoor
-        const shopdoor = this.add.image(981, 295, "town", "shopdoor");
-
-        // discodoor0001
-        const discodoor0001 = this.add.sprite(682, 349, "town", "discodoor0001");
-
-        // s_mbolo_34
-        this.add.image(609, 95, "town", "Símbolo 34");
-
-        // s_mbolo_44
-        this.add.image(1050, 746, "town", "Símbolo 44");
-
-        // s_mbolo_49
-        this.add.image(-43, 806, "town", "Símbolo 49");
-
-        // s_mbolo_1
-        const s_mbolo_1 = this.add.image(73, 627, "town", "Símbolo 24");
-        s_mbolo_1.scaleX = 0.5812929253893424;
-        s_mbolo_1.scaleY = 0.5812929253893424;
-        s_mbolo_1.flipX = true;
-
-        // s_mbolo
-        this.add.image(239, 581, "town", "Símbolo 47");
-
-        // sprite_210
-        this.add.image(822, 945, "town", "sprite 210");
-
-        // s_mbolo_46
-        this.add.image(1261, 773, "town", "Símbolo 46");
-
-        // symbol_1
-        this.add.image(140, 304, "town", "Symbol 90");
+        // symbol_160
+        const symbol_160 = this.add.image(2, 539.7284556050321, "town", "Symbol 160");
+        symbol_160.setOrigin(0.5, 0.8766251187113875);
 
         // coffee
-        this.add.image(388, 225, "town", "coffee");
+        const coffee = this.add.image(320, 336, "town", "coffee");
 
-        // coffeedoor
-        const coffeedoor = this.add.image(329, 311, "town", "coffeedoor");
+        // symbol_207_copia
+        this.add.image(89, 569, "halloween", "Symbol 207 copia");
 
-        // s_mbolo_38
-        this.add.image(1097, 229, "town", "Símbolo 38");
+        // symbol_1
+        this.add.image(-155, 560, "town", "Symbol 80");
 
-        // s_mbolo_40
-        this.add.image(1042, 200, "town", "Símbolo 40");
+        // symbol_80
+        this.add.image(89, 718, "town", "Symbol 80");
 
-        // s_mbolo_41
-        this.add.image(1025, 147, "town", "Símbolo 41");
+        // shopdoor
+        const shopdoor = this.add.image(961, 323, "town", "shopdoor");
+        shopdoor.tintTopLeft = 10592673;
+        shopdoor.tintTopRight = 10592673;
+        shopdoor.tintBottomLeft = 10592673;
+        shopdoor.tintBottomRight = 10592673;
 
-        // s_mbolo_42
-        this.add.image(1042, 116, "town", "Símbolo 42");
+        // discodoor0001
+        const discodoor0001 = this.add.sprite(675, 379, "town", "discodoor0001");
+        discodoor0001.tintTopLeft = 10592673;
+        discodoor0001.tintTopRight = 10592673;
+        discodoor0001.tintBottomLeft = 10592673;
+        discodoor0001.tintBottomRight = 10592673;
 
-        // s_mbolo_50
-        this.add.image(725, 234, "town", "Símbolo 50");
+        // symbol_8
+        const symbol_8 = this.add.image(440, 363, "town", "Symbol 8");
+        symbol_8.tintTopLeft = 9737364;
+        symbol_8.tintTopRight = 9737364;
+        symbol_8.tintBottomLeft = 9737364;
+        symbol_8.tintBottomRight = 9737364;
 
-        // s_mbolo_48
-        this.add.image(1318, 310, "town", "Símbolo 48");
+        // s_mbolo_88
+        this.add.image(381, 254, "town", "Símbolo 88");
 
-        // s_mbolo_51
-        this.add.image(1465, 287, "town", "Símbolo 51");
+        // s_mbolo_16
+        this.add.image(1009, 228, "town", "Símbolo 16");
 
-        // s_mbolo_2
-        this.add.image(1546, 627, "town", "Símbolo 48");
-
-        // s_mbolo_45
-        this.add.image(1512, 908, "town", "Símbolo 45");
-
-        // sprite_470
-        const sprite_470 = this.add.image(1010, 760, "town", "sprite 470");
-
-        // symbol_281
-        this.add.image(1368, 998, "town", "Symbol 281");
-
-        // sprite_232
-        const sprite_232 = this.add.image(1286, 650, "town", "sprite 232");
-
-        // s_mbolo_11
-        const s_mbolo_11 = this.add.image(1333.1419950240486, 279.9713012189646, "town", "Símbolo 11");
-        s_mbolo_11.scaleX = 1.5;
-        s_mbolo_11.scaleY = 1.5;
-        s_mbolo_11.setOrigin(0.7266855911925535, 0.9358448631288497);
-        s_mbolo_11.flipX = true;
-
-        // bottom
-        this.add.image(1328, 309, "town", "bottom");
-
-        // s_mbolo_13
-        const s_mbolo_13 = this.add.image(1351.0913287599444, 298.99145460279135, "town", "Símbolo 13");
-        s_mbolo_13.setOrigin(0.04004497936044132, 0.6895592724136329);
-
-        // symbol_94
-        this.add.image(6, 424, "town", "Symbol 94");
-
-        // signs
-        const signs = this.add.image(221.48559018866226, 541.1685743392318, "town", "signs");
-        signs.setOrigin(0.6849233819410655, 0.5244382593905437);
-
-        // symbol_90
-        this.add.image(32, 563, "town", "Symbol 90");
-
-        // s_mbolo_18
-        this.add.image(57, 604, "town", "Símbolo 18");
-
-        // s_mbolo_36
-        this.add.image(-33, 388, "town", "Símbolo 36");
-
-        // s_mbolo_43
-        this.add.image(687, 592, "town", "Símbolo 43");
-
-        // symbol_132
-        this.add.image(1285, 746, "town", "Symbol 132");
-
-        // symbol_394
-        const symbol_394 = this.add.image(557, 833, "town", "Symbol 394");
-
-        // s_mbolo_9
-        this.add.image(1029, 174, "town", "Símbolo 9");
-
-        // port
-        this.add.image(381, 298, "town", "port");
+        // s_mbolo_12
+        this.add.image(715, 265, "town", "Símbolo 12");
 
         // symbol
-        this.add.image(-58, 303, "town", "Symbol 158");
+        const symbol = this.add.image(439, 364, "town", "Symbol 8");
+        symbol.tintTopLeft = 10592673;
+        symbol.tintTopRight = 10592673;
+        symbol.tintBottomLeft = 10592673;
+        symbol.tintBottomRight = 10592673;
 
-        // symbol_158
-        this.add.image(959, 295, "town", "Symbol 158");
+        // s_mbolo_21
+        this.add.image(707, 515, "town", "Símbolo 21");
+
+        // symbol_13
+        this.add.image(726, 682, "town", "Symbol 13");
+
+        // symbol_6
+        this.add.image(1099, 117, "town", "Symbol 6");
+
+        // s_mbolo_9
+        this.add.image(1043, 244, "town", "Símbolo 9");
+
+        // s_mbolo_8
+        this.add.image(370, 234, "town", "Símbolo 8");
+
+        // symbol_147
+        this.add.image(1194, 378, "town", "Symbol 147");
+
+        // symbol_395
+        const symbol_395 = this.add.image(318.56396893602056, 895.8120103546598, "town", "Symbol 395");
+        symbol_395.setOrigin(0.48176147378244827, 0.5141756350113654);
+
+        // symbol_10
+        this.add.image(1138, 790, "town", "Symbol 10");
+
+        // symbol_190
+        this.add.image(553, 374, "town", "Symbol 190");
+
+        // symbol_281
+        this.add.image(1320, 968, "town", "Symbol 281");
+
+        // symbol_2
+        const symbol_2 = this.add.image(1209.8459534040308, 960.8041760292169, "town", "Symbol 80");
+        symbol_2.setOrigin(0.466725131557291, 0.8030802945681501);
+
+        // symbol_3
+        const symbol_3 = this.add.image(1373, 878, "town", "Symbol 80");
+        symbol_3.flipX = true;
+
+        // s_mbolo_11
+        this.add.image(1434, 277, "town", "Símbolo 11");
+
+        // symbol_290
+        this.add.image(509, 481, "halloween", "Symbol 290");
+
+        // symbol_937
+        this.add.image(851, 426, "town", "Symbol 937");
+
+        // s_mbolo_82_copia
+        const s_mbolo_82_copia = this.add.image(1192.7263997475427, 504.55946195413196, "halloween", "Símbolo 82 copia");
+        s_mbolo_82_copia.setOrigin(0.5236014026229568, 0.9421107815286337);
+
+        // symbol_4
+        const symbol_4 = this.add.image(597, 925, "halloween", "Symbol 80");
+        symbol_4.setOrigin(0.4915459774896422, 0.5923156638672858);
 
         // lists
-        const sort = [sprite_470, sprite_232, symbol_394, s_mbolo_13, signs, s_mbolo_11];
+        const sort = [s_mbolo_82_copia, symbol_395, symbol_160, symbol_2];
+
+        // coffee (components)
+        const coffeeButton = new Button(coffee);
+        coffeeButton.spriteName = "coffee";
+        const coffeeMoveTo = new MoveTo(coffee);
+        coffeeMoveTo.x = 320;
+        coffeeMoveTo.y = 336;
 
         // shopdoor (components)
         const shopdoorButton = new Button(shopdoor);
         shopdoorButton.spriteName = "shopdoor";
-        shopdoorButton.activeFrame = false;
         const shopdoorMoveTo = new MoveTo(shopdoor);
-        shopdoorMoveTo.x = 987;
-        shopdoorMoveTo.y = 346;
+        shopdoorMoveTo.x = 970;
+        shopdoorMoveTo.y = 323;
 
         // discodoor0001 (components)
         new SimpleButton(discodoor0001);
         const discodoor0001Animation = new Animation(discodoor0001);
         discodoor0001Animation.key = "discodoor";
-        discodoor0001Animation.end = 7;
+        discodoor0001Animation.end = 8;
         discodoor0001Animation.repeat = 0;
         discodoor0001Animation.autoPlay = false;
         discodoor0001Animation.onHover = true;
-        const discodoor0001MoveTo = new MoveTo(discodoor0001);
-        discodoor0001MoveTo.x = 692;
-        discodoor0001MoveTo.y = 445;
-
-        // coffeedoor (components)
-        const coffeedoorButton = new Button(coffeedoor);
-        coffeedoorButton.spriteName = "coffeedoor";
-        coffeedoorButton.activeFrame = false;
-        const coffeedoorMoveTo = new MoveTo(coffeedoor);
-        coffeedoorMoveTo.x = 331;
-        coffeedoorMoveTo.y = 356;
+        new MoveTo(discodoor0001);
 
         this.sort = sort;
 

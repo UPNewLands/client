@@ -1,0 +1,112 @@
+{
+    "id": "f84a780e-ffed-48a4-8075-42b07fd8cb67",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8b188dd2-f12c-4b5a-9eac-1141f3eec1b4",
+            "label": "container_1",
+            "components": [],
+            "x": 406,
+            "y": 650,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "efd0fe68-e58b-4d54-b776-b96ab7ab285f",
+                    "label": "rectangle_2",
+                    "components": [],
+                    "x": 346,
+                    "y": -164,
+                    "scaleX": 12.45414843162558,
+                    "scaleY": 8.033582834174968,
+                    "alpha": 0.5,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "88160ac3-6638-4d34-897e-92cf02723c2b",
+                    "label": "globe_2",
+                    "components": [],
+                    "texture": {
+                        "key": "dialogue",
+                        "frame": "globe"
+                    },
+                    "x": 556,
+                    "y": 149
+                },
+                {
+                    "type": "Image",
+                    "id": "88fe2d41-ee69-46ac-9aa8-950054baa091",
+                    "label": "ok_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "ok",
+                    "Button.callback": "() => this.visible = false;",
+                    "texture": {
+                        "key": "dialogue",
+                        "frame": "ok"
+                    },
+                    "x": 942,
+                    "y": 200
+                },
+                {
+                    "type": "Image",
+                    "id": "a12d02de-ad0e-4bfa-8e23-13cede266132",
+                    "label": "gary_happy_2",
+                    "components": [],
+                    "texture": {
+                        "key": "dialogue",
+                        "frame": "gary-happy"
+                    },
+                    "x": -161,
+                    "y": 67
+                },
+                {
+                    "type": "Text",
+                    "id": "6d55e60e-b888-4c05-8d75-25a0df0b0b82",
+                    "label": "text_4",
+                    "components": [],
+                    "x": 174,
+                    "y": 74,
+                    "text": "Great, you got all of them! I'll start working on my compost then. \nYou can come to my lab and see my work!",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "color": "#858585ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "df4f11ff-98c6-4f8c-b36d-a306840f850f",
+                    "label": "text_5",
+                    "components": [],
+                    "x": 909,
+                    "y": 185,
+                    "text": "Close",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "color": "#858585ff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

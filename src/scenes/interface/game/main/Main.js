@@ -32,6 +32,7 @@ import Safe from '../floating/safe/Safe'
 import Gary from '../../dialogue/Gary'
 import Success from '../../dialogue/Success'
 import Random from '../../dialogue/Random'
+import Quest1Done from '../../dialogue/Quest1Done'
 import Moderator from '../moderator/Moderator'
 import ModActions from '../modactions/ModActions'
 import Snitch from '../snitch/Snitch'
@@ -179,6 +180,8 @@ export default class Main extends BaseScene {
         this.success_1;
         /** @type {Random} */
         this.random;
+        /** @type {Quest1Done} */
+        this.quest1Done;
         /** @type {Array<PlayerCard|Buddy>} */
         this.hideOnSleep;
         /** @type {Array<Phaser.GameObjects.Image|Phaser.GameObjects.Sprite|ChatLog>} */
@@ -570,6 +573,11 @@ export default class Main extends BaseScene {
         this.add.existing(random);
         random.visible = false;
 
+        // quest1Done
+        const quest1Done = new Quest1Done(this, 418, 654);
+        this.add.existing(quest1Done);
+        quest1Done.visible = false;
+
         // lists
         const hideOnSleep = [playerCard, buddy];
         const interfaceList = [help_icon, help_button, igloo_icon, igloo_button, buddies_icon, buddies_button, player_button, chat_send_icon, chat_send_button, snowball_icon, snowball_button, action_icon, action_button, emote_button, puffle_icon, puffle_button_disabled, chat_box, news_button, mod_m, chatLog, badge_member, emote_icon];
@@ -759,6 +767,7 @@ export default class Main extends BaseScene {
         this.gary = gary;
         this.success_1 = success_1;
         this.random = random;
+        this.quest1Done = quest1Done;
         this.hideOnSleep = hideOnSleep;
         this.interfaceList = interfaceList;
 

@@ -1294,6 +1294,22 @@
             "y": 480,
             "visible": false,
             "nestedPrefabs": []
+        },
+        {
+            "prefabId": "f84a780e-ffed-48a4-8075-42b07fd8cb67",
+            "id": "b6e4e038-3892-49ed-b590-6d45c77d1af5",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "quest1Done",
+            "scope": "CLASS",
+            "components": [],
+            "x": 418,
+            "y": 654,
+            "visible": false,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [],

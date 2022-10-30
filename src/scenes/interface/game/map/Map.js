@@ -76,12 +76,6 @@ export default class Map extends BaseContainer {
         this.smoothie;
 
 
-        // s_mbolo_27
-        const s_mbolo_27 = scene.add.image(53, 362, "newestMap", "Símbolo 27");
-        s_mbolo_27.scaleX = 0.5;
-        s_mbolo_27.scaleY = 0.5;
-        this.add(s_mbolo_27);
-
         // bg
         const bg = scene.add.image(0, -35, "map", "bg");
         bg.setOrigin(0.5, 0.5007429420505201);
@@ -98,11 +92,21 @@ export default class Map extends BaseContainer {
         block.fillAlpha = 0.5;
         this.add(block);
 
-        // sky
-        const sky = scene.add.image(26, -272, "newestMap", "sky");
-        sky.scaleX = 0.5;
-        sky.scaleY = 0.5;
-        this.add(sky);
+        // night
+        const night = scene.add.image(-16, -336, "newestMap", "night");
+        this.add(night);
+
+        // s_mbolo_355
+        const s_mbolo_355 = scene.add.image(-128, 222, "newestMap", "Símbolo 355");
+        s_mbolo_355.scaleX = 0.5;
+        s_mbolo_355.scaleY = 0.5;
+        this.add(s_mbolo_355);
+
+        // s_mbolo_7
+        const s_mbolo_7 = scene.add.image(-8, 162, "newestMap", "Símbolo 7");
+        s_mbolo_7.scaleX = 0.5;
+        s_mbolo_7.scaleY = 0.5;
+        this.add(s_mbolo_7);
 
         // cloud2
         const cloud2 = scene.add.image(506, -219, "newestMap", "cloud2");
@@ -226,18 +230,6 @@ export default class Map extends BaseContainer {
         overlay_main.visible = false;
         this.add(overlay_main);
 
-        // sea
-        const sea = scene.add.image(9, 216, "newestMap", "sea");
-        sea.scaleX = 0.5;
-        sea.scaleY = 0.5;
-        this.add(sea);
-
-        // waves
-        const waves = scene.add.image(1, 167, "newestMap", "waves");
-        waves.scaleX = 0.5;
-        waves.scaleY = 0.5;
-        this.add(waves);
-
         // s_mbolo_42
         const s_mbolo_42 = scene.add.image(98, -291, "newestMap", "Símbolo 42");
         s_mbolo_42.scaleX = 0.5;
@@ -273,17 +265,6 @@ export default class Map extends BaseContainer {
         s_mbolo_48.scaleX = 0.5;
         s_mbolo_48.scaleY = 0.5;
         this.add(s_mbolo_48);
-
-        // shadows
-        const shadows = scene.add.image(-7, 14, "newestMap", "shadows");
-        shadows.scaleX = 0.5;
-        shadows.scaleY = 0.5;
-        shadows.alpha = 0.2;
-        shadows.alphaTopLeft = 0.2;
-        shadows.alphaTopRight = 0.2;
-        shadows.alphaBottomLeft = 0.2;
-        shadows.alphaBottomRight = 0.2;
-        this.add(shadows);
 
         // s_mbolo_44
         const s_mbolo_44 = scene.add.image(88, 196, "newestMap", "Símbolo 44");
@@ -539,6 +520,10 @@ export default class Map extends BaseContainer {
         const cloudsall = scene.add.image(-5, 9, "newestMap", "cloudsall");
         cloudsall.scaleX = 0.5;
         cloudsall.scaleY = 0.5;
+        cloudsall.tintTopLeft = 16777215;
+        cloudsall.tintTopRight = 16777215;
+        cloudsall.tintBottomLeft = 3238966;
+        cloudsall.tintBottomRight = 3238966;
         this.add(cloudsall);
 
         // white_overlay
