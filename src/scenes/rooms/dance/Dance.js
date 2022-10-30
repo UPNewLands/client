@@ -21,7 +21,7 @@ export default class Dance extends RoomScene {
             'town': () => this.triggerRoom(10, 713, 561),
         }
 
-        this.music = "dance"
+        this.music = "h_disco"
 
         /* END-USER-CTR-CODE */
     }

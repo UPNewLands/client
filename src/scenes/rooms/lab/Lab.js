@@ -19,6 +19,9 @@ export default class Lab extends RoomScene {
         this.roomTriggers = {
             'exit': () => this.triggerRoom(1, 1154, 435),
         }
+
+        
+        this.music = "h_lab"
         /* END-USER-CTR-CODE */
     }
 

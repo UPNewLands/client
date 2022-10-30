@@ -18,7 +18,7 @@ export default class Pirate extends RoomScene {
             'port': () => this.triggerRoom(30, 1154, 435),
         }
 
-        this.music = "pirate_island"
+        this.music = "h_pirate"
         /* END-USER-CTR-CODE */
     }
 

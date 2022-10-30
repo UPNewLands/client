@@ -26,7 +26,7 @@ export default class Coffee extends RoomScene {
             'town': () => this.triggerRoom(10, 260, 439),
         }
 
-        this.music = "coffee"
+        this.music = "h_coffee"
         /* END-USER-CTR-CODE */
     }
 

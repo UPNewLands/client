@@ -22,7 +22,7 @@ export default class Hiddenlake extends RoomScene {
             'cave': () => this.triggerRoom(91, 1083, 284),
         }
 
-        this.music = "lake_hidden"
+        this.music = "h_hidden"
         /* END-USER-CTR-CODE */
     }
 

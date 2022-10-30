@@ -22,7 +22,7 @@ export default class Shop extends RoomScene {
 
 
         /* START-USER-CTR-CODE */
-        this.music = '345'
+        this.music = 'h_shop'
 
         this.roomTriggers = {
             'town': () => this.triggerRoom(10, 932, 560),

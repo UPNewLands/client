@@ -142,7 +142,8 @@
                 "frame": "bannerdefault"
             },
             "x": 760,
-            "y": 382
+            "y": 382,
+            "scaleX": 0.999
         },
         {
             "type": "Image",
@@ -249,12 +250,12 @@
         },
         {
             "type": "Image",
-            "id": "c86dbb17-8616-4e3a-ae07-53427efc923b",
-            "label": "beta",
+            "id": "7b153639-e561-4d81-ad13-95fa53b80c72",
+            "label": "halloween",
             "components": [],
             "texture": {
                 "key": "newstart",
-                "frame": "beta"
+                "frame": "halloween"
             },
             "x": 759,
             "y": 380

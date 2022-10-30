@@ -27,7 +27,7 @@ export default class Plaza extends RoomScene {
             'pet': () => this.triggerRoom(52, 384, 620),
         }
 
-        this.music = "plaza"
+        this.music = "h_plaza"
         /* END-USER-CTR-CODE */
     }
 

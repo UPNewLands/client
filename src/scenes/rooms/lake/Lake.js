@@ -27,7 +27,7 @@ export default class Lake extends RoomScene {
             'hydro': () => this.triggerGame('hydroHopper', 903)
         }
 
-        this.music = "lake"
+        this.music = "h_lake"
         /* END-USER-CTR-CODE */
     }
 

@@ -57,7 +57,8 @@ export default class Start extends BaseScene {
         rectangle_1.fillColor = 1270724;
 
         // bannerdefault
-        this.add.image(760, 382, "newstart", "bannerdefault");
+        const bannerdefault = this.add.image(760, 382, "newstart", "bannerdefault");
+        bannerdefault.scaleX = 0.999;
 
         // bar
         this.add.image(759, 811, "newstart", "bar");
@@ -89,8 +90,8 @@ export default class Start extends BaseScene {
         text_2.text = "ver 1.0";
         text_2.setStyle({ "fontFamily": "Burbank Small Medium", "fontSize": "25px" });
 
-        // beta
-        this.add.image(759, 380, "newstart", "beta");
+        // halloween
+        this.add.image(759, 380, "newstart", "halloween");
 
         // blogButton (components)
         const blogButtonSimpleButton = new SimpleButton(blogButton);

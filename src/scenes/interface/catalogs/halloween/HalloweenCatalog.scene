@@ -1936,6 +1936,26 @@
                     "color": "#796228ff",
                     "stroke": "#796228ff",
                     "strokeThickness": 1
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c082429d-ee3c-4015-a7d0-308239476fd4",
+                    "label": "stars_2",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.key": "stars",
+                    "Animation.end": 50,
+                    "Animation.autoPlay": false,
+                    "Animation.onHover": true,
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(3090)",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "stars0001"
+                    },
+                    "x": 697,
+                    "y": 243
                 }
             ]
         },
@@ -2305,6 +2325,26 @@
                     "color": "#796228ff",
                     "stroke": "#796228ff",
                     "strokeThickness": 1
+                },
+                {
+                    "type": "Sprite",
+                    "id": "da514a66-52e5-4660-911d-29c8f467a3a7",
+                    "label": "stars_1",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.key": "stars",
+                    "Animation.end": 50,
+                    "Animation.autoPlay": false,
+                    "Animation.onHover": true,
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(37385)",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "stars0001"
+                    },
+                    "x": 824,
+                    "y": 193
                 }
             ]
         },
@@ -2556,6 +2596,26 @@
                     "color": "#796228ff",
                     "stroke": "#796228ff",
                     "strokeThickness": 1
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1908465f-b31c-45ae-9247-881612f774c0",
+                    "label": "stars",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.key": "stars",
+                    "Animation.end": 50,
+                    "Animation.autoPlay": false,
+                    "Animation.onHover": true,
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(4723)",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "stars0001"
+                    },
+                    "x": 708,
+                    "y": 344
                 }
             ]
         },
@@ -2880,6 +2940,26 @@
                     "color": "#796228ff",
                     "stroke": "#796228ff",
                     "strokeThickness": 1
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1f845345-b158-4173-91fb-707011b9c1b8",
+                    "label": "stars0001",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.key": "stars",
+                    "Animation.end": 50,
+                    "Animation.autoPlay": false,
+                    "Animation.onHover": true,
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(37379)",
+                    "texture": {
+                        "key": "newinterface",
+                        "frame": "stars0001"
+                    },
+                    "x": 1193,
+                    "y": 192
                 }
             ]
         },

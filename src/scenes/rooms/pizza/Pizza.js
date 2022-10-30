@@ -23,7 +23,7 @@ export default class Pizza extends RoomScene {
             'pizzatron': () => this.triggerGame('pizzatron', 910)
         }
 
-        this.music = "pizza"
+        this.music = "h_pizza"
         /* END-USER-CTR-CODE */
     }
 

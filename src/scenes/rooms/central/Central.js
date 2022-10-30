@@ -26,7 +26,7 @@ export default class Central extends RoomScene {
             'town': () => this.triggerRoom(10, 1310, 408),
         }
 
-        this.music = "centre_island"
+        this.music = "h_central"
 
         /* END-USER-CTR-CODE */
     }

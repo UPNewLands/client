@@ -3,7 +3,7 @@
 import Book from '@scenes/interface/books/Book'
 import Interactive from "../../../components/Interactive";
 import SimpleButton from "../../../components/SimpleButton";
-import Zone from "../../../components/Zone";
+import Animation from "../../../components/Animation";
 import Button from "../../../components/Button";
 /* START OF COMPILED CODE */
 
@@ -736,6 +736,10 @@ export default class HalloweenCatalog extends Book {
         text_48.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
         page9.add(text_48);
 
+        // stars_2
+        const stars_2 = this.add.sprite(697, 243, "newinterface", "stars0001");
+        page9.add(stars_2);
+
         // page8
         const page8 = this.add.container(0, 0);
         page8.visible = false;
@@ -879,6 +883,10 @@ export default class HalloweenCatalog extends Book {
         text_43.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
         page8.add(text_43);
 
+        // stars_1
+        const stars_1 = this.add.sprite(824, 193, "newinterface", "stars0001");
+        page8.add(stars_1);
+
         // page7
         const page7 = this.add.container(0, 0);
         page7.visible = false;
@@ -979,6 +987,10 @@ export default class HalloweenCatalog extends Book {
         text_37.text = "150";
         text_37.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
         page7.add(text_37);
+
+        // stars
+        const stars = this.add.sprite(708, 344, "newinterface", "stars0001");
+        page7.add(stars);
 
         // page6
         const page6 = this.add.container(0, 0);
@@ -1113,6 +1125,10 @@ export default class HalloweenCatalog extends Book {
         text_34.text = "300";
         text_34.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
         page6.add(text_34);
+
+        // stars0001
+        const stars0001 = this.add.sprite(1193, 192, "newinterface", "stars0001");
+        page6.add(stars0001);
 
         // page5
         const page5 = this.add.container(0, 0);
@@ -2193,6 +2209,15 @@ export default class HalloweenCatalog extends Book {
         buy_29rrgrgButton.spriteName = "buy";
         buy_29rrgrgButton.callback = () => this.interface.prompt.showItem(5487);
 
+        // stars_2 (components)
+        const stars_2Animation = new Animation(stars_2);
+        stars_2Animation.key = "stars";
+        stars_2Animation.end = 50;
+        stars_2Animation.autoPlay = false;
+        stars_2Animation.onHover = true;
+        const stars_2SimpleButton = new SimpleButton(stars_2);
+        stars_2SimpleButton.callback = () => this.interface.prompt.showItem(3090);
+
         // buy_1948g9dq (components)
         const buy_1948g9dqButton = new Button(buy_1948g9dq);
         buy_1948g9dqButton.spriteName = "buy";
@@ -2238,6 +2263,15 @@ export default class HalloweenCatalog extends Book {
         close_8Button.spriteName = "close";
         close_8Button.callback = () => this.close();
 
+        // stars_1 (components)
+        const stars_1Animation = new Animation(stars_1);
+        stars_1Animation.key = "stars";
+        stars_1Animation.end = 50;
+        stars_1Animation.autoPlay = false;
+        stars_1Animation.onHover = true;
+        const stars_1SimpleButton = new SimpleButton(stars_1);
+        stars_1SimpleButton.callback = () => this.interface.prompt.showItem(37385);
+
         // nextPage_7 (components)
         const nextPage_7Button = new Button(nextPage_7);
         nextPage_7Button.spriteName = "nextPage";
@@ -2267,6 +2301,15 @@ export default class HalloweenCatalog extends Book {
         const buy_18Button = new Button(buy_18);
         buy_18Button.spriteName = "buy";
         buy_18Button.callback = () => this.interface.prompt.showItem(37381);
+
+        // stars (components)
+        const starsAnimation = new Animation(stars);
+        starsAnimation.key = "stars";
+        starsAnimation.end = 50;
+        starsAnimation.autoPlay = false;
+        starsAnimation.onHover = true;
+        const starsSimpleButton = new SimpleButton(stars);
+        starsSimpleButton.callback = () => this.interface.prompt.showItem(4723);
 
         // nextPage_6 (components)
         const nextPage_6Button = new Button(nextPage_6);
@@ -2307,6 +2350,15 @@ export default class HalloweenCatalog extends Book {
         const buy_15Button = new Button(buy_15);
         buy_15Button.spriteName = "buy";
         buy_15Button.callback = () => this.interface.prompt.showItem(24211);
+
+        // stars0001 (components)
+        const stars0001Animation = new Animation(stars0001);
+        stars0001Animation.key = "stars";
+        stars0001Animation.end = 50;
+        stars0001Animation.autoPlay = false;
+        stars0001Animation.onHover = true;
+        const stars0001SimpleButton = new SimpleButton(stars0001);
+        stars0001SimpleButton.callback = () => this.interface.prompt.showItem(37379);
 
         // nextPage_5 (components)
         const nextPage_5Button = new Button(nextPage_5);
