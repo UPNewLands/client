@@ -21,7 +21,7 @@ export default class Lighthouse extends RoomScene {
 
         /* START-USER-CTR-CODE */
         this.roomTriggers = {
-            'beacon': () => this.triggerRoom(32, 298, 743),
+            'beacon': () => null,
             'port': () => this.triggerRoom(30, 273, 487),
         }        
 

@@ -30,6 +30,18 @@
             "y": 464
         },
         {
+            "type": "Image",
+            "id": "517714df-fc8d-42c3-9797-273711861132",
+            "label": "symbol_86",
+            "components": [],
+            "texture": {
+                "key": "shop",
+                "frame": "Symbol 86"
+            },
+            "x": 1356,
+            "y": 453
+        },
+        {
             "type": "Sprite",
             "id": "81a1cd23-805f-47e7-84f0-321d3c7174ba",
             "label": "shop_door_png",
@@ -151,64 +163,6 @@
             "scaleY": 1.01
         },
         {
-            "type": "Image",
-            "id": "b5cf562e-ec76-4ad2-a74a-e7fbf167ee3e",
-            "label": "symbol_80",
-            "components": [],
-            "x": 1337.3141623444612,
-            "y": 415.3218257529371,
-            "list": [
-                {
-                    "type": "Sprite",
-                    "id": "7057c1fb-d5d6-4adf-9afa-65d3c1d1b128",
-                    "label": "desk",
-                    "scope": "CLASS",
-                    "components": [],
-                    "texture": {
-                        "key": "clothesShop-new",
-                        "frame": "desk"
-                    },
-                    "x": 13.685837655538762,
-                    "y": 45.678174247062884
-                },
-                {
-                    "type": "Sprite",
-                    "id": "95dca7d3-d9f2-4c70-b3f7-f49a4ada0c8a",
-                    "label": "chest",
-                    "scope": "CLASS",
-                    "components": [
-                        "Button"
-                    ],
-                    "Button.spriteName": "chest",
-                    "Button.callback": "() => this.interface.loadExternal('Unlock')",
-                    "Button.activeFrame": false,
-                    "texture": {
-                        "key": "clothesShop-new",
-                        "frame": "chest"
-                    },
-                    "x": 15.685837655538762,
-                    "y": 123.67817424706288
-                },
-                {
-                    "type": "Sprite",
-                    "id": "f96aae91-1544-4534-ac8e-9c16c961f5d4",
-                    "label": "register",
-                    "scope": "CLASS",
-                    "components": [
-                        "Button"
-                    ],
-                    "Button.spriteName": "register",
-                    "Button.activeFrame": false,
-                    "texture": {
-                        "key": "clothesShop-new",
-                        "frame": "register"
-                    },
-                    "x": -48.31416234446124,
-                    "y": -46.321825752937116
-                }
-            ]
-        },
-        {
             "type": "Sprite",
             "id": "50e6ff06-dd14-49cf-a533-165261b32818",
             "label": "register",
@@ -301,7 +255,7 @@
                 "Button"
             ],
             "Button.spriteName": "catalog",
-            "Button.callback": "() => this.interface.loadExternal('ClothingCatalog')",
+            "Button.callback": "() => this.interface.loadExternal('HalloweenCatalog')",
             "texture": {
                 "key": "shop",
                 "frame": "catalog"

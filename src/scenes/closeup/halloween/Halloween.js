@@ -68,13 +68,13 @@ export default class Halloween extends BaseContainer {
         container_1.add(text);
 
         // text_2
-        const text_2 = scene.add.text(856, 335, "", {});
+        const text_2 = scene.add.text(858, 335, "", {});
         text_2.text = "Help Gary with the\npumpkins at his lab";
         text_2.setStyle({ "align": "center", "fontFamily": "Burbank Small", "fontSize": "60px", "stroke": "#717171ff", "strokeThickness":2,"shadow.offsetX":5,"shadow.color": "#000000ff", "shadow.stroke":true});
         container_1.add(text_2);
 
         // text_3
-        const text_3 = scene.add.text(1043, 539, "", {});
+        const text_3 = scene.add.text(1041, 539, "", {});
         text_3.text = "GO THERE";
         text_3.setStyle({ "fontFamily": "Burbank Small", "fontSize": "40px", "stroke": "#717171ff", "strokeThickness":2,"shadow.offsetX":5,"shadow.color": "#000000ff", "shadow.stroke":true});
         container_1.add(text_3);
@@ -138,14 +138,17 @@ export default class Halloween extends BaseContainer {
         // claim (components)
         const claimButton = new Button(claim);
         claimButton.spriteName = "claim";
+        claimButton.callback = () => this.interface.prompt.showItem(2163);
 
         // claim_1 (components)
         const claim_1Button = new Button(claim_1);
         claim_1Button.spriteName = "claim";
+        claim_1Button.callback = () => this.interface.prompt.showItem(246);
 
         // tp (components)
         const tpButton = new Button(tp);
         tpButton.spriteName = "tp";
+        tpButton.callback = () => this.onRoomClick(4);
 
         // symbol_519 (components)
         new Interactive(symbol_519);
@@ -169,7 +172,14 @@ export default class Halloween extends BaseContainer {
 
     /* START-USER-CODE */
 
-    // Write your code here.
+        onRoomClick(id) {
+        let room = this.crumbs.scenes.rooms[id]
+        if (this.world.room.key == room.key) return
+
+        this.visible = false
+
+        this.world.client.sendJoinRoom(id, room.key, room.x, room.y, 80)
+    }
 
     /* END-USER-CODE */
 }

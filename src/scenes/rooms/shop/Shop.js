@@ -45,6 +45,9 @@ export default class Shop extends RoomScene {
         // symbol_68_png
         this.add.image(773, 464, "shop", "Symbol 68");
 
+        // symbol_86
+        this.add.image(1356, 453, "shop", "Symbol 86");
+
         // shop_door_png
         const shop_door_png = this.add.sprite(1111, 230, "shop", "shop-door");
         shop_door_png.scaleY = 1.01;
@@ -76,22 +79,6 @@ export default class Shop extends RoomScene {
         // symbol_78
         const symbol_78 = this.add.image(370, 803, "shop", "Symbol 78");
         symbol_78.scaleY = 1.01;
-
-        // symbol_80
-        const symbol_80 = this.add.image(1109, 616, "shop", "Symbol 80");
-        symbol_80.scaleY = 1.01;
-
-        // symbol_82
-        const symbol_82 = this.add.image(1050, 682, "shop", "Symbol 82");
-        symbol_82.scaleY = 1.01;
-
-        // symbol_84
-        const symbol_84 = this.add.image(1381, 374, "shop", "Symbol 84");
-        symbol_84.scaleY = 1.01;
-
-        // symbol_86
-        const symbol_86 = this.add.image(1363, 455, "shop", "Symbol 86");
-        symbol_86.scaleY = 1.01;
 
         // register
         const register = this.add.sprite(1297, 361, "shop", "register");
@@ -146,12 +133,6 @@ export default class Shop extends RoomScene {
         symbol_560001Animation.end = 10;
         symbol_560001Animation.repeatDelay = 10;
 
-        // chest (components)
-        const chestButton = new Button(chest);
-        chestButton.spriteName = "chest";
-        chestButton.callback = () => this.interface.loadExternal('Unlock');
-        chestButton.activeFrame = false;
-
         // register (components)
         const registerButton = new Button(register);
         registerButton.spriteName = "register";
@@ -164,10 +145,11 @@ export default class Shop extends RoomScene {
         display0001Animation.onHover = true;
 
         // chest (components)
+        const chestButton = new Button(chest);
+        chestButton.spriteName = "chest";
         const chestMoveTo = new MoveTo(chest);
         chestMoveTo.x = 1360;
         chestMoveTo.y = 625;
-
 
         // unlock (components)
         const unlockButton = new Button(unlock);
@@ -177,7 +159,7 @@ export default class Shop extends RoomScene {
         // catalog (components)
         const catalogButton = new Button(catalog);
         catalogButton.spriteName = "catalog";
-        catalogButton.callback = () => this.interface.loadExternal('ClothingCatalog');
+        catalogButton.callback = () => this.interface.loadExternal('HalloweenCatalog');
 
         // rectangle_1 (components)
         const rectangle_1Zone = new Zone(rectangle_1);

@@ -2,6 +2,8 @@
 // You can write more code here
 import Book from '@scenes/interface/books/Book'
 import Interactive from "../../../components/Interactive";
+import SimpleButton from "../../../components/SimpleButton";
+import Zone from "../../../components/Zone";
 import Button from "../../../components/Button";
 /* START OF COMPILED CODE */
 
@@ -67,14 +69,14 @@ export default class HalloweenCatalog extends Book {
         const text_210983 = this.add.text(753, 214, "", {});
         text_210983.setOrigin(0.5, 0.5);
         text_210983.text = "UPNewLands Style\n";
-        text_210983.setStyle({ "fontFamily": "Asterisk", "fontSize": "64px", "fontStyle": "bold italic" });
+        text_210983.setStyle({ "fontFamily": "Burbank Small", "fontSize": "64px", "fontStyle": "bold italic" });
         page12.add(text_210983);
 
         // text12903
         const text12903 = this.add.text(814, 262, "", {});
         text12903.setOrigin(0.5, 0.5);
         text12903.text = "Halloween 2022 Edition\n";
-        text12903.setStyle({ "fontFamily": "Asterisk", "fontSize": "32px", "fontStyle": "italic" });
+        text12903.setStyle({ "fontFamily": "Burbank Small", "fontSize": "32px", "fontStyle": "italic" });
         page12.add(text12903);
 
         // close12
@@ -90,10 +92,10 @@ export default class HalloweenCatalog extends Book {
         page12.add(backPage_12);
 
         // text_882828
-        const text_882828 = this.add.text(645, 617, "", {});
+        const text_882828 = this.add.text(571, 693, "", {});
         text_882828.setOrigin(0.5, 0.5);
         text_882828.text = "Made by wildmaster84\nand alot of tears :')";
-        text_882828.setStyle({ "fontFamily": "Asterisk", "fontSize": "32px", "fontStyle": "italic" });
+        text_882828.setStyle({ "fontFamily": "Burbank Small", "fontSize": "20px", "fontStyle": "italic" });
         page12.add(text_882828);
 
         // page11
@@ -482,7 +484,7 @@ export default class HalloweenCatalog extends Book {
         const text_2345 = this.add.text(273, 169, "", {});
         text_2345.setOrigin(0.5, 0.5);
         text_2345.text = "Flags for your\nplayercard";
-        text_2345.setStyle({ "fontFamily": "MYRIADPRO", "fontSize": "24px" });
+        text_2345.setStyle({ "fontFamily": "Burbank Small", "fontSize": "24px" });
         page11.add(text_2345);
 
         // nextPage_1345
@@ -542,7 +544,7 @@ export default class HalloweenCatalog extends Book {
         const text_34565 = this.add.text(955, 486, "", {});
         text_34565.setOrigin(0.5, 0.5);
         text_34565.text = "The Grim";
-        text_34565.setStyle({ "color": "#000000ff" });
+        text_34565.setStyle({ "color": "#000000ff", "fontFamily": "Burbank Small" });
         page10.add(text_34565);
 
         // buy_30454
@@ -557,7 +559,7 @@ export default class HalloweenCatalog extends Book {
         const text_3544 = this.add.text(1189, 479, "", {});
         text_3544.setOrigin(0.5, 0.5);
         text_3544.text = "Spectacles";
-        text_3544.setStyle({ "color": "#000000ff" });
+        text_3544.setStyle({ "color": "#000000ff", "fontFamily": "Burbank Small" });
         page10.add(text_3544);
 
         // buy_32wada
@@ -568,7 +570,7 @@ export default class HalloweenCatalog extends Book {
         const text_3656u = this.add.text(958, 693, "", {});
         text_3656u.setOrigin(0.5, 0.5);
         text_3656u.text = "Gravedigger Suit";
-        text_3656u.setStyle({ "color": "#000000ff" });
+        text_3656u.setStyle({ "color": "#000000ff", "fontFamily": "Burbank Small" });
         page10.add(text_3656u);
 
         // buy_333222
@@ -579,8 +581,36 @@ export default class HalloweenCatalog extends Book {
         const text_3756u = this.add.text(1187, 691, "", {});
         text_3756u.setOrigin(0.5, 0.5);
         text_3756u.text = "Gray Shovel";
-        text_3756u.setStyle({ "color": "#000000ff" });
+        text_3756u.setStyle({ "color": "#000000ff", "fontFamily": "Burbank Small" });
         page10.add(text_3756u);
+
+        // text_49
+        const text_49 = this.add.text(955, 718, "", {});
+        text_49.setOrigin(0.5, 0.5);
+        text_49.text = "400";
+        text_49.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page10.add(text_49);
+
+        // text_50
+        const text_50 = this.add.text(951, 511, "", {});
+        text_50.setOrigin(0.5, 0.5);
+        text_50.text = "300";
+        text_50.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page10.add(text_50);
+
+        // text_51
+        const text_51 = this.add.text(1185, 505, "", {});
+        text_51.setOrigin(0.5, 0.5);
+        text_51.text = "200";
+        text_51.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page10.add(text_51);
+
+        // text_52
+        const text_52 = this.add.text(1185, 718, "", {});
+        text_52.setOrigin(0.5, 0.5);
+        text_52.text = "200";
+        text_52.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page10.add(text_52);
 
         // page9
         const page9 = this.add.container(0, 0);
@@ -620,6 +650,7 @@ export default class HalloweenCatalog extends Book {
         const text_2945 = this.add.text(928, 352, "", {});
         text_2945.setOrigin(0.5, 0.5);
         text_2945.text = "The Enchantress";
+        text_2945.setStyle({ "fontFamily": "Burbank Small" });
         page9.add(text_2945);
 
         // buy_25g65
@@ -634,6 +665,7 @@ export default class HalloweenCatalog extends Book {
         const text_30erg = this.add.text(1136, 338, "", {});
         text_30erg.setOrigin(0.5, 0.5);
         text_30erg.text = "Candy Wing Warmers";
+        text_30erg.setStyle({ "fontFamily": "Burbank Small" });
         page9.add(text_30erg);
 
         // buy_27qwd
@@ -644,6 +676,7 @@ export default class HalloweenCatalog extends Book {
         const text_31ewf = this.add.text(929, 579, "", {});
         text_31ewf.setOrigin(0.5, 0.5);
         text_31ewf.text = "Enchantdress";
+        text_31ewf.setStyle({ "fontFamily": "Burbank Small" });
         page9.add(text_31ewf);
 
         // buy_28
@@ -654,6 +687,7 @@ export default class HalloweenCatalog extends Book {
         const text_32t6j = this.add.text(937, 723, "", {});
         text_32t6j.setOrigin(0.5, 0.5);
         text_32t6j.text = "Sparkly Amber Shoes";
+        text_32t6j.setStyle({ "fontFamily": "Burbank Small" });
         page9.add(text_32t6j);
 
         // buy_29rrgrg
@@ -664,7 +698,43 @@ export default class HalloweenCatalog extends Book {
         const text_3365u5 = this.add.text(1150, 668, "", {});
         text_3365u5.setOrigin(0.5, 0.5);
         text_3365u5.text = "Witches Broom";
+        text_3365u5.setStyle({ "fontFamily": "Burbank Small" });
         page9.add(text_3365u5);
+
+        // text_44
+        const text_44 = this.add.text(925, 379, "", {});
+        text_44.setOrigin(0.5, 0.5);
+        text_44.text = "275";
+        text_44.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page9.add(text_44);
+
+        // text_45
+        const text_45 = this.add.text(1133, 365, "", {});
+        text_45.setOrigin(0.5, 0.5);
+        text_45.text = "100";
+        text_45.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page9.add(text_45);
+
+        // text_46
+        const text_46 = this.add.text(926, 606, "", {});
+        text_46.setOrigin(0.5, 0.5);
+        text_46.text = "300";
+        text_46.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page9.add(text_46);
+
+        // text_47
+        const text_47 = this.add.text(1148, 695, "", {});
+        text_47.setOrigin(0.5, 0.5);
+        text_47.text = "150";
+        text_47.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page9.add(text_47);
+
+        // text_48
+        const text_48 = this.add.text(935, 750, "", {});
+        text_48.setOrigin(0.5, 0.5);
+        text_48.text = "250";
+        text_48.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page9.add(text_48);
 
         // page8
         const page8 = this.add.container(0, 0);
@@ -681,7 +751,7 @@ export default class HalloweenCatalog extends Book {
         const text_2378956478 = this.add.text(447, 293, "", {});
         text_2378956478.setOrigin(0.5, 0.5);
         text_2378956478.text = "Creepy Doll Makeup";
-        text_2378956478.setStyle({ "align": "center", "fontSize": "13px" });
+        text_2378956478.setStyle({ "align": "center", "fontFamily": "Burbank Small", "fontSize": "13px" });
         page8.add(text_2378956478);
 
         // buy_1948g9dq
@@ -696,7 +766,7 @@ export default class HalloweenCatalog extends Book {
         const text_24d4d44d = this.add.text(898, 372, "", {});
         text_24d4d44d.setOrigin(0.5, 0.5);
         text_24d4d44d.text = "The Phantom";
-        text_24d4d44d.setStyle({ "align": "center", "fontSize": "13px" });
+        text_24d4d44d.setStyle({ "align": "center", "fontFamily": "Burbank Small", "fontSize": "13px" });
         page8.add(text_24d4d44d);
 
         // buy_212135
@@ -707,7 +777,7 @@ export default class HalloweenCatalog extends Book {
         const text_25456456 = this.add.text(1127, 303, "", {});
         text_25456456.setOrigin(0.5, 0.5);
         text_25456456.text = "Skull Mask";
-        text_25456456.setStyle({ "align": "center", "fontSize": "13px" });
+        text_25456456.setStyle({ "align": "center", "fontFamily": "Burbank Small", "fontSize": "13px" });
         page8.add(text_25456456);
 
         // buy_22u8lu
@@ -718,7 +788,7 @@ export default class HalloweenCatalog extends Book {
         const text_26i9i = this.add.text(1072, 635, "", {});
         text_26i9i.setOrigin(0.5, 0.5);
         text_26i9i.text = "The Mystery";
-        text_26i9i.setStyle({ "align": "center", "fontSize": "13px" });
+        text_26i9i.setStyle({ "align": "center", "fontFamily": "Burbank Small", "fontSize": "13px" });
         page8.add(text_26i9i);
 
         // buy_23lihl
@@ -729,7 +799,7 @@ export default class HalloweenCatalog extends Book {
         const text_27u65 = this.add.text(578, 490, "", {});
         text_27u65.setOrigin(0.5, 0.5);
         text_27u65.text = "Count Mask";
-        text_27u65.setStyle({ "align": "center", "fontSize": "13px" });
+        text_27u65.setStyle({ "align": "center", "fontFamily": "Burbank Small", "fontSize": "13px" });
         page8.add(text_27u65);
 
         // buy_24u65
@@ -740,7 +810,7 @@ export default class HalloweenCatalog extends Book {
         const text_28q = this.add.text(368, 641, "", {});
         text_28q.setOrigin(0.5, 0.5);
         text_28q.text = "Countess Makeup";
-        text_28q.setStyle({ "align": "center", "fontSize": "13px" });
+        text_28q.setStyle({ "align": "center", "fontFamily": "Burbank Small", "fontSize": "13px" });
         page8.add(text_28q);
 
         // shadow_png_8
@@ -766,6 +836,48 @@ export default class HalloweenCatalog extends Book {
         close_8.scaleX = 1.5;
         close_8.scaleY = 1.5;
         page8.add(close_8);
+
+        // text_38
+        const text_38 = this.add.text(366, 668, "", {});
+        text_38.setOrigin(0.5, 0.5);
+        text_38.text = "150";
+        text_38.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page8.add(text_38);
+
+        // text_39
+        const text_39 = this.add.text(444, 320, "", {});
+        text_39.setOrigin(0.5, 0.5);
+        text_39.text = "120";
+        text_39.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page8.add(text_39);
+
+        // text_40
+        const text_40 = this.add.text(576, 517, "", {});
+        text_40.setOrigin(0.5, 0.5);
+        text_40.text = "100";
+        text_40.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page8.add(text_40);
+
+        // text_41
+        const text_41 = this.add.text(896, 399, "", {});
+        text_41.setOrigin(0.5, 0.5);
+        text_41.text = "100";
+        text_41.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page8.add(text_41);
+
+        // text_42
+        const text_42 = this.add.text(1066, 662, "", {});
+        text_42.setOrigin(0.5, 0.5);
+        text_42.text = "100";
+        text_42.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page8.add(text_42);
+
+        // text_43
+        const text_43 = this.add.text(1122, 329, "", {});
+        text_43.setOrigin(0.5, 0.5);
+        text_43.text = "250";
+        text_43.setStyle({ "color": "#796228ff", "fontSize": "20px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page8.add(text_43);
 
         // page7
         const page7 = this.add.container(0, 0);
@@ -793,7 +905,7 @@ export default class HalloweenCatalog extends Book {
         const text_esfsuifysiue = this.add.text(316, 157, "", {});
         text_esfsuifysiue.setOrigin(0.5, 0.5);
         text_esfsuifysiue.text = "Custom Items!";
-        text_esfsuifysiue.setStyle({ "color": "#000000ff", "fontFamily": "MYRIADPRO", "fontSize": "32px" });
+        text_esfsuifysiue.setStyle({ "color": "#000000ff", "fontFamily": "Burbank Small", "fontSize": "32px" });
         page7.add(text_esfsuifysiue);
 
         // nextPage_7
@@ -818,6 +930,7 @@ export default class HalloweenCatalog extends Book {
         const text_20 = this.add.text(1068, 304, "", {});
         text_20.setOrigin(0.5, 0.5);
         text_20.text = "Blue pumpkin head";
+        text_20.setStyle({ "fontFamily": "Burbank Small" });
         page7.add(text_20);
 
         // buy_16
@@ -832,6 +945,7 @@ export default class HalloweenCatalog extends Book {
         const text_21 = this.add.text(1071, 538, "", {});
         text_21.setOrigin(0.5, 0.5);
         text_21.text = "Pumpkin headband";
+        text_21.setStyle({ "fontFamily": "Burbank Small" });
         page7.add(text_21);
 
         // buy_18
@@ -842,7 +956,29 @@ export default class HalloweenCatalog extends Book {
         const text_22 = this.add.text(1053, 700, "", {});
         text_22.setOrigin(0.5, 0.5);
         text_22.text = "Chained pumpkin";
+        text_22.setStyle({ "fontFamily": "Burbank Small" });
         page7.add(text_22);
+
+        // text_35
+        const text_35 = this.add.text(1063, 330, "", {});
+        text_35.setOrigin(0.5, 0.5);
+        text_35.text = "250";
+        text_35.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page7.add(text_35);
+
+        // text_36
+        const text_36 = this.add.text(1067, 564, "", {});
+        text_36.setOrigin(0.5, 0.5);
+        text_36.text = "200";
+        text_36.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page7.add(text_36);
+
+        // text_37
+        const text_37 = this.add.text(1049, 727, "", {});
+        text_37.setOrigin(0.5, 0.5);
+        text_37.text = "150";
+        text_37.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page7.add(text_37);
 
         // page6
         const page6 = this.add.container(0, 0);
@@ -882,33 +1018,35 @@ export default class HalloweenCatalog extends Book {
         const text_15 = this.add.text(936, 728, "", {});
         text_15.setOrigin(0.5, 0.5);
         text_15.text = "Happy Punk O'Ween";
+        text_15.setStyle({ "fontFamily": "Burbank Small" });
         page6.add(text_15);
 
         // text_16
         const text_16 = this.add.text(1157, 636, "", {});
         text_16.setOrigin(0.5, 0.5);
         text_16.text = "Halloween Tee";
+        text_16.setStyle({ "fontFamily": "Burbank Small" });
         page6.add(text_16);
 
         // text_17
         const text_17 = this.add.text(944, 484, "", {});
         text_17.setOrigin(0.5, 0.5);
-        text_17.text = "Jagged Purple\necklace";
-        text_17.setStyle({ "align": "center" });
+        text_17.text = "Jagged Purple\nNecklace";
+        text_17.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page6.add(text_17);
 
         // text_18
         const text_18 = this.add.text(1148, 385, "", {});
         text_18.setOrigin(0.5, 0.5);
         text_18.text = "The Shadow Spike";
-        text_18.setStyle({ "align": "center" });
+        text_18.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page6.add(text_18);
 
         // text_19
         const text_19 = this.add.text(941, 342, "", {});
         text_19.setOrigin(0.5, 0.5);
         text_19.text = "The Spider Poof";
-        text_19.setStyle({ "align": "center" });
+        text_19.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page6.add(text_19);
 
         // buy_11
@@ -940,6 +1078,41 @@ export default class HalloweenCatalog extends Book {
         buy_15.scaleX = 1.52;
         buy_15.scaleY = 1.52;
         page6.add(buy_15);
+
+        // text_30
+        const text_30 = this.add.text(937, 374, "", {});
+        text_30.setOrigin(0.5, 0.5);
+        text_30.text = "250";
+        text_30.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page6.add(text_30);
+
+        // text_31
+        const text_31 = this.add.text(1142, 420, "", {});
+        text_31.setOrigin(0.5, 0.5);
+        text_31.text = "250";
+        text_31.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page6.add(text_31);
+
+        // text_32
+        const text_32 = this.add.text(939, 526, "", {});
+        text_32.setOrigin(0.5, 0.5);
+        text_32.text = "100";
+        text_32.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page6.add(text_32);
+
+        // text_33
+        const text_33 = this.add.text(1154, 670, "", {});
+        text_33.setOrigin(0.5, 0.5);
+        text_33.text = "300";
+        text_33.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page6.add(text_33);
+
+        // text_34
+        const text_34 = this.add.text(931, 767, "", {});
+        text_34.setOrigin(0.5, 0.5);
+        text_34.text = "300";
+        text_34.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page6.add(text_34);
 
         // page5
         const page5 = this.add.container(0, 0);
@@ -998,24 +1171,21 @@ export default class HalloweenCatalog extends Book {
         const text_11 = this.add.text(492, 406, "", {});
         text_11.setOrigin(0.5, 0.5);
         text_11.text = "Green Ghost Costume";
+        text_11.setStyle({ "fontFamily": "Burbank Small" });
         page5.add(text_11);
 
         // text_12
         const text_12 = this.add.text(1050, 406, "", {});
         text_12.setOrigin(0.5, 0.5);
         text_12.text = "Scary Penguin mask";
+        text_12.setStyle({ "fontFamily": "Burbank Small" });
         page5.add(text_12);
-
-        // buy_8
-        const buy_8 = this.add.image(1043, 441, "HalloweenCatalog", "buy");
-        buy_8.scaleX = 1.5;
-        buy_8.scaleY = 1.5;
-        page5.add(buy_8);
 
         // text_13
         const text_13 = this.add.text(492, 669, "", {});
         text_13.setOrigin(0.5, 0.5);
         text_13.text = "Purple skeleton costume";
+        text_13.setStyle({ "fontFamily": "Burbank Small" });
         page5.add(text_13);
 
         // buy_9
@@ -1034,8 +1204,29 @@ export default class HalloweenCatalog extends Book {
         const text_14 = this.add.text(1050, 658, "", {});
         text_14.setOrigin(0.5, 0.5);
         text_14.text = "Vintage snowman\nhead";
-        text_14.setStyle({ "align": "center" });
+        text_14.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page5.add(text_14);
+
+        // text_27
+        const text_27 = this.add.text(491, 442, "", {});
+        text_27.setOrigin(0.5, 0.5);
+        text_27.text = "150";
+        text_27.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page5.add(text_27);
+
+        // text_28
+        const text_28 = this.add.text(489, 704, "", {});
+        text_28.setOrigin(0.5, 0.5);
+        text_28.text = "200";
+        text_28.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page5.add(text_28);
+
+        // text_29
+        const text_29 = this.add.text(1042, 704, "", {});
+        text_29.setOrigin(0.5, 0.5);
+        text_29.text = "200";
+        text_29.setStyle({ "color": "#796228ff", "fontSize": "25px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page5.add(text_29);
 
         // page4
         const page4 = this.add.container(0, 0);
@@ -1072,10 +1263,10 @@ export default class HalloweenCatalog extends Book {
         page4.add(shadow_png_4);
 
         // text_2dawdawdatt
-        const text_2dawdawdatt = this.add.text(316, 166, "", {});
+        const text_2dawdawdatt = this.add.text(319, 166, "", {});
         text_2dawdawdatt.setOrigin(0.5, 0.5);
         text_2dawdawdatt.text = "Items for everyone";
-        text_2dawdawdatt.setStyle({ "fontFamily": "MYRIADPRO", "fontSize": "25px" });
+        text_2dawdawdatt.setStyle({ "fontFamily": "Burbank Small", "fontSize": "25px" });
         page4.add(text_2dawdawdatt);
 
         // nextPage_4
@@ -1154,42 +1345,42 @@ export default class HalloweenCatalog extends Book {
         const text_3 = this.add.text(959, 321, "", {});
         text_3.setOrigin(0.5, 0.5);
         text_3.text = "Star\nT-Shirt";
-        text_3.setStyle({ "align": "center" });
+        text_3.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page4.add(text_3);
 
         // text_4
         const text_4 = this.add.text(1109, 321, "", {});
         text_4.setOrigin(0.5, 0.5);
         text_4.text = "Green\nBaseball cap";
-        text_4.setStyle({ "align": "center" });
+        text_4.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page4.add(text_4);
 
         // text_5
         const text_5 = this.add.text(1251, 321, "", {});
         text_5.setOrigin(0.5, 0.5);
         text_5.text = "Baseball Glove";
-        text_5.setStyle({ "align": "center" });
+        text_5.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page4.add(text_5);
 
         // text_6
         const text_6 = this.add.text(903, 646, "", {});
         text_6.setOrigin(0.5, 0.5);
         text_6.text = "Run the cursor through the Items\nto see how they look on your penguin";
-        text_6.setStyle({ "align": "center", "fontSize": "12px" });
+        text_6.setStyle({ "align": "center", "fontFamily": "Burbank Small", "fontSize": "12px" });
         page4.add(text_6);
 
         // text_7
         const text_7 = this.add.text(1109, 504, "", {});
         text_7.setOrigin(0.5, 0.5);
         text_7.text = "Red scarf";
-        text_7.setStyle({ "align": "center" });
+        text_7.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page4.add(text_7);
 
         // text_8
         const text_8 = this.add.text(1251, 504, "", {});
         text_8.setOrigin(0.5, 0.5);
         text_8.text = "Pink purse";
-        text_8.setStyle({ "align": "center" });
+        text_8.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page4.add(text_8);
 
         // buy_3
@@ -1204,7 +1395,7 @@ export default class HalloweenCatalog extends Book {
         const text_9 = this.add.text(1251, 680, "", {});
         text_9.setOrigin(0.5, 0.5);
         text_9.text = "Bufferfly\nT-Shirt";
-        text_9.setStyle({ "align": "center" });
+        text_9.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page4.add(text_9);
 
         // buy_5
@@ -1215,12 +1406,61 @@ export default class HalloweenCatalog extends Book {
         const text_10 = this.add.text(1109, 680, "", {});
         text_10.setOrigin(0.5, 0.5);
         text_10.text = "Golden hairstyle\nfor girls";
-        text_10.setStyle({ "align": "center" });
+        text_10.setStyle({ "align": "center", "fontFamily": "Burbank Small" });
         page4.add(text_10);
 
         // buy_6
         const buy_6 = this.add.image(1104, 715, "HalloweenCatalog", "buy");
         page4.add(buy_6);
+
+        // text
+        const text = this.add.text(957, 356, "", {});
+        text.setOrigin(0.5, 0.5);
+        text.text = "200";
+        text.setStyle({ "color": "#796228ff", "fontSize": "18px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page4.add(text);
+
+        // text_1
+        const text_1 = this.add.text(1107, 356, "", {});
+        text_1.setOrigin(0.5, 0.5);
+        text_1.text = "200";
+        text_1.setStyle({ "color": "#796228ff", "fontSize": "18px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page4.add(text_1);
+
+        // text_2
+        const text_2 = this.add.text(1249, 356, "", {});
+        text_2.setOrigin(0.5, 0.5);
+        text_2.text = "300";
+        text_2.setStyle({ "color": "#796228ff", "fontSize": "18px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page4.add(text_2);
+
+        // text_26
+        const text_26 = this.add.text(1251, 715, "", {});
+        text_26.setOrigin(0.5, 0.5);
+        text_26.text = "200";
+        text_26.setStyle({ "color": "#796228ff", "fontSize": "18px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page4.add(text_26);
+
+        // text_25
+        const text_25 = this.add.text(1104, 715, "", {});
+        text_25.setOrigin(0.5, 0.5);
+        text_25.text = "500";
+        text_25.setStyle({ "color": "#796228ff", "fontSize": "18px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page4.add(text_25);
+
+        // text_24
+        const text_24 = this.add.text(1252, 538, "", {});
+        text_24.setOrigin(0.5, 0.5);
+        text_24.text = "300";
+        text_24.setStyle({ "color": "#796228ff", "fontSize": "18px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page4.add(text_24);
+
+        // text_23
+        const text_23 = this.add.text(1107, 539, "", {});
+        text_23.setOrigin(0.5, 0.5);
+        text_23.text = "150";
+        text_23.setStyle({ "color": "#796228ff", "fontSize": "18px", "fontStyle": "bold", "stroke": "#796228ff", "strokeThickness":1});
+        page4.add(text_23);
 
         // page3
         const page3 = this.add.container(0, 0);
@@ -1248,7 +1488,7 @@ export default class HalloweenCatalog extends Book {
         const text_2798789798 = this.add.text(327, 163, "", {});
         text_2798789798.setOrigin(0.5, 0.5);
         text_2798789798.text = "Backgrounds for your\nplayercard";
-        text_2798789798.setStyle({ "fontFamily": "MYRIADPRO", "fontSize": "26px" });
+        text_2798789798.setStyle({ "fontFamily": "Burbank Small", "fontSize": "26px" });
         page3.add(text_2798789798);
 
         // nextPage_13
@@ -1280,6 +1520,70 @@ export default class HalloweenCatalog extends Book {
         symbol_487.scaleX = 1.4238;
         symbol_487.scaleY = 1.4238;
         page3.add(symbol_487);
+
+        // rectangle_7
+        const rectangle_7 = this.add.rectangle(589, 607, 128, 128);
+        rectangle_7.scaleX = 1.3647499701231922;
+        rectangle_7.scaleY = 1.4237697543216703;
+        rectangle_7.alpha = 0.1;
+        rectangle_7.isFilled = true;
+        page3.add(rectangle_7);
+
+        // rectangle_6
+        const rectangle_6 = this.add.rectangle(386, 396, 128, 128);
+        rectangle_6.scaleX = 1.3647499701231922;
+        rectangle_6.scaleY = 1.4237697543216703;
+        rectangle_6.alpha = 0.1;
+        rectangle_6.isFilled = true;
+        page3.add(rectangle_6);
+
+        // rectangle_5
+        const rectangle_5 = this.add.rectangle(589, 398, 128, 128);
+        rectangle_5.scaleX = 1.3647499701231922;
+        rectangle_5.scaleY = 1.4237697543216703;
+        rectangle_5.alpha = 0.1;
+        rectangle_5.isFilled = true;
+        page3.add(rectangle_5);
+
+        // rectangle_3
+        const rectangle_3 = this.add.rectangle(923, 397, 128, 128);
+        rectangle_3.scaleX = 1.3647499701231922;
+        rectangle_3.scaleY = 1.4237697543216703;
+        rectangle_3.alpha = 0.1;
+        rectangle_3.isFilled = true;
+        page3.add(rectangle_3);
+
+        // rectangle_1
+        const rectangle_1 = this.add.rectangle(386, 607, 128, 128);
+        rectangle_1.scaleX = 1.3647499701231922;
+        rectangle_1.scaleY = 1.4237697543216703;
+        rectangle_1.alpha = 0.1;
+        rectangle_1.isFilled = true;
+        page3.add(rectangle_1);
+
+        // rectangle
+        const rectangle = this.add.rectangle(1126, 606, 128, 128);
+        rectangle.scaleX = 1.3647499701231922;
+        rectangle.scaleY = 1.4237697543216703;
+        rectangle.alpha = 0.1;
+        rectangle.isFilled = true;
+        page3.add(rectangle);
+
+        // rectangle_2
+        const rectangle_2 = this.add.rectangle(1127, 399, 128, 128);
+        rectangle_2.scaleX = 1.3647499701231922;
+        rectangle_2.scaleY = 1.4237697543216703;
+        rectangle_2.alpha = 0.1;
+        rectangle_2.isFilled = true;
+        page3.add(rectangle_2);
+
+        // rectangle_4
+        const rectangle_4 = this.add.rectangle(922, 608, 128, 128);
+        rectangle_4.scaleX = 1.3647499701231922;
+        rectangle_4.scaleY = 1.4237697543216703;
+        rectangle_4.alpha = 0.1;
+        rectangle_4.isFilled = true;
+        page3.add(rectangle_4);
 
         // page2
         const page2 = this.add.container(0, 0);
@@ -1400,10 +1704,10 @@ export default class HalloweenCatalog extends Book {
         page2.add(yellow);
 
         // text_24646645
-        const text_24646645 = this.add.text(316, 157, "", {});
+        const text_24646645 = this.add.text(316, 160, "", {});
         text_24646645.setOrigin(0.5, 0.5);
         text_24646645.text = "Colors\n     for everyone!";
-        text_24646645.setStyle({ "fontFamily": "MYRIADPRO", "fontSize": "32px" });
+        text_24646645.setStyle({ "fontFamily": "burbank small", "fontSize": "32px" });
         page2.add(text_24646645);
 
         // nextPage_19494949977
@@ -1452,17 +1756,17 @@ export default class HalloweenCatalog extends Book {
         page1.add(shadow_png);
 
         // text_1uioqueioqueoqp
-        const text_1uioqueioqueoqp = this.add.text(753, 214, "", {});
+        const text_1uioqueioqueoqp = this.add.text(753, 238, "", {});
         text_1uioqueioqueoqp.setOrigin(0.5, 0.5);
         text_1uioqueioqueoqp.text = "UPNewLands Style\n";
-        text_1uioqueioqueoqp.setStyle({ "fontFamily": "Asterisk", "fontSize": "64px", "fontStyle": "bold italic" });
+        text_1uioqueioqueoqp.setStyle({ "fontFamily": "Burbank Small", "fontSize": "64px", "fontStyle": "bold italic" });
         page1.add(text_1uioqueioqueoqp);
 
         // textrgdrgdrgd
         const textrgdrgdrgd = this.add.text(814, 262, "", {});
         textrgdrgdrgd.setOrigin(0.5, 0.5);
         textrgdrgdrgd.text = "Halloween 2022 Edition\n";
-        textrgdrgdrgd.setStyle({ "fontFamily": "Asterisk", "fontSize": "32px", "fontStyle": "italic" });
+        textrgdrgdrgd.setStyle({ "fontFamily": "Burbank Small", "fontSize": "32px", "fontStyle": "italic" });
         page1.add(textrgdrgdrgd);
 
         // nextPage231
@@ -1507,7 +1811,7 @@ export default class HalloweenCatalog extends Book {
         // flagBtn_active (components)
         const flagBtn_activeButton = new Button(flagBtn_active);
         flagBtn_activeButton.spriteName = "flagBtn";
-        flagBtn_activeButton.callback = () => this.scene.buy(1);
+        flagBtn_activeButton.callback = () => this.interface.prompt.showItem(7186);
 
         // flagBtn_active_1 (components)
         const flagBtn_active_1Button = new Button(flagBtn_active_1);
@@ -1517,247 +1821,247 @@ export default class HalloweenCatalog extends Book {
         // flagBtn_active_2 (components)
         const flagBtn_active_2Button = new Button(flagBtn_active_2);
         flagBtn_active_2Button.spriteName = "flagBtn";
-        flagBtn_active_2Button.callback = () => this.scene.buy(1);
+        flagBtn_active_2Button.callback = () => this.interface.prompt.showItem(5188);
 
         // flagBtn_active_3 (components)
         const flagBtn_active_3Button = new Button(flagBtn_active_3);
         flagBtn_active_3Button.spriteName = "flagBtn";
-        flagBtn_active_3Button.callback = () => this.scene.buy(1);
+        flagBtn_active_3Button.callback = () => this.interface.prompt.showItem(7189);
 
         // flagBtn_active_4 (components)
         const flagBtn_active_4Button = new Button(flagBtn_active_4);
         flagBtn_active_4Button.spriteName = "flagBtn";
-        flagBtn_active_4Button.callback = () => this.scene.buy(1);
+        flagBtn_active_4Button.callback = () => this.interface.prompt.showItem(7148);
 
         // flagBtn_active_5 (components)
         const flagBtn_active_5Button = new Button(flagBtn_active_5);
         flagBtn_active_5Button.spriteName = "flagBtn";
-        flagBtn_active_5Button.callback = () => this.scene.buy(1);
+        flagBtn_active_5Button.callback = () => this.interface.prompt.showItem(7182);
 
         // flagBtn_active_6 (components)
         const flagBtn_active_6Button = new Button(flagBtn_active_6);
         flagBtn_active_6Button.spriteName = "flagBtn";
-        flagBtn_active_6Button.callback = () => this.scene.buy(1);
+        flagBtn_active_6Button.callback = () => this.interface.prompt.showItem(7183);
 
         // flagBtn_active_7 (components)
         const flagBtn_active_7Button = new Button(flagBtn_active_7);
         flagBtn_active_7Button.spriteName = "flagBtn";
-        flagBtn_active_7Button.callback = () => this.scene.buy(1);
+        flagBtn_active_7Button.callback = () => this.interface.prompt.showItem(544);
 
         // flagBtn_active_8 (components)
         const flagBtn_active_8Button = new Button(flagBtn_active_8);
         flagBtn_active_8Button.spriteName = "flagBtn";
-        flagBtn_active_8Button.callback = () => this.scene.buy(1);
+        flagBtn_active_8Button.callback = () => this.interface.prompt.showItem(504);
 
         // flagBtn_active_9 (components)
         const flagBtn_active_9Button = new Button(flagBtn_active_9);
         flagBtn_active_9Button.spriteName = "flagBtn";
-        flagBtn_active_9Button.callback = () => this.scene.buy(1);
+        flagBtn_active_9Button.callback = () => this.interface.prompt.showItem(7096);
 
         // flagBtn_active_10 (components)
         const flagBtn_active_10Button = new Button(flagBtn_active_10);
         flagBtn_active_10Button.spriteName = "flagBtn";
-        flagBtn_active_10Button.callback = () => this.scene.buy(1);
+        flagBtn_active_10Button.callback = () => this.interface.prompt.showItem(502);
 
         // flagBtn_active_11 (components)
         const flagBtn_active_11Button = new Button(flagBtn_active_11);
         flagBtn_active_11Button.spriteName = "flagBtn";
-        flagBtn_active_11Button.callback = () => this.scene.buy(1);
+        flagBtn_active_11Button.callback = () => this.interface.prompt.showItem(533);
 
         // flagBtn_active_12 (components)
         const flagBtn_active_12Button = new Button(flagBtn_active_12);
         flagBtn_active_12Button.spriteName = "flagBtn";
-        flagBtn_active_12Button.callback = () => this.scene.buy(1);
+        flagBtn_active_12Button.callback = () => this.interface.prompt.showItem(516);
 
         // flagBtn_active_13 (components)
         const flagBtn_active_13Button = new Button(flagBtn_active_13);
         flagBtn_active_13Button.spriteName = "flagBtn";
-        flagBtn_active_13Button.callback = () => this.buy(500);
+        flagBtn_active_13Button.callback = () => this.interface.prompt.showItem(500);
 
         // flagBtn_active_14 (components)
         const flagBtn_active_14Button = new Button(flagBtn_active_14);
         flagBtn_active_14Button.spriteName = "flagBtn";
-        flagBtn_active_14Button.callback = () => this.scene.buy(1);
+        flagBtn_active_14Button.callback = () => this.interface.prompt.showItem(505);
 
         // flagBtn_active_15 (components)
         const flagBtn_active_15Button = new Button(flagBtn_active_15);
         flagBtn_active_15Button.spriteName = "flagBtn";
-        flagBtn_active_15Button.callback = () => this.scene.buy(1);
+        flagBtn_active_15Button.callback = () => this.interface.prompt.showItem(529);
 
         // flagBtn_active_16 (components)
         const flagBtn_active_16Button = new Button(flagBtn_active_16);
         flagBtn_active_16Button.spriteName = "flagBtn";
-        flagBtn_active_16Button.callback = () => this.scene.buy(1);
+        flagBtn_active_16Button.callback = () => this.interface.prompt.showItem(507);
 
         // flagBtn_active_17 (components)
         const flagBtn_active_17Button = new Button(flagBtn_active_17);
         flagBtn_active_17Button.spriteName = "flagBtn";
-        flagBtn_active_17Button.callback = () => this.scene.buy(1);
+        flagBtn_active_17Button.callback = () => this.interface.prompt.showItem(540);
 
         // flagBtn_active_18 (components)
         const flagBtn_active_18Button = new Button(flagBtn_active_18);
         flagBtn_active_18Button.spriteName = "flagBtn";
-        flagBtn_active_18Button.callback = () => this.scene.buy(1);
+        flagBtn_active_18Button.callback = () => this.interface.prompt.showItem(536);
 
         // flagBtn_active_20 (components)
         const flagBtn_active_20Button = new Button(flagBtn_active_20);
         flagBtn_active_20Button.spriteName = "flagBtn";
-        flagBtn_active_20Button.callback = () => this.scene.buy(1);
+        flagBtn_active_20Button.callback = () => this.interface.prompt.showItem(508);
 
         // flagBtn_active_21 (components)
         const flagBtn_active_21Button = new Button(flagBtn_active_21);
         flagBtn_active_21Button.spriteName = "flagBtn";
-        flagBtn_active_21Button.callback = () => this.scene.buy(1);
+        flagBtn_active_21Button.callback = () => this.interface.prompt.showItem(530);
 
         // flagBtn_active_22 (components)
         const flagBtn_active_22Button = new Button(flagBtn_active_22);
         flagBtn_active_22Button.spriteName = "flagBtn";
-        flagBtn_active_22Button.callback = () => this.scene.buy(1);
+        flagBtn_active_22Button.callback = () => this.interface.prompt.showItem(548);
 
         // flagBtn_active_23 (components)
         const flagBtn_active_23Button = new Button(flagBtn_active_23);
         flagBtn_active_23Button.spriteName = "flagBtn";
-        flagBtn_active_23Button.callback = () => this.scene.buy(1);
+        flagBtn_active_23Button.callback = () => this.interface.prompt.showItem(546);
 
         // flagBtn_active_24 (components)
         const flagBtn_active_24Button = new Button(flagBtn_active_24);
         flagBtn_active_24Button.spriteName = "flagBtn";
-        flagBtn_active_24Button.callback = () => this.scene.buy(1);
+        flagBtn_active_24Button.callback = () => this.interface.prompt.showItem(513);
 
         // flagBtn_active_25 (components)
         const flagBtn_active_25Button = new Button(flagBtn_active_25);
         flagBtn_active_25Button.spriteName = "flagBtn";
-        flagBtn_active_25Button.callback = () => this.scene.buy(1);
+        flagBtn_active_25Button.callback = () => this.interface.prompt.showItem(537);
 
         // flagBtn_active_26 (components)
         const flagBtn_active_26Button = new Button(flagBtn_active_26);
         flagBtn_active_26Button.spriteName = "flagBtn";
-        flagBtn_active_26Button.callback = () => this.scene.buy(1);
+        flagBtn_active_26Button.callback = () => this.interface.prompt.showItem(517);
 
         // flagBtn_active_27 (components)
         const flagBtn_active_27Button = new Button(flagBtn_active_27);
         flagBtn_active_27Button.spriteName = "flagBtn";
-        flagBtn_active_27Button.callback = () => this.scene.buy(1);
+        flagBtn_active_27Button.callback = () => this.interface.prompt.showItem(526);
 
         // flagBtn_active_28 (components)
         const flagBtn_active_28Button = new Button(flagBtn_active_28);
         flagBtn_active_28Button.spriteName = "flagBtn";
-        flagBtn_active_28Button.callback = () => this.scene.buy(1);
+        flagBtn_active_28Button.callback = () => this.interface.prompt.showItem(518);
 
         // flagBtn_active_29 (components)
         const flagBtn_active_29Button = new Button(flagBtn_active_29);
         flagBtn_active_29Button.spriteName = "flagBtn";
-        flagBtn_active_29Button.callback = () => this.scene.buy(1);
+        flagBtn_active_29Button.callback = () => this.interface.prompt.showItem(7095);
 
         // flagBtn_active_30 (components)
         const flagBtn_active_30Button = new Button(flagBtn_active_30);
         flagBtn_active_30Button.spriteName = "flagBtn";
-        flagBtn_active_30Button.callback = () => this.scene.buy(1);
+        flagBtn_active_30Button.callback = () => this.interface.prompt.showItem(543);
 
         // flagBtn_active_31 (components)
         const flagBtn_active_31Button = new Button(flagBtn_active_31);
         flagBtn_active_31Button.spriteName = "flagBtn";
-        flagBtn_active_31Button.callback = () => this.scene.buy(1);
+        flagBtn_active_31Button.callback = () => this.interface.prompt.showItem(522);
 
         // flagBtn_active_32 (components)
         const flagBtn_active_32Button = new Button(flagBtn_active_32);
         flagBtn_active_32Button.spriteName = "flagBtn";
-        flagBtn_active_32Button.callback = () => this.scene.buy(1);
+        flagBtn_active_32Button.callback = () => this.interface.prompt.showItem(511);
 
         // flagBtn_active_33 (components)
         const flagBtn_active_33Button = new Button(flagBtn_active_33);
         flagBtn_active_33Button.spriteName = "flagBtn";
-        flagBtn_active_33Button.callback = () => this.scene.buy(1);
+        flagBtn_active_33Button.callback = () => this.interface.prompt.showItem(528);
 
         // flagBtn_active_34 (components)
         const flagBtn_active_34Button = new Button(flagBtn_active_34);
         flagBtn_active_34Button.spriteName = "flagBtn";
-        flagBtn_active_34Button.callback = () => this.scene.buy(1);
+        flagBtn_active_34Button.callback = () => this.interface.prompt.showItem(534);
 
         // flagBtn_active_35 (components)
         const flagBtn_active_35Button = new Button(flagBtn_active_35);
         flagBtn_active_35Button.spriteName = "flagBtn";
-        flagBtn_active_35Button.callback = () => this.scene.buy(1);
+        flagBtn_active_35Button.callback = () => this.interface.prompt.showItem(512);
 
         // flagBtn_active_36 (components)
         const flagBtn_active_36Button = new Button(flagBtn_active_36);
         flagBtn_active_36Button.spriteName = "flagBtn";
-        flagBtn_active_36Button.callback = () => this.scene.buy(1);
+        flagBtn_active_36Button.callback = () => this.interface.prompt.showItem(545);
 
         // flagBtn_active_37 (components)
         const flagBtn_active_37Button = new Button(flagBtn_active_37);
         flagBtn_active_37Button.spriteName = "flagBtn";
-        flagBtn_active_37Button.callback = () => this.scene.buy(1);
+        flagBtn_active_37Button.callback = () => this.interface.prompt.showItem(531);
 
         // flagBtn_active_38 (components)
         const flagBtn_active_38Button = new Button(flagBtn_active_38);
         flagBtn_active_38Button.spriteName = "flagBtn";
-        flagBtn_active_38Button.callback = () => this.scene.buy(1);
+        flagBtn_active_38Button.callback = () => this.interface.prompt.showItem(527);
 
         // flagBtn_active_39 (components)
         const flagBtn_active_39Button = new Button(flagBtn_active_39);
         flagBtn_active_39Button.spriteName = "flagBtn";
-        flagBtn_active_39Button.callback = () => this.scene.buy(1);
+        flagBtn_active_39Button.callback = () => this.interface.prompt.showItem(524);
 
         // flagBtn_active_40 (components)
         const flagBtn_active_40Button = new Button(flagBtn_active_40);
         flagBtn_active_40Button.spriteName = "flagBtn";
-        flagBtn_active_40Button.callback = () => this.scene.buy(1);
+        flagBtn_active_40Button.callback = () => this.interface.prompt.showItem(509);
 
         // flagBtn_active_41 (components)
         const flagBtn_active_41Button = new Button(flagBtn_active_41);
         flagBtn_active_41Button.spriteName = "flagBtn";
-        flagBtn_active_41Button.callback = () => this.scene.buy(1);
+        flagBtn_active_41Button.callback = () => this.interface.prompt.showItem(510);
 
         // flagBtn_active_42 (components)
         const flagBtn_active_42Button = new Button(flagBtn_active_42);
         flagBtn_active_42Button.spriteName = "flagBtn";
-        flagBtn_active_42Button.callback = () => this.buy(503);
+        flagBtn_active_42Button.callback = () => this.interface.prompt.showItem(503);
 
         // flagBtn_active_43 (components)
         const flagBtn_active_43Button = new Button(flagBtn_active_43);
         flagBtn_active_43Button.spriteName = "flagBtn";
-        flagBtn_active_43Button.callback = () => this.scene.buy(1);
+        flagBtn_active_43Button.callback = () => this.interface.prompt.showItem(541);
 
         // flagBtn_active_44 (components)
         const flagBtn_active_44Button = new Button(flagBtn_active_44);
         flagBtn_active_44Button.spriteName = "flagBtn";
-        flagBtn_active_44Button.callback = () => this.scene.buy(1);
+        flagBtn_active_44Button.callback = () => this.interface.prompt.showItem(516);
 
         // flagBtn_active_45 (components)
         const flagBtn_active_45Button = new Button(flagBtn_active_45);
         flagBtn_active_45Button.spriteName = "flagBtn";
-        flagBtn_active_45Button.callback = () => this.scene.buy(1);
+        flagBtn_active_45Button.callback = () => this.interface.prompt.showItem(544);
 
         // flagBtn_active_46 (components)
         const flagBtn_active_46Button = new Button(flagBtn_active_46);
         flagBtn_active_46Button.spriteName = "flagBtn";
-        flagBtn_active_46Button.callback = () => this.scene.buy(1);
+        flagBtn_active_46Button.callback = () => this.interface.prompt.showItem(515);
 
         // flagBtn_active_47 (components)
         const flagBtn_active_47Button = new Button(flagBtn_active_47);
         flagBtn_active_47Button.spriteName = "flagBtn";
-        flagBtn_active_47Button.callback = () => this.scene.buy(1);
+        flagBtn_active_47Button.callback = () => this.interface.prompt.showItem(502);
 
         // flagBtn_active_19 (components)
         const flagBtn_active_19Button = new Button(flagBtn_active_19);
         flagBtn_active_19Button.spriteName = "flagBtn";
-        flagBtn_active_19Button.callback = () => this.scene.buy(1);
+        flagBtn_active_19Button.callback = () => this.interface.prompt.showItem(506);
 
         // flagBtn_active_48 (components)
         const flagBtn_active_48Button = new Button(flagBtn_active_48);
         flagBtn_active_48Button.spriteName = "flagBtn";
-        flagBtn_active_48Button.callback = () => this.scene.buy(1);
+        flagBtn_active_48Button.callback = () => this.interface.prompt.showItem(521);
 
         // flagBtn_active_49 (components)
         const flagBtn_active_49Button = new Button(flagBtn_active_49);
         flagBtn_active_49Button.spriteName = "flagBtn";
-        flagBtn_active_49Button.callback = () => this.scene.buy(1);
+        flagBtn_active_49Button.callback = () => this.interface.prompt.showItem(519);
 
         // flagBtn_active_50 (components)
         const flagBtn_active_50Button = new Button(flagBtn_active_50);
         flagBtn_active_50Button.spriteName = "flagBtn";
-        flagBtn_active_50Button.callback = () => this.buy(501);
+        flagBtn_active_50Button.callback = () => this.interface.prompt.showItem(501);
 
         // flagBtn_active_51 (components)
         const flagBtn_active_51Button = new Button(flagBtn_active_51);
@@ -1767,37 +2071,37 @@ export default class HalloweenCatalog extends Book {
         // flagBtn_active_52 (components)
         const flagBtn_active_52Button = new Button(flagBtn_active_52);
         flagBtn_active_52Button.spriteName = "flagBtn";
-        flagBtn_active_52Button.callback = () => this.scene.buy(1);
+        flagBtn_active_52Button.callback = () => this.interface.prompt.showItem(547);
 
         // flagBtn_active_54 (components)
         const flagBtn_active_54Button = new Button(flagBtn_active_54);
         flagBtn_active_54Button.spriteName = "flagBtn";
-        flagBtn_active_54Button.callback = () => this.scene.buy(1);
+        flagBtn_active_54Button.callback = () => this.interface.prompt.showItem(7185);
 
         // flagBtn_active_55 (components)
         const flagBtn_active_55Button = new Button(flagBtn_active_55);
         flagBtn_active_55Button.spriteName = "flagBtn";
-        flagBtn_active_55Button.callback = () => this.scene.buy(1);
+        flagBtn_active_55Button.callback = () => this.interface.prompt.showItem(514);
 
         // flagBtn_active_56 (components)
         const flagBtn_active_56Button = new Button(flagBtn_active_56);
         flagBtn_active_56Button.spriteName = "flagBtn";
-        flagBtn_active_56Button.callback = () => this.scene.buy(1);
+        flagBtn_active_56Button.callback = () => this.interface.prompt.showItem(538);
 
         // flagBtn_active_57 (components)
         const flagBtn_active_57Button = new Button(flagBtn_active_57);
         flagBtn_active_57Button.spriteName = "flagBtn";
-        flagBtn_active_57Button.callback = () => this.scene.buy(1);
+        flagBtn_active_57Button.callback = () => this.interface.prompt.showItem(525);
 
         // flagBtn_active_58 (components)
         const flagBtn_active_58Button = new Button(flagBtn_active_58);
         flagBtn_active_58Button.spriteName = "flagBtn";
-        flagBtn_active_58Button.callback = () => this.scene.buy(1);
+        flagBtn_active_58Button.callback = () => this.interface.prompt.showItem(542);
 
         // flagBtn_active_53 (components)
         const flagBtn_active_53Button = new Button(flagBtn_active_53);
         flagBtn_active_53Button.spriteName = "flagBtn";
-        flagBtn_active_53Button.callback = () => this.scene.buy(1);
+        flagBtn_active_53Button.callback = () => this.interface.prompt.showItem(539);
 
         // nextPage_1345 (components)
         const nextPage_1345Button = new Button(nextPage_1345);
@@ -1832,18 +2136,22 @@ export default class HalloweenCatalog extends Book {
         // buy_30454 (components)
         const buy_30454Button = new Button(buy_30454);
         buy_30454Button.spriteName = "buy";
+        buy_30454Button.callback = () => this.interface.prompt.showItem(1486);
 
         // buy_31555 (components)
         const buy_31555Button = new Button(buy_31555);
         buy_31555Button.spriteName = "buy";
+        buy_31555Button.callback = () => this.interface.prompt.showItem(2081);
 
         // buy_32wada (components)
         const buy_32wadaButton = new Button(buy_32wada);
         buy_32wadaButton.spriteName = "buy";
+        buy_32wadaButton.callback = () => this.interface.prompt.showItem(4722);
 
         // buy_333222 (components)
         const buy_333222Button = new Button(buy_333222);
         buy_333222Button.spriteName = "buy";
+        buy_333222Button.callback = () => this.interface.prompt.showItem(5177);
 
         // nextPage_9 (components)
         const nextPage_9Button = new Button(nextPage_9);
@@ -1863,46 +2171,57 @@ export default class HalloweenCatalog extends Book {
         // buy_25g65 (components)
         const buy_25g65Button = new Button(buy_25g65);
         buy_25g65Button.spriteName = "buy";
+        buy_25g65Button.callback =  () => this.interface.prompt.showItem(1928);
 
         // buy_2655555 (components)
         const buy_2655555Button = new Button(buy_2655555);
         buy_2655555Button.spriteName = "buy";
+        buy_2655555Button.callback = () => this.interface.prompt.showItem(5486);
 
         // buy_27qwd (components)
         const buy_27qwdButton = new Button(buy_27qwd);
         buy_27qwdButton.spriteName = "buy";
+        buy_27qwdButton.callback = () => this.interface.prompt.showItem(24209);
 
         // buy_28 (components)
         const buy_28Button = new Button(buy_28);
         buy_28Button.spriteName = "buy";
+        buy_28Button.callback = () => this.interface.prompt.showItem(6236);
 
         // buy_29rrgrg (components)
         const buy_29rrgrgButton = new Button(buy_29rrgrg);
         buy_29rrgrgButton.spriteName = "buy";
+        buy_29rrgrgButton.callback = () => this.interface.prompt.showItem(5487);
 
         // buy_1948g9dq (components)
         const buy_1948g9dqButton = new Button(buy_1948g9dq);
         buy_1948g9dqButton.spriteName = "buy";
+        buy_1948g9dqButton.callback = () => this.interface.prompt.showItem(2080);
 
         // buy_205f5f58798 (components)
         const buy_205f5f58798Button = new Button(buy_205f5f58798);
         buy_205f5f58798Button.spriteName = "buy";
+        buy_205f5f58798Button.callback = () => this.interface.prompt.showItem(2086);
 
         // buy_212135 (components)
         const buy_212135Button = new Button(buy_212135);
         buy_212135Button.spriteName = "buy";
+        buy_212135Button.callback =  () => this.interface.prompt.showItem(2088);
 
         // buy_22u8lu (components)
         const buy_22u8luButton = new Button(buy_22u8lu);
         buy_22u8luButton.spriteName = "buy";
+        buy_22u8luButton.callback = () => this.interface.prompt.showItem(2084);
 
         // buy_23lihl (components)
         const buy_23lihlButton = new Button(buy_23lihl);
         buy_23lihlButton.spriteName = "buy";
+        buy_23lihlButton.callback = () => this.interface.prompt.showItem(2130);
 
         // buy_24u65 (components)
         const buy_24u65Button = new Button(buy_24u65);
         buy_24u65Button.spriteName = "buy";
+        buy_24u65Button.callback = () => this.interface.prompt.showItem(2129);
 
         // nextPage_8 (components)
         const nextPage_8Button = new Button(nextPage_8);
@@ -1937,14 +2256,17 @@ export default class HalloweenCatalog extends Book {
         // buy_16 (components)
         const buy_16Button = new Button(buy_16);
         buy_16Button.spriteName = "buy";
+        buy_16Button.callback = () => this.interface.prompt.showItem(37380);
 
         // buy_17 (components)
         const buy_17Button = new Button(buy_17);
         buy_17Button.spriteName = "buy";
+        buy_17Button.callback = () => this.interface.prompt.showItem(37383);
 
         // buy_18 (components)
         const buy_18Button = new Button(buy_18);
         buy_18Button.spriteName = "buy";
+        buy_18Button.callback = () => this.interface.prompt.showItem(37381);
 
         // nextPage_6 (components)
         const nextPage_6Button = new Button(nextPage_6);
@@ -1964,22 +2286,27 @@ export default class HalloweenCatalog extends Book {
         // buy_11 (components)
         const buy_11Button = new Button(buy_11);
         buy_11Button.spriteName = "buy";
+        buy_11Button.callback = () => this.interface.prompt.showItem(24210);
 
         // buy_12 (components)
         const buy_12Button = new Button(buy_12);
         buy_12Button.spriteName = "buy";
+        buy_12Button.callback = () => this.interface.prompt.showItem(1929);
 
         // buy_13 (components)
         const buy_13Button = new Button(buy_13);
         buy_13Button.spriteName = "buy";
+        buy_13Button.callback = () => this.interface.prompt.showItem(1930);
 
         // buy_14 (components)
         const buy_14Button = new Button(buy_14);
         buy_14Button.spriteName = "buy";
+        buy_14Button.callback = () => this.interface.prompt.showItem(3218);
 
         // buy_15 (components)
         const buy_15Button = new Button(buy_15);
         buy_15Button.spriteName = "buy";
+        buy_15Button.callback = () => this.interface.prompt.showItem(24211);
 
         // nextPage_5 (components)
         const nextPage_5Button = new Button(nextPage_5);
@@ -1999,18 +2326,17 @@ export default class HalloweenCatalog extends Book {
         // buy_7 (components)
         const buy_7Button = new Button(buy_7);
         buy_7Button.spriteName = "buy";
-
-        // buy_8 (components)
-        const buy_8Button = new Button(buy_8);
-        buy_8Button.spriteName = "buy";
+        buy_7Button.callback = () => this.interface.prompt.showItem(37382);
 
         // buy_9 (components)
         const buy_9Button = new Button(buy_9);
         buy_9Button.spriteName = "buy";
+        buy_9Button.callback = () => this.interface.prompt.showItem(37384);
 
         // buy_10 (components)
         const buy_10Button = new Button(buy_10);
         buy_10Button.spriteName = "buy";
+        buy_10Button.callback = () => this.interface.prompt.showItem(37386);
 
         // nextPage_4 (components)
         const nextPage_4Button = new Button(nextPage_4);
@@ -2030,30 +2356,37 @@ export default class HalloweenCatalog extends Book {
         // buy (components)
         const buyButton = new Button(buy);
         buyButton.spriteName = "buy";
+        buyButton.callback = () => this.interface.prompt.showItem(210);
 
         // buy_1 (components)
         const buy_1Button = new Button(buy_1);
         buy_1Button.spriteName = "buy";
+        buy_1Button.callback = () => this.interface.prompt.showItem(405);
 
         // buy_2 (components)
         const buy_2Button = new Button(buy_2);
         buy_2Button.spriteName = "buy";
+        buy_2Button.callback = () => this.interface.prompt.showItem(717);
 
         // buy_3 (components)
         const buy_3Button = new Button(buy_3);
         buy_3Button.spriteName = "buy";
+        buy_3Button.callback = () => this.interface.prompt.showItem(3099);
 
         // buy_4 (components)
         const buy_4Button = new Button(buy_4);
         buy_4Button.spriteName = "buy";
+        buy_4Button.callback = () => this.interface.prompt.showItem(713);
 
         // buy_5 (components)
         const buy_5Button = new Button(buy_5);
         buy_5Button.spriteName = "buy";
+        buy_5Button.callback = () => this.interface.prompt.showItem(203);
 
         // buy_6 (components)
         const buy_6Button = new Button(buy_6);
         buy_6Button.spriteName = "buy";
+        buy_6Button.callback = () => this.interface.prompt.showItem(653);
 
         // nextPage_13 (components)
         const nextPage_13Button = new Button(nextPage_13);
@@ -2070,80 +2403,112 @@ export default class HalloweenCatalog extends Book {
         close_33Button.spriteName = "close";
         close_33Button.callback = () => this.close();
 
+        // rectangle_7 (components)
+        const rectangle_7SimpleButton = new SimpleButton(rectangle_7);
+        rectangle_7SimpleButton.callback = () => this.interface.prompt.showItem(9111);
+
+        // rectangle_6 (components)
+        const rectangle_6SimpleButton = new SimpleButton(rectangle_6);
+        rectangle_6SimpleButton.callback = () => this.interface.prompt.showItem(9282);
+
+        // rectangle_5 (components)
+        const rectangle_5SimpleButton = new SimpleButton(rectangle_5);
+        rectangle_5SimpleButton.callback = () => this.interface.prompt.showItem(9281);
+
+        // rectangle_3 (components)
+        const rectangle_3SimpleButton = new SimpleButton(rectangle_3);
+        rectangle_3SimpleButton.callback = () => this.interface.prompt.showItem(9233);
+
+        // rectangle_1 (components)
+        const rectangle_1SimpleButton = new SimpleButton(rectangle_1);
+        rectangle_1SimpleButton.callback = () => this.interface.prompt.showItem(9044);
+
+        // rectangle (components)
+        const rectangleSimpleButton = new SimpleButton(rectangle);
+        rectangleSimpleButton.callback = () => this.interface.prompt.showItem(9006);
+
+        // rectangle_2 (components)
+        const rectangle_2SimpleButton = new SimpleButton(rectangle_2);
+        rectangle_2SimpleButton.callback = () => this.interface.prompt.showItem(9170);
+
+        // rectangle_4 (components)
+        const rectangle_4SimpleButton = new SimpleButton(rectangle_4);
+        rectangle_4SimpleButton.callback = () => this.interface.prompt.showItem(9004);
+
         // aqua (components)
         const aquaButton = new Button(aqua);
         aquaButton.spriteName = "aqua";
-        aquaButton.callback = () => this.scene.buy(9);
+        aquaButton.callback = () => this.interface.prompt.showItem(12);
 
         // black (components)
         const blackButton = new Button(black);
         blackButton.spriteName = "black";
-        blackButton.callback = () => this.scene.buy(13);
+        blackButton.callback = () => this.interface.prompt.showItem(4);
 
         // blue (components)
         const blueButton = new Button(blue);
         blueButton.spriteName = "blue";
-        blueButton.callback = () => this.scene.buy(1);
+        blueButton.callback = () => this.interface.prompt.showItem(1);
 
         // brown (components)
         const brownButton = new Button(brown);
         brownButton.spriteName = "brown";
-        brownButton.callback = () => this.scene.buy(5);
+        brownButton.callback = () => this.interface.prompt.showItem(9);
 
         // cyan (components)
         const cyanButton = new Button(cyan);
         cyanButton.spriteName = "cyan";
-        cyanButton.callback = () => this.scene.buy(7);
+        cyanButton.callback = () => this.interface.prompt.showItem(15);
 
         // darkgreen (components)
         const darkgreenButton = new Button(darkgreen);
         darkgreenButton.spriteName = "darkgreen";
-        darkgreenButton.callback = () => this.scene.buy(14);
+        darkgreenButton.callback = () => this.interface.prompt.showItem(11);
 
         // green (components)
         const greenButton = new Button(green);
         greenButton.spriteName = "green";
-        greenButton.callback = () => this.scene.buy(2);
+        greenButton.callback = () => this.interface.prompt.showItem(2);
 
         // lime (components)
         const limeButton = new Button(lime);
         limeButton.spriteName = "lime";
-        limeButton.callback = () => this.scene.buy(8);
+        limeButton.callback = () => this.interface.prompt.showItem(13);
 
         // magenta (components)
         const magentaButton = new Button(magenta);
         magentaButton.spriteName = "magenta";
-        magentaButton.callback = () => this.scene.buy(3);
+        magentaButton.callback = () => this.interface.prompt.showItem(3);
 
         // orange (components)
         const orangeButton = new Button(orange);
         orangeButton.spriteName = "orange";
-        orangeButton.callback = () => this.scene.buy(11);
+        orangeButton.callback = () => this.interface.prompt.showItem(6);
 
         // pink (components)
         const pinkButton = new Button(pink);
         pinkButton.spriteName = "pink";
-        pinkButton.callback = () => this.scene.buy(6);
+        pinkButton.callback = () => this.interface.prompt.showItem(10);
 
         // purple (components)
         const purpleButton = new Button(purple);
         purpleButton.spriteName = "purple";
-        purpleButton.callback = () => this.scene.buy(4);
+        purpleButton.callback = () => this.interface.prompt.showItem(8);
 
         // red (components)
         const redButton = new Button(red);
         redButton.spriteName = "red";
-        redButton.callback = () => this.scene.buy(10);
+        redButton.callback = () => this.interface.prompt.showItem(5);
 
         // white (components)
         const whiteButton = new Button(white);
         whiteButton.spriteName = "white";
-        whiteButton.callback = () => this.scene.buy(15);
+        whiteButton.callback = () => this.interface.prompt.showItem(16);
 
         // yellow (components)
         const yellowButton = new Button(yellow);
         yellowButton.spriteName = "yellow";
-        yellowButton.callback = () => this.scene.buy(12);
+        yellowButton.callback = () => this.interface.prompt.showItem(7);
 
         // nextPage_19494949977 (components)
         const nextPage_19494949977Button = new Button(nextPage_19494949977);
@@ -2184,7 +2549,6 @@ export default class HalloweenCatalog extends Book {
 
     create() {
         super.create()
-
         this.setCoins(this.world.client.coins)
     }
 

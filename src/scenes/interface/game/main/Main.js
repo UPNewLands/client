@@ -172,6 +172,8 @@ export default class Main extends BaseScene {
         this.snitch;
         /** @type {Moderator} */
         this.moderator;
+        /** @type {Phaser.GameObjects.Image} */
+        this.icon_1;
         /** @type {Halloween} */
         this.halloween;
         /** @type {Gary} */
@@ -553,6 +555,7 @@ export default class Main extends BaseScene {
         const icon_1 = this.add.image(1344, 73, "newinterface", "icon");
         icon_1.scaleX = 0.5;
         icon_1.scaleY = 0.5;
+        icon_1.visible = false;
 
         // halloween
         const halloween = new Halloween(this, 538, 452);
@@ -763,6 +766,7 @@ export default class Main extends BaseScene {
         this.modActions = modActions;
         this.snitch = snitch;
         this.moderator = moderator;
+        this.icon_1 = icon_1;
         this.halloween = halloween;
         this.gary = gary;
         this.success_1 = success_1;
@@ -791,6 +795,13 @@ export default class Main extends BaseScene {
 
         if (this.world.client.penguin.rank > 4){
             this.log.visible = true
+        }
+
+        if (this.world.client.penguin.candy1 == 1 && 
+            this.world.client.penguin.candy2 == 1 && 
+            this.world.client.penguin.candy3 == 1 && 
+            this.world.client.penguin.candy4 == 1){
+            this.icon_1.visible = true;
         }
 
         this.setupWidgets()

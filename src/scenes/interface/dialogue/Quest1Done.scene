@@ -22,82 +22,191 @@
             "y": 650,
             "list": [
                 {
-                    "type": "Rectangle",
-                    "id": "efd0fe68-e58b-4d54-b776-b96ab7ab285f",
-                    "label": "rectangle_2",
+                    "type": "Container",
+                    "id": "c4cf4eac-ceaf-4f34-bd60-6fe36256c5fb",
+                    "label": "dialogue_2",
                     "components": [],
-                    "x": 346,
-                    "y": -164,
-                    "scaleX": 12.45414843162558,
-                    "scaleY": 8.033582834174968,
-                    "alpha": 0.5,
-                    "isFilled": true,
-                    "width": 128,
-                    "height": 128
+                    "x": -406,
+                    "y": -650,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "7b439cfe-110c-4a08-abba-0bebf34b3eb6",
+                            "label": "rectangle",
+                            "components": [
+                                "Interactive"
+                            ],
+                            "x": 746,
+                            "y": 478,
+                            "scaleX": 12.45414843162558,
+                            "scaleY": 8.033582834174968,
+                            "alpha": 0.5,
+                            "isFilled": true,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "96d8d7af-a8fa-4204-836e-c00bb11c7e92",
+                            "label": "globe",
+                            "components": [],
+                            "texture": {
+                                "key": "dialogue",
+                                "frame": "globe"
+                            },
+                            "x": 956,
+                            "y": 791
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b14c65b2-372c-4f12-9721-f21c84252dc1",
+                            "label": "ok",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "ok",
+                            "Button.callback": "() => this.finishDialog()",
+                            "texture": {
+                                "key": "dialogue",
+                                "frame": "ok"
+                            },
+                            "x": 1342,
+                            "y": 842
+                        },
+                        {
+                            "type": "Text",
+                            "id": "5064123a-8df6-4f5a-b836-7c42ba368a89",
+                            "label": "text",
+                            "components": [],
+                            "x": 1309,
+                            "y": 827,
+                            "text": "Close",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "25px",
+                            "color": "#858585ff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "72a556b9-6921-4ca0-b4e4-abf207086b18",
+                            "label": "text_1",
+                            "components": [],
+                            "x": 574,
+                            "y": 716,
+                            "text": "You can visit my lab through here, get free items and check \nif I need more help, there will be a lot of surprises!",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "25px",
+                            "color": "#858585ff"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "145adf46-eb3b-4526-98fc-8f53304a50da",
+                            "label": "gary_happy",
+                            "components": [],
+                            "texture": {
+                                "key": "dialogue",
+                                "frame": "gary-happy"
+                            },
+                            "x": 239,
+                            "y": 709
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "06af956b-4de1-4662-8439-5267fa0b4d7a",
+                            "label": "party_icon",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "party-icon",
+                            "Animation.end": 20,
+                            "Animation.stopOnOut": false,
+                            "Animation.hideOnComplete": true,
+                            "texture": {
+                                "key": "dialogue",
+                                "frame": "party-icon0001"
+                            },
+                            "x": 1157,
+                            "y": 223
+                        }
+                    ]
                 },
                 {
-                    "type": "Image",
-                    "id": "88160ac3-6638-4d34-897e-92cf02723c2b",
-                    "label": "globe_2",
+                    "type": "Container",
+                    "id": "b228503d-5fe0-4ebc-88ad-2dc47f317512",
+                    "label": "container_1",
                     "components": [],
-                    "texture": {
-                        "key": "dialogue",
-                        "frame": "globe"
-                    },
-                    "x": 556,
-                    "y": 149
-                },
-                {
-                    "type": "Image",
-                    "id": "88fe2d41-ee69-46ac-9aa8-950054baa091",
-                    "label": "ok_1",
-                    "components": [
-                        "Button"
-                    ],
-                    "Button.spriteName": "ok",
-                    "Button.callback": "() => this.visible = false;",
-                    "texture": {
-                        "key": "dialogue",
-                        "frame": "ok"
-                    },
-                    "x": 942,
-                    "y": 200
-                },
-                {
-                    "type": "Image",
-                    "id": "a12d02de-ad0e-4bfa-8e23-13cede266132",
-                    "label": "gary_happy_2",
-                    "components": [],
-                    "texture": {
-                        "key": "dialogue",
-                        "frame": "gary-happy"
-                    },
-                    "x": -161,
-                    "y": 67
-                },
-                {
-                    "type": "Text",
-                    "id": "6d55e60e-b888-4c05-8d75-25a0df0b0b82",
-                    "label": "text_4",
-                    "components": [],
-                    "x": 174,
-                    "y": 74,
-                    "text": "Great, you got all of them! I'll start working on my compost then. \nYou can come to my lab and see my work!",
-                    "fontFamily": "Burbank Small",
-                    "fontSize": "25px",
-                    "color": "#858585ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "df4f11ff-98c6-4f8c-b36d-a306840f850f",
-                    "label": "text_5",
-                    "components": [],
-                    "x": 909,
-                    "y": 185,
-                    "text": "Close",
-                    "fontFamily": "Burbank Small",
-                    "fontSize": "25px",
-                    "color": "#858585ff"
+                    "x": -406,
+                    "y": -650,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "709b5833-38ae-4d0c-8807-d0b725815636",
+                            "label": "rectangle_2",
+                            "components": [
+                                "Interactive"
+                            ],
+                            "x": 746,
+                            "y": 482,
+                            "scaleX": 12.45414843162558,
+                            "scaleY": 8.033582834174968,
+                            "alpha": 0.5,
+                            "isFilled": true,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d79f21cd-3047-433e-9d33-5eccf1942e26",
+                            "label": "gary_happy_2",
+                            "components": [],
+                            "texture": {
+                                "key": "dialogue",
+                                "frame": "gary-happy"
+                            },
+                            "x": 239,
+                            "y": 713
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b21209d4-795b-4454-95b4-74054e867f0d",
+                            "label": "globe_2",
+                            "components": [],
+                            "texture": {
+                                "key": "dialogue",
+                                "frame": "globe"
+                            },
+                            "x": 956,
+                            "y": 795
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f38405f0-9246-4451-a3d0-aef340072a92",
+                            "label": "text_4",
+                            "components": [],
+                            "x": 574,
+                            "y": 720,
+                            "text": "Great, you got all of them! I'll start working on my compost then. \nYou can come to my lab and see my work!",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "25px",
+                            "color": "#858585ff"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3fb98437-cb03-48d0-8246-3544af85f8b8",
+                            "label": "next_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "next",
+                            "Button.callback": "() => this.firstDialog();",
+                            "texture": {
+                                "key": "dialogue",
+                                "frame": "next"
+                            },
+                            "x": 1334,
+                            "y": 849
+                        }
+                    ]
                 }
             ]
         }

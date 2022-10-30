@@ -1219,6 +1219,7 @@
             "type": "Image",
             "id": "7edcbf6c-f950-4ded-a426-accb1f3d300d",
             "label": "icon_1",
+            "scope": "CLASS",
             "components": [
                 "Button"
             ],
@@ -1231,7 +1232,8 @@
             "x": 1344,
             "y": 73,
             "scaleX": 0.5,
-            "scaleY": 0.5
+            "scaleY": 0.5,
+            "visible": false
         },
         {
             "prefabId": "991b2866-3e07-4b50-936d-76af731735af",

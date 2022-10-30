@@ -92,7 +92,7 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "UPNewLands Style\n",
-                    "fontFamily": "Asterisk",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "64px",
                     "fontStyle": "bold italic"
                 },
@@ -106,7 +106,7 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Halloween 2022 Edition\n",
-                    "fontFamily": "Asterisk",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "32px",
                     "fontStyle": "italic"
                 },
@@ -151,13 +151,13 @@
                     "id": "5692e2af-a026-4361-9e74-41f17c4a4cea",
                     "label": "text_882828",
                     "components": [],
-                    "x": 645,
-                    "y": 617,
+                    "x": 571,
+                    "y": 693,
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Made by wildmaster84\nand alot of tears :')",
-                    "fontFamily": "Asterisk",
-                    "fontSize": "32px",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px",
                     "fontStyle": "italic"
                 }
             ]
@@ -191,7 +191,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(7186)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -227,7 +227,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(5188)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -245,7 +245,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(7189)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -263,7 +263,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(7148)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -281,7 +281,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(7182)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -299,7 +299,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(7183)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -317,7 +317,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(544)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -335,7 +335,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(504)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -353,7 +353,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(7096)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -371,7 +371,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(502)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -389,7 +389,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(533)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -407,7 +407,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(516)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -425,7 +425,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.buy(500)",
+                    "Button.callback": "() => this.interface.prompt.showItem(500)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -443,7 +443,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(505)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -461,7 +461,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(529)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -479,7 +479,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(507)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -497,7 +497,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(540)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -515,7 +515,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(536)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -533,7 +533,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(508)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -551,7 +551,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(530)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -569,7 +569,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(548)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -587,7 +587,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(546)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -605,7 +605,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(513)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -623,7 +623,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(537)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -641,7 +641,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(517)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -659,7 +659,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(526)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -677,7 +677,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(518)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -695,7 +695,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(7095)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -713,7 +713,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(543)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -731,7 +731,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(522)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -749,7 +749,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(511)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -767,7 +767,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(528)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -785,7 +785,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(534)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -803,7 +803,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(512)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -821,7 +821,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(545)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -839,7 +839,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(531)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -857,7 +857,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(527)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -875,7 +875,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(524)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -893,7 +893,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(509)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -911,7 +911,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(510)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -929,7 +929,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.buy(503)",
+                    "Button.callback": "() => this.interface.prompt.showItem(503)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -947,7 +947,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(541)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -965,7 +965,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(516)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -983,7 +983,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(544)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1001,7 +1001,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(515)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1019,7 +1019,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(502)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1037,7 +1037,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(506)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1055,7 +1055,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(521)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1073,7 +1073,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(519)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1091,7 +1091,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.buy(501)",
+                    "Button.callback": "() => this.interface.prompt.showItem(501)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1127,7 +1127,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(547)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1145,7 +1145,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(7185)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1163,7 +1163,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(514)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1181,7 +1181,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(538)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1199,7 +1199,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(525)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1217,7 +1217,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(542)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1235,7 +1235,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "flagBtn",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(539)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "flagBtn"
@@ -1297,7 +1297,7 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Flags for your\nplayercard",
-                    "fontFamily": "MYRIADPRO",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "24px"
                 },
                 {
@@ -1456,6 +1456,7 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "The Grim",
+                    "fontFamily": "Burbank Small",
                     "color": "#000000ff"
                 },
                 {
@@ -1466,6 +1467,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(1486)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1481,6 +1483,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(2081)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1498,6 +1501,7 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Spectacles",
+                    "fontFamily": "Burbank Small",
                     "color": "#000000ff"
                 },
                 {
@@ -1508,6 +1512,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(4722)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1525,6 +1530,7 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Gravedigger Suit",
+                    "fontFamily": "Burbank Small",
                     "color": "#000000ff"
                 },
                 {
@@ -1535,6 +1541,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(5177)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1552,7 +1559,72 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Gray Shovel",
+                    "fontFamily": "Burbank Small",
                     "color": "#000000ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "28f3e6af-391d-4871-ac1a-135b6c4a41da",
+                    "label": "text_49",
+                    "components": [],
+                    "x": 955,
+                    "y": 718,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "400",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "0775e980-2c8c-4224-9e16-e736c811312c",
+                    "label": "text_50",
+                    "components": [],
+                    "x": 951,
+                    "y": 511,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "300",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "1a6fe84c-5843-4994-980a-d8ed5e8e56ee",
+                    "label": "text_51",
+                    "components": [],
+                    "x": 1185,
+                    "y": 505,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "200",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "82b19f01-2457-4be0-b6cd-07b870ac9da4",
+                    "label": "text_52",
+                    "components": [],
+                    "x": 1185,
+                    "y": 718,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "200",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
                 }
             ]
         },
@@ -1654,7 +1726,8 @@
                     "y": 352,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "The Enchantress"
+                    "text": "The Enchantress",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -1664,6 +1737,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": " () => this.interface.prompt.showItem(1928)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1679,6 +1753,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(5486)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1695,7 +1770,8 @@
                     "y": 338,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Candy Wing Warmers"
+                    "text": "Candy Wing Warmers",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -1705,6 +1781,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(24209)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1721,7 +1798,8 @@
                     "y": 579,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Enchantdress"
+                    "text": "Enchantdress",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -1731,6 +1809,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(6236)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1747,7 +1826,8 @@
                     "y": 723,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Sparkly Amber Shoes"
+                    "text": "Sparkly Amber Shoes",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -1757,6 +1837,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(5487)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1773,7 +1854,88 @@
                     "y": 668,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Witches Broom"
+                    "text": "Witches Broom",
+                    "fontFamily": "Burbank Small"
+                },
+                {
+                    "type": "Text",
+                    "id": "37773da2-745c-44c5-861a-4a10862576d6",
+                    "label": "text_44",
+                    "components": [],
+                    "x": 925,
+                    "y": 379,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "275",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "d437a0fb-4855-423c-8e27-25fe1c105b0b",
+                    "label": "text_45",
+                    "components": [],
+                    "x": 1133,
+                    "y": 365,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "cccdc49c-bf0a-4c5f-b0c2-c24f8919c13d",
+                    "label": "text_46",
+                    "components": [],
+                    "x": 926,
+                    "y": 606,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "300",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "ce6833df-da4b-417e-b034-b8a8bdac6888",
+                    "label": "text_47",
+                    "components": [],
+                    "x": 1148,
+                    "y": 695,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "150",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "c7ad0c8d-d589-4efe-92a5-e18caf1c3ef5",
+                    "label": "text_48",
+                    "components": [],
+                    "x": 935,
+                    "y": 750,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "250",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
                 }
             ]
         },
@@ -1811,6 +1973,7 @@
                     "originY": 0.5,
                     "text": "Creepy Doll Makeup",
                     "align": "center",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "13px"
                 },
                 {
@@ -1821,6 +1984,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(2080)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1836,6 +2000,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(2086)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1854,6 +2019,7 @@
                     "originY": 0.5,
                     "text": "The Phantom",
                     "align": "center",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "13px"
                 },
                 {
@@ -1864,6 +2030,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": " () => this.interface.prompt.showItem(2088)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1882,6 +2049,7 @@
                     "originY": 0.5,
                     "text": "Skull Mask",
                     "align": "center",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "13px"
                 },
                 {
@@ -1892,6 +2060,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(2084)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1910,6 +2079,7 @@
                     "originY": 0.5,
                     "text": "The Mystery",
                     "align": "center",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "13px"
                 },
                 {
@@ -1920,6 +2090,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(2130)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1938,6 +2109,7 @@
                     "originY": 0.5,
                     "text": "Count Mask",
                     "align": "center",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "13px"
                 },
                 {
@@ -1948,6 +2120,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(2129)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -1966,6 +2139,7 @@
                     "originY": 0.5,
                     "text": "Countess Makeup",
                     "align": "center",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "13px"
                 },
                 {
@@ -2035,6 +2209,102 @@
                     "y": 153,
                     "scaleX": 1.5,
                     "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "8fdf7b02-5024-43cf-917a-3c914c4beaf3",
+                    "label": "text_38",
+                    "components": [],
+                    "x": 366,
+                    "y": 668,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "150",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "e6b3cb1e-fcc6-4b78-89ff-1625bcadf45d",
+                    "label": "text_39",
+                    "components": [],
+                    "x": 444,
+                    "y": 320,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "120",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "5da76978-71f8-4683-b6ff-2232091feed3",
+                    "label": "text_40",
+                    "components": [],
+                    "x": 576,
+                    "y": 517,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "a9d4a2dc-3e27-4ae2-aef6-bf2966427a99",
+                    "label": "text_41",
+                    "components": [],
+                    "x": 896,
+                    "y": 399,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "d85c60d2-481a-4599-b7c3-512d0552982e",
+                    "label": "text_42",
+                    "components": [],
+                    "x": 1066,
+                    "y": 662,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "788a4147-ea69-4faf-8718-c012d22233ee",
+                    "label": "text_43",
+                    "components": [],
+                    "x": 1122,
+                    "y": 329,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "250",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
                 }
             ]
         },
@@ -2097,7 +2367,7 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Custom Items!",
-                    "fontFamily": "MYRIADPRO",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "32px",
                     "color": "#000000ff"
                 },
@@ -2164,7 +2434,8 @@
                     "y": 304,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Blue pumpkin head"
+                    "text": "Blue pumpkin head",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -2174,6 +2445,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(37380)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2189,6 +2461,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(37383)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2205,7 +2478,8 @@
                     "y": 538,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Pumpkin headband"
+                    "text": "Pumpkin headband",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -2215,6 +2489,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(37381)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2231,7 +2506,56 @@
                     "y": 700,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Chained pumpkin"
+                    "text": "Chained pumpkin",
+                    "fontFamily": "Burbank Small"
+                },
+                {
+                    "type": "Text",
+                    "id": "48d0b5ee-e8e9-4920-beca-d9445ce379ce",
+                    "label": "text_35",
+                    "components": [],
+                    "x": 1063,
+                    "y": 330,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "250",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "1f4160b7-01f9-4578-a9e8-120bb52cf60a",
+                    "label": "text_36",
+                    "components": [],
+                    "x": 1067,
+                    "y": 564,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "200",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "25523236-6026-4e57-887d-4e7cf71e88fa",
+                    "label": "text_37",
+                    "components": [],
+                    "x": 1049,
+                    "y": 727,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "150",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
                 }
             ]
         },
@@ -2333,7 +2657,8 @@
                     "y": 728,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Happy Punk O'Ween"
+                    "text": "Happy Punk O'Ween",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -2344,7 +2669,8 @@
                     "y": 636,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Halloween Tee"
+                    "text": "Halloween Tee",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -2355,8 +2681,9 @@
                     "y": 484,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Jagged Purple\necklace",
-                    "align": "center"
+                    "text": "Jagged Purple\nNecklace",
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -2368,7 +2695,8 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "The Shadow Spike",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -2380,7 +2708,8 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "The Spider Poof",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -2390,6 +2719,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(24210)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2407,6 +2737,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(1929)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2424,6 +2755,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(1930)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2441,6 +2773,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(3218)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2458,6 +2791,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(24211)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2466,6 +2800,86 @@
                     "y": 768,
                     "scaleX": 1.52,
                     "scaleY": 1.52
+                },
+                {
+                    "type": "Text",
+                    "id": "5e4b16ac-645f-4b70-90aa-859db9c3276e",
+                    "label": "text_30",
+                    "components": [],
+                    "x": 937,
+                    "y": 374,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "250",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "1c5f10e8-6786-414b-b19f-a664a05a3f0f",
+                    "label": "text_31",
+                    "components": [],
+                    "x": 1142,
+                    "y": 420,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "250",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "7f0269b8-ed0a-4eb4-8926-2d3c1b31d91f",
+                    "label": "text_32",
+                    "components": [],
+                    "x": 939,
+                    "y": 526,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "e1b92ccc-de7a-4259-9ef1-0bf1a15d88b1",
+                    "label": "text_33",
+                    "components": [],
+                    "x": 1154,
+                    "y": 670,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "300",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "6038e722-3a08-42bf-8d49-daa5a8831cf8",
+                    "label": "text_34",
+                    "components": [],
+                    "x": 931,
+                    "y": 767,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "300",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
                 }
             ]
         },
@@ -2594,6 +3008,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(37382)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2612,7 +3027,8 @@
                     "y": 406,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Green Ghost Costume"
+                    "text": "Green Ghost Costume",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -2623,24 +3039,8 @@
                     "y": 406,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Scary Penguin mask"
-                },
-                {
-                    "type": "Image",
-                    "id": "7f27abbd-359a-4f43-aa2d-98c7ea58cee0",
-                    "label": "buy_8",
-                    "components": [
-                        "Button"
-                    ],
-                    "Button.spriteName": "buy",
-                    "texture": {
-                        "key": "HalloweenCatalog",
-                        "frame": "buy"
-                    },
-                    "x": 1043,
-                    "y": 441,
-                    "scaleX": 1.5,
-                    "scaleY": 1.5
+                    "text": "Scary Penguin mask",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -2651,7 +3051,8 @@
                     "y": 669,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Purple skeleton costume"
+                    "text": "Purple skeleton costume",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -2661,6 +3062,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(37384)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2678,6 +3080,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(37386)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2697,7 +3100,56 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Vintage snowman\nhead",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
+                },
+                {
+                    "type": "Text",
+                    "id": "06190d6c-8df5-4c30-b919-e8efc4d3e8b4",
+                    "label": "text_27",
+                    "components": [],
+                    "x": 491,
+                    "y": 442,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "150",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "8a3094a9-ada0-42aa-a2c0-399a7166d93c",
+                    "label": "text_28",
+                    "components": [],
+                    "x": 489,
+                    "y": 704,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "200",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "78b09d8d-e0eb-4043-8288-d7d0153ca3b6",
+                    "label": "text_29",
+                    "components": [],
+                    "x": 1042,
+                    "y": 704,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "200",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
                 }
             ]
         },
@@ -2783,12 +3235,12 @@
                     "id": "27ece395-13cb-4075-a189-a10f4ce060f9",
                     "label": "text_2dawdawdatt",
                     "components": [],
-                    "x": 316,
+                    "x": 319,
                     "y": 166,
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Items for everyone",
-                    "fontFamily": "MYRIADPRO",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "25px"
                 },
                 {
@@ -2951,6 +3403,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(210)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2966,6 +3419,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(405)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2981,6 +3435,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(717)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -2998,7 +3453,8 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Star\nT-Shirt",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -3010,7 +3466,8 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Green\nBaseball cap",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -3022,7 +3479,8 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Baseball Glove",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -3035,6 +3493,7 @@
                     "originY": 0.5,
                     "text": "Run the cursor through the Items\nto see how they look on your penguin",
                     "align": "center",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "12px"
                 },
                 {
@@ -3047,7 +3506,8 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Red scarf",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Text",
@@ -3059,7 +3519,8 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Pink purse",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -3069,6 +3530,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(3099)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -3084,6 +3546,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(713)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -3101,7 +3564,8 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Bufferfly\nT-Shirt",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -3111,6 +3575,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(203)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
@@ -3128,7 +3593,8 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Golden hairstyle\nfor girls",
-                    "align": "center"
+                    "align": "center",
+                    "fontFamily": "Burbank Small"
                 },
                 {
                     "type": "Image",
@@ -3138,12 +3604,125 @@
                         "Button"
                     ],
                     "Button.spriteName": "buy",
+                    "Button.callback": "() => this.interface.prompt.showItem(653)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "buy"
                     },
                     "x": 1104,
                     "y": 715
+                },
+                {
+                    "type": "Text",
+                    "id": "347a79f7-5691-4403-9332-786b9f0d7569",
+                    "label": "text",
+                    "components": [],
+                    "x": 957,
+                    "y": 356,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "200",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "135e8c8b-92b9-4de4-9686-cb0f1aeb0508",
+                    "label": "text_1",
+                    "components": [],
+                    "x": 1107,
+                    "y": 356,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "200",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "51177060-2807-406e-9b87-53ad3c5f54e4",
+                    "label": "text_2",
+                    "components": [],
+                    "x": 1249,
+                    "y": 356,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "300",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "8071368c-7529-447c-91eb-d147980882ea",
+                    "label": "text_26",
+                    "components": [],
+                    "x": 1251,
+                    "y": 715,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "200",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "86e3ca12-0db0-47d0-891e-b80ffa3870d1",
+                    "label": "text_25",
+                    "components": [],
+                    "x": 1104,
+                    "y": 715,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "500",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "9d50d31f-d146-4b45-8a57-2905614da83e",
+                    "label": "text_24",
+                    "components": [],
+                    "x": 1252,
+                    "y": 538,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "300",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
+                },
+                {
+                    "type": "Text",
+                    "id": "00a7681c-9d49-4f7f-87e8-1a373a276506",
+                    "label": "text_23",
+                    "components": [],
+                    "x": 1107,
+                    "y": 539,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "150",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#796228ff",
+                    "stroke": "#796228ff",
+                    "strokeThickness": 1
                 }
             ]
         },
@@ -3206,7 +3785,7 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Backgrounds for your\nplayercard",
-                    "fontFamily": "MYRIADPRO",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "26px"
                 },
                 {
@@ -3290,6 +3869,142 @@
                     "y": 500,
                     "scaleX": 1.4238,
                     "scaleY": 1.4238
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "39e29d16-b811-4924-8e9f-57b3a53e93e4",
+                    "label": "rectangle_7",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(9111)",
+                    "x": 589,
+                    "y": 607,
+                    "scaleX": 1.3647499701231922,
+                    "scaleY": 1.4237697543216703,
+                    "alpha": 0.1,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "6b67b71f-7fa6-49ca-a520-68401ea2e180",
+                    "label": "rectangle_6",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(9282)",
+                    "x": 386,
+                    "y": 396,
+                    "scaleX": 1.3647499701231922,
+                    "scaleY": 1.4237697543216703,
+                    "alpha": 0.1,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "bdaf25db-e1db-4431-afbd-f4d9f8f3d15e",
+                    "label": "rectangle_5",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(9281)",
+                    "x": 589,
+                    "y": 398,
+                    "scaleX": 1.3647499701231922,
+                    "scaleY": 1.4237697543216703,
+                    "alpha": 0.1,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "7ccea210-4632-4190-a51c-8613b54a8503",
+                    "label": "rectangle_3",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(9233)",
+                    "x": 923,
+                    "y": 397,
+                    "scaleX": 1.3647499701231922,
+                    "scaleY": 1.4237697543216703,
+                    "alpha": 0.1,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "121d7a76-4457-4d64-a555-4ba689a03012",
+                    "label": "rectangle_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(9044)",
+                    "x": 386,
+                    "y": 607,
+                    "scaleX": 1.3647499701231922,
+                    "scaleY": 1.4237697543216703,
+                    "alpha": 0.1,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "6557bb01-a805-4a02-a61b-28acb20912e1",
+                    "label": "rectangle",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(9006)",
+                    "x": 1126,
+                    "y": 606,
+                    "scaleX": 1.3647499701231922,
+                    "scaleY": 1.4237697543216703,
+                    "alpha": 0.1,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "7c999e63-6351-4c64-8c38-650894959087",
+                    "label": "rectangle_2",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(9170)",
+                    "x": 1127,
+                    "y": 399,
+                    "scaleX": 1.3647499701231922,
+                    "scaleY": 1.4237697543216703,
+                    "alpha": 0.1,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "b9206b75-707b-41da-a417-d0f11d42f6d7",
+                    "label": "rectangle_4",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(9004)",
+                    "x": 922,
+                    "y": 608,
+                    "scaleX": 1.3647499701231922,
+                    "scaleY": 1.4237697543216703,
+                    "alpha": 0.1,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
                 }
             ]
         },
@@ -3364,7 +4079,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "aqua",
-                    "Button.callback": "() => this.scene.buy(9)",
+                    "Button.callback": "() => this.interface.prompt.showItem(12)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "aqua"
@@ -3382,7 +4097,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "black",
-                    "Button.callback": "() => this.scene.buy(13)",
+                    "Button.callback": "() => this.interface.prompt.showItem(4)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "black"
@@ -3400,7 +4115,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "blue",
-                    "Button.callback": "() => this.scene.buy(1)",
+                    "Button.callback": "() => this.interface.prompt.showItem(1)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "blue"
@@ -3418,7 +4133,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "brown",
-                    "Button.callback": "() => this.scene.buy(5)",
+                    "Button.callback": "() => this.interface.prompt.showItem(9)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "brown"
@@ -3436,7 +4151,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "cyan",
-                    "Button.callback": "() => this.scene.buy(7)",
+                    "Button.callback": "() => this.interface.prompt.showItem(15)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "cyan"
@@ -3454,7 +4169,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "darkgreen",
-                    "Button.callback": "() => this.scene.buy(14)",
+                    "Button.callback": "() => this.interface.prompt.showItem(11)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "darkgreen"
@@ -3472,7 +4187,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "green",
-                    "Button.callback": "() => this.scene.buy(2)",
+                    "Button.callback": "() => this.interface.prompt.showItem(2)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "green"
@@ -3490,7 +4205,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "lime",
-                    "Button.callback": "() => this.scene.buy(8)",
+                    "Button.callback": "() => this.interface.prompt.showItem(13)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "lime"
@@ -3508,7 +4223,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "magenta",
-                    "Button.callback": "() => this.scene.buy(3)",
+                    "Button.callback": "() => this.interface.prompt.showItem(3)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "magenta"
@@ -3526,7 +4241,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "orange",
-                    "Button.callback": "() => this.scene.buy(11)",
+                    "Button.callback": "() => this.interface.prompt.showItem(6)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "orange"
@@ -3544,7 +4259,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "pink",
-                    "Button.callback": "() => this.scene.buy(6)",
+                    "Button.callback": "() => this.interface.prompt.showItem(10)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "pink"
@@ -3562,7 +4277,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "purple",
-                    "Button.callback": "() => this.scene.buy(4)",
+                    "Button.callback": "() => this.interface.prompt.showItem(8)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "purple"
@@ -3580,7 +4295,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "red",
-                    "Button.callback": "() => this.scene.buy(10)",
+                    "Button.callback": "() => this.interface.prompt.showItem(5)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "red"
@@ -3598,7 +4313,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "white",
-                    "Button.callback": "() => this.scene.buy(15)",
+                    "Button.callback": "() => this.interface.prompt.showItem(16)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "white"
@@ -3616,7 +4331,7 @@
                         "Button"
                     ],
                     "Button.spriteName": "yellow",
-                    "Button.callback": "() => this.scene.buy(12)",
+                    "Button.callback": "() => this.interface.prompt.showItem(7)",
                     "texture": {
                         "key": "HalloweenCatalog",
                         "frame": "yellow"
@@ -3632,11 +4347,11 @@
                     "label": "text_24646645",
                     "components": [],
                     "x": 316,
-                    "y": 157,
+                    "y": 160,
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Colors\n     for everyone!",
-                    "fontFamily": "MYRIADPRO",
+                    "fontFamily": "burbank small",
                     "fontSize": "32px"
                 },
                 {
@@ -3763,11 +4478,11 @@
                     "label": "text_1uioqueioqueoqp",
                     "components": [],
                     "x": 753,
-                    "y": 214,
+                    "y": 238,
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "UPNewLands Style\n",
-                    "fontFamily": "Asterisk",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "64px",
                     "fontStyle": "bold italic"
                 },
@@ -3781,7 +4496,7 @@
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Halloween 2022 Edition\n",
-                    "fontFamily": "Asterisk",
+                    "fontFamily": "Burbank Small",
                     "fontSize": "32px",
                     "fontStyle": "italic"
                 },

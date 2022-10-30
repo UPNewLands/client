@@ -63,6 +63,7 @@
                                 "Button"
                             ],
                             "Button.spriteName": "claim",
+                            "Button.callback": "() => this.interface.prompt.showItem(2163)",
                             "texture": {
                                 "key": "newinterface",
                                 "frame": "claim"
@@ -78,6 +79,7 @@
                                 "Button"
                             ],
                             "Button.spriteName": "claim",
+                            "Button.callback": "() => this.interface.prompt.showItem(246)",
                             "texture": {
                                 "key": "newinterface",
                                 "frame": "claim"
@@ -141,6 +143,7 @@
                                 "Button"
                             ],
                             "Button.spriteName": "tp",
+                            "Button.callback": "() => this.onRoomClick(4)",
                             "texture": {
                                 "key": "newinterface",
                                 "frame": "tp"
@@ -177,7 +180,7 @@
                             "id": "7f229007-8ec8-4e66-97dd-9c79aad23a92",
                             "label": "text_2",
                             "components": [],
-                            "x": 856,
+                            "x": 858,
                             "y": 335,
                             "text": "Help Gary with the\npumpkins at his lab",
                             "align": "center",
@@ -194,7 +197,7 @@
                             "id": "6569c5c7-2bb5-4377-8b52-ee20e094646d",
                             "label": "text_3",
                             "components": [],
-                            "x": 1043,
+                            "x": 1041,
                             "y": 539,
                             "text": "GO THERE",
                             "fontFamily": "Burbank Small",
