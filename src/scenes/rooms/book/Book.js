@@ -186,7 +186,8 @@ export default class Book extends RoomScene {
         topDeskRightChair.tintBottomRight = 10461087;
 
         // topDeskRight
-        const topDeskRight = this.add.sprite(1081, 469, "book", "topDeskRight");
+        const topDeskRight = this.add.sprite(1119.1696016856329, 442.6536250424573, "book", "topDeskRight");
+        topDeskRight.setOrigin(0.7097233440916315, 0.31314638264906947);
         topDeskRight.tintTopLeft = 10461087;
         topDeskRight.tintTopRight = 10461087;
         topDeskRight.tintBottomLeft = 10461087;
@@ -245,16 +246,17 @@ export default class Book extends RoomScene {
         this.add.image(1276, 196, "halloween", "Símbolo 10");
 
         // candy_3
-        const candy_3 = this.add.sprite(1072, 471, "dialogue", "candy_3");
+        const candy_3 = this.add.sprite(1072.3531151207967, 471.70118720066273, "dialogue", "candy_3");
         candy_3.scaleX = 0.2;
         candy_3.scaleY = 0.2;
+        candy_3.setOrigin(0.5926280589925348, 0.5989623365974178);
         candy_3.tintTopLeft = 10329501;
         candy_3.tintTopRight = 10329501;
         candy_3.tintBottomLeft = 10329501;
         candy_3.tintBottomRight = 10329501;
 
         // lists
-        const sort = [stool2, stool1, topDeskRight, topDeskRightChair, topDeskDivider, topDeskRightStorage, topDeskLeft, topDeskLeftChair, topDeskLeftStorage, coffeeTable, bottomDeskRight, bottomDeskLeft, bottomDeskLeftChair, bottomDeskDivider, bookshelf, fg, conveyorBottom, newspapers, conveyorTop, s_mbolo_4444];
+        const sort = [stool2, stool1, topDeskRightChair, topDeskDivider, topDeskRightStorage, topDeskLeft, topDeskLeftChair, topDeskLeftStorage, coffeeTable, bottomDeskRight, bottomDeskLeft, bottomDeskLeftChair, bottomDeskDivider, bookshelf, fg, conveyorBottom, newspapers, conveyorTop, s_mbolo_4444, candy_3, topDeskRight];
 
         // newspapers (components)
         const newspapersAnimation = new Animation(newspapers);

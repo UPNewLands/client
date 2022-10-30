@@ -302,8 +302,10 @@
                 "key": "book",
                 "frame": "topDeskRight"
             },
-            "x": 1081,
-            "y": 469,
+            "x": 1119.1696016856329,
+            "y": 442.6536250424573,
+            "originX": 0.7097233440916315,
+            "originY": 0.31314638264906947,
             "tintTopLeft": "#9f9f9f",
             "tintTopRight": "#9f9f9f",
             "tintBottomLeft": "#9f9f9f",
@@ -487,10 +489,12 @@
                 "key": "dialogue",
                 "frame": "candy_3"
             },
-            "x": 1072,
-            "y": 471,
+            "x": 1072.3531151207967,
+            "y": 471.70118720066273,
             "scaleX": 0.2,
             "scaleY": 0.2,
+            "originX": 0.5926280589925348,
+            "originY": 0.5989623365974178,
             "tintTopLeft": "#9d9d9d",
             "tintTopRight": "#9d9d9d",
             "tintBottomLeft": "#9d9d9d",
@@ -511,7 +515,6 @@
             "objectIds": [
                 "22ae5fd3-c75c-4f3f-8900-3e81793fa695",
                 "2385cf65-bfb4-45db-8e46-fc8e9ca8e1e7",
-                "dda57bd5-6160-4b31-ba9f-090cfb685237",
                 "66e2b0f1-add7-47da-8e11-bd6fddb3c14c",
                 "12625016-650e-468a-8c42-963b51f15224",
                 "e2611479-043d-466a-b6ca-1c4048dfe9b6",
@@ -528,7 +531,9 @@
                 "c53b198f-e4a1-444f-94fa-07525c1af53f",
                 "d2dc239a-0fff-40bf-b492-25a154a22378",
                 "b17d926e-34dd-4c9a-82f8-e831cc500350",
-                "dc95792b-ce2a-406a-8a29-8f650850251f"
+                "dc95792b-ce2a-406a-8a29-8f650850251f",
+                "54554c3b-a1ef-4a9d-9b21-c17b54c054fa",
+                "dda57bd5-6160-4b31-ba9f-090cfb685237"
             ]
         }
     ]

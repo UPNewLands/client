@@ -1215,7 +1215,7 @@ export default class Main extends BaseScene {
     triggerPopup() {
         let tween = this.tweens.add({
             targets: this.success_1,
-            x: 772,
+            x: 760,
             delay: 500,
             duration: 1000,
             onComplete: () => this.popupComplete()

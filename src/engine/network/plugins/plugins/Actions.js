@@ -20,7 +20,7 @@ export default class Actions extends Plugin {
     addCandy(args) {
         console.log(args)
         if (args.candy1 == 1 && args.candy2 == 1 && args.candy3 == 1 && args.candy4 == 1) {
-            return this.world.interface.main.gary.dialogue_3.visible = true;
+            return this.world.interface.main.quest1Done.visible = true;
         }
         this.world.interface.main.triggerPopup()
     }
