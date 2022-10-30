@@ -1274,9 +1274,9 @@
             "label": "success_1",
             "scope": "CLASS",
             "components": [],
-            "x": 772,
-            "y": 68,
-            "visible": false,
+            "x": 1265,
+            "y": 40,
+            "visible": true,
             "nestedPrefabs": []
         },
         {

@@ -43,8 +43,6 @@ export default class Book extends RoomScene {
         /** @type {Phaser.GameObjects.Sprite} */
         this.topDeskRight;
         /** @type {Phaser.GameObjects.Sprite} */
-        this.candy_3;
-        /** @type {Phaser.GameObjects.Sprite} */
         this.conveyorBottom;
         /** @type {Phaser.GameObjects.Sprite} */
         this.newspapers;
@@ -56,6 +54,8 @@ export default class Book extends RoomScene {
         this.stool2;
         /** @type {Phaser.GameObjects.Sprite} */
         this.fg;
+        /** @type {Phaser.GameObjects.Sprite} */
+        this.candy_3;
         /** @type {Array<Phaser.GameObjects.Sprite|Phaser.GameObjects.Image>} */
         this.sort;
 
@@ -192,15 +192,6 @@ export default class Book extends RoomScene {
         topDeskRight.tintBottomLeft = 10461087;
         topDeskRight.tintBottomRight = 10461087;
 
-        // candy_3
-        const candy_3 = this.add.sprite(1071, 471, "dialogue", "candy_3");
-        candy_3.scaleX = 0.2;
-        candy_3.scaleY = 0.2;
-        candy_3.tintTopLeft = 10329501;
-        candy_3.tintTopRight = 10329501;
-        candy_3.tintBottomLeft = 10329501;
-        candy_3.tintBottomRight = 10329501;
-
         // conveyorBottom
         const conveyorBottom = this.add.sprite(365.20391795238095, 877.1037335238099, "book", "conveyorBottom");
         conveyorBottom.setOrigin(0.497664392655892, 0.7982802019952697);
@@ -253,17 +244,26 @@ export default class Book extends RoomScene {
         // s_mbolo_10
         this.add.image(1276, 196, "halloween", "Símbolo 10");
 
+        // candy_3
+        const candy_3 = this.add.sprite(1072, 471, "dialogue", "candy_3");
+        candy_3.scaleX = 0.2;
+        candy_3.scaleY = 0.2;
+        candy_3.tintTopLeft = 10329501;
+        candy_3.tintTopRight = 10329501;
+        candy_3.tintBottomLeft = 10329501;
+        candy_3.tintBottomRight = 10329501;
+
         // lists
         const sort = [stool2, stool1, topDeskRight, topDeskRightChair, topDeskDivider, topDeskRightStorage, topDeskLeft, topDeskLeftChair, topDeskLeftStorage, coffeeTable, bottomDeskRight, bottomDeskLeft, bottomDeskLeftChair, bottomDeskDivider, bookshelf, fg, conveyorBottom, newspapers, conveyorTop, s_mbolo_4444];
-
-        // candy_3 (components)
-        const candy_3SimpleButton = new SimpleButton(candy_3);
-        candy_3SimpleButton.callback = () => {this.foundCandy(3,candy_3), this.world.interface.main.success_1.visible = true; };
 
         // newspapers (components)
         const newspapersAnimation = new Animation(newspapers);
         newspapersAnimation.key = "newspapers";
         newspapersAnimation.end = 18;
+
+        // candy_3 (components)
+        const candy_3SimpleButton = new SimpleButton(candy_3);
+        candy_3SimpleButton.callback = () => {this.foundCandy(3,candy_3)};
 
         this.bg = bg;
         this.bookshelf = bookshelf;
@@ -281,13 +281,13 @@ export default class Book extends RoomScene {
         this.topDeskDivider = topDeskDivider;
         this.topDeskRightChair = topDeskRightChair;
         this.topDeskRight = topDeskRight;
-        this.candy_3 = candy_3;
         this.conveyorBottom = conveyorBottom;
         this.newspapers = newspapers;
         this.conveyorTop = conveyorTop;
         this.stool1 = stool1;
         this.stool2 = stool2;
         this.fg = fg;
+        this.candy_3 = candy_3;
         this.sort = sort;
 
         this.events.emit("scene-awake");

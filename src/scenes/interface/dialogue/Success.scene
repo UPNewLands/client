@@ -76,7 +76,8 @@
                         "frame": "close"
                     },
                     "x": 722,
-                    "y": 131
+                    "y": 131,
+                    "visible": false
                 }
             ]
         }

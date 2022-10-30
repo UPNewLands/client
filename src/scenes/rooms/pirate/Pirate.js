@@ -215,7 +215,7 @@ export default class Pirate extends RoomScene {
 
         // candy_4 (components)
         const candy_4SimpleButton = new SimpleButton(candy_4);
-        candy_4SimpleButton.callback = () => {this.foundCandy(4,this.candy_4),this.world.interface.main.success_1.visible = true;};
+        candy_4SimpleButton.callback = () => {this.foundCandy(4,this.candy_4)};
 
         // wave10001 (components)
         const wave10001Animation = new Animation(wave10001);

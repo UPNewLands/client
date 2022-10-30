@@ -311,28 +311,6 @@
         },
         {
             "type": "Sprite",
-            "id": "54554c3b-a1ef-4a9d-9b21-c17b54c054fa",
-            "label": "candy_3",
-            "scope": "CLASS",
-            "components": [
-                "SimpleButton"
-            ],
-            "SimpleButton.callback": "() => {this.foundCandy(3,candy_3)}",
-            "texture": {
-                "key": "dialogue",
-                "frame": "candy_3"
-            },
-            "x": 1071,
-            "y": 471,
-            "scaleX": 0.2,
-            "scaleY": 0.2,
-            "tintTopLeft": "#9d9d9d",
-            "tintTopRight": "#9d9d9d",
-            "tintBottomLeft": "#9d9d9d",
-            "tintBottomRight": "#9d9d9d"
-        },
-        {
-            "type": "Sprite",
             "id": "c53b198f-e4a1-444f-94fa-07525c1af53f",
             "label": "conveyorBottom",
             "scope": "CLASS",
@@ -495,6 +473,28 @@
             },
             "x": 1276,
             "y": 196
+        },
+        {
+            "type": "Sprite",
+            "id": "54554c3b-a1ef-4a9d-9b21-c17b54c054fa",
+            "label": "candy_3",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.foundCandy(3,candy_3)}",
+            "texture": {
+                "key": "dialogue",
+                "frame": "candy_3"
+            },
+            "x": 1072,
+            "y": 471,
+            "scaleX": 0.2,
+            "scaleY": 0.2,
+            "tintTopLeft": "#9d9d9d",
+            "tintTopRight": "#9d9d9d",
+            "tintBottomLeft": "#9d9d9d",
+            "tintBottomRight": "#9d9d9d"
         }
     ],
     "plainObjects": [],

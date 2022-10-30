@@ -296,6 +296,7 @@
                     "type": "Container",
                     "id": "5be91a4c-d24c-4309-9a7c-ea3c5af8f51d",
                     "label": "success",
+                    "scope": "CLASS",
                     "components": [],
                     "x": -262,
                     "y": -677,

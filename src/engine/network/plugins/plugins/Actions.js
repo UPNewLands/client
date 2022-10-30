@@ -8,12 +8,21 @@ export default class Actions extends Plugin {
         this.events = {
             'send_position': this.sendPosition,
             'send_frame': this.sendFrame,
-            'snowball': this.snowball
+            'snowball': this.snowball,
+            'add_candy': this.addCandy,
         }
     }
 
     get room() {
         return this.world.room
+    }
+
+    addCandy(args) {
+        console.log(args)
+        if (args.candy1 == 1 && args.candy2 == 1 && args.candy3 == 1 && args.candy4 == 1) {
+            return this.world.interface.main.gary.dialogue_3.visible = true;
+        }
+        this.world.interface.main.triggerPopup()
     }
 
     sendPosition(args) {

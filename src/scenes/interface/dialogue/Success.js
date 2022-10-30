@@ -30,6 +30,7 @@ export default class Success extends BaseContainer {
 
         // close
         const close = scene.add.image(722, 131, "dialogue", "close");
+        close.visible = false;
         this.add(close);
 
         // tiny_globe (components)

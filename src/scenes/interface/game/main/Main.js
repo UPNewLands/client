@@ -561,9 +561,9 @@ export default class Main extends BaseScene {
         this.add.existing(gary);
 
         // success_1
-        const success_1 = new Success(this, 772, 68);
+        const success_1 = new Success(this, 1265, 40);
         this.add.existing(success_1);
-        success_1.visible = false;
+        success_1.visible = true;
 
         // random
         const random = new Random(this, 291, 480);
@@ -890,7 +890,7 @@ export default class Main extends BaseScene {
         window.show = show.bind(this)
 
         this.network.send("puffle_timeout");
-        
+
         if (this.world.client.penguin.intro == 1) {
             this.gary.visible = false;
         }
@@ -1201,6 +1201,26 @@ export default class Main extends BaseScene {
             delay: 1500,
             duration: 300,
         });
+    }
+
+    triggerPopup() {
+        let tween = this.tweens.add({
+            targets: this.success_1,
+            x: 772,
+            delay: 500,
+            duration: 1000,
+            onComplete: () => this.popupComplete()
+        });
+    }
+
+    popupComplete() {
+        let tween = this.tweens.add({
+            targets: this.success_1,
+            x: 1270,
+            delay: 2000,
+            duration: 1000,
+        });
+
     }
 
     onPIntOver(){

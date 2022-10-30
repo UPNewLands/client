@@ -16,7 +16,6 @@ export default class Gary extends BaseContainer {
 
         // dialogue_1
         const dialogue_1 = scene.add.container(-262, -677);
-        // dialogue_1.visible = false;
         this.add(dialogue_1);
 
         // rectangle_1
@@ -163,6 +162,7 @@ export default class Gary extends BaseContainer {
         this.dialogue_1 = dialogue_1;
         this.dialogue_2 = dialogue_2;
         this.dialogue_3 = dialogue_3;
+        this.success = success;
 
         /* START-USER-CTR-CODE */
         /* END-USER-CTR-CODE */
@@ -174,6 +174,8 @@ export default class Gary extends BaseContainer {
     dialogue_2;
     /** @type {Phaser.GameObjects.Container} */
     dialogue_3;
+    /** @type {Phaser.GameObjects.Container} */
+    success;
 
     /* START-USER-CODE */
 
@@ -186,9 +188,6 @@ export default class Gary extends BaseContainer {
         this.visible = false; 
         this.network.send("addSeen", {}) ;
     }
-
- 
-
     /* END-USER-CODE */
 }
 
