@@ -915,6 +915,8 @@ export default class Main extends BaseScene {
             this.gary.visible = false;
         }
 
+        this.network.send("get_count", {})
+
         // init partycontroller
 
         // this.world.party.getPartyCompletion()

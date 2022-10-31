@@ -73,7 +73,6 @@ export default class Back extends RoomScene {
 
     create() {
         super.create();
-
         this.bounds = this.mouth.getBounds();
         this.mouth.on('animationcomplete', () => this.onTargetAnimComplete())
     }
@@ -81,7 +80,7 @@ export default class Back extends RoomScene {
 
     onSnowballComplete(x, y) {
         if (this.bounds.contains(x, y)) {
-            console.log("Trigger Works")
+            this.network.send("update_count", {})
         }
     }
 

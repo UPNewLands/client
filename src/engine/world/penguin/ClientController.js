@@ -21,6 +21,8 @@ export default class ClientController {
         this.rank = user.rank
         this.joinTime = user.joinTime
 
+        this.pumpkin = 0;
+
         this.iglooOpen = false
 
         this.lastRoom
