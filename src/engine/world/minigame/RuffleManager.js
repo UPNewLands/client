@@ -152,8 +152,8 @@ export default class RuffleManager {
 	}
 
 	getCannonData() {
-		console.log("get cannon data", this.world.client.cannonData)
-		let uncompressed = this.uncompressCannonData(this.world.client.cannonData)
+		console.log("get cannon data", this.world.client.penguin.cannon_data)
+		let uncompressed = this.uncompressCannonData(this.world.client.penguin.cannon_data)
 		return uncompressed
 	}
 
